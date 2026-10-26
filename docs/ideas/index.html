@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ý tưởng & nghiên cứu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <a href="index.html" aria-current="page">Ý tưởng</a>
+  <a href="01-home.html">1 · Hôm nay</a>
+  <a href="02-roadmap.html">2 · Lộ trình</a>
+  <a href="03-lesson.html">3 · Bài học</a>
+  <a href="04-writing.html">4 · Luyện viết</a>
+  <a href="05-review.html">5 · Ôn tập</a>
+  <a href="06-pinyin.html">6 · Phát âm</a>
+  <a href="07-dictionary.html">7 · Tra từ</a>
+  <a href="08-profile.html">8 · Tôi</a>
+  <a href="09-certificate.html">9 · Chứng nhận</a>
+  <a href="10-speaking.html">10 · Luyện nói</a>
+</nav>
+
+<header class="page-head">
+  <div class="eyebrow">Bản nháp ý tưởng · 26/10/2026</div>
+  <h1>Website tự học tiếng Trung cho người Việt</h1>
+  <p>Tổng hợp nghiên cứu về nguồn dữ liệu miễn phí, giấy phép sử dụng phi lợi nhuận, khung lộ trình học từ con số 0, và danh sách tính năng đã lên wireframe.</p>
+</header>
+
+<main class="doc">
+
+  <h2>1. Ý tưởng</h2>
+  <p><b>Người dùng:</b> người Việt chưa biết tiếng Trung, muốn tự học, học vào lúc rảnh, chủ yếu trên điện thoại.</p>
+  <p><b>Ngôn ngữ:</b> giao diện tiếng Việt. Nghĩa của từ hiển thị bằng <b>tiếng Anh</b> (từ CC-CEDICT) vì chưa có từ điển Trung–Việt mở. Bù lại, mỗi chữ có <b>âm Hán Việt</b> (từ Unihan), đây là lợi thế riêng giúp người Việt nhớ chữ nhanh hơn.</p>
+
+  <div class="callout">
+    <b>Nguyên tắc thiết kế</b> <span class="guess">(đề xuất của tôi, cần bạn xác nhận)</span>
+    <ul>
+      <li><b>Mobile-first:</b> mọi màn hình thiết kế cho điện thoại trước, desktop chỉ mở rộng ra.</li>
+      <li><b>Bài học ngắn 5–10 phút:</b> vừa với lúc rảnh như chờ xe hay nghỉ trưa, có thể dừng giữa chừng mà không mất tiến độ.</li>
+      <li><b>Mỗi ngày chỉ có một việc rõ ràng:</b> mở web lên là thấy ngay “học tiếp” hoặc “ôn tập”, không phải tự chọn.</li>
+      <li><b>Ôn tập ngắt quãng (SRS):</b> từ đã học tự quay lại đúng lúc sắp quên.</li>
+      <li><b>Phi lợi nhuận, không quảng cáo.</b> Ghi nguồn đầy đủ cho mọi dữ liệu.</li>
+    </ul>
+  </div>
+
+  <h2>2. Nguồn dữ liệu miễn phí</h2>
+  <p>Đã kiểm tra giấy phép trên trang hoặc file LICENSE của từng dự án. Tôi không phải luật sư, nên trước khi ra mắt cần đọc lại bản gốc.</p>
+
+  <div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>Nguồn</th><th>Dùng cho</th><th>Giấy phép</th><th>Phi lợi nhuận</th><th>Nghĩa vụ</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>CC-CEDICT</b><br><span class="small muted">mdbg.net / cc-cedict.org</span></td>
+        <td>Từ điển Trung–Anh khoảng 120k mục: chữ giản thể/phồn thể, pinyin, nghĩa tiếng Anh</td>
+        <td>CC BY-SA</td>
+        <td><span class="tag ok">Được</span></td>
+        <td>Ghi nguồn. Dữ liệu chỉnh sửa từ CC-CEDICT phải chia sẻ lại cùng giấy phép</td>
+      </tr>
+      <tr>
+        <td><b>ivankra/hsk30</b></td>
+        <td>Danh sách HSK 3.0 đủ 9 cấp: 11.092 từ, 3.000 chữ, danh sách ngữ pháp</td>
+        <td>MIT</td>
+        <td><span class="tag ok">Được</span></td>
+        <td>Ghi nguồn. Dữ liệu gốc là văn bản của chính phủ Trung Quốc, tình trạng bản quyền chưa thật rõ</td>
+      </tr>
+      <tr>
+        <td><b>drkameleon/complete-hsk-vocabulary</b></td>
+        <td>HSK 2.0 và 3.0 dạng JSON (vẫn được cập nhật đến 2026)</td>
+        <td>MIT</td>
+        <td><span class="tag ok">Được</span></td>
+        <td>Ghi nguồn</td>
+      </tr>
+      <tr>
+        <td><b>Unicode Unihan</b> (trường kVietnamese)</td>
+        <td>Âm Hán Việt của từng chữ</td>
+        <td>Unicode License (rất thoáng)</td>
+        <td><span class="tag ok">Được</span></td>
+        <td>Ghi nguồn. Độ phủ và độ chính xác cần kiểm tra lại cho 3.000 chữ HSK</td>
+      </tr>
+      <tr>
+        <td><b>Make Me a Hanzi</b> + <b>Hanzi Writer</b></td>
+        <td>Thứ tự nét, hoạt ảnh viết chữ, chấm điểm nét tự viết, phân tích bộ thủ</td>
+        <td>Code: MIT. Dữ liệu nét: Arphic PL. Phân tích bộ thủ: LGPL</td>
+        <td><span class="tag ok">Được</span></td>
+        <td>Ghi nguồn, kèm văn bản giấy phép</td>
+      </tr>
+      <tr>
+        <td><b>Tatoeba</b></td>
+        <td>Câu ví dụ Trung kèm bản dịch Anh (và một ít Việt)</td>
+        <td>Câu: CC BY 2.0 FR. Audio: tùy từng file</td>
+        <td><span class="tag ok">Câu: được</span> <span class="tag warn">Audio: lọc</span></td>
+        <td>Ghi nguồn và link về tatoeba.org. Chỉ lấy file audio có giấy phép cho phép</td>
+      </tr>
+      <tr>
+        <td><b>Audio phát âm</b></td>
+        <td>Âm tiết pinyin, từ, câu</td>
+        <td>Chưa có bộ mở nào rõ ràng</td>
+        <td><span class="tag warn">Cần giải pháp</span></td>
+        <td>Hai lựa chọn: giọng đọc máy (TTS) hoặc lọc audio CC từ Tatoeba / Wikimedia Commons</td>
+      </tr>
+      <tr>
+        <td><b>Từ điển Trung–Việt</b></td>
+        <td>Nghĩa tiếng Việt</td>
+        <td>Chưa tìm thấy nguồn mở nào xác nhận được (repo CVDICT đã biến mất)</td>
+        <td><span class="tag no">Bỏ qua</span></td>
+        <td>Đã quyết định dùng nghĩa tiếng Anh thay thế</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>3. Nguồn để xây lộ trình</h2>
+  <ul>
+    <li><b>Chuẩn HSK 3.0 (GF0025-2021):</b> làm khung chính. Có 9 cấp chia 3 bậc. Cấp 1 gồm khoảng 500 từ, 300 chữ, 269 âm tiết, 48 điểm ngữ pháp. <span class="tag warn">Lưu ý</span> Đề thi HSK 3.0 năm 2026 dùng một bản đề cương đã chỉnh, có nguồn nói cấp 1 giảm còn khoảng 300 từ. Cần chọn theo một bản.</li>
+    <li><b>Chinese Grammar Wiki (AllSet Learning):</b> điểm ngữ pháp xếp theo A1 (HSK 1–2) và A2 (HSK 2–3), dùng để sắp thứ tự ngữ pháp. Có giấy phép Creative Commons nhưng chưa xác nhận được loại cụ thể, nên chỉ tham khảo, không chép nội dung.</li>
+    <li><b>MIT OpenCourseWare, giáo trình Wheatley:</b> khóa cơ bản trọn vẹn có audio, giấy phép CC BY-NC-SA (được dùng phi lợi nhuận). Dùng làm mẫu cho thứ tự bài học.</li>
+    <li><b>FSI Chinese:</b> giáo trình phạm vi công cộng. Nội dung cũ, chỉ dùng tham khảo cấu trúc.</li>
+  </ul>
+
+  <h3>Khung lộ trình đề xuất <span class="guess">(đề xuất của tôi)</span></h3>
+  <div class="stages">
+    <div class="stage">
+      <div class="when">Giai đoạn 0<br>~2 tuần</div>
+      <div><h4>Phát âm & pinyin</h4><p>Thanh mẫu, vận mẫu, 4 thanh điệu và thanh nhẹ, biến điệu (你好 → ní hǎo). So sánh với âm tiếng Việt. Thêm 20–30 chữ đầu tiên và các nét cơ bản.</p></div>
+    </div>
+    <div class="stage">
+      <div class="when">Giai đoạn 1<br>~2–3 tháng</div>
+      <div><h4>HSK 1 · Sinh tồn</h4><p>Khoảng 15 chủ đề: chào hỏi, số đếm, gia đình, thời gian, ăn uống, mua sắm, phương hướng… Mỗi chủ đề 4–5 bài ngắn.</p></div>
+    </div>
+    <div class="stage">
+      <div class="when">Giai đoạn 2<br>~3 tháng</div>
+      <div><h4>HSK 2 · Giao tiếp hằng ngày</h4><p>Câu dài hơn, so sánh, quá khứ với 了 / 过, đọc đoạn văn ngắn.</p></div>
+    </div>
+    <div class="stage">
+      <div class="when">Giai đoạn 3<br>~4 tháng</div>
+      <div><h4>HSK 3 · Tự lập</h4><p>Đọc truyện ngắn có pinyin trợ giúp, ngữ pháp A2. Hết giai đoạn này người học có thể tự đi tiếp.</p></div>
+    </div>
+  </div>
+  <p><b>Cấu trúc một bài (5–10 phút):</b> từ mới (chữ, pinyin, Hán Việt, nghĩa, audio) → luyện viết 1–2 chữ → câu mẫu → bài tập nghe và chọn → tổng kết. Từ đã học tự động vào hàng ôn tập.</p>
+
+  <h2>4. Tính năng (wireframe)</h2>
+  <p>Mỗi tính năng là một file HTML riêng, dùng chung <code>style.css</code>. Chấm đỏ đánh số trên màn hình khớp với chú thích bên cạnh.</p>
+  <div class="feature-grid">
+    <a href="01-home.html"><b>1 · Hôm nay</b><span>Màn hình mở đầu: chọn mục tiêu lần đầu, sau đó mỗi ngày chỉ một nút “học tiếp”.</span></a>
+    <a href="02-roadmap.html"><b>2 · Lộ trình</b><span>Con đường kiểu Duolingo, bài mở khóa lần lượt, thấy rõ mình đang ở đâu.</span></a>
+    <a href="03-lesson.html"><b>3 · Bài học</b><span>Thẻ từ mới, bài tập nghe/chọn, màn hình tổng kết.</span></a>
+    <a href="04-writing.html"><b>4 · Luyện viết</b><span>Xem thứ tự nét, tự viết trên ô 田字格 và nhận phản hồi.</span></a>
+    <a href="05-review.html"><b>5 · Ôn tập</b><span>Flashcard ôn ngắt quãng, tự đánh giá Quên / Khó / Được / Dễ.</span></a>
+    <a href="06-pinyin.html"><b>6 · Phát âm</b><span>Bảng pinyin có audio, luyện nghe phân biệt thanh điệu.</span></a>
+    <a href="07-dictionary.html"><b>7 · Tra từ</b><span>Tìm bằng chữ Hán / pinyin / tiếng Anh / Hán Việt, trang chi tiết từ.</span></a>
+    <a href="08-profile.html"><b>8 · Tôi</b><span>Tiến độ, cài đặt hiển thị, trang nguồn dữ liệu & giấy phép.</span></a>
+    <a href="09-certificate.html"><b>9 · Chứng nhận</b><span>Bài kiểm tra 4 kỹ năng cuối mỗi lộ trình, kết quả, chứng nhận có link xác thực.</span></a>
+    <a href="10-speaking.html"><b>10 · Luyện nói</b><span>Nghe mẫu, nói lại, chấm phát âm và thanh điệu đến từng âm tiết.</span></a>
+  </div>
+
+  <h2>5. Quyết định đã chốt</h2>
+  <div class="callout">
+    <ul>
+      <li><b>Chuẩn HSK 2021 (GF0025-2021).</b> Dùng dữ liệu cấp 1–3 của chuẩn này (từ, chữ, ngữ pháp). Không theo đề cương thi 2025/2026.</li>
+      <li><b>Audio dùng giọng đọc máy (TTS).</b> <span class="guess">(đề xuất của tôi)</span> Tạo sẵn file audio một lần bằng dịch vụ TTS rồi lưu thành file tĩnh, không dùng giọng có sẵn của trình duyệt, vì giọng tiếng Trung trên điện thoại mỗi máy một khác và nhiều máy không có.</li>
+      <li><b>Có tài khoản đăng nhập</b> để lưu và đồng bộ tiến độ. <b>Cho học thử trước</b>, sau đó mời tạo tài khoản. Chỉ đăng nhập bằng Google. <span class="guess">(đề xuất của tôi: tối đa 3 bài thử)</span></li>
+      <li><b>Không cần chạy offline</b> và không cần cài như app.</li>
+      <li><b>Không có thông báo nhắc học</b> ở bản web. Thông báo đẩy để dành cho app native sau này.</li>
+      <li><b>Khóa bài theo thứ tự</b>, không học vượt được. Màn hình lộ trình dạng con đường kiểu Duolingo.</li>
+      <li><b>Luyện viết và luyện nói là bắt buộc</b> trong mỗi bài, không bỏ qua được.</li>
+      <li><b>Ôn tập mặc định 2 nút Quên / Nhớ</b>, cài đặt cho phép đổi sang 4 nút.</li>
+      <li><b>Chấm phát âm tự chạy trên server</b>, không dùng dịch vụ trả phí, độ chính xác vừa phải là đủ. <span class="guess">(đề xuất của tôi: Ollama không nhận audio nên dùng Whisper bản nhỏ để kiểm tra âm, cộng thuật toán dò cao độ để chấm thanh điệu, cả hai đều mã nguồn mở và chạy bằng CPU)</span></li>
+      <li><b>Mỗi lộ trình (HSK 1, 2, 3) có một chứng nhận hoàn thành.</b> Muốn nhận phải đạt bài kiểm tra cuối lộ trình gồm đủ 4 phần: nghe, nói, đọc, viết. Giai đoạn Phát âm không có chứng nhận. <span class="guess">(đề xuất của tôi: điểm đạt 70/100, chưa đạt thì 24 giờ sau mới làm lại, có mã QR xác thực, ghi rõ không phải chứng chỉ HSK chính thức)</span> Ngoài chứng nhận, không có mục tiêu đầu ra nào khác.</li>
+    </ul>
+  </div>
+
+  <h2>6. Câu hỏi còn mở</h2>
+  <div class="callout warn">
+    <ul>
+      <li>Người đã học ở nơi khác có được làm bài kiểm tra để nhảy cóc lộ trình không?</li>
+      <li>Thử nhanh độ chính xác của cách chấm thanh điệu bằng cao độ với vài bản thu thật trước khi chốt.</li>
+      <li>Các ô “Cần bạn quyết” trong từng mockup.</li>
+    </ul>
+  </div>
+
+  <h2>Nguồn tham khảo</h2>
+  <ul class="small">
+    <li><a href="https://cc-cedict.org/wiki/">CC-CEDICT wiki</a> · <a href="https://www.mdbg.net/chinese/dictionary?page=cc-cedict">Tải CC-CEDICT</a></li>
+    <li><a href="https://github.com/ivankra/hsk30">ivankra/hsk30</a> · <a href="https://github.com/drkameleon/complete-hsk-vocabulary">drkameleon/complete-hsk-vocabulary</a></li>
+    <li><a href="https://www.unicode.org/charts/unihan.html">Unicode Unihan</a></li>
+    <li><a href="https://github.com/skishore/makemeahanzi">Make Me a Hanzi</a> · <a href="https://hanziwriter.org">Hanzi Writer</a></li>
+    <li><a href="https://tatoeba.org/downloads">Tatoeba downloads</a></li>
+    <li><a href="https://resources.allsetlearning.com/chinese/grammar/Grammar_Points">Chinese Grammar Wiki</a></li>
+    <li><a href="https://dspace.mit.edu/handle/1721.1/99899">MIT OCW Chinese I</a> · <a href="https://dspace.mit.edu/handle/1721.1/102064">MIT OCW Chinese II</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi">HSK (Wikipedia)</a> · <a href="https://pypi.org/project/hsk30/">hsk30: so sánh chuẩn 2021 và đề cương 2025</a></li>
+  </ul>
+</main>
+
+</body>
+</html>
