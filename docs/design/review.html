@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ôn tập · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="review">
+<main class="main" id="main">
+  <header class="topbar"><h1>Ôn tập</h1><span class="stat"><i data-i="flame"></i>5</span></header>
+
+  <div class="cols has-rail">
+    <div class="stack-6">
+      <section class="card center stack-3" style="padding:var(--space-8) var(--space-4)" data-od-id="due-today" aria-labelledby="due-h">
+        <p class="eyebrow" id="due-h">Đến hạn hôm nay</p>
+        <div class="big-num">24</div>
+        <p class="muted">thẻ · khoảng 4 phút</p>
+        <div><button class="btn btn-primary" id="start" data-od-id="start-review" style="min-width:220px">Bắt đầu ôn</button></div>
+        <p class="small muted">Tối đa 24 thẻ mỗi ngày với mục tiêu <b id="goal">10</b> phút, để không bị dồn.</p>
+      </section>
+
+      <section class="card" data-od-id="mastery" aria-labelledby="mastery-h">
+        <div class="card-title"><h3 id="mastery-h">Mức độ thuộc</h3><span class="small muted">133 từ</span></div>
+        <div class="mastery">
+          <div class="card"><b>32</b><span class="small muted">Mới</span></div>
+          <div class="card"><b style="color:var(--blue-deep)">41</b><span class="small muted">Đang học</span></div>
+          <div class="card"><b style="color:var(--danger)">14</b><span class="small muted">Hay quên</span></div>
+          <div class="card" style="border-color:var(--accent)"><b style="color:var(--accent-active)">46</b><span class="small muted">Đã thuộc</span></div>
+        </div>
+        <button class="btn btn-secondary btn-block" id="extra" style="margin-top:var(--space-4)">Luyện thêm các từ hay quên</button>
+        <p class="small muted" style="margin-top:var(--space-2)">Luyện thêm không ảnh hưởng lịch ôn chính thức.</p>
+      </section>
+    </div>
+
+    <aside class="rail sticky">
+      <section class="card" data-od-id="card-types" aria-labelledby="types-h">
+        <h3 id="types-h" style="margin-bottom:var(--space-2)">Kiểu thẻ</h3>
+        <ul class="list">
+          <li><span class="hz hz-sm" lang="zh" style="min-width:36px;text-align:center">字</span><span class="grow">Chữ → nghĩa và âm</span><button class="switch" role="switch" aria-checked="true" aria-label="Chữ sang nghĩa" data-type="recognize"></button></li>
+          <li><i data-i="volume" style="color:var(--blue-deep);min-width:36px"></i><span class="grow">Nghe → chữ</span><button class="switch" role="switch" aria-checked="true" aria-label="Nghe sang chữ" data-type="listen"></button></li>
+          <li><b style="min-width:36px;text-align:center;color:var(--muted)">EN</b><span class="grow">Nghĩa → viết chữ</span><button class="switch" role="switch" aria-checked="false" aria-label="Nghĩa sang viết chữ" data-type="write"></button></li>
+        </ul>
+      </section>
+      <div class="card soft small">Mọi từ bạn học đều tự vào hàng ôn. Từ làm sai được ôn sớm hơn.</div>
+    </aside>
+  </div>
+</main>
+
+<!-- Review session (full screen) -->
+<div class="focus" id="session" hidden style="position:fixed;inset:0;z-index:60;background:var(--bg);overflow:auto" role="dialog" aria-modal="true" aria-label="Phiên ôn tập">
+  <header class="focus-top">
+    <button class="icon-btn" id="quit" aria-label="Thoát phiên ôn tập"><i data-i="close"></i></button>
+    <div class="progress" id="sbar"><i style="--v:0%"></i></div>
+    <span class="small muted" id="scount" style="min-width:44px;text-align:right;font-weight:700"></span>
+  </header>
+  <main class="focus-body" id="sbody" aria-live="polite"></main>
+  <footer class="focus-foot"><div class="inner" id="sfoot"></div></footer>
+</div>
+
+<script>
+(function () {
+  var CARDS = [
+    { w: '名字', py: [['míng', 2], ['zi', 5]], hv: 'danh tự', en: 'name', ex: ['你叫什么名字？', "What's your name?"], lesson: 'HSK 1 · 3 · Chào hỏi' },
+    { w: '谢谢', py: [['xiè', 4], ['xie', 5]], hv: 'tạ tạ', en: 'thank you', ex: ['谢谢你。', 'Thank you.'], lesson: 'HSK 1 · 3 · Chào hỏi' },
+    { w: '你好', py: [['nǐ', 3], ['hǎo', 3]], hv: 'nhĩ hảo', en: 'hello; hi', ex: ['老师好！', 'Hello, teacher!'], lesson: 'HSK 1 · 3 · Chào hỏi' },
+    { w: '再见', py: [['zài', 4], ['jiàn', 4]], hv: 'tái kiến', en: 'goodbye', ex: ['明天见！', 'See you tomorrow!'], lesson: 'HSK 1 · 3 · Chào hỏi' },
+    { w: '老师', py: [['lǎo', 3], ['shī', 1]], hv: 'lão sư', en: 'teacher', ex: ['她是我的老师。', 'She is my teacher.'], lesson: 'HSK 1 · 2 · Đại từ' },
+    { w: '什么', py: [['shén', 2], ['me', 5]], hv: 'thập ma', en: 'what', ex: ['这是什么？', 'What is this?'], lesson: 'HSK 1 · 3 · Chào hỏi' }
+  ];
+  var types = { recognize: true, listen: true, write: false };
+  var queue, idx, flipped, extra, remembered, session = document.getElementById('session'), body = document.getElementById('sbody'), foot = document.getElementById('sfoot'), bar = document.getElementById('sbar'), cnt = document.getElementById('scount');
+  document.getElementById('goal').textContent = OD.prefs().minutes;
+
+  document.querySelectorAll('[data-type]').forEach(function (s) {
+    s.addEventListener('click', function () {
+      var on = s.getAttribute('aria-checked') !== 'true';
+      var active = Object.keys(types).filter(function (k) { return types[k]; }).length;
+      if (!on && active === 1) { OD.toast('Cần bật ít nhất một kiểu thẻ.'); return; }
+      s.setAttribute('aria-checked', String(on)); types[s.dataset.type] = on;
+    });
+  });
+  function pyHTML(c) { return c.py.map(function (p) { return '<span class="py t' + p[1] + '">' + p[0] + '</span>'; }).join(''); }
+  function hzHTML(c) { return c.w.split('').map(function (ch, i) { return '<span class="t' + c.py[i][1] + '">' + ch + '</span>'; }).join(''); }
+
+  function open(isExtra) {
+    extra = isExtra; remembered = 0;
+    var enabled = Object.keys(types).filter(function (k) { return types[k]; });
+    queue = CARDS.map(function (c, i) { return Object.assign({ type: enabled[i % enabled.length] }, c); });
+    if (isExtra) queue = queue.slice(0, 4);
+    idx = 0; session.hidden = false; document.body.style.overflow = 'hidden'; show();
+  }
+  function close() { session.hidden = true; document.body.style.overflow = ''; }
+
+  function show() {
+    flipped = false;
+    if (idx >= queue.length) return summary();
+    var c = queue[idx];
+    bar.firstElementChild.style.setProperty('--v', Math.round(idx / queue.length * 100) + '%'); cnt.textContent = (idx + 1) + '/' + queue.length;
+    var label = c.type === 'recognize' ? 'Chữ → nghĩa' : c.type === 'listen' ? 'Nghe → chữ' : 'Nghĩa → viết chữ';
+    var front = c.type === 'recognize' ? '<div class="hz hz-xl" lang="zh">' + c.w + '</div><p class="small muted">Hãy thử nhớ cách đọc và nghĩa</p>'
+      : c.type === 'listen' ? '<button class="audio lg" data-say="' + c.w + '" aria-label="Nghe"><i data-i="volume"></i></button><p class="small muted">Nghe và nhớ chữ Hán</p>'
+      : '<div class="lead"><b>' + c.en + '</b></div><p class="small muted">Viết chữ Hán trên giấy, rồi lật thẻ để kiểm tra</p>';
+    body.innerHTML = '<div class="card flash" id="card" tabindex="0" role="button" aria-label="Lật thẻ" data-od-id="flashcard"><p class="eyebrow">' + label + '</p>' + front + '</div>' +
+      (extra ? '<p class="center small muted">Luyện thêm · không ảnh hưởng lịch ôn</p>' : '');
+    foot.innerHTML = '<button class="btn btn-primary btn-block" id="flip" data-od-id="flip-card">Lật thẻ</button>';
+    OD.icons(session);
+    if (c.type === 'listen') OD.speak(c.w);
+    document.getElementById('card').addEventListener('click', flip); document.getElementById('flip').addEventListener('click', flip);
+    document.getElementById('card').addEventListener('keydown', function (e) { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); } });
+  }
+  function flip() {
+    if (flipped) return; flipped = true; var c = queue[idx];
+    document.getElementById('card').innerHTML = '<div class="back-face"><div class="hz hz-xl" lang="zh" style="font-size:72px">' + hzHTML(c) + '</div>' +
+      '<div class="row" style="justify-content:center"><span class="py" style="font:800 24px var(--font-display)">' + pyHTML(c) + '</span><button class="audio" data-say="' + c.w + '" aria-label="Nghe"><i data-i="volume"></i></button></div>' +
+      '<span class="hv">' + c.hv + '</span><p class="lead"><b>' + c.en + '</b></p>' +
+      '<div class="hz hz-sm" lang="zh" style="margin-top:8px">' + c.ex[0] + '</div><p class="small muted">' + c.ex[1] + '</p>' +
+      '<p class="small muted" style="margin-top:8px">Bài: ' + c.lesson + ' · <a href="dictionary.html">xem chi tiết từ</a></p></div>';
+    var four = OD.prefs().buttons === 4;
+    var R = four ? [['Quên', '1 phút', 'bad', 0], ['Khó', '1 ngày', '', 1], ['Được', '3 ngày', '', 1], ['Dễ', '7 ngày', 'ok', 1]] : [['Quên', 'ôn lại sau 1 phút', 'bad', 0], ['Nhớ', 'ôn lại sau 3 ngày', 'ok', 1]];
+    foot.innerHTML = '<div class="rate" style="--n:' + R.length + ';width:100%">' + R.map(function (r, i) { return '<button class="choice center ' + r[2] + '" data-r="' + r[3] + '" data-od-id="rate-' + (i + 1) + '">' + r[0] + '<small>' + r[1] + '</small></button>'; }).join('') + '</div>';
+    OD.icons(session); OD.speak(c.w);
+    foot.querySelectorAll('[data-r]').forEach(function (b) { b.addEventListener('click', function () { remembered += +b.dataset.r; idx++; show(); }); });
+  }
+  function summary() {
+    bar.firstElementChild.style.setProperty('--v', '100%'); cnt.textContent = '';
+    body.innerHTML = '<div class="center stack-4" style="margin-top:var(--space-8)"><div class="mark" lang="zh">忆</div><h1>Xong phiên ôn tập!</h1><p class="muted">Bạn nhớ <b>' + remembered + '</b> / ' + queue.length + ' thẻ. Những thẻ quên sẽ quay lại sớm.</p></div>';
+    foot.innerHTML = '<button class="btn btn-primary btn-block" id="fin">Xong</button>'; OD.icons(session);
+    document.getElementById('fin').addEventListener('click', close);
+  }
+  document.getElementById('start').addEventListener('click', function () { open(false); });
+  document.getElementById('extra').addEventListener('click', function () { open(true); });
+  document.getElementById('quit').addEventListener('click', close);
+  document.addEventListener('keydown', function (e) {
+    if (session.hidden) return;
+    if (e.key === 'Escape') close();
+    if (e.key === ' ' && !flipped && document.activeElement.id !== 'card') { e.preventDefault(); flip(); }
+    var rb = foot.querySelectorAll('[data-r]');
+    if (flipped && rb.length) { var n = +e.key; if (n >= 1 && n <= rb.length) rb[n - 1].click(); }
+  });
+})();
+</script>
+</body>
+</html>

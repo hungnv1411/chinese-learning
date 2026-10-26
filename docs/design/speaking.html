@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Luyện nói · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body>
+<div class="focus">
+  <header class="focus-top">
+    <a class="icon-btn" href="lesson.html" aria-label="Thoát luyện nói"><i data-i="close"></i></a>
+    <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Tiến độ bài"><i style="--v:70%"></i></div>
+    <span class="small muted" style="min-width:36px;text-align:right;font-weight:700">7/10</span>
+  </header>
+
+  <main class="focus-body" id="main" aria-live="polite">
+    <p class="eyebrow">Nói lại câu này</p>
+    <section class="card center stack-3" style="padding:var(--space-6) var(--space-4)" data-od-id="target-sentence">
+      <div class="hz hz-md" lang="zh">你叫什么名字？</div>
+      <div class="py" id="pyline" style="font:800 20px var(--font-display)"></div>
+      <p class="small muted">What's your name?</p>
+      <div class="row" style="justify-content:center"><button class="audio lg" data-say="你叫什么名字" aria-label="Nghe giọng mẫu"><i data-i="volume"></i></button><button class="audio slow" data-say="你叫什么名字" data-rate="0.5" aria-label="Nghe chậm">0.5×</button></div>
+    </section>
+
+    <!-- Stage: ready / recording -->
+    <section id="rec" class="center stack-4" data-od-id="record-area">
+      <div class="wave" id="wave" aria-hidden="true"></div>
+      <button class="mic" id="mic" aria-label="Thu âm" data-od-id="mic-button"><i data-i="mic"></i></button>
+      <p id="micmsg" class="small"><b>Bấm giữ micro và nói</b></p>
+    </section>
+
+    <!-- Stage: result -->
+    <section id="res" hidden class="stack-4" data-od-id="speech-result">
+      <div class="center"><p class="eyebrow">Điểm phát âm</p><div class="score" id="sc"></div><p id="verdict" class="small" style="font-weight:800"></p></div>
+      <div><p class="eyebrow center" style="margin-bottom:8px">Từng âm tiết</p><div class="row wrap" id="syls" style="justify-content:center;gap:8px"></div></div>
+      <div class="note bad" id="tonefix" hidden></div>
+      <div class="row" style="justify-content:center;gap:8px"><button class="btn btn-secondary btn-sm" data-say="你叫什么名字"><i data-i="play" style="width:16px;height:16px"></i>Giọng mẫu</button><button class="btn btn-secondary btn-sm" data-toast="Phát lại giọng của bạn (bản thiết kế)."><i data-i="play" style="width:16px;height:16px"></i>Giọng của bạn</button></div>
+      <p class="small muted center" id="attempts"></p>
+    </section>
+
+    <!-- Stage: microphone blocked -->
+    <section id="blocked" hidden class="stack-4" data-od-id="mic-blocked">
+      <div class="center stack-3"><span class="mark" style="background:var(--border);box-shadow:0 8px 0 var(--lock-deep);color:var(--muted)"><i data-i="micoff" style="width:56px;height:56px"></i></span>
+        <h2>Cần bật micro để học tiếp</h2><p class="muted">Luyện nói là phần bắt buộc của mỗi bài. Hãy cho phép trình duyệt dùng micro.</p></div>
+      <div class="card soft small stack-2"><b>Cách bật</b><p>1. Bấm biểu tượng ổ khóa trên thanh địa chỉ<br>2. Chọn Micro → Cho phép<br>3. Tải lại trang</p></div>
+      <div class="card small"><b>Đang ở chỗ đông người?</b> Bài học được lưu ở đúng câu này. Bạn có thể thoát và quay lại học tiếp sau.</div>
+    </section>
+  </main>
+
+  <footer class="focus-foot" id="foot">
+    <div class="inner" id="footinner"></div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var PY = [['nǐ', 3, '你'], ['jiào', 4, '叫'], ['shén', 2, '什'], ['me', 5, '么'], ['míng', 2, '名'], ['zi', 5, '字']];
+  var RUNS = [{ s: 52, weak: 2, expect: 2, said: 1 }, { s: 71, weak: 4, expect: 2, said: 3 }, { s: 84, weak: -1 }];
+  var tryN = 0, passed = false, recording = false, tm, iv;
+  var $ = function (id) { return document.getElementById(id); };
+  var mic = $('mic'), wave = $('wave'), msg = $('micmsg'), footInner = $('footinner'), foot = $('foot');
+  $('pyline').innerHTML = PY.map(function (p) { return '<span class="py t' + p[1] + '">' + p[0] + '</span>'; }).join(' ');
+  wave.innerHTML = new Array(13).join('<i></i>');
+  var holdMode = OD.prefs().mic !== 'toggle';
+  msg.innerHTML = holdMode ? '<b>Bấm giữ micro và nói</b>, thả tay khi xong' : '<b>Bấm micro để bắt đầu</b>, bấm lần nữa khi xong';
+
+  function setFoot(html) { footInner.innerHTML = html; OD.icons(foot); }
+  setFoot('<a class="btn btn-quiet" href="path.html">Lưu và thoát</a>');
+
+  function blocked() {
+    $('rec').hidden = true; $('res').hidden = true; $('blocked').hidden = false;
+    foot.className = 'focus-foot';
+    setFoot('<a class="btn btn-quiet" href="path.html">Lưu và thoát</a><a class="btn btn-primary" href="speaking.html">Thử lại</a>');
+  }
+  var forced = /mic=denied/.test(location.search);
+  if (forced) blocked();
+  else if (navigator.permissions && navigator.permissions.query) {
+    navigator.permissions.query({ name: 'microphone' }).then(function (p) { if (p.state === 'denied') blocked(); }).catch(function () { /* unsupported */ });
+  }
+
+  function start() {
+    if (recording) return; recording = true; mic.classList.add('rec');
+    msg.innerHTML = '<b>Đang nghe…</b> ' + (holdMode ? 'thả tay khi nói xong' : 'bấm lần nữa khi xong');
+    iv = setInterval(function () { wave.querySelectorAll('i').forEach(function (b) { b.style.height = (8 + Math.random() * 38) + 'px'; }); }, 120);
+    tm = setTimeout(stop, 8000);
+  }
+  function stop() {
+    if (!recording) return; recording = false; clearInterval(iv); clearTimeout(tm); mic.classList.remove('rec');
+    wave.querySelectorAll('i').forEach(function (b) { b.style.height = '8px'; });
+    msg.innerHTML = '<b>Đang chấm điểm…</b>'; setTimeout(showResult, 700);
+  }
+  if (holdMode) {
+    mic.addEventListener('pointerdown', function (e) { e.preventDefault(); start(); });
+    ['pointerup', 'pointerleave', 'pointercancel'].forEach(function (ev) { mic.addEventListener(ev, stop); });
+    mic.addEventListener('keydown', function (e) { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); start(); } });
+    mic.addEventListener('keyup', function (e) { if (e.key === ' ' || e.key === 'Enter') stop(); });
+  } else {
+    mic.addEventListener('click', function () { recording ? stop() : start(); });
+  }
+
+  function showResult() {
+    var r = RUNS[Math.min(tryN, RUNS.length - 1)]; tryN++;
+    var ok = r.s >= 60;
+    $('rec').hidden = true; $('res').hidden = false;
+    $('sc').textContent = r.s; $('sc').style.color = ok ? 'var(--accent-active)' : 'var(--danger-deep)';
+    $('verdict').textContent = ok ? 'Đạt (từ 60)' : 'Chưa đạt, cần từ 60'; $('verdict').style.color = ok ? 'var(--accent-active)' : 'var(--danger-deep)';
+    $('syls').innerHTML = PY.map(function (p, i) { var bad = i === r.weak; return '<span class="syl' + (bad ? ' bad' : '') + '"><span class="hz hz-sm" lang="zh">' + p[2] + '</span><small class="py">' + p[0] + (bad ? ' ✗' : ' ✓') + '</small></span>'; }).join('');
+    var fix = $('tonefix');
+    if (r.weak >= 0) {
+      var w = PY[r.weak];
+      fix.hidden = false;
+      fix.innerHTML = '<svg class="contour" viewBox="0 0 60 40" aria-hidden="true"><path d="' + OD.CONTOUR[w[1]] + '" style="stroke:var(--tone-' + w[1] + ')"/><path d="' + OD.CONTOUR[r.said || 1] + '" style="stroke:var(--danger);stroke-dasharray:4 5"/></svg><div><b>' + w[2] + ' ' + w[0] + '</b> cần <b>thanh ' + w[1] + '</b>, bạn đọc gần thanh ' + (r.said || 1) + '.<br><span class="small">Mẹo: giống thanh sắc tiếng Việt, kéo giọng lên.</span></div>';
+    } else { fix.hidden = true; }
+    var canSkip = !ok && tryN >= 3;
+    $('attempts').textContent = ok ? '' : canSkip ? 'Sau 3 lần chưa đạt, bạn có thể đi tiếp. Câu này sẽ quay lại trong ôn tập.' : 'Lần ' + tryN + ' / 3 · nói lại để đạt điểm.';
+    foot.className = 'focus-foot ' + (ok ? 'ok' : 'bad');
+    setFoot('<div class="verdict"><i data-i="' + (ok ? 'check' : 'close') + '" style="width:36px;height:36px"></i><div><b>' + (ok ? 'Phát âm tốt!' : 'Thử lại nhé') + '</b></div></div>' +
+      (ok ? '<a class="btn btn-primary" href="lesson.html">Tiếp</a>' : '<button class="btn btn-secondary" id="again">Nói lại</button>' + (canSkip ? '<a class="btn btn-primary" href="lesson.html" style="margin-left:0">Đi tiếp</a>' : '')));
+    var again = $('again');
+    if (again) again.addEventListener('click', function () { $('res').hidden = true; $('rec').hidden = false; foot.className = 'focus-foot'; msg.innerHTML = holdMode ? '<b>Bấm giữ micro và nói</b>, thả tay khi xong' : '<b>Bấm micro để bắt đầu</b>'; setFoot('<a class="btn btn-quiet" href="path.html">Lưu và thoát</a>'); });
+  }
+})();
+</script>
+</body>
+</html>

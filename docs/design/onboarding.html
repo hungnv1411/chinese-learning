@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bắt đầu học tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+<style>
+  /* Onboarding layout: hero panel + form; stacks on phone */
+  .ob { min-height: 100dvh; display: grid; }
+  .ob-hero { display: grid; place-content: center; justify-items: center; gap: var(--space-4); padding: var(--space-8) var(--space-6) var(--space-4); text-align: center; background: var(--accent); color: var(--accent-on); }
+  .ob-hero .hz { font-size: clamp(120px, 28vw, 240px); line-height: 1; color: var(--accent-on); }
+  .ob-hero .py { font: 800 var(--text-xl) var(--font-display); }
+  .ob-hero .hv { color: var(--accent-on); opacity: .9; }
+  .ob-hero .hv::before { color: inherit; }
+  .ob-hero ul { display: none; gap: var(--space-3); text-align: left; font-weight: 600; max-width: 360px; margin-top: var(--space-6); }
+  .ob-hero li { display: flex; gap: var(--space-3); align-items: flex-start; }
+  .ob-form { width: 100%; max-width: 520px; margin: 0 auto; padding: var(--space-6) var(--container-gutter-phone) var(--space-8); display: grid; gap: var(--space-6); align-content: center; }
+  @media (min-width: 900px) {
+    .ob { grid-template-columns: 5fr 6fr; }
+    .ob-hero { padding: var(--space-12); }
+    .ob-hero ul { display: grid; }
+  }
+</style>
+</head>
+<body>
+<main class="ob" id="main">
+  <section class="ob-hero" data-od-id="onboarding-hero" aria-label="Giới thiệu">
+    <div class="logo" style="background:var(--bg);color:var(--accent);box-shadow:0 3px 0 var(--accent-pale)" lang="zh">学</div>
+    <div class="hz" lang="zh">学</div>
+    <div class="py">xué</div>
+    <div class="hv">học</div>
+    <ul>
+      <li><i data-i="check"></i><span>Lộ trình từ con số 0 đến HSK 3, khóa mở theo thứ tự</span></li>
+      <li><i data-i="check"></i><span>Mỗi bài 5–10 phút, đủ nghe, nói, đọc, viết</span></li>
+      <li><i data-i="check"></i><span>Có âm Hán Việt cho từng chữ, hoàn toàn miễn phí</span></li>
+    </ul>
+  </section>
+
+  <section class="ob-form" data-od-id="onboarding-form" aria-labelledby="ob-h">
+    <div class="stack-3">
+      <h1 id="ob-h">Bạn đang ở đâu?</h1>
+      <p class="muted">Chọn điểm xuất phát. Bạn đổi được bất cứ lúc nào trong mục Tôi.</p>
+    </div>
+
+    <div class="choices one" id="start" role="radiogroup" aria-label="Điểm xuất phát">
+      <button class="choice" role="radio" aria-pressed="true" data-v="zero" data-od-id="start-zero"><span class="grow">Tôi chưa biết gì<small>Bắt đầu từ phát âm và pinyin</small></span><span class="tick"><i data-i="check"></i></span></button>
+      <button class="choice" role="radio" aria-pressed="false" data-v="pinyin" data-od-id="start-pinyin"><span class="grow">Tôi đọc được pinyin<small>Vào thẳng HSK 1</small></span><span class="tick"><i data-i="check"></i></span></button>
+      <button class="choice" role="radio" aria-pressed="false" data-v="hsk1" data-od-id="start-hsk1"><span class="grow">Tôi đã học HSK 1<small>Làm bài kiểm tra xếp lớp khoảng 20 câu</small></span><span class="tick"><i data-i="check"></i></span></button>
+    </div>
+
+    <div class="stack-3">
+      <h3>Mỗi ngày bạn rảnh khoảng</h3>
+      <div class="seg" data-pref="minutes" role="group" aria-label="Thời gian mỗi ngày">
+        <button data-v="5">5 phút</button><button data-v="10">10 phút</button><button data-v="20">20 phút</button>
+      </div>
+    </div>
+
+    <div class="stack-3">
+      <a class="btn btn-primary btn-block" id="go" href="lesson.html" data-od-id="start-learning">Bắt đầu học</a>
+      <p class="center small muted">Học thử ngay, chưa cần tài khoản.</p>
+      <p class="center small">Đã có tài khoản? <a href="#" data-open="#login" data-od-id="login-link">Đăng nhập</a></p>
+    </div>
+  </section>
+</main>
+
+<dialog id="login" class="sheet" aria-labelledby="login-h">
+  <div class="dlg-body center">
+    <div class="hz hz-lg" lang="zh" style="color:var(--accent)">存</div>
+    <div><h2 id="login-h">Đăng nhập để học tiếp</h2><p class="muted" style="margin-top:8px">Chỉ dùng tài khoản Google, không cần mật khẩu.</p></div>
+    <a class="btn btn-secondary btn-block" href="today.html" data-od-id="google-login">Tiếp tục với Google</a>
+    <button class="btn btn-quiet btn-block" data-close>Để sau</button>
+  </div>
+</dialog>
+
+<script>
+  (function () {
+    var go = document.getElementById('go');
+    var dest = { zero: 'lesson.html', pinyin: 'lesson.html', hsk1: 'exam.html' };
+    document.querySelectorAll('#start .choice').forEach(function (c) {
+      c.addEventListener('click', function () {
+        document.querySelectorAll('#start .choice').forEach(function (o) { o.setAttribute('aria-pressed', String(o === c)); });
+        go.setAttribute('href', dest[c.dataset.v]);
+        go.textContent = c.dataset.v === 'hsk1' ? 'Làm bài xếp lớp' : 'Bắt đầu học';
+      });
+    });
+  })();
+</script>
+</body>
+</html>

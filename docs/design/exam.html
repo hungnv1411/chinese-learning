@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kiểm tra cuối HSK 1 · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="path">
+<main class="main" id="main" style="max-width:960px">
+  <header class="topbar">
+    <a class="icon-btn" href="path.html" aria-label="Về lộ trình"><i data-i="back"></i></a>
+    <h1 id="title">Kiểm tra cuối HSK 1</h1>
+  </header>
+
+  <!-- Intro -->
+  <div id="intro" class="cols has-rail">
+    <div class="stack-6">
+      <section class="card soft" aria-labelledby="cond-h" data-od-id="exam-conditions">
+        <p class="eyebrow" id="cond-h" style="margin-bottom:8px">Điều kiện</p>
+        <ul class="list">
+          <li><span class="badge badge-success"><i data-i="check" style="width:14px;height:14px"></i></span><span class="grow">Hoàn thành 15/15 chủ đề</span></li>
+          <li><span class="badge badge-success"><i data-i="check" style="width:14px;height:14px"></i></span><span class="grow">Đã đăng nhập (chứng nhận gắn với tài khoản)</span></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="struct-h" data-od-id="exam-structure">
+        <h2 id="struct-h" style="margin-bottom:var(--space-3)">Cấu trúc bài</h2>
+        <ul class="stack-3">
+          <li class="card skill"><span class="hz" style="color:var(--blue-deep)"><i data-i="volume"></i></span><span class="grow"><b>Nghe</b><br><span class="small muted">20 câu</span></span><span class="muted">15 phút</span></li>
+          <li class="card skill"><span class="hz" lang="zh">读</span><span class="grow"><b>Đọc</b><br><span class="small muted">20 câu</span></span><span class="muted">15 phút</span></li>
+          <li class="card skill"><span class="hz" lang="zh">说</span><span class="grow"><b>Nói</b><br><span class="small muted">5 câu</span></span><span class="muted">5 phút</span></li>
+          <li class="card skill"><span class="hz" lang="zh">写</span><span class="grow"><b>Viết chữ</b><br><span class="small muted">5 chữ</span></span><span class="muted">5 phút</span></li>
+        </ul>
+      </section>
+    </div>
+
+    <aside class="rail sticky" data-od-id="exam-summary">
+      <section class="card stack-4">
+        <div class="row between"><span class="muted">Điểm đạt</span><b style="font:800 var(--text-xl) var(--font-display)">70 / 100</b></div>
+        <p class="small muted">Mỗi kỹ năng cần đạt tối thiểu 50%.</p>
+        <div class="row between small"><span class="muted">Không đạt thì làm lại sau</span><b>24 giờ</b></div>
+        <p class="small muted">Câu hỏi chọn ngẫu nhiên từ ngân hàng đề, mỗi lần làm một đề khác.</p>
+        <button class="btn btn-primary btn-block" data-open="#confirm" data-od-id="start-exam">Bắt đầu · 40 phút</button>
+      </section>
+    </aside>
+  </div>
+
+  <!-- Result -->
+  <div id="result" hidden class="stack-6" style="max-width:620px;margin:0 auto">
+    <section class="center stack-3" aria-live="polite" data-od-id="exam-result">
+      <p class="eyebrow">Kết quả</p>
+      <div class="score" id="score">0</div>
+      <p class="muted">/ 100 · <b style="color:var(--accent-active)">Đạt</b></p>
+    </section>
+    <section class="card stack-4" aria-label="Điểm từng phần">
+      <div class="bar-row"><span>Nghe</span><div class="progress sm"><i style="--v:80%"></i></div><b>16/20</b></div>
+      <div class="bar-row"><span>Đọc</span><div class="progress sm"><i style="--v:95%"></i></div><b>19/20</b></div>
+      <div class="bar-row"><span>Nói</span><div class="progress sm"><i style="--v:76%"></i></div><b>76</b></div>
+      <div class="bar-row"><span>Viết chữ</span><div class="progress sm"><i style="--v:80%"></i></div><b>4/5</b></div>
+    </section>
+    <a class="card tap center stack-2" href="certificate.html" data-od-id="cert-preview" style="border-color:var(--accent)">
+      <i data-i="award" style="width:40px;height:40px;color:var(--warn-deep)"></i>
+      <b style="font:800 var(--text-lg) var(--font-display)">Chứng nhận hoàn thành HSK 1</b>
+      <span class="small muted">Nguyễn Văn An · 26/10/2026</span>
+    </a>
+    <div class="stack-3">
+      <a class="btn btn-primary btn-block" href="certificate.html">Xem chứng nhận</a>
+      <a class="btn btn-secondary btn-block" href="path.html">Bắt đầu lộ trình HSK 2</a>
+    </div>
+  </div>
+</main>
+
+<dialog id="confirm" class="sheet" aria-labelledby="conf-h">
+  <div class="dlg-body">
+    <h2 id="conf-h">Sẵn sàng làm bài?</h2>
+    <p class="muted">Bài kéo dài 40 phút, gồm nghe, đọc, nói và viết chữ. Bạn cần micro và một nơi yên tĩnh. Kết quả của bài kiểm tra không ghi vào lịch ôn tập.</p>
+    <button class="btn btn-primary btn-block" id="go" data-od-id="confirm-start">Bắt đầu làm bài</button>
+    <button class="btn btn-quiet btn-block" data-close>Để sau</button>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  var intro = document.getElementById('intro'), result = document.getElementById('result');
+  function showResult() {
+    intro.hidden = true; result.hidden = false; document.getElementById('title').textContent = 'Kết quả HSK 1';
+    var n = 0, el = document.getElementById('score'), t = setInterval(function () { n += 3; if (n >= 86) { n = 86; clearInterval(t); } el.textContent = n; }, 24);
+    OD.icons(result);
+  }
+  document.getElementById('go').addEventListener('click', function () { document.getElementById('confirm').close(); showResult(); history.replaceState(null, '', '#result'); });
+  if (location.hash === '#result') showResult();
+})();
+</script>
+</body>
+</html>

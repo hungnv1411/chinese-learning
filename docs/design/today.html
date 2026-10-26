@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hôm nay · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="today">
+<main class="main" id="main">
+  <header class="topbar" data-od-id="today-topbar">
+    <h1 id="greet">Chào buổi tối</h1>
+    <span class="stat" title="Chuỗi ngày học"><i data-i="flame"></i>5</span>
+  </header>
+
+  <div class="cols has-rail">
+    <div class="stack-6">
+      <!-- Daily goal -->
+      <section class="card" data-od-id="daily-goal" aria-labelledby="goal-h">
+        <div class="card-title"><h3 id="goal-h">Mục tiêu hôm nay</h3><b class="muted"><span id="goal-now">6</span> / <span id="goal-max">10</span> phút</b></div>
+        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="6" id="goal-bar"><i style="--v:60%"></i></div>
+      </section>
+
+      <!-- One main action -->
+      <section class="hero" data-od-id="continue-lesson" aria-labelledby="cont-h">
+        <div class="stack-3" style="position:relative;z-index:1">
+          <p class="eyebrow">Học tiếp · HSK 1 · Chủ đề 3</p>
+          <h2 id="cont-h">Bài 2: Chào hỏi</h2>
+          <p style="font-weight:600">6 từ mới · khoảng 7 phút · nghe, nói, đọc, viết</p>
+          <div><a class="btn btn-white" href="lesson.html" data-od-id="continue-cta">Học tiếp</a></div>
+        </div>
+        <span class="big" lang="zh" aria-hidden="true">你好</span>
+      </section>
+
+      <!-- Review due -->
+      <a class="card tap row" href="review.html" data-od-id="review-due" style="gap:var(--space-4)">
+        <span class="tile blue"><i data-i="review"></i></span>
+        <span class="grow"><span class="eyebrow">Ôn tập</span><br><b style="font:800 var(--text-lg) var(--font-display)">24 thẻ đến hạn</b><br><span class="small muted">khoảng 4 phút</span></span>
+        <span class="btn btn-secondary btn-sm">Ôn ngay</span>
+      </a>
+
+      <!-- Character of the day -->
+      <section class="card soft" data-od-id="character-of-day" aria-labelledby="cod-h">
+        <div class="card-title"><span class="eyebrow" id="cod-h">Chữ của ngày</span><button class="icon-btn" data-say="好" aria-label="Nghe chữ 好"><i data-i="volume"></i></button></div>
+        <div class="row" style="gap:var(--space-5)">
+          <div class="hz hz-lg t3" lang="zh">好</div>
+          <div class="stack-2 grow">
+            <div><b class="t3 py" style="font:800 var(--text-xl) var(--font-display)">hǎo</b> <span class="hv">hảo</span></div>
+            <p>good, well</p>
+            <p class="small muted">女 (phụ nữ) + 子 (con) → “tốt”</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Side rail: streak + week + path -->
+    <aside class="rail sticky" aria-label="Tiến độ">
+      <section class="card" data-od-id="streak-card" aria-labelledby="streak-h">
+        <div class="card-title"><h3 id="streak-h">5 ngày liên tiếp</h3><i data-i="flame" style="color:var(--orange);width:32px;height:32px"></i></div>
+        <div class="week" role="list" aria-label="Tuần này">
+          <div class="done" role="listitem">T2<span class="dot"><i data-i="check"></i></span></div>
+          <div class="done" role="listitem">T3<span class="dot"><i data-i="check"></i></span></div>
+          <div class="done" role="listitem">T4<span class="dot"><i data-i="check"></i></span></div>
+          <div class="done" role="listitem">T5<span class="dot"><i data-i="check"></i></span></div>
+          <div class="done today" role="listitem">T6<span class="dot"><i data-i="check"></i></span></div>
+          <div role="listitem">T7<span class="dot"></span></div>
+          <div role="listitem">CN<span class="dot"></span></div>
+        </div>
+        <p class="small muted" style="margin-top:var(--space-3)">Quên một ngày không mất chuỗi: bạn có ngày nghỉ tự động.</p>
+      </section>
+
+      <section class="card" data-od-id="week-chart" aria-labelledby="wk-h">
+        <div class="card-title"><h3 id="wk-h">7 ngày qua</h3><span class="small muted">phút / ngày</span></div>
+        <div class="bars" role="img" aria-label="Thời gian học 7 ngày qua: 4, 7, 2, 9, 6, 8, 6 phút">
+          <i style="--h:40%"></i><i style="--h:70%"></i><i style="--h:20%"></i><i style="--h:90%"></i><i style="--h:60%"></i><i style="--h:80%"></i><i class="on" style="--h:60%"></i>
+        </div>
+      </section>
+
+      <a class="card tap" href="path.html" data-od-id="path-progress">
+        <div class="card-title"><h3>HSK 1 · Sinh tồn</h3><span class="badge badge-blue">18%</span></div>
+        <div class="progress sm"><i style="--v:18%"></i></div>
+        <p class="small muted" style="margin-top:var(--space-2)">Chủ đề 3/15 · 87/500 từ · 54/300 chữ</p>
+      </a>
+    </aside>
+  </div>
+</main>
+
+<script>
+  (function () {
+    var h = new Date().getHours();
+    document.getElementById('greet').textContent = h < 11 ? 'Chào buổi sáng' : h < 14 ? 'Chào buổi trưa' : h < 18 ? 'Chào buổi chiều' : 'Chào buổi tối';
+    var goal = OD.prefs().minutes || 10, now = Math.min(6, goal);
+    document.getElementById('goal-max').textContent = goal;
+    document.getElementById('goal-now').textContent = now;
+    var bar = document.getElementById('goal-bar');
+    bar.setAttribute('aria-valuemax', goal); bar.setAttribute('aria-valuenow', now);
+    bar.firstElementChild.style.setProperty('--v', Math.round(now / goal * 100) + '%');
+  })();
+</script>
+</body>
+</html>

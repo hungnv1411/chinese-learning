@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tôi · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="profile">
+<main class="main" id="main">
+  <header class="topbar"><h1>Tôi</h1><span class="stat"><i data-i="flame"></i>5</span></header>
+
+  <section class="stats" data-od-id="stats" aria-label="Thống kê học tập">
+    <div class="card stat-tile"><b>133</b><span class="small muted">từ đã học</span></div>
+    <div class="card stat-tile"><b>87</b><span class="small muted">chữ viết được</span></div>
+    <div class="card stat-tile"><b style="color:var(--orange)">5</b><span class="small muted">ngày liên tiếp</span></div>
+    <div class="card stat-tile"><b style="color:var(--blue-deep)">6h</b><span class="small muted">tổng thời gian</span></div>
+  </section>
+
+  <div class="cols has-rail" style="margin-top:var(--space-6)">
+    <div class="stack-6">
+      <section class="card" aria-labelledby="disp-h" data-od-id="display-settings">
+        <h3 id="disp-h">Hiển thị</h3>
+        <div class="setting"><div class="grow"><b>Hiện pinyin</b><small>Ẩn dần pinyin để tự ép mình đọc chữ Hán</small></div>
+          <div class="seg" data-pref="pinyin" role="group" aria-label="Hiện pinyin"><button data-v="always">Luôn</button><button data-v="new">Chữ mới</button><button data-v="hide">Ẩn</button></div></div>
+        <div class="setting"><div class="grow"><b>Hiện âm Hán Việt</b></div><button class="switch" role="switch" data-pref="hv" aria-label="Hiện âm Hán Việt"></button></div>
+        <div class="setting"><div class="grow"><b>Màu theo thanh điệu</b><small>Thanh <span class="t1">1</span> <span class="t2">2</span> <span class="t3">3</span> <span class="t4">4</span> dùng màu riêng ở mọi màn hình</small></div><button class="switch" role="switch" data-pref="tone" aria-label="Màu theo thanh điệu"></button></div>
+        <div class="setting"><div class="grow"><b>Chữ phồn thể</b></div><button class="switch" role="switch" data-pref="trad" aria-label="Chữ phồn thể"></button></div>
+        <div class="setting" style="align-items:flex-start;flex-direction:column;gap:var(--space-2)"><span class="eyebrow">Xem trước</span>
+          <div class="row" style="gap:var(--space-4)"><span class="hz hz-lg" lang="zh"><span class="t3">你</span><span class="t3">好</span></span><div><div class="py"><span class="t3">nǐ</span> <span class="t3">hǎo</span></div><span class="hv">nhĩ hảo</span></div></div></div>
+      </section>
+
+      <section class="card" aria-labelledby="learn-h" data-od-id="learning-settings">
+        <h3 id="learn-h">Học tập</h3>
+        <div class="setting"><div class="grow"><b>Mục tiêu mỗi ngày</b></div><div class="seg" data-pref="minutes" role="group" aria-label="Mục tiêu mỗi ngày"><button data-v="5">5′</button><button data-v="10">10′</button><button data-v="20">20′</button></div></div>
+        <div class="setting"><div class="grow"><b>Giọng đọc</b></div><div class="seg" data-pref="voice" role="group" aria-label="Giọng đọc"><button data-v="f">Nữ</button><button data-v="m">Nam</button></div></div>
+        <div class="setting"><div class="grow"><b>Nút tự đánh giá khi ôn</b></div><div class="seg" data-pref="buttons" role="group" aria-label="Số nút tự đánh giá"><button data-v="2">2 nút</button><button data-v="4">4 nút</button></div></div>
+        <div class="setting"><div class="grow"><b>Cách thu âm</b></div><div class="seg" data-pref="mic" role="group" aria-label="Cách thu âm"><button data-v="hold">Bấm giữ</button><button data-v="toggle">Bấm bắt đầu/dừng</button></div></div>
+      </section>
+    </div>
+
+    <aside class="rail">
+      <section class="card" aria-labelledby="acc-h" data-od-id="account-card">
+        <h3 id="acc-h" style="margin-bottom:var(--space-3)">Tài khoản</h3>
+        <div class="row" style="gap:var(--space-4)"><span class="logo" style="width:56px;height:56px;border-radius:50%;font-size:28px" aria-hidden="true">A</span><div class="grow"><b>Nguyễn Văn An</b><div class="small muted">an@gmail.com · Google</div></div></div>
+        <div class="field" style="margin-top:var(--space-4)"><label for="certname">Tên trên chứng nhận</label><input id="certname" value="Nguyễn Văn An" autocomplete="name"><p class="field-help">Có thể sửa trước khi nhận chứng nhận.</p></div>
+        <ul class="list" style="margin-top:var(--space-2)">
+          <li><a class="grow row" href="certificate.html" style="color:var(--fg)"><i data-i="award" style="color:var(--warn-deep)"></i><span class="grow">Chứng nhận của tôi</span><i data-i="chevron" style="color:var(--meta)"></i></a></li>
+          <li><a class="grow row" href="sources.html" style="color:var(--fg)"><i data-i="book" style="color:var(--blue-deep)"></i><span class="grow"><b>Nguồn dữ liệu và giấy phép</b></span><i data-i="chevron" style="color:var(--meta)"></i></a></li>
+          <li><button class="grow row btn-quiet" style="border:0;background:none;padding:0;text-align:left" data-open="#reportdlg"><i data-i="flag" style="color:var(--orange)"></i><span class="grow">Góp ý / báo lỗi nội dung</span><i data-i="chevron" style="color:var(--meta)"></i></button></li>
+        </ul>
+        <div class="row" style="gap:var(--space-3);margin-top:var(--space-4)">
+          <a class="btn btn-secondary btn-sm" href="onboarding.html" style="flex:1">Đăng xuất</a>
+          <button class="btn btn-quiet btn-sm" style="flex:1;color:var(--danger)" data-open="#delete">Xóa tài khoản</button>
+        </div>
+      </section>
+      <section class="card soft small">
+        <b>Về dự án</b>
+        <p class="muted" style="margin-top:4px">Website phi lợi nhuận, không quảng cáo, mã nguồn công khai.</p>
+        <p style="margin-top:8px"><a href="sources.html">Giới thiệu</a> · <a href="sources.html">Quyền riêng tư</a> · <a href="sources.html">Điều khoản</a></p>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<dialog id="delete" class="sheet" aria-labelledby="del-h">
+  <div class="dlg-body">
+    <h2 id="del-h">Xóa tài khoản?</h2>
+    <p class="muted">Tên, điểm số và tệp PDF chứng nhận sẽ bị xóa. Mã chứng nhận chỉ còn trạng thái “không còn hiệu lực”. Việc này không hoàn tác được.</p>
+    <button class="btn btn-danger btn-block" data-close data-toast="Đây là bản thiết kế, chưa xóa thật.">Xóa tài khoản</button>
+    <button class="btn btn-quiet btn-block" data-close>Giữ lại</button>
+  </div>
+</dialog>
+
+<dialog id="reportdlg" class="sheet" aria-labelledby="rep-h">
+  <form class="dlg-body" method="dialog" id="repform">
+    <div class="row between"><h2 id="rep-h">Báo lỗi nội dung</h2><button type="button" class="icon-btn" data-close aria-label="Đóng"><i data-i="close"></i></button></div>
+    <div class="field"><label for="rep-type">Loại lỗi</label><select id="rep-type"><option>Sai pinyin</option><option>Sai nghĩa</option><option>Sai Hán Việt</option><option>Sai audio</option><option>Câu ví dụ không tự nhiên</option><option>Chấm sai</option><option>Khác</option></select></div>
+    <div class="field"><label for="rep-desc">Mô tả (không bắt buộc)</label><textarea id="rep-desc" rows="3" maxlength="500" placeholder="Bạn thấy sai ở đâu?"></textarea></div>
+    <button class="btn btn-primary btn-block" value="ok">Gửi báo lỗi</button>
+  </form>
+</dialog>
+<script>document.getElementById('repform').addEventListener('submit', function () { OD.toast('Cảm ơn bạn, mình đã ghi nhận báo lỗi.'); });</script>
+</body>
+</html>

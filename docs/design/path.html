@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lộ trình · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="path">
+<main class="main" id="main">
+  <header class="topbar" data-od-id="path-topbar">
+    <button class="btn btn-secondary" style="margin:0;text-transform:none;font-size:var(--text-lg)" data-open="#stages" aria-haspopup="dialog" data-od-id="stage-switch">HSK 1 · Sinh tồn <i data-i="down"></i></button>
+    <span class="badge badge-blue">18%</span>
+    <span class="grow"></span>
+    <span class="stat"><i data-i="flame"></i>5</span>
+  </header>
+
+  <div class="cols has-rail">
+    <!-- Path trail -->
+    <section aria-label="Con đường học HSK 1" style="max-width:520px;width:100%;margin:0 auto">
+      <div class="unit" data-od-id="unit-2">
+        <div><p class="eyebrow">Chủ đề 2</p><h3>Đại từ</h3></div>
+        <span class="badge" style="background:var(--accent-on);color:var(--accent-active);border-color:var(--accent-on)">4/4</span>
+      </div>
+      <div class="trail" id="trail-2"></div>
+
+      <div class="unit" data-od-id="unit-3">
+        <div><p class="eyebrow">Chủ đề 3 · 1/5</p><h3>Chào hỏi</h3><p class="small" style="margin-top:4px;font-weight:600;color:color-mix(in srgb,var(--accent-on) 85%,transparent)" lang="zh">你好 · 谢谢 · 再见 · 名字</p></div>
+        <i data-i="book" style="width:32px;height:32px"></i>
+      </div>
+      <div class="trail" id="trail-3"></div>
+
+      <div class="unit locked" data-od-id="unit-4">
+        <div><p class="eyebrow">Chủ đề 4</p><h3>Gia đình</h3></div><i data-i="lock" style="width:28px;height:28px"></i>
+      </div>
+      <p class="center small muted" style="margin-top:var(--space-4)">Hoàn thành chủ đề 3 để mở khóa tiếp.</p>
+    </section>
+
+    <!-- Desktop rail: stage overview -->
+    <aside class="rail sticky" aria-label="Các lộ trình" id="stage-rail" style="display:none" data-od-id="stage-rail">
+      <h3>Các lộ trình</h3>
+      <div class="stack-3" data-stages></div>
+      <div class="card soft stack-3">
+        <h4>Đã học HSK 1 ở nơi khác?</h4>
+        <p class="small">Làm bài kiểm tra cuối HSK 1 để mở thẳng HSK 2.</p>
+        <a class="btn btn-secondary btn-sm" href="exam.html">Làm bài xếp lớp</a>
+      </div>
+      <div class="card soft stack-2">
+        <div class="row"><span class="tile yellow" style="width:44px;height:36px;font-size:20px"><i data-i="star"></i></span><b>Ôn tập chủ đề</b></div>
+        <p class="small">Ô vuông có sao ở cuối mỗi chủ đề: bài ôn tổng hợp, phải đạt mới mở chủ đề sau.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- Stage chooser (mobile/tablet) -->
+<dialog id="stages" class="sheet" aria-labelledby="stages-h">
+  <div class="dlg-body">
+    <div class="row between"><h2 id="stages-h">Chọn lộ trình</h2><button class="icon-btn" data-close aria-label="Đóng"><i data-i="close"></i></button></div>
+    <div class="stack-3" data-stages></div>
+    <a class="btn btn-secondary btn-block btn-sm" href="exam.html">Đã học HSK 1? Làm bài xếp lớp</a>
+  </div>
+</dialog>
+
+<script>
+  (function () {
+    var STAGES = [
+      { t: '0 · Phát âm & pinyin', d: 'Nền tảng, không có chứng nhận', s: 'done', href: 'pinyin.html' },
+      { t: 'HSK 1 · Sinh tồn', d: 'Chủ đề 3/15 · 87/500 từ · 54/300 chữ', s: 'on', p: 18, cert: true },
+      { t: 'HSK 2 · Giao tiếp hằng ngày', d: 'Mở khi đạt kiểm tra cuối HSK 1', s: 'locked' },
+      { t: 'HSK 3 · Tự lập', d: 'Mở khi đạt kiểm tra cuối HSK 2', s: 'locked' }
+    ];
+    function stageCard(s) {
+      var badge = s.s === 'done' ? '<span class="badge badge-success">Xong</span>' : s.s === 'on' ? '<span class="badge badge-blue">Đang học</span>' : '<i data-i="lock" style="color:var(--meta)"></i>';
+      var h = '<div class="card stage ' + s.s + '"><div class="row between"><b>' + s.t + '</b>' + badge + '</div>' +
+        (s.p ? '<div class="progress sm"><i style="--v:' + s.p + '%"></i></div>' : '') +
+        '<p class="small muted">' + s.d + '</p>' +
+        (s.cert ? '<p class="small"><span class="badge badge-warn"><i data-i="award" style="width:14px;height:14px"></i>Chứng nhận HSK 1</span> sau bài kiểm tra cuối</p>' : '') + '</div>';
+      return s.href ? '<a href="' + s.href + '" style="color:inherit;text-decoration:none;display:block">' + h + '</a>' : h;
+    }
+    document.querySelectorAll('[data-stages]').forEach(function (el) { el.innerHTML = STAGES.map(stageCard).join(''); });
+
+    // Trail data: x offsets create the winding path
+    var T2 = [{ k: 'done', c: '我', x: -28 }, { k: 'test done', c: '★', x: 12 }];
+    var T3 = [
+      { k: 'done', c: '你', x: 28 },
+      { k: 'current', c: '好', x: 0, flag: 'BẮT ĐẦU' },
+      { k: 'locked', c: 'lock', x: -28, lesson: 'Bài 3 · Cảm ơn & xin lỗi' },
+      { k: 'locked', c: 'lock', x: -8, lesson: 'Bài 4 · Tạm biệt' },
+      { k: 'locked test', c: 'star', x: 12, lesson: 'Ôn tập chủ đề 3' }
+    ];
+    var openPop = null, openSlot = null;
+    function render(id, data) {
+      var el = document.getElementById(id);
+      data.forEach(function (n, i) {
+        var slot = document.createElement('div');
+        slot.className = 'slot'; slot.style.setProperty('--x', n.x + 'px');
+        var b = document.createElement('button');
+        var locked = n.k.indexOf('locked') > -1, test = n.k.indexOf('test') > -1;
+        b.className = 'node ' + n.k;
+        b.setAttribute('data-od-id', id + '-node-' + (i + 1));
+        if (n.flag) b.dataset.flag = n.flag;
+        b.innerHTML = locked && !test ? '<i data-i="lock"></i>' : test ? '<i data-i="star"></i>' : n.c;
+        if (!locked && !test) b.setAttribute('lang', 'zh');
+        b.setAttribute('aria-label', test ? 'Ôn tập chủ đề' : locked ? 'Bài bị khóa' : n.k.indexOf('current') > -1 ? 'Bài hiện tại: Bạn tên gì?' : 'Bài đã hoàn thành');
+        slot.appendChild(b);
+        b.addEventListener('click', function () { pop(slot, n, locked); });
+        el.appendChild(slot);
+      });
+    }
+    function pop(slot, n, locked) {
+      var same = openSlot === slot;
+      if (openPop) { openPop.remove(); openPop = null; openSlot = null; }
+      if (same) return;
+      var p = document.createElement('div');
+      p.setAttribute('role', 'status');
+      if (locked) {
+        p.className = 'pop lock';
+        p.innerHTML = '<b>' + n.lesson + '</b><p>' + (n.k.indexOf('test') > -1 ? 'Hoàn thành các bài của chủ đề này để mở bài ôn tập.' : 'Hoàn thành bài 2 để mở khóa bài này.') + '</p>';
+      } else if (n.k.indexOf('current') > -1) {
+        p.className = 'pop';
+        p.innerHTML = '<p class="eyebrow">Bài 2 / 5 · khoảng 7 phút</p><b style="font:800 var(--text-lg) var(--font-display)">Bạn tên gì?</b><p>6 từ mới · nghe · nói · đọc · viết</p><a class="btn btn-white btn-block" style="margin-top:12px" href="lesson.html" data-od-id="start-lesson-2">Bắt đầu</a>';
+      } else {
+        p.className = 'pop';
+        p.innerHTML = '<b>Đã hoàn thành</b><p>Bạn có thể học lại bất cứ lúc nào.</p><a class="btn btn-white btn-sm" style="margin-top:8px" href="lesson.html">Học lại</a>';
+      }
+      p.style.setProperty('--ax', 'calc(50% + ' + n.x + 'px)');
+      slot.insertAdjacentElement('afterend', p);
+      openPop = p; openSlot = slot;
+    }
+    render('trail-2', T2); render('trail-3', T3);
+    OD.icons();
+    var mq = window.matchMedia('(min-width:1100px)');
+    function rail() { document.getElementById('stage-rail').style.display = mq.matches ? 'grid' : 'none'; }
+    rail(); mq.addEventListener('change', rail);
+  })();
+</script>
+</body>
+</html>

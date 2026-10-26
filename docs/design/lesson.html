@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bài 2: Chào hỏi · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body>
+<div class="focus" id="lesson">
+  <header class="focus-top">
+    <button class="icon-btn" data-open="#exit" aria-label="Thoát bài học" data-od-id="lesson-exit"><i data-i="close"></i></button>
+    <div class="progress" role="progressbar" aria-label="Tiến độ bài học" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="bar"><i style="--v:0%"></i></div>
+    <span class="small muted" id="count" style="min-width:36px;text-align:right;font-weight:700">1/8</span>
+  </header>
+
+  <main class="focus-body" id="stage" data-od-id="lesson-stage" aria-live="polite"></main>
+
+  <footer class="focus-foot" id="foot">
+    <div class="inner">
+      <div class="verdict" id="verdict" hidden></div>
+      <button class="btn btn-secondary btn-quiet" id="report" data-open="#reportdlg" hidden><i data-i="flag" style="width:18px;height:18px"></i>Báo lỗi</button>
+      <button class="btn btn-primary" id="act" data-od-id="lesson-action">Tiếp</button>
+    </div>
+  </footer>
+</div>
+
+<dialog id="exit" class="sheet" aria-labelledby="exit-h">
+  <div class="dlg-body center">
+    <h2 id="exit-h">Thoát giữa chừng?</h2>
+    <p class="muted">Vị trí được lưu, lần sau bạn học tiếp đúng chỗ này.</p>
+    <button class="btn btn-primary btn-block" data-close>Ở lại học tiếp</button>
+    <a class="btn btn-quiet btn-block" href="path.html" style="color:var(--danger)">Lưu và thoát</a>
+  </div>
+</dialog>
+
+<dialog id="reportdlg" class="sheet" aria-labelledby="rep-h">
+  <form class="dlg-body" method="dialog" id="repform">
+    <div class="row between"><h2 id="rep-h">Báo lỗi nội dung</h2><button type="button" class="icon-btn" data-close aria-label="Đóng"><i data-i="close"></i></button></div>
+    <div class="field"><label for="rep-type">Loại lỗi</label>
+      <select id="rep-type"><option>Sai pinyin</option><option>Sai nghĩa</option><option>Sai Hán Việt</option><option>Sai audio</option><option>Câu ví dụ không tự nhiên</option><option>Chấm sai</option><option>Khác</option></select></div>
+    <div class="field"><label for="rep-desc">Mô tả (không bắt buộc)</label><textarea id="rep-desc" rows="3" maxlength="500" placeholder="Bạn thấy sai ở đâu?"></textarea></div>
+    <button class="btn btn-primary btn-block" value="ok">Gửi báo lỗi</button>
+  </form>
+</dialog>
+
+<!-- Guest sign-up invitation, shown after the first trial lesson -->
+<dialog id="invite" class="sheet" aria-labelledby="inv-h">
+  <div class="dlg-body center">
+    <div class="hz hz-lg" lang="zh" style="color:var(--accent)">存</div>
+    <p class="small muted"><span class="py">cún</span> · <span class="hv">tồn</span> · lưu giữ</p>
+    <div><h2 id="inv-h">Lưu lại tiến độ của bạn</h2>
+    <p class="muted" style="margin-top:8px">Bạn đã học <b>6 từ</b>. Tạo tài khoản để không mất tiến độ, học tiếp trên máy khác và nhận chứng nhận khi hoàn thành lộ trình.</p></div>
+    <a class="btn btn-secondary btn-block" id="google" href="today.html" data-od-id="invite-google">Tiếp tục với Google</a>
+    <button class="btn btn-quiet btn-block" data-close>Để sau</button>
+    <p class="small muted">Còn 2 bài học thử trước khi cần tài khoản</p>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  var stage = document.getElementById('stage'), act = document.getElementById('act'),
+      foot = document.getElementById('foot'), verdict = document.getElementById('verdict'),
+      report = document.getElementById('report'), bar = document.getElementById('bar'), count = document.getElementById('count');
+
+  /* ── Lesson content (words from curriculum chủ đề 3) ───────── */
+  var WORDS = {
+    '你好': { py: [['nǐ', 3], ['hǎo', 3]], read: 'ní hǎo', hv: 'nhĩ hảo', en: 'hello; hi', parts: [['你', 'nhân đứng 亻(người) + 尔', 'you'], ['好', '女 (phụ nữ) + 子 (con)', 'good']], ex: ['老师好！', 'lǎoshī hǎo!', 'Hello, teacher!'] },
+    '名字': { py: [['míng', 2], ['zi', 5]], hv: 'danh tự', en: 'name', parts: [['名', '夕 (tối) + 口 (miệng)', 'name'], ['字', '宀 (mái nhà) + 子 (con)', 'character']], ex: ['你叫什么名字？', 'nǐ jiào shénme míngzi?', "What's your name?"] }
+  };
+  var steps = [
+    { t: 'intro', w: '你好' }, { t: 'intro', w: '名字' },
+    { t: 'listen', say: '谢谢', ans: '谢谢', opts: ['谢谢', '再见', '你好', '老师'], word: '谢谢' },
+    { t: 'meaning', show: '名字', ans: 'name', opts: ['name', 'teacher', 'thank you', 'goodbye'], word: '名字' },
+    { t: 'arrange', en: "What's your name?", ans: '你叫什么名字', blocks: ['名字', '什么', '你', '叫'], say: '你叫什么名字', word: '叫' },
+    { t: 'write', en: 'you', say: '你', ch: '你', word: '你好' },
+    { t: 'speak', text: '你叫什么名字？', py: [['nǐ', 3], ['jiào', 4], ['shén', 2], ['me', 5], ['míng', 2], ['zi', 5]], en: "What's your name?", word: '什么' },
+    { t: 'done' }
+  ];
+  var total = steps.length - 1, i = 0, wrongWords = {}, answered = 0, correct = 0, requeued = {}, started = Date.now();
+  var sel = null, built = [], inkDrawn = false, checked = false;
+
+  function pyHTML(arr, size) { return arr.map(function (p) { return '<span class="py t' + p[1] + '">' + p[0] + '</span>'; }).join(' '); }
+  function hzTone(w) { var d = WORDS[w]; return w.split('').map(function (c, k) { return '<span class="t' + d.py[k][1] + '">' + c + '</span>'; }).join(''); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function setFoot(mode, html) {
+    foot.className = 'focus-foot' + (mode ? ' ' + mode : '');
+    verdict.hidden = !html; verdict.innerHTML = html || '';
+    report.hidden = !mode; OD.icons(foot);
+  }
+  function progress() {
+    var v = Math.round(Math.min(i, total) / total * 100);
+    bar.firstElementChild.style.setProperty('--v', v + '%'); bar.setAttribute('aria-valuenow', v);
+    count.textContent = Math.min(i + 1, total) + '/' + total;
+  }
+
+  /* ── Renderers ─────────────────────────────────────────────── */
+  var R = {
+    intro: function (s) {
+      var d = WORDS[s.w], word = s.w;
+      stage.innerHTML =
+        '<p class="eyebrow">Từ mới</p>' +
+        '<section class="word-card" data-od-id="word-card"><div class="hz hz-xl" lang="zh">' + hzTone(word) + '</div>' +
+        '<div class="py" style="font:800 24px var(--font-display)">' + pyHTML(d.py) + '</div>' +
+        (d.read ? '<p class="small muted">đọc là <b>' + d.read + '</b> (biến điệu 3 + 3)</p>' : '') +
+        '<span class="hv">' + d.hv + '</span><p class="lead"><b>' + d.en + '</b></p>' +
+        '<div class="row"><button class="audio lg" data-say="' + word + '" aria-label="Nghe"><i data-i="volume"></i></button><button class="audio slow" data-say="' + word + '" data-rate="0.5" aria-label="Nghe chậm">0.5×</button></div></section>' +
+        '<section class="card soft"><p class="eyebrow" style="margin-bottom:8px">Tách chữ</p><ul class="parts">' +
+        d.parts.map(function (p) { return '<li><span class="hz hz-sm" lang="zh">' + p[0] + '</span><span class="grow small">' + p[1] + ' · <span class="muted">' + p[2] + '</span></span></li>'; }).join('') + '</ul></section>' +
+        '<section class="card"><p class="eyebrow" style="margin-bottom:8px">Câu mẫu</p><div class="row"><button class="audio" data-say="' + d.ex[0] + '" aria-label="Nghe câu mẫu"><i data-i="volume"></i></button><div class="grow"><div class="hz hz-sm" lang="zh">' + d.ex[0] + '</div><div class="small muted"><span class="py">' + d.ex[1] + '</span> · ' + d.ex[2] + '</div></div></div></section>';
+      act.textContent = 'Tiếp'; act.disabled = false; setFoot('');
+      OD.speak(word);
+    },
+    listen: function (s) {
+      stage.innerHTML = '<p class="eyebrow">Nghe và chọn chữ đúng</p>' +
+        '<div class="center"><button class="audio lg" data-say="' + s.say + '" aria-label="Nghe lại"><i data-i="volume"></i></button><p class="small muted" style="margin-top:8px">Bấm để nghe lại</p></div>' +
+        '<div class="choices keep2" id="opts">' + s.opts.map(function (o) { return '<button class="choice center" data-v="' + o + '" aria-pressed="false"><span class="hz hz-md" lang="zh">' + o + '</span></button>'; }).join('') + '</div>';
+      pickable(); act.textContent = 'Kiểm tra'; act.disabled = true; setFoot(''); OD.speak(s.say);
+    },
+    meaning: function (s) {
+      stage.innerHTML = '<p class="eyebrow">Chữ này nghĩa là gì?</p>' +
+        '<div class="center card soft"><div class="hz hz-xl" lang="zh">' + hzTone(s.show) + '</div><p class="py muted" style="margin-top:8px">' + pyHTML(WORDS[s.show].py) + '</p></div>' +
+        '<div class="choices keep2" id="opts">' + s.opts.map(function (o) { return '<button class="choice center" data-v="' + o + '" aria-pressed="false">' + o + '</button>'; }).join('') + '</div>';
+      pickable(); act.textContent = 'Kiểm tra'; act.disabled = true; setFoot('');
+    },
+    arrange: function (s) {
+      built = [];
+      stage.innerHTML = '<p class="eyebrow">Xếp thành câu</p><p class="lead">“' + s.en + '”</p>' +
+        '<button class="audio" data-say="' + s.say + '" aria-label="Nghe câu"><i data-i="volume"></i></button>' +
+        '<div class="answer-line" id="line"><span class="ph">Bấm các khối bên dưới</span></div>' +
+        '<div class="chips" id="bank">' + s.blocks.map(function (b, k) { return '<button class="chip" lang="zh" data-k="' + k + '">' + b + '</button>'; }).join('') + '</div>';
+      var line = document.getElementById('line'), bank = document.getElementById('bank');
+      function draw() {
+        line.innerHTML = built.length ? built.map(function (k) { return '<button class="chip" lang="zh" data-r="' + k + '">' + s.blocks[k] + '</button>'; }).join('') : '<span class="ph">Bấm các khối bên dưới</span>';
+        bank.querySelectorAll('.chip').forEach(function (c) { c.disabled = built.indexOf(+c.dataset.k) > -1; });
+        act.disabled = built.length !== s.blocks.length;
+      }
+      bank.addEventListener('click', function (e) { var c = e.target.closest('.chip'); if (c && !checked) { built.push(+c.dataset.k); draw(); } });
+      line.addEventListener('click', function (e) { var c = e.target.closest('[data-r]'); if (c && !checked) { built.splice(built.indexOf(+c.dataset.r), 1); draw(); } });
+      act.textContent = 'Kiểm tra'; act.disabled = true; setFoot('');
+    },
+    write: function (s) {
+      inkDrawn = false;
+      stage.innerHTML = '<p class="eyebrow">Viết chữ có nghĩa</p><p class="lead">“' + s.en + '”</p>' +
+        '<div class="tzg" id="pad" data-od-id="write-pad"><svg viewBox="0 0 100 100" id="ink" aria-label="Ô viết chữ"></svg></div>' +
+        '<div class="row" style="justify-content:center"><button class="btn btn-secondary btn-sm" id="clear"><i data-i="replay" style="width:18px;height:18px"></i>Xóa</button><a class="btn btn-quiet btn-sm" href="writing.html">Xem thứ tự nét</a></div>';
+      var svg = document.getElementById('ink'), pad = document.getElementById('pad'), path = null, pts = [];
+      function pos(e) { var r = pad.getBoundingClientRect(); return [(e.clientX - r.left) / r.width * 100, (e.clientY - r.top) / r.height * 100]; }
+      pad.addEventListener('pointerdown', function (e) { if (checked) return; pad.setPointerCapture(e.pointerId); pts = [pos(e)]; path = document.createElementNS('http://www.w3.org/2000/svg', 'path'); path.setAttribute('class', 'user'); svg.appendChild(path); path.setAttribute('d', 'M' + pts[0].join(' ')); });
+      pad.addEventListener('pointermove', function (e) { if (!path) return; pts.push(pos(e)); path.setAttribute('d', 'M' + pts.map(function (p) { return p.join(' '); }).join(' L')); });
+      function up() { if (path) { path = null; inkDrawn = true; act.disabled = false; } }
+      pad.addEventListener('pointerup', up); pad.addEventListener('pointercancel', up);
+      document.getElementById('clear').addEventListener('click', function () { svg.innerHTML = ''; inkDrawn = false; act.disabled = true; });
+      act.textContent = 'Kiểm tra'; act.disabled = true; setFoot('');
+    },
+    speak: function (s) {
+      stage.innerHTML = '<p class="eyebrow">Nói lại câu này</p>' +
+        '<div class="card center stack-3"><div class="hz hz-md" lang="zh">' + s.text + '</div><div class="py" style="font-weight:700">' + pyHTML(s.py) + '</div><p class="small muted">' + s.en + '</p>' +
+        '<div class="row" style="justify-content:center"><button class="audio lg" data-say="' + s.text + '" aria-label="Nghe mẫu"><i data-i="volume"></i></button><button class="audio slow" data-say="' + s.text + '" data-rate="0.5">0.5×</button></div></div>' +
+        '<div class="center stack-3" id="rec"><div class="wave" id="wave" aria-hidden="true"></div><button class="mic" id="mic" aria-label="Bấm để thu âm"><i data-i="mic"></i></button><p class="small" id="micmsg"><b>Bấm micro và nói</b></p></div>';
+      var wave = document.getElementById('wave'), mic = document.getElementById('mic'), msg = document.getElementById('micmsg'), tm, iv;
+      wave.innerHTML = new Array(11).join('<i></i>');
+      mic.addEventListener('click', function () {
+        if (checked) return;
+        if (mic.classList.contains('rec')) { stop(); return; }
+        mic.classList.add('rec'); msg.innerHTML = '<b>Đang nghe…</b> bấm lần nữa khi nói xong';
+        iv = setInterval(function () { wave.querySelectorAll('i').forEach(function (b) { b.style.height = (8 + Math.random() * 38) + 'px'; }); }, 120);
+        tm = setTimeout(stop, 6000);
+      });
+      function stop() {
+        clearInterval(iv); clearTimeout(tm); mic.classList.remove('rec');
+        wave.querySelectorAll('i').forEach(function (b) { b.style.height = '8px'; });
+        inkDrawn = true; act.disabled = false; msg.innerHTML = '<b>Đã thu âm.</b> Bấm Kiểm tra để chấm điểm.';
+      }
+      act.textContent = 'Kiểm tra'; act.disabled = true; setFoot('');
+    }
+  };
+
+  function pickable() {
+    sel = null;
+    document.getElementById('opts').addEventListener('click', function (e) {
+      var c = e.target.closest('.choice'); if (!c || checked) return;
+      sel = c.dataset.v;
+      document.querySelectorAll('#opts .choice').forEach(function (o) { o.setAttribute('aria-pressed', String(o === c)); });
+      act.disabled = false;
+    });
+  }
+
+  /* ── Flow ──────────────────────────────────────────────────── */
+  function show() {
+    checked = false; sel = null; progress();
+    var s = steps[i];
+    if (s.t === 'done') return finish();
+    R[s.t](s); OD.icons(stage); window.scrollTo(0, 0);
+  }
+  function grade(ok, extra) {
+    checked = true; answered++; if (ok) correct++; else wrongWords[steps[i].word] = true;
+    setFoot(ok ? 'ok' : 'bad', '<i data-i="' + (ok ? 'check' : 'close') + '" style="width:36px;height:36px;color:var(--' + (ok ? 'accent-active' : 'danger-deep') + ')"></i><div><b>' + (ok ? ['Chính xác!', 'Tuyệt vời!', 'Làm tốt lắm!'][i % 3] : 'Chưa đúng') + '</b><span class="small">' + (extra || '') + '</span></div>');
+    act.textContent = 'Tiếp tục'; act.disabled = false; act.className = 'btn ' + (ok ? 'btn-primary' : 'btn-danger');
+    if (!ok && !requeued[i]) { requeued[i] = true; var again = Object.assign({}, steps[i]); steps.splice(steps.length - 1, 0, again); total = steps.length - 1; }
+  }
+  act.addEventListener('click', function () {
+    var s = steps[i];
+    if (s.t === 'intro' || checked) { act.className = 'btn btn-primary'; i++; show(); return; }
+    if (s.t === 'listen' || s.t === 'meaning') {
+      var ok = sel === s.ans;
+      document.querySelectorAll('#opts .choice').forEach(function (c) { c.disabled = true; if (c.dataset.v === s.ans) c.classList.add('ok'); else if (c.dataset.v === sel) c.classList.add('bad'); });
+      grade(ok, ok ? '' : 'Đáp án: <b>' + s.ans + '</b>');
+    } else if (s.t === 'arrange') {
+      var ok2 = built.map(function (k) { return s.blocks[k]; }).join('') === s.ans;
+      grade(ok2, ok2 ? '' : 'Đáp án: <span class="hz hz-sm" lang="zh">' + s.ans + '？</span>');
+    } else if (s.t === 'write') {
+      grade(true, 'Bạn có thể luyện chấm từng nét ở mục Luyện viết.');
+    } else if (s.t === 'speak') {
+      var weak = 2, score = 78;
+      document.getElementById('rec').innerHTML =
+        '<p class="eyebrow">Điểm phát âm</p><div class="score" style="color:var(--accent-active)">' + score + '</div><p class="small" style="color:var(--accent-active);font-weight:800">Đạt (từ 60)</p>' +
+        '<div class="row wrap" style="justify-content:center;gap:8px">' + s.py.map(function (p, k) { var ch = '你叫什么名字'[k]; return '<span class="syl' + (k === weak ? ' bad' : '') + '"><span class="hz hz-sm" lang="zh">' + ch + '</span><small class="py">' + p[0] + (k === weak ? ' ✗' : ' ✓') + '</small></span>'; }).join('') + '</div>' +
+        '<div class="note bad" style="text-align:left"><svg class="contour" viewBox="0 0 60 40"><path d="' + OD.CONTOUR[2] + '" style="stroke:var(--tone-2)"/><path d="' + OD.CONTOUR[1] + '" style="stroke:var(--danger);stroke-dasharray:4 5"/></svg><div><b>什 shén</b> cần <b>thanh 2</b> (đi lên), bạn đọc gần thanh 1 (ngang).<br><span class="small">Mẹo: giống thanh sắc tiếng Việt, kéo giọng lên.</span></div></div>';
+      grade(true, 'Câu này sẽ quay lại trong ôn tập.');
+    }
+    OD.icons(document.getElementById('foot'));
+  });
+
+  function finish() {
+    var acc = answered ? Math.round(correct / answered * 100) : 100, mins = Math.max(1, Math.round((Date.now() - started) / 60000));
+    var list = [['你好', 'nǐ hǎo · hello'], ['名字', 'míngzi · name'], ['谢谢', 'xièxie · thank you'], ['叫', 'jiào · to be called'], ['什么', 'shénme · what'], ['你', 'nǐ · you']];
+    stage.innerHTML = '<div class="center stack-4"><div class="mark" lang="zh">好</div><h1>Xong bài 2!</h1></div>' +
+      '<div class="summary"><div class="card s-xp"><b>6</b><span class="small muted">từ mới</span></div><div class="card s-acc"><b>' + acc + '%</b><span class="small muted">chính xác</span></div><div class="card s-time"><b>' + mins + '′</b><span class="small muted">thời gian</span></div></div>' +
+      '<section class="card"><p class="eyebrow" style="margin-bottom:4px">Từ đã học · đã thêm vào ôn tập</p><ul class="list">' + list.map(function (w) {
+        var bad = wrongWords[w[0]];
+        return '<li><span class="hz hz-sm" lang="zh" style="min-width:56px">' + w[0] + '</span><span class="grow small py keep">' + w[1] + '</span><span class="badge ' + (bad ? 'badge-danger">Sai 1 lần' : 'badge-success"><i data-i="check" style="width:14px;height:14px"></i>') + '</span></li>';
+      }).join('') + '</ul></section>';
+    bar.firstElementChild.style.setProperty('--v', '100%'); count.textContent = '';
+    act.textContent = 'Bài tiếp theo'; act.className = 'btn btn-primary'; act.disabled = false; setFoot('');
+    act.onclick = function () { location.href = 'path.html'; };
+    act.replaceWith(act.cloneNode(true)); act = document.getElementById('act'); act.addEventListener('click', function () { location.href = 'path.html'; });
+    var home = document.createElement('a'); home.className = 'btn btn-secondary'; home.href = 'today.html'; home.textContent = 'Về Hôm nay'; foot.querySelector('.inner').insertBefore(home, act);
+    OD.icons(stage);
+    if (localStorage.getItem('od.guest') !== 'false') setTimeout(function () { document.getElementById('invite').showModal(); }, 500);
+  }
+  document.getElementById('google').addEventListener('click', function () { try { localStorage.setItem('od.guest', 'false'); } catch (e) { /* ignore */ } });
+  document.getElementById('repform').addEventListener('submit', function () { OD.toast('Cảm ơn bạn, mình đã ghi nhận báo lỗi.'); });
+  show();
+})();
+</script>
+</body>
+</html>

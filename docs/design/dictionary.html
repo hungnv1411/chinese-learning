@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tra từ · Tiếng Trung</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</head>
+<body data-nav="dictionary">
+<main class="main wide" id="main">
+  <header class="topbar"><h1>Tra từ</h1></header>
+
+  <div class="split" id="split">
+    <section class="results stack-4" aria-label="Kết quả tra cứu">
+      <div class="searchbox field" data-od-id="dict-search">
+        <label class="sr-only" for="q">Tìm từ</label>
+        <i data-i="search"></i>
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Chữ Hán, pinyin, English, Hán Việt" value="hao">
+      </div>
+      <div class="seg" id="kinds" role="group" aria-label="Loại tra cứu" style="overflow-x:auto">
+        <button data-k="all" aria-pressed="true">Tất cả</button><button data-k="hanzi" aria-pressed="false">Chữ Hán</button><button data-k="pinyin" aria-pressed="false">Pinyin</button><button data-k="en" aria-pressed="false">English</button><button data-k="hv" aria-pressed="false">Hán Việt</button>
+      </div>
+      <ul class="stack-2" id="list" data-od-id="dict-results"></ul>
+      <section id="recent" aria-label="Tra gần đây"><p class="eyebrow" style="margin-bottom:8px">Tra gần đây</p><div class="row wrap" style="gap:8px" id="recent-chips"></div></section>
+      <div class="card soft row" data-od-id="draw-lookup"><span class="tile blue" style="width:44px;height:44px"><i data-i="pencil"></i></span><div class="grow small"><b>Vẽ chữ để tra</b><div class="muted">Khi không biết cách đọc. Sắp có.</div></div></div>
+    </section>
+
+    <article class="detail card" id="detail" aria-live="polite" data-od-id="word-detail"></article>
+  </div>
+</main>
+
+<script>
+(function () {
+  var D = [
+    { w: '好', py: 'hǎo', plain: 'hao', t: [3], hv: 'hảo', en: 'good; well; proper', lv: 'HSK 1', pos: 'tính từ', chars: [['好', 'hǎo', 'hảo', '女 + 子']], ex: [['你好！', 'Hello!'], ['这个很好。', 'This is very good.']], more: ['好吃', '好看', '你好'] },
+    { w: '号', py: 'hào', plain: 'hao', t: [4], hv: 'hiệu', en: 'number; day of month', lv: 'HSK 1', pos: 'danh từ', chars: [['号', 'hào', 'hiệu', '口 + 丂']], ex: [['今天几号？', 'What is the date today?']], more: ['号码'] },
+    { w: '好吃', py: 'hǎochī', plain: 'haochi', t: [3, 1], hv: 'hảo ngật', en: 'tasty; delicious', lv: 'HSK 1', pos: 'tính từ', trad: '好吃', chars: [['好', 'hǎo', 'hảo', '女 + 子'], ['吃', 'chī', 'ngật', '口 + 乞']], ex: [['这个很好吃。', 'This is delicious.'], ['中国菜好吃吗？', 'Is Chinese food tasty?']], more: ['好看', '好喝', '小吃', '吃饭'] },
+    { w: '豪', py: 'háo', plain: 'hao', t: [2], hv: 'hào', en: 'grand; heroic', lv: '', pos: 'tính từ', chars: [['豪', 'háo', 'hào', '高 + 豕']], ex: [], more: [] },
+    { w: '名字', py: 'míngzi', plain: 'mingzi', t: [2, 5], hv: 'danh tự', en: 'name', lv: 'HSK 1', pos: 'danh từ', chars: [['名', 'míng', 'danh', '夕 + 口'], ['字', 'zì', 'tự', '宀 + 子']], ex: [['你叫什么名字？', "What's your name?"]], more: ['叫', '什么'] },
+    { w: '谢谢', py: 'xièxie', plain: 'xiexie', t: [4, 5], hv: 'tạ tạ', en: 'thank you; thanks', lv: 'HSK 1', pos: 'động từ', chars: [['谢', 'xiè', 'tạ', '讠 + 身 + 寸']], ex: [['谢谢你。', 'Thank you.']], more: ['不客气'] },
+    { w: '学习', py: 'xuéxí', plain: 'xuexi', t: [2, 2], hv: 'học tập', en: 'to learn; to study', lv: 'HSK 1', pos: 'động từ', chars: [['学', 'xué', 'học', '⺍ + 冖 + 子'], ['习', 'xí', 'tập', '丨 + 习']], ex: [['我在学习汉语。', 'I am studying Chinese.']], more: ['学生', '学校'] },
+    { w: '老师', py: 'lǎoshī', plain: 'laoshi', t: [3, 1], hv: 'lão sư', en: 'teacher', lv: 'HSK 1', pos: 'danh từ', chars: [['老', 'lǎo', 'lão', '耂 + 匕'], ['师', 'shī', 'sư', '丨 + 帀']], ex: [['老师好！', 'Hello, teacher!']], more: ['学生'] },
+    { w: '再见', py: 'zàijiàn', plain: 'zaijian', t: [4, 4], hv: 'tái kiến', en: 'goodbye', lv: 'HSK 1', pos: 'động từ', chars: [['再', 'zài', 'tái', '一 + 冉'], ['见', 'jiàn', 'kiến', '冂 + 儿']], ex: [['明天见！', 'See you tomorrow!']], more: [] }
+  ];
+  var q = document.getElementById('q'), list = document.getElementById('list'), detail = document.getElementById('detail'), split = document.getElementById('split'), kind = 'all', current = null;
+  var recent = ['名字', '谢谢', '学习'];
+  function strip(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase().replace(/[0-9\s]/g, ''); }
+  function coloredPy(d) { var parts = d.py.match(/[^aeiouüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]*[aeiouüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+(?:ng|n|r)?(?![aeiouüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ])/g) || [d.py];
+    return d.t.length === parts.length ? parts.map(function (p, i) { return '<span class="t' + d.t[i] + '">' + p + '</span>'; }).join('') : '<span class="t' + d.t[0] + '">' + d.py + '</span>'; }
+  function hzColored(d) { return d.w.split('').map(function (c, i) { return '<span class="t' + (d.t[i] || 5) + '">' + c + '</span>'; }).join(''); }
+  function matches(d, v) {
+    if (!v) return true; var s = strip(v), raw = v.trim().toLowerCase();
+    var by = { hanzi: d.w.indexOf(v.trim()) > -1, pinyin: strip(d.py).indexOf(s) > -1, en: d.en.toLowerCase().indexOf(raw) > -1, hv: strip(d.hv).indexOf(s) > -1 };
+    return kind === 'all' ? by.hanzi || by.pinyin || by.en || by.hv : by[kind];
+  }
+  function renderList() {
+    var rs = D.filter(function (d) { return matches(d, q.value); }).sort(function (a, b) { return (b.lv ? 1 : 0) - (a.lv ? 1 : 0); });
+    list.innerHTML = rs.length ? rs.map(function (d, i) {
+      return '<li><button class="result" data-w="' + d.w + '" aria-current="' + (current && current.w === d.w) + '" data-od-id="result-' + (i + 1) + '"><span class="hz hz-md" lang="zh">' + hzColored(d) + '</span><span class="grow"><b class="py">' + coloredPy(d) + '</b> · <span class="hv">' + d.hv + '</span><br><span class="small">' + d.en + '</span></span>' + (d.lv ? '<span class="badge badge-streak">' + d.lv + '</span>' : '') + '</button></li>';
+    }).join('') : '<li class="card soft center" style="padding:var(--space-8) var(--space-4)"><b>Không tìm thấy “' + q.value.replace(/</g, '&lt;') + '”</b><p class="small muted" style="margin-top:4px">Thử gõ pinyin không dấu, chữ Hán, nghĩa tiếng Anh hoặc âm Hán Việt.</p></li>';
+  }
+  function renderDetail(d) {
+    current = d; split.classList.add('showing-detail');
+    detail.innerHTML =
+      '<button class="btn btn-quiet btn-sm only-mobile" id="back" style="margin-bottom:8px"><i data-i="back" style="width:18px;height:18px"></i>Kết quả</button>' +
+      '<div class="row" style="align-items:flex-start;gap:var(--space-5)"><div class="hz hz-lg" lang="zh">' + hzColored(d) + '</div>' +
+      '<div class="grow stack-2"><div class="row"><span class="py" style="font:800 var(--text-xl) var(--font-display)">' + coloredPy(d) + '</span><button class="audio" data-say="' + d.w + '" aria-label="Nghe"><i data-i="volume"></i></button></div><span class="hv">' + d.hv + '</span></div>' +
+      '<div class="row" style="gap:0"><button class="icon-btn" data-copy="url" aria-label="Chia sẻ"><i data-i="share"></i></button><button class="icon-btn" data-toast="Đã đánh dấu từ này" aria-label="Đánh dấu"><i data-i="star"></i></button></div></div>' +
+      '<div class="row wrap" style="gap:8px;margin-top:var(--space-4)">' + (d.lv ? '<span class="badge badge-streak">' + d.lv + '</span>' : '') + '<span class="badge">' + d.pos + '</span>' + (d.trad ? '<span class="badge">phồn thể: ' + d.trad + '</span>' : '') + '</div>' +
+      '<p class="lead" style="margin-top:var(--space-3)"><b>' + d.en + '</b></p>' +
+      '<button class="btn btn-primary btn-block" id="add" style="margin-top:var(--space-4)"><i data-i="plus" style="width:18px;height:18px"></i>Thêm vào ôn tập</button>' +
+      '<h3 style="margin-top:var(--space-6)">Từng chữ</h3><div class="choices keep2" style="margin-top:var(--space-3)">' + d.chars.map(function (c) { return '<a class="card" href="writing.html" style="text-decoration:none;color:inherit"><div class="row"><span class="hz hz-md" lang="zh">' + c[0] + '</span><div class="small"><b class="py">' + c[1] + '</b> · <span class="hv">' + c[2] + '</span><div class="muted" lang="zh">' + c[3] + '</div></div></div></a>'; }).join('') + '</div>' +
+      '<a class="btn btn-secondary btn-block" href="writing.html" style="margin-top:var(--space-3)">Xem thứ tự nét</a>' +
+      (d.ex.length ? '<h3 style="margin-top:var(--space-6)">Câu ví dụ</h3><ul class="list">' + d.ex.map(function (e) { return '<li><button class="audio" data-say="' + e[0] + '" aria-label="Nghe câu"><i data-i="volume"></i></button><div class="grow"><div class="hz hz-sm" lang="zh">' + e[0] + '</div><div class="small muted">' + e[1] + '</div></div></li>'; }).join('') + '</ul>' : '') +
+      (d.more.length ? '<h3 style="margin-top:var(--space-4)">Từ cùng chữ</h3><div class="row wrap" style="gap:8px;margin-top:var(--space-3)">' + d.more.map(function (m) { return '<button class="badge" lang="zh" data-jump="' + m + '" style="font-size:var(--text-sm)">' + m + '</button>'; }).join('') + '</div>' : '') +
+      '<p class="small muted" style="margin-top:var(--space-6)">Nguồn: CC-CEDICT · Tatoeba · Unihan · <a href="sources.html">Nguồn dữ liệu và giấy phép</a></p>' +
+      '<button class="btn btn-quiet btn-sm" data-open="#reportdlg" style="margin-top:var(--space-2)"><i data-i="flag" style="width:16px;height:16px"></i>Báo lỗi</button>';
+    OD.icons(detail); renderList();
+    var add = document.getElementById('add'); add.addEventListener('click', function () { add.disabled = true; add.textContent = 'Đã thêm vào ôn tập'; OD.toast('Đã thêm “' + d.w + '” vào hàng ôn tập'); });
+    var back = document.getElementById('back'); if (back) back.addEventListener('click', function () { split.classList.remove('showing-detail'); });
+    if (recent.indexOf(d.w) < 0) { recent.unshift(d.w); recent = recent.slice(0, 6); renderRecent(); }
+  }
+  function renderRecent() { document.getElementById('recent-chips').innerHTML = recent.map(function (r) { return '<button class="badge" lang="zh" data-jump="' + r + '" style="font-size:var(--text-sm)">' + r + '</button>'; }).join(''); }
+  function find(w) { return D.filter(function (d) { return d.w === w; })[0]; }
+  document.addEventListener('click', function (e) {
+    var r = e.target.closest('.result'); if (r) { renderDetail(find(r.dataset.w)); return; }
+    var j = e.target.closest('[data-jump]'); if (j) { var d = find(j.dataset.jump); if (d) renderDetail(d); else { q.value = j.dataset.jump; split.classList.remove('showing-detail'); renderList(); } }
+  });
+  q.addEventListener('input', function () { split.classList.remove('showing-detail'); renderList(); });
+  document.getElementById('kinds').addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; kind = b.dataset.k; document.querySelectorAll('#kinds button').forEach(function (o) { o.setAttribute('aria-pressed', String(o === b)); }); renderList(); });
+  renderList(); renderRecent(); renderDetail(find('好吃')); split.classList.remove('showing-detail');
+})();
+</script>
+
+<dialog id="reportdlg" class="sheet" aria-labelledby="rep-h">
+  <form class="dlg-body" method="dialog" id="repform">
+    <div class="row between"><h2 id="rep-h">Báo lỗi nội dung</h2><button type="button" class="icon-btn" data-close aria-label="Đóng"><i data-i="close"></i></button></div>
+    <div class="field"><label for="rep-type">Loại lỗi</label><select id="rep-type"><option>Sai pinyin</option><option>Sai nghĩa</option><option>Sai Hán Việt</option><option>Sai audio</option><option>Câu ví dụ không tự nhiên</option><option>Khác</option></select></div>
+    <div class="field"><label for="rep-desc">Mô tả (không bắt buộc)</label><textarea id="rep-desc" rows="3" maxlength="500" placeholder="Bạn thấy sai ở đâu?"></textarea></div>
+    <button class="btn btn-primary btn-block" value="ok">Gửi báo lỗi</button>
+  </form>
+</dialog>
+<script>document.getElementById('repform').addEventListener('submit', function () { OD.toast('Cảm ơn bạn, mình đã ghi nhận báo lỗi.'); });</script>
+</body>
+</html>
