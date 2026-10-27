@@ -10,3 +10,4 @@ node_modules
 *.yml
 *.yaml
 src/apps/web/styles
+src/apps/web/public

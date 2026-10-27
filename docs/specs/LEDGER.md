@@ -41,7 +41,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 5 | 00-5 | Better Auth Google, phiên 30 ngày, bearer, `getViewer` | 00-4 | ✅ | 3 test `getViewer` (bearer, cookie, khách) xanh với phiên tạo trong DB; đăng nhập Google thật chưa thử tay |
 | 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ✅ | 47 test core xanh (Docker); bản Python ở 01-1/08a-3 đọc cùng fixture |
 | 7 | 00-API | `handler`, `requireUser`, `rateLimit`, định dạng lỗi | 00-5 | ✅ | 10 test xanh |
-| 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS tách + test token xanh; còn font Mona Sans, `/dev/ui` chưa xem trên trình duyệt |
+| 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS tách + test token + font Mona Sans tự host; `/dev/ui` chưa xem trên trình duyệt |
 | 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | 🟨 | Test Vitest xanh; Playwright 9 viewport chưa chạy (cần trình duyệt) |
 | 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | 🟨 | Viết trong `src/e2e/tests/layout.spec.ts`, chưa chạy |
 | 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | ✅ | 10 test Vitest xanh |

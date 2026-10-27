@@ -22,5 +22,5 @@
 ## 00-UI1: CSS và font
 - Phần 6 của `styles.css` (screen modules) đã được cắt sẵn thành `styles/screens/<màn hình>.css` (nguyên văn), thay vì để từng module tự chép. Riêng phần “Launcher” (gallery, tile, page-hero) của `index.html` không port vì không làm route.
 - `.card.row` (cuối file design) chuyển vào `components.css`; các quy tắc scrollbar mobile vào `shell.css`.
-- Font Mona Sans (`next/font/local`) chưa thêm: cần tải file OFL, làm khi có mạng. Stack fallback của design vẫn hoạt động.
+- Font Mona Sans (SIL OFL 1.1) tự host ở `public/fonts/` (3 tập con latin, latin-ext, vietnamese, bản biến thiên 200–900, tải từ npm `@fontsource-variable/mona-sans` 5.3.0). Dùng `@font-face` trong `styles/fonts.css` thay vì `next/font/local`, vì token `--font-body` yêu cầu đúng tên họ “Mona Sans” và cần `unicode-range` cho tiếng Việt. Cần ghi nguồn phông ở trang Nguồn dữ liệu (01-9 / 13-4).
 - `/dev/ui` hiện chỉ dùng class của design (button, badge, progress, field, switch, màu thanh); các component React (`Hanzi`, `Sheet`…) thêm ở 00-UI4.
