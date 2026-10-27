@@ -18,3 +18,9 @@
 - ID của bảng Better Auth là `text`. `exam_attempt.id` và `certificate.id` là `uuid`.
 - Test schema chạy với `TEST_DATABASE_URL` (tự tạo/xóa database riêng); không có biến thì bỏ qua. Service `node` trong compose dev đặt sẵn biến này và nối mạng `internal` để tới `db`.
 - Migration SQL sinh bằng `pnpm -F @clp/web db:generate` (drizzle-kit) và commit vào `db/migrations/`.
+
+## 00-UI1: CSS và font
+- Phần 6 của `styles.css` (screen modules) đã được cắt sẵn thành `styles/screens/<màn hình>.css` (nguyên văn), thay vì để từng module tự chép. Riêng phần “Launcher” (gallery, tile, page-hero) của `index.html` không port vì không làm route.
+- `.card.row` (cuối file design) chuyển vào `components.css`; các quy tắc scrollbar mobile vào `shell.css`.
+- Font Mona Sans (`next/font/local`) chưa thêm: cần tải file OFL, làm khi có mạng. Stack fallback của design vẫn hoạt động.
+- `/dev/ui` hiện chỉ dùng class của design (button, badge, progress, field, switch, màu thanh); các component React (`Hanzi`, `Sheet`…) thêm ở 00-UI4.

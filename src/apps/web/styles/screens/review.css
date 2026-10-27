@@ -1,0 +1,10 @@
+/* Screen: review. */
+/* Review */
+.flash { display: grid; place-items: center; align-content: center; gap: var(--space-3); min-height: 320px; padding: var(--space-8) var(--space-4); text-align: center; cursor: pointer; }
+.flash .back-face { display: grid; gap: var(--space-2); justify-items: center; }
+.mastery { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-3); text-align: center; }
+.mastery .card { padding: var(--space-3) var(--space-1); }
+.mastery b { display: block; font: 800 var(--text-2xl)/1 var(--font-display); }
+.big-num { font: 800 clamp(56px, 12vw, 80px)/1 var(--font-display); color: var(--blue-deep); }
+.rate { display: grid; grid-template-columns: repeat(var(--n, 2), 1fr); gap: var(--space-3); }
+.rate .choice { flex-direction: column; gap: 2px; }

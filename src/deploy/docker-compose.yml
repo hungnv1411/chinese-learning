@@ -88,6 +88,26 @@ services:
       retries: 10
     networks: [internal]
 
+  # Sao lưu hằng đêm lên R2, giữ 14 bản (00-7). Cần ra Internet nên nối thêm edge.
+  backup:
+    build:
+      context: ./backup
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-clp}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-clp}
+      R2_ACCOUNT_ID: ${R2_ACCOUNT_ID:-}
+      R2_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
+      R2_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
+      AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
+      AWS_DEFAULT_REGION: auto
+      R2_BUCKET: ${R2_BUCKET:-}
+      KEEP: "14"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [edge, internal]
+
 volumes:
   pgdata:
   caddy_data:

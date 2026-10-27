@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { getConfig } from '@/lib/config';
+import '@/styles/index.css';
 
 // Cấu hình đọc lúc chạy (SITE_NAME), không đọc lúc build.
 export const dynamic = 'force-dynamic';

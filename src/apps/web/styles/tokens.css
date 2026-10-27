@@ -1,0 +1,82 @@
+/* Port nguyên văn từ docs/design/styles.css, phần 1–2 (token). Không đổi giá trị. */
+/* ─── 1. Duolingo tokens (verbatim) ─────────────────────────────── */
+:root {
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --surface-warm: var(--surface);
+  --fg: #3c3c3c;
+  --fg-2: var(--fg);
+  --muted: #777777;
+  --meta: #afafaf;
+  --border: #e5e5e5;
+  --border-soft: var(--border);
+  --accent: #58cc02;
+  --accent-on: #ffffff;
+  --accent-hover: #89e219;
+  --accent-active: #58a700;
+  --success: #58cc02;
+  --warn: #ffc800;
+  --danger: #ff4b4b;
+  --font-display: "Feather Bold", "DIN Round Pro", "Helvetica Neue", sans-serif;
+  --font-body: "Mona Sans", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 40px;
+  --text-4xl: 56px;
+  --leading-body: 1.5;
+  --leading-tight: 1.15;
+  --tracking-display: -0.01em;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 80px;
+  --section-y-tablet: 56px;
+  --section-y-phone: 40px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 2px var(--border);
+  --elev-raised: 0 4px 0 #d7d7d7;
+  --focus-ring: 0 0 0 3px rgba(28, 176, 246, 0.2);
+  --motion-fast: 180ms;
+  --motion-base: 320ms;
+  --ease-standard: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --container-max: 1080px;
+  --container-gutter-desktop: 24px;
+  --container-gutter-tablet: 20px;
+  --container-gutter-phone: 16px;
+}
+
+/* ─── 2. App extension tokens (DESIGN.md secondary palette) ─────── */
+:root {
+  --accent-pale: #dbf8c5;
+  --blue: #1cb0f6;
+  --blue-deep: #1899d6;
+  --orange: #ff9600;
+  --orange-deep: #cc7a00;
+  --purple: #ce82ff;
+  --danger-deep: #cc3b3b;
+  --blue-pale: color-mix(in srgb, var(--blue) 14%, var(--bg));
+  --danger-pale: color-mix(in srgb, var(--danger) 14%, var(--bg));
+  --orange-pale: color-mix(in srgb, var(--orange) 15%, var(--bg));
+  --warn-deep: color-mix(in srgb, var(--warn) 75%, #000);
+  --lock-deep: color-mix(in srgb, var(--border) 82%, var(--fg));
+  --tone-1: var(--danger);
+  --tone-2: var(--accent-active);
+  --tone-3: var(--blue-deep);
+  --tone-4: color-mix(in srgb, var(--purple) 78%, #000);
+  --font-cjk: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", var(--font-body);
+  --nav-w: 0px;
+}
