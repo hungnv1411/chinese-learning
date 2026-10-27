@@ -1,0 +1,8 @@
+{
+  "name": "@clp/e2e",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "playwright test", "typecheck": "tsc -p ." },
+  "devDependencies": { "@playwright/test": "^1.49.0", "@types/node": "^22.0.0" }
+}

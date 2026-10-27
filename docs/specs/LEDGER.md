@@ -42,8 +42,8 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ✅ | 47 test core xanh (Docker); bản Python ở 01-1/08a-3 đọc cùng fixture |
 | 7 | 00-API | `handler`, `requireUser`, `rateLimit`, định dạng lỗi | 00-5 | 🟨 | Code + test viết xong, chưa chạy |
 | 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS đã tách + test token + `/dev/ui` cơ bản; còn font Mona Sans (cần tải), chưa chạy test |
-| 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | ⬜ | |
-| 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | ⬜ | |
+| 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | 🟨 | Component + test Vitest + Playwright viết xong, chưa chạy (cần cài gói, trình duyệt) |
+| 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | 🟨 | Có trong `src/e2e/tests/layout.spec.ts`, chưa chạy |
 | 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | ⬜ | |
 | 12 | 00-GW | `ProgressGateway`, `ServerGateway`, `GuestGateway`, `GuestStore` | 00-API | ⬜ | |
 | 13 | 00-AUD | `useAudio`, `audioUrl`, `AudioButton` (không dùng Web Speech API) | 00-UI4 | ⬜ | |

@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation';
+import { AppShell } from '@/components/ui/AppShell';
+import { getConfig } from '@/lib/config';
 
 // Trang xem component của design system. Chỉ có ở dev (plan 00 §5 bước 1).
 export const dynamic = 'force-dynamic';
@@ -8,7 +10,8 @@ const buttons = ['primary', 'secondary', 'blue', 'streak', 'danger', 'white', 'q
 export default function DevUi() {
   if (process.env.NODE_ENV === 'production') notFound();
   return (
-    <main className="main stack-6">
+    <AppShell siteName={getConfig().SITE_NAME}>
+      <div className="stack-6">
       <h1>/dev/ui</h1>
 
       <section className="stack-3">
@@ -65,6 +68,7 @@ export default function DevUi() {
           <span className="t5">吗</span>
         </p>
       </section>
-    </main>
+      </div>
+    </AppShell>
   );
 }
