@@ -11,3 +11,10 @@
 - Mạng: `internal` (internal: true) chứa `speech`, `db`; `web` và `caddy` nối thêm `edge` (web cần ra Internet cho Google OAuth và R2). `speech` và `db` không có `ports` ở prod; dev mở DB ở 127.0.0.1:5432.
 - `src/services/speech/app/main.py` có sẵn `/healthz` tối thiểu để compose khỏe; `/score` thuộc 08a-1.
 - Dockerfile web yêu cầu `output: 'standalone'` trong next.config (làm ở 00-3 khi dựng Next).
+
+## 00-4: schema
+- `certificate.user_id` nullable, `ON DELETE SET NULL`: xóa tài khoản không xóa chứng nhận (plan: “trừ certificate, do 03 xử lý riêng”); `name_on_certificate` giữ nguyên. 03-6 quyết định ẩn danh hay giữ.
+- Cột sinh `dict_entry.definitions_tsv` dùng hàm `clp_array_to_text` (IMMUTABLE) tạo ở `db/pre-migrate.sql`, vì `array_to_string` chỉ STABLE. `db/migrate.ts` chạy file này trước migration Drizzle (cũng chạy trong test).
+- ID của bảng Better Auth là `text`. `exam_attempt.id` và `certificate.id` là `uuid`.
+- Test schema chạy với `TEST_DATABASE_URL` (tự tạo/xóa database riêng); không có biến thì bỏ qua. Service `node` trong compose dev đặt sẵn biến này và nối mạng `internal` để tới `db`.
+- Migration SQL sinh bằng `pnpm -F @clp/web db:generate` (drizzle-kit) và commit vào `db/migrations/`.

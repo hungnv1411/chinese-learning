@@ -30,6 +30,14 @@ services:
       CI: 'true'
       COREPACK_ENABLE_DOWNLOAD_PROMPT: '0'
       npm_config_store_dir: /pnpm-store
+      DATABASE_URL: postgres://${POSTGRES_USER:-clp}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-clp}
+      # test schema tự tạo/xóa một database riêng trên server này
+      TEST_DATABASE_URL: postgres://${POSTGRES_USER:-clp}:${POSTGRES_PASSWORD}@db:5432/postgres
+    depends_on:
+      db:
+        condition: service_healthy
+    # edge để tải gói từ Internet, internal để tới db
+    networks: [edge, internal]
     volumes:
       - ../..:/repo
       - node_modules:/repo/node_modules
