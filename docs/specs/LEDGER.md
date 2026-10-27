@@ -44,9 +44,9 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS đã tách + test token + `/dev/ui` cơ bản; còn font Mona Sans (cần tải), chưa chạy test |
 | 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | 🟨 | Component + test Vitest + Playwright viết xong, chưa chạy (cần cài gói, trình duyệt) |
 | 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | 🟨 | Có trong `src/e2e/tests/layout.spec.ts`, chưa chạy |
-| 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | ⬜ | |
-| 12 | 00-GW | `ProgressGateway`, `ServerGateway`, `GuestGateway`, `GuestStore` | 00-API | ⬜ | |
-| 13 | 00-AUD | `useAudio`, `audioUrl`, `AudioButton` (không dùng Web Speech API) | 00-UI4 | ⬜ | |
+| 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | 🟨 | Component + test viết xong, chưa chạy |
+| 12 | 00-GW | `ProgressGateway`, `ServerGateway`, `GuestGateway`, `GuestStore` | 00-API | 🟨 | Code + test viết xong, chưa chạy |
+| 13 | 00-AUD | `useAudio`, `audioUrl`, `AudioButton` (không dùng Web Speech API) | 00-UI4 | 🟨 | Code + test viết xong, chưa chạy |
 | 14 | 00-7 | `deploy/backup.sh`, giữ 14 bản | 00-3 | 🟨 | Script + container + test viết xong, chưa chạy test |
 
 ## M2 — Pipeline dữ liệu · [plan](01-content-data/plan.md)

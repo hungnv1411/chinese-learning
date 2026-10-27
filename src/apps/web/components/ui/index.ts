@@ -10,3 +10,4 @@ export * from './settings';
 export * from './Sheet';
 export * from './Toast';
 export * from './ToneContour';
+export * from './AudioButton';
