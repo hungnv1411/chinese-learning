@@ -1,0 +1,11 @@
+docs
+pnpm-lock.yaml
+.venv
+.next
+data/raw
+.pnpm-store
+CLAUDE.md
+node_modules
+*.md
+*.yml
+*.yaml

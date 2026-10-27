@@ -1,0 +1,44 @@
+{
+  "numberedToMarked": [
+    { "input": "hao3 chi1", "join": true, "expected": "hǎochī" },
+    { "input": "hao3 chi1", "join": false, "expected": "hǎo chī" },
+    { "input": "hao3chi1", "join": false, "expected": "hǎo chī" },
+    { "input": "lu:4", "expected": "lǜ" },
+    { "input": "nu:3", "expected": "nǚ" },
+    { "input": "lv4", "expected": "lǜ" },
+    { "input": "lu:e4", "expected": "lüè" },
+    { "input": "ma5", "expected": "ma" },
+    { "input": "ma", "expected": "ma" },
+    { "input": "liu2", "expected": "liú" },
+    { "input": "gui4", "expected": "guì" },
+    { "input": "xue2", "expected": "xué" },
+    { "input": "zhao4", "expected": "zhào" },
+    { "input": "er2", "expected": "ér" },
+    { "input": "hou3", "expected": "hǒu" },
+    { "input": "ni3 hao3", "join": true, "expected": "nǐhǎo" },
+    { "input": "Zhong1 guo2", "expected": "Zhōng guó" },
+    { "input": "r5", "expected": "r" }
+  ],
+  "toPlain": [
+    { "input": "hǎo chī", "expected": "haochi" },
+    { "input": "nǚ", "expected": "nu" },
+    { "input": "lǜ", "expected": "lu" },
+    { "input": "hao3 chi1", "expected": "haochi" },
+    { "input": "Zhōng guó", "expected": "zhongguo" }
+  ],
+  "parseNumbered": [
+    { "input": "hao3", "expected": { "base": "hao", "tone": 3 } },
+    { "input": "ma5", "expected": { "base": "ma", "tone": 5 } },
+    { "input": "ma", "expected": { "base": "ma", "tone": 5 } },
+    { "input": "lu:4", "expected": { "base": "lü", "tone": 4 } },
+    { "input": "lv4", "expected": { "base": "lü", "tone": 4 } },
+    { "input": "Zhong1", "expected": { "base": "Zhong", "tone": 1 } }
+  ],
+  "splitSyllables": [
+    { "input": "hao3 chi1", "expected": ["hao3", "chi1"] },
+    { "input": "hao3chi1", "expected": ["hao3", "chi1"] },
+    { "input": "ni3 men5", "expected": ["ni3", "men5"] },
+    { "input": "ma5", "expected": ["ma5"] },
+    { "input": "", "expected": [] }
+  ]
+}

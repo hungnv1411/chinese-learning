@@ -1,0 +1,6 @@
+Dự án chia giấy phép theo thư mục:
+
+- src/apps/, src/packages/, src/pipeline/, src/e2e/, src/deploy/ : MIT (xem LICENSE trong từng thư mục)
+- src/services/speech/ : GPL-3.0 (xem src/services/speech/LICENSE)
+- content/ : CC BY-SA 4.0 (xem content/LICENSE)
+- Dữ liệu nguồn bên thứ ba: xem content/sources.yaml và trang /nguon-du-lieu

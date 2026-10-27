@@ -1,0 +1,7 @@
+packages:
+  - src/apps/*
+  - src/packages/*
+
+# pnpm ≥ 10 chặn script cài đặt mặc định; cho phép các gói cần build.
+allowBuilds:
+  esbuild: true

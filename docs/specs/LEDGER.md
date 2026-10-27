@@ -34,12 +34,12 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 1 | 00-1 | Khung monorepo (pnpm + uv), lint, LICENSE theo thư mục, CI | – | ⬜ | |
-| 2 | 00-2 | `lib/config.ts` (zod env), cấm viết cứng tên miền | 00-1 | ⬜ | |
-| 3 | 00-3 | Docker Compose (caddy, web, speech, db), `/healthz` | 00-2 | ⬜ | |
+| 1 | 00-1 | Khung monorepo (pnpm + uv), lint, LICENSE theo thư mục, CI | – | 🟨 | Đã tạo file, chưa cài gói/chạy test (mạng chậm) |
+| 2 | 00-2 | `lib/config.ts` (zod env), cấm viết cứng tên miền | 00-1 | ✅ | 8 test xanh (Docker) |
+| 3 | 00-3 | Docker Compose (caddy, web, speech, db), `/healthz` | 00-2 | 🟨 | Làm trước theo yêu cầu: Dockerfile + compose xong, `config` hợp lệ; chưa build/up, `/healthz` + khung Next đã viết, chưa build/up |
 | 4 | 00-4 | Schema Drizzle + migration + test ràng buộc | 00-3 | ⬜ | |
 | 5 | 00-5 | Better Auth Google, phiên 30 ngày, bearer, `getViewer` | 00-4 | ⬜ | |
-| 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ⬜ | |
+| 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ✅ | 47 test core xanh (Docker); bản Python ở 01-1/08a-3 đọc cùng fixture |
 | 7 | 00-API | `handler`, `requireUser`, `rateLimit`, định dạng lỗi | 00-5 | ⬜ | |
 | 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | ⬜ | |
 | 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | ⬜ | |
@@ -233,4 +233,5 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-10-27 | Bắt đầu M1: khung repo dưới `src/`, Docker/compose, config, pinyin + sandhi (chạy qua Docker) |
 | 2026-10-26 | M0 xong: spec (`docs/specs/`), design cuối (`docs/design/`), plan cho từng module, ledger này |
