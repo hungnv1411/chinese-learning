@@ -36,7 +36,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 |---|---|---|---|---|---|
 | 1 | 00-1 | Khung monorepo (pnpm + uv), lint, LICENSE theo thư mục, CI | – | 🟨 | Đã tạo file, chưa cài gói/chạy test (mạng chậm) |
 | 2 | 00-2 | `lib/config.ts` (zod env), cấm viết cứng tên miền | 00-1 | ✅ | 8 test xanh (Docker) |
-| 3 | 00-3 | Docker Compose (caddy, web, speech, db), `/healthz` | 00-2 | 🟨 | Làm trước theo yêu cầu: Dockerfile + compose xong, `config` hợp lệ; chưa build/up, `/healthz` + khung Next đã viết, chưa build/up |
+| 3 | 00-3 | Docker Compose (caddy, web, speech, db), `/healthz` | 00-2 | ✅ | `compose up` đủ 5 dịch vụ khỏe; `curl -k https://localhost/healthz` → 200 `{ok:true}`; web gọi được `speech:8000`; speech/db không có `ports` ra host |
 | 4 | 00-4 | Schema Drizzle + migration + test ràng buộc | 00-3 | ✅ | Migration `0000_*` sinh bằng drizzle-kit; 5 test ràng buộc xanh với Postgres thật |
 | 5 | 00-5 | Better Auth Google, phiên 30 ngày, bearer, `getViewer` | 00-4 | ✅ | 3 test `getViewer` (bearer, cookie, khách) xanh với phiên tạo trong DB; đăng nhập Google thật chưa thử tay |
 | 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ✅ | 47 test core xanh (Docker); bản Python ở 01-1/08a-3 đọc cùng fixture |
@@ -233,5 +233,6 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-10-28 | Verify M1 trong Docker: lint, typecheck, 108 test xanh (có Postgres thật), compose up + `/healthz` 200. Còn Playwright 9 viewport, font Mona Sans, thử Google OAuth thật |
 | 2026-10-27 | Bắt đầu M1: khung repo dưới `src/`, Docker/compose, config, pinyin + sandhi (chạy qua Docker) |
 | 2026-10-26 | M0 xong: spec (`docs/specs/`), design cuối (`docs/design/`), plan cho từng module, ledger này |
