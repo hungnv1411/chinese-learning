@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 import { defineConfig } from '@playwright/test';
 
 const manifest = JSON.parse(
-  readFileSync(resolve(__dirname, '../../docs/design/DESIGN-MANIFEST.json'), 'utf8'),
+  readFileSync(resolve(import.meta.dirname, '../../docs/design/DESIGN-MANIFEST.json'), 'utf8'),
 ) as { responsiveViewports: { name: string; width: number; height: number }[] };
 
 export const viewports = manifest.responsiveViewports;

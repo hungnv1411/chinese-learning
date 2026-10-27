@@ -55,7 +55,10 @@ export const hskWord = pgTable(
     dictEntryId: integer('dict_entry_id').references(() => dictEntry.id),
     deprecated: boolean('deprecated').notNull().default(false),
   },
-  (t) => [index('hsk_word_level_idx').on(t.level), index('hsk_word_simplified_idx').on(t.simplified)],
+  (t) => [
+    index('hsk_word_level_idx').on(t.level),
+    index('hsk_word_simplified_idx').on(t.simplified),
+  ],
 );
 
 export const hskChar = pgTable('hsk_char', {
@@ -74,7 +77,10 @@ export const hskGrammar = pgTable('hsk_grammar', {
 /** Thông tin từng chữ. */
 export const hanzi = pgTable('hanzi', {
   char: text('char').primaryKey(),
-  hanViet: text('han_viet').array().notNull().default(sql`'{}'`),
+  hanViet: text('han_viet')
+    .array()
+    .notNull()
+    .default(sql`'{}'`),
   /** `unihan` | `manual` | `ai` — để trang Nguồn dữ liệu ghi rõ âm do AI bổ sung. */
   hanVietSource: text('han_viet_source'),
   decomposition: text('decomposition'),
@@ -133,4 +139,3 @@ export const audioAsset = pgTable('audio_asset', {
   hash: text('hash').notNull().unique(),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
 });
-

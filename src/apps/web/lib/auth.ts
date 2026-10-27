@@ -3,7 +3,11 @@ import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { nextCookies } from 'better-auth/next-js';
 import { bearer } from 'better-auth/plugins';
 import { userSettings } from '@/db/schema';
-import { SESSION_EXPIRES_IN_SEC, SESSION_UPDATE_AGE_SEC, userCreateDefaults } from './auth-defaults';
+import {
+  SESSION_EXPIRES_IN_SEC,
+  SESSION_UPDATE_AGE_SEC,
+  userCreateDefaults,
+} from './auth-defaults';
 import { getConfig } from './config';
 import { getDb, schema } from './db';
 

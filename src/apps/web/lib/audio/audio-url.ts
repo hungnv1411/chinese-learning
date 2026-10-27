@@ -6,7 +6,8 @@ export type SlowMode = 'file' | 'rate';
 export const SLOW_RATE = 0.7;
 
 /** Giọng theo cài đặt: nữ → xiaoxiao, nam → yunxi. */
-export const voiceOf = (setting: 'female' | 'male'): Voice => (setting === 'male' ? 'yunxi' : 'xiaoxiao');
+export const voiceOf = (setting: 'female' | 'male'): Voice =>
+  setting === 'male' ? 'yunxi' : 'xiaoxiao';
 
 /**
  * Đường dẫn file MP3 TTS trên R2: `${base}/${kind}/${voice}/${key}.mp3`.

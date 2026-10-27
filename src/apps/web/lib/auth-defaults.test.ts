@@ -1,5 +1,9 @@
 import { expect, test } from 'vitest';
-import { SESSION_EXPIRES_IN_SEC, SESSION_UPDATE_AGE_SEC, userCreateDefaults } from './auth-defaults';
+import {
+  SESSION_EXPIRES_IN_SEC,
+  SESSION_UPDATE_AGE_SEC,
+  userCreateDefaults,
+} from './auth-defaults';
 
 test('hook tạo user điền display_name và certificate_name bằng tên Google', () => {
   expect(userCreateDefaults({ name: 'Nguyễn Văn An' })).toEqual({

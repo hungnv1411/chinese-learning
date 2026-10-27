@@ -9,3 +9,4 @@ node_modules
 *.md
 *.yml
 *.yaml
+src/apps/web/styles

@@ -20,7 +20,15 @@ afterEach(cleanup);
 describe('AppShell', () => {
   test('có 5 tab, “Bảng pinyin”, “Nguồn dữ liệu”; tên thương hiệu từ siteName', () => {
     render(<AppShell siteName="Tên Thử">nội dung</AppShell>);
-    for (const label of ['Hôm nay', 'Lộ trình', 'Ôn tập', 'Tra từ', 'Tôi', 'Bảng pinyin', 'Nguồn dữ liệu']) {
+    for (const label of [
+      'Hôm nay',
+      'Lộ trình',
+      'Ôn tập',
+      'Tra từ',
+      'Tôi',
+      'Bảng pinyin',
+      'Nguồn dữ liệu',
+    ]) {
       expect(screen.getByText(label)).toBeTruthy();
     }
     expect(screen.getByText('Tên Thử')).toBeTruthy();

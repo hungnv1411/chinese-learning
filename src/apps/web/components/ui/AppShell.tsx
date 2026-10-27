@@ -31,7 +31,8 @@ export function AppShell({ siteName, children }: { siteName: string; children: R
     return () => document.body.classList.remove('has-nav');
   }, []);
 
-  const cur = (href: string) => (isCurrent(pathname, href) ? ({ 'aria-current': 'page' } as const) : {});
+  const cur = (href: string) =>
+    isCurrent(pathname, href) ? ({ 'aria-current': 'page' } as const) : {};
 
   return (
     <>

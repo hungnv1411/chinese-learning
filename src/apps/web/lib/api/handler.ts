@@ -9,7 +9,11 @@ type Ctx<P> = { params: Promise<P> };
  */
 export function handler<B = undefined, P = Record<string, string>>(
   schema: ZodType<B> | null,
-  fn: (args: { req: Request; body: B; params: P }) => Promise<Response | object> | Response | object,
+  fn: (args: {
+    req: Request;
+    body: B;
+    params: P;
+  }) => Promise<Response | object> | Response | object,
 ) {
   return async (req: Request, ctx?: Ctx<P>): Promise<Response> => {
     try {

@@ -16,7 +16,8 @@ export class ApiError extends Error {
 }
 
 export const errors = {
-  unauthorized: () => new ApiError(401, 'UNAUTHORIZED', 'Bạn cần đăng nhập để thực hiện thao tác này.'),
+  unauthorized: () =>
+    new ApiError(401, 'UNAUTHORIZED', 'Bạn cần đăng nhập để thực hiện thao tác này.'),
   forbidden: (message = 'Bạn không có quyền thực hiện thao tác này.') =>
     new ApiError(403, 'FORBIDDEN', message),
   notFound: (message = 'Không tìm thấy.') => new ApiError(404, 'NOT_FOUND', message),

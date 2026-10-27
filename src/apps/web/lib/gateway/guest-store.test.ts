@@ -21,7 +21,8 @@ function fakeStorage(opts: { failSet?: boolean; failGet?: boolean } = {}): Stora
 
 describe('GuestStore', () => {
   test('khóa là guest_progress_v1; ghi rồi đọc lại được, persistent = true', () => {
-    const s = new GuestStore(() => fakeStorage());
+    const st = fakeStorage();
+    const s = new GuestStore(() => st);
     expect(GUEST_STORAGE_KEY).toBe('guest_progress_v1');
     s.write({ a: 1 });
     expect(s.read()).toEqual({ a: 1 });

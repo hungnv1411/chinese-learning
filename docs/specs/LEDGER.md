@@ -37,17 +37,17 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 1 | 00-1 | Khung monorepo (pnpm + uv), lint, LICENSE theo thư mục, CI | – | 🟨 | Đã tạo file, chưa cài gói/chạy test (mạng chậm) |
 | 2 | 00-2 | `lib/config.ts` (zod env), cấm viết cứng tên miền | 00-1 | ✅ | 8 test xanh (Docker) |
 | 3 | 00-3 | Docker Compose (caddy, web, speech, db), `/healthz` | 00-2 | 🟨 | Làm trước theo yêu cầu: Dockerfile + compose xong, `config` hợp lệ; chưa build/up, `/healthz` + khung Next đã viết, chưa build/up |
-| 4 | 00-4 | Schema Drizzle + migration + test ràng buộc | 00-3 | 🟨 | Schema + test viết xong; chưa cài drizzle, chưa `db:generate`, chưa chạy test (cần mạng) |
-| 5 | 00-5 | Better Auth Google, phiên 30 ngày, bearer, `getViewer` | 00-4 | 🟨 | Code + test viết xong, chưa cài better-auth, chưa chạy |
+| 4 | 00-4 | Schema Drizzle + migration + test ràng buộc | 00-3 | ✅ | Migration `0000_*` sinh bằng drizzle-kit; 5 test ràng buộc xanh với Postgres thật |
+| 5 | 00-5 | Better Auth Google, phiên 30 ngày, bearer, `getViewer` | 00-4 | ✅ | 3 test `getViewer` (bearer, cookie, khách) xanh với phiên tạo trong DB; đăng nhập Google thật chưa thử tay |
 | 6 | 00-6 | `packages/core`: `pinyin.ts`, `sandhi.ts` + fixture dùng chung | 00-1 | ✅ | 47 test core xanh (Docker); bản Python ở 01-1/08a-3 đọc cùng fixture |
-| 7 | 00-API | `handler`, `requireUser`, `rateLimit`, định dạng lỗi | 00-5 | 🟨 | Code + test viết xong, chưa chạy |
-| 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS đã tách + test token + `/dev/ui` cơ bản; còn font Mona Sans (cần tải), chưa chạy test |
-| 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | 🟨 | Component + test Vitest + Playwright viết xong, chưa chạy (cần cài gói, trình duyệt) |
-| 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | 🟨 | Có trong `src/e2e/tests/layout.spec.ts`, chưa chạy |
-| 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | 🟨 | Component + test viết xong, chưa chạy |
-| 12 | 00-GW | `ProgressGateway`, `ServerGateway`, `GuestGateway`, `GuestStore` | 00-API | 🟨 | Code + test viết xong, chưa chạy |
-| 13 | 00-AUD | `useAudio`, `audioUrl`, `AudioButton` (không dùng Web Speech API) | 00-UI4 | 🟨 | Code + test viết xong, chưa chạy |
-| 14 | 00-7 | `deploy/backup.sh`, giữ 14 bản | 00-3 | 🟨 | Script + container + test viết xong, chưa chạy test |
+| 7 | 00-API | `handler`, `requireUser`, `rateLimit`, định dạng lỗi | 00-5 | ✅ | 10 test xanh |
+| 8 | 00-UI1 | Port CSS từ `docs/design/styles.css`, font, trang `/dev/ui` | 00-1 | 🟨 | CSS tách + test token xanh; còn font Mona Sans, `/dev/ui` chưa xem trên trình duyệt |
+| 9 | 00-UI2 | `AppShell` (nav 3 dạng), `FocusLayout`, test 9 viewport | 00-UI1 | 🟨 | Test Vitest xanh; Playwright 9 viewport chưa chạy (cần trình duyệt) |
+| 10 | 00-UI3 | Test phóng chữ 130% | 00-UI2 | 🟨 | Viết trong `src/e2e/tests/layout.spec.ts`, chưa chạy |
+| 11 | 00-UI4 | Component UI (`Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`…) + test | 00-UI1, 00-6 | ✅ | 10 test Vitest xanh |
+| 12 | 00-GW | `ProgressGateway`, `ServerGateway`, `GuestGateway`, `GuestStore` | 00-API | ✅ | Test GuestStore (setItem lỗi), useGateway, apiFetch xanh |
+| 13 | 00-AUD | `useAudio`, `audioUrl`, `AudioButton` (không dùng Web Speech API) | 00-UI4 | ✅ | 6 test xanh |
+| 14 | 00-7 | `deploy/backup.sh`, giữ 14 bản | 00-3 | ✅ | 3 test xanh; chưa thử đẩy lên R2 thật |
 
 ## M2 — Pipeline dữ liệu · [plan](01-content-data/plan.md)
 

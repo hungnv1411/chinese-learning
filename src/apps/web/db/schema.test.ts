@@ -39,7 +39,8 @@ describe.skipIf(!adminUrl)('schema (Postgres thật)', () => {
   test('cột sinh definitions_tsv tìm được theo nghĩa tiếng Anh', async () => {
     await sql`TRUNCATE "user", stage, dict_entry CASCADE`;
     await seed();
-    const rows = await sql`SELECT id FROM dict_entry WHERE definitions_tsv @@ plainto_tsquery('english', 'good')`;
+    const rows =
+      await sql`SELECT id FROM dict_entry WHERE definitions_tsv @@ plainto_tsquery('english', 'good')`;
     expect(rows).toHaveLength(1);
   });
 
@@ -86,8 +87,8 @@ describe.skipIf(!adminUrl)('schema (Postgres thật)', () => {
     await sql`DELETE FROM "user" WHERE id = 'u1'`;
 
     for (const t of ['lesson_progress', 'srs_card', 'daily_activity', 'user_settings', 'session']) {
-      const [{ n }] = await sql.unsafe(`SELECT count(*)::int AS n FROM ${t}`);
-      expect(n, t).toBe(0);
+      const rows = await sql.unsafe(`SELECT count(*)::int AS n FROM ${t}`);
+      expect(rows[0]?.n, t).toBe(0);
     }
     const certs = await sql`SELECT code, user_id, name_on_certificate FROM certificate`;
     expect(certs).toHaveLength(1);

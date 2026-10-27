@@ -24,7 +24,13 @@ export function useDisplaySettings(): DisplaySettings {
 }
 
 /** Áp cài đặt hiển thị lên <body> bằng class `no-hv`, `no-tone`, `no-py` (giống applyPrefs của design). */
-export function SettingsProvider({ value, children }: { value: DisplaySettings; children: ReactNode }) {
+export function SettingsProvider({
+  value,
+  children,
+}: {
+  value: DisplaySettings;
+  children: ReactNode;
+}) {
   useEffect(() => {
     const b = document.body;
     b.classList.toggle('no-hv', !value.showHanViet);

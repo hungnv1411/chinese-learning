@@ -15,8 +15,16 @@ export function Card({
 
 export type BadgeVariant = 'default' | 'success' | 'streak' | 'blue' | 'warn' | 'danger';
 
-export function Badge({ variant = 'default', children }: { variant?: BadgeVariant; children: ReactNode }) {
-  return <span className={cx('badge', variant !== 'default' && `badge-${variant}`)}>{children}</span>;
+export function Badge({
+  variant = 'default',
+  children,
+}: {
+  variant?: BadgeVariant;
+  children: ReactNode;
+}) {
+  return (
+    <span className={cx('badge', variant !== 'default' && `badge-${variant}`)}>{children}</span>
+  );
 }
 
 export function Chip({
@@ -71,7 +79,12 @@ export function Seg<T extends string | number>({
   return (
     <div className="seg" role="group" aria-label={label}>
       {options.map((o) => (
-        <button key={String(o.value)} type="button" aria-pressed={o.value === value} onClick={() => onChange(o.value)}>
+        <button
+          key={String(o.value)}
+          type="button"
+          aria-pressed={o.value === value}
+          onClick={() => onChange(o.value)}
+        >
           {o.label}
         </button>
       ))}

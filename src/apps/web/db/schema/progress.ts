@@ -110,4 +110,3 @@ export const toneDrillStat = pgTable(
   },
   (t) => [primaryKey({ columns: [t.userId, t.tone] })],
 );
-

@@ -2,7 +2,8 @@ import type { ButtonHTMLAttributes, ReactNode } from 'react';
 import { Icon } from './Icon';
 import type { IconName } from './icons';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'blue' | 'streak' | 'danger' | 'white' | 'quiet';
+export type ButtonVariant =
+  'primary' | 'secondary' | 'blue' | 'streak' | 'danger' | 'white' | 'quiet';
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: ButtonVariant;
@@ -28,7 +29,13 @@ export function Button({
     .filter(Boolean)
     .join(' ');
   return (
-    <button {...rest} type={type} className={cls} disabled={disabled || loading} aria-busy={loading || undefined}>
+    <button
+      {...rest}
+      type={type}
+      className={cls}
+      disabled={disabled || loading}
+      aria-busy={loading || undefined}
+    >
       {children}
     </button>
   );
@@ -46,7 +53,12 @@ export function IconButton({
   label: string;
 }) {
   return (
-    <button {...rest} type={type} className={['icon-btn', className].filter(Boolean).join(' ')} aria-label={label}>
+    <button
+      {...rest}
+      type={type}
+      className={['icon-btn', className].filter(Boolean).join(' ')}
+      aria-label={label}
+    >
       <Icon name={icon} />
     </button>
   );

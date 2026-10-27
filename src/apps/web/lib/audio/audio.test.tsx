@@ -16,7 +16,9 @@ describe('audioUrl', () => {
   });
 
   test('đọc chậm: mode file dùng .slow.mp3, mode rate dùng cùng file với rate thấp', () => {
-    expect(audioUrl('https://c', 'sent', '123', 'xiaoxiao', { slow: true, slowMode: 'file' })).toEqual({
+    expect(
+      audioUrl('https://c', 'sent', '123', 'xiaoxiao', { slow: true, slowMode: 'file' }),
+    ).toEqual({
       src: 'https://c/sent/xiaoxiao/123.slow.mp3',
       rate: 1,
     });
@@ -33,7 +35,15 @@ describe('audioUrl', () => {
 
 describe('useAudio', () => {
   const make = () => {
-    const el = { src: '', playbackRate: 1, currentTime: 0, preload: '', play: vi.fn(async () => {}), pause: vi.fn(), load: vi.fn() };
+    const el = {
+      src: '',
+      playbackRate: 1,
+      currentTime: 0,
+      preload: '',
+      play: vi.fn(async () => {}),
+      pause: vi.fn(),
+      load: vi.fn(),
+    };
     return el;
   };
 

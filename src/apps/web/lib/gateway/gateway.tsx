@@ -29,8 +29,17 @@ export class GuestGateway implements ProgressGateway {
 const Ctx = createContext<ProgressGateway | null>(null);
 
 /** Chọn gateway theo phiên đăng nhập (`signedIn` do layout server truyền xuống). */
-export function GatewayProvider({ signedIn, children }: { signedIn: boolean; children: ReactNode }) {
-  const gateway = useMemo<ProgressGateway>(() => (signedIn ? new ServerGateway() : new GuestGateway()), [signedIn]);
+export function GatewayProvider({
+  signedIn,
+  children,
+}: {
+  signedIn: boolean;
+  children: ReactNode;
+}) {
+  const gateway = useMemo<ProgressGateway>(
+    () => (signedIn ? new ServerGateway() : new GuestGateway()),
+    [signedIn],
+  );
   return <Ctx.Provider value={gateway}>{children}</Ctx.Provider>;
 }
 

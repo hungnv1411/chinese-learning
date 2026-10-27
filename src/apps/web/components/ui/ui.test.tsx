@@ -79,13 +79,16 @@ describe('SettingsProvider', () => {
         x
       </SettingsProvider>,
     );
-    for (const c of ['no-hv', 'no-tone', 'no-py']) expect(document.body.classList.contains(c)).toBe(true);
+    for (const c of ['no-hv', 'no-tone', 'no-py'])
+      expect(document.body.classList.contains(c)).toBe(true);
   });
 });
 
 describe('ToneContour', () => {
   test('vẽ đường thanh chuẩn và đường nét đứt của người học', () => {
-    const { container } = render(<ToneContour tone={2} userContour={[0.1, 0.5, 0.9]} label="thanh 2" />);
+    const { container } = render(
+      <ToneContour tone={2} userContour={[0.1, 0.5, 0.9]} label="thanh 2" />,
+    );
     expect(container.querySelectorAll('path')).toHaveLength(2);
     expect(container.querySelector('path[stroke-dasharray]')).not.toBeNull();
   });

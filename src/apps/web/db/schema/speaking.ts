@@ -16,4 +16,3 @@ export const speakingAttempt = pgTable(
   },
   (t) => [index('speaking_attempt_user_idx').on(t.userId, t.createdAt)],
 );
-
