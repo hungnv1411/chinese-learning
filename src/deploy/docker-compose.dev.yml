@@ -1,0 +1,78 @@
+# Chồng lên docker-compose.yml cho môi trường dev.
+# Seed dữ liệu mẫu (Phát âm + 2 chủ đề HSK 1) nối vào sau khi có pipeline (01) và nội dung (02);
+# trước đó DB để trống.
+services:
+  web:
+    build:
+      target: dev
+    command: pnpm -F @clp/web dev --hostname 0.0.0.0
+    environment:
+      NODE_ENV: development
+    volumes:
+      - ../..:/repo
+      - /repo/node_modules
+      - /repo/src/apps/web/node_modules
+      - /repo/src/apps/web/.next
+    working_dir: /repo
+    healthcheck:
+      start_period: 60s
+  db:
+    # Chỉ dev: mở cổng DB ra máy host (127.0.0.1) để chạy pipeline và drizzle-kit.
+    ports:
+      - '127.0.0.1:5432:5432'
+
+  # Công cụ chạy lệnh một lần (không khởi động khi `up`): docker compose ... run --rm node pnpm test
+  node:
+    profiles: [tools]
+    image: node:22-slim
+    working_dir: /repo
+    environment:
+      CI: 'true'
+      COREPACK_ENABLE_DOWNLOAD_PROMPT: '0'
+      npm_config_store_dir: /pnpm-store
+    volumes:
+      - ../..:/repo
+      - node_modules:/repo/node_modules
+      - web_node_modules:/repo/src/apps/web/node_modules
+      - core_node_modules:/repo/src/packages/core/node_modules
+      - pnpm_store:/pnpm-store
+    entrypoint: ['sh', '-c', 'corepack enable && exec "$@"', '--']
+
+  py-pipeline:
+    profiles: [tools]
+    image: python:3.12-slim
+    working_dir: /repo/src/pipeline
+    environment:
+      UV_PROJECT_ENVIRONMENT: /venv
+      UV_LINK_MODE: copy
+      PIP_ROOT_USER_ACTION: ignore
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    volumes:
+      - ../..:/repo
+      - pipeline_venv:/venv
+      - uv_cache:/root/.cache/uv
+    entrypoint: ['sh', '-c', 'pip install -q uv && exec uv "$@"', '--']
+
+  py-speech:
+    profiles: [tools]
+    image: python:3.12-slim
+    working_dir: /repo/src/services/speech
+    environment:
+      UV_PROJECT_ENVIRONMENT: /venv
+      UV_LINK_MODE: copy
+      PIP_ROOT_USER_ACTION: ignore
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    volumes:
+      - ../..:/repo
+      - speech_venv:/venv
+      - uv_cache:/root/.cache/uv
+    entrypoint: ['sh', '-c', 'pip install -q uv && exec uv "$@"', '--']
+
+volumes:
+  node_modules:
+  web_node_modules:
+  core_node_modules:
+  pnpm_store:
+  pipeline_venv:
+  speech_venv:
+  uv_cache:
