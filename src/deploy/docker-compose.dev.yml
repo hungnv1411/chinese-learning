@@ -8,12 +8,19 @@ services:
     command: pnpm -F @clp/web dev --hostname 0.0.0.0
     environment:
       NODE_ENV: development
+      CI: "true"
+    # Dùng chung volume node_modules với service `node` (cài một lần, dùng cho cả hai).
     volumes:
       - ../..:/repo
-      - /repo/node_modules
-      - /repo/src/apps/web/node_modules
-      - /repo/src/apps/web/.next
+      - node_modules:/repo/node_modules
+      - web_node_modules:/repo/src/apps/web/node_modules
+      - core_node_modules:/repo/src/packages/core/node_modules
+      - e2e_node_modules:/repo/src/e2e/node_modules
+      - web_next:/repo/src/apps/web/.next
     working_dir: /repo
+    # Chỉ dev: mở web ra máy host (127.0.0.1) để xem bằng trình duyệt, không qua Caddy.
+    ports:
+      - "127.0.0.1:3100:3000"
     healthcheck:
       start_period: 60s
   db:
@@ -43,6 +50,7 @@ services:
       - node_modules:/repo/node_modules
       - web_node_modules:/repo/src/apps/web/node_modules
       - core_node_modules:/repo/src/packages/core/node_modules
+      - e2e_node_modules:/repo/src/e2e/node_modules
       - pnpm_store:/pnpm-store
     entrypoint: ['sh', '-c', 'corepack enable && exec "$@"', '--']
 
@@ -80,6 +88,8 @@ volumes:
   node_modules:
   web_node_modules:
   core_node_modules:
+  e2e_node_modules:
+  web_next:
   pnpm_store:
   pipeline_venv:
   speech_venv:
