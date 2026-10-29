@@ -53,7 +53,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 15 | 01-1 | Khung pipeline, `pinyin.py` (khớp fixture TS), `upsert` | 00-4, 00-6 | ⬜ | |
+| 15 | 01-1 | Khung pipeline, `pinyin.py` (khớp fixture TS), `upsert` | 00-4, 00-6 | 🟨 | `pinyin.py` khớp 100% fixture (chạy bằng stdlib), `db.upsert` test bằng fake conn; chưa chạy `uv run pytest`/`clp --help` (uv hỏng, PyPI không vào được), `uv.lock` chưa cập nhật |
 | 16 | 01-2 | `fetch` + `manifest.json` | 01-1 | ⬜ | |
 | 17 | 01-3 | `import_cedict` | 01-2 | ⬜ | |
 | 18 | 01-4 | `import_hsk` + ghép từ điển + CSV chưa khớp | 01-3 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-10-29 | Merge `feat/foundation` vào `master`. Bắt đầu 01-1 trên `feat/pipeline`: `pinyin.py`, `db.py`, `cli.py` |
 | 2026-10-28 | Verify M1 trong Docker: lint, typecheck, 108 test xanh (có Postgres thật), compose up + `/healthz` 200. Còn Playwright 9 viewport, font Mona Sans, thử Google OAuth thật |
 | 2026-10-27 | Bắt đầu M1: khung repo dưới `src/`, Docker/compose, config, pinyin + sandhi (chạy qua Docker) |
 | 2026-10-26 | M0 xong: spec (`docs/specs/`), design cuối (`docs/design/`), plan cho từng module, ledger này |

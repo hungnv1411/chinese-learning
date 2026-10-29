@@ -2,10 +2,13 @@
 name = "clp-pipeline"
 version = "0.0.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["typer>=0.12", "psycopg[binary]>=3.2", "pyyaml>=6"]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+clp = "clp.cli:app"
 
 [build-system]
 requires = ["hatchling"]
