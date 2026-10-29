@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "name": "你好",
+      "syllables": [{ "pinyin": "ni3" }, { "pinyin": "hao3" }],
+      "expected": [2, 3]
+    },
+    {
+      "name": "展览馆",
+      "syllables": [{ "pinyin": "zhan3" }, { "pinyin": "lan3" }, { "pinyin": "guan3" }],
+      "expected": [2, 2, 3]
+    },
+    {
+      "name": "小老虎",
+      "syllables": [{ "pinyin": "xiao3" }, { "pinyin": "lao3" }, { "pinyin": "hu3" }],
+      "wordLengths": [1, 2],
+      "expected": [3, 2, 3]
+    },
+    {
+      "name": "我很好",
+      "syllables": [{ "pinyin": "wo3" }, { "pinyin": "hen3" }, { "pinyin": "hao3" }],
+      "wordLengths": [1, 2],
+      "expected": [3, 2, 3]
+    },
+    {
+      "name": "不是",
+      "syllables": [
+        { "pinyin": "bu4", "hanzi": "不" },
+        { "pinyin": "shi4", "hanzi": "是" }
+      ],
+      "expected": [2, 4]
+    },
+    {
+      "name": "不好",
+      "syllables": [
+        { "pinyin": "bu4", "hanzi": "不" },
+        { "pinyin": "hao3", "hanzi": "好" }
+      ],
+      "expected": [4, 3]
+    },
+    {
+      "name": "一个",
+      "syllables": [
+        { "pinyin": "yi1", "hanzi": "一" },
+        { "pinyin": "ge4", "hanzi": "个" }
+      ],
+      "expected": [2, 4]
+    },
+    {
+      "name": "一天",
+      "syllables": [
+        { "pinyin": "yi1", "hanzi": "一" },
+        { "pinyin": "tian1", "hanzi": "天" }
+      ],
+      "expected": [4, 1]
+    },
+    {
+      "name": "第一",
+      "syllables": [
+        { "pinyin": "di4", "hanzi": "第" },
+        { "pinyin": "yi1", "hanzi": "一" }
+      ],
+      "ordinalIndexes": [1],
+      "expected": [4, 1]
+    },
+    {
+      "name": "十一",
+      "syllables": [
+        { "pinyin": "shi2", "hanzi": "十" },
+        { "pinyin": "yi1", "hanzi": "一" }
+      ],
+      "expected": [2, 1]
+    },
+    {
+      "name": "你们",
+      "syllables": [{ "pinyin": "ni3" }, { "pinyin": "men5" }],
+      "expected": [3, 5]
+    },
+    {
+      "name": "一个 giữ 1 trước thanh nhẹ",
+      "syllables": [
+        { "pinyin": "yi1", "hanzi": "一" },
+        { "pinyin": "xia5", "hanzi": "下" }
+      ],
+      "expected": [1, 5]
+    }
+  ]
+}

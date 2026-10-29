@@ -1,0 +1,40 @@
+/* Phần 3 của docs/design/styles.css (base). */
+/* ─── 3. Base ───────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 var(--text-base)/var(--leading-body) var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 800; line-height: var(--leading-tight); margin: 0; letter-spacing: var(--tracking-display); }
+h1 { font-size: clamp(24px, 1.2vw + 20px, var(--text-2xl)); }
+h2 { font-size: var(--text-xl); }
+h3 { font-size: var(--text-lg); }
+p { margin: 0; text-wrap: pretty; }
+a { color: var(--blue-deep); text-decoration: none; font-weight: 600; }
+a:hover { text-decoration: underline; }
+button { font: inherit; color: inherit; cursor: pointer; }
+ul { list-style: none; margin: 0; padding: 0; }
+:focus-visible { outline: 3px solid color-mix(in srgb, var(--blue) 55%, transparent); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+[hidden] { display: none !important; }
+.ic { display: inline-flex; width: 1.4em; height: 1.4em; flex: none; }
+.ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.ic.fill svg { fill: currentColor; stroke: none; }
+.muted { color: var(--muted); }
+.small { font-size: var(--text-sm); }
+.center { text-align: center; }
+.eyebrow { font: 800 var(--text-xs)/1 var(--font-display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.lead { font-size: 17px; font-weight: 500; }
+.row { display: flex; align-items: center; gap: var(--space-3); }
+.row.between { justify-content: space-between; }
+.row.wrap { flex-wrap: wrap; }
+.grow { flex: 1; min-width: 0; }
+.stack-2 > * + * { margin-top: var(--space-2); }
+.stack-3 > * + * { margin-top: var(--space-3); }
+.stack-4 > * + * { margin-top: var(--space-4); }
+.stack-6 > * + * { margin-top: var(--space-6); }

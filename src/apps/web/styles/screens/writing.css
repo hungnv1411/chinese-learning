@@ -1,0 +1,19 @@
+/* Screen: writing. */
+/* Writing */
+.tzg { position: relative; width: min(100%, 360px); aspect-ratio: 1; margin: 0 auto; border: 3px solid var(--danger); border-radius: var(--radius-md); background: var(--bg); touch-action: none; user-select: none; }
+.tzg::before, .tzg::after { content: ""; position: absolute; pointer-events: none; }
+.tzg::before { inset: 0; background: linear-gradient(var(--danger-pale), var(--danger-pale)) center/100% 2px no-repeat, linear-gradient(var(--danger-pale), var(--danger-pale)) center/2px 100% no-repeat; }
+.tzg svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tzg .guide { fill: none; stroke: var(--border); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.tzg .anim { fill: none; stroke: var(--fg); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.tzg .hint { fill: none; stroke: var(--blue); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 2 9; }
+.tzg .done { fill: none; stroke: var(--fg); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.tzg .user { fill: none; stroke: var(--blue); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.tzg .wrong { fill: none; stroke: var(--danger); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.strokes { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
+.strokes span { display: grid; place-items: center; min-width: 40px; height: 40px; padding: 0 8px; border: 2px solid var(--border); border-radius: var(--radius-sm); font: 700 20px/1 var(--font-cjk); color: var(--meta); }
+.strokes span.on { background: var(--accent); border-color: var(--accent); color: var(--accent-on); }
+.strokes span.now { border-color: var(--blue); color: var(--blue-deep); background: var(--blue-pale); }
+.note { display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--blue-pale); color: var(--blue-deep); font-weight: 600; }
+.note.bad { background: var(--danger-pale); color: var(--danger-deep); }
+.note.ok { background: var(--accent-pale); color: var(--accent-active); }

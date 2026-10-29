@@ -1,0 +1,11 @@
+/* Screen: profile. */
+/* Profile / stats */
+.stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+@media (min-width: 640px) { .stats { grid-template-columns: repeat(4, 1fr); } }
+.stat-tile { display: grid; gap: 4px; padding: var(--space-4); }
+.stat-tile b { font: 800 var(--text-2xl)/1 var(--font-display); }
+.setting { display: flex; align-items: center; gap: var(--space-4); padding: var(--space-4) 0; border-bottom: 2px solid var(--border); }
+.setting:last-child { border-bottom: 0; }
+.setting .seg { flex: none; }
+.setting .grow small { display: block; color: var(--muted); font-size: var(--text-sm); }
+.src { display: grid; gap: var(--space-1); }

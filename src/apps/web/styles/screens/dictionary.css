@@ -1,0 +1,13 @@
+/* Screen: dictionary. */
+/* Dictionary */
+.searchbox { position: relative; }
+.searchbox .ic { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--meta); }
+.searchbox input { padding-left: 52px; min-height: 56px; font-size: 18px; }
+.result { display: flex; align-items: center; gap: var(--space-4); width: 100%; padding: var(--space-3) var(--space-4); border: 2px solid var(--border); border-bottom-width: 4px; border-radius: var(--radius-md); background: var(--bg); text-align: left; }
+.result:hover { background: var(--surface); }
+.result[aria-current="true"] { border-color: var(--blue); background: var(--blue-pale); }
+.result .hz { min-width: 72px; }
+.split { display: grid; gap: var(--space-4); }
+@media (min-width: 900px) { .split { grid-template-columns: minmax(280px, 380px) minmax(0, 1fr); align-items: start; } .split .detail { position: sticky; top: var(--space-6); } }
+@media (max-width: 899px) { .split.showing-detail .results { display: none; } .split:not(.showing-detail) .detail { display: none; } }
+@media (min-width: 900px) { .only-mobile { display: none !important; } }
