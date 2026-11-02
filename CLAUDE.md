@@ -46,6 +46,16 @@ e2e               Playwright
 
 ## Lệnh (dự kiến, cập nhật khi đã có thật)
 
+**Luôn chạy mọi thứ (test, lint, build, pipeline, cài gói) trong Docker**, không cài hay chạy trực tiếp trên máy host (host không có `uv`/`pytest` dùng được). Dùng `src/deploy/dev.sh`, ví dụ:
+
+```bash
+src/deploy/dev.sh run --rm node pnpm test
+src/deploy/dev.sh run --rm --no-deps py-pipeline run pytest -q   # cũng: run ruff check ., run clp --help, lock
+src/deploy/dev.sh run --rm --no-deps py-speech run pytest -q
+```
+
+Các lệnh dưới đây là dạng ngắn, chạy bên trong các container đó:
+
 ```bash
 pnpm install
 pnpm test                         # Vitest mọi gói TS

@@ -47,7 +47,9 @@ def upsert(conn, table: str, rows: list[dict], key_cols: list[str]) -> dict[str,
     return {"inserted": inserted, "updated": updated}
 
 
-def log_run(path: Path, command: str, *, inserted: int, updated: int, skipped: int, now: str) -> None:
+def log_run(
+    path: Path, command: str, *, inserted: int, updated: int, skipped: int, now: str
+) -> None:
     """Ghi một dòng tóm tắt vào runs.log. `now` truyền vào để test được."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as f:

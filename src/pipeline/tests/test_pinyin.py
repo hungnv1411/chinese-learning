@@ -28,3 +28,13 @@ def test_parse_numbered(c):
 @pytest.mark.parametrize("c", CASES["splitSyllables"], ids=lambda c: c["input"] or "empty")
 def test_split_syllables(c):
     assert split_syllables(c["input"]) == c["expected"]
+
+
+def test_cli_pinyin_command():
+    from typer.testing import CliRunner
+
+    from clp.cli import app
+
+    res = CliRunner().invoke(app, ["pinyin", "hao3 chi1", "--join"])
+    assert res.exit_code == 0
+    assert res.stdout.strip() == "hǎochī"
