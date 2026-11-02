@@ -1,0 +1,67 @@
+{
+  "hsk30": {
+    "date": "2026-11-02",
+    "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-expanded.csv",
+    "sha256": "7d163db11742afc5e7d93a16df332d1776a381013c487938621cafd95f037069",
+    "files": [
+      {
+        "name": "hsk30-expanded.csv",
+        "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-expanded.csv",
+        "sha256": "62c428c1fc9c221b8ae90281b9e1c72484c7ffdf3d0476e58a4e90cfe797446f"
+      }
+    ]
+  },
+  "cedict": {
+    "date": "2026-11-02",
+    "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+    "sha256": "346e8dae6e16f668fbfcd898d6cd67eb50181f9188793e4b51f75271b6d6de06",
+    "files": [
+      {
+        "name": "cedict_1_0_ts_utf-8_mdbg.txt.gz",
+        "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+        "sha256": "e203bbf4a28c2ab54762e9b1fb813e53aa9112939704e71a5117f3b3555a46cb"
+      }
+    ]
+  },
+  "unihan": {
+    "date": "2026-11-02",
+    "url": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+    "sha256": "7b9f5a16ddaad7826e5c0b945df399606d3344d4f6daa1c2f14934a690da7dd0",
+    "files": [
+      {
+        "name": "Unihan.zip",
+        "url": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+        "sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e"
+      }
+    ]
+  },
+  "makemeahanzi": {
+    "date": "2026-11-02",
+    "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt",
+    "sha256": "4b33404534f5f594cfcc90bbdc3a4116c423e596f9d37905d547c8d5b09457b0",
+    "files": [
+      {
+        "name": "dictionary.txt",
+        "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt",
+        "sha256": "744bb05d5b0742e9ee35c37791f94d56a173349b3367569e7ca11e510364d203"
+      },
+      {
+        "name": "graphics.txt",
+        "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/master/graphics.txt",
+        "sha256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee"
+      }
+    ]
+  },
+  "hanzi-writer-data": {
+    "date": "2026-11-02",
+    "url": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz",
+    "sha256": "881f08452150c70fa2296da97b11eafd1a912389314cf637421725537bfb043e",
+    "files": [
+      {
+        "name": "hanzi-writer-data-2.0.1.tgz",
+        "url": "https://registry.npmjs.org/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz",
+        "sha256": "72baf3d82b114e60d6e40ea05f24d2262a05cd39d544e2f322ba2fceb7beff15"
+      }
+    ]
+  }
+}
