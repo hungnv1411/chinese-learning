@@ -36,13 +36,17 @@ def upsert(conn, table: str, rows: list[dict], key_cols: list[str]) -> dict[str,
     sql = build_upsert_sql(table, columns, key_cols)
     inserted = updated = 0
     with conn.cursor() as cur:
-        for row in rows:
-            cur.execute(sql, [row[c] for c in columns])
-            for (is_new,) in cur.fetchall():
-                if is_new:
-                    inserted += 1
-                else:
-                    updated += 1
+        for i in range(0, len(rows), BATCH):
+            params = [[row[c] for c in columns] for row in rows[i : i + BATCH]]
+            cur.executemany(sql, params, returning=True)
+            while True:
+                for (is_new,) in cur.fetchall():
+                    if is_new:
+                        inserted += 1
+                    else:
+                        updated += 1
+                if not cur.nextset():
+                    break
     conn.commit()
     return {"inserted": inserted, "updated": updated}
 

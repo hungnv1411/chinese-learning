@@ -18,3 +18,4 @@ playwright-report/
 .pnpm-store/
 node_modules/
 *.tsbuildinfo
+src/pipeline/out/

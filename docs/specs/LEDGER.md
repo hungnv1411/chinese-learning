@@ -55,7 +55,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 |---|---|---|---|---|---|
 | 15 | 01-1 | Khung pipeline, `pinyin.py` (khớp fixture TS), `upsert` | 00-4, 00-6 | ✅ | 41 test xanh trong Docker (`pinyin.py` khớp fixture, `upsert` test bằng fake conn), `clp --help` liệt kê lệnh, ruff sạch; `upsert` chưa thử với Postgres thật (sẽ có ở 01-3) |
 | 16 | 01-2 | `fetch` + `manifest.json` | 01-1 | ✅ | 5 test fetch xanh (respx); tải thật cedict, hsk30, unihan, makemeahanzi, hanzi-writer-data OK, URL Tatoeba trả 200 (chưa tải thân file); `data/raw/manifest.json` được commit |
-| 17 | 01-3 | `import_cedict` | 01-2 | ⬜ | |
+| 17 | 01-3 | `import_cedict` | 01-2 | ✅ | 54 test xanh (gồm 4 test với Postgres thật); nhập thật 125.356 mục, chạy lại không thêm dòng; thêm unique `dict_entry_natural_uq` (xem decisions.md) |
 | 18 | 01-4 | `import_hsk` + ghép từ điển + CSV chưa khớp | 01-3 | ⬜ | |
 | 19 | 02-8 | `content/radicals_vi.yaml` (214 bộ thủ, AI soạn) | 01-1 | ⬜ | Cần trước 01-5 |
 | 20 | 01-5 | `import_hanzi` (Hán Việt, phân tích chữ, nét → R2) | 01-4, 02-8 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-02 | 01-3 xong: `clp import-cedict`, migration 0001 (unique dict_entry), py-pipeline nối db |
 | 2026-11-02 | 01-2 xong: `clp fetch`, `sources.yaml`, manifest |
 | 2026-11-02 | 01-1 xong: chạy pytest/ruff/`clp --help` trong Docker (`py-pipeline`) |
 | 2026-10-29 | Merge `feat/foundation` vào `master`. Bắt đầu 01-1 trên `feat/pipeline`: `pinyin.py`, `db.py`, `cli.py` |

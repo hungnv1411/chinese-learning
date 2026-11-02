@@ -2,18 +2,24 @@ from clp.db import build_upsert_sql, log_run, upsert
 
 
 class FakeCursor:
+    """Mỗi tham số của executemany(returning=True) là một result set một dòng."""
+
     def __init__(self, rows):
         self.rows = rows
+        self.pos = 0
         self.calls = []
 
-    def executemany(self, sql, params):
+    def executemany(self, sql, params, returning=False):
         self.calls.append((sql, list(params)))
-
-    def execute(self, sql, params=None):
-        self.calls.append((sql, params))
+        self.pos = 0
+        self.n = len(self.calls[-1][1])
 
     def fetchall(self):
         return [self.rows.pop(0)] if self.rows else []
+
+    def nextset(self):
+        self.pos += 1
+        return self.pos < self.n
 
     def __enter__(self):
         return self

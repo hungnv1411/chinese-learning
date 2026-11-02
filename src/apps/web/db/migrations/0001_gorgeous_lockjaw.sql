@@ -1,0 +1,1 @@
+ALTER TABLE "dict_entry" ADD CONSTRAINT "dict_entry_natural_uq" UNIQUE("simplified","traditional","pinyin_numbered");

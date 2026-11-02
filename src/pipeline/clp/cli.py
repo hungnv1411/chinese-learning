@@ -53,5 +53,30 @@ def fetch(
         typer.echo(f"{name}: {state}")
 
 
+@app.command(name="import-cedict")
+def import_cedict_cmd(
+    raw_dir: Annotated[Path, typer.Option(help="Thư mục dữ liệu thô.")] = RAW_DIR,
+) -> None:
+    """B2: nhập CC-CEDICT bản mới nhất theo manifest vào dict_entry."""
+    import datetime
+
+    from clp.cedict import import_cedict
+    from clp.db import connect, log_run
+    from clp.fetch import latest_dir
+
+    src = next(latest_dir(raw_dir, "cedict").glob("*.txt*"))
+    with connect() as conn:
+        res = import_cedict(conn, src)
+    log_run(
+        PIPELINE_DIR / "out" / "runs.log",
+        "import-cedict",
+        inserted=res["inserted"],
+        updated=res["updated"],
+        skipped=0,
+        now=datetime.datetime.now().isoformat(timespec="seconds"),
+    )
+    typer.echo(f"dict_entry: +{res['inserted']} mới, {res['updated']} cập nhật")
+
+
 if __name__ == "__main__":
     app()

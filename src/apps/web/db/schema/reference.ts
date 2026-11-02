@@ -36,6 +36,8 @@ export const dictEntry = pgTable(
     ),
   },
   (t) => [
+    // Khóa tự nhiên để pipeline upsert (01-3).
+    unique('dict_entry_natural_uq').on(t.simplified, t.traditional, t.pinyinNumbered),
     index('dict_entry_simplified_idx').on(t.simplified),
     index('dict_entry_pinyin_plain_idx').using('btree', t.pinyinPlain.op('text_pattern_ops')),
     index('dict_entry_simplified_trgm_idx').using('gin', t.simplified.op('gin_trgm_ops')),
