@@ -2,12 +2,22 @@
   "hsk30": {
     "date": "2026-11-02",
     "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-expanded.csv",
-    "sha256": "7d163db11742afc5e7d93a16df332d1776a381013c487938621cafd95f037069",
+    "sha256": "455635153e65248b4fa7aa04592ab0a738f7fb3ff878cfc8b05d83ac9d4cc2f1",
     "files": [
       {
         "name": "hsk30-expanded.csv",
         "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-expanded.csv",
         "sha256": "62c428c1fc9c221b8ae90281b9e1c72484c7ffdf3d0476e58a4e90cfe797446f"
+      },
+      {
+        "name": "hsk30-chars.csv",
+        "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-chars.csv",
+        "sha256": "8c5957108e6dafd120be10518a827a4d834ea3ce29acbfedeff1022cd7d05280"
+      },
+      {
+        "name": "hsk30-grammar.csv",
+        "url": "https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-grammar.csv",
+        "sha256": "9a546944af00976a3afb160fe70dd564a035d36eff82eb275b6aed7ed8a9ccf4"
       }
     ]
   },

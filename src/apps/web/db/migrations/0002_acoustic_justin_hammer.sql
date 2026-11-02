@@ -1,0 +1,1 @@
+ALTER TABLE "hsk_word" ADD CONSTRAINT "hsk_word_natural_uq" UNIQUE("level","simplified","pinyin");

@@ -58,6 +58,8 @@ export const hskWord = pgTable(
     deprecated: boolean('deprecated').notNull().default(false),
   },
   (t) => [
+    // Khóa tự nhiên để pipeline upsert (01-4).
+    unique('hsk_word_natural_uq').on(t.level, t.simplified, t.pinyin),
     index('hsk_word_level_idx').on(t.level),
     index('hsk_word_simplified_idx').on(t.simplified),
   ],

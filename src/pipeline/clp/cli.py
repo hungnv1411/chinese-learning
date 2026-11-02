@@ -78,5 +78,47 @@ def import_cedict_cmd(
     typer.echo(f"dict_entry: +{res['inserted']} mới, {res['updated']} cập nhật")
 
 
+@app.command(name="import-hsk")
+def import_hsk_cmd(
+    raw_dir: Annotated[Path, typer.Option(help="Thư mục dữ liệu thô.")] = RAW_DIR,
+    overrides: Annotated[Path, typer.Option(help="File ghép tay HSK → dict_entry.")] = (
+        PIPELINE_DIR.parents[1] / "content" / "overrides" / "hsk_dict_map.yaml"
+    ),
+) -> None:
+    """B3: nhập HSK 2021 (từ, chữ, ngữ pháp), ghép với dict_entry, cập nhật hsk_level."""
+    import datetime
+
+    import yaml
+
+    from clp.db import connect, log_run
+    from clp.fetch import latest_dir
+    from clp.hsk import import_hsk
+
+    d = latest_dir(raw_dir, "hsk30")
+    ov = yaml.safe_load(overrides.read_text(encoding="utf-8")) if overrides.exists() else []
+    out_dir = PIPELINE_DIR / "out"
+    with connect() as conn:
+        res = import_hsk(
+            conn,
+            d / "hsk30-expanded.csv",
+            d / "hsk30-chars.csv",
+            d / "hsk30-grammar.csv",
+            overrides=ov or [],
+            out_dir=out_dir,
+        )
+    total = {k: res[k]["inserted"] for k in ("words", "chars", "grammar")}
+    log_run(
+        out_dir / "runs.log",
+        "import-hsk",
+        inserted=sum(total.values()),
+        updated=sum(res[k]["updated"] for k in total),
+        skipped=res["unmatched"],
+        now=datetime.datetime.now().isoformat(timespec="seconds"),
+    )
+    typer.echo(f"hsk: {total}, chưa ghép được: {res['unmatched']} (out/hsk_unmatched.csv)")
+    for w in res["warnings"]:
+        typer.echo(f"CẢNH BÁO {w}")
+
+
 if __name__ == "__main__":
     app()

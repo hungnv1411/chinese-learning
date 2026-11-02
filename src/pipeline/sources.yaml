@@ -6,6 +6,10 @@ cedict:
 hsk30:
   - name: hsk30-expanded.csv
     url: https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-expanded.csv
+  - name: hsk30-chars.csv
+    url: https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-chars.csv
+  - name: hsk30-grammar.csv
+    url: https://raw.githubusercontent.com/ivankra/hsk30/master/hsk30-grammar.csv
 unihan:
   - name: Unihan.zip
     url: https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip

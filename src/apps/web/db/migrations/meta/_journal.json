@@ -15,6 +15,13 @@
       "when": 1793631203585,
       "tag": "0001_gorgeous_lockjaw",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793632171353,
+      "tag": "0002_acoustic_justin_hammer",
+      "breakpoints": true
     }
   ]
 }
