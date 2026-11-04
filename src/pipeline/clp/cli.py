@@ -171,5 +171,35 @@ def import_hanzi_cmd(
     )
 
 
+@app.command(name="import-tatoeba")
+def import_tatoeba_cmd(
+    raw_dir: Annotated[Path, typer.Option(help="Thư mục dữ liệu thô.")] = RAW_DIR,
+) -> None:
+    """B5: nhập câu ví dụ Tatoeba (cmn ↔ eng), tách từ, nối từ điển, tính max_hsk_level."""
+    import datetime
+
+    from clp.db import connect, log_run
+    from clp.fetch import latest_dir
+    from clp.tatoeba import import_tatoeba
+
+    d = latest_dir(raw_dir, "tatoeba")
+    out_dir = PIPELINE_DIR / "out"
+    with connect() as conn:
+        res = import_tatoeba(
+            conn, d / "cmn_sentences.tsv.bz2", d / "eng_sentences.tsv.bz2", d / "links.tar.bz2"
+        )
+    log_run(
+        out_dir / "runs.log",
+        "import-tatoeba",
+        inserted=res["sentences"]["inserted"],
+        updated=res["sentences"]["updated"],
+        skipped=res["dropped"],
+        now=datetime.datetime.now().isoformat(timespec="seconds"),
+    )
+    typer.echo(
+        f"sentence: {res['sentences']}, bỏ qua: {res['dropped']}, liên kết từ: {res['links']}"
+    )
+
+
 if __name__ == "__main__":
     app()

@@ -59,7 +59,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 18 | 01-4 | `import_hsk` + ghép từ điển + CSV chưa khớp | 01-3 | ✅ | 68 test xanh (5 quy tắc ghép + 3 test DB); nhập thật 11.109 từ/3.000 chữ/573 ngữ pháp, 32 từ chưa ghép; cảnh báo lệch chuẩn: cấp 1 từ 512, cấp 2 từ 776 và ngữ pháp 82 (xem decisions.md) |
 | 19 | 02-8 | `content/radicals_vi.yaml` (214 bộ thủ, AI soạn) | 01-1 | ✅ | 4 test kiểm tra máy xanh (214, không trùng); AI soạn, chưa duyệt; thêm `number`, `variants` (xem 02-curriculum/decisions.md) |
 | 20 | 01-5 | `import_hanzi` (Hán Việt, phân tích chữ, nét → R2) | 01-4, 02-8 | ✅ | 79 test xanh (11 test hanzi, gồm DB thật); nhập thật 3.000 chữ + 214 bộ thủ, 3.000 chữ có nét (ghi cục bộ, R2 chỉ test bằng mock); 123/900 chữ HSK 1–3 thiếu Hán Việt (xem decisions.md) |
-| 21 | 01-6 | `import_tatoeba` | 01-4 | ⬜ | |
+| 21 | 01-6 | `import_tatoeba` | 01-4 | ✅ | 92 test xanh; nhập thật 61.896 câu + 331.089 liên kết từ, chạy lại không nhân đôi; 692 từ HSK 1–3 chưa có câu phù hợp (xem decisions.md) |
 | 22 | 01-8 | `report.md` | 01-6 | ⬜ | |
 | 23 | 01-9 | `content/sources.yaml` | 01-2 | ⬜ | |
 | 24 | 10-1 | `content/pron/syllables.yaml` (danh sách âm tiết + chữ ví dụ) | 01-5 | ⬜ | Cần cho 11-1 và audio âm tiết |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-04 | 01-6 xong: `clp import-tatoeba` (OpenCC, jieba, pypinyin) |
 | 2026-11-04 | 01-5 xong: `clp import-hanzi` (Hán Việt qua biến thể phồn thể, phân tích chữ, nét, radical_vi) |
 | 2026-11-04 | 02-8 xong: `content/radicals_vi.yaml` (214 bộ thủ) + validator `clp/radicals.py` |
 | 2026-11-02 | 01-4 xong: `clp import-hsk`, migration 0002 (unique hsk_word) |

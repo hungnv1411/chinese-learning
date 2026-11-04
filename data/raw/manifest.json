@@ -73,5 +73,27 @@
         "sha256": "72baf3d82b114e60d6e40ea05f24d2262a05cd39d544e2f322ba2fceb7beff15"
       }
     ]
+  },
+  "tatoeba": {
+    "date": "2026-11-04",
+    "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+    "sha256": "1a72dfcfaebfaf82252eb80b6fd45198465950f4915a104866940568bc8eeec5",
+    "files": [
+      {
+        "name": "cmn_sentences.tsv.bz2",
+        "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+        "sha256": "d603c1b9c67fb7a5a68c56fe6df5c935025ca1f36a1f9a912c33ed6dbed91743"
+      },
+      {
+        "name": "eng_sentences.tsv.bz2",
+        "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2",
+        "sha256": "07f33d399f0a55b917202abbd901f23c39c54a6dd562252985ce8c7e168db6ef"
+      },
+      {
+        "name": "links.tar.bz2",
+        "url": "https://downloads.tatoeba.org/exports/links.tar.bz2",
+        "sha256": "69a55057566127a4c2f5cd618ae47167cb66972d67a3f8f39f368c106cd6f50c"
+      }
+    ]
   }
 }
