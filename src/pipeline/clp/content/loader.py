@@ -1,5 +1,6 @@
 """Đọc file nội dung YAML và báo lỗi theo `file:dòng` (ruamel.yaml giữ số dòng)."""
 
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -104,12 +105,57 @@ def _validate[T](path: Path, adapter: TypeAdapter[T], data: Any, root_kind: str)
         raise ContentError(issues) from e
 
 
+@dataclass(frozen=True)
+class LoadedUnit:
+    """File chủ đề đã kiểm tra hình dạng, kèm cây YAML để tra số dòng cho các quy tắc nội dung."""
+
+    path: Path
+    unit: UnitFile
+    root: Any
+
+    def line(self, *loc: Any) -> int:
+        return _line_of(self.root, loc)
+
+
+@dataclass(frozen=True)
+class LoadedGrammar:
+    path: Path
+    points: list[GrammarPointFile]
+    root: Any
+
+    def line(self, *loc: Any) -> int:
+        return _line_of(self.root, loc)
+
+
+def load_unit(path: Path) -> LoadedUnit:
+    root = _read(path)
+    return LoadedUnit(path, _validate(path, TypeAdapter(UnitFile), root, "mapping"), root)
+
+
+def load_grammar(path: Path) -> LoadedGrammar:
+    root = _read(path)
+    points = _validate(path, TypeAdapter(list[GrammarPointFile]), root, "list")
+    return LoadedGrammar(path, points, root)
+
+
 def load_unit_file(path: Path) -> UnitFile:
-    return _validate(path, TypeAdapter(UnitFile), _read(path), "mapping")
+    return load_unit(path).unit
 
 
 def load_grammar_file(path: Path) -> list[GrammarPointFile]:
-    return _validate(path, TypeAdapter(list[GrammarPointFile]), _read(path), "list")
+    return load_grammar(path).points
 
 
-__all__ = ["ContentError", "Issue", "load_grammar_file", "load_unit_file"]
+LineOf = Callable[..., int]
+
+
+__all__ = [
+    "ContentError",
+    "Issue",
+    "LoadedGrammar",
+    "LoadedUnit",
+    "load_grammar",
+    "load_grammar_file",
+    "load_unit",
+    "load_unit_file",
+]

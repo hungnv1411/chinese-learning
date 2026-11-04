@@ -15,3 +15,16 @@
 - **Lỗi theo `file:dòng`:** `ruamel.yaml` (round-trip) giữ số dòng; lỗi Pydantic được ánh xạ về dòng của phần tử sâu nhất tìm thấy (khóa vắng thì dòng của mục chứa nó). Báo **mọi** lỗi trong một file, sắp theo dòng; khóa YAML trùng, lỗi cú pháp, gốc không đúng dạng đều có dòng.
 - `packages/core` thêm phụ thuộc `zod` (cho `content.ts` và `guest.ts` sau này), vẫn không có IO.
 - **Chưa làm (02-1 chỉ là hình dạng):** `stages.yaml`, `_plan.yaml`, `exam/*.yaml`, `pron/sounds.yaml`; quy tắc nội dung (02-2); chuẩn hóa và ghi DB (02-3).
+
+## 02-2: quy tắc kiểm tra nội dung
+- **Cài đặt:** `clp/content/rules.py` (`validate_content(units, grammar, ctx) -> Report`) nhận `Context` (từ HSK theo cấp, chữ có dữ liệu nét, id bài đã có trong DB, id ngữ pháp/âm, bộ tách từ). Mỗi phát hiện có `code`, file, dòng; `check-content` (`clp/content/check.py`) dựng `Context` từ DB và đọc `content/<lộ trình>/u*.yaml`, `content/grammar/*.yaml`, in báo cáo, thoát mã 1 nếu có lỗi, không ghi DB. `loader.load_unit/load_grammar` trả kèm cây YAML để tra dòng.
+- **Thứ tự "đã học":** lộ trình (`pron, hsk1, hsk2, hsk3`) → `order` chủ đề → thứ tự bài trong file; đưa file theo thứ tự nào cũng được. Hằng số lộ trình nằm ở `check.py` cho tới khi có `stages.yaml` (02-3).
+- **Chặn (lỗi):** `duplicate_id` (chủ đề, bài, câu, điểm ngữ pháp), `published_lesson_missing`, `unknown_stage`, `word_not_in_hsk` (so với `hsk_word` đúng cấp của lộ trình, trừ `extra: true`), `word_taught_twice`, `missing_intro`, `intro_not_new`, `missing_writing`, `too_few_exercises` (≥ 6, tính cả `auto`), `too_few_speaking` (≥ 2; Phát âm ≥ 3), `default_layout_incomplete`, `checkpoint_has_steps`, `unknown_sentence`, `unknown_grammar`, `unknown_sound`, `unknown_word_ref`, và với Phát âm: `pron_steps_required`, `missing_pron_cards` / `too_many_pron_cards` (1–4 thẻ), `writing_outside_unit_8`, `missing_writing` ở chủ đề 8.
+- **Cảnh báo:** `sentence_unlearned_word` (câu dùng từ chưa học đến bài đó; cần bộ tách từ), `word_not_introduced` (từ mới không có trong `intro`), `grammar_step_missing` (bài có `grammar` nhưng `steps` không có bước ngữ pháp).
+- **Quyết định phải làm rõ khi viết quy tắc:**
+  - `missing_writing` chỉ đòi khi bài có chữ mới **chưa học ở bài nào trước** *và* chữ đó có dữ liệu nét; chữ không có nét bị 02-3 bỏ khỏi `writing: auto` kèm cảnh báo.
+  - Mục tham chiếu `sentence` chỉ được dùng câu **của chính bài** (payload của bài chỉ chứa câu của bài).
+  - `target` của bài tập và `word` của mục nói phải là từ hoặc chữ đã học đến bài đó (kể cả từ `extra`); bài Phát âm không kiểm tra `target` (là âm tiết).
+  - Phát âm: `write_char` và bước `writing` ngoài chủ đề 8 là lỗi; mọi bài (không phải checkpoint) ở chủ đề 8 phải có bước `writing`.
+  - Quy tắc "câu thiếu `zh`/`en`/`pinyin`" và "`type` bài tập không hợp lệ" nằm ở bước đọc file (02-1), không lặp lại ở đây.
+- **Phát hiện từ dữ liệu thật:** danh sách HSK 2021 **không có `你好`** (chỉ có `你` và `好`), nhưng ví dụ trong spec (`content-format.md`) dạy `你好` làm từ mới của HSK 1. Bộ kiểm tra bắt đúng điều này. Khi soạn đợt D-1 phải chọn: dạy `你`, `好` rồi dùng `你好` như cụm trong câu, hoặc đánh `extra: true`. Sửa ví dụ trong spec cho khỏi gây hiểu nhầm là việc cho chủ dự án/02-3.

@@ -255,5 +255,24 @@ def syllables() -> None:
     )
 
 
+@app.command(name="check-content")
+def check_content_cmd(
+    content_dir: Annotated[Path, typer.Option(help="Thư mục nội dung.")] = (
+        PIPELINE_DIR.parents[1] / "content"
+    ),
+) -> None:
+    """02-2: kiểm tra nội dung YAML (chặn/cảnh báo) với dữ liệu trong DB; không ghi DB."""
+    from clp.content.check import check_content
+    from clp.db import connect
+
+    with connect() as conn:
+        report = check_content(conn, content_dir)
+    for f in report.errors + report.warnings:
+        typer.echo(str(f))
+    typer.echo(f"{len(report.errors)} lỗi, {len(report.warnings)} cảnh báo")
+    if not report.ok:
+        raise typer.Exit(1)
+
+
 if __name__ == "__main__":
     app()
