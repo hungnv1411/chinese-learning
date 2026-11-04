@@ -114,6 +114,13 @@ def build_entries(chars: dict[tuple[str, int], dict], audio_keys: set[str]) -> l
     return entries
 
 
+def render_core_json() -> str:
+    """Danh sách âm tiết chuẩn cho packages/core (tách từ khóa pinyin khi tra từ)."""
+    import json
+
+    return json.dumps(STANDARD, ensure_ascii=False, indent=0).replace("\n", "") + "\n"
+
+
 def render_yaml(entries: list[dict]) -> str:
     lines = [
         "# Sinh bằng `clp syllables` (10-1). Đừng sửa tay: sửa danh sách chuẩn trong clp/syllables.py.",

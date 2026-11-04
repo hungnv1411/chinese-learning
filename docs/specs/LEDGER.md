@@ -70,7 +70,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 27 | 11-1 | `classifyQuery`, `parsePinyinQuery` | 10-1, 00-6 | ⬜ | |
+| 27 | 11-1 | `classifyQuery`, `parsePinyinQuery` | 10-1, 00-6 | ✅ | 88 test core xanh (41 test mới); danh sách âm tiết ở `packages/core/src/syllables.json` do `clp syllables` sinh, có test Python giữ khớp |
 | 28 | 11-2 | Tìm kiếm SQL + API + rate limit 60/phút/IP | 11-1, 01-6 | ⬜ | |
 | 29 | 11-3 | Màn hình `/tra-tu` | 11-2, 00-UI2 | ⬜ | |
 | 30 | 13-4 | `/nguon-du-lieu` + `PublicFooter` | 01-9, 00-UI2 | ⬜ | Kéo lên vì trang từ điển cần chân trang |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-04 | 11-1 xong: `classifyQuery`, `parsePinyinQuery`, `segmentPinyin` ở `packages/core/src/dictionary.ts` |
 | 2026-11-04 | 10-1 xong: `clp syllables` sinh `content/pron/syllables.yaml` |
 | 2026-11-04 | 01-9 xong: `content/sources.yaml` + test đối chiếu nguồn tải về |
 | 2026-11-04 | 01-8 xong: `clp report` |

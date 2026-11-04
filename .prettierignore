@@ -11,3 +11,4 @@ node_modules
 *.yaml
 src/apps/web/styles
 src/apps/web/public
+src/packages/core/src/syllables.json

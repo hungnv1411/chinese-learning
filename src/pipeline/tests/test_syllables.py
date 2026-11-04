@@ -1,3 +1,5 @@
+import json
+
 import pytest
 import yaml
 
@@ -6,6 +8,7 @@ from clp.syllables import (
     build_entries,
     collect_chars,
     compare_with_cedict,
+    render_core_json,
     render_yaml,
     split_syllable,
 )
@@ -118,3 +121,11 @@ def test_compare_with_cedict_reports_both_directions():
     assert "zzz" in diff["only_in_cedict"] and "yo" in diff["only_in_cedict"]
     assert "ma" not in diff["only_in_cedict"]
     assert "bao" in diff["only_in_standard"]
+
+
+def test_core_syllables_json_matches_standard_list():
+    from pathlib import Path
+
+    path = Path(__file__).resolve().parents[2] / "packages" / "core" / "src" / "syllables.json"
+    assert path.read_text(encoding="utf-8") == render_core_json(), "Chạy lại `clp syllables`"
+    assert json.loads(path.read_text(encoding="utf-8")) == STANDARD
