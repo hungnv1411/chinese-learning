@@ -1,0 +1,218 @@
+# 214 bộ thủ Khang Hy: tên Hán Việt và nghĩa tiếng Việt (01-5 nhập vào bảng radical_vi).
+# Soạn bằng AI, chưa có người duyệt (D13). Sửa sai theo báo lỗi của người học.
+# `variants`: dạng rút gọn / dạng viết bên (ví dụ 氵 của 水) để ánh xạ về bộ gốc.
+
+- {number: 1, radical: "一", name_vi: "nhất", meaning_vi: "số một", variants: []}
+- {number: 2, radical: "丨", name_vi: "cổn", meaning_vi: "nét sổ thẳng", variants: []}
+- {number: 3, radical: "丶", name_vi: "chủ", meaning_vi: "dấu chấm", variants: []}
+- {number: 4, radical: "丿", name_vi: "phiệt", meaning_vi: "nét phẩy", variants: []}
+- {number: 5, radical: "乙", name_vi: "ất", meaning_vi: "can thứ hai, nét cong", variants: [乚]}
+- {number: 6, radical: "亅", name_vi: "quyết", meaning_vi: "nét móc", variants: []}
+- {number: 7, radical: "二", name_vi: "nhị", meaning_vi: "số hai", variants: []}
+- {number: 8, radical: "亠", name_vi: "đầu", meaning_vi: "nắp đậy (không có nghĩa riêng)", variants: []}
+- {number: 9, radical: "人", name_vi: "nhân", meaning_vi: "người", variants: [亻]}
+- {number: 10, radical: "儿", name_vi: "nhi", meaning_vi: "người đi, chân người", variants: []}
+- {number: 11, radical: "入", name_vi: "nhập", meaning_vi: "vào", variants: []}
+- {number: 12, radical: "八", name_vi: "bát", meaning_vi: "số tám, chia ra", variants: []}
+- {number: 13, radical: "冂", name_vi: "quynh", meaning_vi: "vùng biên giới xa, khung", variants: []}
+- {number: 14, radical: "冖", name_vi: "mịch", meaning_vi: "trùm khăn, che phủ", variants: []}
+- {number: 15, radical: "冫", name_vi: "băng", meaning_vi: "nước đá", variants: []}
+- {number: 16, radical: "几", name_vi: "kỷ", meaning_vi: "cái ghế dựa, cái bàn nhỏ", variants: []}
+- {number: 17, radical: "凵", name_vi: "khảm", meaning_vi: "há miệng, cái hố", variants: []}
+- {number: 18, radical: "刀", name_vi: "đao", meaning_vi: "con dao", variants: [刂]}
+- {number: 19, radical: "力", name_vi: "lực", meaning_vi: "sức mạnh", variants: []}
+- {number: 20, radical: "勹", name_vi: "bao", meaning_vi: "bao bọc", variants: []}
+- {number: 21, radical: "匕", name_vi: "chủy", meaning_vi: "cái thìa, con dao ngắn", variants: []}
+- {number: 22, radical: "匚", name_vi: "phương", meaning_vi: "cái hòm, tủ đựng", variants: []}
+- {number: 23, radical: "匸", name_vi: "hệ", meaning_vi: "che đậy, giấu", variants: []}
+- {number: 24, radical: "十", name_vi: "thập", meaning_vi: "số mười", variants: []}
+- {number: 25, radical: "卜", name_vi: "bốc", meaning_vi: "xem bói", variants: []}
+- {number: 26, radical: "卩", name_vi: "tiết", meaning_vi: "đốt tre, dấu hiệu", variants: [㔾]}
+- {number: 27, radical: "厂", name_vi: "hán", meaning_vi: "sườn núi, vách đá", variants: []}
+- {number: 28, radical: "厶", name_vi: "khư", meaning_vi: "riêng tư", variants: []}
+- {number: 29, radical: "又", name_vi: "hựu", meaning_vi: "lại nữa, bàn tay phải", variants: []}
+- {number: 30, radical: "口", name_vi: "khẩu", meaning_vi: "cái miệng", variants: []}
+- {number: 31, radical: "囗", name_vi: "vi", meaning_vi: "vây quanh", variants: []}
+- {number: 32, radical: "土", name_vi: "thổ", meaning_vi: "đất", variants: []}
+- {number: 33, radical: "士", name_vi: "sĩ", meaning_vi: "kẻ sĩ, học trò", variants: []}
+- {number: 34, radical: "夂", name_vi: "trĩ", meaning_vi: "đi sau, theo sau", variants: []}
+- {number: 35, radical: "夊", name_vi: "tuy", meaning_vi: "đi chậm", variants: []}
+- {number: 36, radical: "夕", name_vi: "tịch", meaning_vi: "buổi tối", variants: []}
+- {number: 37, radical: "大", name_vi: "đại", meaning_vi: "to lớn", variants: []}
+- {number: 38, radical: "女", name_vi: "nữ", meaning_vi: "phụ nữ, con gái", variants: []}
+- {number: 39, radical: "子", name_vi: "tử", meaning_vi: "con, đứa trẻ", variants: []}
+- {number: 40, radical: "宀", name_vi: "miên", meaning_vi: "mái nhà", variants: []}
+- {number: 41, radical: "寸", name_vi: "thốn", meaning_vi: "tấc (đơn vị đo), bàn tay", variants: []}
+- {number: 42, radical: "小", name_vi: "tiểu", meaning_vi: "nhỏ bé", variants: []}
+- {number: 43, radical: "尢", name_vi: "uông", meaning_vi: "yếu, què", variants: [尣]}
+- {number: 44, radical: "尸", name_vi: "thi", meaning_vi: "thây người, xác", variants: []}
+- {number: 45, radical: "屮", name_vi: "triệt", meaning_vi: "mầm cây, cỏ non", variants: []}
+- {number: 46, radical: "山", name_vi: "sơn", meaning_vi: "núi", variants: []}
+- {number: 47, radical: "巛", name_vi: "xuyên", meaning_vi: "dòng sông", variants: [川]}
+- {number: 48, radical: "工", name_vi: "công", meaning_vi: "công việc, thợ", variants: []}
+- {number: 49, radical: "己", name_vi: "kỷ", meaning_vi: "bản thân mình", variants: []}
+- {number: 50, radical: "巾", name_vi: "cân", meaning_vi: "cái khăn", variants: []}
+- {number: 51, radical: "干", name_vi: "can", meaning_vi: "khô, can thiệp", variants: []}
+- {number: 52, radical: "幺", name_vi: "yêu", meaning_vi: "nhỏ bé, non nớt", variants: []}
+- {number: 53, radical: "广", name_vi: "nghiễm", meaning_vi: "mái nhà rộng, nhà", variants: []}
+- {number: 54, radical: "廴", name_vi: "dẫn", meaning_vi: "bước dài, đi xa", variants: []}
+- {number: 55, radical: "廾", name_vi: "củng", meaning_vi: "chắp tay, hai tay nâng", variants: []}
+- {number: 56, radical: "弋", name_vi: "dặc", meaning_vi: "bắn, cái cọc", variants: []}
+- {number: 57, radical: "弓", name_vi: "cung", meaning_vi: "cái cung", variants: []}
+- {number: 58, radical: "彐", name_vi: "kệ", meaning_vi: "đầu con nhím", variants: [彑]}
+- {number: 59, radical: "彡", name_vi: "sam", meaning_vi: "lông, tóc, nét trang trí", variants: []}
+- {number: 60, radical: "彳", name_vi: "xích", meaning_vi: "bước chân trái, đi", variants: []}
+- {number: 61, radical: "心", name_vi: "tâm", meaning_vi: "trái tim, tâm trí", variants: [忄, ⺗]}
+- {number: 62, radical: "戈", name_vi: "qua", meaning_vi: "cây giáo, binh khí", variants: []}
+- {number: 63, radical: "戶", name_vi: "hộ", meaning_vi: "cửa một cánh, nhà", variants: [户]}
+- {number: 64, radical: "手", name_vi: "thủ", meaning_vi: "bàn tay", variants: [扌, 龵]}
+- {number: 65, radical: "支", name_vi: "chi", meaning_vi: "cành cây, chi nhánh", variants: []}
+- {number: 66, radical: "攴", name_vi: "phộc", meaning_vi: "đánh nhẹ, gõ", variants: [攵]}
+- {number: 67, radical: "文", name_vi: "văn", meaning_vi: "văn chương, chữ viết", variants: []}
+- {number: 68, radical: "斗", name_vi: "đẩu", meaning_vi: "cái đấu, đơn vị đong", variants: []}
+- {number: 69, radical: "斤", name_vi: "cân", meaning_vi: "cái rìu, cân (đơn vị)", variants: []}
+- {number: 70, radical: "方", name_vi: "phương", meaning_vi: "vuông, phương hướng", variants: []}
+- {number: 71, radical: "无", name_vi: "vô", meaning_vi: "không", variants: [旡]}
+- {number: 72, radical: "日", name_vi: "nhật", meaning_vi: "mặt trời, ngày", variants: []}
+- {number: 73, radical: "曰", name_vi: "viết", meaning_vi: "nói rằng", variants: []}
+- {number: 74, radical: "月", name_vi: "nguyệt", meaning_vi: "mặt trăng, tháng", variants: []}
+- {number: 75, radical: "木", name_vi: "mộc", meaning_vi: "cây, gỗ", variants: []}
+- {number: 76, radical: "欠", name_vi: "khiếm", meaning_vi: "thiếu, ngáp", variants: []}
+- {number: 77, radical: "止", name_vi: "chỉ", meaning_vi: "dừng lại", variants: []}
+- {number: 78, radical: "歹", name_vi: "đãi", meaning_vi: "xấu, chết, xương tàn", variants: [歺]}
+- {number: 79, radical: "殳", name_vi: "thù", meaning_vi: "binh khí dài, đánh", variants: []}
+- {number: 80, radical: "毋", name_vi: "vô", meaning_vi: "đừng, chớ", variants: [毌]}
+- {number: 81, radical: "比", name_vi: "tỉ", meaning_vi: "so sánh", variants: []}
+- {number: 82, radical: "毛", name_vi: "mao", meaning_vi: "lông", variants: []}
+- {number: 83, radical: "氏", name_vi: "thị", meaning_vi: "họ, dòng họ", variants: []}
+- {number: 84, radical: "气", name_vi: "khí", meaning_vi: "hơi nước, khí", variants: []}
+- {number: 85, radical: "水", name_vi: "thủy", meaning_vi: "nước", variants: [氵, 氺]}
+- {number: 86, radical: "火", name_vi: "hỏa", meaning_vi: "lửa", variants: [灬]}
+- {number: 87, radical: "爪", name_vi: "trảo", meaning_vi: "móng vuốt", variants: [爫]}
+- {number: 88, radical: "父", name_vi: "phụ", meaning_vi: "cha", variants: []}
+- {number: 89, radical: "爻", name_vi: "hào", meaning_vi: "vạch âm dương trong quẻ", variants: []}
+- {number: 90, radical: "爿", name_vi: "tường", meaning_vi: "mảnh gỗ, cái giường", variants: []}
+- {number: 91, radical: "片", name_vi: "phiến", meaning_vi: "mảnh, tấm", variants: []}
+- {number: 92, radical: "牙", name_vi: "nha", meaning_vi: "răng nanh", variants: []}
+- {number: 93, radical: "牛", name_vi: "ngưu", meaning_vi: "con trâu, con bò", variants: [牜]}
+- {number: 94, radical: "犬", name_vi: "khuyển", meaning_vi: "con chó", variants: [犭]}
+- {number: 95, radical: "玄", name_vi: "huyền", meaning_vi: "màu đen huyền, sâu xa", variants: []}
+- {number: 96, radical: "玉", name_vi: "ngọc", meaning_vi: "ngọc", variants: [王]}
+- {number: 97, radical: "瓜", name_vi: "qua", meaning_vi: "quả dưa", variants: []}
+- {number: 98, radical: "瓦", name_vi: "ngõa", meaning_vi: "ngói", variants: []}
+- {number: 99, radical: "甘", name_vi: "cam", meaning_vi: "vị ngọt", variants: []}
+- {number: 100, radical: "生", name_vi: "sinh", meaning_vi: "sống, sinh ra", variants: []}
+- {number: 101, radical: "用", name_vi: "dụng", meaning_vi: "dùng", variants: []}
+- {number: 102, radical: "田", name_vi: "điền", meaning_vi: "ruộng", variants: []}
+- {number: 103, radical: "疋", name_vi: "thất", meaning_vi: "tấm vải, đơn vị vải", variants: []}
+- {number: 104, radical: "疒", name_vi: "nạch", meaning_vi: "bệnh tật", variants: []}
+- {number: 105, radical: "癶", name_vi: "bát", meaning_vi: "hai chân bước ngược", variants: []}
+- {number: 106, radical: "白", name_vi: "bạch", meaning_vi: "màu trắng", variants: []}
+- {number: 107, radical: "皮", name_vi: "bì", meaning_vi: "da", variants: []}
+- {number: 108, radical: "皿", name_vi: "mãnh", meaning_vi: "bát đĩa", variants: []}
+- {number: 109, radical: "目", name_vi: "mục", meaning_vi: "con mắt", variants: []}
+- {number: 110, radical: "矛", name_vi: "mâu", meaning_vi: "cây giáo", variants: []}
+- {number: 111, radical: "矢", name_vi: "thỉ", meaning_vi: "mũi tên", variants: []}
+- {number: 112, radical: "石", name_vi: "thạch", meaning_vi: "đá", variants: []}
+- {number: 113, radical: "示", name_vi: "thị", meaning_vi: "chỉ thị, thần đất", variants: [礻]}
+- {number: 114, radical: "禸", name_vi: "nhữu", meaning_vi: "vết chân thú", variants: []}
+- {number: 115, radical: "禾", name_vi: "hòa", meaning_vi: "cây lúa", variants: []}
+- {number: 116, radical: "穴", name_vi: "huyệt", meaning_vi: "cái hang", variants: []}
+- {number: 117, radical: "立", name_vi: "lập", meaning_vi: "đứng", variants: []}
+- {number: 118, radical: "竹", name_vi: "trúc", meaning_vi: "cây tre", variants: [⺮]}
+- {number: 119, radical: "米", name_vi: "mễ", meaning_vi: "gạo", variants: []}
+- {number: 120, radical: "糸", name_vi: "mịch", meaning_vi: "sợi tơ", variants: [糹, 纟]}
+- {number: 121, radical: "缶", name_vi: "phữu", meaning_vi: "đồ sành, cái vò", variants: []}
+- {number: 122, radical: "网", name_vi: "võng", meaning_vi: "cái lưới", variants: [罓, 罒, ⺫]}
+- {number: 123, radical: "羊", name_vi: "dương", meaning_vi: "con dê", variants: []}
+- {number: 124, radical: "羽", name_vi: "vũ", meaning_vi: "lông chim", variants: []}
+- {number: 125, radical: "老", name_vi: "lão", meaning_vi: "già", variants: [耂]}
+- {number: 126, radical: "而", name_vi: "nhi", meaning_vi: "mà, và (liên từ), râu", variants: []}
+- {number: 127, radical: "耒", name_vi: "lỗi", meaning_vi: "cái cày", variants: []}
+- {number: 128, radical: "耳", name_vi: "nhĩ", meaning_vi: "cái tai", variants: []}
+- {number: 129, radical: "聿", name_vi: "duật", meaning_vi: "cây bút", variants: []}
+- {number: 130, radical: "肉", name_vi: "nhục", meaning_vi: "thịt", variants: [⺼]}
+- {number: 131, radical: "臣", name_vi: "thần", meaning_vi: "bề tôi", variants: []}
+- {number: 132, radical: "自", name_vi: "tự", meaning_vi: "tự mình, mũi", variants: []}
+- {number: 133, radical: "至", name_vi: "chí", meaning_vi: "đến", variants: []}
+- {number: 134, radical: "臼", name_vi: "cữu", meaning_vi: "cái cối giã", variants: []}
+- {number: 135, radical: "舌", name_vi: "thiệt", meaning_vi: "cái lưỡi", variants: []}
+- {number: 136, radical: "舛", name_vi: "suyễn", meaning_vi: "trái ngược, sai lệch", variants: []}
+- {number: 137, radical: "舟", name_vi: "chu", meaning_vi: "con thuyền", variants: []}
+- {number: 138, radical: "艮", name_vi: "cấn", meaning_vi: "quẻ cấn, bền cứng, dừng", variants: []}
+- {number: 139, radical: "色", name_vi: "sắc", meaning_vi: "màu sắc", variants: []}
+- {number: 140, radical: "艸", name_vi: "thảo", meaning_vi: "cỏ", variants: [艹]}
+- {number: 141, radical: "虍", name_vi: "hô", meaning_vi: "vằn con hổ", variants: []}
+- {number: 142, radical: "虫", name_vi: "trùng", meaning_vi: "sâu bọ", variants: []}
+- {number: 143, radical: "血", name_vi: "huyết", meaning_vi: "máu", variants: []}
+- {number: 144, radical: "行", name_vi: "hành", meaning_vi: "đi, thi hành", variants: []}
+- {number: 145, radical: "衣", name_vi: "y", meaning_vi: "áo", variants: [衤]}
+- {number: 146, radical: "襾", name_vi: "á", meaning_vi: "che đậy", variants: [覀, 西]}
+- {number: 147, radical: "見", name_vi: "kiến", meaning_vi: "thấy", variants: [见]}
+- {number: 148, radical: "角", name_vi: "giác", meaning_vi: "cái sừng", variants: []}
+- {number: 149, radical: "言", name_vi: "ngôn", meaning_vi: "lời nói", variants: [讠, 訁]}
+- {number: 150, radical: "谷", name_vi: "cốc", meaning_vi: "thung lũng", variants: []}
+- {number: 151, radical: "豆", name_vi: "đậu", meaning_vi: "hạt đậu", variants: []}
+- {number: 152, radical: "豕", name_vi: "thỉ", meaning_vi: "con heo", variants: []}
+- {number: 153, radical: "豸", name_vi: "trãi", meaning_vi: "loài thú chân dài, sâu không chân", variants: []}
+- {number: 154, radical: "貝", name_vi: "bối", meaning_vi: "vỏ sò, tiền của", variants: [贝]}
+- {number: 155, radical: "赤", name_vi: "xích", meaning_vi: "màu đỏ", variants: []}
+- {number: 156, radical: "走", name_vi: "tẩu", meaning_vi: "đi bộ, chạy", variants: []}
+- {number: 157, radical: "足", name_vi: "túc", meaning_vi: "bàn chân", variants: [⻊]}
+- {number: 158, radical: "身", name_vi: "thân", meaning_vi: "thân mình", variants: []}
+- {number: 159, radical: "車", name_vi: "xa", meaning_vi: "chiếc xe", variants: [车]}
+- {number: 160, radical: "辛", name_vi: "tân", meaning_vi: "cay, vất vả", variants: []}
+- {number: 161, radical: "辰", name_vi: "thần", meaning_vi: "giờ thìn, chi thìn", variants: []}
+- {number: 162, radical: "辵", name_vi: "sước", meaning_vi: "chợt đi chợt dừng", variants: [辶, ⻌]}
+- {number: 163, radical: "邑", name_vi: "ấp", meaning_vi: "làng, thành ấp", variants: [阝]}
+- {number: 164, radical: "酉", name_vi: "dậu", meaning_vi: "rượu, chi dậu", variants: []}
+- {number: 165, radical: "釆", name_vi: "biện", meaning_vi: "phân biệt", variants: []}
+- {number: 166, radical: "里", name_vi: "lý", meaning_vi: "dặm, bên trong", variants: []}
+- {number: 167, radical: "金", name_vi: "kim", meaning_vi: "vàng, kim loại", variants: [钅, 釒]}
+- {number: 168, radical: "長", name_vi: "trường", meaning_vi: "dài", variants: [长, 镸]}
+- {number: 169, radical: "門", name_vi: "môn", meaning_vi: "cửa hai cánh", variants: [门]}
+- {number: 170, radical: "阜", name_vi: "phụ", meaning_vi: "đồi đất, gò", variants: []}
+- {number: 171, radical: "隶", name_vi: "đãi", meaning_vi: "kịp, theo kịp", variants: []}
+- {number: 172, radical: "隹", name_vi: "chuy", meaning_vi: "loài chim đuôi ngắn", variants: []}
+- {number: 173, radical: "雨", name_vi: "vũ", meaning_vi: "mưa", variants: []}
+- {number: 174, radical: "青", name_vi: "thanh", meaning_vi: "màu xanh", variants: []}
+- {number: 175, radical: "非", name_vi: "phi", meaning_vi: "không phải, sai", variants: []}
+- {number: 176, radical: "面", name_vi: "diện", meaning_vi: "khuôn mặt", variants: []}
+- {number: 177, radical: "革", name_vi: "cách", meaning_vi: "da thuộc, thay đổi", variants: []}
+- {number: 178, radical: "韋", name_vi: "vi", meaning_vi: "da thuộc mềm", variants: [韦]}
+- {number: 179, radical: "韭", name_vi: "cửu", meaning_vi: "rau hẹ", variants: []}
+- {number: 180, radical: "音", name_vi: "âm", meaning_vi: "âm thanh", variants: []}
+- {number: 181, radical: "頁", name_vi: "hiệt", meaning_vi: "cái đầu, trang giấy", variants: [页]}
+- {number: 182, radical: "風", name_vi: "phong", meaning_vi: "gió", variants: [风]}
+- {number: 183, radical: "飛", name_vi: "phi", meaning_vi: "bay", variants: [飞]}
+- {number: 184, radical: "食", name_vi: "thực", meaning_vi: "ăn, thức ăn", variants: [饣, 飠]}
+- {number: 185, radical: "首", name_vi: "thủ", meaning_vi: "cái đầu", variants: []}
+- {number: 186, radical: "香", name_vi: "hương", meaning_vi: "mùi thơm", variants: []}
+- {number: 187, radical: "馬", name_vi: "mã", meaning_vi: "con ngựa", variants: [马]}
+- {number: 188, radical: "骨", name_vi: "cốt", meaning_vi: "xương", variants: []}
+- {number: 189, radical: "高", name_vi: "cao", meaning_vi: "cao", variants: []}
+- {number: 190, radical: "髟", name_vi: "bưu", meaning_vi: "tóc dài", variants: []}
+- {number: 191, radical: "鬥", name_vi: "đấu", meaning_vi: "đánh nhau", variants: []}
+- {number: 192, radical: "鬯", name_vi: "sưởng", meaning_vi: "rượu nếp thơm", variants: []}
+- {number: 193, radical: "鬲", name_vi: "cách", meaning_vi: "cái vạc ba chân", variants: []}
+- {number: 194, radical: "鬼", name_vi: "quỷ", meaning_vi: "ma quỷ", variants: []}
+- {number: 195, radical: "魚", name_vi: "ngư", meaning_vi: "con cá", variants: [鱼]}
+- {number: 196, radical: "鳥", name_vi: "điểu", meaning_vi: "con chim", variants: [鸟]}
+- {number: 197, radical: "鹵", name_vi: "lỗ", meaning_vi: "muối mỏ, đất mặn", variants: [卤]}
+- {number: 198, radical: "鹿", name_vi: "lộc", meaning_vi: "con hươu", variants: []}
+- {number: 199, radical: "麥", name_vi: "mạch", meaning_vi: "lúa mạch", variants: [麦]}
+- {number: 200, radical: "麻", name_vi: "ma", meaning_vi: "cây gai, cây đay", variants: []}
+- {number: 201, radical: "黃", name_vi: "hoàng", meaning_vi: "màu vàng", variants: [黄]}
+- {number: 202, radical: "黍", name_vi: "thử", meaning_vi: "lúa nếp, kê", variants: []}
+- {number: 203, radical: "黑", name_vi: "hắc", meaning_vi: "màu đen", variants: []}
+- {number: 204, radical: "黹", name_vi: "chỉ", meaning_vi: "may vá, thêu", variants: []}
+- {number: 205, radical: "黽", name_vi: "mãnh", meaning_vi: "con ếch", variants: [黾]}
+- {number: 206, radical: "鼎", name_vi: "đỉnh", meaning_vi: "cái đỉnh (vạc)", variants: []}
+- {number: 207, radical: "鼓", name_vi: "cổ", meaning_vi: "cái trống", variants: []}
+- {number: 208, radical: "鼠", name_vi: "thử", meaning_vi: "con chuột", variants: []}
+- {number: 209, radical: "鼻", name_vi: "tỵ", meaning_vi: "cái mũi", variants: []}
+- {number: 210, radical: "齊", name_vi: "tề", meaning_vi: "ngay ngắn, đều nhau", variants: [齐]}
+- {number: 211, radical: "齒", name_vi: "xỉ", meaning_vi: "cái răng", variants: [齿]}
+- {number: 212, radical: "龍", name_vi: "long", meaning_vi: "con rồng", variants: [龙]}
+- {number: 213, radical: "龜", name_vi: "quy", meaning_vi: "con rùa", variants: [龟]}
+- {number: 214, radical: "龠", name_vi: "dược", meaning_vi: "cái sáo ba lỗ", variants: []}
