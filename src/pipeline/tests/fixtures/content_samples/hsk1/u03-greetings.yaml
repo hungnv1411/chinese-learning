@@ -1,0 +1,41 @@
+id: hsk1-u03
+stage: hsk1
+order: 3
+title: Chào hỏi
+description: Chào hỏi, hỏi tên, hỏi thăm sức khỏe, tạm biệt.
+illustration: units/hsk1-u03.svg
+
+lessons:
+  - id: hsk1-u03-l01
+    title: Xin chào
+    new_words:
+      - { word: 你好 }
+      - { word: 您, extra: true }
+      - 老师
+    sentences:
+      - id: s-hsk1-u03-001
+        zh: 老师好！
+        en: Hello, teacher!
+        pinyin: lǎoshī hǎo!
+    steps:
+      - intro: [你好, 您, 老师]
+      - writing: auto
+      - exercises:
+          - { type: listen_pick_hanzi, target: 你好 }
+          - { type: pick_tone, target: 你好 }
+          - { type: arrange, sentence: s-hsk1-u03-001 }
+          - { type: auto, count: 3 }
+      - speaking:
+          - { word: 你好 }
+          - { sentence: s-hsk1-u03-001 }
+    tips:
+      你好: Hai thanh 3 đi liền nhau thì thanh đầu đọc thành thanh 2.
+
+  - id: hsk1-u03-l04
+    title: Câu hỏi với 吗
+    grammar: hsk1-g012
+    new_words: [吗]
+
+  - id: hsk1-u03-cp
+    type: checkpoint
+    title: Ôn tập chủ đề

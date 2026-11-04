@@ -1,0 +1,71 @@
+{
+  "contentVersion": "15bc28ed6e20",
+  "type": "normal",
+  "newWords": [
+    {
+      "word": "你好",
+      "hskWordId": 12,
+      "extra": false
+    },
+    {
+      "word": "您",
+      "hskWordId": null,
+      "extra": true
+    }
+  ],
+  "newChars": [
+    "你",
+    "好",
+    "您"
+  ],
+  "sentences": [
+    {
+      "id": "s-hsk1-u03-001",
+      "zh": "老师好！",
+      "en": "Hello, teacher!",
+      "pinyin": "lǎoshī hǎo!",
+      "tatoebaId": 4321
+    }
+  ],
+  "tips": {
+    "你好": "Hai thanh 3 đi liền nhau thì thanh đầu đọc thành thanh 2."
+  },
+  "steps": [
+    {
+      "kind": "intro",
+      "word": "你好"
+    },
+    {
+      "kind": "writing",
+      "char": "好"
+    },
+    {
+      "kind": "grammar",
+      "grammarId": "hsk1-g012"
+    },
+    {
+      "kind": "exercise",
+      "type": "pick_tone",
+      "target": "你好"
+    },
+    {
+      "kind": "exercise",
+      "type": "arrange",
+      "sentence": "s-hsk1-u03-001"
+    },
+    {
+      "kind": "exercise_auto",
+      "count": 3
+    },
+    {
+      "kind": "speaking",
+      "mode": "word",
+      "ref": "你好"
+    },
+    {
+      "kind": "speaking",
+      "mode": "sentence",
+      "ref": "s-hsk1-u03-001"
+    }
+  ]
+}

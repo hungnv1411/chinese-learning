@@ -1,0 +1,9 @@
+- id: hsk1-g012
+  hsk_code: "一级-语法-012"
+  title: Câu hỏi có/không với 吗
+  explanation_vi: |
+    Thêm **吗 (ma)** vào cuối câu trần thuật để thành câu hỏi có/không.
+  pattern: "Câu trần thuật + 吗？"
+  examples:
+    - { zh: 你是老师吗？, en: Are you a teacher? }
+    - { zh: 你好吗？, en: How are you? }

@@ -1,0 +1,35 @@
+{
+  "contentVersion": "f4a9c3ffc156",
+  "type": "normal",
+  "newWords": [],
+  "newChars": [],
+  "sentences": [],
+  "tips": {
+    "b": "b giống p không bật hơi."
+  },
+  "steps": [
+    {
+      "kind": "sound_intro",
+      "sound": "init-b"
+    },
+    {
+      "kind": "tone_contour_intro",
+      "tone": 1
+    },
+    {
+      "kind": "exercise",
+      "type": "listen_pick_pinyin",
+      "target": "ba1"
+    },
+    {
+      "kind": "exercise",
+      "type": "pinyin_pick_audio",
+      "target": "ba1"
+    },
+    {
+      "kind": "speaking",
+      "mode": "syllable",
+      "ref": "ba1"
+    }
+  ]
+}

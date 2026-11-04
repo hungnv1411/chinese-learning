@@ -1,0 +1,17 @@
+[
+  "listen_pick_hanzi",
+  "listen_pick_meaning",
+  "listen_pick_pinyin",
+  "pick_tone",
+  "listen_dictation_pinyin",
+  "hanzi_to_meaning",
+  "meaning_to_hanzi",
+  "hanzi_to_pinyin",
+  "arrange",
+  "fill_blank",
+  "match_pairs",
+  "read_sentence",
+  "write_char",
+  "speak",
+  "pinyin_pick_audio"
+]

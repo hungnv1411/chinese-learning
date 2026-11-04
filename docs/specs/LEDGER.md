@@ -86,7 +86,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 38 | 02-1 | `content.ts` (hợp đồng JSON) + đọc YAML, lỗi theo file:dòng | 01-4 | ⬜ | |
+| 38 | 02-1 | `content.ts` (hợp đồng JSON) + đọc YAML, lỗi theo file:dòng | 01-4 | ✅ | core 128 + pipeline 149 test xanh (hợp đồng zod ↔ Pydantic qua 3 fixture, 15 mã bài tập dùng chung, lỗi `file:dòng` cho 12 ca); chưa có `stages.yaml`, `_plan.yaml`, `exam/*.yaml`, `sounds.yaml` (xem decisions.md) |
 | 39 | 02-2 | Quy tắc kiểm tra (chặn / cảnh báo) | 02-1 | ⬜ | |
 | 40 | 02-3 | Chuẩn hóa, bố cục mặc định, `writing: auto`, ghi DB | 02-2 | ⬜ | |
 | 41 | 02-4 | Báo cáo độ phủ, `exam_open` | 02-3 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 02-1 xong: `packages/core/src/content.ts`, `clp/content/{models,authoring,loader}.py`, fixture hợp đồng |
 | 2026-11-05 | 11-3 (phần lớn): `/tra-tu`, `SearchScreen`, `lib/dictionary/recent.ts`, `AppShell wide` |
 | 2026-11-05 | 07-1 xong: `writingScore`, `WRITING_PASS`, `writingRating` ở `packages/core/src/scoring.ts` |
 | 2026-11-05 | 11-4 (phần lớn): `/tu/[word]` SSR, `getWordPage`, SEO, `WordView`, `ShareButton` |

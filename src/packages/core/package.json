@@ -7,5 +7,8 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
   }
 }
