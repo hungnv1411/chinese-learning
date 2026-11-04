@@ -12,3 +12,4 @@ node_modules
 src/apps/web/styles
 src/apps/web/public
 src/packages/core/src/syllables.json
+src/apps/web/db/migrations
