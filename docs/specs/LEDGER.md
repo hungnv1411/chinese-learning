@@ -72,7 +72,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 |---|---|---|---|---|---|
 | 27 | 11-1 | `classifyQuery`, `parsePinyinQuery` | 10-1, 00-6 | ✅ | 88 test core xanh (41 test mới); danh sách âm tiết ở `packages/core/src/syllables.json` do `clp syllables` sinh, có test Python giữ khớp |
 | 28 | 11-2 | Tìm kiếm SQL + API + rate limit 60/phút/IP | 11-1, 01-6 | ✅ | core 91 + web 78 test xanh (14 test tìm kiếm với Postgres thật, gồm 429 ở lần 61); thử 22 từ khóa trên 125.356 mục, 1–35 ms (Hán Việt ≤ 220 ms); `hảo` ra rỗng vì Unihan thiếu (xem decisions.md) |
-| 29 | 11-3 | Màn hình `/tra-tu` | 11-2, 00-UI2 | ⬜ | |
+| 29 | 11-3 | Màn hình `/tra-tu` | 11-2, 00-UI2 | 🟨 | web 149 + core 104 test xanh (22 mới: debounce 250 ms, hủy yêu cầu cũ, nhóm, chip, tải thêm, trạng thái, Tra gần đây, localStorage bị chặn); chạy thật `/tra-tu?q=好` và API phân trang. Còn thiếu: Playwright, kiểm tra 360/1440px bằng trình duyệt, chi tiết từ ở cột phải ≥ 900px |
 | 30 | 13-4 | `/nguon-du-lieu` + `PublicFooter` | 01-9, 00-UI2 | 🟨 | 11 test mới + toàn bộ web 89 / core 91 xanh; trang chạy thật trên dev (200, 10 thẻ nguồn, số âm AI từ DB); còn thiếu: kiểm tra 360/1440px bằng trình duyệt, test `PublicFooter` trên `/tu`, `/chung-nhan` (trang chưa có), dựng thử ảnh production |
 | 31 | 13-5 | `ReportSheet` + `POST /api/reports` | 00-API, 00-UI4 | ⬜ | Kéo lên vì nhiều màn hình dùng |
 | 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | 🟨 | Nút “Thêm vào ôn tập” nối 09-2 sau. web 127 + core 91 test xanh (20 mới: dữ liệu với Postgres thật, SEO, WordView); chạy thật trên 125 nghìn mục: `/tu/好吃` 2 khối, `/tu/行` 3 khối, 404. Còn thiếu: nút “Thêm vào ôn tập” (cần 09, 03), kiểm tra 360/1440px bằng trình duyệt |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 11-3 (phần lớn): `/tra-tu`, `SearchScreen`, `lib/dictionary/recent.ts`, `AppShell wide` |
 | 2026-11-05 | 07-1 xong: `writingScore`, `WRITING_PASS`, `writingRating` ở `packages/core/src/scoring.ts` |
 | 2026-11-05 | 11-4 (phần lớn): `/tu/[word]` SSR, `getWordPage`, SEO, `WordView`, `ShareButton` |
 | 2026-11-05 | 13-5 xong: `ReportSheet`, `ReportButton`, `POST /api/reports`, migration 0003 |

@@ -23,7 +23,16 @@ function isCurrent(pathname: string, href: string): boolean {
  * Thanh điều hướng 3 dạng (dưới < 768px, cột 88px từ 768px, 256px từ 1200px) do CSS quyết định.
  * Tên thương hiệu lấy từ `siteName` (SITE_NAME, D16), không viết cứng.
  */
-export function AppShell({ siteName, children }: { siteName: string; children: ReactNode }) {
+export function AppShell({
+  siteName,
+  wide,
+  children,
+}: {
+  siteName: string;
+  /** Màn hình hai cột (từ điển): bề ngang tối đa 1240px. */
+  wide?: boolean;
+  children: ReactNode;
+}) {
   const pathname = usePathname() ?? '';
 
   useEffect(() => {
@@ -60,7 +69,7 @@ export function AppShell({ siteName, children }: { siteName: string; children: R
           </Link>
         </div>
       </nav>
-      <main className="main">{children}</main>
+      <main className={wide ? 'main wide' : 'main'}>{children}</main>
     </>
   );
 }

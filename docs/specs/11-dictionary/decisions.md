@@ -27,3 +27,14 @@
 - **Hán Việt trong tiêu đề** là âm Hán Việt đầu tiên của từng chữ (không phân biệt cách đọc), nên 行 (xíng) ra `hàng`; phụ thuộc chất lượng Unihan (xem 01-5).
 - **Test cấm tên miền viết cứng** (`tests/no-hardcoded-domain.test.ts`) miễn `schema.org` và `tatoeba.org` (domain bên thứ ba).
 - 404: `not-found.tsx` có ô tìm kiếm gửi tới `/tra-tu?q=` (màn hình `/tra-tu` làm ở 11-3).
+
+## 11-3: màn hình `/tra-tu`
+- `SearchScreen` (client) gọi `GET /api/dictionary/search`; tìm sau 250 ms kể từ phím cuối, đổi từ khóa hoặc chip thì hủy yêu cầu cũ ngay (`AbortController`). Chip đổi cũng qua debounce.
+- **Tải thêm:** nút “Tải thêm” luôn có; thêm `IntersectionObserver` trên phần tử cuối để tự tải khi cuộn tới (trình duyệt không có thì dùng nút). Kết quả trang sau nối vào đúng nhóm theo `kind`.
+- **Tiêu đề nhóm** chỉ hiện khi có từ hai nhóm có kết quả trở lên (spec: từ khóa mơ hồ).
+- **Tra gần đây:** khóa `localStorage` `recent_lookups_v1`, 20 từ, từ mới lên đầu; mọi đọc/ghi bọc `try/catch` (`lib/dictionary/recent.ts`); lưu khi bấm một kết quả. < 900px hiện dưới ô tìm (`.only-mobile`), ≥ 900px hiện ở cột phải (`.detail`), đúng `.split` của design. Chưa lưu từ khi mở bằng cách khác (ví dụ vào thẳng `/tu/…`); thêm khi cần.
+- **Trạng thái:** rỗng (gợi ý cách tìm), đang tải, không có kết quả, lỗi chung và lỗi 429 (kèm nút “Thử lại”); lỗi có “✗” kèm chữ.
+- `/tra-tu?q=…` điền sẵn và tìm ngay (404 của `/tu/…` dùng đường này).
+- `AppShell` thêm prop `wide` (class `.main.wide`, tối đa 1240px) cho màn hình hai cột.
+- Chưa có chi tiết từ ở cột phải ≥ 900px (design gốc hiện chi tiết ngay trong màn hình): theo plan, bấm kết quả mở `/tu/…` (trang SSR có `.split` riêng chưa dựng ở 11-4). Cần quyết khi xem bằng trình duyệt ở 1440px.
+- Chưa kiểm tra giao diện 360px/1440px và Playwright (không có trình duyệt lúc làm).
