@@ -21,6 +21,7 @@ FROM deps AS build
 COPY tsconfig.base.json ./
 COPY src/packages/core src/packages/core
 COPY src/apps/web src/apps/web
+COPY content/sources.yaml content/sources.yaml
 # Tên website, tên miền, khóa bí mật đọc lúc chạy, không đưa vào ảnh.
 RUN pnpm -F @clp/web build
 
@@ -31,6 +32,7 @@ RUN useradd --system --uid 1001 app
 COPY --from=build --chown=app /repo/src/apps/web/.next/standalone ./
 COPY --from=build --chown=app /repo/src/apps/web/.next/static ./src/apps/web/.next/static
 COPY --from=build --chown=app /repo/src/apps/web/public ./src/apps/web/public
+COPY --from=build --chown=app /repo/content/sources.yaml ./content/sources.yaml
 USER app
 EXPOSE 3000
 CMD ["node", "src/apps/web/server.js"]

@@ -73,7 +73,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 27 | 11-1 | `classifyQuery`, `parsePinyinQuery` | 10-1, 00-6 | ✅ | 88 test core xanh (41 test mới); danh sách âm tiết ở `packages/core/src/syllables.json` do `clp syllables` sinh, có test Python giữ khớp |
 | 28 | 11-2 | Tìm kiếm SQL + API + rate limit 60/phút/IP | 11-1, 01-6 | ✅ | core 91 + web 78 test xanh (14 test tìm kiếm với Postgres thật, gồm 429 ở lần 61); thử 22 từ khóa trên 125.356 mục, 1–35 ms (Hán Việt ≤ 220 ms); `hảo` ra rỗng vì Unihan thiếu (xem decisions.md) |
 | 29 | 11-3 | Màn hình `/tra-tu` | 11-2, 00-UI2 | ⬜ | |
-| 30 | 13-4 | `/nguon-du-lieu` + `PublicFooter` | 01-9, 00-UI2 | ⬜ | Kéo lên vì trang từ điển cần chân trang |
+| 30 | 13-4 | `/nguon-du-lieu` + `PublicFooter` | 01-9, 00-UI2 | 🟨 | 11 test mới + toàn bộ web 89 / core 91 xanh; trang chạy thật trên dev (200, 10 thẻ nguồn, số âm AI từ DB); còn thiếu: kiểm tra 360/1440px bằng trình duyệt, test `PublicFooter` trên `/tu`, `/chung-nhan` (trang chưa có), dựng thử ảnh production |
 | 31 | 13-5 | `ReportSheet` + `POST /api/reports` | 00-API, 00-UI4 | ⬜ | Kéo lên vì nhiều màn hình dùng |
 | 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | ⬜ | Nút “Thêm vào ôn tập” nối 09-2 sau |
 | 33 | 11-5 | Audio theo yêu cầu, giới hạn 500/ngày | 11-4, 01-7b | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 13-4 (phần lớn): `/nguon-du-lieu`, `PublicFooter`, `lib/sources.ts`, `license_short` |
 | 2026-11-05 | 11-2 xong: `lib/dictionary/search.ts`, `GET /api/dictionary/search`, `parsePinyinSyllables` |
 | 2026-11-04 | 11-1 xong: `classifyQuery`, `parsePinyinQuery`, `segmentPinyin` ở `packages/core/src/dictionary.ts` |
 | 2026-11-04 | 10-1 xong: `clp syllables` sinh `content/pron/syllables.yaml` |

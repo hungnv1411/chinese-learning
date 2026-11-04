@@ -5,7 +5,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[3]
 SOURCES = yaml.safe_load((ROOT / "content" / "sources.yaml").read_text(encoding="utf-8"))
 FETCH = yaml.safe_load((ROOT / "src" / "pipeline" / "sources.yaml").read_text(encoding="utf-8"))
-FIELDS = ("id", "name", "url", "used_for", "license", "license_url", "attribution")
+FIELDS = ("id", "name", "url", "used_for", "license", "license_short", "license_url", "attribution")
 
 
 def test_every_source_has_all_fields():
