@@ -120,5 +120,56 @@ def import_hsk_cmd(
         typer.echo(f"CẢNH BÁO {w}")
 
 
+@app.command(name="import-hanzi")
+def import_hanzi_cmd(
+    raw_dir: Annotated[Path, typer.Option(help="Thư mục dữ liệu thô.")] = RAW_DIR,
+    strokes_dir: Annotated[
+        Path, typer.Option(help="Nơi ghi nét khi chưa cấu hình R2.")
+    ] = PIPELINE_DIR.parents[1] / "data" / "strokes",
+) -> None:
+    """B4: nhập bộ thủ, âm Hán Việt, phân tích chữ, dữ liệu nét (R2 nếu có R2_*, không thì cục bộ)."""
+    import datetime
+    import os
+
+    import yaml
+
+    from clp.db import connect, log_run
+    from clp.fetch import latest_dir
+    from clp.hanzi import LocalStrokeStore, import_hanzi, make_r2_store
+    from clp.radicals import load_radicals
+
+    content = PIPELINE_DIR.parents[1] / "content"
+    ov_path = content / "overrides" / "han_viet.yaml"
+    overrides = (
+        yaml.safe_load(ov_path.read_text(encoding="utf-8")) if ov_path.exists() else {}
+    ) or {}
+    store = make_r2_store(dict(os.environ))
+    typer.echo("Nét: " + ("R2" if store else f"thư mục cục bộ {strokes_dir} (chưa có R2_*)"))
+    out_dir = PIPELINE_DIR / "out"
+    with connect() as conn:
+        res = import_hanzi(
+            conn,
+            unihan_zip=latest_dir(raw_dir, "unihan") / "Unihan.zip",
+            mmh_dictionary=latest_dir(raw_dir, "makemeahanzi") / "dictionary.txt",
+            strokes_tgz=next(latest_dir(raw_dir, "hanzi-writer-data").glob("*.tgz")),
+            radicals=load_radicals(content / "radicals_vi.yaml"),
+            overrides=overrides,
+            store=store or LocalStrokeStore(strokes_dir),
+            out_dir=out_dir,
+        )
+    log_run(
+        out_dir / "runs.log",
+        "import-hanzi",
+        inserted=res["hanzi"]["inserted"],
+        updated=res["hanzi"]["updated"],
+        skipped=res["hanviet_missing"],
+        now=datetime.datetime.now().isoformat(timespec="seconds"),
+    )
+    typer.echo(
+        f"hanzi: {res['hanzi']}, nét mới tải: {res['uploaded']}, "
+        f"thiếu Hán Việt (HSK 1–3): {res['hanviet_missing']}, thiếu nét: {res['strokes_missing']}"
+    )
+
+
 if __name__ == "__main__":
     app()

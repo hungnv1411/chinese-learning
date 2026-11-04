@@ -19,3 +19,6 @@ playwright-report/
 node_modules/
 *.tsbuildinfo
 src/pipeline/out/
+
+# Nét chữ khi chưa dùng R2 (01-5)
+data/strokes/

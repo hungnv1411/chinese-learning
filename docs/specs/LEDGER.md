@@ -58,7 +58,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 17 | 01-3 | `import_cedict` | 01-2 | ✅ | 54 test xanh (gồm 4 test với Postgres thật); nhập thật 125.356 mục, chạy lại không thêm dòng; thêm unique `dict_entry_natural_uq` (xem decisions.md) |
 | 18 | 01-4 | `import_hsk` + ghép từ điển + CSV chưa khớp | 01-3 | ✅ | 68 test xanh (5 quy tắc ghép + 3 test DB); nhập thật 11.109 từ/3.000 chữ/573 ngữ pháp, 32 từ chưa ghép; cảnh báo lệch chuẩn: cấp 1 từ 512, cấp 2 từ 776 và ngữ pháp 82 (xem decisions.md) |
 | 19 | 02-8 | `content/radicals_vi.yaml` (214 bộ thủ, AI soạn) | 01-1 | ✅ | 4 test kiểm tra máy xanh (214, không trùng); AI soạn, chưa duyệt; thêm `number`, `variants` (xem 02-curriculum/decisions.md) |
-| 20 | 01-5 | `import_hanzi` (Hán Việt, phân tích chữ, nét → R2) | 01-4, 02-8 | ⬜ | |
+| 20 | 01-5 | `import_hanzi` (Hán Việt, phân tích chữ, nét → R2) | 01-4, 02-8 | ✅ | 79 test xanh (11 test hanzi, gồm DB thật); nhập thật 3.000 chữ + 214 bộ thủ, 3.000 chữ có nét (ghi cục bộ, R2 chỉ test bằng mock); 123/900 chữ HSK 1–3 thiếu Hán Việt (xem decisions.md) |
 | 21 | 01-6 | `import_tatoeba` | 01-4 | ⬜ | |
 | 22 | 01-8 | `report.md` | 01-6 | ⬜ | |
 | 23 | 01-9 | `content/sources.yaml` | 01-2 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-04 | 01-5 xong: `clp import-hanzi` (Hán Việt qua biến thể phồn thể, phân tích chữ, nét, radical_vi) |
 | 2026-11-04 | 02-8 xong: `content/radicals_vi.yaml` (214 bộ thủ) + validator `clp/radicals.py` |
 | 2026-11-02 | 01-4 xong: `clp import-hsk`, migration 0002 (unique hsk_word) |
 | 2026-11-02 | 01-3 xong: `clp import-cedict`, migration 0001 (unique dict_entry), py-pipeline nối db |
