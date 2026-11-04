@@ -75,7 +75,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 29 | 11-3 | Màn hình `/tra-tu` | 11-2, 00-UI2 | ⬜ | |
 | 30 | 13-4 | `/nguon-du-lieu` + `PublicFooter` | 01-9, 00-UI2 | 🟨 | 11 test mới + toàn bộ web 89 / core 91 xanh; trang chạy thật trên dev (200, 10 thẻ nguồn, số âm AI từ DB); còn thiếu: kiểm tra 360/1440px bằng trình duyệt, test `PublicFooter` trên `/tu`, `/chung-nhan` (trang chưa có), dựng thử ảnh production |
 | 31 | 13-5 | `ReportSheet` + `POST /api/reports` | 00-API, 00-UI4 | ⬜ | Kéo lên vì nhiều màn hình dùng |
-| 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | ⬜ | Nút “Thêm vào ôn tập” nối 09-2 sau |
+| 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | 🟨 | Nút “Thêm vào ôn tập” nối 09-2 sau. web 127 + core 91 test xanh (20 mới: dữ liệu với Postgres thật, SEO, WordView); chạy thật trên 125 nghìn mục: `/tu/好吃` 2 khối, `/tu/行` 3 khối, 404. Còn thiếu: nút “Thêm vào ôn tập” (cần 09, 03), kiểm tra 360/1440px bằng trình duyệt |
 | 33 | 11-5 | Audio theo yêu cầu, giới hạn 500/ngày | 11-4, 01-7b | ⬜ | |
 | 34 | 07-1 | `writingScore` | 00-6 | ⬜ | |
 | 35 | 07-2 | `WritingPad` (hanzi-writer, 3 chế độ, `touch-action: none`) | 07-1, 01-5 | ⬜ | |
