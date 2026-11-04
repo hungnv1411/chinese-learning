@@ -1,0 +1,24 @@
+# Các lộ trình (bảng stage). `level` là cấp HSK 2021 dùng để kiểm tra từ mới; `pron` không có cấp.
+- id: pron
+  order: 1
+  title: Phát âm
+  description: Đọc được pinyin, nghe và nói đúng bốn thanh, nắm biến điệu cơ bản, viết nét đầu tiên.
+  has_certificate: false
+- id: hsk1
+  order: 2
+  title: HSK 1
+  description: Giao tiếp cơ bản hằng ngày với 500 từ đầu tiên của chuẩn HSK 2021.
+  has_certificate: true
+  level: 1
+- id: hsk2
+  order: 3
+  title: HSK 2
+  description: Mở rộng vốn từ và ngữ pháp để nói về cuộc sống quen thuộc.
+  has_certificate: true
+  level: 2
+- id: hsk3
+  order: 4
+  title: HSK 3
+  description: Diễn đạt trôi chảy hơn trong học tập, công việc và đời sống.
+  has_certificate: true
+  level: 3

@@ -9,7 +9,7 @@ from pydantic import TypeAdapter, ValidationError
 from ruamel.yaml import YAML
 from ruamel.yaml.error import YAMLError
 
-from clp.content.authoring import GrammarPointFile, UnitFile
+from clp.content.authoring import GrammarPointFile, PlanFile, StageEntry, UnitFile
 
 MESSAGES = {
     "missing": "thiếu trường bắt buộc",
@@ -138,6 +138,14 @@ def load_grammar(path: Path) -> LoadedGrammar:
     return LoadedGrammar(path, points, root)
 
 
+def load_stages(path: Path) -> list[StageEntry]:
+    return _validate(path, TypeAdapter(list[StageEntry]), _read(path), "list")
+
+
+def load_plan(path: Path) -> PlanFile:
+    return _validate(path, TypeAdapter(PlanFile), _read(path), "mapping")
+
+
 def load_unit_file(path: Path) -> UnitFile:
     return load_unit(path).unit
 
@@ -156,6 +164,8 @@ __all__ = [
     "LoadedUnit",
     "load_grammar",
     "load_grammar_file",
+    "load_plan",
+    "load_stages",
     "load_unit",
     "load_unit_file",
 ]

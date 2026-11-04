@@ -191,3 +191,30 @@ class GrammarPointFile(_Model):
     explanation_vi: NonEmpty
     pattern: NonEmpty
     examples: list[GrammarExample]
+
+
+class StageEntry(_Model):
+    """Một mục của content/stages.yaml."""
+
+    id: NonEmpty
+    order: Annotated[int, Field(ge=1)]
+    title: NonEmpty
+    description: str = ""
+    has_certificate: bool = False
+    level: Annotated[int, Field(ge=1, le=9)] | None = None  # cấp HSK của lộ trình; None cho pron
+
+
+class PlanUnit(_Model):
+    """Một chủ đề trong content/<lộ trình>/_plan.yaml (02-5 sinh ra; 02-3 chỉ dùng id, thứ tự, tên)."""
+
+    id: NonEmpty
+    order: Annotated[int, Field(ge=1)]
+    title: NonEmpty
+    description: str = ""
+    illustration: str | None = None
+    words: list[NonEmpty] = []
+    grammar: list[NonEmpty] = []
+
+
+class PlanFile(_Model):
+    units: list[PlanUnit]

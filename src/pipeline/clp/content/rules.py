@@ -260,6 +260,14 @@ def _check_lesson(
                 )
         elif isinstance(step, GrammarStepFile):
             has_grammar_step = True
+            if step.grammar == "auto" and not lesson.grammar:
+                err(
+                    "grammar_auto_without_grammar",
+                    f"Bài {lesson.id}: `grammar: auto` cần trường grammar của bài",
+                    "steps",
+                    k,
+                    "grammar",
+                )
             if step.grammar != "auto" and step.grammar not in ctx.grammar_ids:
                 err(
                     "unknown_grammar",

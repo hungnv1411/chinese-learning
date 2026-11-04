@@ -28,3 +28,17 @@
   - Phát âm: `write_char` và bước `writing` ngoài chủ đề 8 là lỗi; mọi bài (không phải checkpoint) ở chủ đề 8 phải có bước `writing`.
   - Quy tắc "câu thiếu `zh`/`en`/`pinyin`" và "`type` bài tập không hợp lệ" nằm ở bước đọc file (02-1), không lặp lại ở đây.
 - **Phát hiện từ dữ liệu thật:** danh sách HSK 2021 **không có `你好`** (chỉ có `你` và `好`), nhưng ví dụ trong spec (`content-format.md`) dạy `你好` làm từ mới của HSK 1. Bộ kiểm tra bắt đúng điều này. Khi soạn đợt D-1 phải chọn: dạy `你`, `好` rồi dùng `你好` như cụm trong câu, hoặc đánh `extra: true`. Sửa ví dụ trong spec cho khỏi gây hiểu nhầm là việc cho chủ dự án/02-3.
+
+## 02-3: chuẩn hóa và nhập nội dung
+- **Định dạng đề xuất (chủ dự án đổi được):**
+  - `content/stages.yaml`: danh sách `{id, order, title, description?, has_certificate?, level?}`; `level` là cấp HSK dùng cho quy tắc từ mới (`pron` không có). Đã tạo file với 4 lộ trình (pron=1, hsk1=2, hsk2=3, hsk3=4). Không có file này thì `check-content` dùng mặc định, còn `import-content` dừng (`stages_missing`).
+  - `content/<lộ trình>/_plan.yaml`: `{units: [{id, order, title, description?, illustration?, words?, grammar?}]}`. 02-3 chỉ dùng id, thứ tự, tên; `words`/`grammar` để dành cho `plan_units` (02-5) và báo cáo độ phủ (02-4).
+- **Chủ đề "Sắp ra mắt":** chủ đề có trong `_plan.yaml` mà chưa có file → hàng `unit` với `published = false`, không có bài. Có file → `published = true`, thông tin lấy từ file. Hai chủ đề cùng `(lộ trình, order)` là lỗi `duplicate_unit_order`.
+- **Chuẩn hóa** (`clp/content/normalize.py`, hàm thuần): mỗi mục trong bước YAML thành một bước JSON (`intro: [a, b]` → hai bước `intro`; `exercises` → từng `exercise`, `type: auto` → `exercise_auto`; `speaking`, `sound_intro`, `tone_contour_intro` tương tự). `grammar: auto` lấy `lesson.grammar` (thiếu thì lỗi `grammar_auto_without_grammar`).
+- **Bố cục mặc định** (khi `steps` vắng): intro mỗi từ mới → writing mỗi chữ mới có nét → grammar (nếu bài có) → `exercise_auto` 8 câu → nói từ mới đầu tiên và câu đầu tiên.
+- **`newChars`** = chữ xuất hiện **lần đầu** trong bài theo thứ tự toàn cục (kể cả chữ không có nét); `writing: auto` chỉ lấy chữ trong đó có `has_stroke_data` và ghi cảnh báo `writing_skipped_no_strokes` cho chữ bị bỏ. `lesson_char` chỉ ghi chữ đã có trong bảng `hanzi` (chữ của từ `extra` ngoài bảng không vào thống kê chữ).
+- **`hskWordId` / `lesson_word`:** tra theo `(cấp của lộ trình, chữ)`. Một chữ có thể có nhiều hàng `hsk_word` cùng cấp (nhiều cách đọc): `hskWordId` trong JSON là id nhỏ nhất, `lesson_word` ghi **mọi** hàng khớp để độ phủ tính đủ. Từ `extra` không có `hskWordId` và không vào `lesson_word`. Bài `checkpoint` không có từ, chữ, bước.
+- **`contentVersion`** tính trên JSON chuẩn hóa nên chỉ đổi khi bài đó đổi (có test). `content_meta.content_version` mặc định là hash của tất cả `contentVersion` (đổi khi bất kỳ bài nào đổi); truyền `--version <git sha>` để ghi bản của lần nhập như plan.
+- **Ghi DB một transaction** (`clp/content/importer.py`): stage → unit → lesson → lesson_word/lesson_char (xóa rồi ghi lại theo bài) → grammar_point → content_meta. Đổi thứ tự bài/chủ đề không vướng ràng buộc duy nhất nhờ đặt tạm thứ tự âm trước khi ghi. Có lỗi chặn thì dừng **trước khi** ghi (`ContentCheckError`). `grammar_point.body_md` = `explanation_vi` + dòng `**Cấu trúc:** <pattern>`.
+- **Lệnh:** `clp import-content [--content-dir] [--version] [--check]`; `--check` giống `check-content`.
+- **Chưa làm (02-4):** báo cáo độ phủ và `stage.exam_open`; `estimated_minutes` để NULL.

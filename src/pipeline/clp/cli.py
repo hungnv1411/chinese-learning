@@ -267,11 +267,61 @@ def check_content_cmd(
 
     with connect() as conn:
         report = check_content(conn, content_dir)
+        conn.rollback()
     for f in report.errors + report.warnings:
         typer.echo(str(f))
     typer.echo(f"{len(report.errors)} lỗi, {len(report.warnings)} cảnh báo")
     if not report.ok:
         raise typer.Exit(1)
+
+
+@app.command(name="import-content")
+def import_content_cmd(
+    content_dir: Annotated[Path, typer.Option(help="Thư mục nội dung.")] = (
+        PIPELINE_DIR.parents[1] / "content"
+    ),
+    version: Annotated[
+        str | None, typer.Option(help="content_version của lần nhập (vd. git short sha).")
+    ] = None,
+    check: Annotated[bool, typer.Option("--check", help="Chỉ kiểm tra, không ghi DB.")] = False,
+) -> None:
+    """B6: kiểm tra, chuẩn hóa và ghi nội dung lộ trình vào DB (một transaction)."""
+    import datetime
+
+    from clp.content.check import check_content
+    from clp.content.importer import ContentCheckError, import_content
+    from clp.db import connect, log_run
+
+    with connect() as conn:
+        if check:
+            report = check_content(conn, content_dir)
+            for f in report.errors + report.warnings:
+                typer.echo(str(f))
+            typer.echo(f"{len(report.errors)} lỗi, {len(report.warnings)} cảnh báo")
+            raise typer.Exit(0 if report.ok else 1)
+        try:
+            res = import_content(conn, content_dir, version)
+        except ContentCheckError as e:
+            conn.rollback()
+            for f in e.report.errors + e.report.warnings:
+                typer.echo(str(f))
+            typer.echo(f"Dừng, không ghi DB: {len(e.report.errors)} lỗi")
+            raise typer.Exit(1) from e
+    for w in res.warnings:
+        typer.echo(str(w))
+    log_run(
+        PIPELINE_DIR / "out" / "runs.log",
+        "import-content",
+        inserted=res.lessons,
+        updated=0,
+        skipped=len(res.warnings),
+        now=datetime.datetime.now().isoformat(timespec="seconds"),
+    )
+    typer.echo(
+        f"content_version {res.content_version}: {res.lessons} bài, "
+        f"{res.units_published} chủ đề đã phát hành, {res.units_planned} sắp ra mắt, "
+        f"{len(res.warnings)} cảnh báo"
+    )
 
 
 if __name__ == "__main__":
