@@ -77,7 +77,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 31 | 13-5 | `ReportSheet` + `POST /api/reports` | 00-API, 00-UI4 | ⬜ | Kéo lên vì nhiều màn hình dùng |
 | 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | 🟨 | Nút “Thêm vào ôn tập” nối 09-2 sau. web 127 + core 91 test xanh (20 mới: dữ liệu với Postgres thật, SEO, WordView); chạy thật trên 125 nghìn mục: `/tu/好吃` 2 khối, `/tu/行` 3 khối, 404. Còn thiếu: nút “Thêm vào ôn tập” (cần 09, 03), kiểm tra 360/1440px bằng trình duyệt |
 | 33 | 11-5 | Audio theo yêu cầu, giới hạn 500/ngày | 11-4, 01-7b | ⬜ | |
-| 34 | 07-1 | `writingScore` | 00-6 | ⬜ | |
+| 34 | 07-1 | `writingScore` | 00-6 | ✅ | core 104 test xanh (13 mới: các giá trị của plan, trần gợi ý, đầu vào không hợp lệ). `misses` không hợp lệ thì ném RangeError |
 | 35 | 07-2 | `WritingPad` (hanzi-writer, 3 chế độ, `touch-action: none`) | 07-1, 01-5 | ⬜ | |
 | 36 | 11-6 | Trang chữ `/chu/[char]` | 07-2, 11-4 | ⬜ | |
 | 37 | 11-7 | Sitemap, robots | 11-6 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 07-1 xong: `writingScore`, `WRITING_PASS`, `writingRating` ở `packages/core/src/scoring.ts` |
 | 2026-11-05 | 11-4 (phần lớn): `/tu/[word]` SSR, `getWordPage`, SEO, `WordView`, `ShareButton` |
 | 2026-11-05 | 13-5 xong: `ReportSheet`, `ReportButton`, `POST /api/reports`, migration 0003 |
 | 2026-11-05 | 13-4 (phần lớn): `/nguon-du-lieu`, `PublicFooter`, `lib/sources.ts`, `license_short` |
