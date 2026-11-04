@@ -73,7 +73,8 @@ def _gloss(definitions: list[str], base: str) -> str:
         low = d.lower().strip()
         if low == base or low.startswith(SKIP_GLOSS):
             continue
-        return d.split(";")[0].split(",")[0].split("(")[0].strip()[:40]
+        short = d.split(";")[0].split(",")[0].split("(")[0].strip()[:40]
+        return short or d.strip()[:40]
     return definitions[0][:40] if definitions else ""
 
 

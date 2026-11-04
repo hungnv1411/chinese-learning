@@ -14,13 +14,13 @@
   tones:
     - {tone: 1, char: "哎", gloss: "hey!", hsk_level: 7, audio: false}
     - {tone: 2, char: "挨", gloss: "to suffer", hsk_level: 6, audio: false}
-    - {tone: 3, char: "矮", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 3, char: "矮", gloss: "(of a person) short", hsk_level: 4, audio: false}
     - {tone: 4, char: "爱", gloss: "to love", hsk_level: 1, audio: false}
 - syllable: "an"
   initial: ""
   final: "an"
   tones:
-    - {tone: 1, char: "安", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 1, char: "安", gloss: "(bound form) calm; peaceful", hsk_level: 4, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, char: "按", gloss: "to press", hsk_level: 3, audio: false}
@@ -135,7 +135,7 @@
     - {tone: 1, char: "优", gloss: "excellent", hsk_level: 7, audio: false}
     - {tone: 2, char: "油", gloss: "oil", hsk_level: 2, audio: false}
     - {tone: 3, char: "有", gloss: "to have", hsk_level: 1, audio: false}
-    - {tone: 4, char: "右", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "右", gloss: "(bound form) right; right-hand side", hsk_level: 1, audio: false}
 - syllable: "yan"
   initial: ""
   final: "ian"
@@ -180,7 +180,7 @@
   initial: ""
   final: "u"
   tones:
-    - {tone: 1, char: "屋", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 1, char: "屋", gloss: "(bound form) house", hsk_level: 5, audio: false}
     - {tone: 2, char: "无", gloss: "not to have", hsk_level: 4, audio: false}
     - {tone: 3, char: "五", gloss: "five", hsk_level: 1, audio: false}
     - {tone: 4, char: "误", gloss: "mistake", hsk_level: 6, audio: false}
@@ -255,7 +255,7 @@
     - {tone: 1, audio: false}
     - {tone: 2, char: "鱼", gloss: "fish", hsk_level: 2, audio: false}
     - {tone: 3, char: "雨", gloss: "rain", hsk_level: 1, audio: false}
-    - {tone: 4, char: "遇", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "遇", gloss: "(bound form) to encounter; to happen upo", hsk_level: 4, audio: false}
 - syllable: "yue"
   initial: ""
   final: "üe"
@@ -334,7 +334,7 @@
   tones:
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "本", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 3, char: "本", gloss: "(bound form) root; stem", hsk_level: 1, audio: false}
     - {tone: 4, char: "笨", gloss: "stupid", hsk_level: 4, audio: false}
 - syllable: "beng"
   initial: "b"
@@ -396,7 +396,7 @@
   initial: "b"
   final: "o"
   tones:
-    - {tone: 1, char: "播", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 1, char: "播", gloss: "(bound form) to sow (seeds); to spread (", hsk_level: 6, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, audio: false}
@@ -423,7 +423,7 @@
     - {tone: 1, char: "拍", gloss: "to pat", hsk_level: 3, audio: false}
     - {tone: 2, char: "排", gloss: "to arrange in order", hsk_level: 2, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "派", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 4, char: "派", gloss: "(literary) tributary; branch of a river", hsk_level: 3, audio: false}
 - syllable: "pan"
   initial: "p"
   final: "an"
@@ -431,7 +431,7 @@
     - {tone: 1, char: "攀", gloss: "to climb", hsk_level: 7, audio: false}
     - {tone: 2, char: "盘", gloss: "tray", hsk_level: 4, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "判", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 4, char: "判", gloss: "(bound form) to differentiate; to distin", hsk_level: 6, audio: false}
 - syllable: "pang"
   initial: "p"
   final: "ang"
@@ -478,7 +478,7 @@
   tones:
     - {tone: 1, char: "批", gloss: "to ascertain", hsk_level: 4, audio: false}
     - {tone: 2, char: "皮", gloss: "skin", hsk_level: 3, audio: false}
-    - {tone: 3, char: "匹", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 3, char: "匹", gloss: "(bound form) matching; comparable to", hsk_level: 5, audio: false}
     - {tone: 4, audio: false}
 - syllable: "pian"
   initial: "p"
@@ -510,7 +510,7 @@
   tones:
     - {tone: 1, char: "拼", gloss: "to piece together", hsk_level: 5, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "品", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 3, char: "品", gloss: "(bound form) article; commodity; product", hsk_level: 5, audio: false}
     - {tone: 4, char: "聘", gloss: "to employ", hsk_level: 7, audio: false}
 - syllable: "ping"
   initial: "p"
@@ -597,7 +597,7 @@
   final: "ei"
   tones:
     - {tone: 1, audio: false}
-    - {tone: 2, char: "没", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 2, char: "没", gloss: "(negative prefix for verbs) have not; no", hsk_level: 1, audio: false}
     - {tone: 3, char: "美", gloss: "beautiful", hsk_level: 3, audio: false}
     - {tone: 4, char: "妹", gloss: "younger sister", hsk_level: 1, audio: false}
 - syllable: "men"
@@ -773,7 +773,7 @@
   final: "a"
   tones:
     - {tone: 1, char: "搭", gloss: "to put up", hsk_level: 6, audio: false}
-    - {tone: 2, char: "打", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 2, char: "打", gloss: "(loanword) dozen", hsk_level: 4, audio: false}
     - {tone: 3, char: "打", gloss: "to hit", hsk_level: 1, audio: false}
     - {tone: 4, char: "大", gloss: "big", hsk_level: 1, audio: false}
 - syllable: "dai"
@@ -782,7 +782,7 @@
   tones:
     - {tone: 1, char: "呆", gloss: "foolish", hsk_level: 5, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "逮", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 3, char: "逮", gloss: "(coll.) to catch; to seize; to capture", hsk_level: 7, audio: false}
     - {tone: 4, char: "带", gloss: "band", hsk_level: 2, audio: false}
 - syllable: "dan"
   initial: "d"
@@ -903,7 +903,7 @@
     - {tone: 1, char: "东", gloss: "east", hsk_level: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "懂", gloss: "to understand", hsk_level: 2, audio: false}
-    - {tone: 4, char: "动", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "动", gloss: "(of sth) to move", hsk_level: 1, audio: false}
 - syllable: "dou"
   initial: "d"
   final: "ou"
@@ -924,7 +924,7 @@
   initial: "d"
   final: "uan"
   tones:
-    - {tone: 1, char: "端", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 1, char: "端", gloss: "(bound form) tip; end; extremity", hsk_level: 6, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "短", gloss: "short", hsk_level: 2, audio: false}
     - {tone: 4, char: "段", gloss: "paragraph", hsk_level: 2, audio: false}
@@ -956,7 +956,7 @@
   initial: "t"
   final: "a"
   tones:
-    - {tone: 1, char: "他", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 1, char: "他", gloss: "(third-person singular) (since the early", hsk_level: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "塔", gloss: "pagoda", hsk_level: 6, audio: false}
     - {tone: 4, char: "踏", gloss: "to tread", hsk_level: 6, audio: false}
@@ -1005,7 +1005,7 @@
   final: "eng"
   tones:
     - {tone: 1, audio: false}
-    - {tone: 2, char: "疼", gloss: "", hsk_level: 2, audio: false}
+    - {tone: 2, char: "疼", gloss: "(it) hurts; sore", hsk_level: 2, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, audio: false}
 - syllable: "ti"
@@ -1063,7 +1063,7 @@
     - {tone: 1, char: "偷", gloss: "to steal", hsk_level: 5, audio: false}
     - {tone: 2, char: "头", gloss: "head", hsk_level: 2, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "透", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "透", gloss: "(bound form) to penetrate; to seep throu", hsk_level: 4, audio: false}
 - syllable: "tu"
   initial: "t"
   final: "u"
@@ -1111,7 +1111,7 @@
     - {tone: 1, audio: false}
     - {tone: 2, char: "拿", gloss: "to hold", hsk_level: 1, audio: false}
     - {tone: 3, char: "哪", gloss: "how", hsk_level: 1, audio: false}
-    - {tone: 4, char: "那", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "那", gloss: "(specifier) that; the; those (colloquial", hsk_level: 1, audio: false}
 - syllable: "nai"
   initial: "n"
   final: "ai"
@@ -1119,7 +1119,7 @@
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "奶", gloss: "breast", hsk_level: 1, audio: false}
-    - {tone: 4, char: "耐", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 4, char: "耐", gloss: "(bound form) to bear; to endure; to with", hsk_level: 7, audio: false}
 - syllable: "nan"
   initial: "n"
   final: "an"
@@ -1333,7 +1333,7 @@
   final: "ao"
   tones:
     - {tone: 1, char: "捞", gloss: "to fish up", hsk_level: 7, audio: false}
-    - {tone: 2, char: "牢", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 2, char: "牢", gloss: "(literary) pen; fold (for livestock)", hsk_level: 6, audio: false}
     - {tone: 3, char: "老", gloss: "prefix used before the surname of a pers", hsk_level: 1, audio: false}
     - {tone: 4, char: "涝", gloss: "flooded", hsk_level: 7, audio: false}
 - syllable: "le"
@@ -1397,7 +1397,7 @@
   final: "iao"
   tones:
     - {tone: 1, audio: false}
-    - {tone: 2, char: "聊", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 2, char: "聊", gloss: "(coll.) to chat", hsk_level: 6, audio: false}
     - {tone: 3, char: "了", gloss: "to finish", hsk_level: 3, audio: false}
     - {tone: 4, char: "料", gloss: "material", hsk_level: 6, audio: false}
 - syllable: "lie"
@@ -1532,7 +1532,7 @@
   initial: "g"
   final: "ang"
   tones:
-    - {tone: 1, char: "刚", gloss: "", hsk_level: 2, audio: false}
+    - {tone: 1, char: "刚", gloss: "(literary) hard; firm; strong", hsk_level: 2, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "港", gloss: "harbor", hsk_level: 7, audio: false}
     - {tone: 4, audio: false}
@@ -1543,7 +1543,7 @@
     - {tone: 1, char: "高", gloss: "high", hsk_level: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "搞", gloss: "to do", hsk_level: 5, audio: false}
-    - {tone: 4, char: "告", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 4, char: "告", gloss: "(bound form) to say; to tell", hsk_level: 7, audio: false}
 - syllable: "ge"
   initial: "g"
   final: "e"
@@ -1551,7 +1551,7 @@
     - {tone: 1, char: "歌", gloss: "song", hsk_level: 1, audio: false}
     - {tone: 2, char: "隔", gloss: "to separate", hsk_level: 4, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "个", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "个", gloss: "(classifier used before a noun that has ", hsk_level: 1, audio: false}
 - syllable: "gei"
   initial: "g"
   final: "ei"
@@ -1612,7 +1612,7 @@
   initial: "g"
   final: "uai"
   tones:
-    - {tone: 1, char: "乖", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 1, char: "乖", gloss: "(of a child) obedient, well-behaved", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "拐", gloss: "to turn", hsk_level: 6, audio: false}
     - {tone: 4, char: "怪", gloss: "odd", hsk_level: 4, audio: false}
@@ -1837,7 +1837,7 @@
   final: "ang"
   tones:
     - {tone: 1, audio: false}
-    - {tone: 2, char: "行", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 2, char: "行", gloss: "(bound form) row; line", hsk_level: 3, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, audio: false}
 - syllable: "hao"
@@ -1847,13 +1847,13 @@
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "好", gloss: "good", hsk_level: 1, audio: false}
-    - {tone: 4, char: "号", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "号", gloss: "(literary) to call out; to command", hsk_level: 1, audio: false}
 - syllable: "he"
   initial: "h"
   final: "e"
   tones:
     - {tone: 1, char: "喝", gloss: "to drink", hsk_level: 1, audio: false}
-    - {tone: 2, char: "和", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 2, char: "和", gloss: "(joining two nouns) and; together with; ", hsk_level: 1, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, audio: false}
 - syllable: "hei"
@@ -1988,7 +1988,7 @@
   initial: "j"
   final: "iang"
   tones:
-    - {tone: 1, char: "江", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 1, char: "江", gloss: "(bound form) Yangtze River", hsk_level: 4, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "讲", gloss: "to speak", hsk_level: 2, audio: false}
     - {tone: 4, char: "降", gloss: "to drop", hsk_level: 4, audio: false}
@@ -2022,7 +2022,7 @@
   tones:
     - {tone: 1, char: "精", gloss: "essence", hsk_level: 6, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "景", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 3, char: "景", gloss: "(bound form) scenery", hsk_level: 6, audio: false}
     - {tone: 4, char: "静", gloss: "still", hsk_level: 3, audio: false}
 - syllable: "jiong"
   initial: "j"
@@ -2039,7 +2039,7 @@
     - {tone: 1, char: "揪", gloss: "to seize", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "九", gloss: "nine", hsk_level: 1, audio: false}
-    - {tone: 4, char: "就", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "就", gloss: "(after a suppositional clause) in that c", hsk_level: 1, audio: false}
 - syllable: "ju"
   initial: "j"
   final: "ü"
@@ -2245,7 +2245,7 @@
   final: "ing"
   tones:
     - {tone: 1, char: "腥", gloss: "fishy", hsk_level: 7, audio: false}
-    - {tone: 2, char: "行", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 2, char: "行", gloss: "(bound form) to walk; to go; to travel", hsk_level: 1, audio: false}
     - {tone: 3, char: "醒", gloss: "to wake up", hsk_level: 4, audio: false}
     - {tone: 4, char: "姓", gloss: "family name", hsk_level: 2, audio: false}
 - syllable: "xiong"
@@ -2271,7 +2271,7 @@
     - {tone: 1, char: "虚", gloss: "emptiness", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "许", gloss: "to allow", hsk_level: 7, audio: false}
-    - {tone: 4, char: "序", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 4, char: "序", gloss: "(bound form) order; sequence", hsk_level: 7, audio: false}
 - syllable: "xuan"
   initial: "x"
   final: "üan"
@@ -2342,8 +2342,8 @@
   tones:
     - {tone: 1, char: "遮", gloss: "to cover up", hsk_level: 7, audio: false}
     - {tone: 2, char: "折", gloss: "to break", hsk_level: 4, audio: false}
-    - {tone: 3, char: "者", gloss: "", hsk_level: 3, audio: false}
-    - {tone: 4, char: "这", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 3, char: "者", gloss: "(after a verb or adjective) one who (is)", hsk_level: 3, audio: false}
+    - {tone: 4, char: "这", gloss: "(pronoun) this; these", hsk_level: 1, audio: false}
 - syllable: "zhei"
   initial: "zh"
   final: "ei"
@@ -2366,7 +2366,7 @@
   tones:
     - {tone: 1, char: "争", gloss: "to strive for", hsk_level: 3, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "整", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 3, char: "整", gloss: "(bound form) whole; complete; entire; (b", hsk_level: 3, audio: false}
     - {tone: 4, char: "正", gloss: "straight", hsk_level: 1, audio: false}
 - syllable: "zhi"
   initial: "zh"
@@ -2532,7 +2532,7 @@
   initial: "ch"
   final: "ong"
   tones:
-    - {tone: 1, char: "冲", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 1, char: "冲", gloss: "(of water) to dash against", hsk_level: 4, audio: false}
     - {tone: 2, char: "重", gloss: "to repeat", hsk_level: 3, audio: false}
     - {tone: 3, char: "宠", gloss: "to love", hsk_level: 7, audio: false}
     - {tone: 4, char: "冲", gloss: "powerful", hsk_level: 6, audio: false}
@@ -2551,7 +2551,7 @@
     - {tone: 1, char: "出", gloss: "to go out", hsk_level: 1, audio: false}
     - {tone: 2, char: "除", gloss: "to get rid of", hsk_level: 6, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "处", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "处", gloss: "(bound form) place; locality", hsk_level: 4, audio: false}
 - syllable: "chua"
   initial: "ch"
   final: "ua"
@@ -2620,10 +2620,10 @@
   initial: "sh"
   final: "ai"
   tones:
-    - {tone: 1, char: "筛", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 1, char: "筛", gloss: "(bound form) a sieve", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "晒", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "晒", gloss: "(of the sun) to shine on", hsk_level: 4, audio: false}
 - syllable: "shan"
   initial: "sh"
   final: "an"
@@ -2639,7 +2639,7 @@
     - {tone: 1, char: "伤", gloss: "to injure", hsk_level: 3, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "赏", gloss: "to bestow", hsk_level: 4, audio: false}
-    - {tone: 4, char: "上", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "上", gloss: "(bound form) up; upper; above; previous", hsk_level: 1, audio: false}
 - syllable: "shao"
   initial: "sh"
   final: "ao"
@@ -2668,7 +2668,7 @@
   initial: "sh"
   final: "en"
   tones:
-    - {tone: 1, char: "深", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 1, char: "深", gloss: "(lit. and fig.) deep", hsk_level: 3, audio: false}
     - {tone: 2, char: "神", gloss: "god", hsk_level: 5, audio: false}
     - {tone: 3, char: "审", gloss: "to examine", hsk_level: 7, audio: false}
     - {tone: 4, char: "渗", gloss: "to seep", hsk_level: 7, audio: false}
@@ -2719,7 +2719,7 @@
     - {tone: 1, char: "摔", gloss: "to throw down", hsk_level: 5, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "甩", gloss: "to throw", hsk_level: 7, audio: false}
-    - {tone: 4, char: "帅", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "帅", gloss: "(bound form) commander-in-chief", hsk_level: 4, audio: false}
 - syllable: "shuan"
   initial: "sh"
   final: "uan"
@@ -2815,7 +2815,7 @@
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
-    - {tone: 4, char: "日", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "日", gloss: "(bound form) sun", hsk_level: 1, audio: false}
 - syllable: "rong"
   initial: "r"
   final: "ong"
@@ -2909,7 +2909,7 @@
   final: "ao"
   tones:
     - {tone: 1, char: "糟", gloss: "dregs", hsk_level: 5, audio: false}
-    - {tone: 2, char: "凿", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 2, char: "凿", gloss: "(bound form) chisel", hsk_level: 7, audio: false}
     - {tone: 3, char: "早", gloss: "early", hsk_level: 1, audio: false}
     - {tone: 4, char: "造", gloss: "to make", hsk_level: 3, audio: false}
 - syllable: "ze"
@@ -2917,7 +2917,7 @@
   final: "e"
   tones:
     - {tone: 1, audio: false}
-    - {tone: 2, char: "则", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 2, char: "则", gloss: "(literary) (conjunction used to express ", hsk_level: 7, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, audio: false}
 - syllable: "zei"
@@ -2940,7 +2940,7 @@
   initial: "z"
   final: "eng"
   tones:
-    - {tone: 1, char: "增", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 1, char: "增", gloss: "(bound form) to increase; to augment; to", hsk_level: 5, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, char: "赠", gloss: "to give as a present", hsk_level: 5, audio: false}
@@ -2948,7 +2948,7 @@
   initial: "z"
   final: "i"
   tones:
-    - {tone: 1, char: "兹", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 1, char: "兹", gloss: "(literary) this", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "紫", gloss: "purple", hsk_level: 5, audio: false}
     - {tone: 4, char: "字", gloss: "letter", hsk_level: 1, audio: false}
@@ -2958,7 +2958,7 @@
   tones:
     - {tone: 1, char: "宗", gloss: "school", hsk_level: 7, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "总", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 3, char: "总", gloss: "(bound form) general; overall", hsk_level: 3, audio: false}
     - {tone: 4, audio: false}
 - syllable: "zou"
   initial: "z"
@@ -2991,7 +2991,7 @@
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, char: "嘴", gloss: "mouth", hsk_level: 2, audio: false}
-    - {tone: 4, char: "最", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "最", gloss: "(before an adjective or verb) to the hig", hsk_level: 1, audio: false}
 - syllable: "zun"
   initial: "z"
   final: "un"
@@ -3100,7 +3100,7 @@
   initial: "c"
   final: "u"
   tones:
-    - {tone: 1, char: "粗", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 1, char: "粗", gloss: "(of sth long) wide; thick", hsk_level: 4, audio: false}
     - {tone: 2, audio: false}
     - {tone: 3, audio: false}
     - {tone: 4, char: "醋", gloss: "vinegar", hsk_level: 6, audio: false}
@@ -3254,7 +3254,7 @@
   tones:
     - {tone: 1, audio: false}
     - {tone: 2, audio: false}
-    - {tone: 3, char: "损", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 3, char: "损", gloss: "(bound form) to decrease; to diminish", hsk_level: 7, audio: false}
     - {tone: 4, audio: false}
 - syllable: "suo"
   initial: "s"
