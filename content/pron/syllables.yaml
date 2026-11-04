@@ -1,0 +1,3266 @@
+# Sinh bằng `clp syllables` (10-1). Đừng sửa tay: sửa danh sách chuẩn trong clp/syllables.py.
+# Mỗi thanh có chữ ví dụ HSK (nếu có) và `audio` = đã có file syl/xiaoxiao/{âm tiết}{thanh}.mp3.
+- syllable: "a"
+  initial: ""
+  final: "a"
+  tones:
+    - {tone: 1, char: "啊", gloss: "interjection of surprise", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ai"
+  initial: ""
+  final: "ai"
+  tones:
+    - {tone: 1, char: "哎", gloss: "hey!", hsk_level: 7, audio: false}
+    - {tone: 2, char: "挨", gloss: "to suffer", hsk_level: 6, audio: false}
+    - {tone: 3, char: "矮", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 4, char: "爱", gloss: "to love", hsk_level: 1, audio: false}
+- syllable: "an"
+  initial: ""
+  final: "an"
+  tones:
+    - {tone: 1, char: "安", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "按", gloss: "to press", hsk_level: 3, audio: false}
+- syllable: "ang"
+  initial: ""
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ao"
+  initial: ""
+  final: "ao"
+  tones:
+    - {tone: 1, char: "凹", gloss: "concave", hsk_level: 7, audio: false}
+    - {tone: 2, char: "熬", gloss: "to cook on a slow fire", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "傲", gloss: "proud", hsk_level: 7, audio: false}
+- syllable: "e"
+  initial: ""
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "鹅", gloss: "goose", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "饿", gloss: "hungry", hsk_level: 1, audio: false}
+- syllable: "ei"
+  initial: ""
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "en"
+  initial: ""
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "eng"
+  initial: ""
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "er"
+  initial: ""
+  final: "er"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "而", gloss: "and", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "二", gloss: "two", hsk_level: 1, audio: false}
+- syllable: "o"
+  initial: ""
+  final: "o"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "哦", gloss: "oh", hsk_level: 7, audio: false}
+- syllable: "ou"
+  initial: ""
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "yi"
+  initial: ""
+  final: "i"
+  tones:
+    - {tone: 1, char: "一", gloss: "one", hsk_level: 1, audio: false}
+    - {tone: 2, char: "移", gloss: "to move", hsk_level: 4, audio: false}
+    - {tone: 3, char: "已", gloss: "already", hsk_level: 3, audio: false}
+    - {tone: 4, char: "亿", gloss: "100 million", hsk_level: 2, audio: false}
+- syllable: "ya"
+  initial: ""
+  final: "ia"
+  tones:
+    - {tone: 1, char: "压", gloss: "to press", hsk_level: 3, audio: false}
+    - {tone: 2, char: "牙", gloss: "tooth", hsk_level: 4, audio: false}
+    - {tone: 3, char: "哑", gloss: "mute", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "yao"
+  initial: ""
+  final: "iao"
+  tones:
+    - {tone: 1, char: "腰", gloss: "the waist and lower back", hsk_level: 4, audio: false}
+    - {tone: 2, char: "摇", gloss: "to shake", hsk_level: 4, audio: false}
+    - {tone: 3, char: "咬", gloss: "to bite", hsk_level: 5, audio: false}
+    - {tone: 4, char: "要", gloss: "to want", hsk_level: 1, audio: false}
+- syllable: "ye"
+  initial: ""
+  final: "ie"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "也", gloss: "also", hsk_level: 1, audio: false}
+    - {tone: 4, char: "页", gloss: "page", hsk_level: 1, audio: false}
+- syllable: "you"
+  initial: ""
+  final: "iu"
+  tones:
+    - {tone: 1, char: "优", gloss: "excellent", hsk_level: 7, audio: false}
+    - {tone: 2, char: "油", gloss: "oil", hsk_level: 2, audio: false}
+    - {tone: 3, char: "有", gloss: "to have", hsk_level: 1, audio: false}
+    - {tone: 4, char: "右", gloss: "", hsk_level: 1, audio: false}
+- syllable: "yan"
+  initial: ""
+  final: "ian"
+  tones:
+    - {tone: 1, char: "烟", gloss: "cigarette or pipe tobacco", hsk_level: 3, audio: false}
+    - {tone: 2, char: "严", gloss: "tight", hsk_level: 4, audio: false}
+    - {tone: 3, char: "眼", gloss: "eye", hsk_level: 2, audio: false}
+    - {tone: 4, char: "验", gloss: "to examine", hsk_level: 7, audio: false}
+- syllable: "yin"
+  initial: ""
+  final: "in"
+  tones:
+    - {tone: 1, char: "阴", gloss: "overcast", hsk_level: 2, audio: false}
+    - {tone: 2, char: "银", gloss: "silver", hsk_level: 3, audio: false}
+    - {tone: 3, char: "引", gloss: "to draw", hsk_level: 4, audio: false}
+    - {tone: 4, char: "印", gloss: "to print", hsk_level: 6, audio: false}
+- syllable: "yang"
+  initial: ""
+  final: "iang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "羊", gloss: "sheep", hsk_level: 3, audio: false}
+    - {tone: 3, char: "养", gloss: "to raise", hsk_level: 2, audio: false}
+    - {tone: 4, char: "样", gloss: "manner", hsk_level: 6, audio: false}
+- syllable: "ying"
+  initial: ""
+  final: "ing"
+  tones:
+    - {tone: 1, char: "应", gloss: "to agree", hsk_level: 4, audio: false}
+    - {tone: 2, char: "赢", gloss: "to beat", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "硬", gloss: "hard", hsk_level: 5, audio: false}
+- syllable: "yong"
+  initial: ""
+  final: "iong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "涌", gloss: "to well up", hsk_level: 7, audio: false}
+    - {tone: 4, char: "用", gloss: "to use", hsk_level: 1, audio: false}
+- syllable: "wu"
+  initial: ""
+  final: "u"
+  tones:
+    - {tone: 1, char: "屋", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 2, char: "无", gloss: "not to have", hsk_level: 4, audio: false}
+    - {tone: 3, char: "五", gloss: "five", hsk_level: 1, audio: false}
+    - {tone: 4, char: "误", gloss: "mistake", hsk_level: 6, audio: false}
+- syllable: "wa"
+  initial: ""
+  final: "ua"
+  tones:
+    - {tone: 1, char: "挖", gloss: "to dig", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "瓦", gloss: "roof tile", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "wo"
+  initial: ""
+  final: "uo"
+  tones:
+    - {tone: 1, char: "窝", gloss: "nest", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "我", gloss: "I", hsk_level: 1, audio: false}
+    - {tone: 4, char: "握", gloss: "to hold", hsk_level: 5, audio: false}
+- syllable: "wai"
+  initial: ""
+  final: "uai"
+  tones:
+    - {tone: 1, char: "歪", gloss: "askew", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "外", gloss: "outside", hsk_level: 1, audio: false}
+- syllable: "wei"
+  initial: ""
+  final: "ui"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "为", gloss: "as", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "位", gloss: "position", hsk_level: 2, audio: false}
+- syllable: "wan"
+  initial: ""
+  final: "uan"
+  tones:
+    - {tone: 1, char: "弯", gloss: "to bend", hsk_level: 4, audio: false}
+    - {tone: 2, char: "完", gloss: "to finish", hsk_level: 2, audio: false}
+    - {tone: 3, char: "晚", gloss: "evening", hsk_level: 1, audio: false}
+    - {tone: 4, char: "万", gloss: "ten thousand", hsk_level: 2, audio: false}
+- syllable: "wen"
+  initial: ""
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "闻", gloss: "to hear", hsk_level: 2, audio: false}
+    - {tone: 3, char: "稳", gloss: "settled", hsk_level: 4, audio: false}
+    - {tone: 4, char: "问", gloss: "to ask", hsk_level: 1, audio: false}
+- syllable: "wang"
+  initial: ""
+  final: "uang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "王", gloss: "king or monarch", hsk_level: 4, audio: false}
+    - {tone: 3, char: "往", gloss: "to go", hsk_level: 2, audio: false}
+    - {tone: 4, char: "忘", gloss: "to forget", hsk_level: 1, audio: false}
+- syllable: "weng"
+  initial: ""
+  final: "ueng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "yu"
+  initial: ""
+  final: "ü"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "鱼", gloss: "fish", hsk_level: 2, audio: false}
+    - {tone: 3, char: "雨", gloss: "rain", hsk_level: 1, audio: false}
+    - {tone: 4, char: "遇", gloss: "", hsk_level: 4, audio: false}
+- syllable: "yue"
+  initial: ""
+  final: "üe"
+  tones:
+    - {tone: 1, char: "约", gloss: "to make an appointment", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "月", gloss: "moon", hsk_level: 1, audio: false}
+- syllable: "yuan"
+  initial: ""
+  final: "üan"
+  tones:
+    - {tone: 1, char: "冤", gloss: "injustice", hsk_level: 7, audio: false}
+    - {tone: 2, char: "元", gloss: "currency unit", hsk_level: 1, audio: false}
+    - {tone: 3, char: "远", gloss: "far", hsk_level: 1, audio: false}
+    - {tone: 4, char: "院", gloss: "courtyard", hsk_level: 2, audio: false}
+- syllable: "yun"
+  initial: ""
+  final: "ün"
+  tones:
+    - {tone: 1, char: "晕", gloss: "confused", hsk_level: 6, audio: false}
+    - {tone: 2, char: "云", gloss: "short name for Yunnan 雲南|云南[Yun2 nan2]", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "运", gloss: "to move", hsk_level: 5, audio: false}
+- syllable: "ba"
+  initial: "b"
+  final: "a"
+  tones:
+    - {tone: 1, char: "八", gloss: "eight", hsk_level: 1, audio: false}
+    - {tone: 2, char: "拔", gloss: "to pull up", hsk_level: 5, audio: false}
+    - {tone: 3, char: "把", gloss: "to hold", hsk_level: 3, audio: false}
+    - {tone: 4, char: "爸", gloss: "father", hsk_level: 1, audio: false}
+- syllable: "bai"
+  initial: "b"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "掰", gloss: "to break off or break open sth with one'", hsk_level: 7, audio: false}
+    - {tone: 2, char: "白", gloss: "white", hsk_level: 1, audio: false}
+    - {tone: 3, char: "百", gloss: "hundred", hsk_level: 1, audio: false}
+    - {tone: 4, char: "败", gloss: "to defeat", hsk_level: 4, audio: false}
+- syllable: "ban"
+  initial: "b"
+  final: "an"
+  tones:
+    - {tone: 1, char: "班", gloss: "team", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "板", gloss: "board", hsk_level: 3, audio: false}
+    - {tone: 4, char: "半", gloss: "half", hsk_level: 1, audio: false}
+- syllable: "bang"
+  initial: "b"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "帮", gloss: "to help", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "绑", gloss: "to tie", hsk_level: 7, audio: false}
+    - {tone: 4, char: "棒", gloss: "stick", hsk_level: 5, audio: false}
+- syllable: "bao"
+  initial: "b"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "包", gloss: "to cover", hsk_level: 1, audio: false}
+    - {tone: 2, char: "薄", gloss: "thin", hsk_level: 4, audio: false}
+    - {tone: 3, char: "饱", gloss: "to eat till full", hsk_level: 2, audio: false}
+    - {tone: 4, char: "报", gloss: "to report", hsk_level: 3, audio: false}
+- syllable: "bei"
+  initial: "b"
+  final: "ei"
+  tones:
+    - {tone: 1, char: "杯", gloss: "cup", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "北", gloss: "north", hsk_level: 1, audio: false}
+    - {tone: 4, char: "背", gloss: "the back of a body or object", hsk_level: 2, audio: false}
+- syllable: "ben"
+  initial: "b"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "本", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 4, char: "笨", gloss: "stupid", hsk_level: 4, audio: false}
+- syllable: "beng"
+  initial: "b"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "绷", gloss: "to draw tight", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "蹦", gloss: "to jump", hsk_level: 7, audio: false}
+- syllable: "bi"
+  initial: "b"
+  final: "i"
+  tones:
+    - {tone: 1, char: "逼", gloss: "to force", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "比", gloss: "to compare", hsk_level: 1, audio: false}
+    - {tone: 4, char: "避", gloss: "to avoid", hsk_level: 4, audio: false}
+- syllable: "bian"
+  initial: "b"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "边", gloss: "side", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "扁", gloss: "flat", hsk_level: 6, audio: false}
+    - {tone: 4, char: "变", gloss: "to change", hsk_level: 2, audio: false}
+- syllable: "biao"
+  initial: "b"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "标", gloss: "mark", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "表", gloss: "exterior surface", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "bie"
+  initial: "b"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "憋", gloss: "to choke", hsk_level: 7, audio: false}
+    - {tone: 2, char: "别", gloss: "to leave", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "bin"
+  initial: "b"
+  final: "in"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "bing"
+  initial: "b"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "兵", gloss: "soldiers", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "饼", gloss: "round flat cake", hsk_level: 5, audio: false}
+    - {tone: 4, char: "病", gloss: "illness", hsk_level: 1, audio: false}
+- syllable: "bo"
+  initial: "b"
+  final: "o"
+  tones:
+    - {tone: 1, char: "播", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "bu"
+  initial: "b"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "补", gloss: "to repair", hsk_level: 3, audio: false}
+    - {tone: 4, char: "不", gloss: "no", hsk_level: 1, audio: false}
+- syllable: "pa"
+  initial: "p"
+  final: "a"
+  tones:
+    - {tone: 1, char: "趴", gloss: "to lie on one's stomach", hsk_level: 7, audio: false}
+    - {tone: 2, char: "爬", gloss: "to crawl", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "怕", gloss: "to be afraid", hsk_level: 2, audio: false}
+- syllable: "pai"
+  initial: "p"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "拍", gloss: "to pat", hsk_level: 3, audio: false}
+    - {tone: 2, char: "排", gloss: "to arrange in order", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "派", gloss: "", hsk_level: 3, audio: false}
+- syllable: "pan"
+  initial: "p"
+  final: "an"
+  tones:
+    - {tone: 1, char: "攀", gloss: "to climb", hsk_level: 7, audio: false}
+    - {tone: 2, char: "盘", gloss: "tray", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "判", gloss: "", hsk_level: 6, audio: false}
+- syllable: "pang"
+  initial: "p"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "旁", gloss: "one side", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "胖", gloss: "fat", hsk_level: 3, audio: false}
+- syllable: "pao"
+  initial: "p"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "抛", gloss: "to throw", hsk_level: 7, audio: false}
+    - {tone: 2, char: "刨", gloss: "to dig", hsk_level: 7, audio: false}
+    - {tone: 3, char: "跑", gloss: "to run", hsk_level: 1, audio: false}
+    - {tone: 4, char: "泡", gloss: "bubble", hsk_level: 6, audio: false}
+- syllable: "pei"
+  initial: "p"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "陪", gloss: "to accompany", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "配", gloss: "to join", hsk_level: 3, audio: false}
+- syllable: "pen"
+  initial: "p"
+  final: "en"
+  tones:
+    - {tone: 1, char: "喷", gloss: "to spout", hsk_level: 5, audio: false}
+    - {tone: 2, char: "盆", gloss: "basin", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "peng"
+  initial: "p"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "捧", gloss: "to hold or offer with both hands", hsk_level: 7, audio: false}
+    - {tone: 4, char: "碰", gloss: "to touch", hsk_level: 2, audio: false}
+- syllable: "pi"
+  initial: "p"
+  final: "i"
+  tones:
+    - {tone: 1, char: "批", gloss: "to ascertain", hsk_level: 4, audio: false}
+    - {tone: 2, char: "皮", gloss: "skin", hsk_level: 3, audio: false}
+    - {tone: 3, char: "匹", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "pian"
+  initial: "p"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "篇", gloss: "sheet", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "片", gloss: "thin piece", hsk_level: 2, audio: false}
+- syllable: "piao"
+  initial: "p"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "飘", gloss: "to float", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "票", gloss: "ticket", hsk_level: 1, audio: false}
+- syllable: "pie"
+  initial: "p"
+  final: "ie"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "撇", gloss: "to throw", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "pin"
+  initial: "p"
+  final: "in"
+  tones:
+    - {tone: 1, char: "拼", gloss: "to piece together", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "品", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 4, char: "聘", gloss: "to employ", hsk_level: 7, audio: false}
+- syllable: "ping"
+  initial: "p"
+  final: "ing"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "平", gloss: "flat", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "po"
+  initial: "p"
+  final: "o"
+  tones:
+    - {tone: 1, char: "泼", gloss: "to splash", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "破", gloss: "broken", hsk_level: 3, audio: false}
+- syllable: "pou"
+  initial: "p"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "pu"
+  initial: "p"
+  final: "u"
+  tones:
+    - {tone: 1, char: "扑", gloss: "to throw oneself at", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "谱", gloss: "chart", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ma"
+  initial: "m"
+  final: "a"
+  tones:
+    - {tone: 1, char: "妈", gloss: "mom", hsk_level: 1, audio: false}
+    - {tone: 2, char: "麻", gloss: "generic name for hemp", hsk_level: 7, audio: false}
+    - {tone: 3, char: "马", gloss: "horse", hsk_level: 3, audio: false}
+    - {tone: 4, char: "骂", gloss: "to scold", hsk_level: 5, audio: false}
+- syllable: "mai"
+  initial: "m"
+  final: "ai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "埋", gloss: "to bury", hsk_level: 6, audio: false}
+    - {tone: 3, char: "买", gloss: "to buy", hsk_level: 1, audio: false}
+    - {tone: 4, char: "卖", gloss: "to sell", hsk_level: 2, audio: false}
+- syllable: "man"
+  initial: "m"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "蛮", gloss: "barbarian", hsk_level: 7, audio: false}
+    - {tone: 3, char: "满", gloss: "to fill", hsk_level: 2, audio: false}
+    - {tone: 4, char: "慢", gloss: "slow", hsk_level: 1, audio: false}
+- syllable: "mang"
+  initial: "m"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "忙", gloss: "busy", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "mao"
+  initial: "m"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "猫", gloss: "cat", hsk_level: 2, audio: false}
+    - {tone: 2, char: "毛", gloss: "hair", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "冒", gloss: "to emit", hsk_level: 5, audio: false}
+- syllable: "me"
+  initial: "m"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "mei"
+  initial: "m"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "没", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 3, char: "美", gloss: "beautiful", hsk_level: 3, audio: false}
+    - {tone: 4, char: "妹", gloss: "younger sister", hsk_level: 1, audio: false}
+- syllable: "men"
+  initial: "m"
+  final: "en"
+  tones:
+    - {tone: 1, char: "闷", gloss: "stuffy", hsk_level: 7, audio: false}
+    - {tone: 2, char: "门", gloss: "gate", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "闷", gloss: "bored", hsk_level: 7, audio: false}
+- syllable: "meng"
+  initial: "m"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "蒙", gloss: "to deceive", hsk_level: 6, audio: false}
+    - {tone: 2, char: "蒙", gloss: "to cover", hsk_level: 6, audio: false}
+    - {tone: 3, char: "猛", gloss: "ferocious", hsk_level: 6, audio: false}
+    - {tone: 4, char: "梦", gloss: "dream", hsk_level: 4, audio: false}
+- syllable: "mi"
+  initial: "m"
+  final: "i"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "迷", gloss: "to bewilder", hsk_level: 3, audio: false}
+    - {tone: 3, char: "米", gloss: "uncooked rice", hsk_level: 2, audio: false}
+    - {tone: 4, char: "密", gloss: "dense", hsk_level: 4, audio: false}
+- syllable: "mian"
+  initial: "m"
+  final: "ian"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "棉", gloss: "generic term for cotton or kapok", hsk_level: 6, audio: false}
+    - {tone: 3, char: "免", gloss: "to excuse sb", hsk_level: 7, audio: false}
+    - {tone: 4, char: "面", gloss: "face", hsk_level: 2, audio: false}
+- syllable: "miao"
+  initial: "m"
+  final: "iao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "苗", gloss: "young plant", hsk_level: 7, audio: false}
+    - {tone: 3, char: "秒", gloss: "second", hsk_level: 5, audio: false}
+    - {tone: 4, char: "妙", gloss: "clever", hsk_level: 6, audio: false}
+- syllable: "mie"
+  initial: "m"
+  final: "ie"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "灭", gloss: "to extinguish or put out", hsk_level: 6, audio: false}
+- syllable: "min"
+  initial: "m"
+  final: "in"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ming"
+  initial: "m"
+  final: "ing"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "名", gloss: "name", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "命", gloss: "life", hsk_level: 6, audio: false}
+- syllable: "miu"
+  initial: "m"
+  final: "iu"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "mo"
+  initial: "m"
+  final: "o"
+  tones:
+    - {tone: 1, char: "摸", gloss: "to feel with the hand", hsk_level: 4, audio: false}
+    - {tone: 2, char: "磨", gloss: "to rub", hsk_level: 6, audio: false}
+    - {tone: 3, char: "抹", gloss: "to smear", hsk_level: 7, audio: false}
+    - {tone: 4, char: "末", gloss: "tip", hsk_level: 4, audio: false}
+- syllable: "mou"
+  initial: "m"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "某", gloss: "some", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "mu"
+  initial: "m"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "母", gloss: "mother", hsk_level: 6, audio: false}
+    - {tone: 4, char: "墓", gloss: "grave", hsk_level: 6, audio: false}
+- syllable: "fa"
+  initial: "f"
+  final: "a"
+  tones:
+    - {tone: 1, char: "发", gloss: "to send out", hsk_level: 2, audio: false}
+    - {tone: 2, char: "罚", gloss: "to punish", hsk_level: 5, audio: false}
+    - {tone: 3, char: "法", gloss: "law", hsk_level: 4, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "fan"
+  initial: "f"
+  final: "an"
+  tones:
+    - {tone: 1, char: "翻", gloss: "to turn over", hsk_level: 4, audio: false}
+    - {tone: 2, char: "烦", gloss: "to feel vexed", hsk_level: 4, audio: false}
+    - {tone: 3, char: "反", gloss: "contrary", hsk_level: 4, audio: false}
+    - {tone: 4, char: "饭", gloss: "cooked rice", hsk_level: 1, audio: false}
+- syllable: "fang"
+  initial: "f"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "方", gloss: "square", hsk_level: 4, audio: false}
+    - {tone: 2, char: "防", gloss: "to protect", hsk_level: 3, audio: false}
+    - {tone: 3, char: "仿", gloss: "to imitate", hsk_level: 7, audio: false}
+    - {tone: 4, char: "放", gloss: "to put", hsk_level: 1, audio: false}
+- syllable: "fei"
+  initial: "f"
+  final: "ei"
+  tones:
+    - {tone: 1, char: "飞", gloss: "to fly", hsk_level: 1, audio: false}
+    - {tone: 2, char: "肥", gloss: "fat", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "费", gloss: "to cost", hsk_level: 3, audio: false}
+- syllable: "fen"
+  initial: "f"
+  final: "en"
+  tones:
+    - {tone: 1, char: "分", gloss: "to divide", hsk_level: 1, audio: false}
+    - {tone: 2, char: "坟", gloss: "grave", hsk_level: 7, audio: false}
+    - {tone: 3, char: "粉", gloss: "powder", hsk_level: 7, audio: false}
+    - {tone: 4, char: "份", gloss: "classifier for gifts", hsk_level: 2, audio: false}
+- syllable: "feng"
+  initial: "f"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "风", gloss: "wind", hsk_level: 1, audio: false}
+    - {tone: 2, char: "逢", gloss: "to meet by chance", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "缝", gloss: "seam", hsk_level: 7, audio: false}
+- syllable: "fo"
+  initial: "f"
+  final: "o"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "佛", gloss: "Buddha", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "fou"
+  initial: "f"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "fu"
+  initial: "f"
+  final: "u"
+  tones:
+    - {tone: 1, char: "敷", gloss: "to spread", hsk_level: 7, audio: false}
+    - {tone: 2, char: "福", gloss: "good fortune", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "付", gloss: "to pay", hsk_level: 3, audio: false}
+- syllable: "da"
+  initial: "d"
+  final: "a"
+  tones:
+    - {tone: 1, char: "搭", gloss: "to put up", hsk_level: 6, audio: false}
+    - {tone: 2, char: "打", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 3, char: "打", gloss: "to hit", hsk_level: 1, audio: false}
+    - {tone: 4, char: "大", gloss: "big", hsk_level: 1, audio: false}
+- syllable: "dai"
+  initial: "d"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "呆", gloss: "foolish", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "逮", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 4, char: "带", gloss: "band", hsk_level: 2, audio: false}
+- syllable: "dan"
+  initial: "d"
+  final: "an"
+  tones:
+    - {tone: 1, char: "单", gloss: "bill", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "胆", gloss: "gall bladder", hsk_level: 5, audio: false}
+    - {tone: 4, char: "蛋", gloss: "egg", hsk_level: 2, audio: false}
+- syllable: "dang"
+  initial: "d"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "当", gloss: "to be", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "挡", gloss: "to resist", hsk_level: 5, audio: false}
+    - {tone: 4, char: "当", gloss: "at or in the very same...", hsk_level: 6, audio: false}
+- syllable: "dao"
+  initial: "d"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "刀", gloss: "knife", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "倒", gloss: "to fall", hsk_level: 2, audio: false}
+    - {tone: 4, char: "到", gloss: "to reach", hsk_level: 1, audio: false}
+- syllable: "de"
+  initial: "d"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "得", gloss: "to obtain", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "dei"
+  initial: "d"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "得", gloss: "to have to", hsk_level: 4, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "den"
+  initial: "d"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "deng"
+  initial: "d"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "灯", gloss: "lamp", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "等", gloss: "to wait for", hsk_level: 1, audio: false}
+    - {tone: 4, char: "瞪", gloss: "to open", hsk_level: 7, audio: false}
+- syllable: "di"
+  initial: "d"
+  final: "i"
+  tones:
+    - {tone: 1, char: "低", gloss: "low", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "底", gloss: "bottom", hsk_level: 4, audio: false}
+    - {tone: 4, char: "地", gloss: "earth", hsk_level: 1, audio: false}
+- syllable: "dia"
+  initial: "d"
+  final: "ia"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "dian"
+  initial: "d"
+  final: "ian"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "点", gloss: "to touch briefly", hsk_level: 1, audio: false}
+    - {tone: 4, char: "电", gloss: "lightning", hsk_level: 1, audio: false}
+- syllable: "diao"
+  initial: "d"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "雕", gloss: "to carve", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "掉", gloss: "to fall", hsk_level: 2, audio: false}
+- syllable: "die"
+  initial: "d"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "跌", gloss: "to fall", hsk_level: 6, audio: false}
+    - {tone: 2, char: "叠", gloss: "to pile up", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ding"
+  initial: "d"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "丁", gloss: "male adult", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "顶", gloss: "apex", hsk_level: 4, audio: false}
+    - {tone: 4, char: "订", gloss: "to agree", hsk_level: 3, audio: false}
+- syllable: "diu"
+  initial: "d"
+  final: "iu"
+  tones:
+    - {tone: 1, char: "丢", gloss: "to lose", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "dong"
+  initial: "d"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "东", gloss: "east", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "懂", gloss: "to understand", hsk_level: 2, audio: false}
+    - {tone: 4, char: "动", gloss: "", hsk_level: 1, audio: false}
+- syllable: "dou"
+  initial: "d"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "都", gloss: "all", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "抖", gloss: "to tremble", hsk_level: 7, audio: false}
+    - {tone: 4, char: "斗", gloss: "to fight", hsk_level: 7, audio: false}
+- syllable: "du"
+  initial: "d"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "读", gloss: "to read out", hsk_level: 1, audio: false}
+    - {tone: 3, char: "堵", gloss: "to block up", hsk_level: 4, audio: false}
+    - {tone: 4, char: "度", gloss: "to pass", hsk_level: 2, audio: false}
+- syllable: "duan"
+  initial: "d"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "端", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "短", gloss: "short", hsk_level: 2, audio: false}
+    - {tone: 4, char: "段", gloss: "paragraph", hsk_level: 2, audio: false}
+- syllable: "dui"
+  initial: "d"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "堆", gloss: "to pile up", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "对", gloss: "right", hsk_level: 1, audio: false}
+- syllable: "dun"
+  initial: "d"
+  final: "un"
+  tones:
+    - {tone: 1, char: "吨", gloss: "ton", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "顿", gloss: "to stop", hsk_level: 3, audio: false}
+- syllable: "duo"
+  initial: "d"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "多", gloss: "many", hsk_level: 1, audio: false}
+    - {tone: 2, char: "夺", gloss: "to seize", hsk_level: 6, audio: false}
+    - {tone: 3, char: "朵", gloss: "flower", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ta"
+  initial: "t"
+  final: "a"
+  tones:
+    - {tone: 1, char: "他", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "塔", gloss: "pagoda", hsk_level: 6, audio: false}
+    - {tone: 4, char: "踏", gloss: "to tread", hsk_level: 6, audio: false}
+- syllable: "tai"
+  initial: "t"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "胎", gloss: "fetus", hsk_level: 7, audio: false}
+    - {tone: 2, char: "台", gloss: "platform", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "太", gloss: "highest", hsk_level: 1, audio: false}
+- syllable: "tan"
+  initial: "t"
+  final: "an"
+  tones:
+    - {tone: 1, char: "贪", gloss: "to have a voracious desire for", hsk_level: 7, audio: false}
+    - {tone: 2, char: "谈", gloss: "to speak", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "探", gloss: "to explore", hsk_level: 7, audio: false}
+- syllable: "tang"
+  initial: "t"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "汤", gloss: "soup", hsk_level: 3, audio: false}
+    - {tone: 2, char: "糖", gloss: "sugar", hsk_level: 3, audio: false}
+    - {tone: 3, char: "躺", gloss: "to recline", hsk_level: 4, audio: false}
+    - {tone: 4, char: "趟", gloss: "classifier for times", hsk_level: 6, audio: false}
+- syllable: "tao"
+  initial: "t"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "掏", gloss: "to fish out", hsk_level: 6, audio: false}
+    - {tone: 2, char: "逃", gloss: "to escape", hsk_level: 5, audio: false}
+    - {tone: 3, char: "讨", gloss: "to invite", hsk_level: 7, audio: false}
+    - {tone: 4, char: "套", gloss: "to cover", hsk_level: 2, audio: false}
+- syllable: "te"
+  initial: "t"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "特", gloss: "special", hsk_level: 6, audio: false}
+- syllable: "teng"
+  initial: "t"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "疼", gloss: "", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ti"
+  initial: "t"
+  final: "i"
+  tones:
+    - {tone: 1, char: "踢", gloss: "to kick", hsk_level: 6, audio: false}
+    - {tone: 2, char: "提", gloss: "to carry", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "替", gloss: "to substitute for", hsk_level: 4, audio: false}
+- syllable: "tian"
+  initial: "t"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "天", gloss: "day", hsk_level: 1, audio: false}
+    - {tone: 2, char: "甜", gloss: "sweet", hsk_level: 3, audio: false}
+    - {tone: 3, char: "舔", gloss: "to lick", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "tiao"
+  initial: "t"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "挑", gloss: "to carry on a shoulder pole", hsk_level: 4, audio: false}
+    - {tone: 2, char: "条", gloss: "strip", hsk_level: 2, audio: false}
+    - {tone: 3, char: "挑", gloss: "to raise", hsk_level: 4, audio: false}
+    - {tone: 4, char: "跳", gloss: "to jump", hsk_level: 3, audio: false}
+- syllable: "tie"
+  initial: "t"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "贴", gloss: "to stick", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "铁", gloss: "iron", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ting"
+  initial: "t"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "听", gloss: "to listen to", hsk_level: 1, audio: false}
+    - {tone: 2, char: "停", gloss: "to stop", hsk_level: 2, audio: false}
+    - {tone: 3, char: "挺", gloss: "straight", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "tong"
+  initial: "t"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "通", gloss: "to go through", hsk_level: 2, audio: false}
+    - {tone: 2, char: "同", gloss: "like", hsk_level: 6, audio: false}
+    - {tone: 3, char: "捅", gloss: "to poke", hsk_level: 7, audio: false}
+    - {tone: 4, char: "痛", gloss: "ache", hsk_level: 3, audio: false}
+- syllable: "tou"
+  initial: "t"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "偷", gloss: "to steal", hsk_level: 5, audio: false}
+    - {tone: 2, char: "头", gloss: "head", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "透", gloss: "", hsk_level: 4, audio: false}
+- syllable: "tu"
+  initial: "t"
+  final: "u"
+  tones:
+    - {tone: 1, char: "秃", gloss: "bald", hsk_level: 7, audio: false}
+    - {tone: 2, char: "图", gloss: "diagram", hsk_level: 3, audio: false}
+    - {tone: 3, char: "土", gloss: "earth", hsk_level: 3, audio: false}
+    - {tone: 4, char: "吐", gloss: "to vomit", hsk_level: 5, audio: false}
+- syllable: "tuan"
+  initial: "t"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "团", gloss: "round", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "tui"
+  initial: "t"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "推", gloss: "to push", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "腿", gloss: "leg", hsk_level: 2, audio: false}
+    - {tone: 4, char: "退", gloss: "to retreat", hsk_level: 3, audio: false}
+- syllable: "tun"
+  initial: "t"
+  final: "un"
+  tones:
+    - {tone: 1, char: "吞", gloss: "to swallow", hsk_level: 6, audio: false}
+    - {tone: 2, char: "屯", gloss: "to station", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "tuo"
+  initial: "t"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "脱", gloss: "to shed", hsk_level: 4, audio: false}
+    - {tone: 2, char: "驮", gloss: "to carry on one's back", hsk_level: 7, audio: false}
+    - {tone: 3, char: "妥", gloss: "suitable", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "na"
+  initial: "n"
+  final: "a"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "拿", gloss: "to hold", hsk_level: 1, audio: false}
+    - {tone: 3, char: "哪", gloss: "how", hsk_level: 1, audio: false}
+    - {tone: 4, char: "那", gloss: "", hsk_level: 1, audio: false}
+- syllable: "nai"
+  initial: "n"
+  final: "ai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "奶", gloss: "breast", hsk_level: 1, audio: false}
+    - {tone: 4, char: "耐", gloss: "", hsk_level: 7, audio: false}
+- syllable: "nan"
+  initial: "n"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "难", gloss: "difficult", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nang"
+  initial: "n"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nao"
+  initial: "n"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "挠", gloss: "to scratch", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "闹", gloss: "noisy", hsk_level: 4, audio: false}
+- syllable: "ne"
+  initial: "n"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nei"
+  initial: "n"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "内", gloss: "inside", hsk_level: 3, audio: false}
+- syllable: "nen"
+  initial: "n"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "嫩", gloss: "young and tender", hsk_level: 7, audio: false}
+- syllable: "neng"
+  initial: "n"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "能", gloss: "can", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ni"
+  initial: "n"
+  final: "i"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "泥", gloss: "mud", hsk_level: 6, audio: false}
+    - {tone: 3, char: "你", gloss: "you", hsk_level: 1, audio: false}
+    - {tone: 4, char: "逆", gloss: "contrary", hsk_level: 7, audio: false}
+- syllable: "nian"
+  initial: "n"
+  final: "ian"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "年", gloss: "grain", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "念", gloss: "to read", hsk_level: 3, audio: false}
+- syllable: "niang"
+  initial: "n"
+  final: "iang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "娘", gloss: "mother", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "niao"
+  initial: "n"
+  final: "iao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "鸟", gloss: "bird", hsk_level: 2, audio: false}
+    - {tone: 4, char: "尿", gloss: "to urinate", hsk_level: 7, audio: false}
+- syllable: "nie"
+  initial: "n"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "捏", gloss: "to hold between the thumb and fingers", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nin"
+  initial: "n"
+  final: "in"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "您", gloss: "you", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ning"
+  initial: "n"
+  final: "ing"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "拧", gloss: "to pinch", hsk_level: 7, audio: false}
+    - {tone: 3, char: "拧", gloss: "mistake", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "niu"
+  initial: "n"
+  final: "iu"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "牛", gloss: "ox", hsk_level: 3, audio: false}
+    - {tone: 3, char: "扭", gloss: "to turn", hsk_level: 6, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nong"
+  initial: "n"
+  final: "ong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "浓", gloss: "concentrated", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "弄", gloss: "to do", hsk_level: 2, audio: false}
+- syllable: "nou"
+  initial: "n"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nu"
+  initial: "n"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nuan"
+  initial: "n"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "暖", gloss: "warm", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nuo"
+  initial: "n"
+  final: "uo"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "挪", gloss: "to shift", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nü"
+  initial: "n"
+  final: "ü"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "女", gloss: "female", hsk_level: 1, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "nüe"
+  initial: "n"
+  final: "üe"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "la"
+  initial: "l"
+  final: "a"
+  tones:
+    - {tone: 1, char: "拉", gloss: "to pull", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "辣", gloss: "hot", hsk_level: 4, audio: false}
+- syllable: "lai"
+  initial: "l"
+  final: "ai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "来", gloss: "to come", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "赖", gloss: "to depend on", hsk_level: 6, audio: false}
+- syllable: "lan"
+  initial: "l"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "蓝", gloss: "blue", hsk_level: 2, audio: false}
+    - {tone: 3, char: "懒", gloss: "lazy", hsk_level: 6, audio: false}
+    - {tone: 4, char: "烂", gloss: "soft", hsk_level: 5, audio: false}
+- syllable: "lang"
+  initial: "l"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "狼", gloss: "wolf", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "浪", gloss: "wave", hsk_level: 7, audio: false}
+- syllable: "lao"
+  initial: "l"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "捞", gloss: "to fish up", hsk_level: 7, audio: false}
+    - {tone: 2, char: "牢", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 3, char: "老", gloss: "prefix used before the surname of a pers", hsk_level: 1, audio: false}
+    - {tone: 4, char: "涝", gloss: "flooded", hsk_level: 7, audio: false}
+- syllable: "le"
+  initial: "l"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "乐", gloss: "happy", hsk_level: 3, audio: false}
+- syllable: "lei"
+  initial: "l"
+  final: "ei"
+  tones:
+    - {tone: 1, char: "勒", gloss: "to strap tightly", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "累", gloss: "tired", hsk_level: 1, audio: false}
+- syllable: "leng"
+  initial: "l"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "冷", gloss: "cold", hsk_level: 1, audio: false}
+    - {tone: 4, char: "愣", gloss: "to look distracted", hsk_level: 7, audio: false}
+- syllable: "li"
+  initial: "l"
+  final: "i"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "离", gloss: "to leave", hsk_level: 2, audio: false}
+    - {tone: 3, char: "里", gloss: "lining", hsk_level: 1, audio: false}
+    - {tone: 4, char: "力", gloss: "power", hsk_level: 3, audio: false}
+- syllable: "lia"
+  initial: "l"
+  final: "ia"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "俩", gloss: "two", hsk_level: 4, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "lian"
+  initial: "l"
+  final: "ian"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "连", gloss: "to link", hsk_level: 3, audio: false}
+    - {tone: 3, char: "脸", gloss: "face", hsk_level: 2, audio: false}
+    - {tone: 4, char: "练", gloss: "to practice", hsk_level: 2, audio: false}
+- syllable: "liang"
+  initial: "l"
+  final: "iang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "凉", gloss: "cool", hsk_level: 2, audio: false}
+    - {tone: 3, char: "两", gloss: "two", hsk_level: 1, audio: false}
+    - {tone: 4, char: "亮", gloss: "bright", hsk_level: 2, audio: false}
+- syllable: "liao"
+  initial: "l"
+  final: "iao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "聊", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 3, char: "了", gloss: "to finish", hsk_level: 3, audio: false}
+    - {tone: 4, char: "料", gloss: "material", hsk_level: 6, audio: false}
+- syllable: "lie"
+  initial: "l"
+  final: "ie"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "列", gloss: "to arrange", hsk_level: 4, audio: false}
+- syllable: "lin"
+  initial: "l"
+  final: "in"
+  tones:
+    - {tone: 1, char: "拎", gloss: "to lift up", hsk_level: 7, audio: false}
+    - {tone: 2, char: "临", gloss: "to face", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ling"
+  initial: "l"
+  final: "ing"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "零", gloss: "zero", hsk_level: 1, audio: false}
+    - {tone: 3, char: "领", gloss: "neck", hsk_level: 3, audio: false}
+    - {tone: 4, char: "令", gloss: "to order", hsk_level: 5, audio: false}
+- syllable: "liu"
+  initial: "l"
+  final: "iu"
+  tones:
+    - {tone: 1, char: "溜", gloss: "to slip away", hsk_level: 7, audio: false}
+    - {tone: 2, char: "流", gloss: "to flow", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "六", gloss: "six", hsk_level: 1, audio: false}
+- syllable: "lo"
+  initial: "l"
+  final: "o"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "long"
+  initial: "l"
+  final: "ong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "龙", gloss: "Chinese dragon", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "lou"
+  initial: "l"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "楼", gloss: "house with more than 1 story", hsk_level: 1, audio: false}
+    - {tone: 3, char: "搂", gloss: "to hug", hsk_level: 7, audio: false}
+    - {tone: 4, char: "漏", gloss: "to leak", hsk_level: 5, audio: false}
+- syllable: "lu"
+  initial: "l"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "路", gloss: "road", hsk_level: 1, audio: false}
+- syllable: "luan"
+  initial: "l"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "卵", gloss: "egg", hsk_level: 7, audio: false}
+    - {tone: 4, char: "乱", gloss: "in confusion or disorder", hsk_level: 3, audio: false}
+- syllable: "lun"
+  initial: "l"
+  final: "un"
+  tones:
+    - {tone: 1, char: "抡", gloss: "to swing", hsk_level: 7, audio: false}
+    - {tone: 2, char: "轮", gloss: "wheel", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "luo"
+  initial: "l"
+  final: "uo"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "罗", gloss: "gauze", hsk_level: 7, audio: false}
+    - {tone: 3, char: "裸", gloss: "naked", hsk_level: 7, audio: false}
+    - {tone: 4, char: "落", gloss: "to fall or drop", hsk_level: 4, audio: false}
+- syllable: "lü"
+  initial: "l"
+  final: "ü"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "缕", gloss: "strand", hsk_level: 7, audio: false}
+    - {tone: 4, char: "绿", gloss: "green", hsk_level: 2, audio: false}
+- syllable: "lüe"
+  initial: "l"
+  final: "üe"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "略", gloss: "brief", hsk_level: 7, audio: false}
+- syllable: "ga"
+  initial: "g"
+  final: "a"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "gai"
+  initial: "g"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "该", gloss: "should", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "改", gloss: "to change", hsk_level: 2, audio: false}
+    - {tone: 4, char: "盖", gloss: "lid", hsk_level: 4, audio: false}
+- syllable: "gan"
+  initial: "g"
+  final: "an"
+  tones:
+    - {tone: 1, char: "干", gloss: "dry", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "赶", gloss: "to overtake", hsk_level: 3, audio: false}
+    - {tone: 4, char: "干", gloss: "tree trunk", hsk_level: 1, audio: false}
+- syllable: "gang"
+  initial: "g"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "刚", gloss: "", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "港", gloss: "harbor", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "gao"
+  initial: "g"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "高", gloss: "high", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "搞", gloss: "to do", hsk_level: 5, audio: false}
+    - {tone: 4, char: "告", gloss: "", hsk_level: 7, audio: false}
+- syllable: "ge"
+  initial: "g"
+  final: "e"
+  tones:
+    - {tone: 1, char: "歌", gloss: "song", hsk_level: 1, audio: false}
+    - {tone: 2, char: "隔", gloss: "to separate", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "个", gloss: "", hsk_level: 1, audio: false}
+- syllable: "gei"
+  initial: "g"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "给", gloss: "to", hsk_level: 1, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "gen"
+  initial: "g"
+  final: "en"
+  tones:
+    - {tone: 1, char: "跟", gloss: "heel", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "geng"
+  initial: "g"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "更", gloss: "more", hsk_level: 2, audio: false}
+- syllable: "gong"
+  initial: "g"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "公", gloss: "public", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "拱", gloss: "to cup one's hands in salute", hsk_level: 7, audio: false}
+    - {tone: 4, char: "共", gloss: "common", hsk_level: 4, audio: false}
+- syllable: "gou"
+  initial: "g"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "沟", gloss: "ditch", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "狗", gloss: "dog", hsk_level: 2, audio: false}
+    - {tone: 4, char: "够", gloss: "enough", hsk_level: 2, audio: false}
+- syllable: "gu"
+  initial: "g"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "古", gloss: "ancient", hsk_level: 3, audio: false}
+    - {tone: 4, char: "顾", gloss: "to look after", hsk_level: 6, audio: false}
+- syllable: "gua"
+  initial: "g"
+  final: "ua"
+  tones:
+    - {tone: 1, char: "瓜", gloss: "melon", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "挂", gloss: "to hang", hsk_level: 3, audio: false}
+- syllable: "guai"
+  initial: "g"
+  final: "uai"
+  tones:
+    - {tone: 1, char: "乖", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "拐", gloss: "to turn", hsk_level: 6, audio: false}
+    - {tone: 4, char: "怪", gloss: "odd", hsk_level: 4, audio: false}
+- syllable: "guan"
+  initial: "g"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "关", gloss: "mountain pass", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "管", gloss: "to take care", hsk_level: 3, audio: false}
+    - {tone: 4, char: "惯", gloss: "accustomed to", hsk_level: 7, audio: false}
+- syllable: "guang"
+  initial: "g"
+  final: "uang"
+  tones:
+    - {tone: 1, char: "光", gloss: "light", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "广", gloss: "wide", hsk_level: 5, audio: false}
+    - {tone: 4, char: "逛", gloss: "to stroll", hsk_level: 4, audio: false}
+- syllable: "gui"
+  initial: "g"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "归", gloss: "to return", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "鬼", gloss: "disembodied spirit", hsk_level: 5, audio: false}
+    - {tone: 4, char: "贵", gloss: "expensive", hsk_level: 1, audio: false}
+- syllable: "gun"
+  initial: "g"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "滚", gloss: "to boil", hsk_level: 5, audio: false}
+    - {tone: 4, char: "棍", gloss: "stick", hsk_level: 7, audio: false}
+- syllable: "guo"
+  initial: "g"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "锅", gloss: "pot", hsk_level: 5, audio: false}
+    - {tone: 2, char: "国", gloss: "country", hsk_level: 1, audio: false}
+    - {tone: 3, char: "裹", gloss: "to wrap around", hsk_level: 7, audio: false}
+    - {tone: 4, char: "过", gloss: "to cross", hsk_level: 1, audio: false}
+- syllable: "ka"
+  initial: "k"
+  final: "a"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "卡", gloss: "to stop", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kai"
+  initial: "k"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "开", gloss: "to open", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kan"
+  initial: "k"
+  final: "an"
+  tones:
+    - {tone: 1, char: "看", gloss: "to look after", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "砍", gloss: "to chop", hsk_level: 7, audio: false}
+    - {tone: 4, char: "看", gloss: "to see", hsk_level: 1, audio: false}
+- syllable: "kang"
+  initial: "k"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "扛", gloss: "to carry on one's shoulder", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kao"
+  initial: "k"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "考", gloss: "to check", hsk_level: 1, audio: false}
+    - {tone: 4, char: "靠", gloss: "to lean against or on", hsk_level: 2, audio: false}
+- syllable: "ke"
+  initial: "k"
+  final: "e"
+  tones:
+    - {tone: 1, char: "科", gloss: "branch of study", hsk_level: 2, audio: false}
+    - {tone: 2, char: "咳", gloss: "cough", hsk_level: 5, audio: false}
+    - {tone: 3, char: "渴", gloss: "thirsty", hsk_level: 1, audio: false}
+    - {tone: 4, char: "课", gloss: "subject", hsk_level: 1, audio: false}
+- syllable: "kei"
+  initial: "k"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ken"
+  initial: "k"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "肯", gloss: "to agree", hsk_level: 6, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "keng"
+  initial: "k"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "坑", gloss: "pit", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kong"
+  initial: "k"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "空", gloss: "empty", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "空", gloss: "to empty", hsk_level: 4, audio: false}
+- syllable: "kou"
+  initial: "k"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "抠", gloss: "to dig", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "口", gloss: "mouth", hsk_level: 1, audio: false}
+    - {tone: 4, char: "扣", gloss: "to fasten", hsk_level: 6, audio: false}
+- syllable: "ku"
+  initial: "k"
+  final: "u"
+  tones:
+    - {tone: 1, char: "哭", gloss: "to cry", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "苦", gloss: "bitter", hsk_level: 4, audio: false}
+    - {tone: 4, char: "库", gloss: "warehouse", hsk_level: 5, audio: false}
+- syllable: "kua"
+  initial: "k"
+  final: "ua"
+  tones:
+    - {tone: 1, char: "夸", gloss: "to boast", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "垮", gloss: "to collapse", hsk_level: 7, audio: false}
+    - {tone: 4, char: "跨", gloss: "to step across", hsk_level: 6, audio: false}
+- syllable: "kuai"
+  initial: "k"
+  final: "uai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "快", gloss: "rapid", hsk_level: 1, audio: false}
+- syllable: "kuan"
+  initial: "k"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "宽", gloss: "wide", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kuang"
+  initial: "k"
+  final: "uang"
+  tones:
+    - {tone: 1, char: "筐", gloss: "basket", hsk_level: 7, audio: false}
+    - {tone: 2, char: "狂", gloss: "mad", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "矿", gloss: "mineral deposit", hsk_level: 6, audio: false}
+- syllable: "kui"
+  initial: "k"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "亏", gloss: "to lose", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "kun"
+  initial: "k"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "捆", gloss: "a bunch", hsk_level: 7, audio: false}
+    - {tone: 4, char: "困", gloss: "to trap", hsk_level: 3, audio: false}
+- syllable: "kuo"
+  initial: "k"
+  final: "uo"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "阔", gloss: "rich", hsk_level: 6, audio: false}
+- syllable: "ha"
+  initial: "h"
+  final: "a"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "hai"
+  initial: "h"
+  final: "ai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "还", gloss: "still", hsk_level: 1, audio: false}
+    - {tone: 3, char: "海", gloss: "ocean", hsk_level: 2, audio: false}
+    - {tone: 4, char: "害", gloss: "to do harm to", hsk_level: 5, audio: false}
+- syllable: "han"
+  initial: "h"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "含", gloss: "to keep in the mouth", hsk_level: 4, audio: false}
+    - {tone: 3, char: "喊", gloss: "to yell", hsk_level: 2, audio: false}
+    - {tone: 4, char: "汗", gloss: "perspiration", hsk_level: 5, audio: false}
+- syllable: "hang"
+  initial: "h"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "行", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "hao"
+  initial: "h"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "好", gloss: "good", hsk_level: 1, audio: false}
+    - {tone: 4, char: "号", gloss: "", hsk_level: 1, audio: false}
+- syllable: "he"
+  initial: "h"
+  final: "e"
+  tones:
+    - {tone: 1, char: "喝", gloss: "to drink", hsk_level: 1, audio: false}
+    - {tone: 2, char: "和", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "hei"
+  initial: "h"
+  final: "ei"
+  tones:
+    - {tone: 1, char: "黑", gloss: "black", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "hen"
+  initial: "h"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "很", gloss: "very", hsk_level: 1, audio: false}
+    - {tone: 4, char: "恨", gloss: "to hate", hsk_level: 5, audio: false}
+- syllable: "heng"
+  initial: "h"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "哼", gloss: "to groan", hsk_level: 7, audio: false}
+    - {tone: 2, char: "横", gloss: "horizontal", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "横", gloss: "harsh and unreasonable", hsk_level: 7, audio: false}
+- syllable: "hong"
+  initial: "h"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "轰", gloss: "explosion", hsk_level: 7, audio: false}
+    - {tone: 2, char: "红", gloss: "red", hsk_level: 2, audio: false}
+    - {tone: 3, char: "哄", gloss: "to deceive", hsk_level: 7, audio: false}
+    - {tone: 4, char: "哄", gloss: "tumult", hsk_level: 7, audio: false}
+- syllable: "hou"
+  initial: "h"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "猴", gloss: "monkey", hsk_level: 5, audio: false}
+    - {tone: 3, char: "吼", gloss: "to roar", hsk_level: 7, audio: false}
+    - {tone: 4, char: "后", gloss: "back", hsk_level: 1, audio: false}
+- syllable: "hu"
+  initial: "h"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "湖", gloss: "lake", hsk_level: 2, audio: false}
+    - {tone: 3, char: "虎", gloss: "tiger", hsk_level: 5, audio: false}
+    - {tone: 4, char: "户", gloss: "a household", hsk_level: 4, audio: false}
+- syllable: "hua"
+  initial: "h"
+  final: "ua"
+  tones:
+    - {tone: 1, char: "花", gloss: "flower", hsk_level: 1, audio: false}
+    - {tone: 2, char: "划", gloss: "to row", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "话", gloss: "dialect", hsk_level: 1, audio: false}
+- syllable: "huai"
+  initial: "h"
+  final: "uai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "坏", gloss: "bad", hsk_level: 1, audio: false}
+- syllable: "huan"
+  initial: "h"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "还", gloss: "to pay back", hsk_level: 1, audio: false}
+    - {tone: 3, char: "缓", gloss: "slow", hsk_level: 7, audio: false}
+    - {tone: 4, char: "换", gloss: "to exchange", hsk_level: 2, audio: false}
+- syllable: "huang"
+  initial: "h"
+  final: "uang"
+  tones:
+    - {tone: 1, char: "慌", gloss: "to get panicky", hsk_level: 5, audio: false}
+    - {tone: 2, char: "黄", gloss: "yellow", hsk_level: 2, audio: false}
+    - {tone: 3, char: "晃", gloss: "to dazzle", hsk_level: 7, audio: false}
+    - {tone: 4, char: "晃", gloss: "to sway", hsk_level: 7, audio: false}
+- syllable: "hui"
+  initial: "h"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "挥", gloss: "to wave", hsk_level: 7, audio: false}
+    - {tone: 2, char: "回", gloss: "to go back", hsk_level: 1, audio: false}
+    - {tone: 3, char: "毁", gloss: "to defame", hsk_level: 6, audio: false}
+    - {tone: 4, char: "会", gloss: "can", hsk_level: 1, audio: false}
+- syllable: "hun"
+  initial: "h"
+  final: "un"
+  tones:
+    - {tone: 1, char: "昏", gloss: "muddle-headed", hsk_level: 6, audio: false}
+    - {tone: 2, char: "魂", gloss: "soul", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "混", gloss: "to mix", hsk_level: 6, audio: false}
+- syllable: "huo"
+  initial: "h"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "豁", gloss: "opening", hsk_level: 7, audio: false}
+    - {tone: 2, char: "活", gloss: "to live", hsk_level: 3, audio: false}
+    - {tone: 3, char: "火", gloss: "fire", hsk_level: 3, audio: false}
+    - {tone: 4, char: "或", gloss: "maybe", hsk_level: 2, audio: false}
+- syllable: "ji"
+  initial: "j"
+  final: "i"
+  tones:
+    - {tone: 1, char: "鸡", gloss: "fowl", hsk_level: 2, audio: false}
+    - {tone: 2, char: "急", gloss: "urgent", hsk_level: 2, audio: false}
+    - {tone: 3, char: "几", gloss: "how many", hsk_level: 1, audio: false}
+    - {tone: 4, char: "记", gloss: "to record", hsk_level: 1, audio: false}
+- syllable: "jia"
+  initial: "j"
+  final: "ia"
+  tones:
+    - {tone: 1, char: "家", gloss: "home", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "假", gloss: "fake", hsk_level: 2, audio: false}
+    - {tone: 4, char: "架", gloss: "to support", hsk_level: 3, audio: false}
+- syllable: "jian"
+  initial: "j"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "间", gloss: "between", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "减", gloss: "to lower", hsk_level: 4, audio: false}
+    - {tone: 4, char: "见", gloss: "to see", hsk_level: 1, audio: false}
+- syllable: "jiang"
+  initial: "j"
+  final: "iang"
+  tones:
+    - {tone: 1, char: "江", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "讲", gloss: "to speak", hsk_level: 2, audio: false}
+    - {tone: 4, char: "降", gloss: "to drop", hsk_level: 4, audio: false}
+- syllable: "jiao"
+  initial: "j"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "教", gloss: "to teach", hsk_level: 1, audio: false}
+    - {tone: 2, char: "嚼", gloss: "to chew", hsk_level: 7, audio: false}
+    - {tone: 3, char: "角", gloss: "angle", hsk_level: 2, audio: false}
+    - {tone: 4, char: "叫", gloss: "to shout", hsk_level: 1, audio: false}
+- syllable: "jie"
+  initial: "j"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "接", gloss: "to receive", hsk_level: 2, audio: false}
+    - {tone: 2, char: "节", gloss: "joint", hsk_level: 2, audio: false}
+    - {tone: 3, char: "姐", gloss: "older sister", hsk_level: 1, audio: false}
+    - {tone: 4, char: "借", gloss: "to borrow", hsk_level: 2, audio: false}
+- syllable: "jin"
+  initial: "j"
+  final: "in"
+  tones:
+    - {tone: 1, char: "斤", gloss: "catty", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "紧", gloss: "tight", hsk_level: 3, audio: false}
+    - {tone: 4, char: "进", gloss: "to go forward", hsk_level: 1, audio: false}
+- syllable: "jing"
+  initial: "j"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "精", gloss: "essence", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "景", gloss: "", hsk_level: 6, audio: false}
+    - {tone: 4, char: "静", gloss: "still", hsk_level: 3, audio: false}
+- syllable: "jiong"
+  initial: "j"
+  final: "iong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "jiu"
+  initial: "j"
+  final: "iu"
+  tones:
+    - {tone: 1, char: "揪", gloss: "to seize", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "九", gloss: "nine", hsk_level: 1, audio: false}
+    - {tone: 4, char: "就", gloss: "", hsk_level: 1, audio: false}
+- syllable: "ju"
+  initial: "j"
+  final: "ü"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "局", gloss: "office", hsk_level: 4, audio: false}
+    - {tone: 3, char: "举", gloss: "to lift", hsk_level: 2, audio: false}
+    - {tone: 4, char: "句", gloss: "sentence", hsk_level: 2, audio: false}
+- syllable: "juan"
+  initial: "j"
+  final: "üan"
+  tones:
+    - {tone: 1, char: "捐", gloss: "to relinquish", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "卷", gloss: "to roll up", hsk_level: 4, audio: false}
+    - {tone: 4, char: "卷", gloss: "scroll", hsk_level: 4, audio: false}
+- syllable: "jue"
+  initial: "j"
+  final: "üe"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "绝", gloss: "to cut short", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "倔", gloss: "gruff", hsk_level: 7, audio: false}
+- syllable: "jun"
+  initial: "j"
+  final: "ün"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "俊", gloss: "smart", hsk_level: 7, audio: false}
+- syllable: "qi"
+  initial: "q"
+  final: "i"
+  tones:
+    - {tone: 1, char: "七", gloss: "seven", hsk_level: 1, audio: false}
+    - {tone: 2, char: "骑", gloss: "to sit astride", hsk_level: 2, audio: false}
+    - {tone: 3, char: "起", gloss: "to rise", hsk_level: 1, audio: false}
+    - {tone: 4, char: "气", gloss: "gas", hsk_level: 2, audio: false}
+- syllable: "qia"
+  initial: "q"
+  final: "ia"
+  tones:
+    - {tone: 1, char: "掐", gloss: "to pick", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "卡", gloss: "to block", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qian"
+  initial: "q"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "千", gloss: "thousand", hsk_level: 2, audio: false}
+    - {tone: 2, char: "前", gloss: "front", hsk_level: 1, audio: false}
+    - {tone: 3, char: "浅", gloss: "shallow", hsk_level: 4, audio: false}
+    - {tone: 4, char: "欠", gloss: "to owe", hsk_level: 5, audio: false}
+- syllable: "qiang"
+  initial: "q"
+  final: "iang"
+  tones:
+    - {tone: 1, char: "枪", gloss: "gun", hsk_level: 5, audio: false}
+    - {tone: 2, char: "墙", gloss: "wall", hsk_level: 2, audio: false}
+    - {tone: 3, char: "抢", gloss: "to fight over", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qiao"
+  initial: "q"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "敲", gloss: "to hit", hsk_level: 5, audio: false}
+    - {tone: 2, char: "桥", gloss: "bridge", hsk_level: 3, audio: false}
+    - {tone: 3, char: "巧", gloss: "opportunely", hsk_level: 3, audio: false}
+    - {tone: 4, char: "撬", gloss: "to lift", hsk_level: 7, audio: false}
+- syllable: "qie"
+  initial: "q"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "切", gloss: "to cut", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "且", gloss: "and", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qin"
+  initial: "q"
+  final: "in"
+  tones:
+    - {tone: 1, char: "亲", gloss: "parent", hsk_level: 3, audio: false}
+    - {tone: 2, char: "琴", gloss: "guqin 古琴[gu3 qin2]", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qing"
+  initial: "q"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "轻", gloss: "light", hsk_level: 2, audio: false}
+    - {tone: 2, char: "晴", gloss: "clear", hsk_level: 2, audio: false}
+    - {tone: 3, char: "请", gloss: "to ask", hsk_level: 1, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qiong"
+  initial: "q"
+  final: "iong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "穷", gloss: "poor", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qiu"
+  initial: "q"
+  final: "iu"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "球", gloss: "ball", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "qu"
+  initial: "q"
+  final: "ü"
+  tones:
+    - {tone: 1, char: "区", gloss: "area", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "取", gloss: "to take", hsk_level: 2, audio: false}
+    - {tone: 4, char: "去", gloss: "to go", hsk_level: 1, audio: false}
+- syllable: "quan"
+  initial: "q"
+  final: "üan"
+  tones:
+    - {tone: 1, char: "圈", gloss: "circle", hsk_level: 4, audio: false}
+    - {tone: 2, char: "全", gloss: "all", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "劝", gloss: "to advise", hsk_level: 5, audio: false}
+- syllable: "que"
+  initial: "q"
+  final: "üe"
+  tones:
+    - {tone: 1, char: "缺", gloss: "deficiency", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "却", gloss: "but", hsk_level: 4, audio: false}
+- syllable: "qun"
+  initial: "q"
+  final: "ün"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "群", gloss: "group", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "xi"
+  initial: "x"
+  final: "i"
+  tones:
+    - {tone: 1, char: "西", gloss: "the West", hsk_level: 1, audio: false}
+    - {tone: 2, char: "席", gloss: "woven mat", hsk_level: 7, audio: false}
+    - {tone: 3, char: "洗", gloss: "to wash", hsk_level: 1, audio: false}
+    - {tone: 4, char: "系", gloss: "to connect", hsk_level: 3, audio: false}
+- syllable: "xia"
+  initial: "x"
+  final: "ia"
+  tones:
+    - {tone: 1, char: "瞎", gloss: "blind", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "下", gloss: "down", hsk_level: 1, audio: false}
+- syllable: "xian"
+  initial: "x"
+  final: "ian"
+  tones:
+    - {tone: 1, char: "先", gloss: "beforehand", hsk_level: 1, audio: false}
+    - {tone: 2, char: "咸", gloss: "all", hsk_level: 4, audio: false}
+    - {tone: 3, char: "显", gloss: "to make visible", hsk_level: 5, audio: false}
+    - {tone: 4, char: "线", gloss: "thread", hsk_level: 3, audio: false}
+- syllable: "xiang"
+  initial: "x"
+  final: "iang"
+  tones:
+    - {tone: 1, char: "香", gloss: "fragrant", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "想", gloss: "to think", hsk_level: 1, audio: false}
+    - {tone: 4, char: "向", gloss: "towards", hsk_level: 2, audio: false}
+- syllable: "xiao"
+  initial: "x"
+  final: "iao"
+  tones:
+    - {tone: 1, char: "销", gloss: "to melt", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "小", gloss: "small", hsk_level: 1, audio: false}
+    - {tone: 4, char: "笑", gloss: "to laugh", hsk_level: 1, audio: false}
+- syllable: "xie"
+  initial: "x"
+  final: "ie"
+  tones:
+    - {tone: 1, char: "些", gloss: "classifier indicating a small amount or ", hsk_level: 4, audio: false}
+    - {tone: 2, char: "鞋", gloss: "shoe", hsk_level: 2, audio: false}
+    - {tone: 3, char: "写", gloss: "to write", hsk_level: 1, audio: false}
+    - {tone: 4, char: "泻", gloss: "to flow out swiftly", hsk_level: 7, audio: false}
+- syllable: "xin"
+  initial: "x"
+  final: "in"
+  tones:
+    - {tone: 1, char: "新", gloss: "abbr. for Xinjiang 新疆[Xin1 jiang1]", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "信", gloss: "letter", hsk_level: 2, audio: false}
+- syllable: "xing"
+  initial: "x"
+  final: "ing"
+  tones:
+    - {tone: 1, char: "腥", gloss: "fishy", hsk_level: 7, audio: false}
+    - {tone: 2, char: "行", gloss: "", hsk_level: 1, audio: false}
+    - {tone: 3, char: "醒", gloss: "to wake up", hsk_level: 4, audio: false}
+    - {tone: 4, char: "姓", gloss: "family name", hsk_level: 2, audio: false}
+- syllable: "xiong"
+  initial: "x"
+  final: "iong"
+  tones:
+    - {tone: 1, char: "凶", gloss: "vicious", hsk_level: 6, audio: false}
+    - {tone: 2, char: "熊", gloss: "bear", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "xiu"
+  initial: "x"
+  final: "iu"
+  tones:
+    - {tone: 1, char: "修", gloss: "to decorate", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "绣", gloss: "to embroider", hsk_level: 7, audio: false}
+- syllable: "xu"
+  initial: "x"
+  final: "ü"
+  tones:
+    - {tone: 1, char: "虚", gloss: "emptiness", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "许", gloss: "to allow", hsk_level: 7, audio: false}
+    - {tone: 4, char: "序", gloss: "", hsk_level: 7, audio: false}
+- syllable: "xuan"
+  initial: "x"
+  final: "üan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "悬", gloss: "to hang or suspend", hsk_level: 6, audio: false}
+    - {tone: 3, char: "选", gloss: "to choose", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "xue"
+  initial: "x"
+  final: "üe"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "学", gloss: "to learn", hsk_level: 1, audio: false}
+    - {tone: 3, char: "雪", gloss: "snow", hsk_level: 2, audio: false}
+    - {tone: 4, char: "血", gloss: "blood", hsk_level: 3, audio: false}
+- syllable: "xun"
+  initial: "x"
+  final: "ün"
+  tones:
+    - {tone: 1, char: "熏", gloss: "fragrance", hsk_level: 7, audio: false}
+    - {tone: 2, char: "寻", gloss: "to search", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "驯", gloss: "to attain gradually", hsk_level: 7, audio: false}
+- syllable: "zha"
+  initial: "zh"
+  final: "a"
+  tones:
+    - {tone: 1, char: "扎", gloss: "to prick", hsk_level: 6, audio: false}
+    - {tone: 2, char: "闸", gloss: "sluice", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "炸", gloss: "to burst", hsk_level: 6, audio: false}
+- syllable: "zhai"
+  initial: "zh"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "摘", gloss: "to take", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "窄", gloss: "narrow", hsk_level: 7, audio: false}
+    - {tone: 4, char: "债", gloss: "debt", hsk_level: 6, audio: false}
+- syllable: "zhan"
+  initial: "zh"
+  final: "an"
+  tones:
+    - {tone: 1, char: "沾", gloss: "to moisten", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "斩", gloss: "to behead", hsk_level: 7, audio: false}
+    - {tone: 4, char: "站", gloss: "station", hsk_level: 1, audio: false}
+- syllable: "zhang"
+  initial: "zh"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "张", gloss: "to open up", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "长", gloss: "chief", hsk_level: 2, audio: false}
+    - {tone: 4, char: "账", gloss: "account", hsk_level: 6, audio: false}
+- syllable: "zhao"
+  initial: "zh"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "招", gloss: "to recruit", hsk_level: 6, audio: false}
+    - {tone: 2, char: "着", gloss: "to touch", hsk_level: 4, audio: false}
+    - {tone: 3, char: "找", gloss: "to try to find", hsk_level: 1, audio: false}
+    - {tone: 4, char: "照", gloss: "according to", hsk_level: 3, audio: false}
+- syllable: "zhe"
+  initial: "zh"
+  final: "e"
+  tones:
+    - {tone: 1, char: "遮", gloss: "to cover up", hsk_level: 7, audio: false}
+    - {tone: 2, char: "折", gloss: "to break", hsk_level: 4, audio: false}
+    - {tone: 3, char: "者", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 4, char: "这", gloss: "", hsk_level: 1, audio: false}
+- syllable: "zhei"
+  initial: "zh"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zhen"
+  initial: "zh"
+  final: "en"
+  tones:
+    - {tone: 1, char: "真", gloss: "really", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "阵", gloss: "disposition of troops", hsk_level: 4, audio: false}
+- syllable: "zheng"
+  initial: "zh"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "争", gloss: "to strive for", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "整", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 4, char: "正", gloss: "straight", hsk_level: 1, audio: false}
+- syllable: "zhi"
+  initial: "zh"
+  final: "i"
+  tones:
+    - {tone: 1, char: "支", gloss: "to support", hsk_level: 3, audio: false}
+    - {tone: 2, char: "直", gloss: "straight", hsk_level: 3, audio: false}
+    - {tone: 3, char: "纸", gloss: "paper", hsk_level: 2, audio: false}
+    - {tone: 4, char: "治", gloss: "to rule", hsk_level: 4, audio: false}
+- syllable: "zhong"
+  initial: "zh"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "中", gloss: "within", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "种", gloss: "seed", hsk_level: 3, audio: false}
+    - {tone: 4, char: "重", gloss: "heavy", hsk_level: 1, audio: false}
+- syllable: "zhou"
+  initial: "zh"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "周", gloss: "to make a circuit", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "皱", gloss: "to wrinkle", hsk_level: 7, audio: false}
+- syllable: "zhu"
+  initial: "zh"
+  final: "u"
+  tones:
+    - {tone: 1, char: "猪", gloss: "hog", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "煮", gloss: "to cook", hsk_level: 6, audio: false}
+    - {tone: 4, char: "住", gloss: "to live", hsk_level: 1, audio: false}
+- syllable: "zhua"
+  initial: "zh"
+  final: "ua"
+  tones:
+    - {tone: 1, char: "抓", gloss: "to grab", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zhuai"
+  initial: "zh"
+  final: "uai"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "拽", gloss: "to pull", hsk_level: 7, audio: false}
+- syllable: "zhuan"
+  initial: "zh"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "砖", gloss: "brick", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "转", gloss: "to turn", hsk_level: 3, audio: false}
+    - {tone: 4, char: "转", gloss: "to revolve", hsk_level: 6, audio: false}
+- syllable: "zhuang"
+  initial: "zh"
+  final: "uang"
+  tones:
+    - {tone: 1, char: "装", gloss: "adornment", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "撞", gloss: "to knock against", hsk_level: 5, audio: false}
+- syllable: "zhui"
+  initial: "zh"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "追", gloss: "to chase", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "坠", gloss: "to fall", hsk_level: 7, audio: false}
+- syllable: "zhun"
+  initial: "zh"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "准", gloss: "accurate", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zhuo"
+  initial: "zh"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "捉", gloss: "to clutch", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "cha"
+  initial: "ch"
+  final: "a"
+  tones:
+    - {tone: 1, char: "叉", gloss: "fork", hsk_level: 5, audio: false}
+    - {tone: 2, char: "茶", gloss: "tea", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "差", gloss: "different", hsk_level: 1, audio: false}
+- syllable: "chai"
+  initial: "ch"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "拆", gloss: "to tear open", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chan"
+  initial: "ch"
+  final: "an"
+  tones:
+    - {tone: 1, char: "搀", gloss: "to take by the arm and assist", hsk_level: 7, audio: false}
+    - {tone: 2, char: "缠", gloss: "to wind around", hsk_level: 7, audio: false}
+    - {tone: 3, char: "产", gloss: "to give birth", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chang"
+  initial: "ch"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "常", gloss: "always", hsk_level: 1, audio: false}
+    - {tone: 3, char: "场", gloss: "large place used for a specific purpose", hsk_level: 2, audio: false}
+    - {tone: 4, char: "唱", gloss: "to sing", hsk_level: 1, audio: false}
+- syllable: "chao"
+  initial: "ch"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "抄", gloss: "to make a copy", hsk_level: 4, audio: false}
+    - {tone: 2, char: "朝", gloss: "imperial or royal court", hsk_level: 3, audio: false}
+    - {tone: 3, char: "吵", gloss: "noisy", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "che"
+  initial: "ch"
+  final: "e"
+  tones:
+    - {tone: 1, char: "车", gloss: "car", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "扯", gloss: "to pull", hsk_level: 7, audio: false}
+    - {tone: 4, char: "撤", gloss: "to remove", hsk_level: 7, audio: false}
+- syllable: "chen"
+  initial: "ch"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "沉", gloss: "to submerge", hsk_level: 4, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "趁", gloss: "to avail oneself of", hsk_level: 7, audio: false}
+- syllable: "cheng"
+  initial: "ch"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "称", gloss: "to weigh", hsk_level: 2, audio: false}
+    - {tone: 2, char: "成", gloss: "to succeed", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "秤", gloss: "steelyard balance", hsk_level: 7, audio: false}
+- syllable: "chi"
+  initial: "ch"
+  final: "i"
+  tones:
+    - {tone: 1, char: "吃", gloss: "to eat", hsk_level: 1, audio: false}
+    - {tone: 2, char: "迟", gloss: "late", hsk_level: 5, audio: false}
+    - {tone: 3, char: "尺", gloss: "a Chinese foot", hsk_level: 4, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chong"
+  initial: "ch"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "冲", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 2, char: "重", gloss: "to repeat", hsk_level: 3, audio: false}
+    - {tone: 3, char: "宠", gloss: "to love", hsk_level: 7, audio: false}
+    - {tone: 4, char: "冲", gloss: "powerful", hsk_level: 6, audio: false}
+- syllable: "chou"
+  initial: "ch"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "抽", gloss: "to draw out", hsk_level: 4, audio: false}
+    - {tone: 2, char: "愁", gloss: "to worry about", hsk_level: 5, audio: false}
+    - {tone: 3, char: "丑", gloss: "clown", hsk_level: 5, audio: false}
+    - {tone: 4, char: "臭", gloss: "stench", hsk_level: 5, audio: false}
+- syllable: "chu"
+  initial: "ch"
+  final: "u"
+  tones:
+    - {tone: 1, char: "出", gloss: "to go out", hsk_level: 1, audio: false}
+    - {tone: 2, char: "除", gloss: "to get rid of", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "处", gloss: "", hsk_level: 4, audio: false}
+- syllable: "chua"
+  initial: "ch"
+  final: "ua"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chuai"
+  initial: "ch"
+  final: "uai"
+  tones:
+    - {tone: 1, char: "揣", gloss: "to put into", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "踹", gloss: "to kick", hsk_level: 7, audio: false}
+- syllable: "chuan"
+  initial: "ch"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "穿", gloss: "to bore through", hsk_level: 1, audio: false}
+    - {tone: 2, char: "船", gloss: "boat", hsk_level: 2, audio: false}
+    - {tone: 3, char: "喘", gloss: "to gasp", hsk_level: 7, audio: false}
+    - {tone: 4, char: "串", gloss: "to string together", hsk_level: 6, audio: false}
+- syllable: "chuang"
+  initial: "ch"
+  final: "uang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "床", gloss: "bed", hsk_level: 1, audio: false}
+    - {tone: 3, char: "闯", gloss: "to rush", hsk_level: 5, audio: false}
+    - {tone: 4, char: "创", gloss: "to initiate", hsk_level: 7, audio: false}
+- syllable: "chui"
+  initial: "ch"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "吹", gloss: "to blow", hsk_level: 2, audio: false}
+    - {tone: 2, char: "垂", gloss: "to hang", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chun"
+  initial: "ch"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "纯", gloss: "pure", hsk_level: 4, audio: false}
+    - {tone: 3, char: "蠢", gloss: "stupid", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "chuo"
+  initial: "ch"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "戳", gloss: "to jab", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "sha"
+  initial: "sh"
+  final: "a"
+  tones:
+    - {tone: 1, char: "杀", gloss: "to kill", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "傻", gloss: "foolish", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "shai"
+  initial: "sh"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "筛", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "晒", gloss: "", hsk_level: 4, audio: false}
+- syllable: "shan"
+  initial: "sh"
+  final: "an"
+  tones:
+    - {tone: 1, char: "山", gloss: "mountain", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "闪", gloss: "to dodge", hsk_level: 4, audio: false}
+    - {tone: 4, char: "扇", gloss: "fan", hsk_level: 5, audio: false}
+- syllable: "shang"
+  initial: "sh"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "伤", gloss: "to injure", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "赏", gloss: "to bestow", hsk_level: 4, audio: false}
+    - {tone: 4, char: "上", gloss: "", hsk_level: 1, audio: false}
+- syllable: "shao"
+  initial: "sh"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "烧", gloss: "to burn", hsk_level: 4, audio: false}
+    - {tone: 2, char: "勺", gloss: "spoon", hsk_level: 6, audio: false}
+    - {tone: 3, char: "少", gloss: "few", hsk_level: 1, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "she"
+  initial: "sh"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "蛇", gloss: "snake", hsk_level: 5, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "射", gloss: "to shoot", hsk_level: 5, audio: false}
+- syllable: "shei"
+  initial: "sh"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "谁", gloss: "who", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "shen"
+  initial: "sh"
+  final: "en"
+  tones:
+    - {tone: 1, char: "深", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 2, char: "神", gloss: "god", hsk_level: 5, audio: false}
+    - {tone: 3, char: "审", gloss: "to examine", hsk_level: 7, audio: false}
+    - {tone: 4, char: "渗", gloss: "to seep", hsk_level: 7, audio: false}
+- syllable: "sheng"
+  initial: "sh"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "生", gloss: "to grow", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "省", gloss: "to save", hsk_level: 2, audio: false}
+    - {tone: 4, char: "胜", gloss: "victory", hsk_level: 3, audio: false}
+- syllable: "shi"
+  initial: "sh"
+  final: "i"
+  tones:
+    - {tone: 1, char: "诗", gloss: "poem", hsk_level: 4, audio: false}
+    - {tone: 2, char: "十", gloss: "ten", hsk_level: 1, audio: false}
+    - {tone: 3, char: "使", gloss: "to make", hsk_level: 3, audio: false}
+    - {tone: 4, char: "事", gloss: "matter", hsk_level: 1, audio: false}
+- syllable: "shou"
+  initial: "sh"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "收", gloss: "to receive", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "手", gloss: "hand", hsk_level: 1, audio: false}
+    - {tone: 4, char: "受", gloss: "to receive", hsk_level: 3, audio: false}
+- syllable: "shu"
+  initial: "sh"
+  final: "u"
+  tones:
+    - {tone: 1, char: "书", gloss: "book", hsk_level: 1, audio: false}
+    - {tone: 2, char: "熟", gloss: "ripe", hsk_level: 2, audio: false}
+    - {tone: 3, char: "数", gloss: "to count", hsk_level: 2, audio: false}
+    - {tone: 4, char: "树", gloss: "tree", hsk_level: 1, audio: false}
+- syllable: "shua"
+  initial: "sh"
+  final: "ua"
+  tones:
+    - {tone: 1, char: "刷", gloss: "a brush", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "耍", gloss: "to play with", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "shuai"
+  initial: "sh"
+  final: "uai"
+  tones:
+    - {tone: 1, char: "摔", gloss: "to throw down", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "甩", gloss: "to throw", hsk_level: 7, audio: false}
+    - {tone: 4, char: "帅", gloss: "", hsk_level: 4, audio: false}
+- syllable: "shuan"
+  initial: "sh"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "拴", gloss: "to tie up", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "涮", gloss: "to rinse", hsk_level: 7, audio: false}
+- syllable: "shuang"
+  initial: "sh"
+  final: "uang"
+  tones:
+    - {tone: 1, char: "双", gloss: "two", hsk_level: 3, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "爽", gloss: "bright", hsk_level: 6, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "shui"
+  initial: "sh"
+  final: "ui"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "水", gloss: "water", hsk_level: 1, audio: false}
+    - {tone: 4, char: "睡", gloss: "to sleep", hsk_level: 1, audio: false}
+- syllable: "shun"
+  initial: "sh"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "顺", gloss: "to obey", hsk_level: 6, audio: false}
+- syllable: "shuo"
+  initial: "sh"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "说", gloss: "to speak", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ran"
+  initial: "r"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "染", gloss: "to dye", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "rang"
+  initial: "r"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "嚷", gloss: "to shout", hsk_level: 7, audio: false}
+    - {tone: 4, char: "让", gloss: "to yield", hsk_level: 2, audio: false}
+- syllable: "rao"
+  initial: "r"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "饶", gloss: "rich", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "绕", gloss: "to wind", hsk_level: 5, audio: false}
+- syllable: "re"
+  initial: "r"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "惹", gloss: "to provoke", hsk_level: 7, audio: false}
+    - {tone: 4, char: "热", gloss: "to warm up", hsk_level: 1, audio: false}
+- syllable: "ren"
+  initial: "r"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "人", gloss: "person", hsk_level: 1, audio: false}
+    - {tone: 3, char: "忍", gloss: "to bear", hsk_level: 5, audio: false}
+    - {tone: 4, char: "任", gloss: "to assign", hsk_level: 3, audio: false}
+- syllable: "reng"
+  initial: "r"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "扔", gloss: "to throw", hsk_level: 5, audio: false}
+    - {tone: 2, char: "仍", gloss: "still", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ri"
+  initial: "r"
+  final: "i"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "日", gloss: "", hsk_level: 1, audio: false}
+- syllable: "rong"
+  initial: "r"
+  final: "ong"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "融", gloss: "to melt", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "rou"
+  initial: "r"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "揉", gloss: "to knead", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "肉", gloss: "meat", hsk_level: 1, audio: false}
+- syllable: "ru"
+  initial: "r"
+  final: "u"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "如", gloss: "as", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "入", gloss: "to enter", hsk_level: 6, audio: false}
+- syllable: "ruan"
+  initial: "r"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "软", gloss: "soft", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "rui"
+  initial: "r"
+  final: "ui"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "run"
+  initial: "r"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "润", gloss: "moist", hsk_level: 7, audio: false}
+- syllable: "ruo"
+  initial: "r"
+  final: "uo"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "弱", gloss: "weak", hsk_level: 4, audio: false}
+- syllable: "za"
+  initial: "z"
+  final: "a"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "杂", gloss: "mixed", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zai"
+  initial: "z"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "灾", gloss: "disaster", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "宰", gloss: "to slaughter", hsk_level: 7, audio: false}
+    - {tone: 4, char: "再", gloss: "again", hsk_level: 1, audio: false}
+- syllable: "zan"
+  initial: "z"
+  final: "an"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "咱", gloss: "I or me", hsk_level: 2, audio: false}
+    - {tone: 3, char: "攒", gloss: "to collect", hsk_level: 7, audio: false}
+    - {tone: 4, char: "暂", gloss: "temporary", hsk_level: 7, audio: false}
+- syllable: "zang"
+  initial: "z"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "脏", gloss: "dirty", hsk_level: 2, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "葬", gloss: "to bury", hsk_level: 7, audio: false}
+- syllable: "zao"
+  initial: "z"
+  final: "ao"
+  tones:
+    - {tone: 1, char: "糟", gloss: "dregs", hsk_level: 5, audio: false}
+    - {tone: 2, char: "凿", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 3, char: "早", gloss: "early", hsk_level: 1, audio: false}
+    - {tone: 4, char: "造", gloss: "to make", hsk_level: 3, audio: false}
+- syllable: "ze"
+  initial: "z"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "则", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zei"
+  initial: "z"
+  final: "ei"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "贼", gloss: "thief", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zen"
+  initial: "z"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zeng"
+  initial: "z"
+  final: "eng"
+  tones:
+    - {tone: 1, char: "增", gloss: "", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "赠", gloss: "to give as a present", hsk_level: 5, audio: false}
+- syllable: "zi"
+  initial: "z"
+  final: "i"
+  tones:
+    - {tone: 1, char: "兹", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "紫", gloss: "purple", hsk_level: 5, audio: false}
+    - {tone: 4, char: "字", gloss: "letter", hsk_level: 1, audio: false}
+- syllable: "zong"
+  initial: "z"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "宗", gloss: "school", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "总", gloss: "", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zou"
+  initial: "z"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "走", gloss: "to walk", hsk_level: 1, audio: false}
+    - {tone: 4, char: "奏", gloss: "to play music", hsk_level: 6, audio: false}
+- syllable: "zu"
+  initial: "z"
+  final: "u"
+  tones:
+    - {tone: 1, char: "租", gloss: "to hire", hsk_level: 2, audio: false}
+    - {tone: 2, char: "族", gloss: "race", hsk_level: 6, audio: false}
+    - {tone: 3, char: "组", gloss: "to form", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zuan"
+  initial: "z"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "钻", gloss: "to drill", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zui"
+  initial: "z"
+  final: "ui"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "嘴", gloss: "mouth", hsk_level: 2, audio: false}
+    - {tone: 4, char: "最", gloss: "", hsk_level: 1, audio: false}
+- syllable: "zun"
+  initial: "z"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "zuo"
+  initial: "z"
+  final: "uo"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "左", gloss: "left", hsk_level: 1, audio: false}
+    - {tone: 4, char: "做", gloss: "to make", hsk_level: 1, audio: false}
+- syllable: "ca"
+  initial: "c"
+  final: "a"
+  tones:
+    - {tone: 1, char: "擦", gloss: "to rub", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "cai"
+  initial: "c"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "猜", gloss: "to guess", hsk_level: 5, audio: false}
+    - {tone: 2, char: "才", gloss: "ability", hsk_level: 2, audio: false}
+    - {tone: 3, char: "踩", gloss: "to step on", hsk_level: 6, audio: false}
+    - {tone: 4, char: "菜", gloss: "vegetable", hsk_level: 1, audio: false}
+- syllable: "can"
+  initial: "c"
+  final: "an"
+  tones:
+    - {tone: 1, char: "餐", gloss: "meal", hsk_level: 6, audio: false}
+    - {tone: 2, char: "残", gloss: "to destroy", hsk_level: 7, audio: false}
+    - {tone: 3, char: "惨", gloss: "miserable", hsk_level: 6, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "cang"
+  initial: "c"
+  final: "ang"
+  tones:
+    - {tone: 1, char: "舱", gloss: "cabin", hsk_level: 7, audio: false}
+    - {tone: 2, char: "藏", gloss: "to conceal", hsk_level: 6, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "cao"
+  initial: "c"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "槽", gloss: "trough", hsk_level: 7, audio: false}
+    - {tone: 3, char: "草", gloss: "grass", hsk_level: 2, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ce"
+  initial: "c"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "测", gloss: "to survey", hsk_level: 4, audio: false}
+- syllable: "cen"
+  initial: "c"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "ceng"
+  initial: "c"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "层", gloss: "to pile on top of one another", hsk_level: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "蹭", gloss: "to rub against", hsk_level: 7, audio: false}
+- syllable: "ci"
+  initial: "c"
+  final: "i"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, char: "词", gloss: "word", hsk_level: 2, audio: false}
+    - {tone: 3, char: "此", gloss: "this", hsk_level: 4, audio: false}
+    - {tone: 4, char: "次", gloss: "next in sequence", hsk_level: 1, audio: false}
+- syllable: "cong"
+  initial: "c"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "葱", gloss: "scallion", hsk_level: 7, audio: false}
+    - {tone: 2, char: "从", gloss: "from", hsk_level: 1, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "cou"
+  initial: "c"
+  final: "ou"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "凑", gloss: "to gather together", hsk_level: 7, audio: false}
+- syllable: "cu"
+  initial: "c"
+  final: "u"
+  tones:
+    - {tone: 1, char: "粗", gloss: "", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "醋", gloss: "vinegar", hsk_level: 6, audio: false}
+- syllable: "cuan"
+  initial: "c"
+  final: "uan"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "窜", gloss: "to flee", hsk_level: 7, audio: false}
+- syllable: "cui"
+  initial: "c"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "催", gloss: "to urge", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "脆", gloss: "brittle", hsk_level: 5, audio: false}
+- syllable: "cun"
+  initial: "c"
+  final: "un"
+  tones:
+    - {tone: 1, char: "村", gloss: "village", hsk_level: 3, audio: false}
+    - {tone: 2, char: "存", gloss: "to exist", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "寸", gloss: "a unit of length", hsk_level: 5, audio: false}
+- syllable: "cuo"
+  initial: "c"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "搓", gloss: "to rub or roll between the hands or fing", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "错", gloss: "mistake", hsk_level: 1, audio: false}
+- syllable: "sa"
+  initial: "s"
+  final: "a"
+  tones:
+    - {tone: 1, char: "撒", gloss: "to let go", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "洒", gloss: "to sprinkle", hsk_level: 5, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "sai"
+  initial: "s"
+  final: "ai"
+  tones:
+    - {tone: 1, char: "塞", gloss: "to plug", hsk_level: 6, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "赛", gloss: "to compete", hsk_level: 6, audio: false}
+- syllable: "san"
+  initial: "s"
+  final: "an"
+  tones:
+    - {tone: 1, char: "三", gloss: "three", hsk_level: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "伞", gloss: "umbrella", hsk_level: 4, audio: false}
+    - {tone: 4, char: "散", gloss: "to scatter", hsk_level: 4, audio: false}
+- syllable: "sang"
+  initial: "s"
+  final: "ang"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "sao"
+  initial: "s"
+  final: "ao"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "扫", gloss: "to sweep", hsk_level: 4, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "se"
+  initial: "s"
+  final: "e"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "色", gloss: "color", hsk_level: 4, audio: false}
+- syllable: "sen"
+  initial: "s"
+  final: "en"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "seng"
+  initial: "s"
+  final: "eng"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "si"
+  initial: "s"
+  final: "i"
+  tones:
+    - {tone: 1, char: "丝", gloss: "silk", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "死", gloss: "to die", hsk_level: 3, audio: false}
+    - {tone: 4, char: "四", gloss: "four", hsk_level: 1, audio: false}
+- syllable: "song"
+  initial: "s"
+  final: "ong"
+  tones:
+    - {tone: 1, char: "松", gloss: "loose", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "送", gloss: "to send", hsk_level: 1, audio: false}
+- syllable: "sou"
+  initial: "s"
+  final: "ou"
+  tones:
+    - {tone: 1, char: "搜", gloss: "to search", hsk_level: 5, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "su"
+  initial: "s"
+  final: "u"
+  tones:
+    - {tone: 1, char: "酥", gloss: "flaky pastry", hsk_level: 7, audio: false}
+    - {tone: 2, char: "俗", gloss: "custom", hsk_level: 7, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "素", gloss: "raw silk", hsk_level: 7, audio: false}
+- syllable: "suan"
+  initial: "s"
+  final: "uan"
+  tones:
+    - {tone: 1, char: "酸", gloss: "sour", hsk_level: 4, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "算", gloss: "to calculate", hsk_level: 2, audio: false}
+- syllable: "sui"
+  initial: "s"
+  final: "ui"
+  tones:
+    - {tone: 1, char: "虽", gloss: "although", hsk_level: 6, audio: false}
+    - {tone: 2, char: "随", gloss: "to follow", hsk_level: 3, audio: false}
+    - {tone: 3, audio: false}
+    - {tone: 4, char: "岁", gloss: "classifier for years", hsk_level: 1, audio: false}
+- syllable: "sun"
+  initial: "s"
+  final: "un"
+  tones:
+    - {tone: 1, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "损", gloss: "", hsk_level: 7, audio: false}
+    - {tone: 4, audio: false}
+- syllable: "suo"
+  initial: "s"
+  final: "uo"
+  tones:
+    - {tone: 1, char: "缩", gloss: "to withdraw", hsk_level: 7, audio: false}
+    - {tone: 2, audio: false}
+    - {tone: 3, char: "所", gloss: "actually", hsk_level: 3, audio: false}
+    - {tone: 4, audio: false}

@@ -216,5 +216,36 @@ def report() -> None:
     typer.echo(f"Đã ghi {path}")
 
 
+@app.command()
+def syllables() -> None:
+    """10-1: sinh content/pron/syllables.yaml; báo chênh lệch với âm tiết trong CC-CEDICT."""
+    from clp.db import connect
+    from clp.pinyin import parse_numbered
+    from clp.syllables import build_entries, collect_chars, compare_with_cedict, render_yaml
+
+    with connect() as conn:
+        chars = collect_chars(conn)
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT DISTINCT pinyin_numbered FROM dict_entry"
+                " WHERE char_length(simplified) = 1 AND pinyin_numbered !~ ' '"
+            )
+            cedict = {parse_numbered(p.lower())[0] for (p,) in cur.fetchall()}
+            cur.execute("SELECT key FROM audio_asset WHERE key LIKE 'syl/%'")
+            audio = {k for (k,) in cur.fetchall()}
+    diff = compare_with_cedict(cedict)
+    entries = build_entries(chars, audio)
+    path = PIPELINE_DIR.parents[1] / "content" / "pron" / "syllables.yaml"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(render_yaml(entries), encoding="utf-8")
+    typer.echo(f"Đã ghi {path}: {len(entries)} âm tiết, {len(chars)} thanh có chữ ví dụ")
+    typer.echo(
+        f"Chỉ có trong CC-CEDICT ({len(diff['only_in_cedict'])}): {' '.join(diff['only_in_cedict'])}"
+    )
+    typer.echo(
+        f"Chỉ có trong danh sách chuẩn ({len(diff['only_in_standard'])}): {' '.join(diff['only_in_standard'])}"
+    )
+
+
 if __name__ == "__main__":
     app()
