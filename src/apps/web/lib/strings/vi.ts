@@ -29,6 +29,27 @@ export const vi = {
     codeLicenses:
       'Mã nguồn web và pipeline: MIT · dịch vụ chấm phát âm: GPL-3.0 · nội dung: CC BY-SA 4.0.',
   },
+  report: {
+    title: 'Báo lỗi nội dung',
+    open: 'Báo lỗi',
+    close: 'Đóng',
+    kind: 'Loại lỗi',
+    kinds: {
+      pinyin: 'Sai pinyin',
+      meaning: 'Sai nghĩa',
+      hanviet: 'Sai Hán Việt',
+      audio: 'Sai audio',
+      sentence: 'Câu ví dụ không tự nhiên',
+      grading: 'Chấm sai',
+      other: 'Khác',
+    },
+    description: 'Mô tả (không bắt buộc)',
+    placeholder: 'Bạn thấy sai ở đâu?',
+    submit: 'Gửi báo lỗi',
+    thanks: 'Cảm ơn bạn, mình đã ghi nhận báo lỗi.',
+    tooMany: 'Bạn đã gửi quá nhiều báo lỗi hôm nay. Hãy thử lại vào ngày mai.',
+    failed: 'Chưa gửi được báo lỗi, hãy thử lại.',
+  },
   footer: {
     sourcesAndLicenses: 'Nguồn dữ liệu và giấy phép',
     credits: (list: string[]) => `Nguồn: ${list.join(' · ')} · `,

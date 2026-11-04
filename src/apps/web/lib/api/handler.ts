@@ -1,4 +1,4 @@
-import type { ZodType } from 'zod';
+import type { ZodType, ZodTypeDef } from 'zod';
 import { ApiError, errorResponse } from './errors';
 
 type Ctx<P> = { params: Promise<P> };
@@ -8,7 +8,7 @@ type Ctx<P> = { params: Promise<P> };
  * `{ error: { code, message } }`. `fn` trả `Response` hoặc object (thành JSON 200).
  */
 export function handler<B = undefined, P = Record<string, string>>(
-  schema: ZodType<B> | null,
+  schema: ZodType<B, ZodTypeDef, unknown> | null,
   fn: (args: {
     req: Request;
     body: B;

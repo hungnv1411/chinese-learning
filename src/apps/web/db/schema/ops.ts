@@ -9,6 +9,9 @@ export const contentReport = pgTable('content_report', {
   targetId: text('target_id').notNull(),
   kind: text('kind').notNull(),
   description: text('description').notNull().default(''),
+  /** Phiên bản nội dung lúc báo (server gắn): `contentVersion` của bài, hoặc bản chung. */
+  contentVersion: text('content_version'),
+  userAgent: text('user_agent'),
   /** 'open' | 'resolved' | 'dismissed' */
   status: text('status').notNull().default('open'),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
