@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 11-4 (phần lớn): `/tu/[word]` SSR, `getWordPage`, SEO, `WordView`, `ShareButton` |
 | 2026-11-05 | 13-5 xong: `ReportSheet`, `ReportButton`, `POST /api/reports`, migration 0003 |
 | 2026-11-05 | 13-4 (phần lớn): `/nguon-du-lieu`, `PublicFooter`, `lib/sources.ts`, `license_short` |
 | 2026-11-05 | 11-2 xong: `lib/dictionary/search.ts`, `GET /api/dictionary/search`, `parsePinyinSyllables` |

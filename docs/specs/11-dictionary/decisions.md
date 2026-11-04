@@ -16,3 +16,14 @@
 - **Dữ liệu thật cho thấy:** tìm `hảo` ra rỗng vì Unihan chỉ có `háo` cho 好 (xem 01-5); `吗` bị gán `mửa` (Unihan). Cần bổ sung/sửa qua `content/overrides/han_viet.yaml`. Từ khóa tiếng Việt có dấu sắc/huyền (`xin chào`) bị coi là pinyin (xem 11-1) nên không ra kết quả.
 - `getSql()` tắt NOTICE của Postgres (tsquery chỉ gồm stop word sinh NOTICE ở mỗi lần tìm).
 - Thời gian trên 125.356 mục: pinyin/hanzi/english 1–35 ms, Hán Việt 100–220 ms (quét `position()`); chấp nhận được ở 60 yêu cầu/phút/IP, chưa cần chỉ mục.
+
+## 11-4: trang từ `/tu/[word]`
+- **Dữ liệu:** `lib/dictionary/word.ts` (`getWordPage`) trả mọi mục có `simplified = word` (xếp: có cấp HSK, cấp thấp trước, không phải họ/biến thể), câu ví dụ (tối đa 5, `max_hsk_level` thấp rồi ngắn) và từ cùng chữ (tối đa 12, không lặp, bỏ họ/biến thể, HSK trước). Câu và từ cùng chữ dùng chung cho cả trang, chỉ phần đầu/nghĩa/từng chữ lặp theo mục.
+- **Từng chữ:** pinyin của chữ lấy theo âm tiết cùng vị trí trong `pinyin_numbered` (chỉ khi số âm tiết khớp số chữ Hán; không thì ẩn). Hán Việt tất cả các âm của chữ; bộ thủ lấy tên tiếng Việt từ `radical_vi`. Chữ chưa có trong `hanzi` vẫn có thẻ (thiếu Hán Việt/bộ thủ).
+- **Audio:** nút nghe chỉ hiện khi `audio_asset` đã có khóa `word/xiaoxiao/{từ}_{pinyin liền}.mp3` (giọng mặc định; theo cài đặt giọng sẽ làm khi có `SettingsProvider` đọc cài đặt) và `R2_PUBLIC_URL` đã đặt. Audio theo yêu cầu (bước 5) sẽ thêm nút ▶ cho từ chưa có. `lib/audio/keys.ts` là bản TS của `clp/audio/keys.py` (chưa viết bên Python; 01-7b phải khớp, kể cả cách ghi `u:`/`ü` trong khóa; hiện giữ nguyên chuỗi `pinyin_numbered`).
+- **SEO:** title theo mẫu spec (nhiều cách đọc thì liệt kê), description ≤ 160 ký tự, JSON-LD `DefinedTerm` (thoát `<`). Tên website và URL từ `SITE_NAME`, `SITE_URL`.
+- **Không dùng `revalidate = 86400`:** layout gốc `force-dynamic` (cấu hình đọc lúc chạy), nên trang render mỗi request; dữ liệu không phụ thuộc người dùng nên cache sau Caddy/CDN khi cần. Thời gian trên dữ liệu thật: 0,06–0,15 s (lần đầu 2,8 s do biên dịch dev).
+- **Chưa làm:** nút “Thêm vào ôn tập” (cần 09 `addFromDictionary` và `LoginSheet` của 03), và “Đã có trong ôn tập” tải ở client.
+- **Hán Việt trong tiêu đề** là âm Hán Việt đầu tiên của từng chữ (không phân biệt cách đọc), nên 行 (xíng) ra `hàng`; phụ thuộc chất lượng Unihan (xem 01-5).
+- **Test cấm tên miền viết cứng** (`tests/no-hardcoded-domain.test.ts`) miễn `schema.org` và `tatoeba.org` (domain bên thứ ba).
+- 404: `not-found.tsx` có ô tìm kiếm gửi tới `/tra-tu?q=` (màn hình `/tra-tu` làm ở 11-3).

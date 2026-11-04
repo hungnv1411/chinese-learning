@@ -2,12 +2,13 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { expect, test } from 'vitest';
 
-// D16: tên website và tên miền chỉ đọc từ SITE_NAME / SITE_URL. Danh sách mẫu cấm viết cứng:
+// D16: tên website và tên miền chỉ đọc từ SITE_NAME / SITE_URL. Danh sách mẫu cấm viết cứng
+// (miễn domain bên thứ ba: schema.org cho JSON-LD, tatoeba.org cho link nguồn câu):
 const FORBIDDEN = [
   /litchi/i,
   /hoctiengtrung/i,
   /tiengtrung\.(vn|com|org)/i,
-  /https?:\/\/(?!localhost|127\.0\.0\.1|speech|www\.w3\.org)[a-z0-9-]+\.(vn|com|org|net|io)/i,
+  /https?:\/\/(?!localhost|127\.0\.0\.1|speech|www\.w3\.org|schema\.org|tatoeba\.org)[a-z0-9-]+\.(vn|com|org|net|io)/i,
 ];
 const ROOTS = ['app', 'components', 'lib'].map((d) => resolve(__dirname, '..', d));
 const SKIP = /\.(test|spec)\.tsx?$/;
