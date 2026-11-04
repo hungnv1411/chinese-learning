@@ -35,3 +35,9 @@
 - **Nối từ điển:** mỗi từ nối với một `dict_entry`: ưu tiên có `hsk_level` thấp, không phải họ/biến thể, nhiều nghĩa. Chạy lại xóa rồi ghi lại `sentence_word` của các câu Tatoeba; câu `authored` không bị đụng.
 - **Pinyin câu:** `pypinyin` (TONE3, thanh nhẹ ghi số 5) rồi `numbered_to_marked`, mỗi âm tiết cách một khoảng trắng, bỏ dấu câu. Cột `pinyin` lưu bản có dấu; pypinyin đọc 喜欢 là `xǐ huān` (không có thanh nhẹ), là loại lỗi spec đã cảnh báo, sẽ được đối chiếu ở bước kiểm tra tự động của 02.
 - **Số thật:** 89.248 câu `cmn` → 61.896 câu được nhập (bỏ 27.352), 331.089 liên kết từ. Phân bố `max_hsk_level`: cấp 1: 2.801, cấp 2: 3.494, cấp 3: 3.253, cấp 7: 46.660. Còn 692 từ HSK 1–3 chưa có câu nào ≤ cấp của từ (số đo chính thức ở `report.md`, 01-8); cần câu tự soạn (`authored`) bù ở 02.
+
+## 01-9: `content/sources.yaml`
+- Mỗi nguồn có `id, name, url, used_for, license, license_url, attribution`. `id` của nguồn nhập bằng `fetch` trùng khóa trong `src/pipeline/sources.yaml` (`cedict`, `hsk30`, `unihan`, `makemeahanzi`, `hanzi-writer-data`, `tatoeba`) để test đối chiếu được; test cũng bắt buộc có `azure-tts`, `faster-whisper`, `parselmouth`, và cấm xuất hiện nguồn không được dùng (Chinese Grammar Wiki, MIT OCW, FSI).
+- **CC-CEDICT là CC BY-SA 4.0**, không phải 3.0 như bảng trong `sources-and-licenses.md`: tiêu đề file tải từ MDBG ghi "Creative Commons Attribution-ShareAlike 4.0 International License". Dùng 4.0 theo file; sửa bảng trong spec cho khớp.
+- `complete-hsk-vocabulary` có trong danh sách (spec liệt kê) nhưng hiện chưa dùng để nhập; mô tả nói rõ điều đó. Nếu quyết định không dùng, xóa mục này trước khi ra mắt.
+- URL giấy phép của Creative Commons, Unicode, Open Source Initiative, Microsoft không truy cập được từ môi trường dev lúc viết; còn lại (GitHub, GNU) trả 200. Cần kiểm tra lại cùng lúc đọc lại văn bản giấy phép trước khi ra mắt.

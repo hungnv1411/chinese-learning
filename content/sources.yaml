@@ -1,0 +1,85 @@
+# Nguồn dữ liệu và giấy phép. Trang /nguon-du-lieu (module 13) dựng từ file này.
+# `id` của nguồn được pipeline tải về (src/pipeline/sources.yaml) trùng khóa tải về.
+# Trước khi ra mắt phải đọc lại văn bản giấy phép gốc của từng nguồn (xem
+# docs/specs/01-content-data/sources-and-licenses.md). Khi viết file này, URL giấy phép của
+# Creative Commons, Unicode, Open Source Initiative và Microsoft chưa kiểm tra được bằng mạng.
+
+- id: cedict
+  name: CC-CEDICT
+  url: https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+  used_for: Từ điển Trung–Anh của trang tra từ và các bài học (chữ giản thể và phồn thể, pinyin, nghĩa tiếng Anh)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  attribution: "Từ điển: CC-CEDICT (MDBG), CC BY-SA 4.0. Nghĩa đã được chỉnh sửa cho bài học và chia sẻ lại theo cùng giấy phép."
+
+- id: hsk30
+  name: ivankra/hsk30
+  url: https://github.com/ivankra/hsk30
+  used_for: Danh sách từ, chữ và ngữ pháp theo cấp của chuẩn HSK 2021
+  license: MIT (repo); dữ liệu gốc là văn bản của chính phủ Trung Quốc
+  license_url: https://github.com/ivankra/hsk30/blob/master/LICENSE
+  attribution: "Danh sách HSK 2021: ivankra/hsk30 (MIT)."
+
+- id: complete-hsk-vocabulary
+  name: drkameleon/complete-hsk-vocabulary
+  url: https://github.com/drkameleon/complete-hsk-vocabulary
+  used_for: Nguồn dự phòng để đối chiếu danh sách HSK (hiện chưa dùng để nhập dữ liệu)
+  license: MIT
+  license_url: https://github.com/drkameleon/complete-hsk-vocabulary/blob/main/LICENSE
+  attribution: "Đối chiếu danh sách HSK: drkameleon/complete-hsk-vocabulary (MIT)."
+
+- id: unihan
+  name: Unicode Unihan
+  url: https://www.unicode.org/charts/unihan.html
+  used_for: Âm Hán Việt của chữ (trường kVietnamese) và quan hệ giản thể – phồn thể
+  license: Unicode License
+  license_url: https://www.unicode.org/license.txt
+  attribution: "Âm Hán Việt: Unicode Unihan Database. Một số âm do AI bổ sung được ghi rõ."
+
+- id: makemeahanzi
+  name: Make Me a Hanzi
+  url: https://github.com/skishore/makemeahanzi
+  used_for: Phân tích cấu tạo chữ, bộ thủ, gợi ý nguồn gốc chữ (dictionary.txt) và dữ liệu nét (graphics.txt)
+  license: dictionary.txt theo LGPL v3+; graphics.txt theo Arphic Public License
+  license_url: https://github.com/skishore/makemeahanzi/blob/master/COPYING
+  attribution: "Cấu tạo chữ và nét: Make Me a Hanzi (LGPL v3+, Arphic Public License)."
+
+- id: hanzi-writer-data
+  name: hanzi-writer và hanzi-writer-data
+  url: https://github.com/chanind/hanzi-writer-data
+  used_for: Hoạt ảnh thứ tự nét và chấm nét khi tập viết (mã hanzi-writer theo MIT; dữ liệu nét bắt nguồn từ Make Me a Hanzi)
+  license: Mã MIT; dữ liệu theo Arphic Public License
+  license_url: https://github.com/chanind/hanzi-writer-data/blob/master/ARPHICPL.TXT
+  attribution: "Dữ liệu nét: hanzi-writer-data (Arphic Public License); mã hanzi-writer (MIT)."
+
+- id: tatoeba
+  name: Tatoeba
+  url: https://tatoeba.org/
+  used_for: Câu ví dụ tiếng Trung kèm bản dịch tiếng Anh (chỉ dùng câu, không dùng audio)
+  license: CC BY 2.0 FR
+  license_url: https://creativecommons.org/licenses/by/2.0/fr/
+  attribution: "Câu ví dụ: Tatoeba (tatoeba.org), CC BY 2.0 FR. Mỗi câu ghi số hiệu câu gốc."
+
+- id: azure-tts
+  name: Azure Neural TTS
+  url: https://learn.microsoft.com/azure/ai-services/speech-service/
+  used_for: Tạo sẵn audio mẫu (âm tiết, từ, câu) bằng giọng tổng hợp
+  license: Điều khoản dịch vụ Azure (audio tạo ra được dùng trong ứng dụng)
+  license_url: https://azure.microsoft.com/support/legal/
+  attribution: "Audio mẫu: giọng tổng hợp Microsoft Azure Neural TTS."
+
+- id: faster-whisper
+  name: faster-whisper (mô hình Whisper)
+  url: https://github.com/SYSTRAN/faster-whisper
+  used_for: Nhận dạng giọng nói khi chấm phát âm (chạy trên máy chủ riêng của dự án)
+  license: MIT
+  license_url: https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE
+  attribution: "Nhận dạng giọng nói: faster-whisper và mô hình Whisper (MIT)."
+
+- id: parselmouth
+  name: Parselmouth (Praat)
+  url: https://github.com/YannickJadoul/Parselmouth
+  used_for: Đo cao độ giọng khi chấm thanh điệu (chạy trên máy chủ riêng của dự án)
+  license: GPL v3
+  license_url: https://github.com/YannickJadoul/Parselmouth/blob/master/LICENSE
+  attribution: "Đo cao độ giọng: Parselmouth/Praat (GPL v3). Dịch vụ chấm phát âm của dự án phát hành theo GPL v3."

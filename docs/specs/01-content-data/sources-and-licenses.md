@@ -4,7 +4,7 @@ Giấy phép trong bảng dưới đã được kiểm tra trên trang dự án 
 
 | Nguồn | Dùng cho | Giấy phép | Nghĩa vụ |
 |---|---|---|---|
-| **CC-CEDICT** (cc-cedict.org, tải tại mdbg.net) | Từ điển Trung–Anh: chữ giản/phồn thể, pinyin, nghĩa | CC BY-SA (3.0 theo wiki dự án) | Ghi nguồn. Dữ liệu dự án **chỉnh sửa từ CC-CEDICT** (ví dụ nghĩa đã rút gọn cho bài học) phải chia sẻ lại theo CC BY-SA |
+| **CC-CEDICT** (cc-cedict.org, tải tại mdbg.net) | Từ điển Trung–Anh: chữ giản/phồn thể, pinyin, nghĩa | CC BY-SA 4.0 (theo tiêu đề file tải từ MDBG) | Ghi nguồn. Dữ liệu dự án **chỉnh sửa từ CC-CEDICT** (ví dụ nghĩa đã rút gọn cho bài học) phải chia sẻ lại theo CC BY-SA |
 | **ivankra/hsk30** (GitHub) | Danh sách HSK 2021: từ (11.092), chữ (3.000), ngữ pháp, theo cấp | MIT (cho repo). Dữ liệu gốc là văn bản của chính phủ Trung Quốc | Ghi nguồn. Đây là nguồn chính cho D1 (HSK 2021) |
 | **drkameleon/complete-hsk-vocabulary** | Nguồn dự phòng hoặc đối chiếu cho danh sách HSK | MIT | Ghi nguồn nếu dùng |
 | **Unicode Unihan** (`Unihan_Readings.txt`, trường `kVietnamese`) | Âm Hán Việt | Unicode License (thoáng) | Ghi nguồn |
