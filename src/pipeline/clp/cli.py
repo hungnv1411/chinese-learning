@@ -201,5 +201,20 @@ def import_tatoeba_cmd(
     )
 
 
+@app.command()
+def report() -> None:
+    """B8: sinh out/report.md (số dòng mỗi bảng, dữ liệu thiếu, cảnh báo lệch chuẩn)."""
+    import datetime
+
+    from clp.db import connect
+    from clp.report import write_report
+
+    with connect() as conn:
+        path = write_report(
+            conn, PIPELINE_DIR / "out", now=datetime.datetime.now().isoformat(timespec="seconds")
+        )
+    typer.echo(f"Đã ghi {path}")
+
+
 if __name__ == "__main__":
     app()
