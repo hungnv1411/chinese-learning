@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { classifyQuery, parsePinyinQuery, segmentPinyin } from './dictionary';
+import { classifyQuery, parsePinyinQuery, parsePinyinSyllables, segmentPinyin } from './dictionary';
 
 describe('classifyQuery', () => {
   test.each([
@@ -8,6 +8,8 @@ describe('classifyQuery', () => {
     ['hǎo', 'all', ['pinyin']],
     ['hao3', 'all', ['pinyin']],
     ['hao3 chi1', 'all', ['pinyin']],
+    ['lu:4', 'all', ['pinyin']],
+    ['nv3', 'all', ['pinyin']],
     ['hảo', 'all', ['hanviet']],
     ['hiếu', 'all', ['hanviet']],
     ['đại', 'all', ['hanviet']],
@@ -69,5 +71,20 @@ describe('parsePinyinQuery', () => {
     ['  Hao3   Chi ', 'haochi', [3, null]],
   ])('%s', (input, plain, tones) => {
     expect(parsePinyinQuery(input)).toEqual({ plain, tones });
+  });
+});
+
+describe('parsePinyinSyllables', () => {
+  test('trả từng âm tiết kèm thanh', () => {
+    expect(parsePinyinSyllables('hao3chi1')).toEqual({
+      plain: 'haochi',
+      syllables: ['hao', 'chi'],
+      tones: [3, 1],
+    });
+    expect(parsePinyinSyllables("xi'an")).toEqual({
+      plain: 'xian',
+      syllables: ['xi', 'an'],
+      tones: [null, null],
+    });
   });
 });

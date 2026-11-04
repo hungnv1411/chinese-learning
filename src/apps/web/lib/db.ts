@@ -10,7 +10,7 @@ const makeDb = (sql: ReturnType<typeof postgres>) => drizzle(sql, { schema });
 
 /** Kết nối Postgres dùng chung của tiến trình web (tạo khi cần). */
 export function getSql() {
-  client ??= postgres(getConfig().DATABASE_URL, { max: 10 });
+  client ??= postgres(getConfig().DATABASE_URL, { max: 10, onnotice: () => {} });
   return client;
 }
 

@@ -64,7 +64,7 @@ export function classifyQuery(q: string, chip: Chip): QueryKind[] {
   const s = q.trim().normalize('NFD');
   if (CJK.test(s)) return ['hanzi'];
   if (VIET_ONLY_MARKS.test(s) || /[đĐ]/.test(s)) return ['hanviet'];
-  if (PINYIN_MARKS.test(s) || /[a-zA-Zü]+[1-5](?![0-9])/.test(s)) return ['pinyin'];
+  if (PINYIN_MARKS.test(s) || /[a-zA-Zü]+:?[1-5](?![0-9])/.test(s)) return ['pinyin'];
   if (/^[a-zA-Z'’\s]+$/.test(s) && segmentPinyin(s)) return ['pinyin', 'english'];
   return ['english'];
 }
@@ -88,18 +88,22 @@ function lettersOf(token: string): Letter[] {
   return out;
 }
 
-/** 'hao3 chi' → { plain: 'haochi', tones: [3, null] }. Số thanh hoặc dấu thanh đều được. */
-export function parsePinyinQuery(q: string): { plain: string; tones: (Tone | null)[] } {
-  let plain = '';
+/** 'hao3 chi' → { plain: 'haochi', syllables: ['hao', 'chi'], tones: [3, null] }. Số thanh hoặc dấu thanh đều được. */
+export function parsePinyinSyllables(q: string): {
+  plain: string;
+  syllables: string[];
+  tones: (Tone | null)[];
+} {
+  const syllables: string[] = [];
   const tones: (Tone | null)[] = [];
-  for (const token of q.trim().split(/\s+/)) {
+  for (const token of q.trim().split(/[\s'’]+/)) {
     if (!token) continue;
     if (/[1-5]/.test(token)) {
       for (const syl of splitSyllables(token.replace(/u:/gi, 'ü'))) {
         const m = /^(.*?)([1-5])?$/.exec(syl);
         const base = toPlain(m?.[1] ?? '');
         if (!base) continue;
-        plain += base;
+        syllables.push(base);
         tones.push(m?.[2] ? (Number(m[2]) as Tone) : null);
       }
       continue;
@@ -111,9 +115,15 @@ export function parsePinyinQuery(q: string): { plain: string; tones: (Tone | nul
     for (const syl of seg) {
       const span = letters.slice(pos, pos + syl.length);
       pos += syl.length;
-      plain += syl;
+      syllables.push(syl);
       tones.push(span.find((l) => l.tone)?.tone ?? null);
     }
   }
+  return { plain: syllables.join(''), syllables, tones };
+}
+
+/** 'hao3 chi' → { plain: 'haochi', tones: [3, null] }. */
+export function parsePinyinQuery(q: string): { plain: string; tones: (Tone | null)[] } {
+  const { plain, tones } = parsePinyinSyllables(q);
   return { plain, tones };
 }
