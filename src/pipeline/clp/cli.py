@@ -393,5 +393,78 @@ def plan_units_cmd(
     typer.echo(f"Đã ghi {plan_path}: {len(result.units)} chủ đề sau {result.attempts} lượt gọi")
 
 
+@app.command(name="author-unit")
+def author_unit_cmd(
+    stage: Annotated[str, typer.Argument(help="Lộ trình HSK: hsk1, hsk2 hoặc hsk3.")],
+    unit_id: Annotated[str, typer.Argument(help="id chủ đề trong _plan.yaml, ví dụ hsk1-u01.")],
+    content_dir: Annotated[Path, typer.Option(help="Thư mục nội dung.")] = (
+        PIPELINE_DIR.parents[1] / "content"
+    ),
+    dry_run: Annotated[
+        bool, typer.Option("--dry-run", help="Chỉ in đầu vào, không gọi API.")
+    ] = False,
+    max_rounds: Annotated[int, typer.Option(help="Số lần sửa tối đa sau lượt soạn đầu.")] = 2,
+    strict: Annotated[
+        bool, typer.Option("--strict", help="Không ghi nếu còn lỗi rà soát chưa giải quyết.")
+    ] = False,
+    force: Annotated[bool, typer.Option("--force", help="Soạn lại dù đã có file chủ đề.")] = False,
+) -> None:
+    """02-6: AI soạn một chủ đề, model khác rà soát, máy kiểm tra (gọi API trả phí)."""
+    import datetime
+
+    import yaml
+
+    from clp.authoring.author_unit import (
+        AuthoringError,
+        author_unit_loop,
+        build_author_prompt,
+        load_unit_inputs,
+    )
+    from clp.authoring.config import load_config
+    from clp.authoring.llm import AnthropicJson
+    from clp.content.check import load_content
+    from clp.db import connect
+
+    loaded = load_content(content_dir)
+    entry = next((s for s in loaded.stages or [] if s.id == stage and s.level is not None), None)
+    plan = next((p for st, _f, p in loaded.plan_units if st == stage and p.id == unit_id), None)
+    if entry is None or plan is None:
+        typer.echo(f"Không thấy {stage}/{unit_id} trong stages.yaml hoặc _plan.yaml", err=True)
+        raise typer.Exit(2)
+    cfg = load_config()
+    with connect() as conn:
+        if dry_run:
+            ov_path = content_dir / "overrides" / "han_viet.yaml"
+            overrides = (
+                yaml.safe_load(ov_path.read_text(encoding="utf-8")) if ov_path.exists() else None
+            ) or {}
+            inputs = load_unit_inputs(conn, loaded, entry, plan, overrides)
+            system, user = build_author_prompt(inputs)
+            typer.echo(
+                f"{unit_id}: {len(inputs.words)} từ, {len(inputs.learned_words)} từ đã học, "
+                f"{len(inputs.sentences)} câu Tatoeba ứng viên, {len(inputs.grammar)} điểm ngữ pháp, "
+                f"{len(inputs.missing_han_viet)} chữ thiếu Hán Việt; prompt {len(system) + len(user)} ký tự"
+            )
+            return
+        import anthropic
+
+        client = AnthropicJson(anthropic.Anthropic(), fallbacks=cfg.fallbacks)
+        try:
+            res = author_unit_loop(
+                conn, content_dir, loaded, entry, plan,
+                author_llm=client, review_llm=client, cfg=cfg,
+                now=datetime.datetime.now().isoformat(timespec="seconds"),
+                max_rounds=max_rounds, strict=strict, force=force,
+            )  # fmt: skip
+        except AuthoringError as e:
+            typer.echo(str(e), err=True)
+            raise typer.Exit(1) from e
+    for w in res.warnings:
+        typer.echo(f"Cảnh báo: {w}")
+    for i in res.review_unresolved:
+        typer.echo(f"Rà soát chưa giải quyết [{i.category}] {i.where}: {i.problem}")
+    typer.echo(f"Đã ghi {res.unit_path} sau {res.rounds} lượt soạn")
+
+
 if __name__ == "__main__":
     app()

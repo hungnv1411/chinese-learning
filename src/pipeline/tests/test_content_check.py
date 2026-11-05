@@ -78,3 +78,18 @@ def test_syntax_error_in_a_file_is_reported_with_its_location(db_conn, tmp_path)
     assert (
         f.code == "invalid_file" and f.file and f.file.name == "u01-greetings.yaml" and f.line == 1
     )
+
+
+def test_check_content_runs_the_cross_checks(db_conn, tmp_path):
+    """Chốt việc nối crosscheck (02-7) vào check_content: tip khẳng định sai Hán Việt phải bị chặn."""
+    seed(db_conn)
+    db_conn.execute(
+        "INSERT INTO hanzi (char, han_viet) VALUES ('好', ARRAY['hảo'])"
+        " ON CONFLICT (char) DO UPDATE SET han_viet = ARRAY['hảo']"
+    )
+    db_conn.commit()
+    bad = GOOD_UNIT + "    tips:\n      好: 好 có âm Hán Việt là xyz.\n"
+    report = check_content(db_conn, write_tree(tmp_path / "content", bad))
+    assert "han_viet_mismatch" in [f.code for f in report.errors]
+    clean = check_content(db_conn, write_tree(tmp_path / "ok", GOOD_UNIT))
+    assert "han_viet_mismatch" not in [f.code for f in clean.errors]

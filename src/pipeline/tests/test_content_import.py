@@ -80,6 +80,10 @@ def seed(conn):
         conn.execute("INSERT INTO hsk_word (level, simplified, pinyin) VALUES (1,%s,%s)", (w, py))
     for ch, strokes in [("你", True), ("好", True), ("老", True), ("师", True), ("吗", False)]:
         conn.execute("INSERT INTO hanzi (char, has_stroke_data) VALUES (%s,%s)", (ch, strokes))
+    # câu Tatoeba #5 mà nội dung mẫu trích dẫn (crosscheck 02-7 đòi nguyên văn)
+    conn.execute(
+        "INSERT INTO sentence (zh, pinyin, en, source, source_ref) VALUES ('老师好！','p','Hello','tatoeba','5')"
+    )
     conn.commit()
 
 

@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from clp.content.authoring import PlanUnit, StageEntry
+from clp.content.crosscheck import crosscheck, load_cross_data
 from clp.content.loader import (
     ContentError,
     LoadedGrammar,
@@ -126,6 +127,17 @@ def check_loaded(conn, loaded: Loaded) -> Report:
     report.findings += validate_content(
         loaded.units, loaded.grammar, load_context(conn, loaded)
     ).findings
+    # 02-7: đối chiếu pinyin, Tatoeba, Hán Việt, độ dài với dữ liệu nguồn trong DB
+    words = {w.word for lu in loaded.units for lesson in lu.unit.lessons for w in lesson.new_words}
+    tatoeba_ids = {
+        str(s.tatoeba_id)
+        for lu in loaded.units
+        for lesson in lu.unit.lessons
+        for s in lesson.sentences
+        if s.tatoeba_id is not None
+    }
+    data = load_cross_data(conn, loaded.stage_levels, words, tatoeba_ids)
+    report.findings += crosscheck(loaded.units, loaded.grammar, data)
     return report
 
 
