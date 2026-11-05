@@ -91,6 +91,7 @@ class NewWord(_Model):
     word: NonEmpty
     hsk_word_id: int | None
     extra: bool
+    pinyin: NonEmpty | None = None
 
 
 class Sentence(_Model):

@@ -58,6 +58,8 @@ export const LessonContentSchema = z
         word: nonEmpty,
         hskWordId: z.number().int().nullable(),
         extra: z.boolean(),
+        /** Cách đọc khi chữ có nhiều cách đọc (số thanh hoặc có dấu). */
+        pinyin: nonEmpty.optional(),
       }),
     ),
     newChars: z.array(nonEmpty),

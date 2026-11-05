@@ -25,6 +25,8 @@ class _Model(BaseModel):
 class NewWordFile(_Model):
     word: NonEmpty
     extra: bool = False
+    # Cách đọc khi chữ có nhiều cách đọc; dạng số thanh (hao3 chi1) hoặc có dấu (hǎochī). 02-7 đối chiếu với CC-CEDICT.
+    pinyin: NonEmpty | None = None
 
 
 def _word_shorthand(v: Any) -> Any:
