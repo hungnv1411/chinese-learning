@@ -327,5 +327,71 @@ def import_content_cmd(
     )
 
 
+@app.command(name="plan-units")
+def plan_units_cmd(
+    stage: Annotated[str, typer.Argument(help="Lộ trình HSK: hsk1, hsk2 hoặc hsk3.")],
+    content_dir: Annotated[Path, typer.Option(help="Thư mục nội dung.")] = (
+        PIPELINE_DIR.parents[1] / "content"
+    ),
+    dry_run: Annotated[
+        bool, typer.Option("--dry-run", help="Chỉ in cỡ đầu vào, không gọi API.")
+    ] = False,
+    max_repairs: Annotated[int, typer.Option(help="Số lần gửi lại để sửa lỗi phủ.")] = 2,
+    force: Annotated[bool, typer.Option("--force", help="Ghi đè dù đã có file chủ đề.")] = False,
+) -> None:
+    """02-5: AI chia từ và ngữ pháp HSK thành chủ đề -> content/<lộ trình>/_plan.yaml (gọi API trả phí)."""
+    import datetime
+
+    from clp.authoring.config import load_config
+    from clp.authoring.llm import AnthropicJson
+    from clp.authoring.plan_units import (
+        PlanError,
+        build_prompt,
+        load_stage_inputs,
+        plan_stage,
+        write_plan,
+    )
+    from clp.content.check import load_content
+    from clp.db import connect
+
+    stages = load_content(content_dir).stages or []
+    entry = next((s for s in stages if s.id == stage and s.level is not None), None)
+    if entry is None or entry.level is None:
+        typer.echo(f"Lộ trình {stage!r} không có cấp HSK trong content/stages.yaml", err=True)
+        raise typer.Exit(2)
+    with connect() as conn:
+        inputs = load_stage_inputs(conn, stage, entry.level)
+        conn.rollback()
+    system, user = build_prompt(inputs)
+    typer.echo(
+        f"{stage}: {len(inputs.words)} từ, {len(inputs.grammar)} điểm ngữ pháp, "
+        f"prompt {len(system) + len(user)} ký tự"
+    )
+    if dry_run:
+        return
+    import anthropic
+
+    cfg = load_config()
+    llm = AnthropicJson(anthropic.Anthropic(), fallbacks=cfg.fallbacks)
+    try:
+        result = plan_stage(
+            llm, inputs, author_model=cfg.author_model, effort=cfg.effort, max_repairs=max_repairs
+        )
+        plan_path, _ = write_plan(
+            content_dir,
+            result,
+            inputs,
+            model=cfg.author_model,
+            now=datetime.datetime.now().isoformat(timespec="seconds"),
+            force=force,
+        )
+    except PlanError as e:
+        typer.echo(str(e), err=True)
+        raise typer.Exit(1) from e
+    for w in result.warnings:
+        typer.echo(f"Cảnh báo: {w}")
+    typer.echo(f"Đã ghi {plan_path}: {len(result.units)} chủ đề sau {result.attempts} lượt gọi")
+
+
 if __name__ == "__main__":
     app()

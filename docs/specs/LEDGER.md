@@ -90,7 +90,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 39 | 02-2 | Quy tắc kiểm tra (chặn / cảnh báo) | 02-1 | ✅ | pipeline 194 test xanh (41 test quy tắc, mỗi quy tắc một YAML mẫu sai); `clp check-content` chạy thật với DB dev. Phát hiện: HSK 2021 không có 你好 (xem 02-curriculum/decisions.md) |
 | 40 | 02-3 | Chuẩn hóa, bố cục mặc định, `writing: auto`, ghi DB | 02-2 | ✅ | pipeline 216 test xanh (11 chuẩn hóa, 11 nhập DB thật: đủ bảng, chạy lại không đổi, đổi thứ tự bài, lỗi thì không ghi); `clp import-content` chạy thật nạp 4 lộ trình từ `content/stages.yaml`; định dạng `stages.yaml`, `_plan.yaml` là đề xuất (xem decisions.md) |
 | 41 | 02-4 | Báo cáo độ phủ, `exam_open` | 02-3 | ✅ | pipeline 232 test xanh (16 test độ phủ với Postgres thật: thiếu 1 từ thì liệt kê đúng và đóng; đủ thì mở; chủ đề chưa phát hành, ngân hàng đề thiếu, nội dung lùi đều đóng); chạy thật: HSK 1/2/3 còn 512/776/973 từ chưa dạy; giả định ghép `hsk_code` và khóa `skill` cần xác nhận (decisions.md) |
-| 42 | 02-5 | `plan_units` | 02-4 | ⬜ | |
+| 42 | 02-5 | `plan_units` | 02-4 | 🟨 | pipeline 255 test xanh (23 test, model giả: kiểm tra phủ/trùng, vòng sửa tối đa 2 lần, ghi `_plan.yaml` + `_meta`, hình dạng lời gọi Anthropic SDK); `plan-units --dry-run` chạy thật (HSK 1: 508 từ, 48 ngữ pháp). Chưa gọi API thật (không có ANTHROPIC_API_KEY): chạy `clp plan-units hsk1` để chốt |
 | 43 | 02-7 | `crosscheck` | 02-3 | ⬜ | Làm trước 02-6 để lượt soạn dùng được |
 | 44 | 02-6 | `author_unit` + `review_unit` | 02-5, 02-7 | ⬜ | |
 | 45 | 10-2 | `content/pron/sounds.yaml` | 02-6 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-05 | 02-5 (chưa gọi API thật): `clp/authoring/{config,llm,plan_units}.py`, lệnh `clp plan-units` |
 | 2026-11-05 | 02-4 xong: `clp/content/coverage.py`, `coverage-<stage>.md`, `stage.exam_open` |
 | 2026-11-05 | 02-3 xong: `normalize.py`, `importer.py`, `clp import-content`, `content/stages.yaml` |
 | 2026-11-05 | 02-2 xong: `clp/content/rules.py`, `check.py`, lệnh `check-content` |
