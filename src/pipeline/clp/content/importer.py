@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from clp.content.check import Loaded, check_loaded, load_content, load_context
+from clp.content.coverage import StageCoverage, compute_stage_coverage, write_coverage
 from clp.content.normalize import Normalized, NormContext, normalize_content
 from clp.content.rules import Finding, Report
 
@@ -25,6 +26,7 @@ class ImportResult:
     units_published: int = 0
     units_planned: int = 0
     warnings: list[Finding] = field(default_factory=list)
+    coverage: dict[str, StageCoverage] = field(default_factory=dict)
 
 
 def _unit_rows(loaded: Loaded) -> list[dict]:
@@ -97,7 +99,9 @@ def _version_of(norm: Normalized) -> str:
     return hashlib.sha256(joined.encode()).hexdigest()[:12]
 
 
-def import_content(conn, content_dir: Path, version: str | None = None) -> ImportResult:
+def import_content(
+    conn, content_dir: Path, version: str | None = None, out_dir: Path | None = None
+) -> ImportResult:
     loaded = load_content(content_dir)
     report = check_loaded(conn, loaded)
     units = _unit_rows(loaded)
@@ -114,11 +118,15 @@ def import_content(conn, content_dir: Path, version: str | None = None) -> Impor
         units_planned=sum(1 for u in units if not u["published"]),
         warnings=report.warnings + norm.warnings,
     )
-    _write(conn, loaded, units, norm, result.content_version)
+    result.coverage = _write(conn, loaded, units, norm, result.content_version)
+    if out_dir is not None:
+        write_coverage(out_dir, result.coverage)
     return result
 
 
-def _write(conn, loaded: Loaded, units: list[dict], norm: Normalized, version: str) -> None:
+def _write(
+    conn, loaded: Loaded, units: list[dict], norm: Normalized, version: str
+) -> dict[str, StageCoverage]:
     lesson_ids = [n.lesson_id for n in norm.lessons]
     with conn.transaction(), conn.cursor() as cur:
         cur.execute("SELECT char FROM hanzi")
@@ -202,4 +210,14 @@ def _write(conn, loaded: Loaded, units: list[dict], norm: Normalized, version: s
             " ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value",
             (version,),
         )
+
+        # Độ phủ tính trên dữ liệu vừa ghi; exam_open chỉ mở khi mọi điều kiện đủ, và đóng lại nếu lùi.
+        coverage: dict[str, StageCoverage] = {}
+        for stage in loaded.stages or []:
+            if stage.level is None:
+                continue
+            cov = compute_stage_coverage(cur, stage)
+            coverage[stage.id] = cov
+            cur.execute("UPDATE stage SET exam_open = %s WHERE id = %s", (cov.exam_open, stage.id))
     conn.commit()
+    return coverage

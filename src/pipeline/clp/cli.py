@@ -300,7 +300,7 @@ def import_content_cmd(
             typer.echo(f"{len(report.errors)} lỗi, {len(report.warnings)} cảnh báo")
             raise typer.Exit(0 if report.ok else 1)
         try:
-            res = import_content(conn, content_dir, version)
+            res = import_content(conn, content_dir, version, out_dir=PIPELINE_DIR / "out")
         except ContentCheckError as e:
             conn.rollback()
             for f in e.report.errors + e.report.warnings:
@@ -317,6 +317,9 @@ def import_content_cmd(
         skipped=len(res.warnings),
         now=datetime.datetime.now().isoformat(timespec="seconds"),
     )
+    for stage, cov in res.coverage.items():
+        state = "mở" if cov.exam_open else "đóng: " + "; ".join(cov.blockers)
+        typer.echo(f"{stage}: bài kiểm tra cuối {state} (out/coverage-{stage}.md)")
     typer.echo(
         f"content_version {res.content_version}: {res.lessons} bài, "
         f"{res.units_published} chủ đề đã phát hành, {res.units_planned} sắp ra mắt, "

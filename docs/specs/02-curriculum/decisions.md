@@ -42,3 +42,12 @@
 - **Ghi DB một transaction** (`clp/content/importer.py`): stage → unit → lesson → lesson_word/lesson_char (xóa rồi ghi lại theo bài) → grammar_point → content_meta. Đổi thứ tự bài/chủ đề không vướng ràng buộc duy nhất nhờ đặt tạm thứ tự âm trước khi ghi. Có lỗi chặn thì dừng **trước khi** ghi (`ContentCheckError`). `grammar_point.body_md` = `explanation_vi` + dòng `**Cấu trúc:** <pattern>`.
 - **Lệnh:** `clp import-content [--content-dir] [--version] [--check]`; `--check` giống `check-content`.
 - **Chưa làm (02-4):** báo cáo độ phủ và `stage.exam_open`; `estimated_minutes` để NULL.
+
+## 02-4: báo cáo độ phủ và `exam_open`
+- **Cài đặt:** `clp/content/coverage.py`. `import_content` tính độ phủ **trong cùng transaction** sau khi ghi nội dung, ghi `out/coverage-<lộ trình>.md` (chỉ lộ trình có `level`; `pron` không có bài kiểm tra cuối kiểu chứng nhận) và cập nhật `stage.exam_open`. Nếu nội dung hoặc dữ liệu HSK lùi (ví dụ thêm từ HSK mới) thì lần nhập sau đóng lại `exam_open`.
+- **Điều kiện mở bài kiểm tra cuối** (`StageCoverage.blockers`): có ít nhất một chủ đề, mọi chủ đề đã phát hành, 100% từ HSK (kể cả mọi cách đọc) và 100% điểm ngữ pháp của cấp đã dạy, ngân hàng đề đủ. Chữ HSK chưa xuất hiện chỉ báo cáo, không chặn (content-format §5 chỉ đòi từ và ngữ pháp). Lỗi chặn của nội dung đã làm `import_content` dừng từ trước.
+- **Từ đã dạy:** có hàng `lesson_word` trong bài của lộ trình đó. Chữ đã xuất hiện: có `lesson_char` ở **bất kỳ** bài nào (một chữ HSK 2 học sớm ở HSK 1 vẫn tính).
+- **Ghép điểm ngữ pháp tự soạn với danh sách HSK** (giả định, cần chủ dự án xác nhận): `grammar_point.hsk_code` dạng `一级-语法-012` được hiểu là điểm thứ 12 (theo thứ tự `hsk30-gNNN`) của danh sách `hsk_grammar` cấp 1. Mã không đúng dạng, sai cấp hoặc ngoài phạm vi vào danh sách `grammar_unmapped` và **không** tính là đã dạy. Điểm ngữ pháp "được dạy" khi có bài dùng bước `grammar` trỏ tới nó.
+- **Ngân hàng đề:** cần ≥ 3 × số câu một đề (HSK 1: 60/60/15/15, HSK 2: 75/75/24/18, HSK 3: 90/90/30/24). Khóa `skill` của `exam_item` giả định là `listening`, `reading`, `writing`, `speaking`; module 12 phải dùng đúng hoặc sửa `EXAM_PAPER` ở một chỗ này. Bảng số câu mỗi đề lặp lại `lib/exam/config.ts` (12) vì pipeline chạy độc lập; nên có test đối chiếu khi viết 12.
+- **Báo cáo** liệt kê tối đa 200 mục mỗi danh sách, kèm "… và N … nữa".
+- **Số thật hiện tại:** HSK 1: 512 từ, 48 điểm ngữ pháp, 300 chữ chưa có bài; HSK 2: 776 và 82; HSK 3: 973 và 81. `exam_open = false` ở cả ba.
