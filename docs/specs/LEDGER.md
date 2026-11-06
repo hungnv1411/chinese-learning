@@ -17,10 +17,10 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | Mốc | Nội dung | Trạng thái |
 |---|---|---|
 | M0 | Spec, design, plan | ✅ |
-| M1 | Nền tảng: repo, DB, đăng nhập, design system | ⬜ |
-| M2 | Pipeline dữ liệu | ⬜ |
-| M3 | Từ điển | ⬜ |
-| M4 | Định dạng nội dung, soạn bằng AI, đợt nội dung D-1 | ⬜ |
+| M1 | Nền tảng: repo, DB, đăng nhập, design system | 🟨 |
+| M2 | Pipeline dữ liệu | 🟨 |
+| M3 | Từ điển | 🟨 |
+| M4 | Định dạng nội dung, soạn bằng AI, đợt nội dung D-1 | 🟨 |
 | M5 | Dịch vụ chấm phát âm | ⬜ |
 | M6 | Học: bài học, viết, nói, ôn tập | ⬜ |
 | M7 | Lộ trình, Hôm nay, học thử & đăng nhập (E2E luồng chính) | ⬜ |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-06 | Thêm `docs/PROGRESS.md` (bản chụp tiến độ, ước tính chi phí); cập nhật bảng mốc M1–M4 sang 🟨 |
 | 2026-11-05 | 02-6 (chưa gọi API thật): `clp/authoring/{author_unit,review_unit}.py`, lệnh `clp author-unit`; nối crosscheck vào `check_loaded` (sửa lỗi 02-7) |
 | 2026-11-05 | 02-7 xong: `clp/content/crosscheck.py`, nối vào `check-content`/`import-content`, `new_words.pinyin` |
 | 2026-11-05 | 02-5 (chưa gọi API thật): `clp/authoring/{config,llm,plan_units}.py`, lệnh `clp plan-units` |
