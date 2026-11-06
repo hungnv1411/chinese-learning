@@ -7,12 +7,11 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| Bước trong LEDGER | **28 ✅ xong · 9 🟨 làm dở · 96 ⬜ chưa làm** (tổng 133 bước, ≈ 21% xong, ≈ 28% tính cả bước làm dở) |
+| **Hoàn thành toàn dự án** | **≈ 21% số bước xong, ≈ 28% tính cả bước làm dở** (28 ✅ · 9 🟨 · 96 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
 | Test | **581 test xanh**: web 149, core 128, pipeline 304 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
-| Chi phí API/dịch vụ trả phí đã dùng | **0 $**: chưa gọi Claude API hay Azure TTS lần nào |
 
 ## 2. Tiến độ theo mốc
 
@@ -67,34 +66,12 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 6. Fallback phía server + structured outputs chưa thử với API thật; URL giấy phép của Creative Commons, Unicode, Microsoft chưa kiểm tra được bằng mạng.
 7. `complete-hsk-vocabulary` có trong `sources.yaml` nhưng chưa dùng; nên xóa nếu không dùng.
 
-## 5. Ước tính giá trị công việc (đô la)
-
-Những con số dưới đây là **ước tính thô của tôi**, không phải số liệu đo được. Tôi không nhìn thấy hóa đơn hay lượng token đã dùng của phiên làm việc này; muốn biết chi phí dùng Claude Code thật, xem `/cost` hoặc trang usage của tài khoản.
-
-### a) Giá trị theo công sức con người tương đương
-| Giả định | Giá trị |
-|---|---|
-| Khối lượng | ≈ 16.700 dòng mã có test, ≈ 7.500 dòng nội dung và tài liệu, 43 commit |
-| Năng suất lập trình viên có kinh nghiệm làm test-first, đọc spec, có Postgres thật | 150–250 dòng mã đã test/ngày → **≈ 65–110 ngày công** (cộng nghiên cứu dữ liệu, thiết kế schema, kiểm thử với dữ liệu thật) |
-| Đơn giá | 25–50 $/giờ (freelance khu vực Đông Nam Á, trình độ senior), 8 giờ/ngày |
-| **Kết quả** | **≈ 13.000 – 44.000 $**, giá trị giữa khoảng **20.000 – 25.000 $** |
-
-Thang đo dễ hơn: so với toàn bộ dự án (133 bước), phần đã xong và dở chiếm ≈ 28% số bước nhưng **ít hơn 28% công sức thật**, vì phần còn lại nặng về giao diện tương tác (bài học, viết, nói, ôn tập, chứng nhận) và dịch vụ chấm phát âm. Ước lượng thô: **25–30% khối lượng kỹ thuật** đã xong; toàn bộ dự án có thể cần thêm khoảng **3 – 4 lần** công sức đã bỏ ra, chưa kể sản xuất nội dung (do AI soạn).
-
-### b) Chi phí vận hành đã phát sinh và dự kiến (không phải công sức)
-| Khoản | Đã dùng | Dự kiến toàn dự án (ước tính) |
-|---|---|---|
-| Claude API soạn nội dung (`plan-units`, `author-unit`, rà soát; Opus 5.5 $4/$20, Sonnet 5.5 $2/$10 mỗi triệu token) | **0 $** | 100–300 $ cho ≈ 65 chủ đề kể cả vòng sửa; lượt chạy thử đầu tiên dưới 5 $ |
-| Azure Neural TTS (âm tiết, từ, câu, hai giọng, hai tốc độ) | **0 $** | vài chục $; có hạn mức miễn phí hằng tháng, nên có thể 0 $ nếu chia nhiều tháng |
-| Hosting (VPS, R2, Caddy), tên miền | 0 $ (chạy local) | ≈ 10–25 $/tháng khi ra mắt |
-| Dịch vụ chấm phát âm (faster-whisper tự chạy) | 0 $ | gộp trong VPS; cần CPU/RAM đủ chạy model `base` |
-
-## 6. Đề xuất bước tiếp theo
+## 5. Đề xuất bước tiếp theo
 1. **Mở khóa nội dung** (quan trọng nhất): bạn cung cấp `ANTHROPIC_API_KEY` → chạy `plan-units hsk1` → `author-unit hsk1 hsk1-u01` → xem `_meta` → nhập vào DB dev. Từ đó mới làm được các màn hình học trên dữ liệu thật.
 2. Sau đó làm **M6** theo thứ tự trong LEDGER: trình chạy bài (06), `WritingPad` (07-2, cần trình duyệt), nói (08b, cần dịch vụ chấm), SRS ôn tập (09).
 3. Song song, những việc không cần khóa hay trình duyệt: `srs.ts`, `computeUnlockState`, `streak.ts`, `today.ts`, `guest.ts` trong `packages/core` (hàm thuần, test được ngay), dịch vụ `speech` (08a, Python).
 
-## 7. Cách xem và chạy
+## 6. Cách xem và chạy
 ```bash
 src/deploy/dev.sh run --rm node pnpm test                       # test TS
 src/deploy/dev.sh run --rm py-pipeline run pytest -q            # test pipeline (Postgres thật)

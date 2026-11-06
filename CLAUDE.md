@@ -13,7 +13,7 @@ Website tự học tiếng Trung cho người Việt, từ con số 0 đến HSK
 | `docs/specs/<module>/plan.md` | Plan thực hiện của module (08 có `plan-speech-service.md` và `plan-speaking-ui.md`) | Cách làm, test cần viết |
 | [docs/specs/00-foundation/plan.md](docs/specs/00-foundation/plan.md) | Quy ước chung: cấu trúc repo, `packages/core`, design system, route, API, schema DB | Đọc trước khi làm module nào |
 | [docs/specs/LEDGER.md](docs/specs/LEDGER.md) | Thứ tự thực hiện và trạng thái từng bước | Nguồn duy nhất về tiến độ |
-| [docs/PROGRESS.md](docs/PROGRESS.md) | Bản chụp tiến độ để đọc nhanh (tổng hợp từ LEDGER, có ước tính chi phí) | Chỉ tham khảo |
+| [docs/PROGRESS.md](docs/PROGRESS.md) | Bản chụp tiến độ để đọc nhanh (tổng hợp từ LEDGER) | Chỉ tham khảo |
 | `docs/specs/<module>/decisions.md` | Quyết định phát sinh khi làm (tạo khi cần) | |
 | [docs/design/](docs/design/index.html) | UI cuối (HTML/CSS/JS tĩnh), `DESIGN-HANDOFF.md`, `DESIGN-MANIFEST.json` | **Nguồn đúng về hình ảnh** |
 | `docs/ideas/` | Wireframe cũ | Chỉ tham khảo, design đã thay thế |
