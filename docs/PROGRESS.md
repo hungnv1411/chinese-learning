@@ -10,7 +10,7 @@
 | **Hoàn thành toàn dự án** | **≈ 23% số bước xong, ≈ 30% tính cả bước làm dở** (36 ✅ · 11 🟨 · 86 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **683 test xanh**: web 194, core 171, pipeline 308 (nhiều test chạy với Postgres thật) |
+| Test | **673 test xanh**: web 194, core 171, pipeline 308 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
