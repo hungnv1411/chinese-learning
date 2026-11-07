@@ -71,12 +71,10 @@ services:
       R2_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
       R2_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
       R2_BUCKET: ${R2_BUCKET:-}
-      # Soạn nội dung bằng AI (02-5…): để trống thì chỉ chạy được --dry-run
-      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      # Soạn nội dung bằng AI (02-5…): qua Claude Code CLI, xem dịch vụ py-claude bên dưới
       CLP_AUTHOR_MODEL: ${CLP_AUTHOR_MODEL:-claude-opus-5-5}
       CLP_REVIEW_MODEL: ${CLP_REVIEW_MODEL:-claude-sonnet-5-5}
       CLP_AUTHOR_EFFORT: ${CLP_AUTHOR_EFFORT:-high}
-      CLP_FALLBACKS: ${CLP_FALLBACKS:-1}
       UV_PROJECT_ENVIRONMENT: /venv
       UV_LINK_MODE: copy
       PIP_ROOT_USER_ACTION: ignore
@@ -86,6 +84,21 @@ services:
       - pipeline_venv:/venv
       - uv_cache:/root/.cache/uv
     entrypoint: ['sh', '-c', 'pip install -q uv && exec uv "$@"', '--']
+
+  # Như py-pipeline, thêm Claude Code CLI của máy host (đã đăng nhập) để chạy `clp plan-units`,
+  # `clp author-unit`. Chỉ tạo dịch vụ này khi cần: nếu host chưa có file CLI hoặc đăng nhập,
+  # Docker không khởi động được container.
+  #   src/deploy/dev.sh run --rm py-claude run clp plan-units hsk1
+  py-claude:
+    extends:
+      service: py-pipeline
+    profiles: [tools]
+    environment:
+      CLP_CLAUDE_BIN: /usr/local/bin/claude
+      HOME: /root
+    volumes:
+      - ${CLP_CLAUDE_HOST_BIN:-${HOME}/.local/bin/claude}:/usr/local/bin/claude:ro
+      - ${CLP_CLAUDE_HOST_CREDENTIALS:-${HOME}/.claude/.credentials.json}:/root/.claude/.credentials.json
 
   py-speech:
     profiles: [tools]

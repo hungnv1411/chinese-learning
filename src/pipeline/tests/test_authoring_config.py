@@ -7,7 +7,7 @@ def test_defaults_match_the_plan():
         author_model="claude-opus-5-5",
         review_model="claude-sonnet-5-5",
         effort="high",
-        fallbacks=True,
+        claude_bin="claude",
     )
     assert cfg.author_model != cfg.review_model  # spec: lượt rà soát dùng model khác lượt soạn
 
@@ -18,14 +18,14 @@ def test_environment_overrides():
             "CLP_AUTHOR_MODEL": "claude-fable-5-1",
             "CLP_REVIEW_MODEL": "claude-opus-5-5",
             "CLP_AUTHOR_EFFORT": "xhigh",
-            "CLP_FALLBACKS": "0",
+            "CLP_CLAUDE_BIN": "/opt/claude",
         }
     )
-    assert (cfg.author_model, cfg.review_model, cfg.effort, cfg.fallbacks) == (
+    assert (cfg.author_model, cfg.review_model, cfg.effort, cfg.claude_bin) == (
         "claude-fable-5-1",
         "claude-opus-5-5",
         "xhigh",
-        False,
+        "/opt/claude",
     )
 
 

@@ -1,13 +1,16 @@
-"""Gọi Claude để lấy đầu ra JSON theo schema (structured outputs). Tách khỏi nghiệp vụ để test bằng model giả."""
+"""Gọi Claude qua Claude Code CLI (`claude -p`) để lấy đầu ra JSON theo schema. Tách khỏi nghiệp vụ để test bằng model giả."""
 
 import json
+import os
+import subprocess
+import tempfile
+from collections.abc import Callable
+from pathlib import Path
 from typing import Any, Protocol
-
-FALLBACK_BETA = "server-side-fallback-2026-07-01"
 
 
 class LlmRefusal(RuntimeError):
-    """Bộ phân loại an toàn từ chối yêu cầu (stop_reason = refusal)."""
+    """Model từ chối yêu cầu (stop_reason = refusal)."""
 
 
 class LlmTruncated(RuntimeError):
@@ -27,17 +30,25 @@ class JsonModel(Protocol):
     ) -> Any: ...
 
 
-class AnthropicJson:
-    """Một lượt gọi Messages API, streaming (đầu ra dài), trả về JSON đã parse.
+class ClaudeCliJson:
+    """Một lượt `claude -p` (Claude Code CLI), trả về JSON đã parse theo `schema`.
 
-    Claude Opus 5.5: không gửi `thinking: disabled`, `temperature`/`top_p`/`top_k` hay `tool_choice`
-    ép buộc (đều bị từ chối); độ sâu suy luận điều khiển bằng `effort`. `fallbacks="default"` để
-    bộ phân loại an toàn từ chối thì server tự chuyển sang model dự phòng trong cùng lời gọi.
+    Dùng đăng nhập sẵn có của Claude Code (gói đăng ký), không cần `ANTHROPIC_API_KEY`: biến này bị
+    bỏ khỏi môi trường con để CLI không chuyển sang tính tiền theo API. Chạy ở thư mục tạm trống,
+    không công cụ (`--tools ""`), không nạp cài đặt/hook/CLAUDE.md của người dùng hay dự án
+    (`--setting-sources ""`), không lưu phiên. Prompt đi qua stdin và file, tránh giới hạn độ dài
+    đối số dòng lệnh.
     """
 
-    def __init__(self, client: Any, fallbacks: bool = True):
-        self.client = client
-        self.fallbacks = fallbacks
+    def __init__(
+        self,
+        claude_bin: str = "claude",
+        runner: Callable[..., Any] = subprocess.run,
+        timeout_s: int = 3600,
+    ):
+        self.claude_bin = claude_bin
+        self.runner = runner
+        self.timeout_s = timeout_s
 
     def generate(
         self,
@@ -49,29 +60,52 @@ class AnthropicJson:
         effort: str,
         max_tokens: int,
     ) -> Any:
-        kwargs: dict[str, Any] = {
-            "model": model,
-            "max_tokens": max_tokens,
-            "system": system,
-            "messages": [{"role": "user", "content": user}],
-            "output_config": {
-                "effort": effort,
-                "format": {"type": "json_schema", "schema": schema},
-            },
-        }
-        if self.fallbacks:
-            kwargs["betas"] = [FALLBACK_BETA]
-            kwargs["fallbacks"] = "default"
-        with self.client.beta.messages.stream(**kwargs) as stream:
-            message = stream.get_final_message()
-        if message.stop_reason == "refusal":
-            details = getattr(message, "stop_details", None)
-            category = getattr(details, "category", None)
-            raise LlmRefusal(f"Model từ chối yêu cầu (category: {category})")
-        if message.stop_reason == "max_tokens":
-            raise LlmTruncated(f"Đầu ra bị cắt ở max_tokens={max_tokens}")
-        text = next((b.text for b in message.content if b.type == "text"), "")
+        env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}
+        env["CLAUDE_CODE_MAX_OUTPUT_TOKENS"] = str(max_tokens)
+        with tempfile.TemporaryDirectory(prefix="clp-claude-") as tmp:
+            system_file = Path(tmp) / "system.txt"
+            system_file.write_text(system, encoding="utf-8")
+            cmd = [
+                self.claude_bin, "-p",
+                "--output-format", "json",
+                "--json-schema", json.dumps(schema, ensure_ascii=False),
+                "--system-prompt-file", str(system_file),
+                "--model", model,
+                "--effort", effort,
+                "--tools", "",
+                "--setting-sources", "",
+                "--no-session-persistence",
+                "--disable-slash-commands",
+                "--strict-mcp-config",
+            ]  # fmt: skip
+            try:
+                proc = self.runner(
+                    cmd, input=user, capture_output=True, text=True, encoding="utf-8",
+                    cwd=tmp, env=env, timeout=self.timeout_s,
+                )  # fmt: skip
+            except FileNotFoundError as e:
+                raise RuntimeError(
+                    f"Không chạy được {self.claude_bin!r}: cài Claude Code CLI và đăng nhập, "
+                    "hoặc đặt CLP_CLAUDE_BIN trỏ tới file chạy."
+                ) from e
         try:
-            return json.loads(text)
+            out = json.loads(proc.stdout)
+        except json.JSONDecodeError:
+            out = None
+        if proc.returncode != 0 or not isinstance(out, dict):
+            detail = (out or {}).get("result") if isinstance(out, dict) else None
+            raise RuntimeError(
+                f"claude -p lỗi (mã {proc.returncode}): {detail or proc.stderr.strip() or proc.stdout[:300]}"
+            )
+        if out.get("stop_reason") == "refusal":
+            raise LlmRefusal("Model từ chối yêu cầu")
+        if out.get("stop_reason") == "max_tokens":
+            raise LlmTruncated(f"Đầu ra bị cắt ở max_tokens={max_tokens}")
+        if out.get("is_error"):
+            raise RuntimeError(f"claude -p lỗi: {out.get('result')}")
+        if out.get("structured_output") is not None:
+            return out["structured_output"]
+        try:
+            return json.loads(out.get("result") or "")
         except json.JSONDecodeError as e:
             raise ValueError(f"Đầu ra của model không phải JSON hợp lệ: {e}") from e

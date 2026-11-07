@@ -334,16 +334,16 @@ def plan_units_cmd(
         PIPELINE_DIR.parents[1] / "content"
     ),
     dry_run: Annotated[
-        bool, typer.Option("--dry-run", help="Chỉ in cỡ đầu vào, không gọi API.")
+        bool, typer.Option("--dry-run", help="Chỉ in cỡ đầu vào, không gọi Claude.")
     ] = False,
     max_repairs: Annotated[int, typer.Option(help="Số lần gửi lại để sửa lỗi phủ.")] = 2,
     force: Annotated[bool, typer.Option("--force", help="Ghi đè dù đã có file chủ đề.")] = False,
 ) -> None:
-    """02-5: AI chia từ và ngữ pháp HSK thành chủ đề -> content/<lộ trình>/_plan.yaml (gọi API trả phí)."""
+    """02-5: AI chia từ và ngữ pháp HSK thành chủ đề -> content/<lộ trình>/_plan.yaml (gọi Claude Code CLI)."""
     import datetime
 
     from clp.authoring.config import load_config
-    from clp.authoring.llm import AnthropicJson
+    from clp.authoring.llm import ClaudeCliJson
     from clp.authoring.plan_units import (
         PlanError,
         build_prompt,
@@ -369,10 +369,8 @@ def plan_units_cmd(
     )
     if dry_run:
         return
-    import anthropic
-
     cfg = load_config()
-    llm = AnthropicJson(anthropic.Anthropic(), fallbacks=cfg.fallbacks)
+    llm = ClaudeCliJson(cfg.claude_bin)
     try:
         result = plan_stage(
             llm, inputs, author_model=cfg.author_model, effort=cfg.effort, max_repairs=max_repairs
@@ -401,7 +399,7 @@ def author_unit_cmd(
         PIPELINE_DIR.parents[1] / "content"
     ),
     dry_run: Annotated[
-        bool, typer.Option("--dry-run", help="Chỉ in đầu vào, không gọi API.")
+        bool, typer.Option("--dry-run", help="Chỉ in đầu vào, không gọi Claude.")
     ] = False,
     max_rounds: Annotated[int, typer.Option(help="Số lần sửa tối đa sau lượt soạn đầu.")] = 2,
     strict: Annotated[
@@ -409,7 +407,7 @@ def author_unit_cmd(
     ] = False,
     force: Annotated[bool, typer.Option("--force", help="Soạn lại dù đã có file chủ đề.")] = False,
 ) -> None:
-    """02-6: AI soạn một chủ đề, model khác rà soát, máy kiểm tra (gọi API trả phí)."""
+    """02-6: AI soạn một chủ đề, model khác rà soát, máy kiểm tra (gọi Claude Code CLI)."""
     import datetime
 
     import yaml
@@ -421,7 +419,7 @@ def author_unit_cmd(
         load_unit_inputs,
     )
     from clp.authoring.config import load_config
-    from clp.authoring.llm import AnthropicJson
+    from clp.authoring.llm import ClaudeCliJson
     from clp.content.check import load_content
     from clp.db import connect
 
@@ -446,9 +444,7 @@ def author_unit_cmd(
                 f"{len(inputs.missing_han_viet)} chữ thiếu Hán Việt; prompt {len(system) + len(user)} ký tự"
             )
             return
-        import anthropic
-
-        client = AnthropicJson(anthropic.Anthropic(), fallbacks=cfg.fallbacks)
+        client = ClaudeCliJson(cfg.claude_bin)
         try:
             res = author_unit_loop(
                 conn, content_dir, loaded, entry, plan,

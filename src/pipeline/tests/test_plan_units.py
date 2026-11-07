@@ -1,12 +1,13 @@
 """02-5: plan_units chia từ và ngữ pháp HSK thành chủ đề (model giả, không gọi API)."""
 
 import json
+from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
 import yaml
 
-from clp.authoring.llm import AnthropicJson, LlmRefusal, LlmTruncated
+from clp.authoring.llm import ClaudeCliJson, LlmRefusal, LlmTruncated
 from clp.authoring.plan_units import (
     GrammarItem,
     PlanError,
@@ -197,89 +198,96 @@ class TestWritePlan:
         ]
 
 
-class TestAnthropicJson:
-    class FakeStream:
-        def __init__(self, message):
-            self.message = message
+class TestClaudeCliJson:
+    """Gọi `claude -p` (Claude Code CLI) thay cho API: kiểm tra dòng lệnh, đầu vào và các lỗi."""
 
-        def __enter__(self):
-            return self
-
-        def __exit__(self, *a):
-            return False
-
-        def get_final_message(self):
-            return self.message
-
-    def client(self, message):
+    def runner(self, payload=None, returncode=0, stderr=""):
         calls = []
 
-        def stream(**kw):
-            calls.append(kw)
-            return self.FakeStream(message)
+        def run(cmd, **kw):
+            calls.append((cmd, kw))
+            body = json.dumps(payload if payload is not None else {"structured_output": {"units": [1]}})
+            return SimpleNamespace(returncode=returncode, stdout=body, stderr=stderr)
 
-        return SimpleNamespace(beta=SimpleNamespace(messages=SimpleNamespace(stream=stream))), calls
+        return run, calls
 
-    def message(self, text='{"units": []}', stop="end_turn", details=None):
-        return SimpleNamespace(
-            stop_reason=stop,
-            stop_details=details,
-            content=[
-                SimpleNamespace(type="thinking", thinking=""),
-                SimpleNamespace(type="text", text=text),
-            ],
+    def generate(self, run, **over):
+        args = {
+            "system": "S", "user": "U", "schema": {"type": "object"},
+            "model": "claude-opus-5-5", "effort": "high", "max_tokens": 64000,
+        }  # fmt: skip
+        args.update(over)
+        return ClaudeCliJson(runner=run).generate(**args)
+
+    def test_command_shape_and_parsing(self):
+        run, calls = self.runner()
+        assert self.generate(run) == {"units": [1]}
+        ((cmd, kw),) = calls
+        assert cmd[:2] == ["claude", "-p"]
+        flag = lambda name: cmd[cmd.index(name) + 1]
+        assert flag("--model") == "claude-opus-5-5" and flag("--effort") == "high"
+        assert flag("--output-format") == "json"
+        assert json.loads(flag("--json-schema")) == {"type": "object"}
+        assert flag("--tools") == ""  # không cho dùng công cụ nào
+        assert flag("--setting-sources") == ""  # không nạp hook/CLAUDE.md của người dùng hay dự án
+        for must in ("--no-session-persistence", "--disable-slash-commands", "--strict-mcp-config"):
+            assert must in cmd
+        # prompt dài đi qua stdin và file, không qua đối số dòng lệnh
+        assert kw["input"] == "U" and "U" not in cmd and "S" not in cmd
+        assert kw["env"]["CLAUDE_CODE_MAX_OUTPUT_TOKENS"] == "64000"
+        assert kw["env"].get("ANTHROPIC_API_KEY") is None  # dùng đăng nhập của Claude Code
+
+    def test_system_prompt_is_passed_by_file_with_the_text(self):
+        seen = {}
+
+        def run(cmd, **kw):
+            path = cmd[cmd.index("--system-prompt-file") + 1]
+            seen["text"] = Path(path).read_text(encoding="utf-8")
+            seen["cwd"] = kw["cwd"]
+            return SimpleNamespace(returncode=0, stdout='{"structured_output": {}}', stderr="")
+
+        self.generate(run, system="Bạn là biên tập viên.")
+        assert seen["text"] == "Bạn là biên tập viên."
+        assert Path(seen["cwd"]).resolve() != Path.cwd().resolve()  # chạy ở thư mục trống
+
+    def test_falls_back_to_result_text_when_no_structured_output(self):
+        run, _ = self.runner({"result": '{"units": [2]}'})
+        assert self.generate(run) == {"units": [2]}
+
+    def test_custom_binary(self):
+        run, calls = self.runner()
+        ClaudeCliJson(claude_bin="/opt/claude", runner=run).generate(
+            system="", user="", schema={}, model="m", effort="low", max_tokens=1
         )
-
-    def test_request_shape_and_parsing(self):
-        client, calls = self.client(self.message('{"units": [1]}'))
-        out = AnthropicJson(client).generate(
-            system="S",
-            user="U",
-            schema={"type": "object"},
-            model="claude-opus-5-5",
-            effort="high",
-            max_tokens=64000,
-        )
-        assert out == {"units": [1]}
-        (kw,) = calls
-        assert kw["model"] == "claude-opus-5-5" and kw["max_tokens"] == 64000
-        assert kw["system"] == "S" and kw["messages"] == [{"role": "user", "content": "U"}]
-        assert kw["output_config"] == {
-            "effort": "high",
-            "format": {"type": "json_schema", "schema": {"type": "object"}},
-        }
-        assert kw["fallbacks"] == "default" and kw["betas"] == ["server-side-fallback-2026-07-01"]
-        # các tham số bị Claude Opus 5.5 từ chối thì không được gửi
-        for banned in ("temperature", "top_p", "top_k", "tool_choice", "thinking"):
-            assert banned not in kw
-
-    def test_fallbacks_can_be_turned_off(self):
-        client, calls = self.client(self.message())
-        AnthropicJson(client, fallbacks=False).generate(
-            system="S", user="U", schema={}, model="m", effort="low", max_tokens=10
-        )
-        assert "fallbacks" not in calls[0] and "betas" not in calls[0]
+        assert calls[0][0][0] == "/opt/claude"
 
     def test_refusal_and_truncation_are_explicit_errors(self):
-        client, _ = self.client(
-            self.message(stop="refusal", details=SimpleNamespace(category="cyber", explanation="x"))
-        )
-        with pytest.raises(LlmRefusal, match="cyber"):
-            AnthropicJson(client).generate(
-                system="", user="", schema={}, model="m", effort="low", max_tokens=1
-            )
-        client, _ = self.client(self.message(stop="max_tokens"))
+        run, _ = self.runner({"stop_reason": "refusal", "result": "", "is_error": False})
+        with pytest.raises(LlmRefusal):
+            self.generate(run)
+        run, _ = self.runner({"stop_reason": "max_tokens", "result": "{", "is_error": False})
         with pytest.raises(LlmTruncated):
-            AnthropicJson(client).generate(
-                system="", user="", schema={}, model="m", effort="low", max_tokens=1
-            )
+            self.generate(run)
+
+    def test_cli_failure_is_reported_with_its_message(self):
+        run, _ = self.runner({"is_error": True, "result": "Not logged in"})
+        with pytest.raises(RuntimeError, match="Not logged in"):
+            self.generate(run)
+        run, _ = self.runner(returncode=1, stderr="boom")
+        with pytest.raises(RuntimeError, match="boom"):
+            self.generate(run)
+
+    def test_missing_binary_has_a_helpful_message(self):
+        def run(cmd, **kw):
+            raise FileNotFoundError(cmd[0])
+
+        with pytest.raises(RuntimeError, match="CLP_CLAUDE_BIN"):
+            self.generate(run)
 
     def test_invalid_json_text_is_reported(self):
-        client, _ = self.client(self.message("không phải json"))
+        run, _ = self.runner({"result": "không phải json"})
         with pytest.raises(ValueError, match="JSON"):
-            AnthropicJson(client).generate(
-                system="", user="", schema={}, model="m", effort="low", max_tokens=1
-            )
+            self.generate(run)
 
 
 def test_load_stage_inputs_groups_readings_and_adds_gloss(db_conn):
