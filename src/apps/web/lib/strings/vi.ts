@@ -94,6 +94,16 @@ export const vi = {
     tooMany: 'Bạn đã gửi quá nhiều báo lỗi hôm nay. Hãy thử lại vào ngày mai.',
     failed: 'Chưa gửi được báo lỗi, hãy thử lại.',
   },
+  writing: {
+    padLabel: 'Ô tập viết',
+    strokeOf: (i: number, n: number) => `Nét ${i}/${n}`,
+    wrongStroke: (n: number) => `Nét ${n} chưa đúng`,
+    replay: 'Phát lại',
+    nextStroke: 'Nét tiếp theo',
+    reviewOrder: 'Xem lại thứ tự nét',
+    loading: 'Đang tải nét chữ…',
+    missingStrokes: 'Chữ này chưa có dữ liệu nét, bạn có thể đi tiếp.',
+  },
   footer: {
     sourcesAndLicenses: 'Nguồn dữ liệu và giấy phép',
     credits: (list: string[]) => `Nguồn: ${list.join(' · ')} · `,

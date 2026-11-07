@@ -7,10 +7,10 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 22% số bước xong, ≈ 29% tính cả bước làm dở** (29 ✅ · 9 🟨 · 95 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 22% số bước xong, ≈ 30% tính cả bước làm dở** (29 ✅ · 10 🟨 · 94 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **581 test xanh**: web 149, core 128, pipeline 304 (nhiều test chạy với Postgres thật) |
+| Test | **594 test xanh**: web 162, core 128, pipeline 304 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -20,7 +20,7 @@
 | M0 | Spec, design, plan | – | – | – | ✅ |
 | M1 | Nền tảng: repo, DB, đăng nhập, design system | 10 | 4 | 0 | 🟨 còn kiểm tra giao diện trên trình duyệt |
 | M2 | Pipeline dữ liệu | 10 | 0 | 2 | 🟨 còn audio TTS (01-7a, 01-7b) |
-| M3 | Từ điển | 4 | 3 | 4 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
+| M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
 | M5 | Dịch vụ chấm phát âm | 0 | 0 | 9 | ⬜ |
 | M6 | Học: bài học, viết, nói, ôn tập | 0 | 0 | 32 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |

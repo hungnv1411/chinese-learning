@@ -78,7 +78,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 32 | 11-4 | Trang từ `/tu/[word]` (SSR, cache 1 ngày) | 11-2, 13-4, 13-5 | 🟨 | Nút “Thêm vào ôn tập” nối 09-2 sau. web 127 + core 91 test xanh (20 mới: dữ liệu với Postgres thật, SEO, WordView); chạy thật trên 125 nghìn mục: `/tu/好吃` 2 khối, `/tu/行` 3 khối, 404. Còn thiếu: nút “Thêm vào ôn tập” (cần 09, 03), kiểm tra 360/1440px bằng trình duyệt |
 | 33 | 11-5 | Audio theo yêu cầu, giới hạn 500/ngày | 11-4, 01-7b | ⬜ | |
 | 34 | 07-1 | `writingScore` | 00-6 | ✅ | core 104 test xanh (13 mới: các giá trị của plan, trần gợi ý, đầu vào không hợp lệ). `misses` không hợp lệ thì ném RangeError |
-| 35 | 07-2 | `WritingPad` (hanzi-writer, 3 chế độ, `touch-action: none`) | 07-1, 01-5 | ⬜ | |
+| 35 | 07-2 | `WritingPad` (hanzi-writer, 3 chế độ, `touch-action: none`) | 07-1, 01-5 | 🟨 | web 162 test xanh (13 mới, hanzi-writer giả: 3 lần sai → `usedHint`, recall 2 lần sai → 80, `touch-action: none`, “Xem lại thứ tự nét”, không có nút bỏ qua, thiếu dữ liệu nét). Chưa thử với hanzi-writer thật, chưa có Playwright cảm ứng 390×844 hay thử tay iOS/Android (plan bước 7) |
 | 36 | 11-6 | Trang chữ `/chu/[char]` | 07-2, 11-4 | ⬜ | |
 | 37 | 11-7 | Sitemap, robots | 11-6 | ⬜ | |
 
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
 | 2026-11-06 | Thêm `docs/PROGRESS.md` (bản chụp tiến độ); cập nhật bảng mốc M1–M4 sang 🟨 |
 | 2026-11-05 | 02-6 (chưa gọi API thật): `clp/authoring/{author_unit,review_unit}.py`, lệnh `clp author-unit`; nối crosscheck vào `check_loaded` (sửa lỗi 02-7) |
 | 2026-11-05 | 02-7 xong: `clp/content/crosscheck.py`, nối vào `check-content`/`import-content`, `new_words.pinyin` |

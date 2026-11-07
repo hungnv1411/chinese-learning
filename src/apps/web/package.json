@@ -16,6 +16,7 @@
     "@clp/core": "workspace:*",
     "better-auth": "^1.2.0",
     "drizzle-orm": "^0.38.0",
+    "hanzi-writer": "^3.7.3",
     "next": "^15.1.0",
     "postgres": "^3.4.0",
     "react": "^19.0.0",
