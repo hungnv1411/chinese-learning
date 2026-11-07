@@ -115,7 +115,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 57 | 09-1 | `srs.ts` (ts-fsrs, mức độ thuộc, giới hạn ngày) | 00-6 | ⬜ | |
+| 57 | 09-1 | `srs.ts` (ts-fsrs, mức độ thuộc, giới hạn ngày) | 00-6 | ✅ | core 152 test xanh (24 mới: thẻ mới qua good, `previewIntervals` 2/4 nút, nhãn khoảng, mức độ thuộc theo bảng spec §6). Phát hiện: `srs_card` thiếu cột `learning_steps` → làm ở 09-2 (xem 09-review/decisions.md) |
 | 58 | 09-2 | `cards.ts` (tạo thẻ, ghi ôn từ bài tập, `speakingFail`, `bumpDue`, `addFromDictionary`) | 09-1, 00-4 | ⬜ | Nối nút ở 11-4 |
 | 59 | 05-1 | `unlock.ts` (test đầy đủ) | 02-1 | ⬜ | Kéo lên vì 06 cần chặn bài khóa |
 | 60 | 05-2 | `/api/path`, `assertLessonOpen` | 05-1, 02-3 | ⬜ | |
@@ -234,6 +234,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | Ngày | Việc |
 |---|---|
 | 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
+| 2026-11-07 | 09-1 xong: `packages/core/src/srs.ts` (ts-fsrs 6.0.0) |
 | 2026-11-07 | 07-6 xong (nghiên cứu): không có nguồn loại nét phù hợp, bỏ tên nét; 07-7 bỏ qua theo chủ dự án |
 | 2026-11-07 | 07-5 xong: `CharAnalysis` |
 | 2026-11-07 | 07-4 xong: `WritingQuiz` |
