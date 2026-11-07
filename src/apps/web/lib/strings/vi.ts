@@ -96,6 +96,8 @@ export const vi = {
   },
   writing: {
     padLabel: 'Ô tập viết',
+    modesLabel: 'Chế độ luyện viết',
+    modes: { watch: 'Xem', trace: 'Viết theo', recall: 'Tự viết' },
     strokeOf: (i: number, n: number) => `Nét ${i}/${n}`,
     wrongStroke: (n: number) => `Nét ${n} chưa đúng`,
     replay: 'Phát lại',
