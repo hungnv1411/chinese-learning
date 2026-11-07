@@ -126,7 +126,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 65 | 07-3 | `WritingStep` + ghi `char_written` | 07-2 | 🟨 | web 167 test xanh (5 mới: khóa chế độ sau, Tự viết xong gọi `onComplete`, `onCharWritten` chỉ lần đạt đầu). Còn thiếu: API/gateway ghi `char_written` và nối `completeStep` (làm ở 06) |
 | 66 | 07-4 | `WritingQuiz` | 07-2 | ✅ | web 170 test xanh (3 mới: chỉ Tự viết, không có tab, gửi `{ char, misses, usedHint, score }`, hiện đề). Nối vào bài ôn, bài kiểm tra, thẻ ôn ở 06/09/12 |
 | 67 | 07-5 | Phân tích chữ dưới ô | 07-2 | ✅ | web 173 test xanh (3 mới: số nét, bộ thủ + tên + nghĩa, thiếu dữ liệu). `CharAnalysis` nhận dữ liệu qua props; nơi dùng lấy từ `CharInfo` (11-4). Tên nét đang vẽ chờ 07-6 |
-| 68 | 07-6 | Tìm hiểu tên nét tiếng Việt → `decisions.md` | 07-2 | ⬜ | Quyết định chờ Q3 |
+| 68 | 07-6 | Tìm hiểu tên nét tiếng Việt → `decisions.md` | 07-2 | ✅ | Nghiên cứu xong: chưa có nguồn mở đủ điều kiện, bản đầu bỏ tên nét, chỉ hiện “Nét i/n” (xem 07-writing/decisions.md). Q3 = không |
 | 69 | 08b-1 | API proxy `/api/speech/score` | 08a-7, 00-API | ⬜ | |
 | 70 | 08b-2 | `useRecorder` | 00-UI4 | ⬜ | |
 | 71 | 08b-3 | Quyền micro, màn `#blocked` | 08b-2 | ⬜ | |
@@ -146,7 +146,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 85 | 09-4 | API ôn tập, bật/tắt kiểu thẻ | 09-3 | ⬜ | |
 | 86 | 09-5 | Màn hình ôn tập | 09-4, 07-4, 11-4 | ⬜ | |
 | 87 | 06-11 | Playwright bài học + đo mở bài < 1,5 giây | 06-10, 10-5 | ⬜ | |
-| 88 | 07-7 | Thử viết trên iOS / Android thật | 07-3 | ⬜ | |
+| 88 | 07-7 | Thử viết trên iOS / Android thật | 07-3 | ⬜ | Bỏ qua theo chủ dự án (2026-11-07); không chặn bước nào. Rủi ro còn lại: chưa kiểm chứng `touch-action: none` trên máy thật |
 
 ## M7 — Lộ trình, Hôm nay, đăng nhập · [05](05-learning-path/plan.md) · [04](04-home/plan.md) · [03](03-auth/plan.md)
 
@@ -221,7 +221,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 |---|---|---|---|
 | Q1 | TTS đọc âm tiết đứng riêng (SSML phoneme) có tự nhiên không, hay phải đọc chữ ví dụ | 01-7a | – |
 | Q2 | Đọc chậm bằng file `.slow.mp3` hay `playbackRate` ở client (`AUDIO_SLOW_MODE`) | 01-7a | – |
-| Q3 | Có nguồn mở cho loại nét để hiện tên nét tiếng Việt không | 07-6 | – |
+| Q3 | Có nguồn mở cho loại nét để hiện tên nét tiếng Việt không | 07-6 | Không (2026-11-07): bỏ tên nét ở bản đầu |
 
 ## Việc đang chặn
 
@@ -234,6 +234,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | Ngày | Việc |
 |---|---|
 | 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
+| 2026-11-07 | 07-6 xong (nghiên cứu): không có nguồn loại nét phù hợp, bỏ tên nét; 07-7 bỏ qua theo chủ dự án |
 | 2026-11-07 | 07-5 xong: `CharAnalysis` |
 | 2026-11-07 | 07-4 xong: `WritingQuiz` |
 | 2026-11-07 | 07-3 (🟨): `WritingStep` (Xem → Viết theo → Tự viết, khóa chế độ sau) |

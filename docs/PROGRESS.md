@@ -7,7 +7,7 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 23% số bước xong, ≈ 30% tính cả bước làm dở** (31 ✅ · 11 🟨 · 91 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 23% số bước xong, ≈ 30% tính cả bước làm dở** (32 ✅ · 11 🟨 · 90 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
 | Test | **605 test xanh**: web 173, core 128, pipeline 304 (nhiều test chạy với Postgres thật) |
@@ -23,7 +23,7 @@
 | M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
 | M5 | Dịch vụ chấm phát âm | 0 | 0 | 9 | ⬜ |
-| M6 | Học: bài học, viết, nói, ôn tập | 2 | 1 | 29 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
+| M6 | Học: bài học, viết, nói, ôn tập | 3 | 1 | 28 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
 | M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 0 | 0 | 15 | ⬜ |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
 | M9 | Kiểm tra cuối, chứng nhận, trang Tôi | 0 | 0 | 19 | ⬜ |
@@ -64,11 +64,12 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 4. **Âm Hán Việt từ Unihan kém hơn kỳ vọng:** 123/900 chữ HSK 1–3 thiếu, một số sai (好 chỉ ra `háo`, 吗 ra `mửa`). Cần bổ sung qua `overrides/han_viet.yaml`.
 5. Số liệu lệch chuẩn (chỉ cảnh báo): HSK 1 có 512 từ (chuẩn 500), HSK 2 có 776 (772) và 82 ngữ pháp (81).
 6. Fallback phía server + structured outputs chưa thử với API thật; URL giấy phép của Creative Commons, Unicode, Microsoft chưa kiểm tra được bằng mạng.
-7. `complete-hsk-vocabulary` có trong `sources.yaml` nhưng chưa dùng; nên xóa nếu không dùng.
+7. **Tên nét tiếng Việt (Q3):** đã nghiên cứu, không có nguồn đủ điều kiện nên bản đầu bỏ tên nét (chi tiết ở `07-writing/decisions.md`). Muốn có sau này: tự suy 5 nét cơ bản từ median.
+8. `complete-hsk-vocabulary` có trong `sources.yaml` nhưng chưa dùng; nên xóa nếu không dùng.
 
 ## 5. Đề xuất bước tiếp theo
 1. **Mở khóa nội dung** (quan trọng nhất): bạn cung cấp `ANTHROPIC_API_KEY` → chạy `plan-units hsk1` → `author-unit hsk1 hsk1-u01` → xem `_meta` → nhập vào DB dev. Từ đó mới làm được các màn hình học trên dữ liệu thật.
-2. Sau đó làm **M6** theo thứ tự trong LEDGER: trình chạy bài (06), `WritingPad` (07-2, cần trình duyệt), nói (08b, cần dịch vụ chấm), SRS ôn tập (09).
+2. Sau đó làm **M6** theo thứ tự trong LEDGER: trình chạy bài (06), `WritingPad` (07-2 đã có, 07-7 thử máy thật đã bỏ qua), nói (08b, cần dịch vụ chấm), SRS ôn tập (09).
 3. Song song, những việc không cần khóa hay trình duyệt: `srs.ts`, `computeUnlockState`, `streak.ts`, `today.ts`, `guest.ts` trong `packages/core` (hàm thuần, test được ngay), dịch vụ `speech` (08a, Python).
 
 ## 6. Cách xem và chạy
