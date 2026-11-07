@@ -4,4 +4,5 @@ export * from './sandhi';
 export * from './dictionary';
 export * from './scoring';
 export * from './srs';
+export * from './unlock';
 export * from './content';
