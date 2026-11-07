@@ -125,7 +125,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 64 | 06-3 | Bài tập tự sinh | 06-2, 09-1 | ⬜ | |
 | 65 | 07-3 | `WritingStep` + ghi `char_written` | 07-2 | 🟨 | web 167 test xanh (5 mới: khóa chế độ sau, Tự viết xong gọi `onComplete`, `onCharWritten` chỉ lần đạt đầu). Còn thiếu: API/gateway ghi `char_written` và nối `completeStep` (làm ở 06) |
 | 66 | 07-4 | `WritingQuiz` | 07-2 | ✅ | web 170 test xanh (3 mới: chỉ Tự viết, không có tab, gửi `{ char, misses, usedHint, score }`, hiện đề). Nối vào bài ôn, bài kiểm tra, thẻ ôn ở 06/09/12 |
-| 67 | 07-5 | Phân tích chữ dưới ô | 07-2 | ⬜ | |
+| 67 | 07-5 | Phân tích chữ dưới ô | 07-2 | ✅ | web 173 test xanh (3 mới: số nét, bộ thủ + tên + nghĩa, thiếu dữ liệu). `CharAnalysis` nhận dữ liệu qua props; nơi dùng lấy từ `CharInfo` (11-4). Tên nét đang vẽ chờ 07-6 |
 | 68 | 07-6 | Tìm hiểu tên nét tiếng Việt → `decisions.md` | 07-2 | ⬜ | Quyết định chờ Q3 |
 | 69 | 08b-1 | API proxy `/api/speech/score` | 08a-7, 00-API | ⬜ | |
 | 70 | 08b-2 | `useRecorder` | 00-UI4 | ⬜ | |
@@ -234,6 +234,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | Ngày | Việc |
 |---|---|
 | 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
+| 2026-11-07 | 07-5 xong: `CharAnalysis` |
 | 2026-11-07 | 07-4 xong: `WritingQuiz` |
 | 2026-11-07 | 07-3 (🟨): `WritingStep` (Xem → Viết theo → Tự viết, khóa chế độ sau) |
 | 2026-11-06 | Thêm `docs/PROGRESS.md` (bản chụp tiến độ); cập nhật bảng mốc M1–M4 sang 🟨 |

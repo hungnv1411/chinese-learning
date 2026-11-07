@@ -100,6 +100,8 @@ export const vi = {
     modes: { watch: 'Xem', trace: 'Viết theo', recall: 'Tự viết' },
     strokeOf: (i: number, n: number) => `Nét ${i}/${n}`,
     wrongStroke: (n: number) => `Nét ${n} chưa đúng`,
+    strokeCount: (n: number) => `${n} nét`,
+    radical: 'Bộ',
     replay: 'Phát lại',
     nextStroke: 'Nét tiếp theo',
     reviewOrder: 'Xem lại thứ tự nét',
