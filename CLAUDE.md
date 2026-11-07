@@ -2,7 +2,7 @@
 
 Website tự học tiếng Trung cho người Việt, từ con số 0 đến HSK 3 (chuẩn HSK 2021). Phi lợi nhuận, mã nguồn mở, dùng dữ liệu mở. Học chủ yếu trên điện thoại, đủ 4 kỹ năng nghe, nói, đọc, viết. Có SRS, bài kiểm tra cuối và chứng nhận.
 
-**Trạng thái:** mới xong spec, design và plan. **Chưa có code.** Tiến độ xem ở [docs/specs/LEDGER.md](docs/specs/LEDGER.md).
+**Trạng thái:** đã xong spec, design, plan và một phần code (nền tảng, pipeline dữ liệu, từ điển, hệ thống nội dung). Tiến độ xem ở [docs/specs/LEDGER.md](docs/specs/LEDGER.md), bản đọc nhanh ở [docs/PROGRESS.md](docs/PROGRESS.md).
 
 ## Tài liệu
 
@@ -13,7 +13,7 @@ Website tự học tiếng Trung cho người Việt, từ con số 0 đến HSK
 | `docs/specs/<module>/plan.md` | Plan thực hiện của module (08 có `plan-speech-service.md` và `plan-speaking-ui.md`) | Cách làm, test cần viết |
 | [docs/specs/00-foundation/plan.md](docs/specs/00-foundation/plan.md) | Quy ước chung: cấu trúc repo, `packages/core`, design system, route, API, schema DB | Đọc trước khi làm module nào |
 | [docs/specs/LEDGER.md](docs/specs/LEDGER.md) | Thứ tự thực hiện và trạng thái từng bước | Nguồn duy nhất về tiến độ |
-| [docs/PROGRESS.md](docs/PROGRESS.md) | Bản chụp tiến độ để đọc nhanh (tổng hợp từ LEDGER) | Chỉ tham khảo |
+| [docs/PROGRESS.md](docs/PROGRESS.md) | Bản chụp tiến độ để đọc nhanh (tổng hợp từ LEDGER) | Cập nhật sau mỗi task |
 | `docs/specs/<module>/decisions.md` | Quyết định phát sinh khi làm (tạo khi cần) | |
 | [docs/design/](docs/design/index.html) | UI cuối (HTML/CSS/JS tĩnh), `DESIGN-HANDOFF.md`, `DESIGN-MANIFEST.json` | **Nguồn đúng về hình ảnh** |
 | `docs/ideas/` | Wireframe cũ | Chỉ tham khảo, design đã thay thế |
@@ -26,7 +26,8 @@ Khi spec và design khác nhau, làm theo bảng đối chiếu ở [00-foundati
 2. Đọc spec của module, plan của module, và các phần liên quan ở plan 00.
 3. Viết test trước, theo đúng ca kiểm thử và giá trị trong plan. Rồi viết code cho test xanh.
 4. Cập nhật `LEDGER.md`: trạng thái, ghi chú commit, một dòng nhật ký. Mỗi commit gắn với một mã bước.
-5. Làm khác plan, hoặc gặp chỗ plan chưa quyết: ghi vào `decisions.md` của module, sửa plan cho khớp.
+5. **Mỗi lần xong một task** (một bước LEDGER, hoặc việc ngoài LEDGER như sửa lỗi, đổi cấu hình) cập nhật [docs/PROGRESS.md](docs/PROGRESS.md) trước khi báo xong: ngày và commit ở đầu file, số bước ✅/🟨/⬜ và % hoàn thành (đếm từ LEDGER), bảng mốc, số test, mục "Đã làm được gì" và "Chưa làm và đang chờ" (thêm việc mới bị chặn, bỏ việc đã mở khóa). Làm cùng commit của task hoặc một commit `docs:` ngay sau. LEDGER vẫn là nguồn đúng: lệch thì sửa PROGRESS theo LEDGER.
+6. Làm khác plan, hoặc gặp chỗ plan chưa quyết: ghi vào `decisions.md` của module, sửa plan cho khớp.
 
 - Plan mới hoặc plan sửa lại đặt ở `docs/specs/<module>/plan.md`. **Không** dùng định dạng hay thư mục plan của superpowers.
 - Quyết định **D1–D16** trong spec README là của chủ dự án: không được đổi. Mục đánh dấu **[Đề xuất]** thì làm theo, chủ dự án có thể đổi sau.

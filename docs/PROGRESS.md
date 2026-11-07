@@ -1,6 +1,6 @@
 # Báo cáo tiến độ
 
-**Bản chụp ngày 2026-11-06**, nhánh `feat/pipeline` (commit `1bfb84f`). File này chỉ **tổng hợp** để đọc nhanh. Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
+**Bản chụp ngày 2026-11-06**, nhánh `feat/pipeline` (commit `1bfb84f`). File này chỉ **tổng hợp** để đọc nhanh và **được cập nhật sau mỗi task** (quy tắc ở [CLAUDE.md](../CLAUDE.md)). Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
 
 ## 1. Tóm tắt
 
