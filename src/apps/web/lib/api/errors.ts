@@ -21,6 +21,8 @@ export const errors = {
   forbidden: (message = 'Bạn không có quyền thực hiện thao tác này.') =>
     new ApiError(403, 'FORBIDDEN', message),
   notFound: (message = 'Không tìm thấy.') => new ApiError(404, 'NOT_FOUND', message),
+  lessonLocked: () =>
+    new ApiError(403, 'LESSON_LOCKED', 'Bài này chưa mở. Hãy hoàn thành bài trước đó.'),
   rateLimited: (retryAfterSec: number) =>
     new ApiError(429, 'RATE_LIMITED', 'Bạn thao tác quá nhanh, hãy thử lại sau ít phút.', {
       'Retry-After': String(retryAfterSec),

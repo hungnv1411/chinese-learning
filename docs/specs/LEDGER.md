@@ -118,7 +118,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 57 | 09-1 | `srs.ts` (ts-fsrs, mức độ thuộc, giới hạn ngày) | 00-6 | ✅ | core 152 test xanh (24 mới: thẻ mới qua good, `previewIntervals` 2/4 nút, nhãn khoảng, mức độ thuộc theo bảng spec §6). Phát hiện: `srs_card` thiếu cột `learning_steps` → làm ở 09-2 (xem 09-review/decisions.md) |
 | 58 | 09-2 | `cards.ts` (tạo thẻ, ghi ôn từ bài tập, `speakingFail`, `bumpDue`, `addFromDictionary`) | 09-1, 00-4 | ✅ | web 187 test xanh (14 mới, Postgres thật: lần ôn đầu good/again, `write` 1–2 chữ vs từng chữ, không trùng thẻ, cửa sổ 24 giờ, `speakingFail`, `addFromDictionary`, `bumpDue`). Migration 0004: `learning_steps` + sửa mặc định `review_buttons`/`review_card_types` cho khớp spec. Chưa nối API; nút ở 11-4 nối sau |
 | 59 | 05-1 | `unlock.ts` (test đầy đủ) | 02-1 | ✅ | core 171 test xanh (19 mới: mọi ca trong plan, gồm exam_skip, chủ đề chưa phát hành, tiến độ lệch; `lockReason` 7 ca). Quyết định phát sinh ở 05-learning-path/decisions.md |
-| 60 | 05-2 | `/api/path`, `assertLessonOpen` | 05-1, 02-3 | ⬜ | |
+| 60 | 05-2 | `/api/path`, `assertLessonOpen` | 05-1, 02-3 | ✅ | web 194 test xanh (7 mới, Postgres thật: bài khóa 403 `LESSON_LOCKED`, học lại bài xong được, 404, khách 401, dữ liệu hiển thị và `lockReason`). Chưa gắn guard vào API bài học (06-1); `GuestGateway.getPath()` làm sau |
 | 61 | 04-2 | `useActiveTimer` + ghi `daily_activity` | 00-API | ⬜ | |
 | 62 | 06-1 | `buildLessonPayload`, `GET /api/lessons/[id]` | 05-2, 02-D1 | ⬜ | |
 | 63 | 06-2 | Đáp án nhiễu | 06-1 | ⬜ | |
@@ -234,6 +234,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | Ngày | Việc |
 |---|---|
 | 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
+| 2026-11-07 | 05-2 xong: `lib/path/{load,guard,path}.ts`, `GET /api/path` |
 | 2026-11-07 | 05-1 xong: `packages/core/src/unlock.ts` (`computeUnlockState`, `lockReason`) |
 | 2026-11-07 | 09-2 xong: `lib/srs/cards.ts`, migration 0004 |
 | 2026-11-07 | 09-1 xong: `packages/core/src/srs.ts` (ts-fsrs 6.0.0) |
