@@ -7,10 +7,10 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 23% số bước xong, ≈ 30% tính cả bước làm dở** (33 ✅ · 11 🟨 · 89 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 23% số bước xong, ≈ 30% tính cả bước làm dở** (34 ✅ · 11 🟨 · 88 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **629 test xanh**: web 173, core 152, pipeline 304 (nhiều test chạy với Postgres thật) |
+| Test | **643 test xanh**: web 187, core 152, pipeline 304 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -23,7 +23,7 @@
 | M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
 | M5 | Dịch vụ chấm phát âm | 0 | 0 | 9 | ⬜ |
-| M6 | Học: bài học, viết, nói, ôn tập | 4 | 1 | 27 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
+| M6 | Học: bài học, viết, nói, ôn tập | 5 | 1 | 26 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
 | M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 0 | 0 | 15 | ⬜ |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
 | M9 | Kiểm tra cuối, chứng nhận, trang Tôi | 0 | 0 | 19 | ⬜ |

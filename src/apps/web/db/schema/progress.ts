@@ -28,8 +28,8 @@ export const userSettings = pgTable('user_settings', {
   showHanViet: boolean('show_han_viet').notNull().default(true),
   toneColors: boolean('tone_colors').notNull().default(true),
   traditional: boolean('traditional').notNull().default(false),
-  reviewButtons: smallint('review_buttons').notNull().default(4),
-  reviewCardTypes: text('review_card_types').array().notNull().default(['recognize']),
+  reviewButtons: smallint('review_buttons').notNull().default(2),
+  reviewCardTypes: text('review_card_types').array().notNull().default(['recognize', 'listen']),
   /** 'female' | 'male' */
   voice: text('voice').notNull().default('female'),
   /** 'hold' | 'toggle' */

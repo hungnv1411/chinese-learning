@@ -32,6 +32,8 @@ export const srsCard = pgTable(
     due: timestamp('due', { withTimezone: true }).notNull(),
     stability: real('stability').notNull().default(0),
     difficulty: real('difficulty').notNull().default(0),
+    /** Bước (re)learning hiện tại của FSRS; thiếu thì Again/Hard luôn về bước đầu. */
+    learningSteps: smallint('learning_steps').notNull().default(0),
     elapsedDays: integer('elapsed_days').notNull().default(0),
     scheduledDays: integer('scheduled_days').notNull().default(0),
     reps: integer('reps').notNull().default(0),
