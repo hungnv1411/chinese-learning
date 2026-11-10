@@ -152,7 +152,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 89 | 05-3 | Tiến độ lộ trình (màn C) | 05-2, 09-1 | ⬜ | |
+| 89 | 05-3 | Tiến độ lộ trình (màn C) | 05-2, 09-1 | ✅ | web 241 test xanh (5 mới, Postgres thật: `stageProgress` đếm từ/chữ đã thuộc theo thẻ yếu nhất, bỏ từ deprecated và thẻ tắt, Phát âm → null, người mới → 0; `GET /api/path` thêm `progress` mỗi lộ trình: chủ đề xong/tổng, `completedVia`, `requires`). Nút “Đã học ở nơi khác?” và giao diện làm ở 05-4 |
 | 90 | 05-4 | Màn hình con đường | 05-3 | ⬜ | |
 | 91 | 04-1 | `streak.ts` | 00-6 | ✅ | core 186 test xanh (15 mới: 5 ca của plan + ôn 9/10 thẻ, hôm nay chưa học không tốn ngày nghỉ, chuỗi 4 tuần, bản ghi trùng/ngày tương lai, không lặp vô hạn). `freezeDates` chỉ gồm ngày nghỉ nằm trong chuỗi (mới nhất trước); cột `streak_freeze_used` của DB chưa dùng vì core tự tính ngày nghỉ |
 | 92 | 04-3 | `pickMainCard` | 05-1 | ✅ | core 200 test xanh (7 mới: từng nhánh, ưu tiên continue > review > next > waiting, ca biên 150/100 → next và 151 → review, waiting kèm `until` và `suggestReview`). Thêm `reason: 'nothing_open'` khi không còn gì mở và không có lý do chờ (04-home/decisions.md) |
@@ -242,6 +242,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 2026-11-10 | 03-6 xong: `lib/account/delete.ts`, `POST /api/account/delete`, `DeleteAccountSheet`, migration 0005 |
 | 2026-11-10 | 03-4 xong: `packages/core/src/guest-merge.ts`, `apps/web/lib/guest/merge.ts`, `POST /api/guest/merge` |
 | 2026-11-10 | 03-1 xong: `packages/core/src/guest.ts` (`GuestProgressV1Schema`, `parseGuestProgress`) |
+| 2026-11-10 | 05-3 xong: `lib/path/progress.ts` (`stageProgress`), `progress` trong `GET /api/path` |
 | 2026-11-10 | 04-3, 04-4 xong: `packages/core/src/today.ts`, `apps/web/lib/today/char-of-day.ts` |
 | 2026-11-10 | 04-1 xong: `packages/core/src/streak.ts` (`isActiveDay`, `computeStreak`) |
 | 2026-11-10 | 04-2 xong: `lib/activity/{useActiveTimer,record}.ts`, `POST /api/activity`. Chủ dự án bỏ qua việc Azure TTS |

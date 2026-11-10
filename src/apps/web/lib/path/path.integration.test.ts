@@ -145,6 +145,24 @@ describe.skipIf(!adminUrl)('lộ trình (Postgres thật)', () => {
       expect(hsk1.finalExam).toBe('locked');
     });
 
+    test('tiến độ lộ trình: chủ đề xong/tổng, điều kiện mở, hoàn thành qua thi vượt', async () => {
+      await lessonDone('pron-u01-l01');
+      let body = await (await get()).json();
+      const pron = body.stages.find((s: { id: string }) => s.id === 'pron');
+      const hsk1 = body.stages.find((s: { id: string }) => s.id === 'hsk1');
+      expect(pron.progress).toMatchObject({ completedVia: null, requires: null, units: { done: 0, total: 2 }, words: null, chars: null });
+      expect(hsk1.progress).toMatchObject({
+        completedVia: null, requires: 'pron', units: { done: 0, total: 1 },
+        words: { mastered: 0, total: 0 }, chars: { mastered: 0, total: 0 },
+      });
+
+      await sql`INSERT INTO stage_progress (user_id, stage_id, status, completed_via)
+                VALUES ('u1', 'pron', 'completed', 'exam_skip')`;
+      body = await (await get()).json();
+      expect(body.stages.find((s: { id: string }) => s.id === 'pron').progress.completedVia).toBe('exam_skip');
+      expect(body.stages.find((s: { id: string }) => s.id === 'hsk1').progress.requires).toBeNull();
+    });
+
     test('keyChar chỉ có ở bài đã xong', async () => {
       const body = await (await get()).json();
       const l1 = body.stages[0].units[0].lessons[0];

@@ -14,4 +14,8 @@
 - `assertLessonOpen` (`lib/path/guard.ts`): không có bài → 404, bài `locked` → 403 `LESSON_LOCKED` (`errors.lessonLocked()`). Bài `in_progress` và `completed` cho qua. Chưa gắn vào API nào (06-1 và các API ghi tiến độ gọi nó).
 - `GET /api/path` chỉ cho người đã đăng nhập (401 với khách). Khách dùng `GuestGateway.getPath()` ở client với cùng `computeUnlockState`; chưa làm (cần `GuestStore` có tiến độ bài, làm cùng 03/04).
 - Dữ liệu hiển thị mỗi bài: `type`, `estimatedMinutes`, `newWordCount`, `skills` (suy từ các bước: `listen`, `read`, `write`, `speak`), `keyChar` (chữ đầu của `newChars`, chỉ trả khi bài đã xong), `lockReason`. Mỗi chủ đề: `sampleWords` (3 từ mới đầu tiên không trùng), `doneCount`/`total`. Mỗi lộ trình: `status`, `finalExam`; gốc: `skipExam`.
-- Chưa có: tiến độ lộ trình theo số từ/chữ “đã thuộc” (05-3).
+
+## 05-3: Tiến độ lộ trình (màn C)
+- `stageProgress(sql, userId, stageId)` (`lib/path/progress.ts`): **tổng** từ/chữ của cấp lấy từ danh sách HSK (`hsk_word`/`hsk_char` theo `level` = n của `hsk n`, bỏ từ `deprecated`), không lấy theo các bài đã soạn, để % không nhảy lên 100% khi mới có vài chủ đề. Từ “đã thuộc” gộp thẻ của từ theo `masteryOfWord` (09 §6); chữ đã thuộc = chữ khác nhau của cấp này xuất hiện trong từ đã thuộc. Lộ trình `pron` trả `null` (không có từ HSK).
+- `GET /api/path` thêm `progress` cho mỗi lộ trình: `words`, `chars` (hoặc `null`), `units: {done,total}` (chủ đề xong = mọi bài `completed`, có ít nhất 1 bài), `completedVia` (`exam_skip` → UI hiện “Hoàn thành (thi vượt)”), `requires` (lộ trình đứng trước, chỉ khi đang khóa → “Hoàn thành HSK 1 để mở”).
+- Ô “Đã học ở nơi khác?” dùng `skipExam` có sẵn ở gốc; phần giao diện thuộc 05-4. Phiên bản cho khách (`GuestGateway.getPath()`) chưa có.
