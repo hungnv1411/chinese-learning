@@ -165,7 +165,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 99 | 03-3 | Lời mời, màn hình chặn, cảnh báo không lưu được | 03-2, 06-9 | ⬜ | |
 | 100 | 03-4 | `mergeGuestProgress` + `POST /api/guest/merge` | 03-1, 05-1 | ✅ | core 233 + web 225 test xanh (19 core: tài khoản mới 2 bài/12 thẻ/cài đặt, tài khoản có tiến độ, dữ liệu sửa tay, exam_skip; 7 với Postgres thật: ghi đúng bảng, thẻ/ngày/cài đặt, lỗi giữa chừng không ghi gì, gộp lần hai không nhân đôi). Làm luôn `trialLessonIds` (của 03-2). Chưa gọi từ client (cờ `merge_pending` làm ở 03-3); chưa gộp `reviewLog` của khách (xem 03-auth/decisions.md) |
 | 101 | 03-5 | Đăng xuất | 03-4 | ⬜ | |
-| 102 | 03-6 | Xóa tài khoản | 00-4 | ⬜ | Kiểm tra trang xác thực ở 12-11 |
+| 102 | 03-6 | Xóa tài khoản | 00-4 | ✅ | web 236 test xanh (7 với Postgres thật: không còn dòng `user_id` ở bất kỳ bảng nào (kiểm tra động qua `information_schema`), chứng nhận còn `code/stage_id/issued_at/revoked=true` và cột khác null, `certificate_name_change` bị xóa, dữ liệu người khác nguyên vẹn, nhiều chứng nhận, lỗi giữa chừng không mất gì; 4 test `DeleteAccountSheet`). Migration 0005: `certificate.name_on_certificate` và `score` cho phép null. Xóa PDF trên R2 chưa chạy thật vì web chưa có client R2 (làm cùng 12-10, xem 03-auth/decisions.md). Trang `/chung-nhan/{code}` kiểm tra ở 12-11; hộp thoại chưa gắn vào trang Tôi (13-3) |
 | 103 | 03-7 | E2E luồng chính: khách học thử → đăng nhập → học tiếp → ôn tập | 03-3, 03-4, 04-7, 09-5 | ⬜ | |
 
 ## M8 — Phát âm · [plan](10-pronunciation/plan.md)
@@ -239,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 03-6 xong: `lib/account/delete.ts`, `POST /api/account/delete`, `DeleteAccountSheet`, migration 0005 |
 | 2026-11-10 | 03-4 xong: `packages/core/src/guest-merge.ts`, `apps/web/lib/guest/merge.ts`, `POST /api/guest/merge` |
 | 2026-11-10 | 03-1 xong: `packages/core/src/guest.ts` (`GuestProgressV1Schema`, `parseGuestProgress`) |
 | 2026-11-10 | 04-3, 04-4 xong: `packages/core/src/today.ts`, `apps/web/lib/today/char-of-day.ts` |

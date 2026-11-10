@@ -54,8 +54,9 @@ export const certificate = pgTable(
     examAttemptId: uuid('exam_attempt_id').references(() => examAttempt.id, {
       onDelete: 'set null',
     }),
-    nameOnCertificate: text('name_on_certificate').notNull(),
-    score: smallint('score').notNull(),
+    // null sau khi chủ chứng nhận xóa tài khoản (03-auth §6): chỉ còn mã, giai đoạn, ngày cấp.
+    nameOnCertificate: text('name_on_certificate'),
+    score: smallint('score'),
     issuedAt: timestamp('issued_at', { withTimezone: true }).notNull().defaultNow(),
     pdfUrl: text('pdf_url'),
     revoked: boolean('revoked').notNull().default(false),

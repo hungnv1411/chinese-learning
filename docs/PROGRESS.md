@@ -7,10 +7,10 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 36% số bước xong, ≈ 45% tính cả bước làm dở** (48 ✅ · 12 🟨 · 73 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 37% số bước xong, ≈ 46% tính cả bước làm dở** (49 ✅ · 12 🟨 · 72 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **864 test xanh**: web 225, core 233, pipeline 308, speech 98 (nhiều test chạy với Postgres thật) |
+| Test | **875 test xanh**: web 236, core 233, pipeline 308, speech 98 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -24,7 +24,7 @@
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
 | M5 | Dịch vụ chấm phát âm | 6 | 1 | 2 | 🟨 xong khung, giải mã + VAD, biến điệu, chia âm tiết, dò cao độ + đoán thanh, tính điểm (08a-1…3, 5…7); 08a-4 chờ thử Whisper thật; 08a-8, 08a-9 chờ 01-7b; chưa chấm thật |
 | M6 | Học: bài học, viết, nói, ôn tập | 8 | 1 | 23 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
-| M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 5 | 0 | 10 | 🟨 xong `streak.ts`, `pickMainCard`, chữ của ngày, `GuestProgressV1Schema`, gộp tiến độ khách (04-1, 04-3, 04-4, 03-1, 03-4) |
+| M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 6 | 0 | 9 | 🟨 xong `streak.ts`, `pickMainCard`, chữ của ngày, `GuestProgressV1Schema`, gộp tiến độ khách, xóa tài khoản (04-1, 04-3, 04-4, 03-1, 03-4, 03-6) |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
 | M9 | Kiểm tra cuối, chứng nhận, trang Tôi | 0 | 0 | 19 | ⬜ |
 | M10 | Nội dung đầy đủ HSK 1–3, ra mắt | 0 | 0 | 7 | ⬜ |
@@ -40,7 +40,7 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 - **Design system** đã port (AppShell, FocusLayout, `Hanzi`, `Pinyin`, `ToneContour`, `Sheet`, `Toast`, `AudioButton`), font Mona Sans tự host.
 
 ### Hạ tầng và dữ liệu (không thấy trên màn hình)
-- Monorepo, Docker Compose (Caddy, web, speech, db, backup), Postgres + Drizzle (4 migration), Better Auth (Google), API utilities, GuestStore.
+- Monorepo, Docker Compose (Caddy, web, speech, db, backup), Postgres + Drizzle (6 migration), Better Auth (Google), API utilities, GuestStore.
 - **Pipeline dữ liệu trong DB dev:** CC-CEDICT 125.356 mục · HSK 2021 (11.109 từ, 3.000 chữ, 573 ngữ pháp) · 3.000 chữ có nét và Hán Việt (Unihan) · 214 bộ thủ · 61.896 câu Tatoeba có cấp HSK và liên kết từ · báo cáo `report.md`.
 - **Hệ thống nội dung (02):** hợp đồng JSON zod ↔ Pydantic, đọc YAML báo lỗi `file:dòng`, 30+ quy tắc chặn/cảnh báo, chuẩn hóa + bố cục mặc định + ghi DB một transaction, báo cáo độ phủ + điều kiện mở bài kiểm tra cuối, kiểm tra đối chiếu (pinyin, Tatoeba, Hán Việt).
 - **Soạn nội dung bằng AI (02-5, 02-6):** `plan-units`, `author-unit`, rà soát bằng model khác, vòng sửa tối đa 2 lần. Đã viết và test bằng model giả; gọi Claude qua Claude Code CLI (`claude -p`, dịch vụ `py-claude`, không cần API key); đã soạn thật **36 chủ đề HSK 3** (`content/hsk3/`, `check-content`: 0 lỗi, 432 cảnh báo; đã sửa hết mục rà soát tồn đọng của HSK 1–3). LEDGER 02-D4 vẫn ⬜ vì chưa duyệt tay và chưa nạp DB.

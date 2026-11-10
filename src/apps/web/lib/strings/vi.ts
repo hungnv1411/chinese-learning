@@ -73,6 +73,16 @@ export const vi = {
     searchPlaceholder: 'Chữ Hán, pinyin, English, Hán Việt',
     searchButton: 'Tìm',
   },
+  account: {
+    deleteTitle: 'Xóa tài khoản?',
+    deleteBody:
+      'Tên, điểm số và tệp PDF chứng nhận sẽ bị xóa. Mã chứng nhận chỉ còn trạng thái “không còn hiệu lực”. Việc này không hoàn tác được.',
+    deleteConfirmLabel: 'Gõ XÓA TÀI KHOẢN để xác nhận',
+    deleteConfirmText: 'XÓA TÀI KHOẢN',
+    deleteAction: 'Xóa tài khoản',
+    deleteKeep: 'Giữ lại',
+    deleteFailed: 'Chưa xóa được tài khoản, hãy thử lại.',
+  },
   report: {
     title: 'Báo lỗi nội dung',
     open: 'Báo lỗi',
