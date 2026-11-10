@@ -1,16 +1,16 @@
 # Báo cáo tiến độ
 
-**Bản chụp ngày 2026-11-10**, nhánh `feat/pipeline` (commit `66540d0` + 08a-1…3). File này chỉ **tổng hợp** để đọc nhanh và **được cập nhật sau mỗi task** (quy tắc ở [CLAUDE.md](../CLAUDE.md)). Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
+**Bản chụp ngày 2026-11-10**, nhánh `feat/pipeline` (commit `66540d0` + 08a-1…7). File này chỉ **tổng hợp** để đọc nhanh và **được cập nhật sau mỗi task** (quy tắc ở [CLAUDE.md](../CLAUDE.md)). Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
 
 ## 1. Tóm tắt
 
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 29% số bước xong, ≈ 38% tính cả bước làm dở** (39 ✅ · 11 🟨 · 83 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 32% số bước xong, ≈ 41% tính cả bước làm dở** (42 ✅ · 12 🟨 · 79 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **717 test xanh**: web 194, core 171, pipeline 308, speech 44 (nhiều test chạy với Postgres thật) |
+| Test | **771 test xanh**: web 194, core 171, pipeline 308, speech 98 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -22,7 +22,7 @@
 | M2 | Pipeline dữ liệu | 10 | 0 | 2 | 🟨 còn audio TTS (01-7a, 01-7b) |
 | M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
-| M5 | Dịch vụ chấm phát âm | 3 | 0 | 6 | 🟨 xong khung + hàng đợi (08a-1), giải mã + VAD (08a-2), biến điệu (08a-3); chưa chấm thật |
+| M5 | Dịch vụ chấm phát âm | 6 | 1 | 2 | 🟨 xong khung, giải mã + VAD, biến điệu, chia âm tiết, dò cao độ + đoán thanh, tính điểm (08a-1…3, 5…7); 08a-4 chờ thử Whisper thật; 08a-8, 08a-9 chờ 01-7b; chưa chấm thật |
 | M6 | Học: bài học, viết, nói, ôn tập | 7 | 1 | 24 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
 | M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 0 | 0 | 15 | ⬜ |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
@@ -44,7 +44,7 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 - **Pipeline dữ liệu trong DB dev:** CC-CEDICT 125.356 mục · HSK 2021 (11.109 từ, 3.000 chữ, 573 ngữ pháp) · 3.000 chữ có nét và Hán Việt (Unihan) · 214 bộ thủ · 61.896 câu Tatoeba có cấp HSK và liên kết từ · báo cáo `report.md`.
 - **Hệ thống nội dung (02):** hợp đồng JSON zod ↔ Pydantic, đọc YAML báo lỗi `file:dòng`, 30+ quy tắc chặn/cảnh báo, chuẩn hóa + bố cục mặc định + ghi DB một transaction, báo cáo độ phủ + điều kiện mở bài kiểm tra cuối, kiểm tra đối chiếu (pinyin, Tatoeba, Hán Việt).
 - **Soạn nội dung bằng AI (02-5, 02-6):** `plan-units`, `author-unit`, rà soát bằng model khác, vòng sửa tối đa 2 lần. Đã viết và test bằng model giả; gọi Claude qua Claude Code CLI (`claude -p`, dịch vụ `py-claude`, không cần API key); đã soạn thật **36 chủ đề HSK 3** (`content/hsk3/`, `check-content`: 0 lỗi, 432 cảnh báo; đã sửa hết mục rà soát tồn đọng của HSK 1–3). LEDGER 02-D4 vẫn ⬜ vì chưa duyệt tay và chưa nạp DB.
-- **Dịch vụ chấm (08a-1):** FastAPI `POST /score` + `GET /healthz`, hàng đợi giới hạn song song (503 khi đầy), 413 khi audio > 1 MB, ngưỡng nằm ở `config/scoring.yaml`, log không có transcript. Giải mã ffmpeg (pipe, mp4 qua `/dev/shm`) + VAD năng lượng cho 5 trạng thái `ok/no_speech/too_noisy/too_short/too_long` (08a-2). Chưa nhận dạng/chấm.
+- **Dịch vụ chấm (08a-1):** FastAPI `POST /score` + `GET /healthz`, hàng đợi giới hạn song song (503 khi đầy), 413 khi audio > 1 MB, ngưỡng nằm ở `config/scoring.yaml`, log không có transcript. Giải mã ffmpeg (pipe, mp4 qua `/dev/shm`) + VAD năng lượng cho 5 trạng thái `ok/no_speech/too_noisy/too_short/too_long` (08a-2). Gióng hàng pinyin, chia thời gian, dò cao độ (Parselmouth), đoán thanh, tính điểm; `/score` chạy cả pipeline (test bằng audio tổng hợp + bộ nhận dạng giả).
 - **Core thuần:** `pinyin`, `sandhi`, `classifyQuery`, `parsePinyinQuery`, `writingScore`, hợp đồng nội dung.
 
 ## 4. Chưa làm và đang chờ
@@ -53,7 +53,8 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 | Việc | Chặn cái gì |
 |---|---|
 | Chạy `src/deploy/dev.sh run --rm py-claude run clp plan-units hsk1` rồi `... clp author-unit hsk1 hsk1-u01` (cần Claude Code CLI đã đăng nhập trên máy), xem kết quả | 02-5, 02-6, 10-2, 02-D1 (toàn bộ nội dung bài học) |
-| Khóa Azure TTS (và nghe thử âm tiết) | 01-7a, 01-7b, 11-5, mọi nút nghe |
+| Khóa Azure TTS (và nghe thử âm tiết) | 01-7a, 01-7b, 11-5, mọi nút nghe, 08a-8 (bộ hồi quy TTS), 08a-9 |
+| Mạng ổn để tải model Whisper `base` (~145 MB từ HuggingFace; lần thử 2026-11-10 chỉ tải được 3 MB sau 10 phút) | Kiểm chứng 08a-4 với model thật |
 | Kết nối extension Chrome (hoặc xem tay) để kiểm tra 360px / 1440px và chạy Playwright | Đóng M1, 11-3, 11-4, 13-4 |
 | Điền `SITE_NAME`, `BETTER_AUTH_SECRET`, `GOOGLE_*` vào `.env` (đang trống; tôi chạy web bằng biến tạm) | `docker compose up web` bình thường, đăng nhập Google |
 | Khóa R2 (Cloudflare) | Đẩy dữ liệu nét và audio lên R2 (hiện ghi ra `data/strokes/`) |

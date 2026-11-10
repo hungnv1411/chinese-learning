@@ -104,10 +104,10 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 48 | 08a-1 | Khung FastAPI, `/score`, `/healthz`, hàng đợi, 503 | 00-3 | ✅ | speech 13 test xanh (Docker): config từ `scoring.yaml`, 413, 422, 21 yêu cầu bị chặn → thứ 21 nhận 503, slot nhả khi lỗi, log không có transcript/định danh. `/score` chưa chấm thật (scorer cắm ở 08a-2…7; mặc định trả 500); `queue_max` tính cả đang chạy lẫn đang chờ (decisions.md) |
 | 49 | 08a-2 | Giải mã ffmpeg, VAD, các trạng thái lỗi | 08a-1 | ✅ | speech 29 test xanh: webm/opus, mp4/aac, wav, lấy mẫu lại 44,1 kHz; `too_short`/`too_long`/`no_speech`/`too_noisy`; `/dev/shm` sạch sau mp4 kể cả khi lỗi. VAD theo năng lượng, không dùng Silero; file không giải mã được → 422 `BAD_AUDIO` (08-speaking/decisions.md) |
 | 50 | 08a-3 | `apply_tone_sandhi` (khớp fixture TS) | 00-6 | ✅ | speech 44 test xanh (15 mới: mọi ca trong `tone-sandhi.json` cho kết quả giống hệt bản TS, thiếu số thanh → thanh nhẹ, không sửa đầu vào). `app/sandhi.py` nhận `(pinyin, hanzi)` |
-| 51 | 08a-4 | faster-whisper + gióng hàng + nới lỏng | 08a-2 | ⬜ | |
-| 52 | 08a-5 | Chia thời gian theo âm tiết | 08a-4 | ⬜ | |
-| 53 | 08a-6 | Dò cao độ 2 lượt + đoán thanh (test bằng tín hiệu tổng hợp) | 08a-5 | ⬜ | |
-| 54 | 08a-7 | Kết luận thanh + tính điểm | 08a-3, 08a-6 | ⬜ | |
+| 51 | 08a-4 | faster-whisper + gióng hàng + nới lỏng | 08a-2 | 🟨 | Gióng hàng + nới lỏng xong, test xanh (speech 98 test, bộ nhận dạng giả). Chưa chạy Whisper thật: tải model `base` từ HuggingFace gần như đứng (3 MB sau 10 phút, mạng chậm). Chạy lại `RUN_MODEL_TESTS=1 src/deploy/dev.sh run --rm --no-deps py-speech run pytest -q tests/test_model_smoke.py` khi mạng ổn |
+| 52 | 08a-5 | Chia thời gian theo âm tiết | 08a-4 | ✅ | `segment.py`: token 2 chữ 0,6 s → 2 × 0,3 s; 3 đoạn voiced cho 2 âm tiết → chia đều; có cả fallback khi Whisper không cho mốc dùng được (test pipeline). Làm trước khi 08a-4 xong hẳn vì không cần model |
+| 53 | 08a-6 | Dò cao độ 2 lượt + đoán thanh (test bằng tín hiệu tổng hợp) | 08a-5 | ✅ | `pitch.py`, `tone.py`: 4 thanh tổng hợp ở 120 Hz và 250 Hz đều ra đúng, đoạn ngắn → `None`, khoảng hở giọng được nối, `syllable` xét thanh 1 theo độ phẳng. Không khớp luật → so dạng đường cong (bỏ độ cao) với 4 mẫu, độ tin cậy 0,3 |
+| 54 | 08a-7 | Kết luận thanh + tính điểm | 08a-3, 08a-6 | ✅ | `score.py`, `pipeline.py`: đúng hết 100, sai thanh 1/4 → 88, sai âm 1/4 → 75, `tone_ok=None` → 100 × content, `ni3 hao3` nghe 2,3 → đúng; `/score` chạy cả pipeline (bộ nhận dạng nạp lúc khởi động, `/healthz.model_loaded`). Test pipeline đầu-cuối dùng audio tổng hợp + ASR giả |
 | 55 | 08a-8 | Bộ hồi quy TTS + job CI | 08a-7, 01-7b | ⬜ | |
 | 56 | 08a-9 | Docker image, đo trên 2 vCPU / 4 GB → `BENCHMARK.md` | 08a-8 | ⬜ | |
 
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 08a-4 (🟨), 08a-5…7 xong: `align/segment/pitch/tone/score/pipeline/asr/text.py`; chưa thử Whisper thật vì tải model quá chậm |
 | 2026-11-10 | 08a-3 xong: `services/speech/app/sandhi.py` đọc chung fixture với bản TS |
 | 2026-11-10 | 08a-2 xong: `app/{decode,vad}.py`, `Dockerfile.dev` (py-speech có ffmpeg) |
 | 2026-11-10 | 08a-1 xong: `services/speech/app/{config,queue,main}.py`, `config/scoring.yaml`. 01-7a chưa làm được (cần khóa Azure TTS và nghe thử) |
