@@ -7,10 +7,10 @@
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 32% số bước xong, ≈ 41% tính cả bước làm dở** (42 ✅ · 12 🟨 · 79 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 32% số bước xong, ≈ 41% tính cả bước làm dở** (43 ✅ · 12 🟨 · 78 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **771 test xanh**: web 194, core 171, pipeline 308, speech 98 (nhiều test chạy với Postgres thật) |
+| Test | **787 test xanh**: web 210, core 171, pipeline 308, speech 98 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -23,7 +23,7 @@
 | M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
 | M5 | Dịch vụ chấm phát âm | 6 | 1 | 2 | 🟨 xong khung, giải mã + VAD, biến điệu, chia âm tiết, dò cao độ + đoán thanh, tính điểm (08a-1…3, 5…7); 08a-4 chờ thử Whisper thật; 08a-8, 08a-9 chờ 01-7b; chưa chấm thật |
-| M6 | Học: bài học, viết, nói, ôn tập | 7 | 1 | 24 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
+| M6 | Học: bài học, viết, nói, ôn tập | 8 | 1 | 23 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
 | M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 0 | 0 | 15 | ⬜ |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
 | M9 | Kiểm tra cuối, chứng nhận, trang Tôi | 0 | 0 | 19 | ⬜ |
@@ -49,11 +49,12 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 
 ## 4. Chưa làm và đang chờ
 
+**Bỏ qua theo chủ dự án (2026-11-10):** mọi việc liên quan Azure TTS (01-7a, 01-7b, 01-7b′, 11-5, 08a-8, 08a-9). Không tính là đang chặn.
+
 ### Cần bạn làm hoặc cung cấp
 | Việc | Chặn cái gì |
 |---|---|
 | Chạy `src/deploy/dev.sh run --rm py-claude run clp plan-units hsk1` rồi `... clp author-unit hsk1 hsk1-u01` (cần Claude Code CLI đã đăng nhập trên máy), xem kết quả | 02-5, 02-6, 10-2, 02-D1 (toàn bộ nội dung bài học) |
-| Khóa Azure TTS (và nghe thử âm tiết) | 01-7a, 01-7b, 11-5, mọi nút nghe, 08a-8 (bộ hồi quy TTS), 08a-9 |
 | Mạng ổn để tải model Whisper `base` (~145 MB từ HuggingFace; lần thử 2026-11-10 chỉ tải được 3 MB sau 10 phút) | Kiểm chứng 08a-4 với model thật |
 | Kết nối extension Chrome (hoặc xem tay) để kiểm tra 360px / 1440px và chạy Playwright | Đóng M1, 11-3, 11-4, 13-4 |
 | Điền `SITE_NAME`, `BETTER_AUTH_SECRET`, `GOOGLE_*` vào `.env` (đang trống; tôi chạy web bằng biến tạm) | `docker compose up web` bình thường, đăng nhập Google |

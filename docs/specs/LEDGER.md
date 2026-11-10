@@ -119,7 +119,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 58 | 09-2 | `cards.ts` (tạo thẻ, ghi ôn từ bài tập, `speakingFail`, `bumpDue`, `addFromDictionary`) | 09-1, 00-4 | ✅ | web 187 test xanh (14 mới, Postgres thật: lần ôn đầu good/again, `write` 1–2 chữ vs từng chữ, không trùng thẻ, cửa sổ 24 giờ, `speakingFail`, `addFromDictionary`, `bumpDue`). Migration 0004: `learning_steps` + sửa mặc định `review_buttons`/`review_card_types` cho khớp spec. Chưa nối API; nút ở 11-4 nối sau |
 | 59 | 05-1 | `unlock.ts` (test đầy đủ) | 02-1 | ✅ | core 171 test xanh (19 mới: mọi ca trong plan, gồm exam_skip, chủ đề chưa phát hành, tiến độ lệch; `lockReason` 7 ca). Quyết định phát sinh ở 05-learning-path/decisions.md |
 | 60 | 05-2 | `/api/path`, `assertLessonOpen` | 05-1, 02-3 | ✅ | web 194 test xanh (7 mới, Postgres thật: bài khóa 403 `LESSON_LOCKED`, học lại bài xong được, 404, khách 401, dữ liệu hiển thị và `lockReason`). Chưa gắn guard vào API bài học (06-1); `GuestGateway.getPath()` làm sau |
-| 61 | 04-2 | `useActiveTimer` + ghi `daily_activity` | 00-API | ⬜ | |
+| 61 | 04-2 | `useActiveTimer` + ghi `daily_activity` | 00-API | ✅ | web 210 test xanh (16 mới: 30 s → 30, 90 s không thao tác → 60, ẩn tab dừng, `touch()` cho audio; `addActiveSeconds` với Postgres thật: cộng dồn, ngày theo múi giờ, chặn > 600 s mỗi lần, số âm/NaN/lẻ). `POST /api/activity` (cần đăng nhập). Chưa gắn hook vào trình chạy bài/phiên ôn (06, 09) |
 | 62 | 06-1 | `buildLessonPayload`, `GET /api/lessons/[id]` | 05-2, 02-D1 | ⬜ | |
 | 63 | 06-2 | Đáp án nhiễu | 06-1 | ⬜ | |
 | 64 | 06-3 | Bài tập tự sinh | 06-2, 09-1 | ⬜ | |
@@ -215,6 +215,12 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 ---
 
+## Quyết định của chủ dự án
+
+| Ngày | Quyết định |
+|---|---|
+| 2026-11-10 | **Bỏ qua mọi việc liên quan Azure TTS** (01-7a, 01-7b, 01-7b′, 11-5, 08a-8, 08a-9): không làm, không tính là chặn. Bước phụ thuộc vào chúng (ví dụ 02-D1 cần audio) làm phần không cần audio trước |
+
 ## Quyết định chờ
 
 | Mã | Câu hỏi | Ở bước | Kết quả |
@@ -233,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 04-2 xong: `lib/activity/{useActiveTimer,record}.ts`, `POST /api/activity`. Chủ dự án bỏ qua việc Azure TTS |
 | 2026-11-10 | 08a-4 (🟨), 08a-5…7 xong: `align/segment/pitch/tone/score/pipeline/asr/text.py`; chưa thử Whisper thật vì tải model quá chậm |
 | 2026-11-10 | 08a-3 xong: `services/speech/app/sandhi.py` đọc chung fixture với bản TS |
 | 2026-11-10 | 08a-2 xong: `app/{decode,vad}.py`, `Dockerfile.dev` (py-speech có ffmpeg) |
