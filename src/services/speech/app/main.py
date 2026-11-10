@@ -1,3 +1,4 @@
+import asyncio
 import json
 import logging
 import time
@@ -8,7 +9,9 @@ from fastapi import FastAPI, File, Form, UploadFile
 from fastapi.responses import JSONResponse
 
 from .config import Config, load_config
+from .decode import DecodeError, decode_audio
 from .queue import QueueFull, ScoreQueue
+from .vad import analyze
 
 log = logging.getLogger("speech")
 
@@ -19,13 +22,34 @@ def error(status: int, code: str, message: str) -> JSONResponse:
     return JSONResponse({"error": {"code": code, "message": message}}, status_code=status)
 
 
-async def not_implemented_scorer(*_: Any) -> dict[str, Any]:
-    raise NotImplementedError("scoring pipeline arrives in steps 08a-2…08a-7")
+class BadAudio(Exception):
+    pass
+
+
+def make_default_scorer(cfg: Config) -> Scorer:
+    async def scorer(data: bytes, hanzi: str, pinyin: str, mode: str) -> dict[str, Any]:
+        t0 = time.perf_counter()
+        try:
+            samples = await asyncio.to_thread(decode_audio, data, cfg)
+        except DecodeError as e:
+            raise BadAudio from e
+        vad = await asyncio.to_thread(analyze, samples, cfg)
+        if vad.status != "ok":
+            return {
+                "status": vad.status,
+                "score": None,
+                "syllables": [],
+                "transcript": "",
+                "timing_ms": round((time.perf_counter() - t0) * 1000),
+            }
+        raise NotImplementedError("recognition and scoring arrive in steps 08a-4…08a-7")
+
+    return scorer
 
 
 def create_app(config: Config | None = None, scorer: Scorer | None = None) -> FastAPI:
     cfg = config or load_config()
-    run_scorer = scorer or not_implemented_scorer
+    run_scorer = scorer or make_default_scorer(cfg)
     queue = ScoreQueue(cfg.workers, cfg.queue_max)
     app = FastAPI(title="speech")
     app.state.model_loaded = False  # 08a-4 nạp faster-whisper một lần lúc khởi động
@@ -48,6 +72,8 @@ def create_app(config: Config | None = None, scorer: Scorer | None = None) -> Fa
         try:
             async with queue.slot():
                 result = await run_scorer(data, expected_hanzi, expected_pinyin, mode)
+        except BadAudio:
+            return error(422, "BAD_AUDIO", "Không đọc được file audio")
         except QueueFull:
             return error(503, "BUSY", "Máy chấm đang bận")
         except Exception:

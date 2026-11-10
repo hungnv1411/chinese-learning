@@ -156,3 +156,44 @@ async def test_queue_counts_running_plus_waiting():
     await asyncio.gather(t1, t2)
     async with q.slot():
         pass
+
+
+def _wav(seconds, amp=0.5):
+    import math
+    import struct
+    import wave
+
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(16000)
+        n = int(seconds * 16000)
+        w.writeframes(
+            b"".join(
+                struct.pack("<h", int(amp * math.sin(2 * math.pi * 200 * i / 16000) * 32767))
+                for i in range(n)
+            )
+        )
+    return {"audio": ("a.wav", io.BytesIO(buf.getvalue()), "audio/wav")}
+
+
+async def test_default_pipeline_reports_too_short():
+    async with client(create_app(make_config())) as c:
+        r = await c.post("/score", data=form(), files=_wav(0.2))
+    assert r.status_code == 200
+    body = r.json()
+    assert body["status"] == "too_short" and body["score"] is None
+
+
+async def test_default_pipeline_reports_no_speech_for_silence():
+    async with client(create_app(make_config())) as c:
+        r = await c.post("/score", data=form(), files=_wav(1.0, amp=0.0))
+    assert r.json()["status"] == "no_speech"
+
+
+async def test_undecodable_audio_is_422_bad_audio():
+    async with client(create_app(make_config())) as c:
+        r = await c.post("/score", data=form(), files=audio(200))
+    assert r.status_code == 422
+    assert r.json()["error"]["code"] == "BAD_AUDIO"

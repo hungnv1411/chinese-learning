@@ -102,7 +102,9 @@ services:
 
   py-speech:
     profiles: [tools]
-    image: python:3.12-slim
+    build:
+      context: ../services/speech
+      dockerfile: Dockerfile.dev
     working_dir: /repo/src/services/speech
     environment:
       UV_PROJECT_ENVIRONMENT: /venv
@@ -113,7 +115,6 @@ services:
       - ../..:/repo
       - speech_venv:/venv
       - uv_cache:/root/.cache/uv
-    entrypoint: ['sh', '-c', 'pip install -q uv && exec uv "$@"', '--']
 
 volumes:
   node_modules:
