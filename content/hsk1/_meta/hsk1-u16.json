@@ -1,0 +1,51 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T17:09:12",
+  "prompt_sha256": [
+    "fb9699ca2eceec98b39dd427db714094082fbd0e5debb1f9401eb73c42af50af",
+    "f363ed479265644f0ee6b9dae67133b8ba571fb03a731e7094615e4dedf520d0",
+    "b1620da3d84f39f67921944ec184509d0ee8196cd14f7ac27a0615fbc12efc0c"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk1-u16-010",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi 爸爸 là \"bà bà\". Chữ 爸 thứ hai đọc thanh nhẹ, nên đúng là bàba.",
+      "suggestion": "Sửa pinyin thành: nǐ bàba hěn gāo"
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "hsk1-u16-l07",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Từ mới 地 có trong new_words, nhưng không câu nào trong bài dùng 地 làm trợ từ (025–028 không có). Tip lại giải thích 地 là trợ từ trước động từ, nên người học không có câu ví dụ để đối chiếu.",
+      "suggestion": "Thêm một câu dùng 地 với từ đã học, ví dụ 他高兴地笑了。(tā gāoxìng de xiào le), hoặc 她认真地学习。"
+    },
+    {
+      "where": "hsk1-u16-l04",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip 非常 viết 非常 \"chỉ có nghĩa là 'rất, cực kỳ'\". Từ điển của đề bài còn cho nghĩa 'unusual; extraordinary', nên câu \"chỉ có\" quá tuyệt đối.",
+      "suggestion": "Sửa thành: \"Ở trình độ HSK1, 非常 chủ yếu dùng với nghĩa 'rất, cực kỳ' (非常好), không dùng như 'phi thường' trong tiếng Việt.\""
+    }
+  ],
+  "machine_warnings": [
+    "u16-thoi-tiet-va-mieu-ta.yaml:55: [sentence_unlearned_word] Câu s-hsk1-u16-005 (bài hsk1-u16-l02) dùng từ chưa học: 了",
+    "u16-thoi-tiet-va-mieu-ta.yaml:59: [sentence_unlearned_word] Câu s-hsk1-u16-006 (bài hsk1-u16-l02) dùng từ chưa học: 了",
+    "u16-thoi-tiet-va-mieu-ta.yaml:63: [sentence_unlearned_word] Câu s-hsk1-u16-007 (bài hsk1-u16-l02) dùng từ chưa học: 很大",
+    "u16-thoi-tiet-va-mieu-ta.yaml:103: [sentence_unlearned_word] Câu s-hsk1-u16-012 (bài hsk1-u16-l03) dùng từ chưa học: 白花",
+    "u16-thoi-tiet-va-mieu-ta.yaml:133: [sentence_unlearned_word] Câu s-hsk1-u16-015 (bài hsk1-u16-l04) dùng từ chưa học: 太热, 了",
+    "u16-thoi-tiet-va-mieu-ta.yaml:172: [sentence_unlearned_word] Câu s-hsk1-u16-020 (bài hsk1-u16-l05) dùng từ chưa học: 了",
+    "u16-thoi-tiet-va-mieu-ta.yaml:235: [sentence_unlearned_word] Câu s-hsk1-u16-028 (bài hsk1-u16-l07) dùng từ chưa học: 一天"
+  ],
+  "han_viet_proposed": [
+    "很",
+    "雨"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T02:58:49",
+  "prompt_sha256": [
+    "6d9173df5a7cb32fb4b9fdd3cad855742ab326cb739721e5ef2db4f3efd7266c",
+    "ede1d6bd31af4d0c61e91639f7c449533adf90a22dd1197c98a8f1f1fbd0a6d7"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u06-018",
+      "category": "english",
+      "severity": "warning",
+      "problem": "可爱 nghĩa là cute/lovely, nhưng bản dịch là 'very pretty'. Bài ngay sau có 漂亮 (pretty), nên người học dễ nhầm hai từ.",
+      "suggestion": "Sửa en thành 'She is very cute.' hoặc 'She is so adorable.'"
+    },
+    {
+      "where": "s-hsk2-u06-003",
+      "category": "sensitive_content",
+      "severity": "warning",
+      "problem": "黄色 còn có nghĩa 'khiêu dâm'. Câu 我喜欢黄色 đứng một mình có thể bị hiểu lệch (I like porn), và bài không có chú thích nào về điều này.",
+      "suggestion": "Đổi thành 我喜欢黄色的 hoặc 我的包是黄色的, hoặc thêm một tip ngắn nói rằng 黄色 trong bài này chỉ màu vàng."
+    },
+    {
+      "where": "s-hsk2-u06-015",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "很短 (hěn duǎn) là 3+3, thực tế đọc hén duǎn. Tip của 短 nhắc thanh 3 nhưng không nói đến biến điệu này. Tương tự 很可爱 ở s-hsk2-u06-018 (hén kě'ài).",
+      "suggestion": "Thêm vào tip 短 và 可爱 một dòng: 很 + thanh 3 → 很 đọc thanh 2 (hěn duǎn → hén duǎn)."
+    },
+    {
+      "where": "hsk2-u06-l03",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip của 鞋 viết \"x đọc gần như 'x'\" rồi mô tả lưỡi một cách rối. Tip của 色 lại nói s đọc như 'x' tiếng Việt, nên hai tip mâu thuẫn và gây nhầm giữa x và s.",
+      "suggestion": "Viết lại: 'x (xié): đầu lưỡi đặt sau răng dưới, mặt lưỡi nâng lên gần vòm, âm mỏng hơn s; đừng đọc thành s.'"
+    },
+    {
+      "where": "s-hsk2-u06-011",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "这件大衣大小很合适 hơi cứng vì thiếu 的. Câu s-hsk2-u06-020 (这件大衣样子很漂亮) cũng thiếu 的 sau 大衣, nên nghe gượng.",
+      "suggestion": "Đổi thành 这件大衣的大小很合适 và 这件大衣的样子很漂亮 (hoặc 这件大衣样子很好看). 的 đã học."
+    },
+    {
+      "where": "s-hsk2-u06-007",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin của câu này viết liền theo từ (báisè). Các câu 001–006 viết tách từng âm tiết (hóng sè), nên định dạng không đồng nhất. Ở các câu tách âm tiết, chữ thanh nhẹ cũng ghi thanh gốc, ví dụ 'shén me', 'shí hòu'.",
+      "suggestion": "Chọn một quy ước cho cả unit. Nên viết liền theo từ và ghi thanh nhẹ không dấu (shénme, shíhou, xǐhuan)."
+    }
+  ],
+  "machine_warnings": [
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:70: [sentence_unlearned_word] Câu s-hsk2-u06-007 (bài hsk2-u06-l02) dùng từ chưa học: 包是",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:109: [sentence_unlearned_word] Câu s-hsk2-u06-011 (bài hsk2-u06-l03) dùng từ chưa học: 这件",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:113: [sentence_unlearned_word] Câu s-hsk2-u06-012 (bài hsk2-u06-l03) dùng từ chưa học: 条鱼, 很大",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:147: [sentence_unlearned_word] Câu s-hsk2-u06-015 (bài hsk2-u06-l04) dùng từ chưa học: 这条, 很长, 那条",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:149: [sentence_pinyin_polyphone] Câu s-hsk2-u06-015: pinyin ghi 'zhè tiáo lù hěn cháng, nà tiáo lù hěn duǎn', pypinyin cho 'zhè tiáo lù hěn zhǎng nà tiáo lù hěn duǎn' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:151: [sentence_unlearned_word] Câu s-hsk2-u06-016 (bài hsk2-u06-l04) dùng từ chưa học: 这个, 太低",
+    "u06-mau-sac-quan-ao-va-ngoai-hinh.yaml:189: [sentence_unlearned_word] Câu s-hsk2-u06-020 (bài hsk2-u06-l05) dùng từ chưa học: 这件, 很漂亮"
+  ],
+  "han_viet_proposed": [
+    "亮"
+  ]
+}

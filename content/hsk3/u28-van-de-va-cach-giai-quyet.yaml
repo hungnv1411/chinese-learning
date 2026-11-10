@@ -1,0 +1,165 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u28.json.
+id: hsk3-u28
+stage: hsk3
+order: 28
+title: Vấn đề và cách giải quyết
+description: Mô tả khó khăn, phân tích tình huống và đề xuất cách giải quyết.
+lessons:
+- id: hsk3-u28-l01
+  title: Khó hay dễ? Nói về khó khăn
+  grammar: hsk3-g004
+  new_words:
+  - 困难
+  - 麻烦
+  - 复杂
+  - 简单
+  - 容易
+  - 需要
+  sentences:
+  - id: s-hsk3-u28-001
+    zh: 这需要时间。
+    en: It takes time.
+    pinyin: zhè xū yào shí jiān
+    tatoeba_id: 707522
+  - id: s-hsk3-u28-002
+    zh: 这非常困难。
+    en: This is very difficult.
+    pinyin: zhè fēi cháng kùn nán
+    tatoeba_id: 1186885
+  - id: s-hsk3-u28-003
+    zh: 我有麻烦了。
+    en: I am in trouble.
+    pinyin: wǒ yǒu má fán le
+    tatoeba_id: 917920
+  - id: s-hsk3-u28-004
+    zh: 这个问题不复杂，很简单。
+    en: This problem isn't complicated, it's very simple.
+    pinyin: Zhège wèntí bú fùzá, hěn jiǎndān.
+  tips:
+    困难: '困 có âm Hán Việt là khốn. Mẹo nhớ: cây 木 bị nhốt trong khung 囗 → bị vây khốn, khó thoát. Chữ
+      难 trong 困难 thường đọc nhẹ: kùnnan.'
+    简单: 'Lỗi hay gặp: dùng 是 trước tính từ. Sai: ~~这是简单~~ → Đúng: 这很简单。 Tương tự với 容易, 复杂, 困难: 这很复杂,
+      không nói ~~这是复杂~~.'
+    麻烦: '麻烦您了 là câu lịch sự khi nhờ ai việc gì (“làm phiền anh/chị rồi”). 烦 gồm 火 (lửa) + 页 (đầu): đầu
+      nóng như lửa → phiền.'
+    容易: '容易 ngoài nghĩa “dễ” còn có nghĩa “dễ bị”: 很容易感冒 (rất dễ bị cảm). Âm róng: r đọc gần như “r” uốn
+      lưỡi nhẹ, không rung như “r” tiếng Việt miền Nam.'
+    需要: '需要 xūyào: x đọc gần “x” tiếng Việt nhưng lưỡi đặt sát răng dưới; ü viết thành u sau x. Phủ định
+      là 不需要 (bù xūyào): 不 đọc thanh 4 vì 需 là thanh 1.'
+- id: hsk3-u28-l02
+  title: Tình hình, sai sót và hậu quả
+  grammar: hsk3-g025
+  new_words:
+  - 情况
+  - 状况
+  - 调查
+  - 错误
+  - 后果
+  - 造成
+  sentences:
+  - id: s-hsk3-u28-005
+    zh: 调查进行中。
+    en: It's an ongoing investigation.
+    pinyin: diào chá jìn xíng zhōng
+    tatoeba_id: 13118950
+  - id: s-hsk3-u28-006
+    zh: 因为一个小错误，造成了不好的后果。
+    en: Because of a small mistake, bad consequences were caused.
+    pinyin: Yīnwèi yí ge xiǎo cuòwù, zàochéngle bù hǎo de hòuguǒ.
+  - id: s-hsk3-u28-007
+    zh: 你那边情况怎么样？
+    en: How are things on your side?
+    pinyin: Nǐ nàbiān qíngkuàng zěnmeyàng?
+  - id: s-hsk3-u28-008
+    zh: 他最近的身体状况不太好。
+    en: His health hasn't been very good lately.
+    pinyin: Tā zuìjìn de shēntǐ zhuàngkuàng bú tài hǎo.
+  tips:
+    情况: 况 có bộ băng 冫 (2 chấm), không phải bộ thủy 氵 (3 chấm) — lỗi viết rất hay gặp. 情况 là tình hình
+      chung của sự việc.
+    状况: '状况 thiên về tình trạng của người/vật (sức khỏe, máy móc, tài chính): 身体状况. 状 có âm Hán Việt là
+      trạng. zh đọc uốn lưỡi, khác “d” tiếng Việt.'
+    调查: '调 có hai cách đọc: diào trong 调查, tiáo trong 空调 (máy lạnh). 调 có âm Hán Việt là điều. 查 gồm 木
+      trên 旦.'
+    造成: '造成 thường đi với kết quả xấu: 造成后果, 造成麻烦. Không dùng cho kết quả tốt, khi đó nói 带来 hoặc 取得.'
+    错误: '错误 cuòwù: hai thanh 4 liền nhau, đọc dứt khoát. 错 là tính từ “sai” (说错了), còn 错误 vừa là danh
+      từ “lỗi” vừa là tính từ trang trọng hơn.'
+- id: hsk3-u28-l03
+  title: Đối mặt và giải quyết vấn đề
+  grammar: hsk3-g041
+  new_words:
+  - 解决
+  - 处理
+  - 面对
+  - 如何
+  - 采取
+  - 把握
+  sentences:
+  - id: s-hsk3-u28-009
+    zh: 问题已解决。
+    en: The problem's been solved.
+    pinyin: wèn tí yǐ jiě jué
+    tatoeba_id: 6047456
+  - id: s-hsk3-u28-010
+    zh: 我们应该如何面对困难？
+    en: How should we face difficulties?
+    pinyin: Wǒmen yīnggāi rúhé miànduì kùnnan?
+  - id: s-hsk3-u28-011
+    zh: 我们需要马上采取行动。
+    en: We need to take action right away.
+    pinyin: Wǒmen xūyào mǎshàng cǎiqǔ xíngdòng.
+  - id: s-hsk3-u28-012
+    zh: 这件事我一点儿把握也没有。
+    en: I'm not at all sure about this matter.
+    pinyin: Zhè jiàn shì wǒ yìdiǎnr bǎwò yě méiyǒu.
+  tips:
+    解决: '解决 jiějué: sau j thì ü viết thành u, nhưng vẫn đọc tròn môi như “uy”. 解 gồm 角 (sừng) + 刀 (dao)
+      + 牛 (trâu): dùng dao xẻ sừng trâu → tách ra, giải ra.'
+    处理: '处理 chǔlǐ: ch bật hơi mạnh, uốn lưỡi. Hai thanh 3 liền nhau nên 处 đọc gần thanh 2: chú lǐ. Dùng
+      với việc/người cần xử lý: 处理问题, 让我来处理。'
+    把握: '有把握 = chắc chắn, nắm chắc: 我有把握。 Chú ý 3+3: 有把 đọc yóu bǎwò. Cả 把 và 握 đều có bộ thủ 扌 → hành
+      động bằng tay: nắm, cầm.'
+    如何: '如何 nghĩa giống 怎么/怎么样 nhưng trang trọng hơn, hay dùng trong văn viết, họp hành: 你认为如何？ Nói chuyện
+      hằng ngày dùng 怎么 tự nhiên hơn.'
+    采取: '采取 đi với 行动 (hành động), 办法 (biện pháp): 采取行动. Không nói ~~采取东西~~; lấy đồ vật thì dùng 拿 hoặc
+      取.'
+- id: hsk3-u28-l04
+  title: Cách làm và hiệu quả
+  new_words:
+  - 方式
+  - 采用
+  - 利用
+  - 效果
+  - 有效
+  - 没用
+  sentences:
+  - id: s-hsk3-u28-013
+    zh: 效果不错。
+    en: It works well.
+    pinyin: xiào guǒ bù cuò
+    tatoeba_id: 759350
+  - id: s-hsk3-u28-014
+    zh: 跟他吵没用。
+    en: It's no use arguing with him.
+    pinyin: gēn tā chǎo méi yòng
+    tatoeba_id: 5905030
+  - id: s-hsk3-u28-015
+    zh: 我们要好好利用时间。
+    en: We should make good use of our time.
+    pinyin: Wǒmen yào hǎohǎo lìyòng shíjiān.
+  - id: s-hsk3-u28-016
+    zh: 公司采用了新的工作方式。
+    en: The company adopted a new way of working.
+    pinyin: Gōngsī cǎiyòngle xīn de gōngzuò fāngshì.
+  tips:
+    利用: 利用 là tận dụng cái sẵn có (时间, 机会); 采用 là chọn áp dụng một cách/phương pháp (采用新方式). Hai từ đều
+      có 用 có âm Hán Việt là dụng.
+    没用: '没用 méiyòng = vô dụng, vô ích: 跟他吵没用。 Đừng nhầm với 没用完 (chưa dùng hết), ở đó 没 là phủ định của
+      động từ 用: 钱还没用完。'
+    有效: 有效 ngoài nghĩa “có hiệu quả” (这个方法很有效) còn nghĩa “còn hiệu lực” cho giấy tờ, vé. Trái nghĩa với
+      没用 khi nói về phương pháp.
+    效果: '效果 xiàoguǒ: x đọc gần “x” tiếng Việt; guǒ thanh 3 đọc thấp, gần dấu hỏi nhưng không vút lên cuối.
+      果 có âm Hán Việt là quả, 效 có âm Hán Việt là hiệu.'
+- id: hsk3-u28-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

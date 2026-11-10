@@ -1,0 +1,223 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u06.json.
+id: hsk1-u06
+stage: hsk1
+order: 6
+title: Thời gian và ngày tháng
+description: Biết nói ngày, tháng, năm, thứ trong tuần, giờ giấc và các buổi trong ngày.
+lessons:
+- id: hsk1-u06-l01
+  title: Năm, tháng, ngày và sinh nhật
+  new_words:
+  - 年
+  - 月
+  - 日
+  - 号
+  - 日期
+  - 生日
+  sentences:
+  - id: s-hsk1-u06-001
+    zh: 谁的生日？
+    en: Whose birthday is it?
+    pinyin: shéi de shēng rì
+    tatoeba_id: 12686968
+  - id: s-hsk1-u06-002
+    zh: 你的生日是几月几号？
+    en: When is your birthday?
+    pinyin: Nǐ de shēngrì shì jǐ yuè jǐ hào?
+  - id: s-hsk1-u06-003
+    zh: 我的生日是八月十号。
+    en: My birthday is August 10th.
+    pinyin: Wǒ de shēngrì shì bā yuè shí hào.
+  tips:
+    日: '日 (rì): âm r tiếng Trung không rung lưỡi như r tiếng Việt. Uốn đầu lưỡi lên gần vòm miệng rồi
+      phát âm, nghe gần giống "rư" nhẹ. 日 có âm Hán Việt là nhật, chữ vẽ hình mặt trời: khung 口 với một
+      nét ngang ở giữa.'
+    号: 'Khi nói ngày trong tháng, khẩu ngữ dùng 号: 八月十号. Văn viết, giấy tờ dùng 日: 八月十日. Hỏi ngày thì
+      nói 几号? chứ không nói 几日?'
+    生日: 'Lỗi hay gặp: nói theo thứ tự tiếng Việt "ngày 10 tháng 8" thành ~~十号八月~~. Tiếng Trung nói từ
+      lớn đến nhỏ: 八月十号. 生 có âm Hán Việt là sinh, 日 có âm Hán Việt là nhật, nên 生日 dễ nhớ là "sinh nhật".'
+    月: '月 (yuè): sau y, chữ ü được viết là u nhưng vẫn đọc tròn môi như "uy" chụm môi. Tháng chỉ cần ghép
+      số + 月: 一月 là tháng Một, 十二月 là tháng Mười hai. 月 có âm Hán Việt là nguyệt.'
+- id: hsk1-u06-l02
+  title: Ngày và thứ trong tuần
+  new_words:
+  - 天
+  - 星期
+  - 星期日
+  - 星期天
+  - 新年
+  sentences:
+  - id: s-hsk1-u06-004
+    zh: 今天星期几？
+    en: What day is it today?
+    pinyin: jīn tiān xīng qī jǐ
+    tatoeba_id: 385098
+  - id: s-hsk1-u06-005
+    zh: 今天是星期日。
+    en: Today is Sunday.
+    pinyin: jīn tiān shì xīng qī rì
+    tatoeba_id: 1178260
+  - id: s-hsk1-u06-006
+    zh: 明天是星期天。
+    en: Tomorrow's Sunday.
+    pinyin: míng tiān shì xīng qī tiān
+    tatoeba_id: 409409
+  - id: s-hsk1-u06-007
+    zh: 新年好！
+    en: Happy New Year!
+    pinyin: Xīnnián hǎo!
+  tips:
+    星期: '星期一 là thứ Hai, 星期二 là thứ Ba… 星期六 là thứ Bảy. Người Việt hay lệch một số, nói 星期二 khi muốn nói
+      thứ Hai. Mẹo nhớ: số sau 星期 nhỏ hơn số thứ tiếng Việt 1 đơn vị.'
+    星期天: 'Chủ nhật là 星期天 (khẩu ngữ) hoặc 星期日 (trang trọng hơn). Không có ~~星期七~~. Hỏi thứ mấy: 星期几?'
+    天: '天 có âm Hán Việt là thiên. Chữ gồm 一 đặt trên 大 (người dang tay), tức bầu trời trên đầu người.
+      Khi đếm ngày, 天 đứng ngay sau số, không cần 个: 三天 (ba ngày).'
+    新年: '新 có âm Hán Việt là tân, mang nghĩa mới. Câu chúc Tết đơn giản nhất: 新年好! xīn đọc thanh 1, giữ
+      giọng cao và đều, đừng hạ giọng xuống.'
+- id: hsk1-u06-l03
+  title: Hôm qua, hôm nay, ngày mai
+  new_words:
+  - 今天
+  - 明天
+  - 昨天
+  - 前天
+  - 后天
+  sentences:
+  - id: s-hsk1-u06-008
+    zh: 昨天星期几？
+    en: What day was yesterday?
+    pinyin: zuó tiān xīng qī jǐ
+    tatoeba_id: 5390925
+  - id: s-hsk1-u06-009
+    zh: 昨天是我的生日。
+    en: Yesterday was my birthday.
+    pinyin: zuó tiān shì wǒ de shēng rì
+    tatoeba_id: 793308
+  - id: s-hsk1-u06-010
+    zh: 好，明天见！
+    en: Okay, see you tomorrow!
+    pinyin: hǎo míng tiān jiàn
+    tatoeba_id: 10961164
+  - id: s-hsk1-u06-011
+    zh: 你后天有时间吗？
+    en: Are you free the day after tomorrow?
+    pinyin: nǐ hòu tiān yǒu shí jiān ma
+    tatoeba_id: 2357174
+  tips:
+    昨天: '昨 (zuó): z đọc như "ts", đầu lưỡi chạm chân răng trên và không bật hơi. Đừng đọc thành "d" hay
+      "gi" của tiếng Việt. Chữ 昨 có bộ 日 bên trái vì liên quan đến ngày.'
+    明天: 明 có âm Hán Việt là minh, ghép từ 日 (mặt trời) và 月 (mặt trăng) nên nghĩa là sáng. 明天 là ngày
+      mai, tức ngày sáng ra tiếp theo.
+    前天: '前 có âm Hán Việt là tiền, 后 có âm Hán Việt là hậu. Bạn có thể nhớ cặp "tiền – hậu" như "trước
+      – sau": 前天 là hôm kia, 后天 là ngày kia.'
+    今天: '今 có âm Hán Việt là kim (hiện nay). Thứ tự trên trục thời gian: 前天 → 昨天 → 今天 → 明天 → 后天.'
+- id: hsk1-u06-l04
+  title: Năm nay, năm ngoái, năm sau
+  new_words:
+  - 今年
+  - 明年
+  - 去年
+  - 半年
+  - 半天
+  sentences:
+  - id: s-hsk1-u06-012
+    zh: 我明年十七岁。
+    en: I'll be seventeen next year.
+    pinyin: Wǒ míngnián shíqī suì.
+  - id: s-hsk1-u06-013
+    zh: 我是去年认识他的。
+    en: I got acquainted with him last year.
+    pinyin: wǒ shì qù nián rèn shí tā de
+    tatoeba_id: 788579
+  - id: s-hsk1-u06-014
+    zh: 去年的今天是星期几?
+    en: What day of the week was it this time last year?
+    pinyin: qù nián de jīn tiān shì xīng qī jǐ
+    tatoeba_id: 6140896
+  tips:
+    去年: Năm ngoái là 去年, không phải ~~昨年~~. Hôm qua dùng 昨天, còn năm ngoái thì dùng 去. 去 có âm Hán Việt
+      là khứ, giống chữ khứ trong "quá khứ".
+    半年: '半 đứng ngay trước 年, không cần 个: 半年 (nửa năm). Nói "một năm rưỡi" thì 半 đứng sau: 一年半. 半 có
+      âm Hán Việt là bán.'
+    半天: '半天 có hai nghĩa: "nửa ngày" và "mãi, lâu lắm" (nói quá lên trong khẩu ngữ). Cần dựa vào ngữ cảnh
+      để hiểu đúng.'
+    明年: '今年 và 明年 dùng cùng chữ với 今天 và 明天, chỉ đổi 天 thành 年. Riêng năm ngoái là ngoại lệ: dùng 去年,
+      không dùng 昨.'
+- id: hsk1-u06-l05
+  title: 'Giờ giấc: mấy giờ, mấy phút'
+  grammar: hsk1-g044
+  new_words:
+  - 时候
+  - 时间
+  - 现在
+  - 点
+  - 分
+  - 小时
+  - 差
+  sentences:
+  - id: s-hsk1-u06-015
+    zh: 现在是七点四十五分。
+    en: It's 7:45.
+    pinyin: Xiànzài shì qī diǎn sìshíwǔ fēn.
+  - id: s-hsk1-u06-016
+    zh: 现在差五分八点。
+    en: It's five to eight now.
+    pinyin: Xiànzài chà wǔ fēn bā diǎn.
+  - id: s-hsk1-u06-017
+    zh: 一天有二十四个小时。
+    en: A day has twenty-four hours.
+    pinyin: Yì tiān yǒu èrshísì gè xiǎoshí.
+  - id: s-hsk1-u06-018
+    zh: 我现在没时间。
+    en: I don't have any time right now.
+    pinyin: wǒ xiàn zài méi shí jiān
+    tatoeba_id: 1138990
+  tips:
+    点: '点 có âm Hán Việt là điểm. Nói 2 giờ là 两点, không nói ~~二点~~. Hai thanh 3 đi liền thì âm đầu đọc
+      thành thanh 2: 几点 đọc là jí diǎn (几 đổi, 点 giữ nguyên thanh 3).'
+    小时: 点 chỉ thời điểm, 小时 chỉ khoảng thời gian. 两点 là "2 giờ" (lúc 2 giờ), còn 两个小时 là "2 tiếng". Đừng
+      nói ~~两点~~ khi muốn nói "học 2 tiếng".
+    差: '差 (chà): ch là âm uốn lưỡi và bật hơi mạnh, khác với "ch" tiếng Việt. "8 giờ kém 5" nói là 差五分八点:
+      差 + số phút + giờ. 差 có âm Hán Việt là sai.'
+    时候: 时候 đọc là shíhou, chữ 候 đọc nhẹ, không mang thanh. Hỏi "khi nào?" dùng 什么时候? 时 có âm Hán Việt
+      là thì, chữ có bộ 日.
+- id: hsk1-u06-l06
+  title: Các buổi trong ngày
+  grammar: hsk1-g028
+  new_words:
+  - 早上
+  - 上午
+  - 中午
+  - 下午
+  - 晚上
+  - 白天
+  sentences:
+  - id: s-hsk1-u06-019
+    zh: 你上午有时间吗?
+    en: Do you have time in the morning?
+    pinyin: nǐ shàng wǔ yǒu shí jiān ma
+    tatoeba_id: 6471015
+  - id: s-hsk1-u06-020
+    zh: 上午你有时间吗?
+    en: Do you have time this morning?
+    pinyin: shàng wǔ nǐ yǒu shí jiān ma
+    tatoeba_id: 6471019
+  - id: s-hsk1-u06-021
+    zh: 我晚上学习汉语。
+    en: I study Chinese in the evening.
+    pinyin: Wǒ wǎnshang xuéxí Hànyǔ.
+  - id: s-hsk1-u06-022
+    zh: 明天下午见！
+    en: See you tomorrow afternoon!
+    pinyin: Míngtiān xiàwǔ jiàn!
+  tips:
+    上午: '午 có âm Hán Việt là ngọ, 上 có âm Hán Việt là thượng, 下 có âm Hán Việt là hạ. Có thể nhớ: 上午 là
+      trước giờ ngọ (buổi sáng), 中午 là chính ngọ (buổi trưa), 下午 là sau giờ ngọ (buổi chiều).'
+    晚上: 'Lỗi hay gặp: đặt từ chỉ thời gian ở cuối câu như tiếng Việt, ví dụ ~~我学习汉语晚上~~. Câu đúng là 我晚上学习汉语.
+      Trong 晚上, chữ 上 đọc nhẹ (wǎnshang).'
+    早上: '早上 là sáng sớm, khoảng lúc mới ngủ dậy. 上午 là cả buổi sáng cho tới trưa. 早 có âm Hán Việt là
+      tảo, chữ có bộ 日 ở trên: mặt trời vừa mọc.'
+    白天: 白 có âm Hán Việt là bạch, nghĩa là trắng, sáng. 白天 là ban ngày, đối lại với 晚上 (buổi tối).
+- id: hsk1-u06-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

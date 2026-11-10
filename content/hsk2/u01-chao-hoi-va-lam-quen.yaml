@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u01.json.
+id: hsk2-u01
+stage: hsk2
+order: 1
+title: Chào hỏi và làm quen
+description: Người học có thể chào hỏi, giới thiệu tên và quê quán, cảm ơn, xin lỗi và làm quen với bạn
+  mới.
+lessons:
+- id: hsk2-u01-l01
+  title: Lâu rồi không gặp – gặp lại bạn cũ
+  grammar: hsk2-g078
+  new_words:
+  - 好久
+  - 见到
+  - 见过
+  - 老朋友
+  - 老王
+  - 小王
+  - 晚安
+  sentences:
+  - id: s-hsk2-u01-001
+    zh: 老王，好久不见！
+    en: Lao Wang, long time no see!
+    pinyin: Lǎo Wáng, hǎojiǔ bú jiàn!
+  - id: s-hsk2-u01-002
+    zh: 我们是老朋友。
+    en: We're old friends.
+    pinyin: wǒ men shì lǎo péng yǒu
+    tatoeba_id: 338631
+  - id: s-hsk2-u01-003
+    zh: 很高兴见到你。
+    en: Nice to see you.
+    pinyin: hěn gāo xìng jiàn dào nǐ
+    tatoeba_id: 349262
+  - id: s-hsk2-u01-004
+    zh: 我见过小王，你呢？
+    en: I've met Xiao Wang. What about you?
+    pinyin: Wǒ jiànguo Xiǎo Wáng, nǐ ne?
+  tips:
+    好久: '好久 = lâu lắm rồi; 好 ở đây là ''rất'', không phải ''tốt''. Biến điệu 3+3: hǎo + jiǔ đều thanh
+      3 nên đọc là háojiǔ. Câu chào kinh điển: 好久不见 (hǎojiǔ bú jiàn) – 不 đứng trước thanh 4 nên đọc thành
+      bú. 久 có âm Hán Việt là cửu.'
+    见过: '过 đọc nhẹ (guo), chỉ trải nghiệm ''đã từng''. Phủ định dùng 没, không dùng 不: 我没见过他 (đúng), ~~我不见过他~~
+      (sai). So sánh: 见到 = gặp được (lần cụ thể), 见过 = từng gặp.'
+    晚安: '晚安 chỉ dùng khi chia tay buổi tối hoặc trước khi đi ngủ, giống ''chúc ngủ ngon''. Gặp nhau buổi
+      tối thì chào 晚上好, đừng nói 晚安. Dấu nháy trong wǎn''ān tách âm tiết: đọc wǎn – ān, không đọc ''wa-nan''.'
+    老王: 老 + họ (老王) gọi thân mật người lớn tuổi hơn hoặc ngang hàng thân quen; 小 + họ (小王) gọi người trẻ
+      hơn. Không dùng kiểu này với người lạ hay cấp trên – khi đó dùng 王先生, 王老师.
+- id: hsk2-u01-l02
+  title: Họ tên và quê quán
+  new_words:
+  - 姓
+  - 姓名
+  - 名
+  - 名称
+  - 叫作
+  - 来自
+  - 位
+  sentences:
+  - id: s-hsk2-u01-005
+    zh: 你姓什么？
+    en: What is your last name?
+    pinyin: nǐ xìng shén me
+    tatoeba_id: 13198931
+  - id: s-hsk2-u01-006
+    zh: 请写你的姓名。
+    en: Please write your full name.
+    pinyin: Qǐng xiě nǐ de xìngmíng.
+  - id: s-hsk2-u01-007
+    zh: 我来自北京。
+    en: I am from Beijing.
+    pinyin: wǒ lái zì běi jīng
+    tatoeba_id: 13138445
+  - id: s-hsk2-u01-008
+    zh: 她是位老师。
+    en: She is a teacher.
+    pinyin: tā shì wèi lǎo shī
+    tatoeba_id: 13519633
+  tips:
+    姓: '姓 là động từ, nói thẳng 我姓王. Người Việt hay nói ~~我姓是王~~ – sai, không thêm 是. Mẹo nhớ chữ: bộ
+      nữ 女 + 生 (sinh) – họ là thứ ''sinh ra'' đã có. 姓 có âm Hán Việt là tính. Hỏi lịch sự: 您贵姓？'
+    名称: 名称 dùng cho tên của vật, công ty, tổ chức (商店的名称), không dùng cho tên người. Tên người dùng 名字
+      hoặc 姓名. 称 có âm Hán Việt là xưng, bộ hòa 禾.
+    来自: 来自 + nơi chốn = đến từ, hơi trang trọng (giới thiệu trước lớp, phát biểu). Nói chuyện thường ngày
+      hay dùng 我是北京人. Đừng nói ~~我来自是中国~~ – sau 来自 là địa danh luôn.
+    位: '位 là lượng từ lịch sự cho người: 这位先生, 一位老师. Khi nói về chính mình không dùng 位 (nghe như tự đề
+      cao): nói 我是老师, không nói ~~我是一位老师~~. 位 có âm Hán Việt là vị, bộ nhân 亻 + 立.'
+- id: hsk2-u01-l03
+  title: Mọi người, chúng ta và bản thân
+  grammar: hsk2-g006
+  new_words:
+  - 大家
+  - 咱
+  - 咱们
+  - 自己
+  - 有人
+  - 欢迎
+  sentences:
+  - id: s-hsk2-u01-009
+    zh: 欢迎大家！
+    en: Welcome, everyone!
+    pinyin: huān yíng dà jiā
+    tatoeba_id: 9992000
+  - id: s-hsk2-u01-010
+    zh: 咱们都是学生。
+    en: Both you and I are students.
+    pinyin: zán men dōu shì xué shēng
+    tatoeba_id: 417324
+  - id: s-hsk2-u01-011
+    zh: 请介绍自己。
+    en: Please introduce yourselves.
+    pinyin: qǐng jiè shào zì jǐ
+    tatoeba_id: 13519468
+  - id: s-hsk2-u01-012
+    zh: 有人找你。
+    en: There is someone looking for you.
+    pinyin: yǒu rén zhǎo nǐ
+    tatoeba_id: 2062938
+  tips:
+    大家: 'Bẫy từ: 大 có âm Hán Việt là đại, 家 có âm Hán Việt là gia, nhưng 大家 KHÔNG phải ''đại gia'' giàu
+      có mà là ''mọi người''. 大家好！= Chào mọi người! Thường đi với 都: 大家都很忙.'
+    咱们: '咱们 luôn gồm cả người nghe (chúng ta), còn 我们 có thể không gồm người nghe (chúng tôi). Rủ rê thì
+      dùng 咱们: 咱们走吧！Phát âm z trong zán gần ''ch'' tiếng Việt nhưng đầu lưỡi chạm răng, không bật hơi.
+      Chữ 咱: bộ khẩu 口 + 自.'
+    自己: '自己 đứng sau đại từ: 我自己, 你自己. zì: âm i sau z đọc như ''ư'', không đọc ''di''. 自己 + 己 có thanh
+      3 nhưng 自 thanh 4 nên không biến điệu. 自 có âm Hán Việt là tự, 己 có âm Hán Việt là kỉ.'
+    有人: 'Muốn nói ''có người làm gì'' phải mở đầu bằng 有人: 有人找你. Người Việt hay bỏ 有 thành ~~人找你~~ – sai.
+      Hỏi ''có ai không?'': 家里有人吗？'
+- id: hsk2-u01-l04
+  title: Cảm ơn, xin lỗi và kết bạn
+  grammar: hsk2-g034
+  new_words:
+  - 感谢
+  - 不好意思
+  - 交朋友
+  - 有空儿
+  - 啊
+  sentences:
+  - id: s-hsk2-u01-013
+    zh: 不好意思啊，我忘了你的名字。
+    en: Sorry, I forgot your name.
+    pinyin: Bù hǎoyìsi a, wǒ wàng le nǐ de míngzi.
+  - id: s-hsk2-u01-014
+    zh: 我想感谢他。
+    en: I want to thank him.
+    pinyin: wǒ xiǎng gǎn xiè tā
+    tatoeba_id: 9797478
+  - id: s-hsk2-u01-015
+    zh: 你明天有空儿吗？
+    en: Are you free tomorrow?
+    pinyin: Nǐ míngtiān yǒu kòngr ma?
+  - id: s-hsk2-u01-016
+    zh: 我想跟你交朋友。
+    en: I'd like to be friends with you.
+    pinyin: Wǒ xiǎng gēn nǐ jiāo péngyou.
+  tips:
+    不好意思: '不好意思 nhẹ hơn 对不起: dùng khi làm phiền, nhờ vả, gọi người lạ (''xin lỗi cho hỏi''). Lỗi nặng
+      mới dùng 对不起. 不 đứng trước hǎo (thanh 3) nên giữ nguyên bù. 思 ở đây đọc nhẹ: yìsi.'
+    感谢: '感谢 trang trọng hơn 谢谢, hay dùng trong phát biểu, thư từ: 感谢大家！Mẹo nhớ chữ: 感 có bộ tâm 心 ở dưới
+      (cảm từ trong lòng), 谢 có bộ ngôn 讠 (nói lời cảm ơn). 感 có âm Hán Việt là cảm, 谢 có âm Hán Việt
+      là tạ.'
+    交朋友: 'Kết bạn VỚI ai: 跟 + người + 交朋友. Không nói ~~交朋友跟你~~ hay ~~交你朋友~~. 友 đọc nhẹ: péngyou.'
+    有空儿: '空 đọc kòng (thanh 4) khi nghĩa là ''rảnh, thời gian trống''; đọc kōng (thanh 1) khi nghĩa là
+      ''trống rỗng''. 儿 hòa vào âm trước: kòngr, cuốn lưỡi nhẹ ở cuối, không đọc thành âm ''ơ'' riêng.'
+    啊: '啊 cuối câu đọc nhẹ, làm câu mềm và thân mật hơn: 对不起啊！谢谢啊！Đi với 好/真 thành câu cảm thán: 你真高啊！Đừng
+      lạm dụng trong văn viết trang trọng.'
+- id: hsk2-u01-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

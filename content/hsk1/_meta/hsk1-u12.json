@@ -1,0 +1,66 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:55:47",
+  "prompt_sha256": [
+    "4d0878b7eada0633d871d753c2469a01158bc0d15a5f652a1b31622c6c70b306",
+    "9dd07ccd66adfa818f7c87d0d36450dd56351b10c4626a6f473299f13eae990b",
+    "913f627ee3998e0c768bd1972f3c15cdd8dd674ede761c4d8b1b92922a3d2c27"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk1-u12-007, s-hsk1-u12-014",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi thanh đầy đủ cho âm tiết nhẹ. 休息 ghi \"xiū xī\" nhưng đúng là xiūxi (息 đọc nhẹ). 身上 ghi \"shēn shàng\" nhưng đúng là shēnshang, trái với chính phần tips của bài (xiūxi, shēnshang).",
+      "suggestion": "s-007: wǒ jīntiān xiūxi. s-014: wǒ shēnshang méiyǒu qián."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u12-003, 004, 005, 006, 009, 013, 016, 017, 018",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin tách từng âm tiết (shuì jiào, shén me, wǎn shàng, cháng cháng, xiàn zài, yī yuàn...) trong khi các câu khác viết liền theo từ (qǐchuáng, chángcháng, yīyuàn...). Cách viết không thống nhất, và làm mất thanh nhẹ của 什么 (shénme).",
+      "suggestion": "Viết pinyin theo từ, thống nhất toàn bộ: shuìjiào, shénme, wǎnshang, chángcháng, xiànzài, yīshēng, yīyuàn..."
+    },
+    {
+      "where": "s-hsk1-u12-006",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu hán dùng dấu hỏi half-width \"?\" (她晚上做什么?), trong khi các câu khác dùng dấu full-width \"？\".",
+      "suggestion": "Đổi thành 她晚上做什么？"
+    },
+    {
+      "where": "s-hsk1-u12-016",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "不 đứng trước thanh 4 (不累) phải đọc bú, nhưng pinyin ghi \"bù lèi\" và tip của 累 không nhắc biến điệu của 不. Đây là chỗ thiếu ghi chú sandhi.",
+      "suggestion": "Thêm vào tip của 累: \"不 + thanh 4 đọc bú: 我不累 (wǒ bú lèi)\", hoặc ghi pinyin bú lèi."
+    },
+    {
+      "where": "s-hsk1-u12-009",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"He is often home.\" nghe gượng trong tiếng Anh.",
+      "suggestion": "Đổi thành \"He is often at home.\""
+    }
+  ],
+  "machine_warnings": [
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:20: [sentence_unlearned_word] Câu s-hsk1-u12-001 (bài hsk1-u12-l01) dùng từ chưa học: 六点",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:24: [sentence_unlearned_word] Câu s-hsk1-u12-002 (bài hsk1-u12-l01) dùng từ chưa học: 几点",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:73: [sentence_unlearned_word] Câu s-hsk1-u12-008 (bài hsk1-u12-l02) dùng từ chưa học: 我先",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:99: [sentence_unlearned_word] Câu s-hsk1-u12-010 (bài hsk1-u12-l03) dùng từ chưa học: 六点",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:107: [sentence_unlearned_word] Câu s-hsk1-u12-012 (bài hsk1-u12-l03) dùng từ chưa học: 你常",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:109: [sentence_pinyin_mismatch] Câu s-hsk1-u12-012: pinyin ghi 'nǐ cháng zài zhèr chīfàn ma', pypinyin cho 'nǐ cháng zài zhè ér chī fàn ma'",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:135: [sentence_unlearned_word] Câu s-hsk1-u12-015 (bài hsk1-u12-l04) dùng từ chưa học: 洗手",
+    "u12-sinh-hoat-hang-ngay-va-suc-khoe.yaml:173: [sentence_unlearned_word] Câu s-hsk1-u12-019 (bài hsk1-u12-l05) dùng từ chưa học: 我要"
+  ],
+  "han_viet_proposed": [
+    "做",
+    "睡"
+  ]
+}

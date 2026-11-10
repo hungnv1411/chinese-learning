@@ -1,0 +1,170 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u07.json.
+id: hsk1-u07
+stage: hsk1
+order: 7
+title: Ăn uống
+description: Biết gọi món, nói mình muốn ăn uống gì và hỏi lựa chọn trong bữa ăn.
+lessons:
+- id: hsk1-u07-l01
+  title: Đói, khát và muốn ăn uống
+  grammar: hsk1-g003
+  new_words:
+  - 吃
+  - 喝
+  - 吃饭
+  - 饭
+  - 饿
+  - 渴
+  - 想
+  - 要
+  sentences:
+  - id: s-hsk1-u07-001
+    zh: 我想吃饭。
+    en: I'd like to eat.
+    pinyin: wǒ xiǎng chī fàn
+    tatoeba_id: 1178143
+  - id: s-hsk1-u07-002
+    zh: 你想吃吗？
+    en: Do you want to eat?
+    pinyin: nǐ xiǎng chī ma
+    tatoeba_id: 1493378
+  - id: s-hsk1-u07-003
+    zh: 你饿不饿？
+    en: Are you hungry?
+    pinyin: Nǐ è bu è?
+  - id: s-hsk1-u07-004
+    zh: 他要多少?
+    en: How many does he want?
+    pinyin: tā yào duō shǎo
+    tatoeba_id: 778020
+  tips:
+    吃: '吃 (chī): ''ch'' là âm uốn lưỡi, bật hơi mạnh, khác ''ch'' tiếng Việt. Vần ''i'' sau ch đọc gần
+      như ''ư'', không đọc ''chi''. Chữ có bộ khẩu 口 (miệng): ăn thì dùng miệng.'
+    喝: '喝 (hē): ''h'' xát từ cuống họng, nghe gần ''kh'' nhẹ; ''e'' đọc gần ''ơ''. Cũng có bộ khẩu 口 như
+      吃. 喝 có âm Hán Việt là hát. Nhớ: ăn dùng 吃, uống dùng 喝, không nói 吃水.'
+    饿: '饿 (è) và 渴 (kě) là tính từ, KHÔNG dùng 是: ~~我是饿~~ → 我饿 / 我很饿. Mẹo nhớ: 饿 = bộ thực 饣 (đồ ăn) +
+      我: ''tôi cần đồ ăn'' → đói; 渴 có bộ thủy 氵: cần nước → khát. 渴 có âm Hán Việt là khát.'
+    想: '想 (xiǎng) có bộ tâm 心 (lòng) ở dưới: điều nghĩ trong lòng. 想 có âm Hán Việt là tưởng. Ngoài ''muốn'',
+      想 + người còn nghĩa là ''nhớ'': 我想你 = Anh nhớ em. Muốn nói ''không muốn'' thì dùng 不想, đừng dùng
+      不要 (= đừng).'
+- id: hsk1-u07-l02
+  title: 'Món ăn: cơm, rau, thịt, trứng, bánh, mì'
+  new_words:
+  - 米饭
+  - 菜
+  - 肉
+  - 鸡蛋
+  - 包子
+  - 面包
+  - 面条儿
+  sentences:
+  - id: s-hsk1-u07-005
+    zh: 我吃面包。
+    en: I eat bread.
+    pinyin: wǒ chī miàn bāo
+    tatoeba_id: 843482
+  - id: s-hsk1-u07-006
+    zh: 他们吃肉。
+    en: They eat meat.
+    pinyin: tā men chī ròu
+    tatoeba_id: 8854279
+  - id: s-hsk1-u07-007
+    zh: 你们要米饭吗？
+    en: Do you want rice?
+    pinyin: nǐ men yào mǐ fàn ma
+    tatoeba_id: 6057683
+  - id: s-hsk1-u07-008
+    zh: 我要两个鸡蛋。
+    en: I want two eggs.
+    pinyin: Wǒ yào liǎng ge jīdàn.
+  tips:
+    肉: '肉 (ròu): ''r'' tiếng Trung không rung lưỡi như ''r'' tiếng Việt; hãy cong đầu lưỡi lên gần vòm
+      miệng, để hơi đi ra êm, không rung. Thanh 4 đọc dứt khoát, đi từ cao xuống thấp.'
+    菜: '菜 (cài): ''c'' đọc như ''tx'' bật hơi, KHÔNG đọc như ''c/k'' tiếng Việt. Chữ có bộ thảo 艹 (cỏ)
+      ở trên → rau. 菜 vừa là ''rau'' vừa là ''món ăn'': 中国菜 = món Trung Quốc. Câu lóng: 他是我的菜 = anh ấy
+      đúng gu của tôi.'
+    鸡蛋: '鸡蛋 (jīdàn): ''j'' đọc gần ''ch'' tiếng Việt nhưng nhẹ, không bật hơi. 鸡 có bộ điểu 鸟 (chim) →
+      gà; 蛋 có bộ trùng 虫. 鸡蛋 = trứng gà; đếm dùng 个: 一个鸡蛋.'
+    面条儿: '面条儿 (miàntiáor): âm cuối ''r'' là 儿 hóa, chỉ cong lưỡi ở cuối âm ''tiáo'', không đọc thành một
+      âm ''ér'' riêng. 条 có âm Hán Việt là điều; 条 chỉ vật dài: sợi mì. Phân biệt: 面包 = bánh mì, 包子 =
+      bánh bao. 包 có âm Hán Việt là bao.'
+- id: hsk1-u07-l03
+  title: Đồ uống, trái cây và cái cốc
+  new_words:
+  - 水
+  - 水果
+  - 茶
+  - 牛奶
+  - 奶
+  - 杯
+  - 杯子
+  sentences:
+  - id: s-hsk1-u07-009
+    zh: 你想再要杯茶吗？
+    en: Would you like another cup of tea?
+    pinyin: nǐ xiǎng zài yào bēi chá ma
+    tatoeba_id: 405218
+  - id: s-hsk1-u07-010
+    zh: 爸，我的杯子呢？
+    en: Dad, where's my glass?
+    pinyin: bà wǒ de bēi zi ne
+    tatoeba_id: 10961055
+  - id: s-hsk1-u07-011
+    zh: 我想喝水。
+    en: I want to drink water.
+    pinyin: Wǒ xiǎng hē shuǐ.
+  - id: s-hsk1-u07-012
+    zh: 我要一杯牛奶。
+    en: I'd like a glass of milk.
+    pinyin: Wǒ yào yì bēi niúnǎi.
+  tips:
+    水果: '水 có âm Hán Việt là thuỷ, 果 có âm Hán Việt là quả. 水果 = trái cây (nhiều nước). Biến điệu 3+3:
+      shuǐ + guǒ đều thanh 3 nên đọc thành shuíguǒ (chữ đầu lên như thanh 2). Thanh 3 không phải dấu hỏi:
+      hạ thấp giọng rồi mới lên.'
+    茶: '茶 (chá) có âm Hán Việt là trà. Cấu tạo dễ nhớ: bộ thảo 艹 ở trên, giữa là 人 (người), dưới là 木
+      (cây): người ở giữa cỏ cây hái lá trà. ''ch'' uốn lưỡi, bật hơi.'
+    牛奶: '牛 có âm Hán Việt là ngưu. 牛奶 = sữa bò. Chú ý niú và nǎi đều bắt đầu bằng ''n'': người Việt một
+      số vùng hay đọc nhầm thành ''l''. 奶 có bộ nữ 女; 奶奶 (đã học) là bà nội.'
+    杯: '杯 có âm Hán Việt là bôi; bộ mộc 木 + 不. 杯 là lượng từ: 一杯茶 = một cốc trà (一 đọc yì trước thanh
+      1). Lỗi hay gặp: ~~一个茶~~ → 一杯茶. Còn 杯子 là danh từ ''cái cốc'': 一个杯子.'
+- id: hsk1-u07-l04
+  title: Bữa ăn, nhà hàng và hỏi lựa chọn
+  grammar: hsk1-g047
+  new_words:
+  - 早饭
+  - 午饭
+  - 晚饭
+  - 饭店
+  - 好吃
+  - 还是
+  sentences:
+  - id: s-hsk1-u07-013
+    zh: 你想吃点午饭吗？
+    en: Do you want to get some lunch?
+    pinyin: nǐ xiǎng chī diǎn wǔ fàn ma
+    tatoeba_id: 5581737
+  - id: s-hsk1-u07-014
+    zh: 你喝茶还是喝水？
+    en: Do you drink tea or water?
+    pinyin: Nǐ hē chá háishi hē shuǐ?
+  - id: s-hsk1-u07-015
+    zh: 你早饭吃面包还是包子？
+    en: Do you have bread or baozi for breakfast?
+    pinyin: Nǐ zǎofàn chī miànbāo háishi bāozi?
+  - id: s-hsk1-u07-016
+    zh: 饭店的菜好吃吗？
+    en: Is the food at the restaurant good?
+    pinyin: Fàndiàn de cài hǎochī ma?
+  tips:
+    早饭: '早 có âm Hán Việt là tảo, 午 có âm Hán Việt là ngọ, 晚 có âm Hán Việt là vãn. Ghép với từ đã học:
+      早上 → 早饭 (bữa sáng), 中午 → 午饭 (bữa trưa), 晚上 → 晚饭 (bữa tối). ''z'' trong zǎo đọc gần ''tz'', đầu lưỡi
+      phẳng, không bật hơi, không cong lưỡi.'
+    饭店: 店 có âm Hán Việt là điếm (cửa hàng). 饭店 thường là nhà hàng, nhưng tên khách sạn lớn cũng hay dùng
+      饭店 (ví dụ 北京饭店), nên đừng ngạc nhiên khi thấy trên biển khách sạn.
+    好吃: '好吃 là tính từ ''ngon'', không dùng 是: ~~菜是好吃~~ → 菜很好吃. hǎo (thanh 3) đứng trước chī (thanh 1)
+      chỉ đọc nửa thanh 3: hạ giọng thấp rồi chuyển luôn, không cần vút lên.'
+    还是: '还是 (háishi): hái thanh 2, shi thanh nhẹ. 还 có âm Hán Việt là hoàn. Lỗi hay gặp: thêm 吗 vào câu
+      hỏi lựa chọn. ~~你喝茶还是喝水吗？~~ → 你喝茶还是喝水？ Câu đã có 还是 thì bỏ 吗.'
+- id: hsk1-u07-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

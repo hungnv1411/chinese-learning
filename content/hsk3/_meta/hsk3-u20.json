@@ -1,0 +1,30 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:58:56",
+  "prompt_sha256": [
+    "6155a3b20aefe7c6a4140860a93cbfd18cd2d6d047415b0295d11abd680cb22f",
+    "75509237604d30480c879ecdb211395aee7062910f64450aa10cf2a755fed1d7",
+    "f0b2c33ba7f0e267aee607247c3d9f984f36e8110ce215c46d5a4f479f8a6509"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u20-012",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu 'zh' dùng dấu chấm than nửa chiều '!' (千万不要!), trong khi các câu khác dùng '！' toàn chiều. Chỉ là lỗi định dạng, không làm sai nội dung.",
+      "suggestion": "Đổi thành 千万不要！ cho thống nhất."
+    }
+  ],
+  "machine_warnings": [
+    "u20-giong-dieu-va-thai-do.yaml:69: [sentence_unlearned_word] Câu s-hsk3-u20-007 (bài hsk3-u20-l02) dùng từ chưa học: 这个",
+    "u20-giong-dieu-va-thai-do.yaml:73: [sentence_unlearned_word] Câu s-hsk3-u20-008 (bài hsk3-u20-l02) dùng từ chưa học: 真巧",
+    "u20-giong-dieu-va-thai-do.yaml:75: [sentence_pinyin_mismatch] Câu s-hsk3-u20-008: pinyin ghi 'Zhēn qiǎo, wǒ yě zài zhèr!', pypinyin cho 'zhēn qiǎo wǒ yě zài zhè ér'",
+    "u20-giong-dieu-va-thai-do.yaml:101: [sentence_pinyin_mismatch] Câu s-hsk3-u20-009: pinyin ghi 'kǒngpà wǒ xiànzài děi zǒu le', pypinyin cho 'kǒng pà wǒ xiàn zài dé zǒu le'"
+  ],
+  "han_viet_proposed": []
+}

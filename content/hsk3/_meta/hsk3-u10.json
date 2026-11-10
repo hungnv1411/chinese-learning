@@ -1,0 +1,70 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:24:26",
+  "prompt_sha256": [
+    "c2417cedb75fcbb5395dfe93d6a0021f6cb7a17877d014ea4d79be1ae5d44f7b",
+    "a62a5dbef27fa09cb3413bdbe1fd68da89730d45d6270548e02350a633d0050d",
+    "b23fd26c0acac5b9fb17dfde7c0f4e04d6cc8c0985c2441ef9939de42e650456"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u10-004",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu tiếng Trung kết thúc bằng dấu chấm ASCII \".\" thay vì dấu câu Trung Quốc \"。\", không đồng nhất với các câu khác.",
+      "suggestion": "Sửa thành: 我在旅行社工作。"
+    },
+    {
+      "where": "s-hsk3-u10-002",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"return to the country earlier\" gượng và mơ hồ (không nói rõ là về nước sớm hơn dự định).",
+      "suggestion": "Dịch: \"He plans to return to his home country ahead of schedule.\" hoặc \"He plans to go back home early.\""
+    },
+    {
+      "where": "s-hsk3-u10-006",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"xíng lǐ\" (tách từng âm tiết, 李 mang thanh 3), trong khi tip của bài và từ điển ghi xíngli với 李 là thanh nhẹ. Không nhất quán.",
+      "suggestion": "Ghi \"wǒ zài nǎr qǔ xíngli\" hoặc ít nhất \"xíng li\" với 李 thanh nhẹ, khớp với tip 行李."
+    },
+    {
+      "where": "s-hsk3-u10-010",
+      "category": "english",
+      "severity": "warning",
+      "problem": "我很喜欢…开车 là hiện tại (\"I like driving\"), nhưng bản dịch dùng quá khứ \"I enjoyed driving\".",
+      "suggestion": "Dịch: \"I really like driving on the new highway.\""
+    },
+    {
+      "where": "hsk3-u10-l01 (tip 旅馆)",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "旅馆 lǚguǎn là hai âm thanh 3 liền nhau nên đọc lǘguǎn (biến điệu 3+3), nhưng tip chỉ nói về ü mà không nhắc biến điệu.",
+      "suggestion": "Thêm một câu: \"旅馆 là 3+3: 旅 đọc gần thanh 2 (lǘguǎn), vẫn viết lǚguǎn.\""
+    },
+    {
+      "where": "hsk3-u10-l01 (tip 订)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mô tả thanh 4 \"dứt khoát\" nhưng lại \"như dấu nặng kéo dài\" — mâu thuẫn, vì thanh 4 là âm rơi nhanh và ngắn, không kéo dài.",
+      "suggestion": "Bỏ \"kéo dài\": \"Thanh 4 (dìng) rơi nhanh, dứt khoát từ cao xuống thấp.\""
+    }
+  ],
+  "machine_warnings": [
+    "u10-du-lich-va-giao-thong.yaml:20: [sentence_unlearned_word] Câu s-hsk3-u10-001 (bài hsk3-u10-l01) dùng từ chưa học: 订机票",
+    "u10-du-lich-va-giao-thong.yaml:29: [sentence_unlearned_word] Câu s-hsk3-u10-003 (bài hsk3-u10-l01) dùng từ chưa học: 太贵, 这次",
+    "u10-du-lich-va-giao-thong.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u10-008 (bài hsk3-u10-l02) dùng từ chưa học: 八点",
+    "u10-du-lich-va-giao-thong.yaml:110: [sentence_unlearned_word] Câu s-hsk3-u10-012 (bài hsk3-u10-l03) dùng từ chưa học: 最快",
+    "u10-du-lich-va-giao-thong.yaml:139: [sentence_unlearned_word] Câu s-hsk3-u10-014 (bài hsk3-u10-l04) dùng từ chưa học: 去过, 两次",
+    "u10-du-lich-va-giao-thong.yaml:141: [sentence_pinyin_polyphone] Câu s-hsk3-u10-014: pinyin ghi 'Wǒ qùguo liǎng cì Chángchéng.', pypinyin cho 'wǒ qù guò liǎng cì zhǎng chéng' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u10-du-lich-va-giao-thong.yaml:143: [sentence_unlearned_word] Câu s-hsk3-u10-015 (bài hsk3-u10-l04) dùng từ chưa học: 左转"
+  ],
+  "han_viet_proposed": [
+    "赶"
+  ]
+}

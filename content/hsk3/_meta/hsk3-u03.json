@@ -1,0 +1,36 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T08:18:05",
+  "prompt_sha256": [
+    "5b9f69adf1ce5bbe35d93fcdea0540971b44813311073c5278b19cc8bcc4e335",
+    "f3ba7d98d0cf4bebcd7396b9fae75bb43da1bae8db6f4760e3aa631ebe1941a6",
+    "ef5d37f3ceb550abd5447563c7140f2d213fe348840ffeaa5af3ee4c4d1e8151"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u03-009",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch dùng \"dress\" cho 裙子, trong khi từ mới 裙子 nghĩa là \"skirt\" (\"dress\" là 连衣裙). Bài này còn có tip nhấn mạnh 裙子 là váy/skirt nên dễ gây nhầm.",
+      "suggestion": "Sửa en thành: \"This skirt suits you very well.\""
+    }
+  ],
+  "machine_warnings": [
+    "u03-mua-sam-va-quan-ao.yaml:64: [sentence_unlearned_word] Câu s-hsk3-u03-006 (bài hsk3-u03-l02) dùng từ chưa học: 一双",
+    "u03-mua-sam-va-quan-ao.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u03-007 (bài hsk3-u03-l02) dùng từ chưa học: 这个",
+    "u03-mua-sam-va-quan-ao.yaml:106: [sentence_unlearned_word] Câu s-hsk3-u03-011 (bài hsk3-u03-l03) dùng từ chưa học: 太紧",
+    "u03-mua-sam-va-quan-ao.yaml:167: [sentence_unlearned_word] Câu s-hsk3-u03-016 (bài hsk3-u03-l05) dùng từ chưa học: 这件, 就是, 太贵"
+  ],
+  "han_viet_proposed": [
+    "值",
+    "旧",
+    "浪",
+    "线",
+    "衬"
+  ]
+}

@@ -1,0 +1,171 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u30.json.
+id: hsk3-u30
+stage: hsk3
+order: 30
+title: Liên kết câu
+description: Nối các câu để liệt kê, bổ sung, giả định và trình bày nguyên nhân, kết quả.
+lessons:
+- id: hsk3-u30-l01
+  title: 'Không chỉ… mà còn: bổ sung ý'
+  grammar: hsk3-g030
+  new_words:
+  - 不仅
+  - 不光
+  - 并且
+  - 并
+  - 另外
+  - 连
+  sentences:
+  - id: s-hsk3-u30-001
+    zh: 他不仅会说英语，而且会说汉语。
+    en: He can speak not only English but also Chinese.
+    pinyin: Tā bùjǐn huì shuō Yīngyǔ, érqiě huì shuō Hànyǔ.
+  - id: s-hsk3-u30-002
+    zh: 这个房间很干净，并且很安静。
+    en: This room is clean, and it's also quiet.
+    pinyin: Zhège fángjiān hěn gānjìng, bìngqiě hěn ānjìng.
+  - id: s-hsk3-u30-003
+    zh: 这并不容易。
+    en: It's not easy.
+    pinyin: zhè bìng bù róng yì
+    tatoeba_id: 13216860
+  - id: s-hsk3-u30-004
+    zh: 那里连夏天也冷。
+    en: It is cold there, even in summer.
+    pinyin: nà lǐ lián xià tiān yě lěng
+    tatoeba_id: 4061617
+  tips:
+    不仅: '仅 đọc jǐn: phụ âm j đọc gần như "ch" nhưng mặt lưỡi áp sát, không phải "gi" tiếng Việt. 不 đứng
+      trước thanh 3 nên vẫn giữ bù. 仅 có bộ nhân 亻: "chỉ có một người" → chỉ, mới. Hay đi với 而且/还/也 ở
+      vế sau.'
+    不光: '不光 nghĩa giống 不仅 nhưng mang tính khẩu ngữ hơn: 不光我去，他也去。Vế sau thường có 也/还/而且 để nối ý. 光
+      vốn nghĩa là "ánh sáng", ở đây dùng với nghĩa "chỉ, mỗi".'
+    并且: '且 đọc qiě: q giống "ch" nhưng bật hơi mạnh, môi dẹt như khi nói "i". 并且 nối hai tính từ hoặc
+      hai động từ, không nối hai danh từ. Sai: ~~我并且他~~ → 我和他.'
+    并: '并 + 不/没 nhấn mạnh phủ định, dùng để bác bỏ điều người khác nghĩ: 这并不容易 (thật ra không dễ đâu).
+      Đừng dịch máy móc là "và" trong trường hợp này.'
+    连: '连 gồm bộ sước 辶 (đi) + 车 (xe): những chiếc xe chạy nối đuôi nhau → nối liền. Cấu trúc 连 A 也/都
+      + V = "ngay cả A cũng…". Đừng quên 也/都 ở sau: 连孩子都知道。'
+    另外: '另外 đứng đầu câu/vế sau với nghĩa "ngoài ra": 我买了书，另外还买了笔。Cũng đứng trước danh từ: 另外一个人 (một
+      người khác). 另 gồm 口 trên 力 dưới.'
+- id: hsk3-u30-l02
+  title: Ngoại trừ, chỉ là, chính là
+  grammar: hsk3-g028
+  new_words:
+  - 除了
+  - 就是
+  - 只是
+  - 只有
+  - 所
+  sentences:
+  - id: s-hsk3-u30-005
+    zh: 除了他，大家都来了。
+    en: Apart from him, everyone came.
+    pinyin: Chúle tā, dàjiā dōu lái le.
+  - id: s-hsk3-u30-006
+    zh: 我们只是朋友。
+    en: We're just friends.
+    pinyin: wǒ men zhǐ shì péng yǒu
+    tatoeba_id: 1869764
+  - id: s-hsk3-u30-007
+    zh: 只有你懂我。
+    en: You're the only one who understands me.
+    pinyin: zhǐ yǒu nǐ dǒng wǒ
+    tatoeba_id: 5706109
+  - id: s-hsk3-u30-008
+    zh: 这是我所知道的。
+    en: This is all I know.
+    pinyin: zhè shì wǒ suǒ zhī dào de
+    tatoeba_id: 839577
+  tips:
+    除了: '除 có âm Hán Việt là trừ, nghĩa là bỏ ra. Pinyin chú: ch uốn lưỡi và bật hơi, khác "ch" tiếng
+      Việt. Ghi nhớ: 除了…都 = loại ra (trừ A, ai cũng…); 除了…也/还 = cộng thêm (ngoài A còn có B).'
+    只有: '只有 có hai thanh 3 đứng liền nhau nên chữ đầu đổi thành thanh 2: zhí yǒu. Cấu trúc 只有 A，才 B =
+      "chỉ khi A thì mới B". Đừng nhầm với 只要 A，就 B (chỉ cần A là B).'
+    只是: '只是 có hai nghĩa: "chỉ là" (我们只是朋友) và "có điều, nhưng mà" ở đầu vế sau: 这件衣服很好看，只是有点儿贵。Nghĩa
+      thứ hai nhẹ nhàng hơn 但是.'
+    就是: '就是 nhấn mạnh "chính là": 这就是我的家。Nó còn nhấn mạnh thái độ cứng rắn: 我就是不喜欢 (tôi cứ không thích
+      đấy). Khi đọc nhanh, 是 thường nhẹ: jiùshi.'
+    所: '所 đọc suǒ (thanh 3), s đọc như "x" tiếng Việt. Cấu trúc 所 + động từ + 的 hơi trang trọng: 我所知道的
+      = những gì tôi biết. Bỏ 所 câu vẫn đúng, chỉ là ít trang trọng hơn.'
+- id: hsk3-u30-l03
+  title: Vì mục đích, giả định, bất kể
+  grammar: hsk3-g026
+  new_words:
+  - 为了
+  - 要是
+  - 不论
+  - 随
+  sentences:
+  - id: s-hsk3-u30-009
+    zh: 为了身体健康，我每天都跑步。
+    en: I run every day to stay healthy.
+    pinyin: Wèile shēntǐ jiànkāng, wǒ měitiān dōu pǎobù.
+  - id: s-hsk3-u30-010
+    zh: 要是饿，就吃饭。
+    en: If you're hungry, have something to eat.
+    pinyin: yào shì è jiù chī fàn
+    tatoeba_id: 1477282
+  - id: s-hsk3-u30-011
+    zh: 不论天气怎么样，他都去跑步。
+    en: No matter what the weather is like, he goes running.
+    pinyin: Búlùn tiānqì zěnmeyàng, tā dōu qù pǎobù.
+  - id: s-hsk3-u30-012
+    zh: 走不走随你。
+    en: You may go or stay at will.
+    pinyin: zǒu bù zǒu suí nǐ
+    tatoeba_id: 10541645
+  tips:
+    为了: '为了 đọc wèile (thanh 4), không đọc wéi. 为了 nói mục đích, 因为 nói nguyên nhân. Sai: ~~为了下雨，我没去~~
+      → 因为下雨，我没去。'
+    要是: '要是 = 如果 nhưng dùng nhiều trong văn nói, vế sau hay có 就: 要是你忙，就别来了。Đọc yàoshi, 是 đọc nhẹ.'
+    不论: '论 có âm Hán Việt là luận. 不 đứng trước thanh 4 thì đổi thành thanh 2: bú lùn. Sau 不论 phải có
+      từ để hỏi (谁, 什么, 怎么样) hoặc dạng A不A, và vế sau dùng 都/也.'
+    随: '随 đọc suí: vần ui đọc gần như "uây", không đọc "ui" như tiếng Việt. 随你 = tùy bạn. Chữ có bộ 阝
+      bên trái, giống chữ 除.'
+- id: hsk3-u30-l04
+  title: Nguyên nhân, kết quả và trình bày ý
+  grammar: hsk3-g071
+  new_words:
+  - 由
+  - 由于
+  - 因此
+  - 首先
+  - 其次
+  - 一方面
+  - 另一方面
+  - 总结
+  sentences:
+  - id: s-hsk3-u30-013
+    zh: 由于天气不好，所以我们没去爬山。
+    en: Because the weather was bad, we didn't go mountain climbing.
+    pinyin: Yóuyú tiānqì bù hǎo, suǒyǐ wǒmen méi qù páshān.
+  - id: s-hsk3-u30-014
+    zh: 他每天练习，因此汉语说得很流利。
+    en: He practices every day, so he speaks Chinese fluently.
+    pinyin: Tā měitiān liànxí, yīncǐ Hànyǔ shuō de hěn liúlì.
+  - id: s-hsk3-u30-015
+    zh: 首先要努力，其次要有好方法。
+    en: First, you have to work hard; second, you need a good method.
+    pinyin: Shǒuxiān yào nǔlì, qícì yào yǒu hǎo fāngfǎ.
+  - id: s-hsk3-u30-016
+    zh: 由你来决定。
+    en: It's up to you.
+    pinyin: yóu nǐ lái jué dìng
+    tatoeba_id: 834868
+  tips:
+    由于: '由于 đọc yóuyú: 于 viết u nhưng đọc là ü (tròn môi như "uy" nhưng giữ nguyên lưỡi). 由于 trang trọng
+      hơn 因为 và chỉ đứng ở vế đầu, không nói ~~…，由于…~~ ở vế sau.'
+    因此: '因 có âm Hán Việt là nhân. 此 đọc cǐ: c giống "ts" bật hơi mạnh, không đọc như "ch". 因此 đứng đầu
+      vế kết quả, có thể đi với 由于 nhưng thường không đi với 因为.'
+    一方面: '一 đứng trước thanh 1 (fāng) thì đổi thành thanh 4: yì fāngmiàn. Thường dùng thành cặp: 一方面 A，另一方面
+      B (một mặt…, mặt khác…).'
+    首先: '首 có âm Hán Việt là thủ, 先 có âm Hán Việt là tiên: "trước tiên". Trình bày ý theo thứ tự: 首先…
+      其次… 最后…'
+    总结: '总 có âm Hán Việt là tổng, 结 có âm Hán Việt là kết. 总 đọc zǒng: z là âm đầu lưỡi không bật hơi, gần "tz" (như "ts" trong "cats" nhưng
+      không bật hơi), chứ không phải "d" hay "ch". 总结 vừa là động từ (tổng kết lại) vừa là danh từ (bản tổng kết).'
+    由: '由 + người + (来) + động từ = "do ai làm": 由你来决定 (do bạn quyết định). Đây là cách nói giao việc,
+      khác với 由于 (vì).'
+- id: hsk3-u30-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

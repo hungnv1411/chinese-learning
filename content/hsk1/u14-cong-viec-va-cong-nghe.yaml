@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u14.json.
+id: hsk1-u14
+stage: hsk1
+order: 14
+title: Công việc và công nghệ
+description: Biết nói về công việc, lịch làm việc, điện thoại, máy tính và việc mình đang làm.
+lessons:
+- id: hsk1-u14-l01
+  title: Đi làm, tan làm và họp
+  new_words:
+  - 工作
+  - 工人
+  - 上班
+  - 下班
+  - 开会
+  - 忙
+  - 请假
+  sentences:
+  - id: s-hsk1-u14-001
+    zh: 你做什么工作?
+    en: What's your job?
+    pinyin: nǐ zuò shén me gōng zuò
+    tatoeba_id: 333602
+  - id: s-hsk1-u14-002
+    zh: 你今天忙吗？
+    en: Are you busy today?
+    pinyin: nǐ jīn tiān máng ma
+    tatoeba_id: 333561
+  - id: s-hsk1-u14-003
+    zh: 明天要开会。
+    en: I need to have a meeting tomorrow.
+    pinyin: míng tiān yào kāi huì
+    tatoeba_id: 5780176
+  - id: s-hsk1-u14-004
+    zh: 我明天想请假。
+    en: I want to ask for leave tomorrow.
+    pinyin: wǒ míngtiān xiǎng qǐngjià
+  tips:
+    忙: '忙 có âm Hán Việt là mang. Chữ gồm bộ tâm 忄 (trái tim) + 亡 (mất): bận đến mức quên cả lòng mình.
+      Lỗi hay gặp: dùng 是 với tính từ. Sai: 我是忙 → Đúng: 我很忙 hoặc 我今天忙。'
+    上班: '上 có âm Hán Việt là thượng, 下 có âm Hán Việt là hạ, 班 có âm Hán Việt là ban: 上班 là vào ca/đi
+      làm, 下班 là tan ca. shàng có sh uốn lưỡi, không đọc thành ''x'' tiếng Việt.'
+    工作: '工 có âm Hán Việt là công, 作 có âm Hán Việt là tác. zuò: z đọc như ''ch'' nhẹ, không bật hơi,
+      đầu lưỡi đặt sau răng trên, không uốn lưỡi. 工作 vừa là động từ ''làm việc'' vừa là danh từ ''công
+      việc''.'
+    开会: '开 có âm Hán Việt là khai, 会 có âm Hán Việt là hội. Dễ nhớ: ''khai hội'' là mở cuộc họp. 开会 đã
+      có sẵn tân ngữ bên trong, nói 我开会 chứ không nói 我开会议。'
+- id: hsk1-u14-l02
+  title: Điện thoại và máy tính
+  new_words:
+  - 电
+  - 电话
+  - 打电话
+  - 手机
+  - 电脑
+  sentences:
+  - id: s-hsk1-u14-005
+    zh: 给我打电话。
+    en: Call me.
+    pinyin: gěi wǒ dǎ diàn huà
+    tatoeba_id: 13191977
+  - id: s-hsk1-u14-006
+    zh: 你有手机吗？
+    en: Do you have a mobile?
+    pinyin: nǐ yǒu shǒu jī ma
+    tatoeba_id: 5254704
+  - id: s-hsk1-u14-007
+    zh: 我没有电脑。
+    en: I don't have a computer.
+    pinyin: wǒ méi yǒu diàn nǎo
+    tatoeba_id: 4104421
+  - id: s-hsk1-u14-008
+    zh: 有你的电话。
+    en: There is a call for you.
+    pinyin: yǒu nǐ de diàn huà
+    tatoeba_id: 871167
+  tips:
+    打电话: '打 có âm Hán Việt là đả (đánh), bộ thủ 扌 chỉ hành động bằng tay. Gọi điện dùng động từ 打. Lỗi
+      hay gặp: ''gọi điện cho tôi'' không nói 打电话我 mà phải nói 给我打电话 (给 + người + 打电话).'
+    手机: '手 có âm Hán Việt là thủ, 机 có âm Hán Việt là cơ: ''máy cầm tay''. shǒu là thanh 3 đứng trước
+      thanh 1 nên chỉ đọc nửa thanh 3: hạ giọng thấp rồi chuyển ngay sang jī, không cần lên giọng lại
+      như dấu hỏi.'
+    电脑: 脑 có âm Hán Việt là não, bộ nhục ⺼ chỉ bộ phận cơ thể. 电脑 nghĩa đen là 'bộ não chạy điện', tức
+      máy tính. nǎo thanh 3 khi đứng cuối câu đọc trầm xuống rồi hơi cao lên.
+    电: '电 là chữ tượng hình tia chớp: khung 曰 với một nét móc 乚 kéo xuống. Chữ này đứng đầu rất nhiều
+      từ về đồ điện: 电话, 电脑... Gặp 电 thì đoán ngay là liên quan đến điện.'
+- id: hsk1-u14-l03
+  title: Việc đang làm và việc quan trọng
+  grammar: hsk1-g011
+  new_words:
+  - 正
+  - 正在
+  - 着
+  - 重要
+  - 事
+  - 准备
+  sentences:
+  - id: s-hsk1-u14-009
+    zh: 他正在开会。
+    en: He is in conference.
+    pinyin: tā zhèng zài kāi huì
+    tatoeba_id: 710768
+  - id: s-hsk1-u14-010
+    zh: 我正拿着书.
+    en: I'm holding a book.
+    pinyin: wǒ zhèng ná zhe shū
+    tatoeba_id: 1406494
+  - id: s-hsk1-u14-011
+    zh: 这不重要。
+    en: It's not important.
+    pinyin: zhè bú zhòng yào
+    tatoeba_id: 1415838
+  - id: s-hsk1-u14-012
+    zh: 我有些事。
+    en: I have things to take care of.
+    pinyin: wǒ yǒu xiē shì
+    tatoeba_id: 5624928
+  tips:
+    正在: 正 có âm Hán Việt là chính, 在 có âm Hán Việt là tại. zhèng là zh uốn lưỡi (gần 'tr' tiếng Việt),
+      còn zài là z không uốn lưỡi. Hai âm đi liền nhau nên luyện cho rõ khác biệt.
+    重要: '重 có âm Hán Việt là trọng, 要 có âm Hán Việt là yếu: ''trọng yếu'' tức quan trọng. Biến điệu 不:
+      trước thanh 4 thì 不 đọc thành thanh 2, nên 不重要 đọc là bú zhòngyào.'
+    着: '着 ở đây đọc nhẹ zhe (thanh nhẹ), đặt sau động từ để chỉ trạng thái đang kéo dài: 拿着 (đang cầm),
+      听着 (nghe đây). Đừng đọc thành zháo hay zhuó, đó là cách đọc khác của cùng chữ này.'
+    事: 事 có âm Hán Việt là sự. shì đồng âm với 是 nhưng khác nghĩa, dựa vào ngữ cảnh mà phân biệt. 我有事
+      = tôi có việc bận, câu rất hay dùng để từ chối khéo.
+    准备: '备 có âm Hán Việt là bị. zhǔn: zh uốn lưỡi + vần un (đọc như ''uân''), thanh 3. Phủ định việc
+      chưa chuẩn bị dùng 没: 我没准备, không nói 我不准备 nếu ý là ''chưa chuẩn bị''.'
+- id: hsk1-u14-l04
+  title: Lên mạng và dùng đồ vật
+  grammar: hsk1-g042
+  new_words:
+  - 上网
+  - 网上
+  - 网友
+  - 用
+  - 有用
+  - 得到
+  sentences:
+  - id: s-hsk1-u14-013
+    zh: 他在上网。
+    en: He is on the Internet.
+    pinyin: tā zài shàng wǎng
+    tatoeba_id: 3378268
+  - id: s-hsk1-u14-014
+    zh: 我正在用电脑。
+    en: I'm using the computer.
+    pinyin: wǒ zhèng zài yòng diàn nǎo
+    tatoeba_id: 420048
+  - id: s-hsk1-u14-015
+    zh: 他正在上网呢。
+    en: He is surfing the Internet right now.
+    pinyin: tā zhèngzài shàngwǎng ne
+  - id: s-hsk1-u14-016
+    zh: 这本书对我有用。
+    en: This book is useful to me.
+    pinyin: zhè běn shū duì wǒ yǒuyòng
+  tips:
+    上网: '网 có âm Hán Việt là võng (lưới); chữ 网 trông như tấm lưới. Chú ý thứ tự: 上网 (động từ: lên mạng),
+      网上 (trên mạng, chỉ nơi chốn). Ví dụ: 我在上网 (tôi đang lên mạng) khác 网上有 ... (trên mạng có ...).'
+    网友: '友 có âm Hán Việt là hữu, như trong 朋友. 网友 = bạn trên mạng, cũng dùng để chỉ cư dân mạng nói chung.
+      wǎngyǒu là hai thanh 3 liền nhau: thanh 3 đầu đọc thành thanh 2, tức wángyǒu.'
+    有用: '有 có âm Hán Việt là hữu, 用 có âm Hán Việt là dụng: 有用 chính là ''hữu dụng''. yǒuyòng: thanh 3
+      trước thanh 4 chỉ đọc nửa thanh 3 (hạ thấp, không lên lại).'
+    得到: '得 có âm Hán Việt là đắc, 到 có âm Hán Việt là đáo: ''đắc'' là được, ''đáo'' là đến, 得到 = nhận
+      được, có được. 得 ở đây đọc dé (thanh 2), không đọc nhẹ de.'
+- id: hsk1-u14-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

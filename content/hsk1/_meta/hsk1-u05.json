@@ -1,0 +1,44 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:32:32",
+  "prompt_sha256": [
+    "cb33c4abeebbb4a4c1e9d80bd48de5f67d47a112fcae061ec16943284a8faf1b",
+    "5c2d7cc778d5d36e5fe9d2fb02a9dd0ed629d0a0a2640df47012da245b308cec",
+    "663582168b30328e67ae4e570b99829d5910bf1faad9654e51d5597316047ad9"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u05-012",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch 'She reads Chinese.' bỏ mất 会. Câu 她会读中文 nghĩa là 'cô ấy biết đọc / có thể đọc tiếng Trung'.",
+      "suggestion": "Sửa en thành 'She can read Chinese.'"
+    },
+    {
+      "where": "hsk1-u05-l03",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Bài có grammar 会、能 nhưng không có câu ví dụ nào dùng 能. Tip 会 có nhắc 能 nhưng ví dụ của nó dùng 告诉, là từ chỉ học ở l05.",
+      "suggestion": "Thêm một câu dùng 能 bằng từ đã học, ví dụ 你能说中文吗？. Trong tip 会 thay ví dụ 你能告诉我吗 bằng 你能听吗 hoặc 你能说中文吗."
+    },
+    {
+      "where": "hsk1-u05-l04 (tip 学习)",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Ví dụ 您学习吗？ đứng một mình nghe gượng, người bản xứ ít hỏi như vậy. Việc nói 学习 'trang trọng hơn' cũng chưa chính xác.",
+      "suggestion": "Đổi ví dụ thành 他学习吗？ hoặc 你们学习汉语吗？. Bỏ ý 'trang trọng hơn', chỉ nói 学习 dùng được cả khi không có tân ngữ."
+    }
+  ],
+  "machine_warnings": [
+    "u05-quoc-gia-va-ngon-ngu.yaml:29: [sentence_unlearned_word] Câu s-hsk1-u05-003 (bài hsk1-u05-l01) dùng từ chưa học: 外国人"
+  ],
+  "han_viet_proposed": [
+    "北",
+    "告"
+  ]
+}

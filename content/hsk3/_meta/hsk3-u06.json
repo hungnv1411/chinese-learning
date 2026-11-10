@@ -1,0 +1,63 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T08:31:28",
+  "prompt_sha256": [
+    "56073595bd3e45ef743a46cf7884fcd0228cce5f10383ae964a8eefa0f2c8da3",
+    "4bfedc498e15cc1b81c790e95cbb0f98572be1d7a96859ff6b565fe65f4ee71e",
+    "d5f19a7a64c7fb861cb59859db9d4511e87693b7bd2744ecb10ce9326aedb981"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk3-u06-008",
+      "category": "sentence_natural",
+      "severity": "error",
+      "problem": "那背后是什么意思？ nghe gượng: thiếu 的 hoặc cấu trúc 有……意思. Bản dịch tiếng Anh \"What's the idea behind that?\" cũng không khớp với 意思 trong câu tiếng Trung. Người bản xứ hiếm khi nói như vậy.",
+      "suggestion": "Thay bằng một câu dùng 背后 theo nghĩa vị trí, ví dụ: 门背后有一只猫。 (Menhòu... pinyin: Mén bèihòu yǒu yì zhī māo. EN: There is a cat behind the door.) Từ 猫 và 一只 chưa chắc đã học, nên có thể dùng: 他在门背后。 (Tā zài mén bèihòu. He is behind the door.)"
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u06-012",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "一小时: 一 đứng trước thanh 3 (xiǎo) phải đọc yì (thanh 4), nhưng pinyin ghi yī và bài không có ghi chú biến điệu nào.",
+      "suggestion": "Thêm ghi chú ngắn: 一 + thanh 3 → yì (một giờ = yì xiǎoshí), hoặc ghi pinyin biến điệu cho nhất quán."
+    },
+    {
+      "where": "hsk3-u06-l04 / 区",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói 区 có khung 匸. Thực tế bộ của 区 giản thể là 匚 (phương); 匸 (hễ) là bộ của dạng phồn thể 區.",
+      "suggestion": "Sửa thành: khung 匚 mở một bên giống khu đất được rào lại, bên trong là 乂."
+    },
+    {
+      "where": "s-hsk3-u06-002",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Câu tiếng Trung ở thì hiện tại (很安静) nhưng bản dịch dùng quá khứ \"was\". 这地区 cũng hơi cộc, thường nói 这个地区.",
+      "suggestion": "EN: The area is quiet. ZH: 这个地区很安静。(Zhège dìqū hěn ānjìng.)"
+    },
+    {
+      "where": "hsk3-u06-l02",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Ba từ mới 眼前, 当中, 表面 không có câu ví dụ nào (chỉ có trong tips), nên người học không thấy cách dùng. Tương tự 围 ở l03.",
+      "suggestion": "Thêm 1–2 câu ví dụ dùng các từ này bằng từ đã học, ví dụ: 孩子们在我们当中。"
+    }
+  ],
+  "machine_warnings": [
+    "u06-vi-tri-va-vung-mien.yaml:21: [sentence_unlearned_word] Câu s-hsk3-u06-001 (bài hsk3-u06-l01) dùng từ chưa học: 我家",
+    "u06-vi-tri-va-vung-mien.yaml:30: [sentence_unlearned_word] Câu s-hsk3-u06-003 (bài hsk3-u06-l01) dùng từ chưa học: 当地人",
+    "u06-vi-tri-va-vung-mien.yaml:34: [sentence_unlearned_word] Câu s-hsk3-u06-004 (bài hsk3-u06-l01) dùng từ chưa học: 去过",
+    "u06-vi-tri-va-vung-mien.yaml:99: [sentence_unlearned_word] Câu s-hsk3-u06-009 (bài hsk3-u06-l03) dùng từ chưa học: 笑了笑",
+    "u06-vi-tri-va-vung-mien.yaml:103: [sentence_unlearned_word] Câu s-hsk3-u06-010 (bài hsk3-u06-l03) dùng từ chưa học: 这条, 朝前",
+    "u06-vi-tri-va-vung-mien.yaml:184: [sentence_unlearned_word] Câu s-hsk3-u06-019 (bài hsk3-u06-l05) dùng từ chưa học: 很多年"
+  ],
+  "han_viet_proposed": [
+    "乡"
+  ]
+}

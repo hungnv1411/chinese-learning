@@ -1,0 +1,199 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u09.json.
+id: hsk3-u09
+stage: hsk3
+order: 9
+title: Động tác hằng ngày
+description: Miêu tả các động tác tay chân và xử lý đồ vật bằng câu chữ 把, câu bị động và bổ ngữ.
+lessons:
+- id: hsk3-u09-l01
+  title: 'Câu chữ 把: đặt, đưa, xử lý đồ vật'
+  grammar: hsk3-g054
+  new_words:
+  - 把
+  - 放到
+  - 张
+  - 支
+  - 拍
+  sentences:
+  - id: s-hsk3-u09-001
+    zh: 请把这张纸放到桌子上。
+    en: Please put this sheet of paper on the table.
+    pinyin: Qǐng bǎ zhè zhāng zhǐ fàngdào zhuōzi shang.
+  - id: s-hsk3-u09-002
+    zh: 他把那支笔给我了。
+    en: He gave me that pen.
+    pinyin: Tā bǎ nà zhī bǐ gěi wǒ le.
+  - id: s-hsk3-u09-003
+    zh: 把你的自行车放好。
+    en: Put away your bicycle.
+    pinyin: bǎ nǐ de zì xíng chē fàng hǎo
+    tatoeba_id: 332686
+  - id: s-hsk3-u09-004
+    zh: 照片是他拍的。
+    en: The picture was taken by him.
+    pinyin: Zhàopiàn shì tā pāi de.
+  tips:
+    把: 'Lỗi hay gặp: động từ sau 把 không được đứng một mình. Sai: ~~我把书放~~ → đúng: 我把书放到桌子上 / 我把书放好了.
+      Phủ định đặt 不/没 trước 把: 我没把书带来. Biến điệu 3+3: 我把 đọc thành wó bǎ, 请把 đọc thành qíng bǎ.'
+    放到: '到 đứng ngay sau động từ, chỉ nơi đồ vật được đặt tới, giống ''đặt lên/đặt vào'' trong tiếng Việt:
+      把杯子放到桌子上. Không nói ~~放桌子上到~~. Chữ 放 có âm Hán Việt là phóng, chữ 到 có âm Hán Việt là đáo.'
+    张: '张 có âm Hán Việt là trương (như ''trương ra'' = mở rộng ra). Vì vậy 张 là lượng từ cho vật phẳng,
+      trải rộng: 一张纸, 一张床, 一张桌子. Phát âm zh uốn lưỡi, không đọc như ''tr'' hay ''gi'' của tiếng Việt.'
+    支: '支 có âm Hán Việt là chi. Dùng làm lượng từ cho vật dài, mảnh như cây bút: 一支笔, 两支笔. zh + i: lưỡi
+      uốn lên, chữ i ở đây đọc gần như ''ư'' kéo dài, không đọc ''chi''.'
+    拍: 'Bộ 扌 (tay) bên trái cho biết đây là động tác bằng tay: vỗ, đập. Còn có nghĩa ''chụp (ảnh), quay
+      (phim)'': 拍照片. pāi thanh 1, đọc cao và đều, p bật hơi mạnh như ''ph'' nhưng môi bật ra.'
+- id: hsk3-u09-l02
+  title: 'Câu bị động với 被: vỡ, gãy, rách'
+  grammar: hsk3-g027
+  new_words:
+  - 被
+  - 破
+  - 断
+  - 补
+  - 压
+  sentences:
+  - id: s-hsk3-u09-005
+    zh: 鸡蛋被压破了。
+    en: The egg got crushed.
+    pinyin: Jīdàn bèi yā pò le.
+  - id: s-hsk3-u09-006
+    zh: 树被风吹断了。
+    en: The tree was broken by the wind.
+    pinyin: Shù bèi fēng chuīduàn le.
+  - id: s-hsk3-u09-007
+    zh: 衣服破了，妈妈帮我补好了。
+    en: My clothes were torn, and Mom mended them for me.
+    pinyin: Yīfu pò le, māma bāng wǒ bǔ hǎo le.
+  - id: s-hsk3-u09-008
+    zh: 面包被吃了一半。
+    en: The bun was half eaten.
+    pinyin: miàn bāo bèi chī le yí bàn
+    tatoeba_id: 14023304
+  tips:
+    被: '被 có âm Hán Việt là bị, rất dễ nhớ vì nghĩa giống chữ ''bị'' tiếng Việt, thường dùng cho việc
+      không may. Lưu ý: động từ sau 被 phải có thêm 了 hoặc bổ ngữ. Sai: ~~杯子被他打~~ → đúng: 杯子被他打破了.'
+    破: '破 có âm Hán Việt là phá. Bộ 石 (đá) + 皮 (da): đá cào rách da → rách, vỡ, thủng. Dùng cho áo rách,
+      cốc vỡ: 衣服破了, 杯子破了. pò: p bật hơi, thanh 4 đọc dứt khoát như dấu nặng mà hạ từ cao.'
+    断: '断 có âm Hán Việt là đoạn (như ''đoạn tuyệt''), nghĩa là gãy, đứt. Bộ 斤 (cái rìu) bên phải: rìu
+      chặt thì đứt. Phân biệt: vật dài như cây, dây thì dùng 断; áo rách, cốc vỡ thì dùng 破.'
+    补: '补 có âm Hán Việt là bổ. Bộ 衤 (áo) bên trái → vá áo: 补衣服. bǔ thanh 3: hạ thấp rồi lên. Đừng đọc
+      giống dấu hỏi tiếng Việt; khi nói nhanh thường chỉ cần hạ thấp. Ví dụ 补好 đọc thành bú hǎo (3+3).'
+    压: '压 có âm Hán Việt là áp. Đây cũng là chữ 压 trong 压力 đã học. Nghĩa: đè, ép. Hay gặp với bổ ngữ kết
+      quả: 压破 (đè vỡ), 压坏 (đè hỏng). yā thanh 1, đọc ''ia'' cao và đều.'
+- id: hsk3-u09-l03
+  title: 'Bắt, đuổi, chỉ: động từ + 到/住/走'
+  grammar: hsk3-g046
+  new_words:
+  - 抓
+  - 抓住
+  - 追
+  - 指
+  sentences:
+  - id: s-hsk3-u09-009
+    zh: 她抓住他的手。
+    en: She grabbed him by the hand.
+    pinyin: tā zhuā zhù tā de shǒu
+    tatoeba_id: 10260790
+  - id: s-hsk3-u09-010
+    zh: 我跑了很久才追到他。
+    en: I ran for a long time before I caught up with him.
+    pinyin: Wǒ pǎo le hěn jiǔ cái zhuīdào tā.
+  - id: s-hsk3-u09-011
+    zh: 我给他指了路。
+    en: I showed him the way.
+    pinyin: wǒ gěi tā zhǐ le lù
+    tatoeba_id: 13919367
+  - id: s-hsk3-u09-012
+    zh: 我抓住了机会。
+    en: I took advantage of an opportunity.
+    pinyin: wǒ zhuā zhù le jī huì
+    tatoeba_id: 1946775
+  tips:
+    抓: 'Bộ 扌 (tay) + 爪 (móng vuốt): dùng tay hoặc móng để chộp, bắt. zhuā: zh uốn lưỡi + ua, không đọc
+      thành ''choa'' hay ''gioa''. Sau 抓 rồi thêm 住 thì thành 抓住 (bắt chặt).'
+    抓住: '住 sau động từ nghĩa là giữ chặt, làm cho cố định, không để chạy mất. Giống 记住 (nhớ kỹ) đã học.
+      抓 chỉ là động tác chộp; 抓住 là đã bắt được, giữ được. Phủ định: 没抓住 (không bắt được).'
+    追: 追 có âm Hán Việt là truy (như 'truy đuổi'). Bộ 辶 (đi lại) cho biết liên quan đến di chuyển. 追 là
+      đuổi theo, 追到 là đuổi kịp, bắt được. zhuī đọc như 'chuây' uốn lưỡi, thanh 1.
+    指: '指 có âm Hán Việt là chỉ, nghĩa giống ''chỉ tay'' tiếng Việt. Bộ 扌 (tay) bên trái. Nghĩa khác:
+      ''ý nói'': 你是指谁？(Bạn đang nói ai vậy?). zhǐ thanh 3; 手指 (ngón tay) đọc shóu zhǐ theo biến điệu 3+3.'
+- id: hsk3-u09-l04
+  title: 'Mở, đóng, ấn: từ ly hợp động–bổ'
+  grammar: hsk3-g006
+  new_words:
+  - 按
+  - 合
+  - 解开
+  - 推开
+  sentences:
+  - id: s-hsk3-u09-013
+    zh: 他推开门走了进去。
+    en: He pushed the door open and walked in.
+    pinyin: Tā tuīkāi mén zǒu le jìnqu.
+  - id: s-hsk3-u09-014
+    zh: 这个题我解不开。
+    en: I can't solve this problem.
+    pinyin: Zhège tí wǒ jiě bu kāi.
+  - id: s-hsk3-u09-015
+    zh: 请把书合上。
+    en: Please close your books.
+    pinyin: Qǐng bǎ shū héshang.
+  - id: s-hsk3-u09-016
+    zh: 按我说的做。
+    en: Do as I say.
+    pinyin: àn wǒ shuō de zuò
+    tatoeba_id: 6150007
+  tips:
+    推开: '推 có âm Hán Việt là suy, nghĩa là đẩy. Ở Trung Quốc, trên cửa thường dán chữ 推 (đẩy) và 拉 (kéo),
+      nhớ để khỏi đi nhầm! Động từ đứng trước, kết quả đứng sau: 推开门. Không nói ~~开推门~~.'
+    解开: '解 có âm Hán Việt là giải (như ''giải quyết''). 解开 là cởi ra (dây, nút) hoặc giải được (bài toán).
+      jiě: j đọc như ''ch'' nhẹ, lưỡi đặt sau răng dưới, không đọc thành ''gi''. Giữa hai chữ có thể chèn
+      得/不: 解得开, 解不开.'
+    合: '合 có âm Hán Việt là hợp. Nghĩa: khép lại, gập lại. Hay dùng 合上: 合上书 (gấp sách), 合上眼睛 (nhắm mắt).
+      Ngược nghĩa với 打开. hé thanh 2, đọc như ''hơ'' đi lên, h đọc hơi khàn từ cổ.'
+    按: '按 có âm Hán Việt là án. Bộ 扌 (tay): dùng tay ấn, bấm: 按一下 (bấm một cái). Còn làm giới từ nghĩa
+      ''theo'': 按我说的做 (làm theo lời tôi). àn thanh 4, đọc dứt khoát từ cao xuống.'
+- id: hsk3-u09-l05
+  title: 'Lên, xuống, lui: bổ ngữ xu hướng và bổ ngữ khả năng'
+  grammar: hsk3-g048
+  new_words:
+  - 上来
+  - 上去
+  - 下来
+  - 下去
+  - 退
+  sentences:
+  - id: s-hsk3-u09-017
+    zh: 我吃不下去了。
+    en: I can't eat any more.
+    pinyin: wǒ chī bù xià qù le
+    tatoeba_id: 13678191
+  - id: s-hsk3-u09-018
+    zh: 山太高了，我爬不上去。
+    en: The mountain is too high; I can't climb up.
+    pinyin: Shān tài gāo le, wǒ pá bu shàngqu.
+  - id: s-hsk3-u09-019
+    zh: 从那儿下来！
+    en: Get down from there.
+    pinyin: cóng nà ér xià lái
+    tatoeba_id: 7779226
+  - id: s-hsk3-u09-020
+    zh: 这件衣服能退吗？
+    en: Can I return this piece of clothing?
+    pinyin: Zhè jiàn yīfu néng tuì ma?
+  tips:
+    上来: '来 = hướng về phía người nói, 去 = đi xa khỏi người nói. Bạn ở trên lầu gọi bạn bè: 你上来吧！(Lên đây
+      đi!). Bạn ở dưới lầu thì nói: 你上去吧！(Lên đó đi!). Khi đứng sau động từ, 来/去 thường đọc thanh nhẹ:
+      shànglai.'
+    上去: 'Bổ ngữ khả năng: chèn 得/不 vào giữa động từ và 上去. 爬得上去 (leo lên được), 爬不上去 (không leo lên được).
+      Lỗi hay gặp: ~~我不能爬上去~~ khi muốn nói ''sức không cho phép'' → nên nói 我爬不上去.'
+    下来: '下来 chỉ hướng từ trên xuống phía người nói: 下来！(Xuống đây!). Còn chỉ việc giữ lại kết quả: 写下来
+      (ghi lại), 坐下来 (ngồi xuống). xià: x đọc gần ''x'' tiếng Việt nhưng lưỡi phẳng, môi dẹt.'
+    下去: 'Ngoài nghĩa ''đi xuống'', 下去 sau động từ còn có nghĩa ''tiếp tục'': 说下去 (nói tiếp đi). 吃不下去 =
+      không ăn tiếp được nữa (no quá hoặc khó ăn quá). Trong bổ ngữ khả năng, 不 đọc nhẹ: chī bu xiàqu.'
+    退: '退 có âm Hán Việt là thoái (như ''thoái lui''). Bộ 辶 (đi lại): đi lùi. Còn có nghĩa trả lại: 退衣服
+      (trả lại quần áo), 退票 (trả vé), 退钱 (hoàn tiền). tuì đọc là t + uei, giống ''thuây'', t bật hơi mạnh.'
+- id: hsk3-u09-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,28 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T02:47:04",
+  "prompt_sha256": [
+    "b7f7cb9578e49772b71373900d3e870642b6e26a2230776313b91668c66090e5",
+    "f07c343182809a7b2aa60fe9d3f198deed52ad75470f1779fe198b5de1e2ae90"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u03-l04 (tip 老是)",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Ví dụ trong mẹo 你老是迟到 dùng 迟到, từ này chưa có trong danh sách từ đã học hoặc từ mới của chủ đề (HSK 2).",
+      "suggestion": "Đổi sang ví dụ chỉ dùng từ đã học, ví dụ: 你老是忘记我的名字 = cậu cứ quên tên tớ mãi."
+    }
+  ],
+  "machine_warnings": [
+    "u03-thoi-gian-va-sinh-hoat-hang-ngay.yaml:22: [sentence_unlearned_word] Câu s-hsk2-u03-001 (bài hsk2-u03-l01) dùng từ chưa học: 十分钟",
+    "u03-thoi-gian-va-sinh-hoat-hang-ngay.yaml:26: [sentence_unlearned_word] Câu s-hsk2-u03-002 (bài hsk2-u03-l01) dùng từ chưa học: 九点, 一刻",
+    "u03-thoi-gian-va-sinh-hoat-hang-ngay.yaml:102: [sentence_pinyin_mismatch] Câu s-hsk2-u03-009: pinyin ghi 'Bù yíhuìr, tā jiù huílai le.', pypinyin cho 'bù yī huì er tā jiù huí lái le'"
+  ],
+  "han_viet_proposed": []
+}

@@ -1,0 +1,277 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u25.json.
+id: hsk2-u25
+stage: hsk2
+order: 25
+title: So sánh, mức độ và thay đổi
+description: Người học có thể so sánh hai sự vật, diễn đạt mức độ và nói về sự thay đổi ngày càng nhiều.
+lessons:
+- id: hsk2-u25-l01
+  title: 'Rất, khá, hơi: phó từ mức độ'
+  grammar: hsk2-g013
+  new_words:
+  - 十分
+  - 特别
+  - 挺
+  - 有点儿
+  - 有一点儿
+  - 多么
+  - 不太
+  sentences:
+  - id: s-hsk2-u25-001
+    zh: 今天特别热。
+    en: It is especially hot today.
+    pinyin: jīn tiān tè bié rè
+    tatoeba_id: 801531
+  - id: s-hsk2-u25-002
+    zh: 天气挺冷的。
+    en: It's pretty cold.
+    pinyin: tiān qì tǐng lěng de
+    tatoeba_id: 358977
+  - id: s-hsk2-u25-003
+    zh: 多么冷啊!
+    en: How cold it is!
+    pinyin: duō me lěng a
+    tatoeba_id: 891117
+  - id: s-hsk2-u25-004
+    zh: 我今天有点儿累，不太想出去。
+    en: I'm a bit tired today and don't really want to go out.
+    pinyin: Wǒ jīntiān yǒudiǎnr lèi, bú tài xiǎng chūqù.
+  tips:
+    有点儿: '有点儿 đặt TRƯỚC tính từ và thường mang ý không hài lòng: 有点儿贵 (hơi đắt), 有点儿累. Còn 一点儿 đặt SAU
+      tính từ: 便宜一点儿 (rẻ hơn chút). Lỗi hay gặp: ~~我一点儿累~~ → 我有点儿累.'
+    不太: '不 đứng trước thanh 4 thì đổi sang thanh 2: 不太 đọc là bú tài. 不太 nghĩa là ''không ... lắm'', nhẹ
+      nhàng hơn 不: 不太好 = không tốt lắm.'
+    挺: '挺 hay đi thành cặp 挺……的 trong văn nói: 挺好的, 挺冷的. Chữ có bộ 扌 (tay) bên trái. tǐng là thanh 3,
+      đọc trầm xuống rồi lên, đừng đọc thành dấu hỏi kiểu tiếng Việt cho nhanh.'
+    十分: '十 có âm Hán Việt là thập, 分 có âm Hán Việt là phân, hiểu nôm na là ''đủ mười phần'', tức là ''rất,
+      hết sức''. Hay dùng trong văn viết: 十分感谢 = vô cùng cảm ơn.'
+    有一点儿: '一 đứng trước thanh 3 (diǎn) thì đổi sang thanh 4: yǒu yì diǎnr. 有一点儿 = 有点儿, chỉ dài hơn một
+      chút, dùng như nhau.'
+    多么: '多么 dùng trong câu cảm thán, cuối câu thường có 啊: 多么漂亮啊！ = Đẹp biết bao! 么 đọc nhẹ, không mang
+      thanh: duōme.'
+- id: hsk2-u25-l02
+  title: Như thế này, như thế kia
+  grammar: hsk2-g007
+  new_words:
+  - 这么
+  - 那么
+  - 这样
+  - 那样
+  - 实在
+  sentences:
+  - id: s-hsk2-u25-005
+    zh: 我也这么想。
+    en: I think so, too.
+    pinyin: wǒ yě zhè me xiǎng
+    tatoeba_id: 440005
+  - id: s-hsk2-u25-006
+    zh: 没那么冷。
+    en: It wasn't that cold.
+    pinyin: méi nà me lěng
+    tatoeba_id: 10537109
+  - id: s-hsk2-u25-007
+    zh: 那样是错的。
+    en: That was wrong.
+    pinyin: nà yàng shì cuò de
+    tatoeba_id: 5096414
+  - id: s-hsk2-u25-008
+    zh: 这个菜实在太好吃了！
+    en: This dish is really delicious!
+    pinyin: Zhège cài shízài tài hǎochī le!
+  tips:
+    这么: '这么 đứng trước tính từ hoặc động từ (这么贵, 这么想), không đứng thẳng trước danh từ. Muốn nói ''loại
+      người như thế này'' phải dùng 这样的: 这样的人, không nói ~~这么人~~.'
+    这样: 'zh trong 这 là âm cuộn lưỡi: uốn đầu lưỡi lên vòm miệng, không bật hơi, đừng đọc thành ''ch''
+      hay ''gi'' tiếng Việt. 样 có âm Hán Việt là dạng, có bộ 木 (cây) bên trái.'
+    那么: '这 chỉ cái gần hoặc đang nói, 那 chỉ cái xa hoặc đã nhắc tới. 那么 còn dùng ở đầu câu với nghĩa ''vậy
+      thì'': 那么，我们走吧。'
+    实在: '实 có âm Hán Việt là thực, 在 có âm Hán Việt là tại. Nghĩa ''thật sự, quả thật'', hay đi với 太……了:
+      实在太累了. shí: sh cuộn lưỡi (gần ''s'' uốn lưỡi); zài: z là âm đầu lưỡi sau răng trên, không bật hơi,
+      gần ''tsơ/dz'' nhẹ, không cuộn lưỡi.'
+- id: hsk2-u25-l03
+  title: Giống và khác
+  grammar: hsk2-g059
+  new_words:
+  - 相同
+  - 不同
+  - 同样
+  - 像
+  - 好像
+  - 完全
+  sentences:
+  - id: s-hsk2-u25-009
+    zh: 她很像她妈。
+    en: She looks a lot like her mother.
+    pinyin: tā hěn xiàng tā mā
+    tatoeba_id: 10455470
+  - id: s-hsk2-u25-010
+    zh: 他好像病了。
+    en: He seems to be ill.
+    pinyin: tā hǎo xiàng bìng le
+    tatoeba_id: 845112
+  - id: s-hsk2-u25-011
+    zh: 这两个字的读音完全不同。
+    en: These two characters are pronounced completely differently.
+    pinyin: Zhè liǎng gè zì de dúyīn wánquán bùtóng.
+  - id: s-hsk2-u25-012
+    zh: 我的爱好跟他的相同。
+    en: My hobbies are the same as his.
+    pinyin: Wǒ de àihào gēn tā de xiāngtóng.
+  tips:
+    像: '像 có âm Hán Việt là tượng: bộ 亻 (người) + 象 (con voi) → ''người làm giống hình con voi''. x đọc
+      giữa ''s'' và ''x'' tiếng Việt, đầu lưỡi tì răng dưới, môi dẹt.'
+    好像: '好像 là ''hình như, dường như'', không phải ''tốt giống''. hǎo + xiàng: thanh 3 trước thanh 4 chỉ
+      đọc nửa đầu (trầm xuống, không vút lên).'
+    相同: 相同 = 一样 nhưng trang trọng hơn và không đi kèm tính từ phía sau. Nói 他跟我一样高, không nói ~~他跟我相同高~~.
+    不同: '同 có âm Hán Việt là đồng. 同 thanh 2 nên 不 giữ nguyên thanh 4: bù tóng. 不同 = 不一样 (bù yíyàng):
+      我们的爱好不同 = sở thích của chúng tôi khác nhau.'
+    完全: '完 có âm Hán Việt là hoàn, 全 có âm Hán Việt là toàn. 完全 đứng trước tính từ/động từ: 完全不同, 完全对.
+      Cả hai chữ đều thanh 2: wánquán, đọc lên giọng.'
+    同样: '同样 = ''cũng như vậy'': 同样感谢你 (cũng cảm ơn bạn như thế). Muốn so sánh A với B thì dùng 跟……一样,
+      ít dùng 同样.'
+- id: hsk2-u25-l04
+  title: Hơn, kém, bằng
+  grammar: hsk2-g058
+  new_words:
+  - 更
+  - 不如
+  - 差不多
+  - 等于
+  sentences:
+  - id: s-hsk2-u25-013
+    zh: 她比我更高。
+    en: She is taller than me.
+    pinyin: tā bǐ wǒ gèng gāo
+    tatoeba_id: 4754679
+  - id: s-hsk2-u25-014
+    zh: 这家店的菜不如那家好吃。
+    en: The food at this restaurant isn't as good as at that one.
+    pinyin: Zhè jiā diàn de cài bùrú nà jiā hǎochī.
+  - id: s-hsk2-u25-015
+    zh: 弟弟差不多有哥哥那么高了。
+    en: The younger brother is almost as tall as the older one now.
+    pinyin: Dìdi chàbuduō yǒu gēge nàme gāo le.
+  - id: s-hsk2-u25-016
+    zh: 一加一等于二。
+    en: One plus one equals two.
+    pinyin: Yī jiā yī děngyú èr.
+  tips:
+    更: 'Lỗi rất hay gặp: dùng 很 trong câu 比. Sai: ~~他比我很高~~ → đúng: 他比我高 / 他比我更高 / 他比我还高. 更 đọc gèng thanh
+      4, không phải gēng.'
+    不如: A 不如 B = A không bằng B, trật tự giống hệt tiếng Việt. 如 thanh 2 nên 不 vẫn đọc bù. r đọc gần 'r'
+      uốn lưỡi nhẹ, không rung lưỡi như 'r' Nam Bộ.
+    差不多: 'Đọc là chàbuduō: 不 ở giữa đọc nhẹ. ch là âm cuộn lưỡi có bật hơi. 差不多 = gần như, xấp xỉ: 我们差不多高
+      (hai đứa cao xấp xỉ nhau).'
+    等于: '等 có âm Hán Việt là đẳng, 于 có âm Hán Việt là vu. yú có âm ü: để lưỡi như khi đọc ''i'' rồi tròn
+      môi như ''u'', đừng đọc thành ''du'' hay ''uy''.'
+- id: hsk2-u25-l05
+  title: Ngày càng…, biến thành…
+  grammar: hsk2-g044
+  new_words:
+  - 越
+  - 越来越
+  - 变
+  - 变成
+  - 成
+  sentences:
+  - id: s-hsk2-u25-017
+    zh: 越来越黑了。
+    en: It's getting darker and darker.
+    pinyin: yuè lái yuè hēi le
+    tatoeba_id: 759366
+  - id: s-hsk2-u25-018
+    zh: 雨越下越大。
+    en: The rain is getting heavier and heavier.
+    pinyin: Yǔ yuè xià yuè dà.
+  - id: s-hsk2-u25-019
+    zh: 变成了绿色。
+    en: It turned green.
+    pinyin: biàn chéng le lǜ sè
+    tatoeba_id: 10745350
+  - id: s-hsk2-u25-020
+    zh: 他们成了好朋友。
+    en: They became good friends.
+    pinyin: Tāmen chéngle hǎo péngyou.
+  tips:
+    越来越: 'Sau 越来越 không thêm 很/非常. Sai: ~~越来越很冷~~ → đúng: 越来越冷了. yuè: ü + ê, môi tròn ngay từ đầu, không
+      đọc thành ''duê''.'
+    越: '越 có âm Hán Việt là việt, có bộ 走 (đi) bao bên trái: đi vượt qua. 越A越B = càng A càng B: 越吃越想吃
+      (càng ăn càng thèm).'
+    变: '变 thường theo sau là tính từ + 了: 天气变冷了. Muốn nói ''biến thành + danh từ'' thì dùng 变成: 变成绿色.
+      变 có âm Hán Việt là biến.'
+    成: '成 có âm Hán Việt là thành. 成了 + danh từ = trở thành: 成了朋友. ch là âm cuộn lưỡi bật hơi: chéng,
+      lên giọng (thanh 2).'
+- id: hsk2-u25-l06
+  title: Thay đổi và hơn kém bao nhiêu
+  grammar: hsk2-g053
+  new_words:
+  - 改
+  - 改变
+  - 大大
+  - 影响
+  sentences:
+  - id: s-hsk2-u25-021
+    zh: 他比我大两岁。
+    en: He is two years older than me.
+    pinyin: Tā bǐ wǒ dà liǎng suì.
+  - id: s-hsk2-u25-022
+    zh: 手机大大改变了我们的生活。
+    en: Mobile phones have greatly changed our lives.
+    pinyin: Shǒujī dàdà gǎibiànle wǒmen de shēnghuó.
+  - id: s-hsk2-u25-023
+    zh: 天气会影响我的心情。
+    en: The weather affects my mood.
+    pinyin: Tiānqì huì yǐngxiǎng wǒ de xīnqíng.
+  - id: s-hsk2-u25-024
+    zh: 他们什么都改。
+    en: They change everything.
+    pinyin: tā men shén me dōu gǎi
+    tatoeba_id: 440029
+  tips:
+    影响: 'Biến điệu 3+3: hai thanh 3 liền nhau thì chữ đầu đọc thành thanh 2: yǐngxiǎng → yíngxiǎng. 影
+      có âm Hán Việt là ảnh, 响 có âm Hán Việt là hưởng.'
+    改: 'Chữ 改 gồm 己 (bản thân) + 攵 (tay cầm roi): tự ''đánh'' vào mình để sửa đổi. 改 hay dùng với việc
+      sửa nhỏ: 改作业 (chữa bài), 改时间 (đổi giờ). gǎi thanh 3.'
+    改变: '改变 thường có tân ngữ đi sau: 改变生活, 改变想法. 变 thì thường không có tân ngữ: 他变了. Lỗi hay gặp: ~~他变我的生活~~
+      → 他改变了我的生活.'
+    大大: '大大 là phó từ ''rất nhiều, đáng kể'', đứng trước động từ: 大大提高, 大大改变. Đừng nhầm với 大 trong câu
+      so sánh: 他比我大两岁 (lớn hơn hai tuổi), số lượng đứng SAU tính từ, giống trật tự tiếng Việt.'
+- id: hsk2-u25-l07
+  title: Trở thành, xuất hiện, tác dụng
+  grammar: hsk2-g055
+  new_words:
+  - 成为
+  - 组成
+  - 出现
+  - 作用
+  sentences:
+  - id: s-hsk2-u25-025
+    zh: 你想成为什么？
+    en: What do you want to be?
+    pinyin: nǐ xiǎng chéng wéi shén me
+    tatoeba_id: 469410
+  - id: s-hsk2-u25-026
+    zh: 她没有出现。
+    en: She did not turn up.
+    pinyin: tā méi yǒu chū xiàn
+    tatoeba_id: 5372265
+  - id: s-hsk2-u25-027
+    zh: 五个人组成了一个小组。
+    en: Five people formed a group.
+    pinyin: Wǔ gè rén zǔchéngle yí gè xiǎozǔ.
+  - id: s-hsk2-u25-028
+    zh: 这个药没有什么作用。
+    en: This medicine doesn't have much effect.
+    pinyin: Zhège yào méiyǒu shénme zuòyòng.
+  tips:
+    成为: '为 ở đây đọc wéi (thanh 2), không phải wèi. 成为 + danh từ: 成为老师. Không dùng với tính từ: ~~成为漂亮~~
+      → 变漂亮了.'
+    组成: '组 có âm Hán Việt là tổ, có bộ 纟 (sợi tơ) bên trái: nhiều sợi kết lại thành một → ''hợp thành''.
+      zǔ: z không bật hơi, lưỡi đặt sau răng trên.'
+    出现: 出 có âm Hán Việt là xuất, 现 có âm Hán Việt là hiện. chū cuộn lưỡi bật hơi, xiàn đầu lưỡi tì răng
+      dưới, hai âm khác hẳn nhau, đừng đọc lẫn.
+    作用: '作用 là danh từ, hay đi với 有/没有: 很有作用, 没有什么作用. Đừng dùng như động từ: ~~这个药作用我~~ → 这个药对我有作用. zuò
+      (z) khác zhuō (zh): z không uốn lưỡi.'
+- id: hsk2-u25-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

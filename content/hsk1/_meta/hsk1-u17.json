@@ -1,0 +1,42 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-08T17:15:06",
+  "prompt_sha256": [
+    "84d522b0550a4ebc135c32158ae58631ac8dbe4924ca23185e8fc1767923a289"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u17-006",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"He will have to go to the station\" thêm nghĩa bắt buộc (have to). 他要去车站 tự nhiên hơn là \"anh ấy muốn đi / sắp đi ra ga\", không nhấn mạnh sự bắt buộc.",
+      "suggestion": "Sửa en thành \"He is going to the station.\" hoặc \"He wants to go to the station.\""
+    },
+    {
+      "where": "s-hsk1-u17-013",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"lù shàng\" (tách hai âm tiết, 上 thanh 4), trong khi từ 路上 có pinyin lùshang với 上 thanh nhẹ. Không khớp với từ mới và với cách ghi 车上 (chē shang).",
+      "suggestion": "Đổi thành \"tā zài lùshang\"."
+    }
+  ],
+  "machine_warnings": [
+    "u17-di-lai.yaml:34: [sentence_unlearned_word] Câu s-hsk1-u17-004 (bài hsk1-u17-l01) dùng từ chưa học: 坐飞机, 去",
+    "u17-di-lai.yaml:60: [sentence_unlearned_word] Câu s-hsk1-u17-006 (bài hsk1-u17-l02) dùng từ chưa học: 去",
+    "u17-di-lai.yaml:65: [sentence_unlearned_word] Câu s-hsk1-u17-007 (bài hsk1-u17-l02) dùng từ chưa học: 去",
+    "u17-di-lai.yaml:97: [sentence_unlearned_word] Câu s-hsk1-u17-010 (bài hsk1-u17-l03) dùng từ chưa học: 去",
+    "u17-di-lai.yaml:101: [sentence_unlearned_word] Câu s-hsk1-u17-011 (bài hsk1-u17-l03) dùng từ chưa học: 快上车",
+    "u17-di-lai.yaml:107: [sentence_pinyin_mismatch] Câu s-hsk1-u17-012: pinyin ghi 'Wǒmen zài zhèr xià chē.', pypinyin cho 'wǒ men zài zhè ér xià chē'",
+    "u17-di-lai.yaml:131: [sentence_unlearned_word] Câu s-hsk1-u17-014 (bài hsk1-u17-l04) dùng từ chưa học: 去",
+    "u17-di-lai.yaml:164: [sentence_pinyin_mismatch] Câu s-hsk1-u17-017: pinyin ghi 'Nǐ cóng nǎr lái?', pypinyin cho 'nǐ cóng nǎ ér lái'",
+    "u17-di-lai.yaml:166: [sentence_unlearned_word] Câu s-hsk1-u17-018 (bài hsk1-u17-l05) dùng từ chưa học: 我家"
+  ],
+  "han_viet_proposed": [
+    "汽"
+  ]
+}

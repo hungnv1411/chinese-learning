@@ -1,0 +1,38 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-08T16:44:18",
+  "prompt_sha256": [
+    "af96a1a3d0f6ab880d3ac52b6781434b54bba1645a8a3d27653cebe7d87537c6"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk1-u08-l03 (tips.还有)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói 'Thanh 3 của 有 đứng cuối câu thì đọc đủ', nhưng trong ví dụ 还有吗？ thì 有 không đứng cuối câu (sau nó còn có 吗). Câu giải thích này không khớp với ví dụ và khiến người học khó hiểu.",
+      "suggestion": "Bỏ câu về thanh 3 của 有, hoặc thay bằng: '还 ở đây đọc hái (không phải huán), còn 有 là thanh 3 nên khi đứng trước 吗 thì chỉ cần đọc nửa thanh, xuống thấp rồi dừng.'"
+    },
+    {
+      "where": "s-hsk1-u08-008",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin 'gěi wǒ yì diǎn ér' viết rời chữ 儿 và không viết hoa, không có dấu câu. Cách viết này không khớp với tip (yìdiǎnr) và với các câu khác trong bài.",
+      "suggestion": "Đổi thành 'Gěi wǒ yìdiǎnr.' để thống nhất với tip. Các câu lấy từ Tatoeba (s-004, 005, 010, 011, 013, 015) cũng nên chuẩn hoá theo cùng kiểu: viết hoa chữ đầu, ghép âm tiết theo từ, có dấu câu."
+    }
+  ],
+  "machine_warnings": [
+    "u08-mua-sam-va-tien.yaml:20: [sentence_unlearned_word] Câu s-hsk1-u08-001 (bài hsk1-u08-l01) dùng từ chưa học: 多少钱",
+    "u08-mua-sam-va-tien.yaml:24: [sentence_unlearned_word] Câu s-hsk1-u08-002 (bài hsk1-u08-l01) dùng từ chưa học: 一杯, 六块",
+    "u08-mua-sam-va-tien.yaml:28: [sentence_unlearned_word] Câu s-hsk1-u08-003 (bài hsk1-u08-l01) dùng từ chưa học: 贵不贵",
+    "u08-mua-sam-va-tien.yaml:62: [sentence_unlearned_word] Câu s-hsk1-u08-006 (bài hsk1-u08-l02) dùng từ chưa học: 一个",
+    "u08-mua-sam-va-tien.yaml:93: [sentence_unlearned_word] Câu s-hsk1-u08-009 (bài hsk1-u08-l03) dùng từ chưa học: 一个包",
+    "u08-mua-sam-va-tien.yaml:128: [sentence_unlearned_word] Câu s-hsk1-u08-012 (bài hsk1-u08-l04) dùng từ chưa học: 我能, 试一下, 儿",
+    "u08-mua-sam-va-tien.yaml:130: [sentence_pinyin_mismatch] Câu s-hsk1-u08-012: pinyin ghi 'Wǒ néng shì yíxiàr ma?', pypinyin cho 'wǒ néng shì yī xià ér ma'"
+  ],
+  "han_viet_proposed": []
+}

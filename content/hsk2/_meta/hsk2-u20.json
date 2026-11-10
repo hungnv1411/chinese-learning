@@ -1,0 +1,47 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:39:06",
+  "prompt_sha256": [
+    "be7ff2289f65bc9d16b016cef30189525eeaa70aa3c22a84f3e88df19b1bfc0a",
+    "41cc1681e6fb0937b0fa30fa1e987c9d8f31d3eea76589e6956ec689f7d4bc14"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u20-002",
+      "category": "english",
+      "severity": "warning",
+      "problem": "他刚才到了 nói về việc vừa xảy ra trong quá khứ gần, còn \"He had just arrived\" (quá khứ hoàn thành) làm lệch nghĩa so với 刚才 (\"a moment ago\").",
+      "suggestion": "Đổi thành \"He arrived a moment ago.\" hoặc \"He just arrived.\""
+    },
+    {
+      "where": "s-hsk2-u20-013",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "你以前喜欢吗？ thiếu tân ngữ nên đứng một mình nghe cụt và hơi gượng. Người bản xứ thường nói rõ thứ được hỏi.",
+      "suggestion": "Thêm tân ngữ hoặc đổi sang 你以前喜欢他吗？/ 你以前喜欢这个吗？ (cần cập nhật en, pinyin và tatoeba_id nếu không còn khớp)."
+    },
+    {
+      "where": "hsk2-u20-l07",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Câu s-hsk2-u20-026 (你想去，我们就去吧) không chứa từ mới nào của bài (这时/这时候/同时). Từ 这时 cũng không có câu ví dụ nào.",
+      "suggestion": "Thay bằng một câu có 这时, ví dụ 我正要走，这时他来了。 (cần pinyin và en tương ứng), hoặc xác nhận đây là câu minh họa cho điểm ngữ pháp hsk2-g017."
+    }
+  ],
+  "machine_warnings": [
+    "u20-qua-khu-hien-tai-va-sap-toi.yaml:63: [sentence_unlearned_word] Câu s-hsk2-u20-007 (bài hsk2-u20-l02) dùng từ chưa học: 昨天晚上, 十二点",
+    "u20-qua-khu-hien-tai-va-sap-toi.yaml:136: [sentence_unlearned_word] Câu s-hsk2-u20-016 (bài hsk2-u20-l04) dùng từ chưa học: 我会, 努力学习",
+    "u20-qua-khu-hien-tai-va-sap-toi.yaml:155: [sentence_unlearned_word] Câu s-hsk2-u20-017 (bài hsk2-u20-l05) dùng từ chưa học: 一到",
+    "u20-qua-khu-hien-tai-va-sap-toi.yaml:159: [sentence_unlearned_word] Câu s-hsk2-u20-018 (bài hsk2-u20-l05) dùng từ chưa học: 吃了饭, 看电视",
+    "u20-qua-khu-hien-tai-va-sap-toi.yaml:205: [sentence_pinyin_mismatch] Câu s-hsk2-u20-024: pinyin ghi 'Nàhuìr wǒ hái xiǎo.', pypinyin cho 'nà huì er wǒ hái xiǎo'"
+  ],
+  "han_viet_proposed": [
+    "以",
+    "刚"
+  ]
+}

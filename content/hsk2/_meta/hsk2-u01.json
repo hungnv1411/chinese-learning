@@ -1,0 +1,42 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-09T02:37:00",
+  "prompt_sha256": [
+    "eb5655338a7a701ead1e7220371e247243a8bc9bb8033d0b583f703916778a8a"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u01-l01",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Từ mới 晚安 nằm trong bài \"Lâu rồi không gặp – gặp lại bạn cũ\" nhưng không có câu ví dụ nào dùng nó. Chủ đề bài cũng không liên quan (晚安 là lời chào khi chia tay buổi tối).",
+      "suggestion": "Thêm một câu ví dụ, ví dụ 晚安，明天见！(Wǎn'ān, míngtiān jiàn!), hoặc chuyển 晚安 sang bài l04 (cảm ơn, xin lỗi) hay một bài chào hỏi hợp hơn."
+    },
+    {
+      "where": "hsk2-u01-l02",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Ba từ mới 名, 名称 và 叫作 không có câu ví dụ nào chứa chúng. Chỉ 名称 có tip. 名 và 叫作 không có câu ví dụ lẫn tip.",
+      "suggestion": "Thêm câu ví dụ cho 叫作 và 名称, ví dụ 他叫作小王 hoặc 这个商店的名称是什么？. Thêm tip ngắn phân biệt 叫作 với 叫, và nói 名 là chữ trong 姓名/名字."
+    },
+    {
+      "where": "hsk2-u01-l02 (tip 位)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip viết 我是一位老师 là sai (gạch bỏ). Thực tế câu này đúng ngữ pháp và vẫn được dùng, ví dụ trong văn viết hoặc giới thiệu bản thân. Đây chỉ là chuyện khiêm tốn, nên nói \"sai\" là quá tay.",
+      "suggestion": "Sửa thành: nói về mình thường chỉ nói 我是老师; dùng 位 cho chính mình nghe hơi tự đề cao. Bỏ dấu gạch bỏ (sai) ở 我是一位老师."
+    }
+  ],
+  "machine_warnings": [
+    "u01-chao-hoi-va-lam-quen.yaml:22: [sentence_unlearned_word] Câu s-hsk2-u01-001 (bài hsk2-u01-l01) dùng từ chưa học: 好久不见",
+    "u01-chao-hoi-va-lam-quen.yaml:151: [sentence_pinyin_mismatch] Câu s-hsk2-u01-015: pinyin ghi 'Nǐ míngtiān yǒu kòngr ma?', pypinyin cho 'nǐ míng tiān yǒu kòng er ma'"
+  ],
+  "han_viet_proposed": [
+    "咱"
+  ]
+}

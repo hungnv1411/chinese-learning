@@ -1,0 +1,44 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:10:59",
+  "prompt_sha256": [
+    "a82d3bf1203d00070880b934a4da176be2552c24456a841010869215150e762c",
+    "9477d21dae924f93f20460ebcfbe8f86ed4a0ed362fcfe295d65a72c638fa3af",
+    "df7c9e983308cfd5a14946d10890195256fce0f0e7fb3b699d98b13798380c89"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u01-013",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Câu ghi Xiǎopéngyǒu (友 thanh 3), nhưng bài hsk1-u01-l03 ghi péngyou và tip dạy 友 đọc nhẹ. Trong khẩu ngữ, 小朋友 cũng thường đọc xiǎopéngyou, nên hai bài đang không khớp nhau.",
+      "suggestion": "Thống nhất thành Xiǎopéngyou! ở câu và ở từ vựng, hoặc thêm một ghi chú nói 友 đọc nhẹ giống 朋友."
+    },
+    {
+      "where": "s-hsk1-u01-012",
+      "category": "sensitive_content",
+      "severity": "warning",
+      "problem": "Câu ví dụ chỉ có 小姐！ đứng riêng. Tip của bài lại nói gọi người lạ là 小姐 có thể gây hiểu lầm và chỉ an toàn khi đặt sau họ. Ví dụ đang đúng vào cách dùng dễ gây hiểu lầm đó, và nghĩa 'Miss!' không kèm cảnh báo.",
+      "suggestion": "Thêm chú thích ngay ở câu (ví dụ 'dùng sau họ cho lịch sự'), hoặc đổi nghĩa tiếng Anh sang kiểu xưng hô trang trọng và nhắc người học đừng gọi người lạ bằng 小姐 một mình."
+    }
+  ],
+  "machine_warnings": [
+    "u01-toi-ban-va-moi-nguoi.yaml:23: [sentence_pinyin_polyphone] Câu s-hsk1-u01-001: pinyin ghi 'Shéi? — Wǒ.', pypinyin cho 'shuí wǒ' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u01-toi-ban-va-moi-nguoi.yaml:31: [sentence_pinyin_polyphone] Câu s-hsk1-u01-003: pinyin ghi 'Shéi? — Tā.', pypinyin cho 'shuí tā' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u01-toi-ban-va-moi-nguoi.yaml:58: [sentence_pinyin_polyphone] Câu s-hsk1-u01-004: pinyin ghi 'Shéi? — Wǒmen.', pypinyin cho 'shuí wǒ men' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u01-toi-ban-va-moi-nguoi.yaml:89: [sentence_pinyin_polyphone] Câu s-hsk1-u01-007: pinyin ghi 'Shéi? — Wǒ péngyou.', pypinyin cho 'shuí wǒ péng yǒu' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u01-toi-ban-va-moi-nguoi.yaml:159: [sentence_pinyin_mismatch] Câu s-hsk1-u01-014: pinyin ghi 'Nánháir? Nǚháir?', pypinyin cho 'nán hái er nǚ hái ér'",
+    "u01-toi-ban-va-moi-nguoi.yaml:161: [sentence_unlearned_word] Câu s-hsk1-u01-015 (bài hsk1-u01-l05) dùng từ chưa học: 老先生"
+  ],
+  "han_viet_proposed": [
+    "儿",
+    "她",
+    "您",
+    "谁"
+  ]
+}

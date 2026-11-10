@@ -1,0 +1,47 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T02:05:40",
+  "prompt_sha256": [
+    "f406c1f5b06f8794df1082cd7aa0d3988938a1461f581ef590fc60bc48f63997",
+    "0856362fd78a188bda29916ff722778e675c79d4d761967ec2312851a03d44a0"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u31-016",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin lấy từ Tatoeba viết rời từng âm tiết, không viết hoa và không ghi thanh nhẹ (zhè lǐ, piào liàng). Thực tế 这里 đọc zhèli và 漂亮 đọc piàoliang, thanh nhẹ ở âm sau. Các câu s-005, 006, 007, 011 và 012 cũng viết theo kiểu này, không đồng nhất với các câu còn lại.",
+      "suggestion": "Viết lại thành: Zhèlǐ nǐ kěyǐ kàndào piàoliang de yánsè zǔhé. Nên chuẩn hóa các câu Tatoeba khác theo cách ghi từng từ, viết hoa chữ đầu câu."
+    },
+    {
+      "where": "s-hsk3-u31-012",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "「已展开调查。」không có chủ ngữ, giọng văn bản tin tức. Nó hơi khô và xa lời nói hằng ngày với người học HSK3.",
+      "suggestion": "Có thể thay bằng câu có chủ ngữ, ví dụ 学校已经展开调查了 (nếu 已经 và 调查 đã học)."
+    },
+    {
+      "where": "hsk3-u31-l04 (tip 分组)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu «z đọc như 'ch' không bật hơi» dễ gây hiểu nhầm. 'ch' tiếng Việt gần với zh/j hơn là z, và z là âm đầu lưỡi sau răng.",
+      "suggestion": "Sửa thành: z gần như 'tz/ts' trong tiếng Việt, không bật hơi, đầu lưỡi chạm sau răng cửa, không uốn lưỡi."
+    }
+  ],
+  "machine_warnings": [
+    "u31-to-chuc-va-su-kien.yaml:20: [sentence_unlearned_word] Câu s-hsk3-u31-001 (bài hsk3-u31-l01) dùng từ chưa học: 一个",
+    "u31-to-chuc-va-su-kien.yaml:28: [sentence_unlearned_word] Câu s-hsk3-u31-003 (bài hsk3-u31-l01) dùng từ chưa học: 这是",
+    "u31-to-chuc-va-su-kien.yaml:32: [sentence_unlearned_word] Câu s-hsk3-u31-004 (bài hsk3-u31-l01) dùng từ chưa học: 一群",
+    "u31-to-chuc-va-su-kien.yaml:73: [sentence_unlearned_word] Câu s-hsk3-u31-008 (bài hsk3-u31-l02) dùng từ chưa học: 很多",
+    "u31-to-chuc-va-su-kien.yaml:97: [sentence_unlearned_word] Câu s-hsk3-u31-009 (bài hsk3-u31-l03) dùng từ chưa học: 下个月",
+    "u31-to-chuc-va-su-kien.yaml:101: [sentence_unlearned_word] Câu s-hsk3-u31-010 (bài hsk3-u31-l03) dùng từ chưa học: 王老师",
+    "u31-to-chuc-va-su-kien.yaml:134: [sentence_unlearned_word] Câu s-hsk3-u31-013 (bài hsk3-u31-l04) dùng từ chưa học: 不能",
+    "u31-to-chuc-va-su-kien.yaml:142: [sentence_unlearned_word] Câu s-hsk3-u31-015 (bài hsk3-u31-l04) dùng từ chưa học: 这是"
+  ],
+  "han_viet_proposed": []
+}

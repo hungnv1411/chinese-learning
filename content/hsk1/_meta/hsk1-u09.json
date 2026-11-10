@@ -1,0 +1,43 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-08T16:45:57",
+  "prompt_sha256": [
+    "8eb52b12fc4bd2e04f71b74acd3a1f023154e1ae6f7f35156af3b82a6d218911",
+    "f5f5bb8b6bbd89292e62077c8856b953128f7bb066ee88605da73c9e46a93234"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk1-u09-l02",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo của 在 nêu ~~我是在家~~ là lỗi hay gặp. Thực ra 我是在家 vẫn đúng ngữ pháp, ví dụ khi nhấn mạnh: 我是在家，不是在公司. Chỉ có 他是这里 là sai.",
+      "suggestion": "Bỏ ví dụ ~~我是在家~~. Chỉ giữ ~~他是这里~~ → 他在这里. Có thể thêm ví dụ sai khác như ~~我是家~~ → 我在家."
+    },
+    {
+      "where": "s-hsk1-u09-009",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Dấu hỏi cuối câu là \"?\" nửa chiều rộng, các câu khác dùng \"？\". Pinyin ghi \"nǎ ér\" tách rời, trong khi mẹo dạy 哪儿 đọc liền một âm tiết (nǎr).",
+      "suggestion": "Đổi thành 你在哪儿？. Sửa pinyin thành \"nǐ zài nǎr\" hoặc \"nǐ zài nǎr?\" cho thống nhất với mẹo."
+    },
+    {
+      "where": "hsk1-u09-l01",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo của 有的 nói \"luôn đứng TRƯỚC danh từ\". Trong khẩu ngữ 有的 vẫn có thể đứng một mình làm đại từ, ví dụ 有的喝茶，有的喝水. Câu \"luôn\" hơi tuyệt đối.",
+      "suggestion": "Sửa thành \"thường đứng trước danh từ\"."
+    }
+  ],
+  "machine_warnings": [
+    "u09-day-do-va-o-dau.yaml:30: [sentence_unlearned_word] Câu s-hsk1-u09-003 (bài hsk1-u09-l01) dùng từ chưa học: 不吃",
+    "u09-day-do-va-o-dau.yaml:158: [sentence_unlearned_word] Câu s-hsk1-u09-016 (bài hsk1-u09-l04) dùng từ chưa học: 那个"
+  ],
+  "han_viet_proposed": [
+    "这"
+  ]
+}

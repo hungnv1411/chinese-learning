@@ -1,0 +1,35 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-09T08:35:39",
+  "prompt_sha256": [
+    "ca98ce4db8ac8f3bd2910d688998dffbdb5078b46fb4aecf8d761595855d779c"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u07-008",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Câu ghi 血 là xuè, nhưng 血 đứng một mình, và từ mới cùng tip của bài đều dạy là xiě trong khẩu ngữ. Người học sẽ thấy mâu thuẫn. Cách đọc xuè vẫn đúng chuẩn từ điển, nên đây không phải lỗi sai sự thật.",
+      "suggestion": "Đổi pinyin câu thành 'nà shì xiě ma' cho khớp với từ mới và tip, hoặc thêm một ghi chú ngắn rằng xuè cũng được chấp nhận."
+    },
+    {
+      "where": "hsk3-u07-l01 / tips.感冒",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói chữ 冒 gồm 日 ở trên và 目 ở dưới. Phần trên thật ra là 冃 (cái mũ), không phải 日, nên mẹo phân tích chữ hơi sai.",
+      "suggestion": "Sửa thành: 'Chữ 冒 gồm 冃 (cái mũ) ở trên và 目 (mắt) ở dưới'. Hoặc bỏ câu phân tích chữ này."
+    }
+  ],
+  "machine_warnings": [
+    "u07-suc-khoe-va-co-the.yaml:30: [sentence_unlearned_word] Câu s-hsk3-u07-003 (bài hsk3-u07-l01) dùng từ chưa học: 我头",
+    "u07-suc-khoe-va-co-the.yaml:32: [sentence_pinyin_mismatch] Câu s-hsk3-u07-003: pinyin ghi 'Wǒ tóu hěn tòng, yào qù kàn dàifu.', pypinyin cho 'wǒ tóu hěn tòng yào qù kàn dà fū'"
+  ],
+  "han_viet_proposed": [
+    "烟"
+  ]
+}

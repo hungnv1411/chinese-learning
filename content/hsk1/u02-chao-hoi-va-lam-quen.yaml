@@ -1,0 +1,278 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u02.json.
+id: hsk1-u02
+stage: hsk1
+order: 2
+title: Chào hỏi và làm quen
+description: Biết chào hỏi, cảm ơn, xin lỗi, giới thiệu tên mình và đặt câu hỏi có/không đơn giản.
+lessons:
+- id: hsk1-u02-l01
+  title: Chào hỏi, cảm ơn và tạm biệt
+  new_words:
+  - 好
+  - 再见
+  - 再
+  - 见
+  - 谢谢
+  - 不客气
+  sentences:
+  - id: s-hsk1-u02-001
+    zh: 你好！
+    en: Hello!
+    pinyin: nǐ hǎo!
+  - id: s-hsk1-u02-002
+    zh: 谢谢你！
+    en: Thank you!
+    pinyin: xièxie nǐ!
+  - id: s-hsk1-u02-003
+    zh: 不客气。
+    en: You're welcome.
+    pinyin: bú kèqi.
+  - id: s-hsk1-u02-004
+    zh: 朋友们，再见！
+    en: Goodbye, friends!
+    pinyin: péngyoumen, zàijiàn!
+  tips:
+    好: '好 gồm 女 (phụ nữ) + 子 (con): mẹ bế con là điều tốt. Biến điệu 3+3: trong 你好 có hai thanh 3 liền
+      nhau nên 你 đọc thành thanh 2: ní hǎo. Thanh 3 khác dấu hỏi: hạ giọng xuống thật thấp rồi mới nâng
+      lên.'
+    不客气: '客 có âm Hán Việt là khách, 气 có âm Hán Việt là khí. 不客气 nghĩa đen là “đừng khách sáo”, dùng
+      để đáp lại 谢谢. Biến điệu: 不 đứng trước thanh 4 (kè) thì đọc thanh 2: bú kèqi.'
+    再见: 再 có âm Hán Việt là tái, 见 có âm Hán Việt là kiến. 再见 = “hẹn gặp lại”. Âm z đọc như “ts”, không
+      bật hơi. Âm j đọc gần giống “ch” tiếng Việt, môi dẹt.
+    谢谢: 'Chữ 谢 thứ hai đọc thanh nhẹ: xièxie. Bộ 讠 (ngôn) chỉ lời nói, vì cảm ơn cũng là nói. Âm x: đặt
+      đầu lưỡi sau răng dưới, môi dẹt, nghe mềm hơn “x” tiếng Việt.'
+- id: hsk1-u02-l02
+  title: Xin lỗi và đáp lời
+  grammar: hsk1-g014
+  new_words:
+  - 对不起
+  - 没关系
+  - 没什么
+  - 没事儿
+  - 没
+  - 不用
+  sentences:
+  - id: s-hsk1-u02-005
+    zh: 对不起！——没关系。
+    en: I'm sorry! — It's okay.
+    pinyin: duìbuqǐ! —— méi guānxi.
+  - id: s-hsk1-u02-006
+    zh: 谢谢你！——没什么。
+    en: Thank you! — It's nothing.
+    pinyin: xièxie nǐ! —— méi shénme.
+  - id: s-hsk1-u02-007
+    zh: 不用，谢谢。
+    en: No need, thanks.
+    pinyin: bú yòng, xièxie.
+  - id: s-hsk1-u02-008
+    zh: 我没女朋友。
+    en: I don't have a girlfriend.
+    pinyin: wǒ méi nǚ péngyou.
+  tips:
+    对不起: 'Chữ 不 ở giữa đọc nhẹ, lướt qua: duìbuqǐ. Đáp lại 对不起 thì dùng 没关系 hoặc 没事儿. Đừng đáp bằng 不客气,
+      vì câu đó chỉ dùng khi người ta cảm ơn mình.'
+    没关系: 关 có âm Hán Việt là quan, 系 có âm Hán Việt là hệ. Nghĩa đen là “không liên quan gì”, ý là “không
+      sao đâu”. 没 đọc méi (thanh 2), đừng đọc nhầm thành mò.
+    没事儿: '儿 ở cuối là âm cuốn lưỡi (儿化) của giọng phương Bắc: đọc shì rồi uốn đầu lưỡi lên thành shìr.
+      Không đọc tách thành hai âm shì ér.'
+    不用: 不 đứng trước thanh 4 (yòng) nên đọc bú yòng. 不用 nghĩa là “không cần”. Muốn từ chối lịch sự thì
+      nói 不用，谢谢。
+- id: hsk1-u02-l03
+  title: 'Câu chữ 是: tôi là…'
+  grammar: hsk1-g036
+  new_words:
+  - 是
+  - 不
+  sentences:
+  - id: s-hsk1-u02-009
+    zh: 我们是朋友。
+    en: We're friends.
+    pinyin: wǒmen shì péngyou.
+  - id: s-hsk1-u02-010
+    zh: 我是女人。
+    en: I'm a woman.
+    pinyin: wǒ shì nǚrén
+    tatoeba_id: 747591
+  - id: s-hsk1-u02-011
+    zh: 我们是好朋友。
+    en: We're good friends.
+    pinyin: wǒmen shì hǎo péngyou.
+  - id: s-hsk1-u02-012
+    zh: 我不是李小姐。
+    en: I'm not Miss Li.
+    pinyin: wǒ bú shì Lǐ xiǎojiě.
+  tips:
+    是: '是 chỉ nối hai danh từ (A là B). Lỗi người Việt hay mắc là dùng 是 trước tính từ, kiểu ~~我是高兴~~
+      → 我好高兴. Âm sh: uốn đầu lưỡi lên, giống chữ “s” uốn lưỡi trong giọng miền Trung, miền Nam (như “sương”).'
+    不: '不 vốn đọc bù, nhưng đứng trước thanh 4 thì đổi thành thanh 2: 不是 bú shì. Trước thanh 1, 2, 3 vẫn
+      giữ bù. 不 có âm Hán Việt là bất.'
+- id: hsk1-u02-l04
+  title: Đúng rồi, tôi cũng vậy
+  grammar: hsk1-g013
+  new_words:
+  - 也
+  - 对
+  sentences:
+  - id: s-hsk1-u02-013
+    zh: 对，我也是。
+    en: Right, me too.
+    pinyin: duì, wǒ yě shì.
+  - id: s-hsk1-u02-014
+    zh: 他们也是朋友。
+    en: They are friends too.
+    pinyin: tāmen yě shì péngyou.
+  - id: s-hsk1-u02-015
+    zh: 我不是老人，他也不是。
+    en: I'm not old, and neither is he.
+    pinyin: wǒ bú shì lǎorén, tā yě bú shì.
+  tips:
+    也: '也 đứng sau chủ ngữ, trước động từ, đúng vị trí của “cũng” trong tiếng Việt: 我也是. Không viết ~~也我是~~,
+      cũng không đặt cuối câu như “too” trong tiếng Anh (~~我是也~~). Gặp 我也 (3+3) thì 我 đọc thành thanh
+      2: wó yě.'
+    对: 对 có âm Hán Việt là đối. Chữ gồm 又 + 寸 (bộ thốn). Trả lời một mình 对 nghĩa là “đúng vậy”, giống
+      “ừ, đúng rồi” trong tiếng Việt.
+- id: hsk1-u02-l05
+  title: Quen biết và hỏi bằng 吗
+  grammar: hsk1-g045
+  new_words:
+  - 认识
+  - 吗
+  sentences:
+  - id: s-hsk1-u02-016
+    zh: 你认识他吗？
+    en: Do you know him?
+    pinyin: nǐ rènshi tā ma?
+  - id: s-hsk1-u02-017
+    zh: 你们是朋友吗？
+    en: Are you friends?
+    pinyin: nǐmen shì péngyou ma?
+  - id: s-hsk1-u02-018
+    zh: 我不认识她。
+    en: I don't know her.
+    pinyin: wǒ bú rènshi tā.
+  - id: s-hsk1-u02-019
+    zh: 她认识你吗？
+    en: Does she know you?
+    pinyin: tā rènshi nǐ ma?
+  tips:
+    认识: '认 có âm Hán Việt là nhận. Chữ 识 trong 认识 đọc thanh nhẹ: rènshi. Phủ định: 不 đứng trước 认 (thanh
+      4) nên đọc bú rènshi. Âm r: uốn lưỡi như sh nhưng rung dây thanh, không rung lưỡi như “r” tiếng
+      Việt.'
+    吗: '吗 = 口 (miệng) + 马 (mǎ, gợi âm). Chỉ cần thêm 吗 cuối câu là thành câu hỏi, không đổi trật tự từ.
+      Câu đã có 谁 hoặc dạng 是不是 thì không thêm 吗: ~~你是谁吗？~~ → 你是谁？'
+- id: hsk1-u02-l06
+  title: Tên tôi là… và giới thiệu
+  grammar: hsk1-g032
+  new_words:
+  - 叫
+  - 名字
+  - 介绍
+  sentences:
+  - id: s-hsk1-u02-020
+    zh: 我叫李月。
+    en: My name is Li Yue.
+    pinyin: wǒ jiào Lǐ Yuè.
+  - id: s-hsk1-u02-021
+    zh: 好名字！
+    en: Nice name!
+    pinyin: hǎo míngzi!
+  - id: s-hsk1-u02-022
+    zh: 我介绍你们认识。
+    en: Let me introduce you to each other.
+    pinyin: wǒ jièshào nǐmen rènshi.
+  - id: s-hsk1-u02-023
+    zh: 我认识他。
+    en: I know him.
+    pinyin: wǒ rènshi tā.
+  tips:
+    叫: 'Nói tên mình dùng 我叫 + tên: 我叫李月. Người Việt hay dịch sát “tên tôi là…” thành câu dài; người Trung
+      nói 我叫… là tự nhiên nhất. 叫 có bộ 口 (miệng): gọi, kêu.'
+    名字: '名 có âm Hán Việt là danh, 字 có âm Hán Việt là tự. Trong 名字, chữ 字 đọc thanh nhẹ: míngzi.'
+    介绍: 介 có âm Hán Việt là giới, 绍 có âm Hán Việt là thiệu. Nghĩa giống hệt từ “giới thiệu” trong tiếng
+      Việt. Âm sh trong shào nhớ uốn lưỡi.
+- id: hsk1-u02-l07
+  title: Còn bạn thì sao?
+  grammar: hsk1-g022
+  new_words:
+  - 呢
+  - 高兴
+  sentences:
+  - id: s-hsk1-u02-024
+    zh: 我叫王明，你呢？
+    en: My name is Wang Ming. And you?
+    pinyin: wǒ jiào Wáng Míng, nǐ ne?
+  - id: s-hsk1-u02-025
+    zh: 我好高兴。
+    en: I'm so happy.
+    pinyin: wǒ hǎo gāoxìng
+    tatoeba_id: 826258
+  - id: s-hsk1-u02-026
+    zh: 我不高兴。
+    en: I am not happy.
+    pinyin: wǒ bù gāoxìng
+    tatoeba_id: 3378133
+  tips:
+    呢: 'Danh từ/đại từ + 呢？ nghĩa là “còn … thì sao?”: 你呢？ = Còn bạn? Dùng để hỏi lại đúng điều vừa nói,
+      khỏi phải lặp cả câu. 呢 đọc nhẹ, ngắn.'
+    高兴: '高 có âm Hán Việt là cao, 兴 có âm Hán Việt là hưng. 高兴 là tính từ nên không cần 是: ~~我是高兴~~ →
+      我好高兴. Phủ định dùng 不: 我不高兴.'
+- id: hsk1-u02-l08
+  title: Mời khách và hỏi lịch sự
+  grammar: hsk1-g033
+  new_words:
+  - 请
+  - 请问
+  - 请进
+  - 请坐
+  sentences:
+  - id: s-hsk1-u02-027
+    zh: 请进！请坐！
+    en: Please come in! Please have a seat!
+    pinyin: qǐng jìn! qǐng zuò!
+  - id: s-hsk1-u02-028
+    zh: 请问，你是王先生吗？
+    en: Excuse me, are you Mr. Wang?
+    pinyin: qǐngwèn, nǐ shì Wáng xiānsheng ma?
+  - id: s-hsk1-u02-029
+    zh: 请问，谁是李小姐？
+    en: Excuse me, who is Miss Li?
+    pinyin: qǐngwèn, shéi shì Lǐ xiǎojiě?
+  - id: s-hsk1-u02-030
+    zh: 我们是谁？
+    en: Who are we?
+    pinyin: wǒmen shì shéi
+    tatoeba_id: 6146408
+  tips:
+    请: 请 có âm Hán Việt là thỉnh. Chữ gồm 讠 (lời nói) + 青 (gợi âm qīng). Âm q giống “ch” nhưng bật mạnh
+      hơi; để tờ giấy trước miệng thì giấy phải rung.
+    请问: '请问 nghĩa là “xin hỏi”, đặt ở đầu câu khi hỏi người lạ. Chữ 问 là 门 (cửa) + 口 (miệng): đứng ở cửa
+      mở miệng hỏi.'
+    请坐: 'Mẹo nhớ chữ 坐: hai chữ 人 (người) ngồi trên 土 (đất). Âm z trong zuò đọc như “ts”, không bật hơi.'
+    请进: '进 có âm Hán Việt là tiến. Bộ 辶 (sước) chỉ sự đi lại: 请进 = mời đi vào. Âm j trong jìn đọc gần
+      “ch” tiếng Việt, không bật hơi.'
+- id: hsk1-u02-l09
+  title: Phải không? Không đúng!
+  grammar: hsk1-g048
+  new_words:
+  - 是不是
+  - 不对
+  sentences:
+  - id: s-hsk1-u02-031
+    zh: 你是不是王先生？——对，我是。
+    en: Are you Mr. Wang? — Yes, I am.
+    pinyin: nǐ shì bu shì Wáng xiānsheng? —— duì, wǒ shì.
+  - id: s-hsk1-u02-032
+    zh: 不对，我不是李小姐。
+    en: No, I'm not Miss Li.
+    pinyin: bú duì, wǒ bú shì Lǐ xiǎojiě.
+  - id: s-hsk1-u02-033
+    zh: 他们是不是朋友？
+    en: Are they friends or not?
+    pinyin: tāmen shì bu shì péngyou?
+  tips:
+    是不是: 'Chữ 不 kẹp giữa đọc nhẹ: shì bu shì. Đã hỏi bằng 是不是 thì không thêm 吗: ~~你是不是王明吗？~~ → 你是不是王明？'
+    不对: 不 đứng trước thanh 4 (duì) nên đọc bú duì. 不对 nghĩa là “không đúng, sai rồi”, dùng để phủ nhận
+      khi người khác đoán sai.
+- id: hsk1-u02-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,45 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-08T16:36:32",
+  "prompt_sha256": [
+    "45529a590bae901960def45f542cdedc56e86caf0f8588d7b518d942e7a66fc1",
+    "16413e97064db228ccc7d68f72fc82a5c6b656254d3a28d267f0d5435053835d"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u06-011",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Câu ở bài l03 dùng 时间, nhưng 时间 chỉ được dạy ở bài l05. Từ này thuộc từ mới của chủ đề nên không phải lỗi nặng, nhưng học viên đi tuần tự sẽ gặp từ chưa học.",
+      "suggestion": "Chuyển câu này sang bài l05 hoặc l06. Hoặc đổi sang câu chỉ dùng từ đã học, ví dụ 后天你在家吗？ (nếu 在 đã được học) hoặc 后天是星期几？"
+    },
+    {
+      "where": "s-hsk1-u06-014, s-hsk1-u06-019, s-hsk1-u06-020",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Dấu hỏi dùng '?' bán rộng, trong khi các câu tiếng Trung khác trong bài dùng dấu toàn rộng '？'. Định dạng không nhất quán.",
+      "suggestion": "Đổi thành '？' toàn rộng cho đồng bộ: 去年的今天是星期几？, 你上午有时间吗？, 上午你有时间吗？"
+    }
+  ],
+  "machine_warnings": [
+    "u06-thoi-gian-va-ngay-thang.yaml:24: [sentence_unlearned_word] Câu s-hsk1-u06-002 (bài hsk1-u06-l01) dùng từ chưa học: 几月, 几号",
+    "u06-thoi-gian-va-ngay-thang.yaml:28: [sentence_unlearned_word] Câu s-hsk1-u06-003 (bài hsk1-u06-l01) dùng từ chưa học: 八月, 十号",
+    "u06-thoi-gian-va-ngay-thang.yaml:51: [sentence_unlearned_word] Câu s-hsk1-u06-004 (bài hsk1-u06-l02) dùng từ chưa học: 今天",
+    "u06-thoi-gian-va-ngay-thang.yaml:56: [sentence_unlearned_word] Câu s-hsk1-u06-005 (bài hsk1-u06-l02) dùng từ chưa học: 今天",
+    "u06-thoi-gian-va-ngay-thang.yaml:61: [sentence_unlearned_word] Câu s-hsk1-u06-006 (bài hsk1-u06-l02) dùng từ chưa học: 明天",
+    "u06-thoi-gian-va-ngay-thang.yaml:66: [sentence_unlearned_word] Câu s-hsk1-u06-007 (bài hsk1-u06-l02) dùng từ chưa học: 新年好",
+    "u06-thoi-gian-va-ngay-thang.yaml:102: [sentence_unlearned_word] Câu s-hsk1-u06-011 (bài hsk1-u06-l03) dùng từ chưa học: 时间",
+    "u06-thoi-gian-va-ngay-thang.yaml:124: [sentence_unlearned_word] Câu s-hsk1-u06-012 (bài hsk1-u06-l04) dùng từ chưa học: 十七岁",
+    "u06-thoi-gian-va-ngay-thang.yaml:159: [sentence_unlearned_word] Câu s-hsk1-u06-015 (bài hsk1-u06-l05) dùng từ chưa học: 七点, 四十五分",
+    "u06-thoi-gian-va-ngay-thang.yaml:163: [sentence_unlearned_word] Câu s-hsk1-u06-016 (bài hsk1-u06-l05) dùng từ chưa học: 五分, 八点",
+    "u06-thoi-gian-va-ngay-thang.yaml:167: [sentence_unlearned_word] Câu s-hsk1-u06-017 (bài hsk1-u06-l05) dùng từ chưa học: 一天, 二十四个"
+  ],
+  "han_viet_proposed": [
+    "昨"
+  ]
+}

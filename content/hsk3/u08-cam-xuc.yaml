@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u08.json.
+id: hsk3-u08
+stage: hsk3
+order: 8
+title: Cảm xúc
+description: Diễn tả vui buồn, lo sợ, ngạc nhiên và các cảm xúc mạnh.
+lessons:
+- id: hsk3-u08-l01
+  title: Vui vẻ và may mắn
+  grammar: hsk3-g031
+  new_words:
+  - 乐
+  - 欢乐
+  - 哈哈
+  - 乐观
+  - 幸运
+  - 美好
+  sentences:
+  - id: s-hsk3-u08-001
+    zh: 哈哈，太有意思了！
+    en: Haha, that's so interesting!
+    pinyin: hāhā, tài yǒu yìsi le!
+  - id: s-hsk3-u08-002
+    zh: 你们很幸运。
+    en: You're in luck.
+    pinyin: nǐ men hěn xìng yùn
+    tatoeba_id: 10511245
+  - id: s-hsk3-u08-003
+    zh: 我不像你那么乐观。
+    en: I'm not as optimistic as you.
+    pinyin: wǒ bú xiàng nǐ nàme lèguān.
+  - id: s-hsk3-u08-004
+    zh: 多美好的家庭啊！
+    en: What a wonderful family.
+    pinyin: duō měi hǎo de jiā tíng a
+    tatoeba_id: 334124
+  tips:
+    乐观: '乐 có âm Hán Việt là lạc, 观 có âm Hán Việt là quan, nên 乐观 rất dễ nhớ vì giống từ ''lạc quan''
+      trong tiếng Việt. Lưu ý: 乐 đọc là lè khi mang nghĩa vui (快乐, 乐观, 欢乐), nhưng đọc là yuè trong 音乐
+      (âm nhạc). Biến điệu: 不像 đọc là bú xiàng vì 不 đứng trước thanh 4.'
+    幸运: '运 có âm Hán Việt là vận. yùn có nguyên âm ü: chu tròn môi như đọc ''u'' nhưng lưỡi đặt ở vị trí
+      ''i''. Lỗi hay gặp: ~~我是幸运~~ → 我很幸运. Trước tính từ phải dùng 很, không dùng 是.'
+    哈哈: 哈哈 đọc hāhā, cả hai đều là thanh 1, giữ cao và đều giọng. Âm h tiếng Trung phát ra từ cuống họng
+      nên nghe hơi khàn, gần như 'khờ' tiếng Việt, không nhẹ như h tiếng Việt. Chữ 哈 có bộ khẩu 口 vì đây
+      là tiếng phát ra từ miệng.
+- id: hsk3-u08-l02
+  title: Sợ hãi, căng thẳng và buồn
+  grammar: hsk3-g003
+  new_words:
+  - 害怕
+  - 紧张
+  - 不安
+  - 压力
+  - 敢
+  - 伤心
+  sentences:
+  - id: s-hsk3-u08-005
+    zh: 我很害怕。
+    en: I'm scared.
+    pinyin: wǒ hěn hài pà
+    tatoeba_id: 13194090
+  - id: s-hsk3-u08-006
+    zh: 你怎么敢笑我？
+    en: How dare you laugh at me!
+    pinyin: nǐ zěn me gǎn xiào wǒ
+    tatoeba_id: 1021017
+  - id: s-hsk3-u08-007
+    zh: 工作压力很大，我有点儿紧张。
+    en: The pressure at work is high; I'm a bit nervous.
+    pinyin: gōngzuò yālì hěn dà, wǒ yǒudiǎnr jǐnzhāng.
+  - id: s-hsk3-u08-008
+    zh: 我有时会感到伤心。
+    en: I feel sad sometimes.
+    pinyin: wǒ yǒu shí huì gǎn dào shāng xīn
+    tatoeba_id: 9409453
+  tips:
+    压力: 压 có âm Hán Việt là áp, 力 có âm Hán Việt là lực, nên 压力 chính là 'áp lực'. Người Việt hay nói
+      'nhiều áp lực' rồi dịch thành 很多压力. Cách nói tự nhiên hơn là 压力很大 (áp lực rất lớn).
+    紧张: 'jǐnzhāng: chữ đầu thanh 3 đứng trước thanh 1 nên chỉ đọc nửa thanh 3, hạ giọng thấp rồi dừng,
+      không vòng lên. zh là âm uốn lưỡi, không bật hơi, nghe gần ''tr'' của người miền Nam nhưng đầu lưỡi
+      cong lên hơn.'
+    害怕: '怕 có bộ tâm đứng 忄 ở bên trái. Rất nhiều chữ chỉ cảm xúc có bộ này, như 情, 怪. Giống tiếng Việt,
+      害怕 đặt tân ngữ ngay phía sau: 我害怕狗 (tôi sợ chó).'
+    伤心: 'Chú ý phân biệt hai âm trong shāngxīn: sh phải uốn lưỡi, còn x thì để lưỡi phẳng, áp sát răng
+      dưới. Cả hai chữ đều là thanh 1, đọc cao và đều.'
+- id: hsk3-u08-l03
+  title: Tò mò, lạ lùng và mức độ cảm xúc
+  grammar: hsk3-g049
+  new_words:
+  - 好奇
+  - 奇怪
+  - 极了
+  - 强烈
+  - 热烈
+  - 满足
+  sentences:
+  - id: s-hsk3-u08-009
+    zh: 我很好奇。
+    en: I'm curious.
+    pinyin: wǒ hěn hào qí
+    tatoeba_id: 335059
+  - id: s-hsk3-u08-010
+    zh: 他有时候很奇怪。
+    en: He's strange sometimes.
+    pinyin: tā yǒu shí hòu hěn qí guài
+    tatoeba_id: 2675101
+  - id: s-hsk3-u08-011
+    zh: 今天我高兴极了！
+    en: I'm extremely happy today!
+    pinyin: jīntiān wǒ gāoxìng jí le!
+  - id: s-hsk3-u08-012
+    zh: 我饿死了！
+    en: I'm starving!
+    pinyin: wǒ è sǐ le!
+  tips:
+    好奇: Trong 好奇, chữ 好 đọc là hào (thanh 4, nghĩa là 'thích'), không đọc là hǎo. 好 có âm Hán Việt là
+      háo, 奇 có âm Hán Việt là kỳ.
+    极了: '极了 đứng sau tính từ, và tự nó đã mang nghĩa ''cực kỳ''. Lỗi hay gặp: ~~很好极了~~ → 好极了. Không thêm
+      很 ở phía trước. 极 có âm Hán Việt là cực.'
+    热烈: '热 và 烈 đều có bộ hỏa 灬 (bốn chấm lửa) ở dưới, nên mang ý nóng bỏng, sôi nổi. Cụm hay gặp: 热烈欢迎
+      (nhiệt liệt chào mừng). r tiếng Trung không rung lưỡi như r tiếng Việt, mà cong lưỡi lên rồi phát
+      âm nhẹ.'
+    奇怪: 'qí: âm q bật hơi mạnh, giống ''ch'' tiếng Việt có kèm luồng hơi. Thử đặt tờ giấy trước miệng,
+      nếu giấy rung là đọc đúng. Chữ 怪 cũng có bộ tâm 忄, cho thấy nó liên quan tới cảm nhận trong lòng.'
+- id: hsk3-u08-l04
+  title: Tình cảm và nội tâm
+  grammar: hsk3-g075
+  new_words:
+  - 感情
+  - 感受
+  - 情感
+  - 内心
+  - 热爱
+  - 失去
+  sentences:
+  - id: s-hsk3-u08-013
+    zh: 我明白你的感受。
+    en: I understand how you feel.
+    pinyin: wǒ míng bái nǐ de gǎn shòu
+    tatoeba_id: 334576
+  - id: s-hsk3-u08-014
+    zh: 他真的很热爱音乐。
+    en: He really likes music a lot.
+    pinyin: tā zhēn de hěn rè ài yīn yuè
+    tatoeba_id: 1450399
+  - id: s-hsk3-u08-015
+    zh: 我们失去了它。
+    en: We lost it.
+    pinyin: wǒ men shī qù le tā
+    tatoeba_id: 4844980
+  - id: s-hsk3-u08-016
+    zh: 我一点儿也不害怕。
+    en: I'm not afraid at all.
+    pinyin: wǒ yìdiǎnr yě bú hàipà.
+  tips:
+    感情: '感情 và 情感 đều ghép từ hai chữ giống nhau, chỉ đổi thứ tự. 感情 thường nói về tình cảm giữa hai người:
+      他们感情很好. 情感 trang trọng hơn và nói chung về cảm xúc. 感 có âm Hán Việt là cảm, 情 có âm Hán Việt là
+      tình.'
+    内心: 内 có âm Hán Việt là nội, 心 có âm Hán Việt là tâm, nên 内心 là 'nội tâm'. nèi là thanh 4, đọc dứt
+      khoát từ cao xuống thấp.
+    热爱: '热爱 mạnh hơn 喜欢 và 爱: yêu tha thiết, đam mê. Từ này hay dùng cho công việc, cuộc sống, âm nhạc…
+      热 có âm Hán Việt là nhiệt.'
+    失去: '失去 thường dùng cho thứ quan trọng hoặc trừu tượng: 失去信心 (mất niềm tin), 失去朋友. Đồ vặt bị mất thì
+      người ta thường không dùng 失去. shī là thanh 1, sh uốn lưỡi.'
+- id: hsk3-u08-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

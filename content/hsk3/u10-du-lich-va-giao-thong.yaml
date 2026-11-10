@@ -1,0 +1,161 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u10.json.
+id: hsk3-u10
+stage: hsk3
+order: 10
+title: Du lịch và giao thông
+description: Đặt vé, đặt phòng, hỏi đường và kể về chuyến đi.
+lessons:
+- id: hsk3-u10-l01
+  title: Đặt vé, đặt phòng
+  grammar: hsk3-g056
+  new_words:
+  - 订
+  - 旅馆
+  - 旅行社
+  - 票价
+  - 取消
+  - 提前
+  sentences:
+  - id: s-hsk3-u10-001
+    zh: 我去旅行社订机票。
+    en: I'm going to the travel agency to book a plane ticket.
+    pinyin: Wǒ qù lǚxíngshè dìng jīpiào.
+  - id: s-hsk3-u10-002
+    zh: 他打算提前回国。
+    en: He intends to return to the country earlier.
+    pinyin: tā dǎ suàn tí qián huí guó
+    tatoeba_id: 6111616
+  - id: s-hsk3-u10-003
+    zh: 票价太贵了，我取消了这次旅行。
+    en: The fare was too expensive, so I cancelled this trip.
+    pinyin: Piàojià tài guì le, wǒ qǔxiāo le zhè cì lǚxíng.
+  - id: s-hsk3-u10-004
+    zh: 我在旅行社工作.
+    en: I work in a travel agency.
+    pinyin: wǒ zài lǚ xíng shè gōng zuò
+    tatoeba_id: 180706
+  tips:
+    订: '订 = bộ 讠 (lời nói) + 丁: đặt trước bằng lời hẹn. 订 có âm Hán Việt là đính. Hay dùng: 订票 (đặt vé),
+      订房间 (đặt phòng), 订饭店. Thanh 4 (dìng) đọc dứt khoát, đi xuống mạnh như dấu nặng kéo dài.'
+    提前: 'Lỗi hay gặp: nói theo tiếng Việt "đặt vé trước" thành ~~订票提前~~. Trong tiếng Trung 提前 phải đứng
+      TRƯỚC động từ: 提前订票, 提前一小时到.'
+    旅馆: '旅 (lǚ) có ü: tròn môi như đọc "u" nhưng lưỡi đặt như đọc "i". Sau l, n phải giữ hai chấm (lǚ)
+      để phân biệt với lǔ. 馆 có bộ 饣 (ăn): nơi ăn ở, như 饭馆, 旅馆.'
+    取消: '取消 (qǔxiāo): q đọc gần "ch" nhưng bật hơi mạnh, x đọc như "x" nhẹ, mặt lưỡi sát hàm trên. Sau
+      q, ü viết thành u nhưng vẫn đọc ü. 取 + 消 = lấy đi cho mất → huỷ.'
+- id: hsk3-u10-l02
+  title: Lên đường và đến nơi
+  new_words:
+  - 到达
+  - 赶到
+  - 前往
+  - 等待
+  - 行李
+  - 飞行
+  sentences:
+  - id: s-hsk3-u10-005
+    zh: 我们什么时候到达？
+    en: When do we arrive?
+    pinyin: wǒ men shén me shí hòu dào dá
+    tatoeba_id: 348117
+  - id: s-hsk3-u10-006
+    zh: 我在哪儿取行李？
+    en: Where do I get my luggage?
+    pinyin: wǒ zài nǎ ér qǔ xíng lǐ
+    tatoeba_id: 6559063
+  - id: s-hsk3-u10-007
+    zh: 我们必须等待。
+    en: We must wait.
+    pinyin: wǒ men bì xū děng dài
+    tatoeba_id: 2913002
+  - id: s-hsk3-u10-008
+    zh: 我们八点以前赶到了机场。
+    en: We hurried and got to the airport before eight.
+    pinyin: Wǒmen bā diǎn yǐqián gǎndào le jīchǎng.
+  tips:
+    行李: '行李 đọc xíngli, chữ 李 đọc thanh nhẹ, ngắn và nhẹ. 行 ở đây đọc xíng, không phải háng (银行). Lượng
+      từ là 件: 两件行李.'
+    到达: '到达 trang trọng hơn 到, hay gặp trong thông báo ở sân bay, nhà ga. Nói chuyện hằng ngày người ta
+      thường chỉ dùng 到: 我到了. 到 có âm Hán Việt là đáo, 达 có âm Hán Việt là đạt.'
+    赶到: '赶 = 走 (đi) + 干: đi gấp. 赶到 = vội vàng đến kịp. gǎn có thanh 3: xuống thấp rồi lên. Đọc trước
+      到 (thanh 4) thì chỉ cần hạ giọng thấp, không cần lên lại.'
+    等待: 'Nói thường ngày dùng 等: 等我一下. 等待 mang sắc thái viết, trang trọng, hay dùng một mình hoặc với
+      tân ngữ trừu tượng: 值得等待 (đáng chờ đợi). Đừng nói ~~等待我一下~~.'
+- id: hsk3-u10-l03
+  title: Đường sá và tốc độ
+  new_words:
+  - 高速
+  - 高速公路
+  - 快速
+  - 速度
+  - 铁路
+  - 路线
+  sentences:
+  - id: s-hsk3-u10-009
+    zh: 他开车速度非常快。
+    en: He drives very fast.
+    pinyin: tā kāi chē sù dù fēi cháng kuài
+    tatoeba_id: 826306
+  - id: s-hsk3-u10-010
+    zh: 我很喜欢在新的高速公路上开车。
+    en: I enjoyed driving on the new highway.
+    pinyin: wǒ hěn xǐ huān zài xīn de gāo sù gōng lù shàng kāi chē
+    tatoeba_id: 885524
+  - id: s-hsk3-u10-011
+    zh: 我爸爸在铁路工作。
+    en: My dad works on the railways.
+    pinyin: wǒ bà bà zài tiě lù gōng zuò
+    tatoeba_id: 13258726
+  - id: s-hsk3-u10-012
+    zh: 这条路线最快。
+    en: This route is the fastest.
+    pinyin: Zhè tiáo lùxiàn zuì kuài.
+  tips:
+    速度: 速 có âm Hán Việt là tốc, 度 có âm Hán Việt là độ, nên 速度 chính là "tốc độ". Chữ 速 có bộ 辶 (đi lại),
+      giống 达 và 这, nên dễ nhớ là chữ liên quan đến di chuyển.
+    铁路: '铁 có bộ 钅 (kim loại), 铁 có âm Hán Việt là thiết, 路 có âm Hán Việt là lộ. 铁路 nghĩa là đường sắt.
+      Lượng từ: 一条铁路.'
+    路线: '线 có bộ 纟 (sợi tơ): con đường kéo dài như một sợi chỉ. 路线 nghĩa là lộ trình, tuyến đường: 旅游路线
+      (lộ trình du lịch). Lượng từ dùng 条: 这条路线.'
+    高速公路: 'Người Trung Quốc hay gọi tắt 高速公路 là 高速: 走高速 (đi đường cao tốc). Còn 快速 là tính từ "nhanh",
+      đứng trước động từ hoặc danh từ: 快速到达 (đến nơi nhanh chóng).'
+- id: hsk3-u10-l04
+  title: Tham quan và hỏi đường
+  grammar: hsk3-g050
+  new_words:
+  - 长城
+  - 景色
+  - 桥
+  - 游
+  - 访问
+  - 转
+  sentences:
+  - id: s-hsk3-u10-013
+    zh: 从这儿看景色很美。
+    en: It is a nice view from here.
+    pinyin: cóng zhè ér kàn jǐng sè hěn měi
+    tatoeba_id: 1446976
+  - id: s-hsk3-u10-014
+    zh: 我去过两次长城。
+    en: I've been to the Great Wall twice.
+    pinyin: Wǒ qùguo liǎng cì Chángchéng.
+  - id: s-hsk3-u10-015
+    zh: 过了桥往左转。
+    en: Turn left after crossing the bridge.
+    pinyin: Guò le qiáo wǎng zuǒ zhuǎn.
+  - id: s-hsk3-u10-016
+    zh: 他明年要访问中国。
+    en: He is going to visit China next year.
+    pinyin: Tā míngnián yào fǎngwèn Zhōngguó.
+  tips:
+    长城: '长 ở đây đọc cháng (dài), khác với zhǎng trong 长大. ch là âm uốn lưỡi bật hơi: cong đầu lưỡi lên,
+      đẩy hơi mạnh, không đọc như "ch" tiếng Việt.'
+    景色: '景 có âm Hán Việt là cảnh, 色 có âm Hán Việt là sắc, nên 景色 chính là "cảnh sắc" (phong cảnh). 景
+      = 日 (mặt trời) + 京: cảnh vật dưới ánh mặt trời.'
+    桥: '桥 có bộ 木 (gỗ) vì ngày xưa cầu làm bằng gỗ. q đọc bật hơi mạnh, gần "ch" tiếng Việt. Lượng từ:
+      一座桥.'
+    访问: '访问 dùng cho chuyến thăm chính thức (thăm một nước, một trường) hoặc truy cập trang web. Thăm
+      bạn bè, người thân thì thường dùng 去看 hơn: 去看朋友.'
+- id: hsk3-u10-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

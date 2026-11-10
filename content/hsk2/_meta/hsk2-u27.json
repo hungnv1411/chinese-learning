@@ -1,0 +1,48 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T07:56:14",
+  "prompt_sha256": [
+    "d13275da7d2ec08a4679ad9415559f555f9bfc69dc7794c6367d69bd8d9d9002",
+    "7ffe32078f767f594b80b842cabd6a1d7f571d734c6f0ce777c43c014c66c779"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u27-l02",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo của 角度 nói 角 có âm Hán Việt là \"góc\". Âm Hán Việt của 角 là \"giác\". \"Góc\" là từ thuần Việt có nguồn gốc từ chữ này.",
+      "suggestion": "Sửa thành: 角 (giác) nghĩa là \"góc\", nên 角度 là \"góc độ\"."
+    },
+    {
+      "where": "hsk2-u27-l03",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo của 比如说 dài khoảng 5 câu, vượt giới hạn 3–4 câu.",
+      "suggestion": "Gộp lại: \"比如, 比如说, 例如 đều là 'ví dụ như' và đứng trước ví dụ. 比如说 hay dùng khi nói, 例如 hay gặp trong văn viết. Muốn nói 'cho tôi một ví dụ' thì dùng 例子, không nói 给我一个比如.\""
+    },
+    {
+      "where": "hsk2-u27-l04",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo của 自由 so âm z với \"ch\" tiếng Việt. Dễ gây nhầm với zh/ch, là âm uốn lưỡi đã nhắc ở 好处 và 接受. Z là âm đầu lưỡi sau răng, không bật hơi.",
+      "suggestion": "Sửa thành: \"z là âm đầu lưỡi chạm sau răng cửa, không bật hơi, nghe như 'tz' ngắn; không uốn lưỡi như zh.\""
+    },
+    {
+      "where": "s-hsk2-u27-008",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch thêm \"she\" cho 老师, trong khi câu tiếng Trung không nói giới tính.",
+      "suggestion": "Dịch: \"The teacher said they were very satisfied.\" Hoặc: \"The teacher expressed great satisfaction.\""
+    }
+  ],
+  "machine_warnings": [
+    "u27-y-kien-va-quan-diem.yaml:72: [sentence_unlearned_word] Câu s-hsk2-u27-007 (bài hsk2-u27-l02) dùng từ chưa học: 这个, 角度看, 说得对",
+    "u27-y-kien-va-quan-diem.yaml:111: [sentence_unlearned_word] Câu s-hsk2-u27-011 (bài hsk2-u27-l03) dùng từ chưa học: 打篮球"
+  ],
+  "han_viet_proposed": []
+}

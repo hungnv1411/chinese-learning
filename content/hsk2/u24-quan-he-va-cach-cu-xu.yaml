@@ -1,0 +1,175 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u24.json.
+id: hsk2-u24
+stage: hsk2
+order: 24
+title: Quan hệ và cách cư xử
+description: Người học có thể nhờ giúp đỡ, mời khách, tặng quà và nhận xét thái độ, tính cách của người
+  khác.
+lessons:
+- id: hsk2-u24-l01
+  title: Nhờ giúp đỡ và đưa ra yêu cầu
+  grammar: hsk2-g076
+  new_words:
+  - 帮助
+  - 求
+  - 请求
+  - 要求
+  - 答应
+  - 让
+  sentences:
+  - id: s-hsk2-u24-001
+    zh: 请帮助我。
+    en: Please help me.
+    pinyin: qǐng bāng zhù wǒ
+    tatoeba_id: 804501
+  - id: s-hsk2-u24-002
+    zh: 他要求我帮助他。
+    en: He asked me to help him.
+    pinyin: tā yāo qiú wǒ bāng zhù tā
+    tatoeba_id: 839615
+  - id: s-hsk2-u24-003
+    zh: 我答应了。
+    en: I promised.
+    pinyin: wǒ dāying le
+    tatoeba_id: 10194942
+  - id: s-hsk2-u24-004
+    zh: 让我来帮你吧。
+    en: Let me help you.
+    pinyin: ràng wǒ lái bāng nǐ ba
+    tatoeba_id: 349735
+  tips:
+    帮助: '助 có âm Hán Việt là trợ. 助 có bộ lực (力): giúp người thì phải bỏ sức. Lỗi hay gặp: ~~帮忙我~~ →
+      帮我 / 帮助我. 帮忙 không mang tân ngữ trực tiếp, phải nói 帮我的忙.'
+    要求: Trong 要求, 要 đọc thanh 1 (yāo), không đọc yào như khi nghĩa là “muốn”. 要 có âm Hán Việt là yếu,
+      求 có âm Hán Việt là cầu.
+    求: q trong qiú bật hơi mạnh, giống “ch” của tiếng Việt nhưng đặt lưỡi phẳng sau răng dưới và cười
+      nhẹ miệng. Đừng đọc thành “kiu”.
+    让: 'r đọc uốn lưỡi lên gần vòm miệng, không rung lưỡi, không đọc thành “d” hay “z”. Cấu trúc 让 + người
+      + động từ = để/bảo ai làm gì: 让我走 (để tôi đi), 这让我开心 (cái này làm tôi vui).'
+    答应: 答应 đọc dāying, chữ 应 đọc thanh nhẹ. 答 có bộ trúc (⺮) ở trên. 答应 là “nhận lời, hứa”, còn 回答 là
+      “trả lời câu hỏi”; đừng nhầm hai từ này.
+- id: hsk2-u24-l02
+  title: Chủ nhà, khách và mời ăn
+  grammar: hsk2-g026
+  new_words:
+  - 客人
+  - 主人
+  - 请客
+  - 热情
+  - 友好
+  - 态度
+  sentences:
+  - id: s-hsk2-u24-005
+    zh: 你有客人。
+    en: You have a visitor.
+    pinyin: nǐ yǒu kè rén
+    tatoeba_id: 10552170
+  - id: s-hsk2-u24-006
+    zh: 晚饭我请客。
+    en: I'll treat you to dinner.
+    pinyin: wǎn fàn wǒ qǐng kè
+    tatoeba_id: 8742132
+  - id: s-hsk2-u24-007
+    zh: 主人很热情，也很友好。
+    en: The host is very warm and also very friendly.
+    pinyin: Zhǔrén hěn rèqíng, yě hěn yǒuhǎo.
+  - id: s-hsk2-u24-008
+    zh: 他的态度不好。
+    en: His attitude is not good.
+    pinyin: Tā de tàidù bù hǎo.
+  tips:
+    客人: '客 có âm Hán Việt là khách. Chữ 客 có bộ miên (宀, mái nhà) ở trên: người tới dưới mái nhà mình
+      là khách. Ngược lại, người chủ nhà là 主人.'
+    请客: '请客 thường mang nghĩa “mời (ăn uống) và trả tiền”, tức là “bao”: 今天我请客 = Hôm nay tôi bao. Không
+      dùng 请客 kèm tân ngữ: ~~我请客你~~ → 我请你吃饭.'
+    热情: 热 có âm Hán Việt là nhiệt, 情 có âm Hán Việt là tình. 热 có bốn chấm lửa (灬) ở dưới, nghĩa là nóng.
+      Là tính từ nên nói 他很热情, đừng nói ~~他是热情~~.
+    友好: '友好 là hai thanh 3 đi liền nhau nên chữ đầu đổi sang thanh 2: đọc yóuhǎo. Tính từ đi với 很, không
+      dùng 是: ~~他是友好~~ → 他很友好.'
+    态度: '态 có âm Hán Việt là thái, 度 có âm Hán Việt là độ. 态 có bộ tâm (心) ở dưới: thái độ xuất phát từ
+      trong lòng.'
+- id: hsk2-u24-l03
+  title: Tặng quà, người tốt và người xấu
+  grammar: hsk2-g061
+  new_words:
+  - 礼物
+  - 送给
+  - 好人
+  - 好事
+  - 坏人
+  - 特点
+  sentences:
+  - id: s-hsk2-u24-009
+    zh: 谢谢你的礼物！
+    en: Thank you for your present.
+    pinyin: xiè xiè nǐ de lǐ wù
+    tatoeba_id: 348019
+  - id: s-hsk2-u24-010
+    zh: 这是给你的礼物。
+    en: This is a present for you.
+    pinyin: zhè shì gěi nǐ de lǐ wù
+    tatoeba_id: 871163
+  - id: s-hsk2-u24-011
+    zh: 我没有送给他。
+    en: I didn't give it to him.
+    pinyin: wǒ méi yǒu sòng gěi tā
+    tatoeba_id: 1862309
+  - id: s-hsk2-u24-012
+    zh: 他是个好人。
+    en: He's a good guy.
+    pinyin: tā shì gè hǎo rén
+    tatoeba_id: 363983
+  tips:
+    礼物: '礼 có âm Hán Việt là lễ, 物 có âm Hán Việt là vật. 礼 có bộ thị (礻), thường gặp ở chữ liên quan
+      đến lễ nghi. Lượng từ của 礼物 là 件 hoặc 份: 一件礼物, 一份礼物.'
+    送给: '送给 + người + vật: 我送给她一个礼物. Người nhận đứng ngay sau 送给, món quà đứng cuối, giống tiếng Việt
+      “tặng cho cô ấy một món quà”.'
+    坏人: 坏 gồm bộ thổ (土) và chữ 不. Đất mà “không” tốt thì hỏng, nên 坏 là xấu, hỏng. huài có âm “uai”,
+      đọc liền như “hoai” trong tiếng Việt.
+    好人: '好 ở đây đọc hǎo, thanh 3. Thanh 3 của tiếng Trung không giống dấu hỏi: khi đứng trước chữ khác
+      thì chỉ đọc nửa đầu (xuống thấp, không lên lại). Vì vậy hǎorén, hǎoshì nghe như “hảo” thấp và ngắn.'
+    特点: '特 có âm Hán Việt là đặc, 点 có âm Hán Việt là điểm. 特点 là danh từ: 他的特点是很热情 (Điểm đặc trưng của
+      anh ấy là rất nhiệt tình).'
+- id: hsk2-u24-l04
+  title: Hành động, cư xử và tình cờ gặp
+  grammar: hsk2-g018
+  new_words:
+  - 故意
+  - 行为
+  - 行动
+  - 受到
+  - 碰到
+  - 碰见
+  sentences:
+  - id: s-hsk2-u24-013
+    zh: 他不是故意的。
+    en: He didn't do it on purpose.
+    pinyin: Tā bú shì gùyì de.
+  - id: s-hsk2-u24-014
+    zh: 你碰见过她了吗？
+    en: Did you meet her?
+    pinyin: nǐ pèng jiàn guò tā le ma
+    tatoeba_id: 713107
+  - id: s-hsk2-u24-015
+    zh: 我在车站碰到他。
+    en: I bumped into him at the station.
+    pinyin: wǒ zài chē zhàn pèng dào tā
+    tatoeba_id: 881741
+  - id: s-hsk2-u24-016
+    zh: 你得行动了。
+    en: You have to move.
+    pinyin: nǐ děi xíngdòng le
+    tatoeba_id: 6534784
+  tips:
+    故意: '故 có âm Hán Việt là cố, 意 có âm Hán Việt là ý. Câu xin lỗi hay dùng: 我不是故意的. 不 đứng trước 是 (thanh
+      4) đổi thành thanh 2: bú shì.'
+    碰见: '碰 có bộ thạch (石, đá): va vào đá. 碰见 / 碰到 là tình cờ gặp, không hẹn trước. Đã hẹn trước thì dùng
+      见面: 我们明天见面.'
+    受到: 'sh đọc uốn lưỡi (đầu lưỡi cong lên chạm gần vòm miệng), giống chữ “s” khi đọc phân biệt rõ “s”
+      với “x”. 受 có âm Hán Việt là thụ. 受到 đi với danh từ như 帮助, 欢迎: 他受到大家的欢迎 (anh ấy được mọi người
+      hoan nghênh).'
+    行为: 'Trong 行为 và 行动, 行 đọc xíng, 为 đọc wéi (thanh 2). 行为 là “cách cư xử”, chỉ dùng làm danh từ. 行动
+      vừa là danh từ vừa là động từ “hành động”: 你得行动了 (得 ở đây đọc děi, nghĩa là “phải”).'
+- id: hsk2-u24-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

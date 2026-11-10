@@ -1,0 +1,168 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u15.json.
+id: hsk3-u15
+stage: hsk3
+order: 15
+title: Giao tiếp và quan hệ
+description: Chào hỏi, tiếp khách, trò chuyện và giữ gìn các mối quan hệ.
+lessons:
+- id: hsk3-u15-l01
+  title: Đón khách và chào hỏi
+  new_words:
+  - 迎接
+  - 接待
+  - 做客
+  - 握手
+  - 认出
+  - 认得
+  sentences:
+  - id: s-hsk3-u15-001
+    zh: 欢迎你来我家做客！
+    en: Welcome to visit my home!
+    pinyin: Huānyíng nǐ lái wǒ jiā zuòkè!
+  - id: s-hsk3-u15-002
+    zh: 让我们握手吧。
+    en: Let's shake hands.
+    pinyin: ràng wǒ men wò shǒu ba
+    tatoeba_id: 6105188
+  - id: s-hsk3-u15-003
+    zh: 我马上就认出了他。
+    en: I recognized him instantly.
+    pinyin: wǒ mǎ shàng jiù rèn chū le tā
+    tatoeba_id: 1565718
+  - id: s-hsk3-u15-004
+    zh: 不好意思，我没认出你来。
+    en: I'm sorry, I didn't recognize you.
+    pinyin: bù hǎo yì sī wǒ méi rèn chū nǐ lái
+    tatoeba_id: 13667909
+  tips:
+    握手: 'Chữ 握 có bộ 扌 (tay) bên trái, nên nghĩa liên quan đến bàn tay: nắm. 手 có âm Hán Việt là thủ.
+      Đọc wòshǒu: shǒu là âm uốn lưỡi, đừng đọc thành "sẩu" như chữ s tiếng Việt; thanh 3 xuống thấp rồi
+      mới lên, không giống hẳn dấu hỏi.'
+    认出: '认出 là "nhận ra" trong một khoảnh khắc: 我没认出你 (tôi không nhận ra bạn). 认得 là "biết mặt, nhận biết
+      được", chỉ trạng thái lâu dài: 我认得他. Trong 认得, chữ 得 đọc nhẹ thành de, không đọc dé.'
+    迎接: '迎 có âm Hán Việt là nghênh, 接 có âm Hán Việt là tiếp. Bộ sước 辶 trong 迎 chỉ việc đi lại: 迎接 là
+      ra tận nơi đón (ra sân bay đón khách). 接待 (待 có âm Hán Việt là đãi) là tiếp đãi, lo cho khách sau
+      khi khách đã tới.'
+    做客: '做客 nghĩa là "làm khách, đến chơi nhà": 来我家做客. Người Việt hay nói nhầm thành ~~做客人~~. 客人 là danh
+      từ "khách", còn 做客 là cả một cụm động từ nên phía sau không cần thêm 人.'
+- id: hsk3-u15-l02
+  title: Trò chuyện và trao đổi
+  grammar: hsk3-g024
+  new_words:
+  - 谈
+  - 谈话
+  - 话题
+  - 交流
+  - 表达
+  - 对方
+  sentences:
+  - id: s-hsk3-u15-005
+    zh: 你想表达什么？
+    en: What do you mean?
+    pinyin: nǐ xiǎng biǎo dá shén me
+    tatoeba_id: 9958205
+  - id: s-hsk3-u15-006
+    zh: 我想向对方表达感谢。
+    en: I want to express my thanks to the other person.
+    pinyin: Wǒ xiǎng xiàng duìfāng biǎodá gǎnxiè.
+  - id: s-hsk3-u15-007
+    zh: 校长想跟你谈话。
+    en: The principal wants to talk to you.
+    pinyin: xiào zhǎng xiǎng gēn nǐ tán huà
+    tatoeba_id: 5555771
+  - id: s-hsk3-u15-008
+    zh: 10分钟后，他们换了个新话题。
+    en: After ten minutes, they passed on to a new topic.
+    pinyin: Shí fēnzhōng hòu, tāmen huànle gè xīn huàtí.
+  tips:
+    谈: 谈 có âm Hán Việt là đàm, 话 có âm Hán Việt là thoại; 谈话 ghép từ hai chữ này, nghĩa là nói chuyện,
+      trò chuyện. Chữ 谈 có bộ ngôn 讠 (lời nói) ghép với 炎. Đọc tán thanh 2, giọng đi lên giống dấu sắc.
+    话题: '话题 là chủ đề của câu chuyện. Các cách nói hay gặp: 换话题 (đổi chủ đề), 新话题 (chủ đề mới). Chữ 题
+      có bộ hiệt 页 bên phải, cũng là chữ 题 trong 问题 mà bạn đã học.'
+    表达: '表 có âm Hán Việt là biểu, 达 có âm Hán Việt là đạt. 表达 nghĩa là diễn đạt, bày tỏ. Đọc biǎodá:
+      thanh 3 đứng trước thanh 2 thì chỉ cần hạ giọng thấp rồi chuyển ngay lên. Lưu ý 我想 đọc liền thành
+      wó xiǎng (biến điệu 3+3).'
+    交流: 交 có âm Hán Việt là giao, 流 có âm Hán Việt là lưu. 交流 không chỉ là gặp gỡ cho vui mà còn là trao
+      đổi, giao tiếp, ví dụ 用汉语交流 (giao tiếp bằng tiếng Trung). Chữ liú có vần iu, đọc gần như "liêu".
+- id: hsk3-u15-l03
+  title: Các mối quan hệ
+  grammar: hsk3-g017
+  new_words:
+  - 关系
+  - 交往
+  - 互相
+  - 相互
+  - 信任
+  - 亲自
+  sentences:
+  - id: s-hsk3-u15-009
+    zh: 我们互相帮忙。
+    en: We help each other out.
+    pinyin: wǒ men hù xiāng bāng máng
+    tatoeba_id: 4962230
+  - id: s-hsk3-u15-010
+    zh: 他亲自来了。
+    en: He came in person.
+    pinyin: tā qīn zì lái le
+    tatoeba_id: 411705
+  - id: s-hsk3-u15-011
+    zh: 我信任你。
+    en: I trust you.
+    pinyin: wǒ xìn rèn nǐ
+    tatoeba_id: 1878344
+  - id: s-hsk3-u15-012
+    zh: 我和朋友关系很好。
+    en: I have a good relationship with my friends.
+    pinyin: wǒ hé péng yǒu guān xì hěn hǎo
+    tatoeba_id: 13519456
+  tips:
+    互相: '互相 và 相互 đều có nghĩa "lẫn nhau" và đứng TRƯỚC động từ: 互相帮忙. Đừng đặt sau động từ như tiếng
+      Việt: ~~帮忙互相~~. Riêng 相互 còn đứng được trước 的: 相互的 (mang tính hai chiều).'
+    信任: '信 có âm Hán Việt là tín, 任 có âm Hán Việt là nhậm. Cả hai chữ đều có bộ nhân 亻 (người). Chữ rèn:
+      âm r đọc bằng cách uốn lưỡi, gần giống "r" nhẹ của giọng miền Nam, không rung lưỡi.'
+    关系: 'Bạn đã học 没关系 (không sao). Khi đứng riêng, 关系 nghĩa là "quan hệ, liên quan": 我们关系很好 (chúng tôi
+      rất thân), 跟你没有关系 (không liên quan đến bạn). Nhớ dùng 很 trước tính từ, không dùng 是: ~~关系是好~~.'
+    交往: '交往 nghĩa là qua lại, giao du với ai. Người được nhắc tới phải đứng sau 和/跟, đặt trước 交往: 跟他交往.
+      Không nói ~~交往他~~. Đọc jiāowǎng: chữ 往 mang thanh 3.'
+- id: hsk3-u15-l04
+  title: Cãi nhau và chia tay
+  grammar: hsk3-g081
+  new_words:
+  - 吵
+  - 吵架
+  - 对待
+  - 双方
+  - 分别
+  - 告别
+  sentences:
+  - id: s-hsk3-u15-013
+    zh: 他们吵架了。
+    en: They quarreled.
+    pinyin: tā men chǎo jià le
+    tatoeba_id: 380181
+  - id: s-hsk3-u15-014
+    zh: 别吵了！吵什么啊？
+    en: Stop it! What's there to argue about?
+    pinyin: Bié chǎo le! Chǎo shénme a?
+  - id: s-hsk3-u15-015
+    zh: 为什么他要这么对待你？
+    en: Why did he treat you like that?
+    pinyin: wèi shén me tā yào zhè me duì dài nǐ
+    tatoeba_id: 9989865
+  - id: s-hsk3-u15-016
+    zh: 他向学生们告别了。
+    en: He bade farewell to the students.
+    pinyin: tā xiàng xué shēng men gào bié le
+    tatoeba_id: 8775791
+  tips:
+    吵: '吵 gồm bộ khẩu 口 và chữ 少: cái miệng làm ầm lên. Chữ chǎo đọc với ch uốn lưỡi, bật hơi mạnh. 吵
+      cũng là tính từ "ồn ào": 这儿很吵. Đừng nói ~~这儿是吵~~.'
+    吵架: '吵架 là từ ly hợp, có thể tách ra: 吵了一架 (cãi nhau một trận). Người mình cãi với phải đặt trước,
+      sau 跟/和: 跟他吵架. Không nói ~~吵架他~~.'
+    告别: '告别 có thể mang tân ngữ hoặc đi với 向/跟: 向朋友告别 (chào tạm biệt bạn). 分别 là "chia tay, xa nhau",
+      thường không mang tân ngữ chỉ người: 我们分别了. Chữ 告 có bộ khẩu 口 ở dưới: dùng miệng nói lời từ biệt.'
+    双方: 双 có âm Hán Việt là song, gồm hai chữ 又 đứng cạnh nhau nên dễ nhớ nghĩa "đôi, hai". 双方 là cả hai
+      bên. 对方 là bên kia, người kia (phía đối diện mình). Hai từ này khác nghĩa, đừng dùng lẫn.
+- id: hsk3-u15-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

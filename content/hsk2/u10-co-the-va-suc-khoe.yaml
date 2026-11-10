@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u10.json.
+id: hsk2-u10
+stage: hsk2
+order: 10
+title: Cơ thể và sức khỏe
+description: Người học có thể gọi tên các bộ phận cơ thể, nói chỗ đau, đi khám bệnh và mua thuốc.
+lessons:
+- id: hsk2-u10-l01
+  title: Đầu và khuôn mặt
+  new_words:
+  - 头
+  - 头发
+  - 脸
+  - 眼
+  - 眼睛
+  - 嘴
+  - 点头
+  sentences:
+  - id: s-hsk2-u10-001
+    zh: 她的头发很短。
+    en: Her hair is very short.
+    pinyin: tā de tóu fà hěn duǎn
+    tatoeba_id: 687036
+  - id: s-hsk2-u10-002
+    zh: 洗你的脸和手。
+    en: Wash your face and hands.
+    pinyin: xǐ nǐ de liǎn hé shǒu
+    tatoeba_id: 836228
+  - id: s-hsk2-u10-003
+    zh: 你的眼睛真漂亮。
+    en: You have beautiful eyes.
+    pinyin: nǐ de yǎn jīng zhēn piào liàng
+    tatoeba_id: 3671251
+  - id: s-hsk2-u10-004
+    zh: 他笑着点头。
+    en: He nodded with a smile.
+    pinyin: Tā xiàozhe diǎntóu.
+  tips:
+    头发: '头 có âm Hán Việt là đầu, đọc tóu (thanh 2). Trong 头发, chữ 发 đọc nhẹ thành thanh nhẹ: tóufa. Đừng
+      nhầm 头 (cái đầu) với 头发 (tóc): 我头疼 là đau đầu, còn 头发 mới là tóc.'
+    脸: 'Mẹo nhớ chữ: bộ nhục ⺼ (trông giống 月) ở bên trái thường chỉ bộ phận cơ thể. Trong bài này và
+      bài sau có 脸, 脚, 腿, 背 đều chứa bộ nhục. Gặp chữ có bộ này thì đoán ngay là chữ về cơ thể.'
+    眼睛: '睛 gồm bộ mục 目 (mắt) + 青 (qīng) gợi âm đọc jing. Trong 眼睛, chữ 睛 đọc thanh nhẹ: yǎnjing. 眼 có
+      âm Hán Việt là nhãn. Khi nói đôi mắt hằng ngày, người Trung dùng 眼睛 nhiều hơn 眼 đứng một mình.'
+    嘴: '嘴 zuǐ: z không đọc như d/gi tiếng Việt mà là âm ''ts'' không bật hơi, đầu lưỡi chạm sau răng trên.
+      Vần uǐ thực chất là u-ei, đọc ''zuây'' nhanh, thanh 3. Chữ có bộ khẩu 口 bên trái, gợi nghĩa ''miệng''.'
+    点头: '点 có âm Hán Việt là điểm, 头 có âm Hán Việt là đầu. 点头 nghĩa là gật đầu. Có thể tách ra: 点了点头
+      (gật gật đầu). Thanh 3 + thanh 2 nên không có biến điệu: diǎntóu.'
+- id: hsk2-u10-l02
+  title: Cơ thể và chỗ đau
+  grammar: hsk2-g079
+  new_words:
+  - 背
+  - 脚
+  - 腿
+  - 全身
+  - 疼
+  - 舒服
+  - 难受
+  sentences:
+  - id: s-hsk2-u10-005
+    zh: 你哪儿不舒服？
+    en: Where do you feel uncomfortable?
+    pinyin: nǐ nǎ ér bù shū fú
+    tatoeba_id: 1216115
+  - id: s-hsk2-u10-006
+    zh: 她全身都疼。
+    en: She was aching all over.
+    pinyin: tā quán shēn dōu téng
+    tatoeba_id: 8765254
+  - id: s-hsk2-u10-007
+    zh: 我生病了，很难受！
+    en: I'm sick, and it's miserable!
+    pinyin: wǒ shēng bìng le hěn nán shòu
+    tatoeba_id: 2298641
+  - id: s-hsk2-u10-008
+    zh: 你是不是腿疼？
+    en: Do your legs hurt?
+    pinyin: Nǐ shì bu shì tuǐ téng?
+  tips:
+    疼: '疼 có bộ nạch 疒 (bộ chỉ bệnh tật) bao bên ngoài. Muốn nói đau ở đâu thì đặt bộ phận lên trước:
+      我头疼, 我腿疼. Người Việt hay nói theo thứ tự ''đau đầu'' thành ~~我疼头~~ → nói đúng là 我头疼.'
+    腿: 'Tiếng Việt chỉ có một từ ''chân'', còn tiếng Trung tách ra hai từ: 腿 tuǐ là phần từ hông xuống
+      mắt cá (đùi, cẳng chân), còn 脚 jiǎo là bàn chân. Đau đầu gối thì nói 腿疼, còn giày chật đau bàn chân
+      thì nói 脚疼.'
+    舒服: '服 đọc thanh nhẹ: shūfu. sh là âm uốn lưỡi, khác s tiếng Việt. 不舒服 nghĩa là ''khó chịu, không
+      khỏe''. 不 đứng trước thanh 1 nên giữ nguyên thanh 4: bù shūfu. Đừng nói ~~我是不舒服~~ mà nói 我不舒服.'
+    难受: '难 có âm Hán Việt là nan, 受 có âm Hán Việt là thụ. 难受 là tính từ nên đi với 很, không dùng 是: ~~我是难受~~
+      → 我很难受. Từ này dùng được cho cả cơ thể khó chịu lẫn trong lòng buồn bực.'
+    全身: '全 có âm Hán Việt là toàn, 身 có âm Hán Việt là thân. 全身 thường đi với 都 phía sau: 全身都疼 (đau khắp
+      người). Đừng quên 都, câu sẽ tự nhiên hơn.'
+    背: '背 bèi: trên là 北, dưới là bộ nhục ⺼. 背 có âm Hán Việt là bối. Ngoài nghĩa ''cái lưng'', 背 còn
+      là động từ ''học thuộc lòng'' (背课文). Chú ý ei đọc như ''ây'': bèi.'
+- id: hsk2-u10-l03
+  title: Đi khám bệnh và nằm viện
+  new_words:
+  - 检查
+  - 住院
+  - 出院
+  - 院长
+  - 西医
+  - 中医
+  sentences:
+  - id: s-hsk2-u10-009
+    zh: 医生检查了病人。
+    en: The doctor examined the patients.
+    pinyin: yī shēng jiǎn chá le bìng rén
+    tatoeba_id: 845457
+  - id: s-hsk2-u10-010
+    zh: 他住院一个星期了，明天出院。
+    en: He has been in hospital for a week and will be discharged tomorrow.
+    pinyin: Tā zhùyuàn yí ge xīngqī le, míngtiān chūyuàn.
+  - id: s-hsk2-u10-011
+    zh: 你看中医还是西医？
+    en: Do you see a traditional Chinese doctor or a Western doctor?
+    pinyin: Nǐ kàn zhōngyī háishi xīyī?
+  - id: s-hsk2-u10-012
+    zh: 院长是一位老医生。
+    en: The hospital director is an old doctor.
+    pinyin: Yuànzhǎng shì yí wèi lǎo yīshēng.
+  tips:
+    住院: 住 có âm Hán Việt là trú, 院 có âm Hán Việt là viện. Tiếng Việt nói 'nhập viện' nhưng tiếng Trung
+      dùng 住院 (ở lại bệnh viện), không nói ~~进院~~. Ra viện thì dùng 出院 (出 có âm Hán Việt là xuất).
+    检查: '检查 jiǎnchá: j đọc gần ''ch'' tiếng Việt nhưng không bật hơi; ch (chá) là âm uốn lưỡi và bật hơi
+      mạnh. 查 có âm Hán Việt là tra. Dùng khi khám bệnh (检查身体) hoặc kiểm tra bài, đồ vật.'
+    院长: '长 ở đây đọc zhǎng (người đứng đầu), không đọc cháng (dài). 院长 là giám đốc bệnh viện hoặc viện
+      trưởng của học viện. Thanh 4 + thanh 3: yuànzhǎng.'
+    中医: '中 có âm Hán Việt là trung, 西 có âm Hán Việt là tây, 医 có âm Hán Việt là y. 中医 tương đương ''Đông
+      y'' của người Việt, 西医 là ''Tây y''. Cả hai từ vừa chỉ nền y học vừa chỉ người bác sĩ: 看中医 = đi
+      khám Đông y.'
+- id: hsk2-u10-l04
+  title: Mua thuốc
+  new_words:
+  - 药
+  - 药店
+  - 药片
+  - 药水
+  sentences:
+  - id: s-hsk2-u10-013
+    zh: 我吃了药。
+    en: I took the medicine.
+    pinyin: wǒ chī le yào
+    tatoeba_id: 759374
+  - id: s-hsk2-u10-014
+    zh: 医生给您开了药。
+    en: The doctor has prescribed you medicine.
+    pinyin: yī shēng gěi nín kāi le yào
+    tatoeba_id: 10349193
+  - id: s-hsk2-u10-015
+    zh: 药店在医院对面。
+    en: The pharmacy is across from the hospital.
+    pinyin: Yàodiàn zài yīyuàn duìmiàn.
+  - id: s-hsk2-u10-016
+    zh: 你要药片还是药水？
+    en: Do you want pills or liquid medicine?
+    pinyin: Nǐ yào yàopiàn háishi yàoshuǐ?
+  tips:
+    药: '药 có âm Hán Việt là dược. Chữ có bộ thảo 艹 ở trên vì thuốc xưa làm từ cây cỏ. Lỗi hay gặp: tiếng
+      Việt nói ''uống thuốc'' nhưng tiếng Trung nói 吃药 (ăn thuốc), kể cả với thuốc viên. Bác sĩ kê đơn
+      thì nói 开药.'
+    药水: '水 có âm Hán Việt là thuỷ. 药水 là thuốc dạng nước (siro, thuốc nhỏ mắt...). Với 药水 có thể dùng
+      喝, nhưng nói chung chung vẫn là 吃药. Hai thanh 4 + 3: yàoshuǐ.'
+    药店: 店 có âm Hán Việt là điếm, bộ nghiễm 广 (mái nhà) chỉ nơi buôn bán. Ghép 药 + 店 = hiệu thuốc, giống
+      书店 (hiệu sách), 饭店 (nhà hàng) đã học.
+    药片: '片 piàn là miếng mỏng, nên 药片 là viên thuốc dạng nén dẹt. 片 còn là lượng từ: 一片药 (một viên thuốc).
+      Hai thanh 4 liền nhau: yàopiàn, đọc dứt khoát, đừng kéo dài như dấu huyền.'
+- id: hsk2-u10-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

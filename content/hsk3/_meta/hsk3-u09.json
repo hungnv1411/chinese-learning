@@ -1,0 +1,64 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T08:41:12",
+  "prompt_sha256": [
+    "95e0af55073d11b868276a61a09618ace13306ba189dac0e1ad7aacb3cf402e2",
+    "8ad0e5a8b3718c897eb49083f64d3ca536d32f544269ec1704a4c33726513e38"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u09-008",
+      "category": "english",
+      "severity": "warning",
+      "problem": "面包 dịch là 'bun' (bánh bao nhỏ). Nghĩa đúng của 面包 là bread, và 包子 (bao) đã học riêng.",
+      "suggestion": "Sửa en thành 'The bread was half eaten.'"
+    },
+    {
+      "where": "s-hsk3-u09-017",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi 'chī bù xià qù', không khớp với tip (chī bu xiàqu) và s-hsk3-u09-018 (pá bu shàngqu). Trong bổ ngữ khả năng 不 đọc nhẹ, và 下去 là một từ.",
+      "suggestion": "Sửa thành 'Wǒ chī bu xiàqu le.'"
+    },
+    {
+      "where": "s-hsk3-u09-019",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi 'nà ér' tách âm tiết. 那儿 phải viết là 'nàr'. Câu này cũng thiếu viết hoa và dấu câu, không giống các câu khác trong bài.",
+      "suggestion": "Sửa thành 'Cóng nàr xiàlai!'. Nên chuẩn hóa cả pinyin các câu Tatoeba (s-003, 009, 011, 012, 016) về dạng ghép từ, viết hoa, có dấu câu."
+    },
+    {
+      "where": "hsk3-u09-l02",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip của 破 nói 'đá cào rách da' như thể đó là nguồn gốc chữ. Thực tế 皮 là thành phần chỉ âm, nên đây chỉ là mẹo nhớ tự bịa.",
+      "suggestion": "Ghi rõ đây là mẹo nhớ ('Mẹo nhớ: ...'), hoặc bỏ phần giải thích chiết tự."
+    },
+    {
+      "where": "hsk3-u09-l04",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tiêu đề 'từ ly hợp động–bổ' dùng sai thuật ngữ. 推开, 解开, 合上 là kết cấu động–bổ (bổ ngữ kết quả), không phải từ ly hợp (như 睡觉, 洗澡).",
+      "suggestion": "Đổi tiêu đề thành 'Mở, đóng, ấn: động từ + bổ ngữ kết quả'."
+    }
+  ],
+  "machine_warnings": [
+    "u09-dong-tac-hang-ngay.yaml:19: [sentence_unlearned_word] Câu s-hsk3-u09-001 (bài hsk3-u09-l01) dùng từ chưa học: 张纸",
+    "u09-dong-tac-hang-ngay.yaml:23: [sentence_unlearned_word] Câu s-hsk3-u09-002 (bài hsk3-u09-l01) dùng từ chưa học: 支笔",
+    "u09-dong-tac-hang-ngay.yaml:34: [sentence_pinyin_polyphone] Câu s-hsk3-u09-004: pinyin ghi 'Zhàopiàn shì tā pāi de.', pypinyin cho 'zhào piān shì tā pāi de' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u09-dong-tac-hang-ngay.yaml:57: [sentence_unlearned_word] Câu s-hsk3-u09-005 (bài hsk3-u09-l02) dùng từ chưa học: 压破",
+    "u09-dong-tac-hang-ngay.yaml:61: [sentence_unlearned_word] Câu s-hsk3-u09-006 (bài hsk3-u09-l02) dùng từ chưa học: 风吹",
+    "u09-dong-tac-hang-ngay.yaml:65: [sentence_unlearned_word] Câu s-hsk3-u09-007 (bài hsk3-u09-l02) dùng từ chưa học: 补好",
+    "u09-dong-tac-hang-ngay.yaml:99: [sentence_unlearned_word] Câu s-hsk3-u09-010 (bài hsk3-u09-l03) dùng từ chưa học: 追到",
+    "u09-dong-tac-hang-ngay.yaml:135: [sentence_unlearned_word] Câu s-hsk3-u09-014 (bài hsk3-u09-l04) dùng từ chưa học: 这个, 解不开",
+    "u09-dong-tac-hang-ngay.yaml:139: [sentence_unlearned_word] Câu s-hsk3-u09-015 (bài hsk3-u09-l04) dùng từ chưa học: 书合",
+    "u09-dong-tac-hang-ngay.yaml:173: [sentence_unlearned_word] Câu s-hsk3-u09-018 (bài hsk3-u09-l05) dùng từ chưa học: 山太高",
+    "u09-dong-tac-hang-ngay.yaml:182: [sentence_unlearned_word] Câu s-hsk3-u09-020 (bài hsk3-u09-l05) dùng từ chưa học: 这件"
+  ],
+  "han_viet_proposed": []
+}

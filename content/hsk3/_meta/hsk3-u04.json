@@ -1,0 +1,25 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T08:22:55",
+  "prompt_sha256": [
+    "14511660c200f4506f94d0f6e43c1efdfe642872e2694abb9fde4d7035d61c4a",
+    "0e92338526e493e132f330bbd300e1add851a1a5ec5de0289e7d40d185d12f41",
+    "6152b23432297a4c4a0b2d87a37718c6241fd1543dadd2cf78a648eff0a4db4c"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u04-nha-o-va-chuyen-nha.yaml:20: [sentence_unlearned_word] Câu s-hsk3-u04-001 (bài hsk3-u04-l01) dùng từ chưa học: 不贵",
+    "u04-nha-o-va-chuyen-nha.yaml:24: [sentence_unlearned_word] Câu s-hsk3-u04-002 (bài hsk3-u04-l01) dùng từ chưa học: 很近",
+    "u04-nha-o-va-chuyen-nha.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u04-007 (bài hsk3-u04-l02) dùng từ chưa học: 屋子里, 太冷, 一条",
+    "u04-nha-o-va-chuyen-nha.yaml:97: [sentence_unlearned_word] Câu s-hsk3-u04-009 (bài hsk3-u04-l03) dùng từ chưa học: 书架上, 下来, 本书",
+    "u04-nha-o-va-chuyen-nha.yaml:110: [sentence_unlearned_word] Câu s-hsk3-u04-012 (bài hsk3-u04-l03) dùng từ chưa học: 我要",
+    "u04-nha-o-va-chuyen-nha.yaml:112: [sentence_pinyin_mismatch] Câu s-hsk3-u04-012: pinyin ghi 'Zhōumò wǒ yào zhěnglǐ yíxiàr fángjiān.', pypinyin cho 'zhōu mò wǒ yào zhěng lǐ yī xià ér fáng jiān'",
+    "u04-nha-o-va-chuyen-nha.yaml:148: [sentence_unlearned_word] Câu s-hsk3-u04-016 (bài hsk3-u04-l04) dùng từ chưa học: 很静"
+  ],
+  "han_viet_proposed": []
+}

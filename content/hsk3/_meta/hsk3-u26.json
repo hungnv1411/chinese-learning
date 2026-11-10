@@ -1,0 +1,33 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T01:48:30",
+  "prompt_sha256": [
+    "94ac210ceb761493715945d98853d3d833b691376754f749218e9313563553a6",
+    "2f6849dcb41d82317f6c2e6705004351a007cc247e3d27b21cae11d55d3b0291"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u26-015",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Câu 我家买了保险 không nói rõ là bảo hiểm nhà. Bản dịch \"for our home\" thêm ý không có trong tiếng Trung. 我家 ở đây chỉ \"gia đình tôi\".",
+      "suggestion": "Sửa en thành \"My family bought insurance.\" hoặc \"We bought insurance.\""
+    },
+    {
+      "where": "hsk3-u26-l04 (tip 确保)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Mẹo phát âm nói ü trong què \"tròn môi như đọc 'uy' kéo dài\". Cách nói này dễ gây hiểu sai, vì què là üe (ü + e), không phải uy.",
+      "suggestion": "Sửa thành: \"què = q + üe: tròn môi như đọc 'uy' (ü) rồi trượt nhanh sang 'ê'; chữ ü viết thành u sau q.\""
+    }
+  ],
+  "machine_warnings": [
+    "u26-an-toan-va-bao-ve.yaml:152: [sentence_unlearned_word] Câu s-hsk3-u26-015 (bài hsk3-u26-l04) dùng từ chưa học: 我家"
+  ],
+  "han_viet_proposed": []
+}

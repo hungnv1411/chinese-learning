@@ -1,0 +1,32 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:36:04",
+  "prompt_sha256": [
+    "9b709b011aec8e433e44a36d80d9af4355f98112b05884ba66264ee7649ec025",
+    "547558735cf26461f3186ac1e073eaf85ec78046e512b07c262dfcf8a385e3a1"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u19-l03 / tips 一路顺风",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu \"Người Trung Quốc thường tránh nói 一路顺风 với người sắp đi máy bay\" là khái quát quá mức. Đây chỉ là một cách nói dân gian, thực tế 一路顺风 vẫn được dùng rộng rãi khi tiễn cả người đi máy bay.",
+      "suggestion": "Làm nhẹ ý: \"Có người cho rằng không nên nói 一路顺风 với người đi máy bay vì máy bay cất cánh cần ngược gió, nhưng thực tế vẫn hay dùng. 一路平安 là lời chúc an toàn, dùng được cho mọi chuyến đi.\""
+    }
+  ],
+  "machine_warnings": [
+    "u19-du-lich.yaml:31: [sentence_unlearned_word] Câu s-hsk2-u19-003 (bài hsk2-u19-l01) dùng từ chưa học: 去过",
+    "u19-du-lich.yaml:62: [sentence_unlearned_word] Câu s-hsk2-u19-005 (bài hsk2-u19-l02) dùng từ chưa học: 出过",
+    "u19-du-lich.yaml:144: [sentence_pinyin_mismatch] Câu s-hsk2-u19-013: pinyin ghi 'Wǒmen zài zhèr zhàoxiàng ba.', pypinyin cho 'wǒ men zài zhè ér zhào xiàng ba'",
+    "u19-du-lich.yaml:153: [sentence_pinyin_polyphone] Câu s-hsk2-u19-015: pinyin ghi 'Zhèxiē zhàopiàn shì tā de.', pypinyin cho 'zhè xiē zhào piān shì tā de' (có chữ đa âm, cần rà soát riêng câu này)"
+  ],
+  "han_viet_proposed": [
+    "游",
+    "际"
+  ]
+}

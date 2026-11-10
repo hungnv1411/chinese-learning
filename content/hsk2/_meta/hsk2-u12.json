@@ -1,0 +1,27 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:15:31",
+  "prompt_sha256": [
+    "8eb918ec757b806a1e8acd11c84b869e63c6d809f80506ea52b39d1d58c19275",
+    "7edc1c3d085b8bf6a402dede27c9db70fcb76802c90bef34e5a04dea122d3692"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u12-thien-nhien-va-dong-vat.yaml:63: [sentence_unlearned_word] Câu s-hsk2-u12-006 (bài hsk2-u12-l02) dùng từ chưa học: 这条河, 很长",
+    "u12-thien-nhien-va-dong-vat.yaml:65: [sentence_pinyin_polyphone] Câu s-hsk2-u12-006: pinyin ghi 'Zhè tiáo hé hěn cháng.', pypinyin cho 'zhè tiáo hé hěn zhǎng' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u12-thien-nhien-va-dong-vat.yaml:67: [sentence_unlearned_word] Câu s-hsk2-u12-007 (bài hsk2-u12-l02) dùng từ chưa học: 我家, 一个",
+    "u12-thien-nhien-va-dong-vat.yaml:71: [sentence_unlearned_word] Câu s-hsk2-u12-008 (bài hsk2-u12-l02) dùng từ chưa học: 水从, 山上, 流下来",
+    "u12-thien-nhien-va-dong-vat.yaml:98: [sentence_unlearned_word] Câu s-hsk2-u12-010 (bài hsk2-u12-l03) dùng từ chưa học: 一片",
+    "u12-thien-nhien-va-dong-vat.yaml:102: [sentence_unlearned_word] Câu s-hsk2-u12-011 (bài hsk2-u12-l03) dùng từ chưa học: 草地上",
+    "u12-thien-nhien-va-dong-vat.yaml:104: [sentence_pinyin_mismatch] Câu s-hsk2-u12-011: pinyin ghi 'Wǒmen zài cǎodì shàng wánr.', pypinyin cho 'wǒ men zài cǎo dì shàng wán ér'"
+  ],
+  "han_viet_proposed": [
+    "它",
+    "静"
+  ]
+}

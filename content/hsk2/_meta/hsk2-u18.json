@@ -1,0 +1,44 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T03:31:55",
+  "prompt_sha256": [
+    "5a9b983f9f23a462561ccd81d87420e1acfc84ba42ff83cb5b7ec8944388b848",
+    "e1dc1e252cabf3243ed4f46953689ff9294caefb51f0918540a2fc814d582fff",
+    "e900b95cf14dc709670ab89889cc995bf74bf49e389bab31d04fbdd5821e42c4"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk2-u18-008",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Khi 场 là lượng từ chỉ diễn biến của sự việc (一场大雨, 一场病), chuẩn phổ thông đọc là cháng (thanh 2), không phải chǎng. Chữ chǎng chỉ dùng cho hoạt động văn thể, thi cử (一场电影, 一场球赛). Pinyin 'yì chǎng' trong câu này vì thế sai.",
+      "suggestion": "Sửa pinyin thành: Zuótiān xiàle yì cháng dà yǔ. Hoặc đổi câu sang cách dùng chǎng, ví dụ 昨天我们看了一场电影 (chỉ dùng từ đã học)."
+    },
+    {
+      "where": "hsk2-u18-l02 (tip 场)",
+      "category": "grammar_explanation",
+      "severity": "error",
+      "problem": "Tip nói 场 là lượng từ cho '一场电影, 一场雨' và đều đọc chǎng, kèm quy tắc 'yì chǎng'. Thực tế 一场雨 đọc cháng, nên tip dễ khiến người học đọc sai. Quy tắc 一 → yì trước thanh 3 chỉ đúng với 一场电影.",
+      "suggestion": "Viết lại: '场 chǎng là lượng từ cho trận đấu, buổi chiếu phim: 一场电影. Với mưa, bệnh (một đợt, một trận) thì đọc cháng: 一场大雨. 一 trước cả chǎng và cháng đều đọc yì.'"
+    }
+  ],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u18-the-thao-va-hoat-dong.yaml:24: [sentence_unlearned_word] Câu s-hsk2-u18-002 (bài hsk2-u18-l01) dùng từ chưa học: 打篮球",
+    "u18-the-thao-va-hoat-dong.yaml:28: [sentence_unlearned_word] Câu s-hsk2-u18-003 (bài hsk2-u18-l01) dùng từ chưa học: 穿着",
+    "u18-the-thao-va-hoat-dong.yaml:32: [sentence_unlearned_word] Câu s-hsk2-u18-004 (bài hsk2-u18-l01) dùng từ chưa học: 这个",
+    "u18-the-thao-va-hoat-dong.yaml:58: [sentence_unlearned_word] Câu s-hsk2-u18-005 (bài hsk2-u18-l02) dùng từ chưa học: 一个",
+    "u18-the-thao-va-hoat-dong.yaml:70: [sentence_unlearned_word] Câu s-hsk2-u18-008 (bài hsk2-u18-l02) dùng từ chưa học: 一场, 大雨",
+    "u18-the-thao-va-hoat-dong.yaml:72: [sentence_pinyin_polyphone] Câu s-hsk2-u18-008: pinyin ghi 'Zuótiān xiàle yì chǎng dà yǔ.', pypinyin cho 'zuó tiān xià le yī cháng dà yǔ' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u18-the-thao-va-hoat-dong.yaml:108: [sentence_unlearned_word] Câu s-hsk2-u18-012 (bài hsk2-u18-l03) dùng từ chưa học: 他练, 很多",
+    "u18-the-thao-va-hoat-dong.yaml:144: [sentence_unlearned_word] Câu s-hsk2-u18-015 (bài hsk2-u18-l04) dùng từ chưa học: 很快",
+    "u18-the-thao-va-hoat-dong.yaml:148: [sentence_unlearned_word] Câu s-hsk2-u18-016 (bài hsk2-u18-l04) dùng từ chưa học: 很多"
+  ],
+  "han_viet_proposed": [
+    "努"
+  ]
+}

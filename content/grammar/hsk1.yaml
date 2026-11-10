@@ -1,0 +1,679 @@
+- id: hsk1-g005
+  hsk_code: 一级-语法-005
+  title: 'Đại từ nhân xưng: 我、你、您、他、她 và dạng số nhiều'
+  explanation_vi: 'Tiếng Trung chỉ có vài đại từ nhân xưng: 我 (tôi), 你 (bạn, thân mật), 您 (ông/bà/ngài,
+    lịch sự), 他 (anh ấy), 她 (cô ấy). Muốn nói số nhiều thì thêm 们: 我们, 你们, 他们, 她们. Đại từ không đổi dạng
+    dù làm chủ ngữ hay tân ngữ. Cũng không đổi theo tuổi tác hay vai vế như anh, chị, em trong tiếng Việt.'
+  pattern: 我/你/他/她 + 们 → 我们/你们/他们/她们; 您 (kính trọng)
+  examples:
+  - zh: 谁？——我们。
+    en: Who? — Us.
+  - zh: 他？——她男朋友。
+    en: Him? — Her boyfriend.
+  - zh: 您？
+    en: You, sir/madam?
+- id: hsk1-g024
+  hsk_code: 一级-语法-024
+  title: Chủ ngữ là danh từ, đại từ hoặc cụm danh từ
+  explanation_vi: 'Giống tiếng Việt, chủ ngữ đứng đầu câu. Chủ ngữ có thể là đại từ (我们), danh từ (朋友)
+    hoặc cụm danh từ (我朋友, 她男朋友). Trong cụm danh từ, phần bổ nghĩa đứng trước phần chính, ngược với tiếng
+    Việt: 我朋友 = bạn tôi.'
+  pattern: Chủ ngữ (đại từ / danh từ / cụm danh từ) + vị ngữ
+  examples:
+  - zh: 我们都是朋友。
+    en: We are all friends.
+  - zh: 她男朋友是谁？
+    en: Who is her boyfriend?
+  - zh: 小朋友们都是男孩儿。
+    en: The kids are all boys.
+- id: hsk1-g026
+  hsk_code: 一级-语法-026
+  title: Tân ngữ là danh từ, đại từ hoặc cụm danh từ
+  explanation_vi: Tân ngữ đứng sau động từ, giống tiếng Việt. Tân ngữ có thể là đại từ (谁, 我), danh từ
+    (老人) hoặc cụm danh từ (我朋友). Đại từ làm tân ngữ vẫn giữ nguyên dạng, không đổi như I → me trong tiếng
+    Anh.
+  pattern: Chủ ngữ + động từ + tân ngữ (đại từ / danh từ / cụm danh từ)
+  examples:
+  - zh: 他是谁？
+    en: Who is he?
+  - zh: 她是我朋友。
+    en: She is my friend.
+  - zh: 他是我男朋友。
+    en: He is my boyfriend.
+- id: hsk1-g029
+  hsk_code: 一级-语法-029
+  title: Câu đơn có vị ngữ là động từ
+  explanation_vi: 'Câu cơ bản nhất có dạng Chủ ngữ + Động từ (+ Tân ngữ), cùng trật tự với tiếng Việt.
+    Phó từ như 都 đứng giữa chủ ngữ và động từ. Lưu ý: 是 chỉ dùng để nối hai danh từ (''là''), không đặt
+    trước tính từ: ~~我是忙~~ → 我很忙.'
+  pattern: Chủ ngữ + (都) + Động từ + Tân ngữ
+  examples:
+  - zh: 她们都是女生。
+    en: They are all girls.
+  - zh: 我是你朋友。
+    en: I am your friend.
+  - zh: 他是男生。
+    en: He is a boy.
+- id: hsk1-g036
+  hsk_code: 一级-语法-036
+  title: 'Câu chữ 是: A là B'
+  explanation_vi: '是 nối hai danh từ hoặc đại từ, dùng để nói A là ai, là gì, thuộc loại nào hoặc có đặc
+    điểm gì. Dạng phủ định thêm 不 trước 是 (đọc bú shì). Không dùng 是 trước tính từ: nói 我好高兴, không nói
+    ~~我是高兴~~.'
+  pattern: A + 是 + B；A + 不是 + B
+  examples:
+  - zh: 我们是朋友。
+    en: We're friends.
+  - zh: 我不是李小姐。
+    en: I'm not Miss Li.
+  - zh: 谁是他朋友？
+    en: Who is his friend?
+- id: hsk1-g014
+  hsk_code: 一级-语法-014
+  title: Phó từ phủ định 不 và 没 (别)
+  explanation_vi: '不 phủ định ý muốn, thói quen, sự việc ở hiện tại và tương lai, và là từ dùng với tính
+    từ và với 是: 不是, 不高兴. 没 (没有) phủ định “có” và việc đã xảy ra: 没女朋友 là không có bạn gái. 别 nghĩa là
+    “đừng”, dùng để khuyên hoặc cấm. Lưu ý: 是 chỉ đi với 不, không nói ~~没是~~.'
+  pattern: 不 + động từ/tính từ；没 + danh từ (không có)/động từ (chưa…)；别 + động từ
+  examples:
+  - zh: 我不高兴。
+    en: I am not happy.
+  - zh: 我没女朋友。
+    en: I don't have a girlfriend.
+  - zh: 不用，谢谢。
+    en: No need, thanks.
+- id: hsk1-g045
+  hsk_code: 一级-语法-045
+  title: Hỏi có/không bằng 吗
+  explanation_vi: Thêm 吗 vào cuối một câu trần thuật là thành câu hỏi có/không, trật tự từ giữ nguyên.
+    Trả lời bằng cách lặp lại động từ (认识 / 不认识, 是 / 不是) hoặc nói 对. Câu đã có từ để hỏi như 谁 thì không
+    thêm 吗.
+  pattern: Câu trần thuật + 吗？
+  examples:
+  - zh: 你认识他吗？
+    en: Do you know him?
+  - zh: 你们是朋友吗？
+    en: Are you friends?
+  - zh: 她认识你吗？
+    en: Does she know you?
+- id: hsk1-g022
+  hsk_code: 一级-语法-022
+  title: Trợ từ ngữ khí 吗, 呢 (吧, 了)
+  explanation_vi: Trợ từ ngữ khí đứng cuối câu, đọc nhẹ, thể hiện giọng điệu. 吗 biến câu thành câu hỏi
+    có/không. 呢 đi sau danh từ hoặc đại từ để hỏi lại “còn … thì sao?”, giống “còn bạn?” trong tiếng Việt.
+    吧 (gợi ý, phỏng đoán) và 了 (sự thay đổi) sẽ học ở các bài sau.
+  pattern: Câu + 吗？；Danh từ/Đại từ + 呢？
+  examples:
+  - zh: 你认识她吗？
+    en: Do you know her?
+  - zh: 我叫王明，你呢？
+    en: My name is Wang Ming. And you?
+  - zh: 我是朋友，他呢？
+    en: I'm a friend. What about him?
+- id: hsk1-g032
+  hsk_code: 一级-语法-032
+  title: Câu trần thuật
+  explanation_vi: Câu trần thuật dùng để kể hoặc nói một sự việc, kết thúc bằng dấu 。. Trật tự cơ bản
+    là Chủ ngữ + Động từ + Tân ngữ, giống tiếng Việt. Muốn phủ định thì đặt 不 hoặc 没 trước động từ.
+  pattern: Chủ ngữ + Động từ + Tân ngữ。
+  examples:
+  - zh: 我叫李月。
+    en: My name is Li Yue.
+  - zh: 我认识她。
+    en: I know her.
+  - zh: 我不认识他。
+    en: I don't know him.
+- id: hsk1-g033
+  hsk_code: 一级-语法-033
+  title: Các kiểu câu hỏi
+  explanation_vi: 'Tiếng Trung có bốn kiểu câu hỏi chính. (1) Hỏi có/không: thêm 吗 cuối câu. (2) Hỏi bằng
+    từ để hỏi: đặt 谁… vào đúng chỗ cần hỏi, không thêm 吗. (3) Hỏi lựa chọn: A 还是 B, sẽ học sau. (4) Hỏi
+    chính phản: dạng 是不是, không thêm 吗.'
+  pattern: …吗？／…谁…？／A还是B？／V不V…？
+  examples:
+  - zh: 你认识她吗？
+    en: Do you know her?
+  - zh: 请问，谁是李小姐？
+    en: Excuse me, who is Miss Li?
+  - zh: 你是不是王先生？
+    en: Are you Mr. Wang?
+- id: hsk1-g048
+  hsk_code: 一级-语法-048
+  title: 'Câu hỏi chính phản: V 不 V'
+  explanation_vi: 'Đặt động từ hoặc tính từ ở dạng khẳng định rồi dạng phủ định liền nhau để hỏi “có…
+    hay không”. Chữ 不 ở giữa đọc nhẹ: shì bu shì. Câu đã có dạng này thì không thêm 吗 nữa: ~~你是不是王明吗？~~
+    là sai.'
+  pattern: Chủ ngữ + V + 不 + V + (Tân ngữ)？
+  examples:
+  - zh: 你是不是王先生？
+    en: Are you Mr. Wang?
+  - zh: 他们是不是朋友？
+    en: Are they friends or not?
+  - zh: 你认识不认识她？
+    en: Do you know her or not?
+- id: hsk1-g013
+  hsk_code: 一级-语法-013
+  title: Phó từ liên kết 也 (cũng)
+  explanation_vi: 也 nghĩa là “cũng”, đứng sau chủ ngữ và trước động từ hoặc 不, đúng như vị trí của “cũng”
+    trong tiếng Việt. Không đặt 也 trước chủ ngữ (~~也我是~~) hay ở cuối câu (~~我是也~~).
+  pattern: Chủ ngữ + 也 + (不) + Động từ…
+  examples:
+  - zh: 他们也是朋友。
+    en: They are friends too.
+  - zh: 我也认识他。
+    en: I know him too.
+  - zh: 我也不认识她。
+    en: I don't know her either.
+- id: hsk1-g007
+  hsk_code: 一级-语法-007
+  title: 'Số đếm: 一 đến 十, 百, 零, 两, 半'
+  explanation_vi: 'Số từ 11 trở lên ghép giống tiếng Việt: 十一 (mười một), 二十 (hai mươi), 九十九 (chín mươi
+    chín), 一百 (một trăm). Số 0 ở giữa đọc là 零, giống ''linh/lẻ'': 一百零五 = 105. Khi đếm hoặc chỉ thứ tự
+    thì dùng 二, còn trước lượng từ thì dùng 两: 两个人. 半 nghĩa là ''nửa'', 一半 là ''một nửa''.'
+  pattern: 十 + số (11–19); số + 十 (+ số) (20–99); số + 百 + 零 + số (101–109)
+  examples:
+  - zh: 十二
+    en: twelve
+  - zh: 二十五
+    en: twenty-five
+  - zh: 一百零八
+    en: one hundred and eight
+- id: hsk1-g008
+  hsk_code: 一级-语法-008
+  title: 'Lượng từ cho danh từ: 个, 本, 页…'
+  explanation_vi: 'Giống ''cái, con, quyển'' trong tiếng Việt, tiếng Trung đặt lượng từ giữa số và danh
+    từ, và không được bỏ: nói 一个朋友, không nói ~~一朋友~~. 个 là lượng từ chung, dùng được cho người và nhiều
+    vật; 本 dùng cho sách vở (quyển); 页 là ''trang''. Trước lượng từ, số 2 phải dùng 两: 两个人, không nói
+    ~~二个人~~.'
+  pattern: Số + lượng từ + danh từ
+  examples:
+  - zh: 一个女孩儿
+    en: a girl
+  - zh: 两个朋友
+    en: two friends
+  - zh: 三页
+    en: three pages
+- id: hsk1-g023
+  hsk_code: 一级-语法-023
+  title: Cụm số lượng và số thứ tự
+  explanation_vi: 'Số đi với lượng từ tạo thành cụm số lượng: 三个, 两本, 一次. Khi người nghe đã biết đang
+    nói về cái gì, cụm này có thể đứng một mình, không cần danh từ. Thêm 第 trước số để chỉ thứ tự: 第二个
+    (cái thứ hai), 第一次 (lần đầu tiên). 次 là lượng từ chỉ số lần.'
+  pattern: (第) + số + lượng từ (+ danh từ)
+  examples:
+  - zh: 我是第二个。
+    en: I'm the second one.
+  - zh: 两个人
+    en: two people
+  - zh: 第一次
+    en: the first time
+- id: hsk1-g004
+  hsk_code: 一级-语法-004
+  title: 'Hỏi số lượng: 几, 多少, 多'
+  explanation_vi: '几 dùng để hỏi số nhỏ (thường dưới 10) và phải có lượng từ đi kèm: 几个人？ 多少 hỏi số lượng
+    bất kỳ, lớn hay nhỏ đều được, và có thể bỏ lượng từ: 多少人？ 多 nghĩa là ''nhiều'', có thể làm vị ngữ:
+    朋友多吗？ Câu hỏi dùng 几 hoặc 多少 không thêm 吗 ở cuối câu.'
+  pattern: 几 + lượng từ + danh từ？ / 多少 (+ lượng từ) + danh từ？
+  examples:
+  - zh: 你们几个人？
+    en: How many of you are there?
+  - zh: 多少人？
+    en: How many people?
+  - zh: 你朋友多吗？
+    en: Do you have many friends?
+- id: hsk1-g037
+  hsk_code: 一级-语法-037
+  title: 'Câu với 有: sở hữu và tồn tại'
+  explanation_vi: '有 có hai nghĩa: (1) “có” chỉ sở hữu: ai đó có cái gì, có người thân nào; (2) “có” chỉ
+    tồn tại: ở một nơi có người hay vật gì. Muốn phủ định thì dùng 没有 (hoặc 没), tuyệt đối không dùng 不有.
+    Câu hỏi thêm 吗 vào cuối câu.'
+  pattern: Chủ ngữ + 有 / 没有 + Danh từ; Nơi chốn + 有 + Người/Vật
+  examples:
+  - zh: 我有一个哥哥。
+    en: I have an older brother.
+  - zh: 我没有姐姐。
+    en: I don't have an older sister.
+  - zh: 你家里有几口人？
+    en: How many people are there in your family?
+- id: hsk1-g020
+  hsk_code: 一级-语法-020
+  title: Trợ từ kết cấu 的
+  explanation_vi: '的 đứng giữa người sở hữu và vật được sở hữu, giống chữ “của” nhưng thứ tự ngược với
+    tiếng Việt: “bạn của tôi” là 我的朋友. Khi nói về người thân hoặc nhóm gần gũi thì thường bỏ 的: 我妈妈, 我家.
+    Danh từ đã rõ nghĩa thì có thể lược đi: 你是我的 (bạn là của tôi). (Trợ từ 地 sẽ học ở các bài sau.)'
+  pattern: Người sở hữu + 的 + Danh từ
+  examples:
+  - zh: 他是我的朋友。
+    en: He's my friend.
+  - zh: 我爱我妈妈。
+    en: I love my mother.
+  - zh: 你是我的。
+    en: You're mine.
+- id: hsk1-g019
+  hsk_code: 一级-语法-019
+  title: Liên từ 和 (và, với)
+  explanation_vi: 和 nối hai danh từ hoặc đại từ, nghĩa là “và”, “với”. Khác với chữ “và” trong tiếng Việt,
+    和 không dùng để nối hai câu hay hai động từ. Kiểu “A 和 B” thường đứng làm chủ ngữ hoặc tân ngữ.
+  pattern: Danh từ/Đại từ A + 和 + Danh từ/Đại từ B
+  examples:
+  - zh: 爸爸和妈妈
+    en: Dad and Mom
+  - zh: 我和他是朋友。
+    en: He and I are friends.
+  - zh: 我有一个哥哥和一个妹妹。
+    en: I have an older brother and a younger sister.
+- id: hsk1-g027
+  hsk_code: 一级-语法-027
+  title: 'Định ngữ: danh từ, tính từ, cụm số lượng đứng trước danh từ'
+  explanation_vi: 'Trong tiếng Trung, thành phần bổ nghĩa (định ngữ) luôn đứng TRƯỚC danh từ, ngược với
+    tiếng Việt. Cụm số + lượng từ đứng ngay trước danh từ: 三口人, 两个孩子. Danh từ hoặc tính từ một âm tiết
+    cũng có thể đứng trước để bổ nghĩa: 女朋友, 好朋友.'
+  pattern: Số + Lượng từ + Danh từ; Danh từ/Tính từ + (的) + Danh từ
+  examples:
+  - zh: 我家有三口人。
+    en: There are three people in my family.
+  - zh: 她有两个孩子。
+    en: She has two children.
+  - zh: 他是我的好朋友。
+    en: He is my good friend.
+- id: hsk1-g002
+  hsk_code: 一级-语法-002
+  title: Động từ năng nguyện 会 và 能
+  explanation_vi: '会 (huì) nghĩa là ''biết (làm gì)'', dùng cho kỹ năng phải học mới có, như biết nói
+    tiếng Trung hay biết viết chữ Hán. 能 (néng) nghĩa là ''có thể'', nói về năng lực hoặc hoàn cảnh có
+    cho phép làm việc đó hay không. Cả hai đứng trước động từ; muốn phủ định thì thêm 不 vào trước: 不会,
+    不能. Lưu ý: 不 đứng trước thanh 4 thì đổi thành thanh 2, nên 不会 đọc là bú huì.'
+  pattern: Chủ ngữ + (不) + 会/能 + Động từ (+ Tân ngữ)
+  examples:
+  - zh: 我会说汉语。
+    en: I can speak Chinese.
+  - zh: 我不会写汉字。
+    en: I can't write Chinese characters.
+  - zh: 你能告诉我吗？
+    en: Can you tell me?
+- id: hsk1-g044
+  hsk_code: 一级-语法-044
+  title: Cách nói ngày tháng năm, thứ và giờ
+  explanation_vi: 'Tiếng Trung nói thời gian theo thứ tự từ lớn đến nhỏ: năm → tháng → ngày → thứ, ngược
+    với tiếng Việt. Năm đọc từng chữ số (二〇二五年 èr líng èr wǔ nián), tháng là số + 月, ngày là số + 号 (văn
+    viết dùng 日), thứ là 星期 + số 1–6, còn Chủ nhật là 星期天/星期日. Giờ nói theo dạng X点Y分, "rưỡi" là 半, "kém"
+    là 差 + phút + giờ. Lưu ý 2 giờ nói là 两点.'
+  pattern: (năm)年 + (tháng)月 + (ngày)号 + 星期X; X点(Y分) / X点半 / 差Y分X点
+  examples:
+  - zh: 今天是八月十号，星期六。
+    en: Today is Saturday, August 10th.
+  - zh: 现在是七点四十五分。
+    en: It's 7:45 now.
+  - zh: 现在差五分八点。
+    en: It's five to eight now.
+- id: hsk1-g028
+  hsk_code: 一级-语法-028
+  title: 'Trạng ngữ: phó từ, tính từ, từ chỉ thời gian và nơi chốn'
+  explanation_vi: Trạng ngữ luôn đứng trước động từ hoặc tính từ mà nó bổ nghĩa, không đặt ở cuối câu
+    như tiếng Việt. Phó từ (很, 也, 都, 不…) đứng ngay sau chủ ngữ. Từ chỉ thời gian (今天, 晚上, 下午…) có thể
+    đứng sau chủ ngữ hoặc đầu câu, trước chủ ngữ. Không nói ~~我学习汉语晚上~~ mà nói 我晚上学习汉语.
+  pattern: Chủ ngữ + (từ chỉ thời gian) + (phó từ) + Động từ; hoặc Từ chỉ thời gian + Chủ ngữ + Động từ
+  examples:
+  - zh: 我明天下午有时间。
+    en: I'm free tomorrow afternoon.
+  - zh: 上午你有时间吗？
+    en: Do you have time this morning?
+  - zh: 我们晚上都学习汉语。
+    en: We all study Chinese in the evening.
+- id: hsk1-g003
+  hsk_code: 一级-语法-003
+  title: Động từ năng nguyện 想 và 要 (muốn)
+  explanation_vi: '想 và 要 đứng trước động từ để nói mình muốn làm gì. 想 là ''muốn, mong'' nhẹ nhàng; 要
+    thể hiện ý muốn chắc chắn hơn, như đã quyết định. 要 còn đứng trực tiếp trước danh từ để gọi món: 我要米饭.
+    Phủ định ''không muốn'' dùng 不想 (不要 lại mang nghĩa ''đừng'').'
+  pattern: Chủ ngữ + 想/要 + Động từ (+ Tân ngữ)；Chủ ngữ + 要 + Danh từ；Chủ ngữ + 不想 + Động từ
+  examples:
+  - zh: 我想吃饭。
+    en: I'd like to eat.
+  - zh: 我要一杯茶。
+    en: I want a cup of tea.
+  - zh: 我不想喝牛奶。
+    en: I don't want to drink milk.
+- id: hsk1-g047
+  hsk_code: 一级-语法-047
+  title: Câu hỏi lựa chọn với 还是 (… hay …?)
+  explanation_vi: 'Muốn hỏi người nghe chọn A hay B, đặt 还是 giữa hai lựa chọn. Đây đã là câu hỏi nên KHÔNG
+    thêm 吗 ở cuối. Nếu lựa chọn có động từ, thường nhắc lại động từ ở cả hai vế: 喝茶还是喝水.'
+  pattern: Chủ ngữ + A + 还是 + B？
+  examples:
+  - zh: 你喝茶还是喝水？
+    en: Do you drink tea or water?
+  - zh: 你要米饭还是面条儿？
+    en: Do you want rice or noodles?
+  - zh: 是儿子还是女儿？
+    en: Is it a son or a daughter?
+- id: hsk1-g043
+  hsk_code: 一级-语法-043
+  title: Cách nói số tiền (块、毛、元)
+  explanation_vi: 'Trong văn nói người Trung dùng 块 (= 1 tệ) và 毛 (= 1/10 tệ, tức 10 毛 = 1 块). Trong văn
+    viết, trên bảng giá, người ta dùng 元 thay cho 块. Đọc số tiền theo thứ tự số + 块 + số + 毛, và đơn vị
+    cuối cùng thường được bỏ đi: 两块五毛 → 两块五. Số 2 đứng trước 块/毛 thì nói 两: 两块, 两毛. Để hỏi giá thì dùng:
+    Đồ vật + 多少钱？'
+  pattern: Số + 块/元 (+ số + 毛) (+ 钱)；Đồ vật + 多少钱？
+  examples:
+  - zh: 面包多少钱？——三块五。
+    en: How much is the bread? — Three yuan fifty.
+  - zh: 一杯茶十元。
+    en: A cup of tea is ten yuan.
+  - zh: 两块钱。
+    en: Two yuan.
+- id: hsk1-g006
+  hsk_code: 一级-语法-006
+  title: 'Đại từ chỉ thị: 这、那、这儿、那儿、这里、那里、这些、那些、别的、有的'
+  explanation_vi: '这 chỉ người/vật ở gần (này), 那 chỉ ở xa (kia, đó); thêm 些 thành số nhiều: 这些, 那些. Chỉ
+    nơi chốn dùng 这儿/这里 (ở đây) và 那儿/那里 (ở đó). 别的 + danh từ = "… khác", 有的 + danh từ = "có (những) …",
+    thường đứng đầu câu. Khi đứng trước danh từ, 这/那 thường cần lượng từ: 这个人, 那本书.'
+  pattern: 这/那 + 是 + …；这/那 + (số) + lượng từ + danh từ；有的/别的 + danh từ
+  examples:
+  - zh: 这是我的。
+    en: This is mine.
+  - zh: 那些是我朋友。
+    en: Those are my friends.
+  - zh: 有的人不吃肉。
+    en: Some people don't eat meat.
+- id: hsk1-g016
+  hsk_code: 一级-语法-016
+  title: 'Giới từ 在: nói nơi chốn (và thời gian)'
+  explanation_vi: '在 + nơi chốn có hai cách dùng. Đứng một mình làm động từ "ở": 他在家里 (anh ấy ở nhà),
+    không thêm 是. Đứng trước động từ khác thì làm giới từ "tại, ở", và cụm 在 + nơi chốn phải đặt TRƯỚC
+    động từ, khác tiếng Việt: 我在这里吃 (tôi ăn ở đây), không nói ~~我吃在这里~~. 在 cũng có thể dẫn ra thời gian,
+    ví dụ 在晚上.'
+  pattern: Chủ ngữ + 在 + nơi chốn；Chủ ngữ + 在 + nơi chốn + động từ
+  examples:
+  - zh: 他在家里。
+    en: He is at home.
+  - zh: 我在这里吃。
+    en: I eat here.
+  - zh: 我的朋友在那边。
+    en: My friend is over there.
+- id: hsk1-g046
+  hsk_code: 一级-语法-046
+  title: Câu hỏi với 多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么
+  explanation_vi: 'Muốn hỏi thông tin gì, đặt từ để hỏi vào đúng chỗ của thông tin đó trong câu trả lời,
+    giữ nguyên trật tự câu (giống tiếng Việt): 你在哪儿？— 我在家里. Câu đã có từ để hỏi thì không thêm 吗 ở cuối.
+    哪儿/哪里 hỏi nơi chốn, 什么 hỏi cái gì, 哪/哪些 hỏi cái nào/những cái nào, 谁 hỏi ai, 几/多少 hỏi số lượng.'
+  pattern: Chủ ngữ + động từ + từ để hỏi？ (từ để hỏi đứng ở vị trí của câu trả lời)
+  examples:
+  - zh: 你在哪儿？
+    en: Where are you?
+  - zh: 那是什么？
+    en: What's that?
+  - zh: 你想买哪些东西？
+    en: Which things do you want to buy?
+- id: hsk1-g001
+  hsk_code: 一级-语法-001
+  title: 'Danh từ phương vị: 上、下、里、外、前、后、左、右、东、南、西、北 và dạng có 边'
+  explanation_vi: 'Danh từ phương vị chỉ vị trí, hướng. Khác tiếng Việt, chúng đứng SAU danh từ làm mốc:
+    "trong nhà" là 家里, "trên cốc" là 杯子上. Dạng một chữ (上, 里…) thường phải gắn sau danh từ; dạng có 边
+    (上边, 里边…) vừa gắn sau danh từ được (có thể thêm 的), vừa đứng một mình làm chủ ngữ hoặc tân ngữ. Câu
+    chỉ vị trí hay dùng: A 在 + nơi + phương vị; hoặc nơi + phương vị + 有 + vật.'
+  pattern: A + 在 + N (+ 的) + 上边/下边/前边… ； N + 里/上 + 有 + vật
+  examples:
+  - zh: 杯子里有水。
+    en: There is water in the glass.
+  - zh: 书店在饭店旁边。
+    en: The bookstore is next to the restaurant.
+  - zh: 北京在中国的北边。
+    en: Beijing is in the north of China.
+- id: hsk1-g034
+  hsk_code: 一级-语法-034
+  title: Câu cầu khiến (yêu cầu, ra lệnh, ngăn cấm)
+  explanation_vi: 'Câu cầu khiến dùng để nhờ, yêu cầu hoặc ra lệnh cho người nghe. Chủ ngữ 你/你们 thường
+    được lược bỏ, câu bắt đầu thẳng bằng động từ. Thêm 请 ở đầu câu cho lịch sự (giống ''Xin/Mời'' trong
+    tiếng Việt). Muốn ngăn cấm thì đặt 不要 trước động từ, giống ''Đừng…''; 不 đứng trước thanh 4 (要 yào)
+    đổi thành thanh 2: bú yào.'
+  pattern: (请) + Động từ + (Tân ngữ)。 / 不要 + Động từ + (Tân ngữ)！
+  examples:
+  - zh: 请开门。
+    en: Please open the door.
+  - zh: 关上门！
+    en: Close the door!
+  - zh: 不要开门！
+    en: Don't open the door!
+- id: hsk1-g012
+  hsk_code: 一级-语法-012
+  title: 'Phó từ tần suất và lặp lại: 常, 常常, 再'
+  explanation_vi: 常 và 常常 nghĩa là "thường, hay", đứng sau chủ ngữ và trước động từ (không đặt cuối câu
+    như tiếng Việt). Phủ định dùng 不常 (không hay), không nói 不常常. 再 nghĩa là "lại, nữa", chỉ hành động
+    sẽ lặp lại hoặc để sau mới làm (chưa xảy ra), cũng đứng trước động từ.
+  pattern: Chủ ngữ + 常 / 常常 / 不常 + Động từ; Chủ ngữ + (thời gian) + 再 + Động từ
+  examples:
+  - zh: 他常常在家里。
+    en: He is often home.
+  - zh: 我不常喝茶。
+    en: I don't often drink tea.
+  - zh: 我明天再做。
+    en: I'll do it tomorrow.
+- id: hsk1-g041
+  hsk_code: 一级-语法-041
+  title: Trợ từ động thái 了 – hành động đã hoàn thành
+  explanation_vi: 'Đặt 了 ngay sau động từ để cho biết hành động đã xảy ra xong, giống "đã… rồi" trong
+    tiếng Việt. Tân ngữ phía sau thường có số lượng hoặc từ bổ nghĩa (一个, 两本, 他的…), nếu không câu nghe
+    chưa trọn ý. Phủ định thì dùng 没(有) + động từ và bỏ 了, không dùng 不: 我没买书包. Câu hỏi: thêm 吗 hoặc 没有
+    ở cuối câu: 你买了书包没有?'
+  pattern: 'Chủ ngữ + Động từ + 了 + (Số lượng/Định ngữ) + Tân ngữ；Phủ định: Chủ ngữ + 没(有) + Động từ +
+    Tân ngữ'
+  examples:
+  - zh: 我买了一个新书包。
+    en: I bought a new schoolbag.
+  - zh: 他喝了两杯茶。
+    en: He drank two cups of tea.
+  - zh: 我昨天没上课。
+    en: I didn't go to class yesterday.
+- id: hsk1-g011
+  hsk_code: 一级-语法-011
+  title: 'Phó từ thời gian: 马上、先、有时、在、正、正在'
+  explanation_vi: Phó từ thời gian đứng sau chủ ngữ, trước động từ, không đứng đầu câu như trạng ngữ tiếng
+    Việt. 在/正/正在 = đang (正在 nhấn mạnh 'đúng lúc này'); 先 = trước (làm việc gì trước); 有时 = có lúc, đôi
+    khi; 马上 = ngay, lập tức. Riêng 正 thường cần 着 hoặc 呢 đi kèm phía sau, không đứng một mình trước động
+    từ trơ trọi.
+  pattern: Chủ ngữ + 马上/先/有时/在/正/正在 + Động từ (+ Tân ngữ)
+  examples:
+  - zh: 他正在开会。
+    en: He is in a meeting.
+  - zh: 我先吃饭，再工作。
+    en: I'll eat first, then work.
+  - zh: 我有时在家工作。
+    en: Sometimes I work at home.
+- id: hsk1-g042
+  hsk_code: 一级-语法-042
+  title: 'Thể tiếp diễn: 在/正在 + động từ (+ 呢)'
+  explanation_vi: Để nói hành động đang diễn ra, đặt 在 hoặc 正在 trước động từ; có thể thêm 呢 ở cuối câu
+    cho tự nhiên hơn. Dạng 正 + động từ thì nên có 呢 ở cuối. Trong khẩu ngữ, chỉ cần thêm 呢 cuối câu cũng
+    mang nghĩa 'đang'. Phủ định dùng 没(在) + động từ, không dùng 不在.
+  pattern: Chủ ngữ + 在/正在 + Động từ (+ Tân ngữ); Chủ ngữ + 在/正/正在 + Động từ + … + 呢; Chủ ngữ + Động từ
+    + … + 呢
+  examples:
+  - zh: 他在上网。
+    en: He is on the Internet.
+  - zh: 他正在打电话呢。
+    en: He is on the phone right now.
+  - zh: 我没在忙。
+    en: I'm not busy.
+- id: hsk1-g039
+  hsk_code: 一级-语法-039
+  title: 'Câu ghép đẳng lập: không từ nối, 一边……一边……, ……也……'
+  explanation_vi: 'Câu ghép đẳng lập gồm hai vế ngang hàng. (1) Cách đơn giản nhất là đặt hai vế cạnh
+    nhau, ngăn bằng dấu phẩy, không cần từ nối. (2) 一边……，一边…… nghĩa là "vừa… vừa…": một người làm hai
+    việc cùng lúc. 一边 đứng trước mỗi động từ, chủ ngữ chỉ nói một lần ở đầu câu. (3) ……，也…… nghĩa là "…,
+    cũng…": 也 luôn đứng sau chủ ngữ và trước động từ, không đứng đầu câu (sai: ~~也她喜欢~~).'
+  pattern: A，B ｜ S + 一边 + V1，一边 + V2 ｜ S1 + V…，S2 + 也 + V…
+  examples:
+  - zh: 我看电视，她听歌。
+    en: I watch TV, she listens to songs.
+  - zh: 他一边吃饭，一边看电视。
+    en: He watches TV while eating.
+  - zh: 我喜欢唱歌，她也喜欢唱歌。
+    en: I like singing, and she likes singing too.
+- id: hsk1-g009
+  hsk_code: 一级-语法-009
+  title: 'Phó từ chỉ mức độ: 非常、很、太、真、最'
+  explanation_vi: 'Các phó từ mức độ đứng TRƯỚC tính từ hoặc động từ tâm lý (喜欢, 想): 很 = rất (nhẹ, hay
+    dùng nhất), 非常 = rất, cực kỳ (mạnh hơn 很), 真 = thật là (mang cảm xúc), 最 = nhất. 太 = quá, thường đi
+    với 了 ở cuối: 太 + tính từ + 了. Khác tiếng Việt: ''đẹp nhất'' thì tiếng Trung nói 最好看, không đặt 最
+    ra sau.'
+  pattern: Chủ ngữ + 很/非常/真/最 + Tính từ；Chủ ngữ + 太 + Tính từ + 了
+  examples:
+  - zh: 我非常饿。
+    en: I'm really hungry.
+  - zh: 今天太热了！
+    en: It's too hot today!
+  - zh: 我最喜欢花。
+    en: I like flowers the most.
+- id: hsk1-g025
+  hsk_code: 一级-语法-025
+  title: Vị ngữ là động từ hoặc tính từ
+  explanation_vi: Trong câu tiếng Trung, vị ngữ có thể là một động từ/cụm động từ (喜欢花, 在哪里) hoặc một
+    tính từ/cụm tính từ (很高). Khi vị ngữ là tính từ thì KHÔNG cần động từ 是, giống tiếng Việt nói 'núi
+    cao' chứ không nói 'núi là cao'.
+  pattern: Chủ ngữ + Động từ (+ Tân ngữ)；Chủ ngữ + (很) + Tính từ
+  examples:
+  - zh: 我喜欢花。
+    en: I like flowers.
+  - zh: 那里的山很高。
+    en: The mountains there are very high.
+  - zh: 你爸爸很高。
+    en: Your father is tall.
+- id: hsk1-g030
+  hsk_code: 一级-语法-030
+  title: Câu vị ngữ tính từ
+  explanation_vi: 'Câu dùng tính từ làm vị ngữ để miêu tả: Chủ ngữ + 很 + Tính từ. Không dùng 是 (sai: 天气是冷).
+    很 ở đây thường rất nhẹ, gần như chỉ để câu tròn ý; nếu bỏ 很 (天气冷) thì câu mang ý so sánh. Phủ định
+    dùng 不 + Tính từ, hỏi thì thêm 吗.'
+  pattern: Chủ ngữ + 很 + Tính từ；Chủ ngữ + 不 + Tính từ
+  examples:
+  - zh: 天气很冷。
+    en: It's cold.
+  - zh: 今天很热。
+    en: Today is very warm.
+  - zh: 你不冷吗？
+    en: Aren't you cold?
+- id: hsk1-g018
+  hsk_code: 一级-语法-018
+  title: Giới từ 比 dẫn ra đối tượng so sánh
+  explanation_vi: '比 đứng trước đối tượng được đem ra so sánh, nghĩa là ''so với'', cả cụm đặt TRƯỚC tính
+    từ: A 比 B + Tính từ = A … hơn B. Thứ tự khác tiếng Việt (''tôi cao hơn anh ấy'' → 我比他高). Sau 比 không
+    dùng 很, 非常 (sai: 我比他很高).'
+  pattern: A + 比 + B + Tính từ
+  examples:
+  - zh: 我比他高。
+    en: I am taller than he.
+  - zh: 今天比昨天热。
+    en: Today is hotter than yesterday.
+- id: hsk1-g038
+  hsk_code: 一级-语法-038
+  title: 'Câu so sánh: A比B + tính từ / A没有B + tính từ'
+  explanation_vi: 'Muốn nói A hơn B: A 比 B + Tính từ. Muốn nói A không bằng B: A 没有 B + Tính từ (khẩu
+    ngữ có thể nói gọn 没). Muốn nói hai thứ như nhau: A 和 B 一样 + Tính từ. Lưu ý: phủ định của câu 比 thường
+    dùng 没有, không nói 不比 trong trường hợp thông thường.'
+  pattern: A + 比 + B + Tính từ；A + 没有 + B + Tính từ；A + 和 + B + 一样 + Tính từ
+  examples:
+  - zh: 他比我高。
+    en: He is taller than I.
+  - zh: 他没有你高。
+    en: He's not as tall as you.
+  - zh: 我和你一样高。
+    en: I'm as tall as you.
+- id: hsk1-g035
+  hsk_code: 一级-语法-035
+  title: Câu cảm thán
+  explanation_vi: 'Câu cảm thán bày tỏ cảm xúc mạnh, cuối câu dùng dấu chấm than. Cách hay gặp: 真 + Tính
+    từ!, 太 + Tính từ + 了!, 好 + Tính từ!, hoặc 很/非常 + Tính từ + ！ khi nói với giọng mạnh. Giống tiếng Việt
+    ''Đẹp quá!'', ''Thật là tốt!''.'
+  pattern: 真/好 + Tính từ + ！；太 + Tính từ + 了！
+  examples:
+  - zh: 天气真好！
+    en: What lovely weather!
+  - zh: 太好了！
+    en: Great!
+  - zh: 我很生气！
+    en: I'm angry!
+- id: hsk1-g040
+  hsk_code: 一级-语法-040
+  title: 了 cuối câu chỉ sự thay đổi
+  explanation_vi: 'Trợ từ 了 đặt ở CUỐI câu cho biết một tình huống mới đã xuất hiện, có sự thay đổi so
+    với trước, giống ''rồi'' trong tiếng Việt: ''mưa rồi'', ''trời lạnh rồi''. Dùng được sau động từ hoặc
+    tính từ.'
+  pattern: Chủ ngữ + Động từ/Tính từ + 了
+  examples:
+  - zh: 下雨了。
+    en: It's started raining.
+  - zh: 天气冷了。
+    en: The weather has turned cold.
+  - zh: 我的手机坏了。
+    en: My phone is broken.
+- id: hsk1-g015
+  hsk_code: 一级-语法-015
+  title: 'Giới từ 从 (từ): chỉ điểm bắt đầu về nơi chốn, thời gian'
+  explanation_vi: 从 nghĩa là "từ", dùng để nói điểm xuất phát của nơi chốn hoặc thời gian. Cụm "从 + nơi
+    chốn/thời gian" luôn đứng TRƯỚC động từ, khác với tiếng Việt "đến từ Việt Nam". Người Việt hay nói
+    sai ~~我来从中国~~, phải nói 我从中国来. Hay đi kèm 到 thành cấu trúc "从 A 到 B" = từ A đến B.
+  pattern: Chủ ngữ + 从 + nơi chốn/thời gian + động từ；从 A 到 B
+  examples:
+  - zh: 我从北京来。
+    en: I come from Beijing.
+  - zh: 从这儿到机场很远。
+    en: It's far from here to the airport.
+  - zh: 我从早上到晚上都在家。
+    en: I'm at home from morning till evening.
+- id: hsk1-g010
+  hsk_code: 一级-语法-010
+  title: 'Phó từ phạm vi, cùng nhau: 都, 一块儿, 一起'
+  explanation_vi: '都 (đều), 一起 và 一块儿 (cùng nhau) là phó từ, nên luôn đứng sau chủ ngữ và trước động từ,
+    khác với thứ tự "đi cùng nhau" trong tiếng Việt. 都 gom lại những người hoặc vật đã nhắc tới phía trước,
+    nên chủ ngữ thường ở số nhiều. 一块儿 mang tính khẩu ngữ hơn 一起. Hai từ này hay đi kèm 跟/和: 我跟你一起去.'
+  pattern: Chủ ngữ + 都 / 一起 / 一块儿 + Động từ
+  examples:
+  - zh: 我们一起去吧。
+    en: Let's go together.
+  - zh: 他们一块儿吃饭。
+    en: They eat together.
+  - zh: 我们都是学生。
+    en: We are all students.
+- id: hsk1-g017
+  hsk_code: 一级-语法-017
+  title: 'Giới từ dẫn đối tượng: 跟, 和'
+  explanation_vi: 跟 và 和 đặt trước một người để chỉ "cùng với ai" hoặc "với ai". Cả cụm 跟/和 + người phải
+    đứng trước động từ, không đặt ở cuối câu như tiếng Việt. Thường thêm 一起 hoặc 一块儿 sau cụm này để nhấn
+    mạnh việc làm cùng nhau. Trong khẩu ngữ, 跟 được dùng nhiều hơn.
+  pattern: A + 跟/和 + B + (一起) + Động từ
+  examples:
+  - zh: 我跟朋友一起去。
+    en: I'm going with a friend.
+  - zh: 我和他见面。
+    en: I'm meeting him.
+  - zh: 你跟我来。
+    en: Come with me.
+- id: hsk1-g021
+  hsk_code: 一级-语法-021
+  title: Trợ từ động thái 了 (hoàn thành)
+  explanation_vi: '了 đặt ngay sau động từ để cho biết hành động đã hoàn thành. Nếu sau động từ có tân
+    ngữ, tân ngữ thường kèm số lượng hoặc thông tin cụ thể (买了一本书). Khi phủ định thì dùng 没 + động từ
+    và bỏ 了 đi: nói 我没去, không nói ~~我没去了~~. Muốn nói "vẫn chưa" thì dùng 还没.'
+  pattern: 'Động từ + 了 (+ Tân ngữ); phủ định: 没 + Động từ'
+  examples:
+  - zh: 我买了一本书。
+    en: I bought a book.
+  - zh: 他回到了北京。
+    en: He got back to Beijing.
+  - zh: 我还没吃。
+    en: I haven't eaten yet.
+- id: hsk1-g031
+  hsk_code: 一级-语法-031
+  title: Câu không chủ vị
+  explanation_vi: Câu không chủ vị chỉ gồm một từ hoặc một cụm từ, không có chủ ngữ rõ ràng nhưng vẫn
+    đủ nghĩa. Loại câu này hay dùng khi chào hỏi, mời mọc, ra lệnh hoặc nói về thời tiết, hiện tượng tự
+    nhiên. Tiếng Việt cũng có kiểu câu này, ví dụ "Mời vào!", "Mưa rồi!".
+  pattern: Từ/cụm từ + (吧/了/！)
+  examples:
+  - zh: 一会儿见！
+    en: See you soon!
+  - zh: 请进！
+    en: Come in, please!
+  - zh: 下雨了。
+    en: It's raining.

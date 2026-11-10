@@ -1,0 +1,159 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u24.json.
+id: hsk3-u24
+stage: hsk3
+order: 24
+title: Văn hóa và nghệ thuật
+description: Giới thiệu văn hóa truyền thống, lễ hội, văn học và nghệ thuật Trung Quốc.
+lessons:
+- id: hsk3-u24-l01
+  title: Truyền thuyết và văn hóa xưa
+  new_words:
+  - 文化
+  - 古
+  - 古代
+  - 传说
+  - 民间
+  - 龙
+  - 属
+  sentences:
+  - id: s-hsk3-u24-001
+    zh: 古代中国没有椅子。
+    en: There were no chairs in ancient China.
+    pinyin: gǔ dài zhōng guó méi yǒu yǐ zi
+    tatoeba_id: 5995377
+  - id: s-hsk3-u24-002
+    zh: 他们有他们自己的文化。
+    en: They had a culture of their own.
+    pinyin: tā men yǒu tā men zì jǐ de wén huà
+    tatoeba_id: 333199
+  - id: s-hsk3-u24-003
+    zh: 这是一个民间传说。
+    en: This is a folk legend.
+    pinyin: zhè shì yí ge mínjiān chuánshuō
+  - id: s-hsk3-u24-004
+    zh: 我属龙。
+    en: I was born in the Year of the Dragon.
+    pinyin: wǒ shǔ lóng
+  tips:
+    传说: '传 có âm Hán Việt là truyền, 说 có âm Hán Việt là thuyết → dễ nhớ nghĩa "truyền thuyết". 传 gồm
+      bộ nhân 亻 + 专. Phát âm chuán: ch uốn lưỡi và bật hơi mạnh, khác hẳn "ch" tiếng Việt.'
+    古代: '古 = 十 + 口: "mười cái miệng kể lại" → chuyện xưa, cổ. 古 có âm Hán Việt là cổ. Thanh 3 của 古 đứng
+      trước thanh 4 nên chỉ đọc nửa thanh 3 (hạ thấp, không vút lên như dấu hỏi): gǔdài.'
+    属: 'Hỏi tuổi con giáp dùng 属: 我属龙 = tôi tuổi Rồng. Người Việt hay nói sai ~~我是龙~~ (thành "tôi là con
+      rồng"). shǔ: sh uốn lưỡi, thanh 3.'
+    民间: '民 có âm Hán Việt là dân, 间 có âm Hán Việt là gian → "dân gian". 间 gồm 门 (cửa) + 日 (mặt trời):
+      ánh nắng lọt qua khe cửa → khoảng giữa.'
+- id: hsk3-u24-l02
+  title: Lễ hội và lời chúc
+  new_words:
+  - 庆祝
+  - 祝
+  - 福
+  - 纪念
+  - 束
+  - 特色
+  sentences:
+  - id: s-hsk3-u24-005
+    zh: 我们庆祝了他的生日。
+    en: We celebrated his birthday.
+    pinyin: wǒ men qìng zhù le tā de shēng rì
+    tatoeba_id: 380863
+  - id: s-hsk3-u24-006
+    zh: 祝你健康！
+    en: To your health!
+    pinyin: zhù nǐ jiàn kāng
+    tatoeba_id: 1216141
+  - id: s-hsk3-u24-007
+    zh: 我送给妈妈一束花。
+    en: I gave my mother a bunch of flowers.
+    pinyin: wǒ sòng gěi māma yí shù huā
+  - id: s-hsk3-u24-008
+    zh: 你们这儿什么菜最有特色？
+    en: What's your most special dish?
+    pinyin: nǐ men zhè ér shén me cài zuì yǒu tè sè
+    tatoeba_id: 10541554
+  tips:
+    祝: '祝 có âm Hán Việt là chúc. Bộ 礻 (liên quan cúng bái, cầu khấn) + 兄. Phân biệt: 祝 + người + lời
+      chúc (祝你健康), còn 庆祝 + dịp/sự kiện (庆祝生日). Sai: ~~庆祝你健康~~. zhù: zh uốn lưỡi, không bật hơi.'
+    福: 福 có âm Hán Việt là phúc, cũng có bộ 礻 giống 祝. Tết người Trung Quốc hay dán chữ 福 ngược, vì 福倒了
+      (phúc bị ngược) nghe giống 福到了 (phúc đến rồi).
+    纪念: '纪 có âm Hán Việt là kỉ, 念 có âm Hán Việt là niệm → "kỉ niệm". 念 = 今 (bây giờ) + 心 (tim): giờ
+      vẫn còn giữ trong lòng.'
+    束: '束 là lượng từ "bó": 一束花 (một bó hoa). 一 đứng trước thanh 4 đổi thành yí. Đừng nhầm 束 với 树 (cây),
+      dù cả hai đều đọc shù.'
+- id: hsk3-u24-l03
+  title: Văn học, tác giả và độc giả
+  grammar: hsk3-g060
+  new_words:
+  - 文学
+  - 作者
+  - 读者
+  - 作品
+  - 创作
+  - 生动
+  sentences:
+  - id: s-hsk3-u24-009
+    zh: 我也很喜欢文学。
+    en: I, too, like literature very much.
+    pinyin: wǒ yě hěn xǐ huān wén xué
+    tatoeba_id: 9989912
+  - id: s-hsk3-u24-010
+    zh: 这位作者也写小说，也写文章。
+    en: This author writes both novels and essays.
+    pinyin: zhè wèi zuòzhě yě xiě xiǎoshuō, yě xiě wénzhāng
+  - id: s-hsk3-u24-011
+    zh: 他的作品写得很生动。
+    en: His works are written very vividly.
+    pinyin: tā de zuòpǐn xiě de hěn shēngdòng
+  - id: s-hsk3-u24-012
+    zh: 读者都很喜欢这本书。
+    en: The readers all like this book very much.
+    pinyin: dúzhě dōu hěn xǐhuan zhè běn shū
+  tips:
+    作者: '作 có âm Hán Việt là tác, 读 có âm Hán Việt là độc. 者 gắn sau động từ để chỉ "người làm việc đó":
+      作者 = người viết, 读者 = người đọc. zuòzhě: z đầu lưỡi thẳng, không uốn; zh uốn lưỡi.'
+    作品: '品 có âm Hán Việt là phẩm, gồm ba chữ 口 xếp chồng. 作品 = tác phẩm. Lượng từ thường dùng: 部 hoặc
+      篇 (一篇作品).'
+    创作: 创 có âm Hán Việt là sáng, 作 có âm Hán Việt là tác → "sáng tác". 创 có bộ đao 刂 bên phải. Đọc chuàngzuò,
+      đừng đọc thành zhuàng.
+    生动: '生 có âm Hán Việt là sinh, 动 có âm Hán Việt là động → "sinh động". Hay đi sau 得 để khen: 写得很生动,
+      讲得很生动.'
+- id: hsk3-u24-l04
+  title: Nghệ thuật, hội họa và sân khấu
+  new_words:
+  - 艺术
+  - 美术
+  - 图画
+  - 京剧
+  - 话剧
+  sentences:
+  - id: s-hsk3-u24-013
+    zh: 我喜欢艺术。
+    en: I like art.
+    pinyin: wǒ xǐ huān yì shù
+    tatoeba_id: 10371714
+  - id: s-hsk3-u24-014
+    zh: 那些图画是他画的。
+    en: Those pictures were painted by him.
+    pinyin: nà xiē tú huà shì tā huà de
+    tatoeba_id: 886584
+  - id: s-hsk3-u24-015
+    zh: 你看过京剧吗？
+    en: Have you ever seen Beijing opera?
+    pinyin: nǐ kànguo jīngjù ma
+  - id: s-hsk3-u24-016
+    zh: 我们晚上去看话剧吧。
+    en: Let's go see a play tonight.
+    pinyin: wǒmen wǎnshang qù kàn huàjù ba
+  tips:
+    美术: '美术 chỉ ngành vẽ, điêu khắc…, còn 艺术 rộng hơn: gồm cả âm nhạc, sân khấu, điện ảnh. 术 có âm Hán
+      Việt là thuật, đọc shù thanh 4.'
+    京剧: '京 có âm Hán Việt là kinh, giống trong 北京 → 京剧 là loại kịch hát của Bắc Kinh. 剧 đọc jù: sau j
+      thì u thực ra là ü, môi tròn như đọc "uy" mà giữ nguyên khẩu hình.'
+    话剧: 话 có âm Hán Việt là thoại. 话剧 là kịch nói, diễn viên chỉ nói, không hát như 京剧. Cả hai đều có
+      bộ đao 刂 trong chữ 剧.
+    图画: '图 có âm Hán Việt là đồ, 画 có âm Hán Việt là hoạ. 图 có bộ vi 囗 bao quanh như khung tranh. Lượng
+      từ dùng 张: 一张图画.'
+- id: hsk3-u24-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

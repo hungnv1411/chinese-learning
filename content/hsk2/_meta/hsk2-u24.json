@@ -1,0 +1,57 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T07:43:44",
+  "prompt_sha256": [
+    "5593c641dc0d45ef18369f26677601cb2a85cf7f85c567959c0b783738bf7e3b",
+    "bef7e7593a4aa69f480bca9bdf50cecf8bf8b91b595fd5107ce4e85a46a26634",
+    "227cc4dd980d50a049db719320b7503d537c90998c8a15753e6251dd402478f1"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk2-u24-016",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi \"dé\" cho 得 trong 你得行动了. Ở đây 得 nghĩa là \"phải\" và đọc děi. Chính tip của bài (hsk2-u24-l04) cũng nói đọc děi, nên câu và tip mâu thuẫn nhau.",
+      "suggestion": "Sửa pinyin thành \"nǐ děi xíngdòng le\"."
+    },
+    {
+      "where": "s-hsk2-u24-003",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi \"dā yìng\", nhưng từ mới và tip ghi 答应 là dāying với 应 thanh nhẹ. Hai chỗ mâu thuẫn nhau.",
+      "suggestion": "Sửa pinyin thành \"wǒ dāying le\", cho khớp từ mới và tip."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u24-016",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"You have to move\" dễ bị hiểu là \"di chuyển\" hoặc \"dọn đi\". Ở đây 行动 nghĩa là \"hành động, bắt tay vào làm\".",
+      "suggestion": "Dịch thành \"You need to take action.\" hoặc \"It's time to act.\""
+    },
+    {
+      "where": "s-hsk2-u24-014",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"Did you meet her?\" làm mất nghĩa \"tình cờ gặp\" của 碰见, trong khi tip của bài nhấn mạnh nghĩa này.",
+      "suggestion": "Dịch thành \"Have you run into her?\" hoặc \"Did you happen to run into her?\""
+    },
+    {
+      "where": "hsk2-u24-l04 (tip 受到)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu giải thích âm sh bị rối: \"giống chữ 's' khi đọc phân biệt rõ 's' với 'x'\". Người học khó hiểu cách đọc. Phần cách dùng 受到 thì đúng.",
+      "suggestion": "Viết lại gọn, ví dụ: \"sh: cong đầu lưỡi lên gần vòm miệng rồi đọc như 's' nặng, khác với s (lưỡi phẳng) và x (mặt lưỡi gần vòm cứng).\""
+    }
+  ],
+  "machine_warnings": [
+    "u24-quan-he-va-cach-cu-xu.yaml:77: [sentence_unlearned_word] Câu s-hsk2-u24-008 (bài hsk2-u24-l02) dùng từ chưa học: 不好",
+    "u24-quan-he-va-cach-cu-xu.yaml:145: [sentence_unlearned_word] Câu s-hsk2-u24-013 (bài hsk2-u24-l04) dùng từ chưa học: 不是故意"
+  ],
+  "han_viet_proposed": []
+}

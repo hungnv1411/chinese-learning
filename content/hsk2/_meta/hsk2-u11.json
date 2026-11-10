@@ -1,0 +1,33 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-09T03:13:26",
+  "prompt_sha256": [
+    "7a88b0efc2a3d442851c3373e6ec84cd28c2a42482ceb865889a98dbbf1af626"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u11-015",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "「我们街对面」nghe hơi gượng. Người bản xứ ít nói「我们街」(phố của chúng tôi) như vậy. Câu tiếng Anh \"across the street from us\" thường được diễn đạt khác trong tiếng Trung.",
+      "suggestion": "Đổi thành 他住在我们家对面。 (pinyin: tā zhù zài wǒmen jiā duìmiàn) hoặc 他住在街对面。 Cả hai đều chỉ dùng từ đã học."
+    }
+  ],
+  "machine_warnings": [
+    "u11-nha-o-va-khu-pho.yaml:25: [sentence_unlearned_word] Câu s-hsk2-u11-002 (bài hsk2-u11-l01) dùng từ chưa học: 一套, 小房子",
+    "u11-nha-o-va-khu-pho.yaml:29: [sentence_unlearned_word] Câu s-hsk2-u11-003 (bài hsk2-u11-l01) dùng từ chưa học: 座楼, 二十",
+    "u11-nha-o-va-khu-pho.yaml:140: [sentence_unlearned_word] Câu s-hsk2-u11-013 (bài hsk2-u11-l04) dùng từ chưa học: 市中心, 一个",
+    "u11-nha-o-va-khu-pho.yaml:144: [sentence_unlearned_word] Câu s-hsk2-u11-014 (bài hsk2-u11-l04) dùng từ chưa học: 很多"
+  ],
+  "han_viet_proposed": [
+    "套",
+    "椅",
+    "澡",
+    "街"
+  ]
+}

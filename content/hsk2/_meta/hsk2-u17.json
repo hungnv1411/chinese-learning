@@ -1,0 +1,35 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:29:24",
+  "prompt_sha256": [
+    "5bba98a0aa4dbeb8c38f6a5bc2f7e1889611094ae1e8d606e28f5e63059e1700",
+    "8fddb8af8c6ebe825165258ddfb9bdc0cb1532275f1d11588b96104fc5d1e625"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u17-005",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu dùng dấu hỏi nửa chiều (?) trong khi các câu khác dùng dấu hỏi toàn chiều (？).",
+      "suggestion": "Đổi thành 你喜欢听什么音乐？ cho thống nhất."
+    },
+    {
+      "where": "s-hsk2-u17-009",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch 'His joke was great.' hơi lỏng so với 很有意思 (rất thú vị). Câu này lại nằm ở bài dạy từ 有意思.",
+      "suggestion": "Dịch 'His joke was very interesting.' hoặc 'The joke he told was really amusing.'"
+    }
+  ],
+  "machine_warnings": [
+    "u17-giai-tri-va-le-hoi.yaml:70: [sentence_unlearned_word] Câu s-hsk2-u17-007 (bài hsk2-u17-l02) dùng từ chưa học: 这个, 两遍",
+    "u17-giai-tri-va-le-hoi.yaml:74: [sentence_unlearned_word] Câu s-hsk2-u17-008 (bài hsk2-u17-l02) dùng từ chưa học: 去过, 两次",
+    "u17-giai-tri-va-le-hoi.yaml:143: [sentence_pinyin_mismatch] Câu s-hsk2-u17-014: pinyin ghi 'Nǐmen zài nǎr guònián?', pypinyin cho 'nǐ men zài nǎ ér guò nián'"
+  ],
+  "han_viet_proposed": []
+}

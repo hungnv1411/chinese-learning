@@ -1,0 +1,68 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T02:55:43",
+  "prompt_sha256": [
+    "779c9fe0a386689b6f45323cb65a59cff4913780800a8f2e368698eddfd33b08",
+    "ae449d82b83eb5f61b8522d8099574aa25a3617ada1c70833f2868900537c268"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u05-008",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"hard up for money\" là thành ngữ, lệch với 钱不够 (không đủ tiền) mà bài đang dạy, dễ làm người học hiểu sai nghĩa của 不够.",
+      "suggestion": "Đổi thành \"She doesn't have enough money.\""
+    },
+    {
+      "where": "s-hsk2-u05-008",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"bù gòu\", nhưng tip 不够 dạy đọc búgòu, và s-hsk2-u05-006 đã ghi biến điệu (yígòng). Quy ước ghi thanh điệu không thống nhất.",
+      "suggestion": "Ghi \"tā qián bú gòu\" hoặc thêm ghi chú rằng pinyin của câu Tatoeba ghi thanh gốc."
+    },
+    {
+      "where": "hsk2-u05-l01",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip 顾客 nói \"Không nói 我是客人 khi đi mua sắm\". Câu này gây hiểu lầm: 客人 không sai, và cửa hàng vẫn dùng 客人 để gọi khách. Tip còn dùng 客人 là từ chưa học.",
+      "suggestion": "Bỏ vế về 客人. Chỉ giữ \"顾客 = khách hàng, người đến mua đồ\"."
+    },
+    {
+      "where": "hsk2-u05-l01",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Từ mới 顾客 không có câu ví dụ nào trong bài.",
+      "suggestion": "Thêm một câu dùng 顾客, ví dụ 这家店的顾客很多。"
+    },
+    {
+      "where": "hsk2-u05-l02",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Từ mới 省 không có câu ví dụ nào trong bài (tip có nhắc 省钱 nhưng không có câu).",
+      "suggestion": "Thêm một câu dùng 省, ví dụ 在超市买东西可以省钱。"
+    },
+    {
+      "where": "hsk2-u05-l04",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Từ mới 服务 không có câu ví dụ nào trong bài.",
+      "suggestion": "Thêm một câu dùng 服务, ví dụ 这家店的服务很好。"
+    }
+  ],
+  "machine_warnings": [
+    "u05-mua-sam-va-tien-bac.yaml:60: [sentence_pinyin_mismatch] Câu s-hsk2-u05-005: pinyin ghi 'Qǐng bāng wǒ chēng yíxiàr.', pypinyin cho 'qǐng bāng wǒ chēng yī xià ér'",
+    "u05-mua-sam-va-tien-bac.yaml:62: [sentence_unlearned_word] Câu s-hsk2-u05-006 (bài hsk2-u05-l02) dùng từ chưa học: 十二块, 五角",
+    "u05-mua-sam-va-tien-bac.yaml:138: [sentence_unlearned_word] Câu s-hsk2-u05-013 (bài hsk2-u05-l04) dùng từ chưa học: 很多",
+    "u05-mua-sam-va-tien-bac.yaml:142: [sentence_unlearned_word] Câu s-hsk2-u05-014 (bài hsk2-u05-l04) dùng từ chưa học: 你家"
+  ],
+  "han_viet_proposed": [
+    "卡",
+    "够",
+    "换"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T02:51:00",
+  "prompt_sha256": [
+    "44e709ab8efd3f08d09d814d0b7aac0a5c327346ba20c8149ceb597cda6399b8",
+    "5de13c0dff2912d2ba1fecde2e37e871f5acd0a0cb9d1a48ab7314f37e064d82",
+    "c440db8467ac463e35fb106e8e24aea5929086f9f27cc37be82c66bac63afa72"
+  ],
+  "review_unresolved": [
+    {
+      "where": "hsk2-u04-l03 (tips.油)",
+      "category": "grammar_explanation",
+      "severity": "error",
+      "problem": "Tip ghi \"油 có âm Hán Việt là dầu\". Sai: \"dầu\" là từ thuần Việt. Âm Hán Việt của 油 là \"du\", như trong thạch du (石油) và du điền (油田). Ghi như vậy làm người học hiểu sai mẹo liên tưởng âm Hán Việt. Tip 鱼 ở cùng bài lại nói đừng đọc yú thành \"du\", nên dễ gây rối.",
+      "suggestion": "Sửa thành: \"油 có âm Hán Việt là du (như trong 石油 = thạch du), nghĩa là dầu, mỡ.\" Có thể bỏ cụm \"du hay diu\" trong tip 鱼 hoặc đổi sang ví dụ phát âm khác."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "hsk2-u04-l04 (tips.瓶)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip khẳng định 瓶子 \"không dùng làm lượng từ\" và đánh dấu sai ~~一瓶子水~~. Khẩu ngữ, nhất là phương Bắc, vẫn nói 一瓶子水, 一瓶子醋. Thành ngữ 半瓶子醋 cũng dùng cấu trúc này. Nên không coi là lỗi tuyệt đối.",
+      "suggestion": "Viết nhẹ hơn: \"Khi đếm chai, nên dùng 瓶 trực tiếp: 一瓶水, 两瓶酒. 瓶子 là danh từ 'cái chai'.\" Bỏ dấu gạch ngang ~~一瓶子水~~."
+    }
+  ],
+  "machine_warnings": [
+    "u04-an-uong.yaml:33: [sentence_unlearned_word] Câu s-hsk2-u04-004 (bài hsk2-u04-l01) dùng từ chưa học: 吃快餐",
+    "u04-an-uong.yaml:60: [sentence_unlearned_word] Câu s-hsk2-u04-006 (bài hsk2-u04-l02) dùng từ chưa học: 这家",
+    "u04-an-uong.yaml:64: [sentence_unlearned_word] Câu s-hsk2-u04-007 (bài hsk2-u04-l02) dùng từ chưa học: 太忙, 叫外卖",
+    "u04-an-uong.yaml:144: [sentence_unlearned_word] Câu s-hsk2-u04-015 (bài hsk2-u04-l04) dùng từ chưa học: 我要, 一碗, 一瓶",
+    "u04-an-uong.yaml:178: [sentence_unlearned_word] Câu s-hsk2-u04-018 (bài hsk2-u04-l05) dùng từ chưa học: 闻闻",
+    "u04-an-uong.yaml:182: [sentence_unlearned_word] Câu s-hsk2-u04-019 (bài hsk2-u04-l05) dùng từ chưa học: 没熟, 点儿",
+    "u04-an-uong.yaml:184: [sentence_pinyin_mismatch] Câu s-hsk2-u04-019: pinyin ghi 'Ròu hái méi shú, nǐ xiān hē diǎnr shuǐ, zài chī ba.', pypinyin cho 'ròu hái méi shú nǐ xiān hē diǎn ér shuǐ zài chī ba'"
+  ],
+  "han_viet_proposed": [
+    "碗",
+    "筷",
+    "酒",
+    "闻",
+    "食",
+    "餐",
+    "饱",
+    "饺"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T03:21:05",
+  "prompt_sha256": [
+    "446f1ebed937f8c2da54abe33df54e7c0f23ffe61b5097161567894dd1a911a2",
+    "61f8b3ef333b05bca17fc007b4eb1048ccdff6657f51ca880291505d590bf5b8",
+    "5503525a205e638be88900b1e6ace8fa9f82cde697e5f678c51e04fbafc3e30b"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk2-u14-007",
+      "category": "sentence_natural",
+      "severity": "error",
+      "problem": "请说大声一点儿 là cấu trúc không chuẩn. Trong tiếng Trung phổ thông, 大声 đứng trước động từ (请大声说), hoặc dùng 请大声一点儿 / 请说得大声一点儿. Câu này còn mâu thuẫn với mẹo ở bài hsk2-u14-l02, vốn dạy 大声 đặt trước động từ.",
+      "suggestion": "Đổi thành 请大声一点儿。 (pinyin: qǐng dà shēng yìdiǎnr) hoặc 请大声说。 Sửa cả en nếu cần, ví dụ 'Please speak a bit louder.' Cũng bỏ hoặc xem lại tatoeba_id 824564 nếu câu gốc không khớp."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "hsk2-u14-l04 (tip 作业)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Mẹo so sánh âm z với 'ch' nhẹ là sai lệch. 'ch' tiếng Việt là âm ngạc, còn z là âm đầu lưỡi chạm răng, không bật hơi, nên dễ làm người học đọc sai.",
+      "suggestion": "Viết lại: 'z là âm đầu lưỡi sau răng cửa, không bật hơi, gần giống 'tz' ngắn trong 'tzu'; đừng đọc thành 'ch' hay 'd' tiếng Việt.'"
+    }
+  ],
+  "machine_warnings": [
+    "u14-trong-lop-hoc.yaml:59: [sentence_unlearned_word] Câu s-hsk2-u14-005 (bài hsk2-u14-l02) dùng từ chưa học: 认真听讲",
+    "u14-trong-lop-hoc.yaml:63: [sentence_unlearned_word] Câu s-hsk2-u14-006 (bài hsk2-u14-l02) dùng từ chưa học: 请举手",
+    "u14-trong-lop-hoc.yaml:97: [sentence_unlearned_word] Câu s-hsk2-u14-009 (bài hsk2-u14-l03) dùng từ chưa học: 这道题, 听懂",
+    "u14-trong-lop-hoc.yaml:101: [sentence_unlearned_word] Câu s-hsk2-u14-010 (bài hsk2-u14-l03) dùng từ chưa học: 不太",
+    "u14-trong-lop-hoc.yaml:107: [sentence_pinyin_mismatch] Câu s-hsk2-u14-011: pinyin ghi 'lǎoshī, qǐng zài chóngfù yíxiàr', pypinyin cho 'lǎo shī qǐng zài chóng fù yī xià ér'",
+    "u14-trong-lop-hoc.yaml:135: [sentence_unlearned_word] Câu s-hsk2-u14-013 (bài hsk2-u14-l04) dùng từ chưa học: 我读, 三遍",
+    "u14-trong-lop-hoc.yaml:139: [sentence_unlearned_word] Câu s-hsk2-u14-014 (bài hsk2-u14-l04) dùng từ chưa học: 两遍"
+  ],
+  "han_viet_proposed": [
+    "懂",
+    "遍",
+    "题"
+  ]
+}

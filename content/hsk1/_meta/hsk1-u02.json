@@ -1,0 +1,90 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:15:47",
+  "prompt_sha256": [
+    "2c0003bcdf091c931571ec40732805c45c92c7333dd237adfb220773edf7d5bb",
+    "c06155827f1131feae3593a02e2f95ed080d378374d113486b589492b0d5ba95",
+    "35723d1bc337e71a8bfa2b4a5465d8eb957f7b1189002d1057997be8823c9183"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk1-u02-010",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin \"wǒ shì nǚ rén\" tách 女人 thành hai âm tiết rời và thiếu dấu câu cuối. 女人 là một từ (nǚrén), nên không khớp với cách viết ở các câu khác.",
+      "suggestion": "Sửa thành \"wǒ shì nǚrén.\" và thêm dấu câu vào zh: 我是女人。"
+    },
+    {
+      "where": "s-hsk1-u02-025",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin \"wǒ hǎo gāo xìng\" tách 高兴 thành hai âm tiết. Từ này phải viết liền, và câu thiếu dấu câu cuối.",
+      "suggestion": "Sửa thành \"wǒ hǎo gāoxìng.\" và zh: 我好高兴。"
+    },
+    {
+      "where": "s-hsk1-u02-026",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin \"wǒ bù gāo xìng\" tách 高兴 thành hai âm tiết và thiếu dấu câu cuối.",
+      "suggestion": "Sửa thành \"wǒ bù gāoxìng.\" và zh: 我不高兴。"
+    },
+    {
+      "where": "s-hsk1-u02-030",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin \"wǒ men shì shuí\" tách 我们 thành hai âm tiết và thiếu dấu câu. Câu này dùng \"shuí\" còn s-029 dùng \"shéi\", nên cách đọc 谁 không thống nhất.",
+      "suggestion": "Sửa thành \"wǒmen shì shéi?\" (hoặc dùng shuí ở cả hai câu) và thêm dấu câu vào zh."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u02-030",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"我们是谁？\" (Who are we?) mang tính triết lý, ít dùng trong đời thường. Câu cũng không có 请 và không liên quan đến chủ điểm \"mời khách, hỏi lịch sự\" của bài l08.",
+      "suggestion": "Thay bằng câu có 请 và dùng từ đã học, ví dụ 请问，他是谁？ hoặc 请坐，朋友们！"
+    },
+    {
+      "where": "s-hsk1-u02-008",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin \"nǚ péngyou\" tách 女朋友 thành hai phần, trong khi đây là một từ. Câu 我没女朋友 (không có 有) cũng thiên về khẩu ngữ.",
+      "suggestion": "Sửa pinyin thành \"wǒ méi nǚpéngyou.\" Có thể đổi thành câu khác, ví dụ 他没有女朋友, nếu muốn dùng 没有 (có thể cần thêm 有 vào từ đã học)."
+    },
+    {
+      "where": "s-hsk1-u02-007",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "不用 là một từ (bùyòng, đọc búyòng khi biến điệu) nhưng pinyin viết tách \"bú yòng\".",
+      "suggestion": "Viết liền: \"búyòng, xièxie.\""
+    },
+    {
+      "where": "s-hsk1-u02-015",
+      "category": "english",
+      "severity": "warning",
+      "problem": "老人 nghĩa là người già. Bản dịch \"I'm not old\" làm mất sắc thái danh từ của 老人 sau 是.",
+      "suggestion": "Dịch: \"I'm not an old person, and neither is he.\""
+    }
+  ],
+  "machine_warnings": [
+    "u02-chao-hoi-va-lam-quen.yaml:19: [sentence_unlearned_word] Câu s-hsk1-u02-001 (bài hsk1-u02-l01) dùng từ chưa học: 你好",
+    "u02-chao-hoi-va-lam-quen.yaml:101: [sentence_unlearned_word] Câu s-hsk1-u02-012 (bài hsk1-u02-l03) dùng từ chưa học: 不是, 李小姐",
+    "u02-chao-hoi-va-lam-quen.yaml:125: [sentence_unlearned_word] Câu s-hsk1-u02-015 (bài hsk1-u02-l04) dùng từ chưa học: 不是",
+    "u02-chao-hoi-va-lam-quen.yaml:172: [sentence_unlearned_word] Câu s-hsk1-u02-020 (bài hsk1-u02-l06) dùng từ chưa học: 李月",
+    "u02-chao-hoi-va-lam-quen.yaml:201: [sentence_unlearned_word] Câu s-hsk1-u02-024 (bài hsk1-u02-l07) dùng từ chưa học: 王明",
+    "u02-chao-hoi-va-lam-quen.yaml:233: [sentence_unlearned_word] Câu s-hsk1-u02-028 (bài hsk1-u02-l08) dùng từ chưa học: 王先生",
+    "u02-chao-hoi-va-lam-quen.yaml:237: [sentence_unlearned_word] Câu s-hsk1-u02-029 (bài hsk1-u02-l08) dùng từ chưa học: 李小姐",
+    "u02-chao-hoi-va-lam-quen.yaml:239: [sentence_pinyin_polyphone] Câu s-hsk1-u02-029: pinyin ghi 'qǐngwèn, shéi shì Lǐ xiǎojiě?', pypinyin cho 'qǐng wèn shuí shì lǐ xiǎo jiě' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u02-chao-hoi-va-lam-quen.yaml:261: [sentence_unlearned_word] Câu s-hsk1-u02-031 (bài hsk1-u02-l09) dùng từ chưa học: 王先生",
+    "u02-chao-hoi-va-lam-quen.yaml:265: [sentence_unlearned_word] Câu s-hsk1-u02-032 (bài hsk1-u02-l09) dùng từ chưa học: 不是, 李小姐"
+  ],
+  "han_viet_proposed": [
+    "坐",
+    "识",
+    "问"
+  ]
+}

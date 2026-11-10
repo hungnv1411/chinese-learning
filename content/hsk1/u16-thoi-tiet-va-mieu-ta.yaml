@@ -1,0 +1,249 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u16.json.
+id: hsk1-u16
+stage: hsk1
+order: 16
+title: Thời tiết và miêu tả
+description: Biết nói về thời tiết, miêu tả đồ vật, cảm xúc và so sánh hai sự vật.
+lessons:
+- id: hsk1-u16-l01
+  title: Trời nóng hay lạnh?
+  grammar: hsk1-g030
+  new_words:
+  - 天气
+  - 冷
+  - 热
+  - 很
+  sentences:
+  - id: s-hsk1-u16-001
+    zh: 天气很冷。
+    en: It's cold.
+    pinyin: tiān qì hěn lěng
+    tatoeba_id: 1184105
+  - id: s-hsk1-u16-002
+    zh: 今天很热。
+    en: Today is very warm.
+    pinyin: jīn tiān hěn rè
+    tatoeba_id: 343752
+  - id: s-hsk1-u16-003
+    zh: 这里很冷。
+    en: It's very cold here.
+    pinyin: zhè lǐ hěn lěng
+    tatoeba_id: 381930
+  - id: s-hsk1-u16-004
+    zh: 你不冷吗？
+    en: Aren't you cold?
+    pinyin: nǐ bù lěng ma
+    tatoeba_id: 8673739
+  tips:
+    很: 'Lỗi hay gặp: người Việt dịch ''tôi lạnh'' thành ~~我是冷~~. Trước tính từ không dùng 是, mà dùng 很:
+      我很冷. Chú ý 很 hěn và 冷 lěng đều thanh 3, đi liền nhau thì 很 đọc gần như thanh 2: hén lěng.'
+    冷: '冷 có bộ băng 冫 (hai chấm bên trái = nước đá) ghép với 令. Thấy hai chấm là nghĩ ngay tới ''lạnh''.
+      lěng là thanh 3: hạ giọng xuống thấp rồi hơi lên, đừng đọc cao vút như dấu hỏi tiếng Việt.'
+    热: 热 có bốn chấm 灬 ở dưới là bộ hỏa (lửa) → nóng. 热 có âm Hán Việt là nhiệt. Âm r trong rè không rung
+      lưỡi như 'r' miền Nam, mà uốn đầu lưỡi lên gần vòm miệng, nghe giống 'gi' nặng hơi.
+    天气: 'q trong qì không đọc như ''qu'' tiếng Việt, mà gần ''ch'' có bật hơi mạnh, môi dẹt: ''chi'' kèm
+      luồng hơi. 天 có âm Hán Việt là thiên, 气 có âm Hán Việt là khí.'
+- id: hsk1-u16-l02
+  title: Gió và mưa
+  grammar: hsk1-g040
+  new_words:
+  - 风
+  - 雨
+  - 下雨
+  sentences:
+  - id: s-hsk1-u16-005
+    zh: 下雨了。
+    en: It's started raining.
+    pinyin: xià yǔ le
+  - id: s-hsk1-u16-006
+    zh: 天气冷了。
+    en: The weather has turned cold.
+    pinyin: tiānqì lěng le
+  - id: s-hsk1-u16-007
+    zh: 今天风很大。
+    en: It's very windy today.
+    pinyin: jīntiān fēng hěn dà
+  - id: s-hsk1-u16-008
+    zh: 在下雨吗？
+    en: Is it raining?
+    pinyin: zài xià yǔ ma
+    tatoeba_id: 10617221
+  tips:
+    雨: '雨 là chữ tượng hình: nét trên là bầu trời, bốn chấm bên trong là giọt mưa rơi. yǔ có nguyên âm
+      ü: miệng tròn như đọc ''u'' nhưng lưỡi đặt như đọc ''i''. Không đọc thành ''du'' hay ''i''.'
+    下雨: Người Trung nói 'mưa rơi xuống' 下雨, không dùng một từ đơn như 'mưa' tiếng Việt. 'Trời đang mưa'
+      = 在下雨, 'mưa rồi' = 下雨了. 下 có âm Hán Việt là hạ.
+    风: f trong fēng gần giống 'ph' tiếng Việt. eng đọc gần 'âng'. 风 có âm Hán Việt là phong. 'Gió to'
+      nói 风很大 (gió rất lớn).
+- id: hsk1-u16-l03
+  title: Hoa, núi và cây
+  grammar: hsk1-g025
+  new_words:
+  - 花
+  - 山
+  - 树
+  - 白
+  - 高
+  sentences:
+  - id: s-hsk1-u16-009
+    zh: 树在哪里？
+    en: Where is the tree?
+    pinyin: shù zài nǎ lǐ
+    tatoeba_id: 4761858
+  - id: s-hsk1-u16-010
+    zh: 你爸爸很高。
+    en: Your father is tall.
+    pinyin: nǐ bàba hěn gāo
+    tatoeba_id: 334118
+  - id: s-hsk1-u16-011
+    zh: 那里的山很高。
+    en: The mountains there are very high.
+    pinyin: nàlǐ de shān hěn gāo
+  - id: s-hsk1-u16-012
+    zh: 白花很好看。
+    en: White flowers are beautiful.
+    pinyin: bái huā hěn hǎokàn
+  tips:
+    花: 花 = bộ thảo 艹 (cỏ cây) ở trên + 化 ở dưới. 花 có âm Hán Việt là hoa, rất dễ nhớ.
+    山: 山 vẽ ba đỉnh núi, đỉnh giữa cao nhất. 山 có âm Hán Việt là sơn. sh trong shān phải uốn lưỡi, khác
+      's' tiếng Việt.
+    树: '树 có bộ mộc 木 (cây) bên trái. 树 có âm Hán Việt là thụ. shù: uốn lưỡi sh, thanh 4 rơi mạnh từ cao
+      xuống thấp.'
+    白: 'Tính từ đứng TRƯỚC danh từ: ''hoa trắng'' là 白花, ngược với tiếng Việt. 白 có âm Hán Việt là bạch.'
+- id: hsk1-u16-l04
+  title: Rất, quá, thật, nhất
+  grammar: hsk1-g009
+  new_words:
+  - 非常
+  - 太
+  - 真
+  - 最
+  sentences:
+  - id: s-hsk1-u16-013
+    zh: 我非常饿。
+    en: I'm really hungry.
+    pinyin: wǒ fēi cháng è
+    tatoeba_id: 2357636
+  - id: s-hsk1-u16-014
+    zh: 天气真好。
+    en: The weather is just perfect.
+    pinyin: tiān qì zhēn hǎo
+    tatoeba_id: 9433052
+  - id: s-hsk1-u16-015
+    zh: 今天太热了！
+    en: It's too hot today!
+    pinyin: jīntiān tài rè le
+  - id: s-hsk1-u16-016
+    zh: 我最喜欢花。
+    en: I like flowers the most.
+    pinyin: wǒ zuì xǐhuan huā
+  tips:
+    非常: 非 có âm Hán Việt là phi, 常 có âm Hán Việt là thường, nhưng 非常 trong tiếng Trung chỉ có nghĩa là
+      'rất, cực kỳ', không mang nghĩa 'phi thường' như tiếng Việt.
+    最: '最 có âm Hán Việt là tối (như ''tối đa''). Đặt 最 TRƯỚC tính từ: ''đẹp nhất'' = 最好看, không nói ~~好看最~~.'
+    太: '太 thường đi kèm 了 ở cuối: 太热了! (nóng quá!). 太 có âm Hán Việt là thái. Phân biệt với 大: 太 có thêm
+      một chấm.'
+    真: 'zh trong zhēn uốn lưỡi, không bật hơi, nghe gần ''tr'' tiếng Việt. 真 có âm Hán Việt là chân. 真
+      + tính từ mang cảm xúc: 天气真好 = trời đẹp thật.'
+- id: hsk1-u16-l05
+  title: Thật không? Tức quá!
+  grammar: hsk1-g035
+  new_words:
+  - 真的
+  - 最好
+  - 坏
+  - 生气
+  sentences:
+  - id: s-hsk1-u16-017
+    zh: 是真的吗？
+    en: Is it true?
+    pinyin: shì zhēn de ma
+    tatoeba_id: 3377988
+  - id: s-hsk1-u16-018
+    zh: 我很生气！
+    en: I'm angry!
+    pinyin: wǒ hěn shēng qì
+    tatoeba_id: 13052744
+  - id: s-hsk1-u16-019
+    zh: 你最好在家休息。
+    en: You'd better rest at home.
+    pinyin: nǐ zuìhǎo zài jiā xiūxi
+  - id: s-hsk1-u16-020
+    zh: 我的手机坏了。
+    en: My phone is broken.
+    pinyin: wǒ de shǒujī huài le
+  tips:
+    生气: 生 có âm Hán Việt là sinh, 气 có âm Hán Việt là khí, nhưng 生气 nghĩa là 'tức giận', không phải 'sinh
+      khí' tiếng Việt. 我很生气 = tôi rất tức.
+    最好: '最好 ngoài nghĩa ''tốt nhất'' còn dùng để khuyên: ''tốt nhất là…, nên…''. 你最好在家休息 = Tốt nhất bạn
+      nên nghỉ ở nhà. Chú ý 最好 zuìhǎo, z không bật hơi, gần ''ch'' nhẹ.'
+    坏: '坏 = bộ thổ 土 + 不. 坏 có âm Hán Việt là hoại (như ''phá hoại''). Đồ bị hỏng nói 坏了: 手机坏了.'
+    真的: '真的吗? = Thật không? Dùng khi ngạc nhiên. 真的 đặt trước tính từ cũng có nghĩa ''thật sự'': 我真的冷.'
+- id: hsk1-u16-l06
+  title: So sánh với 比
+  grammar: hsk1-g018
+  new_words:
+  - 比
+  - 不大
+  sentences:
+  - id: s-hsk1-u16-021
+    zh: 我比他高。
+    en: I am taller than he.
+    pinyin: wǒ bǐ tā gāo
+    tatoeba_id: 635805
+  - id: s-hsk1-u16-022
+    zh: 她比他大。
+    en: She's older than him.
+    pinyin: tā bǐ tā dà
+    tatoeba_id: 1178883
+  - id: s-hsk1-u16-023
+    zh: 今天比昨天热。
+    en: Today is hotter than yesterday.
+    pinyin: jīntiān bǐ zuótiān rè
+  - id: s-hsk1-u16-024
+    zh: 我不大喜欢吃肉。
+    en: I don't really like eating meat.
+    pinyin: wǒ bú dà xǐhuan chī ròu
+  tips:
+    比: 'Lỗi hay gặp: ~~我比他很高~~. Trong câu có 比 không thêm 很, 非常: 我比他高. 比 có âm Hán Việt là tỉ. Hai chữ
+      匕 đứng cạnh nhau như hai người đứng so với nhau.'
+    不大: 'Biến điệu: 不 đứng trước thanh 4 đổi thành thanh 2, nên 不大 đọc là bú dà. 不大 + động từ/tính từ
+      = ''không… lắm'': 我不大喜欢 = tôi không thích lắm.'
+- id: hsk1-u16-l07
+  title: Giống nhau hay khác nhau?
+  grammar: hsk1-g038
+  new_words:
+  - 一样
+  - 觉得
+  - 最后
+  - 地
+  sentences:
+  - id: s-hsk1-u16-025
+    zh: 他没你高。
+    en: He's not as tall as you are.
+    pinyin: tā méi nǐ gāo
+    tatoeba_id: 877661
+  - id: s-hsk1-u16-026
+    zh: 我和你一样高。
+    en: I'm as tall as you.
+    pinyin: wǒ hé nǐ yíyàng gāo
+  - id: s-hsk1-u16-027
+    zh: 我觉得今天比昨天冷。
+    en: I think today is colder than yesterday.
+    pinyin: wǒ juéde jīntiān bǐ zuótiān lěng
+  - id: s-hsk1-u16-028
+    zh: 今天是最后一天。
+    en: Today is the last day.
+    pinyin: jīntiān shì zuìhòu yì tiān
+  tips:
+    一样: 'Biến điệu: 一 đứng trước thanh 4 đọc thành thanh 2, nên 一样 đọc là yíyàng. 样 có bộ mộc 木 + 羊; 样
+      có âm Hán Việt là dạng.'
+    地: 'Ba chữ cùng đọc de: 的 (trước danh từ: 我的书), 地 (trước động từ: 高兴地笑), 得 (sau động từ). 地 đọc de
+      khi là trợ từ, đọc dì khi là ''đất'' như trong 地上.'
+    觉得: 'jué: j + üe, chữ u ở đây thực ra là ü (tròn môi, lưỡi như ''i''). 得 đọc nhẹ de. 觉得 = cảm thấy,
+      thấy rằng: 我觉得冷.'
+    最后: '最后 = cuối cùng. 后 có âm Hán Việt là hậu. 最后一天 = ngày cuối cùng; 一 trước thanh 1 đọc thành thanh
+      4: yì tiān.'
+- id: hsk1-u16-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

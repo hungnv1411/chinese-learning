@@ -1,0 +1,38 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:35:43",
+  "prompt_sha256": [
+    "5c595184f403b7cf76cb945abedc71fb5240e00b5130501630c780769ff72466",
+    "59cfbbcf7004628c00c1269615d6f5c2640ce6ddede8cbef1e7b629aef8d9f0c",
+    "93eba0dbbf579bd1e07c0f62a4f5851a5da90d9313200a2a3f75479c69010dce"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u14-011",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "保存 dùng cho tiền (把钱保存在…) nghe không tự nhiên. Người bản xứ sẽ nói 保管 hoặc 放在/存在. Câu cũng lạc chủ đề bài 3 (soạn thảo, lưu file).",
+      "suggestion": "Đổi sang nghĩa 'lưu' của 保存, ví dụ: 把文件保存在电脑里。 (en: Save the file on the computer.)"
+    },
+    {
+      "where": "hsk3-u14-l04 (tip 自动)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Nói z 'đọc như ch' dễ gây nhầm với zh, vì ch tiếng Việt gần zh/ch hơn. z là âm tắc xát đầu lưỡi phẳng, không bật hơi.",
+      "suggestion": "Sửa thành: z đọc gần 'tz/tờ' ngắn, không bật hơi, đầu lưỡi chạm sau răng cửa trên, khác zh (uốn lưỡi)."
+    }
+  ],
+  "machine_warnings": [
+    "u14-thu-tu-va-internet.yaml:132: [sentence_unlearned_word] Câu s-hsk3-u14-012 (bài hsk3-u14-l04) dùng từ chưa học: 这份",
+    "u14-thu-tu-va-internet.yaml:136: [sentence_unlearned_word] Câu s-hsk3-u14-013 (bài hsk3-u14-l04) dùng từ chưa học: 录下来",
+    "u14-thu-tu-va-internet.yaml:144: [sentence_unlearned_word] Câu s-hsk3-u14-015 (bài hsk3-u14-l04) dùng từ chưa học: 一下"
+  ],
+  "han_viet_proposed": [
+    "邮"
+  ]
+}

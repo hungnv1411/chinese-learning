@@ -1,0 +1,178 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u22.json.
+id: hsk3-u22
+stage: hsk3
+order: 22
+title: Mục tiêu và thành công
+description: Nói về ước mơ, mục tiêu, kinh nghiệm và nỗ lực để thành công.
+lessons:
+- id: hsk3-u22-l01
+  title: Ước mơ, mục tiêu và số phận
+  new_words:
+  - 希望
+  - 愿望
+  - 志愿
+  - 目标
+  - 人生
+  - 命运
+  sentences:
+  - id: s-hsk3-u22-001
+    zh: 我希望你能来。
+    en: I hope you can come.
+    pinyin: wǒ xī wàng nǐ néng lái
+    tatoeba_id: 10696002
+  - id: s-hsk3-u22-002
+    zh: 我们有许多目标。
+    en: We have many goals.
+    pinyin: wǒ men yǒu xǔ duō mù biāo
+    tatoeba_id: 4504498
+  - id: s-hsk3-u22-003
+    zh: 人生是美好的。
+    en: Life is sweet.
+    pinyin: rén shēng shì měi hǎo de
+    tatoeba_id: 339488
+  - id: s-hsk3-u22-004
+    zh: 这是你的命运。
+    en: This is your fate.
+    pinyin: zhè shì nǐ de mìng yùn
+    tatoeba_id: 9467057
+  tips:
+    希望: '希望 vừa là động từ (hy vọng), vừa là danh từ (niềm hy vọng). Khi là động từ, phía sau có thể là
+      cả một câu: 我希望你能来. Khi là danh từ: 没有希望了 (hết hy vọng rồi). 望 có âm Hán Việt là vọng.'
+    愿望: '愿 có âm Hán Việt là nguyện, 望 có âm Hán Việt là vọng. Chữ 愿 có bộ tâm 心 ở dưới: mong muốn xuất
+      phát từ trong lòng. 愿望 là danh từ nên không nói ~~我愿望去中国~~, phải nói 我的愿望是去中国 hoặc 我希望去中国.'
+    志愿: '志 có âm Hán Việt là chí, 愿 có âm Hán Việt là nguyện. 志愿 là chí hướng, hoài bão; cũng dùng để
+      chỉ nguyện vọng khi đăng ký trường hoặc việc tình nguyện. Cả 志 và 愿 đều có bộ tâm 心: những việc
+      thuộc về lòng mình.'
+    命运: 命 có âm Hán Việt là mệnh, 运 có âm Hán Việt là vận. Tiếng Trung nói 命运, thứ tự ngược với “vận mệnh”
+      trong tiếng Việt, nên đừng viết ngược thành ~~运命~~.
+    人生: Âm r trong rén không rung lưỡi như “r” tiếng Việt. Hãy cong đầu lưỡi lên gần ngạc trên rồi phát
+      âm nhẹ, nghe gần giống “giờ” nhưng lưỡi uốn. 人生 là cuộc đời của một người, khác với 生活 là cuộc sống
+      hằng ngày.
+- id: hsk3-u22-l02
+  title: Thành công và thành quả
+  grammar: hsk3-g072
+  new_words:
+  - 成功
+  - 成果
+  - 成就
+  - 达到
+  - 事业
+  - 现实
+  sentences:
+  - id: s-hsk3-u22-005
+    zh: 我们成功了。
+    en: We succeeded.
+    pinyin: wǒ men chéng gōng le
+    tatoeba_id: 5102311
+  - id: s-hsk3-u22-006
+    zh: 她达到了目标。
+    en: She has achieved her goals.
+    pinyin: tā dá dào le mù biāo
+    tatoeba_id: 1577168
+  - id: s-hsk3-u22-007
+    zh: 他的努力没有成果。
+    en: Nothing has resulted from his efforts.
+    pinyin: tā de nǔ lì méi yǒu chéng guǒ
+    tatoeba_id: 332570
+  - id: s-hsk3-u22-008
+    zh: 他想达到目标，所以每天都努力学习。
+    en: He wants to reach his goal, so he studies hard every day.
+    pinyin: Tā xiǎng dádào mùbiāo, suǒyǐ měi tiān dōu nǔlì xuéxí.
+  tips:
+    成功: '成 có âm Hán Việt là thành, 功 có âm Hán Việt là công. Chữ 功 gồm 工 (công việc) và 力 (sức lực):
+      bỏ sức làm việc thì thành công. Âm ch trong chéng phải uốn lưỡi và bật hơi mạnh, khác với “ch” tiếng
+      Việt.'
+    成果: '果 có âm Hán Việt là quả, gồm 田 trên 木: cây cho quả. 成果 là “quả” thu được sau khi làm việc, như
+      学习成果 (kết quả học tập). Từ này mang nghĩa tốt, còn kết quả nói chung thì dùng 结果.'
+    成就: '成就 là thành tựu lớn, thường nói về cả sự nghiệp: 他在事业上很有成就. Còn 成果 là kết quả cụ thể của một
+      việc. Âm jiù: j giống “ch” tiếng Việt, không bật hơi.'
+    达到: 'Lỗi hay gặp: ~~达到成功~~. 达到 đi với danh từ chỉ mức độ hoặc đích đến: 达到目标, 达到要求, 达到水平. Muốn nói
+      “đạt được thành công” thì dùng 取得成功.'
+    现实: '现 có âm Hán Việt là hiện, 实 có âm Hán Việt là thực, nên dễ nhớ là “hiện thực”. Âm shí cần uốn
+      lưỡi, không đọc thành “xi”. Câu hay dùng: 现实点吧 (thực tế chút đi).'
+- id: hsk3-u22-l03
+  title: Kiên trì và quyết tâm
+  grammar: hsk3-g070
+  new_words:
+  - 坚持
+  - 坚决
+  - 决心
+  - 尽量
+  - 争
+  - 争取
+  sentences:
+  - id: s-hsk3-u22-009
+    zh: 他坚持原来的计划。
+    en: He stuck to the original plan.
+    pinyin: tā jiān chí yuán lái de jì huà
+    tatoeba_id: 805729
+  - id: s-hsk3-u22-010
+    zh: 他决心要当医生。
+    en: He made a determination to be a doctor.
+    pinyin: tā jué xīn yào dāng yī shēng
+    tatoeba_id: 2031427
+  - id: s-hsk3-u22-011
+    zh: 我明天尽量来。
+    en: I'll come tomorrow if I can.
+    pinyin: wǒ míng tiān jǐn liàng lái
+    tatoeba_id: 13210518
+  - id: s-hsk3-u22-012
+    zh: 只有坚持，才能成功。
+    en: Only by persevering can you succeed.
+    pinyin: Zhǐyǒu jiānchí, cái néng chénggōng.
+  tips:
+    坚持: '坚 có âm Hán Việt là kiên, 持 có âm Hán Việt là trì, nên dễ nhớ là “kiên trì”. 持 có bộ thủ 扌 vì
+      nó liên quan đến việc nắm giữ. Cách dùng: 坚持 + việc làm, ví dụ 坚持学习, 坚持跑步.'
+    坚决: 'Đừng nhầm 坚决 với 坚持. 坚决 là “kiên quyết”, thường đứng trước động từ để chỉ thái độ dứt khoát:
+      他坚决不去. Còn 坚持 là “bền bỉ làm tiếp” và có tân ngữ: 坚持工作.'
+    决心: '决 có âm Hán Việt là quyết, 心 có âm Hán Việt là tâm, đọc xuôi là “quyết tâm”. Cụm hay dùng: 下决心
+      (hạ quyết tâm). Âm jué: sau j thì ü viết thành u nhưng vẫn phải tròn môi đọc ü, không đọc thành
+      “u”.'
+    尽量: 'Trong từ này, 尽 đọc thanh 3 (jǐn), không đọc jìn. 尽量 đứng trước động từ: 尽量来 (cố gắng đến), 尽量早点儿睡.
+      Thanh 3 trước thanh 4 chỉ đọc nửa đầu (xuống thấp), không vút lên như dấu hỏi.'
+    争取: 'Âm zh trong zhēng uốn lưỡi và không bật hơi, khác với ch. 争 có âm Hán Việt là tranh. 争取 là cố
+      giành lấy: 争取机会, 争取时间, 争取成功. Riêng 争 còn có nghĩa “tranh cãi, giành nhau”.'
+- id: hsk3-u22-l04
+  title: Trải nghiệm, kinh nghiệm và vượt khó
+  new_words:
+  - 经历
+  - 经验
+  - 体会
+  - 体验
+  - 考验
+  - 克服
+  sentences:
+  - id: s-hsk3-u22-013
+    zh: 经验是最好的老师。
+    en: Experience is the best teacher.
+    pinyin: jīng yàn shì zuì hǎo de lǎo shī
+    tatoeba_id: 779470
+  - id: s-hsk3-u22-014
+    zh: 我们从经验中学习。
+    en: We learn by experience.
+    pinyin: wǒ men cóng jīng yàn zhōng xué xí
+    tatoeba_id: 903774
+  - id: s-hsk3-u22-015
+    zh: 他克服了自己的缺点。
+    en: He overcame his own shortcomings.
+    pinyin: Tā kèfú le zìjǐ de quēdiǎn.
+  - id: s-hsk3-u22-016
+    zh: 我想体验一下中国的生活。
+    en: I want to experience life in China.
+    pinyin: Wǒ xiǎng tǐyàn yíxià Zhōngguó de shēnghuó.
+  tips:
+    经验: '经 có âm Hán Việt là kinh, 验 có âm Hán Việt là nghiệm. 经验 là kỹ năng, bài học tích lũy được: 他很有经验.
+      Lỗi hay gặp: muốn nói “có kinh nghiệm” lại nói ~~很有经历~~. Phải nói 很有经验.'
+    经历: '历 có âm Hán Việt là lịch. 经历 là những chuyện mình đã trải qua, vừa là động từ vừa là danh từ:
+      他经历了很多事, 一段美好的经历. Cách nhớ: 经历 là chuyện đã xảy ra, còn 经验 là bài học rút ra từ những chuyện đó.'
+    体验: '体 có âm Hán Việt là thể, gồm 亻 (người) và 本. 体验 là tự mình làm thử để cảm nhận: 体验一下中国的生活. Ở
+      đây 一 trước thanh 4 đọc thành yí.'
+    体会: '体会 là hiểu ra, thấm thía sau khi trải qua: 我体会到了父母的爱. Khác với 体验 là đang trực tiếp làm thử,
+      体会 là cảm nhận và hiểu ra ở trong lòng.'
+    考验: '考 có âm Hán Việt là khảo, 验 có âm Hán Việt là nghiệm. 考验 là thử thách: 这是对你的考验. Âm kǎo thanh
+      3 đứng trước yàn thanh 4 nên chỉ đọc nửa thấp, không vút lên.'
+    克服: '克 có âm Hán Việt là khắc, 服 có âm Hán Việt là phục, nên dễ nhớ là “khắc phục”. Cách dùng: 克服
+      + khó khăn, khuyết điểm, ví dụ 克服缺点, 克服难题. Âm k trong kè bật hơi mạnh.'
+- id: hsk3-u22-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

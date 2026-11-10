@@ -1,0 +1,56 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:47:28",
+  "prompt_sha256": [
+    "661c89d34412fa9e5b49ffeac91daef063936207b995b672c72c88c368f7f583",
+    "ff0c34dc4b959ad3ebbf4e1e45a4d2680089a17fd39925d8318d43e1210bd698",
+    "1fb9f18e159cc4d456024c2932f9f064b538c74b53c51f94481d7070e4e23f06"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u17-009",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "「走去学校」nghe hơi gượng. Người bản xứ thường nói 走路去学校 hoặc 步行去学校.",
+      "suggestion": "Đổi thành 我通常走路去学校。 (走路 đã học), pinyin: wǒ tōngcháng zǒulù qù xuéxiào, en giữ nguyên."
+    },
+    {
+      "where": "s-hsk3-u17-002",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"run away\" dịch quá tay, vì 离开 chỉ có nghĩa là rời đi (leave). Câu cũng thiếu chủ ngữ nên đọc hơi cộc.",
+      "suggestion": "Dịch \"You'd better leave right away!\"."
+    },
+    {
+      "where": "hsk3-u17-l03 / tip 总是",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip ghi 我总是忙 là \"Sai\" và giải thích rằng \"是 ghép với tính từ\" nên cần 很. Nói vậy là quá tuyệt đối, vì 总是 + tính từ trần không hẳn sai mà chỉ kém tự nhiên, và lời giải thích về 是 khó hiểu. Ngoài ra \"z giống 'ch' nhẹ\" dễ làm người học nhầm với zh.",
+      "suggestion": "Viết lại: \"总是 + tính từ thường cần 很 để câu trọn ý: 我总是很忙.\" Bỏ chữ \"Sai\" và bỏ câu nói về 是. Với phát âm, nói z gần \"ts\" không bật hơi."
+    },
+    {
+      "where": "hsk3-u17-l01..l04 (pinyin các câu)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Cách ghi pinyin không thống nhất. Các câu s-001 đến s-010, s-012, s-013 và s-015 tách từng âm tiết (gǎn kuài, tū rán…). Các câu s-008, s-011, s-014 và s-016 viết liền theo từ (zǎoyǐ, wǎngwǎng, mànmàn…).",
+      "suggestion": "Chọn một quy ước chung (nên viết liền theo từ, theo chuẩn pinyin) và chuyển hết các câu về quy ước đó."
+    },
+    {
+      "where": "hsk3-u17-l01, hsk3-u17-l04",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Một số từ mới như 连忙, 连续, 已, 总, 仍 không có câu ví dụ riêng. 连忙 và 连续 không xuất hiện trong câu nào của bài.",
+      "suggestion": "Nếu có thể, thêm câu cho 连忙 và 连续, chỉ dùng từ đã học. Ví dụ: 他连忙回答了我。 / 他连续三天没睡觉。"
+    }
+  ],
+  "machine_warnings": [
+    "u17-trang-tu-thoi-gian-va-tan-suat.yaml:107: [sentence_unlearned_word] Câu s-hsk3-u17-011 (bài hsk3-u17-l03) dùng từ chưa học: 起得",
+    "u17-trang-tu-thoi-gian-va-tan-suat.yaml:145: [sentence_pinyin_polyphone] Câu s-hsk3-u17-014: pinyin ghi 'tā mànmàn de zǒu', pypinyin cho 'tā màn màn dì zǒu' (có chữ đa âm, cần rà soát riêng câu này)"
+  ],
+  "han_viet_proposed": []
+}

@@ -1,0 +1,171 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u27.json.
+id: hsk3-u27
+stage: hsk3
+order: 27
+title: Giấy tờ và thủ tục
+description: Làm thủ tục, nộp giấy tờ, hiểu quy định và tiêu chuẩn.
+lessons:
+- id: hsk3-u27-l01
+  title: Giấy tờ tùy thân và chứng minh
+  new_words:
+  - 身份证
+  - 证
+  - 证件
+  - 证明
+  - 证据
+  - 表格
+  sentences:
+  - id: s-hsk3-u27-001
+    zh: 这是我的身份证。
+    en: This is my I.D. card.
+    pinyin: zhè shì wǒ de shēn fèn zhèng
+    tatoeba_id: 471072
+  - id: s-hsk3-u27-002
+    zh: 我忘了带我的身份证。
+    en: I forgot to bring my I.D. card.
+    pinyin: wǒ wàng le dài wǒ de shēn fèn zhèng
+    tatoeba_id: 876735
+  - id: s-hsk3-u27-003
+    zh: 我们没有证据。
+    en: We have no proof.
+    pinyin: wǒ men méi yǒu zhèng jù
+    tatoeba_id: 10351916
+  - id: s-hsk3-u27-004
+    zh: 你能证明吗？
+    en: Can you prove it?
+    pinyin: nǐ néng zhèng míng ma
+    tatoeba_id: 989154
+  tips:
+    证: 'Mẹo nhớ chữ: 证 = bộ ngôn 讠 (lời nói) + 正 (đúng). Lời nói xác nhận điều đúng → chứng nhận, giấy
+      chứng nhận. 正 còn gợi âm đọc: 证 và 正 đều đọc zhèng. 证 có âm Hán Việt là chứng.'
+    证明: 证 có âm Hán Việt là chứng, 明 có âm Hán Việt là minh → rất giống từ “chứng minh” trong tiếng Việt.
+      Ngoài nghĩa động từ “chứng minh”, 证明 còn là danh từ “giấy xác nhận”, ví dụ 学校的证明 (giấy xác nhận
+      của trường).
+    身份证: '身 shēn và 证 zhèng đều là âm uốn lưỡi: cong đầu lưỡi lên chạm vòm miệng. Đừng đọc 身 như “sân”
+      hay 证 như “châng” trong tiếng Việt. 份 đọc fèn (thanh 4), nói nhanh vẫn phải giữ rõ.'
+    证据: '据 jù: sau j, q, x thì u thực chất là ü (tròn môi như nói “uy” nhưng giữ môi tròn). Người Việt
+      hay đọc thành “chù”. Cũng đừng nhầm 证据 (bằng chứng) với 证件 (giấy tờ tùy thân).'
+- id: hsk3-u27-l02
+  title: Làm thủ tục ở hải quan, đại sứ quán
+  new_words:
+  - 办理
+  - 手续
+  - 海关
+  - 大使馆
+  - 批准
+  - 正式
+  sentences:
+  - id: s-hsk3-u27-005
+    zh: 我明天去大使馆办理手续。
+    en: Tomorrow I'm going to the embassy to complete the formalities.
+    pinyin: wǒ míngtiān qù dàshǐguǎn bànlǐ shǒuxù
+  - id: s-hsk3-u27-006
+    zh: 我在等待批准。
+    en: I am waiting for approval.
+    pinyin: wǒ zài děng dài pī zhǔn
+    tatoeba_id: 761325
+  - id: s-hsk3-u27-007
+    zh: 经理批准了我们的计划。
+    en: The manager approved our plan.
+    pinyin: jīng lǐ pī zhǔn le wǒ men de jì huà
+    tatoeba_id: 844465
+  - id: s-hsk3-u27-008
+    zh: 他给了我正式批准。
+    en: He gave me his stamp of approval.
+    pinyin: tā gěi le wǒ zhèng shì pī zhǔn
+    tatoeba_id: 805196
+  tips:
+    办理: 'Biến điệu 3+3: 办理 là bàn + lǐ, không bị ảnh hưởng. Nhưng 办理手续 thì 理 lǐ (thanh 3) đứng trước 手
+      shǒu (thanh 3) nên 理 đọc gần như thanh 2: bànlí shǒuxù. 办理 thường đi với 手续, 证件: 办理手续, 办理护照.'
+    手续: '续 xù: x đọc như “x” tiếng Việt nhưng lưỡi dẹt hơn, u ở đây là ü (tròn môi). Mẹo nhớ: 续 có bộ
+      mịch 纟 (sợi tơ) → nối tiếp như sợi chỉ; thủ tục là các bước nối tiếp nhau. Lượng từ hay dùng: 一道手续.'
+    海关: '海 có âm Hán Việt là hải, 关 có âm Hán Việt là quan → giống từ “hải quan”. Chú ý: 海 hǎi là thanh
+      3, khi đứng trước 关 (thanh 1) chỉ đọc nửa thanh 3 (xuống thấp, không cần vút lên).'
+    大使馆: 大 có âm Hán Việt là đại, 使 có âm Hán Việt là sứ, 馆 có âm Hán Việt là quán → “đại sứ quán”. 使
+      shǐ là âm uốn lưỡi, đừng đọc thành “sử” kiểu tiếng Việt. 馆 có bộ thực 饣 như 饭馆.
+    批准: '批 pī: p bật hơi mạnh (đặt tờ giấy trước miệng sẽ thấy giấy rung), khác “p” tiếng Việt. 准 zhǔn
+      thanh 3 đứng cuối câu đọc đủ: xuống thấp rồi lên. Mẹo nhớ: 批 có bộ thủ 扌 → tay ký duyệt hồ sơ.'
+- id: hsk3-u27-l03
+  title: Quy định, tiêu chuẩn và tư cách
+  new_words:
+  - 规定
+  - 规范
+  - 标准
+  - 合格
+  - 合法
+  - 资格
+  sentences:
+  - id: s-hsk3-u27-009
+    zh: 这样合法吗？
+    en: Is this legal?
+    pinyin: zhè yàng hé fǎ ma
+    tatoeba_id: 2307505
+  - id: s-hsk3-u27-010
+    zh: 他写的是标准英文。
+    en: He writes correct English.
+    pinyin: tā xiě de shì biāo zhǔn yīng wén
+    tatoeba_id: 346187
+  - id: s-hsk3-u27-011
+    zh: 你有资格知道。
+    en: You have the right to know.
+    pinyin: nǐ yǒu zī gé zhī dào
+    tatoeba_id: 8501412
+  - id: s-hsk3-u27-012
+    zh: 各种规定让他失去了自由。
+    en: All kinds of rules made him lose his freedom.
+    pinyin: gè zhǒng guī dìng ràng tā shī qù le zì yóu
+    tatoeba_id: 6154344
+  tips:
+    规定: '规 có âm Hán Việt là qui, 定 có âm Hán Việt là định → “qui định”. 规 đọc guī (giống “quây” đọc nhẹ),
+      không phải “guy”. Mẹo nhớ: 规 = 夫 + 见, có bộ kiến.'
+    合法: '合 có âm Hán Việt là hợp, 法 có âm Hán Việt là pháp → “hợp pháp”. Lỗi hay gặp: dùng 是 trước tính
+      từ. Sai: ~~这是合法~~ → đúng: 这很合法 / 这样合法吗？'
+    合格: 'Đừng nhầm 合格 (đạt chuẩn, đủ tiêu chuẩn: 产品合格, 考试合格) với 合法 (đúng luật). 合格 cũng là tính từ, nên
+      nói 他的成绩合格, không nói ~~是合格~~ khi chỉ miêu tả.'
+    资格: '资 zī: z giống “ch” nhưng đầu lưỡi đặt sau răng trên, không bật hơi; đừng đọc thành “di” hay “dư”.
+      i sau z đọc như “ư”. Cấu trúc hay dùng: 有资格 + động từ (có tư cách làm gì) — 你有资格知道.'
+    标准: '标准 vừa là danh từ (tiêu chuẩn) vừa là tính từ (chuẩn): 他的普通话很标准 (tiếng phổ thông của anh ấy rất
+      chuẩn). Người Việt hay khen “phát âm chuẩn” — dùng đúng câu này. 标 có bộ mộc 木.'
+- id: hsk3-u27-l04
+  title: Làm theo quy định và chế độ
+  grammar: hsk3-g029
+  new_words:
+  - 按照
+  - 照
+  - 制定
+  - 制度
+  - 实行
+  - 适用
+  sentences:
+  - id: s-hsk3-u27-013
+    zh: 我觉得我是按照你说的做的。
+    en: I thought I was doing it your way.
+    pinyin: wǒ jué de wǒ shì àn zhào nǐ shuō de zuò de
+    tatoeba_id: 2078413
+  - id: s-hsk3-u27-014
+    zh: 照他说的做。
+    en: Do what he says.
+    pinyin: zhào tā shuō de zuò
+    tatoeba_id: 9415370
+  - id: s-hsk3-u27-015
+    zh: 他们改变了制度。
+    en: They changed the system.
+    pinyin: tā men gǎi biàn le zhì dù
+    tatoeba_id: 858768
+  - id: s-hsk3-u27-016
+    zh: 请按照规定办理手续。
+    en: Please complete the formalities according to the regulations.
+    pinyin: qǐng ànzhào guīdìng bànlǐ shǒuxù
+  tips:
+    照: 'Mẹo nhớ: 照 có bốn chấm 灬 ở dưới là bộ hỏa (lửa) → nghĩa gốc là “chiếu sáng”, như trong 照片, 照相.
+      Nghĩa “theo” là nghĩa mở rộng: 照他说的做 = làm theo lời anh ấy nói. 照 có âm Hán Việt là chiếu.'
+    按照: 'Vị trí: 按照 + danh từ đứng TRƯỚC động từ, khác thói quen tiếng Việt “làm theo quy định”. Sai:
+      ~~我们做按照规定~~ → đúng: 我们按照规定做。 按 có bộ thủ 扌 (tay ấn).'
+    制度: '制 có âm Hán Việt là chế, 度 có âm Hán Việt là độ → “chế độ”. 制 zhì: âm uốn lưỡi, i đọc như “ư”
+      cong lưỡi, không đọc “chi”. Phân biệt: 制定 (soạn ra, lập ra) là động từ, 制度 là danh từ: 制定制度 (lập
+      ra chế độ).'
+    适用: 'Biến điệu của 不: 适 shì là thanh 4 nên 不适用 đọc là bú shìyòng (不 chuyển sang thanh 2). 实行 và 适用
+      đều mở đầu bằng âm sh: 实 shí (thanh 2), 适 shì (thanh 4) — chú ý thanh để không lẫn.'
+- id: hsk3-u27-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

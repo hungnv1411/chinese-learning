@@ -1,0 +1,61 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:28:18",
+  "prompt_sha256": [
+    "edc1be576c28e2e1cfe5a2c5936f901aebd03bff8332df6a79a5ad09e43d8812",
+    "42c76e019e222fe660af5217297ab72cb044d6d79a3881558fd2d3cbb177df07",
+    "55c20deec28a1b5fb280c18ede996f76b5250395920de7d495721d82156c04d1"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u04-013",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi 'jiā lǐ' (里 thanh 3), nhưng từ vựng và tip của bài đều ghi 'jiā li' với 里 đọc nhẹ. Người học sẽ thấy hai cách đọc khác nhau.",
+      "suggestion": "Ghi 'nǐ jiā li dōu yǒu shuí', hoặc thống nhất một quy ước ghi thanh nhẹ cho cả chủ đề."
+    },
+    {
+      "where": "hsk1-u04-l01, hsk1-u04-l02, hsk1-u04-l03 (s-hsk1-u04-002, 003, 005, 007, 008, 010)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Cách ghi thanh nhẹ của từ láy xưng hô không nhất quán. Ở 009 ghi 'dì di' (thanh nhẹ), còn 'mā mā', 'gē gē', 'jiě jiě', 'mèi mèi' lại ghi đủ thanh. Tip của các từ này thì dạy chữ sau đọc nhẹ. Bên cạnh đó, 006, 011, 014 và 016 dùng kiểu viết liền, còn các câu khác tách từng âm tiết.",
+      "suggestion": "Thống nhất một quy ước: hoặc ghi thanh nhẹ (māma, gēge, jiějie, mèimei) cho mọi câu, hoặc ghi dạng từ điển cho mọi câu."
+    },
+    {
+      "where": "s-hsk1-u04-013",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch 'Who do you live with?' lệch nghĩa. 你家里都有谁 hỏi trong nhà có những ai, tức là các thành viên gia đình.",
+      "suggestion": "Dịch: 'Who is in your family?' hoặc 'Who all is in your family?'."
+    },
+    {
+      "where": "s-hsk1-u04-003",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Dấu hỏi cuối câu là '?' nửa chiều rộng, trong khi các câu khác dùng '？' toàn chiều rộng.",
+      "suggestion": "Đổi thành 她是你妈妈吗？"
+    },
+    {
+      "where": "hsk1-u04-l01 tips.爱",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip dài khoảng 5 câu (thanh điệu, mẹo chữ, ý nghĩa, phủ định, biến điệu 不), vượt giới hạn 3–4 câu.",
+      "suggestion": "Rút gọn. Ví dụ bỏ câu 'Yêu thương thì phải có “bạn” ở trong lòng' hoặc gộp ý phủ định và biến điệu: 'Phủ định: 我不爱… đọc là bú ài (不 đổi sang thanh 2 trước thanh 4).'"
+    }
+  ],
+  "machine_warnings": [
+    "u04-gia-dinh.yaml:148: [sentence_unlearned_word] Câu s-hsk1-u04-014 (bài hsk1-u04-l04) dùng từ chưa học: 我家, 三口",
+    "u04-gia-dinh.yaml:152: [sentence_unlearned_word] Câu s-hsk1-u04-015 (bài hsk1-u04-l04) dùng từ chưa học: 两岁"
+  ],
+  "han_viet_proposed": [
+    "岁",
+    "爱",
+    "爷",
+    "爸"
+  ]
+}

@@ -1,0 +1,162 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u02.json.
+id: hsk3-u02
+stage: hsk3
+order: 2
+title: Ăn uống
+description: Gọi món, nói về đồ ăn thức uống, mùi vị và dinh dưỡng.
+lessons:
+- id: hsk3-u02-l01
+  title: 'Gọi đồ uống: trà, cà phê, nước ép'
+  new_words:
+  - 咖啡
+  - 红茶
+  - 绿茶
+  - 奶茶
+  - 果汁
+  - 可乐
+  sentences:
+  - id: s-hsk3-u02-001
+    zh: 咖啡还是茶？
+    en: Coffee or tea?
+    pinyin: kā fēi hái shì chá
+    tatoeba_id: 2347106
+  - id: s-hsk3-u02-002
+    zh: 你喝绿茶吗？
+    en: Do you drink green tea?
+    pinyin: nǐ hē lǜ chá ma
+    tatoeba_id: 2782917
+  - id: s-hsk3-u02-003
+    zh: 奶茶在哪里？
+    en: Where is the milk tea?
+    pinyin: nǎi chá zài nǎ lǐ
+    tatoeba_id: 482367
+  - id: s-hsk3-u02-004
+    zh: 我喝果汁。
+    en: I drink fruit juice.
+    pinyin: wǒ hē guǒ zhī
+    tatoeba_id: 5548516
+  tips:
+    红茶: 红茶 là trà đen (black tea), không phải trà màu hồng. 红 có âm Hán Việt là hồng, 茶 có âm Hán Việt
+      là trà. Người Trung Quốc gọi theo màu nước trà (đỏ nâu), còn tiếng Anh gọi theo màu lá khô (đen).
+    绿茶: 'lǜ có nguyên âm ü: giữ lưỡi như khi đọc ''i'' rồi chu tròn môi như đọc ''u''. Đừng đọc thành
+      ''lu''. 绿 có âm Hán Việt là lục, bên trái là bộ mịch 纟 (sợi tơ), gợi ý màu nhuộm lên tơ.'
+    咖啡: 咖啡 (kāfēi) là từ mượn âm của 'coffee'. Hai chữ đều có bộ khẩu 口 bên trái, đây là dấu hiệu thường
+      gặp ở chữ mượn âm nước ngoài. Âm f đọc giống 'ph' trong tiếng Việt.
+    可乐: 乐 trong 可乐 đọc là lè (thanh 4), không đọc là yuè. Từ này mượn âm 'cola' nhưng nghĩa đen lại là
+      'đáng vui'. 可 có âm Hán Việt là khả, 乐 có âm Hán Việt là lạc.
+- id: hsk3-u02-l02
+  title: Bia rượu, nước, canh và vị ngọt
+  new_words:
+  - 啤酒
+  - 红酒
+  - 凉水
+  - 汤
+  - 糖
+  - 甜
+  sentences:
+  - id: s-hsk3-u02-005
+    zh: 这啤酒好啊。
+    en: The beer is good.
+    pinyin: zhè pí jiǔ hǎo a
+    tatoeba_id: 13519197
+  - id: s-hsk3-u02-006
+    zh: 汤还热吗？
+    en: Is the soup still hot?
+    pinyin: tāng hái rè ma
+    tatoeba_id: 10640471
+  - id: s-hsk3-u02-007
+    zh: 别喝凉水，喝热茶吧。
+    en: Don't drink cold water, have some hot tea.
+    pinyin: bié hē liángshuǐ, hē rè chá ba
+  - id: s-hsk3-u02-008
+    zh: 这杯奶茶太甜了。
+    en: This cup of milk tea is too sweet.
+    pinyin: zhè bēi nǎichá tài tián le
+  tips:
+    啤酒: 'Chữ 酒 gồm bộ thủy 氵 (nước) cộng 酉 (hình cái vò rượu): nước đựng trong vò là rượu. jiǔ là thanh
+      3, đọc trầm xuống rồi mới lên, đừng lên giọng ngay như dấu hỏi.'
+    汤: Rất dễ nhầm 汤 tāng (canh, thanh 1) với 糖 táng (đường, thanh 2). 汤 có âm Hán Việt là thang, có bộ
+      thủy 氵 vì là món nước. 糖 có âm Hán Việt là đường, có bộ mễ 米 (gạo) vì xưa đường được nấu từ ngũ
+      cốc.
+    甜: 'Chữ 甜 gồm 舌 (lưỡi) và 甘 (ngọt): lưỡi nếm thấy vị ngọt. Lỗi hay gặp: dùng 是 trước tính từ. Đừng
+      nói 这个是甜, hãy nói 这个很甜。'
+    凉水: 凉水 là nước lạnh hoặc nước chưa đun sôi. Người Trung Quốc thường uống nước ấm (热水), nên ở Trung
+      Quốc gọi 'nước' thì hay được rót nước nóng. 凉 có âm Hán Việt là lương, bộ băng 冫 (hai chấm) gợi
+      cái lạnh.
+- id: hsk3-u02-l03
+  title: Trái cây, rau và các loại thịt
+  grammar: hsk3-g038
+  new_words:
+  - 苹果
+  - 香蕉
+  - 白菜
+  - 猪
+  - 牛
+  - 羊
+  sentences:
+  - id: s-hsk3-u02-009
+    zh: 香蕉很好吃。
+    en: Bananas are delicious.
+    pinyin: xiāng jiāo hěn hǎo chī
+    tatoeba_id: 2062924
+  - id: s-hsk3-u02-010
+    zh: 除了苹果以外，我还喜欢吃香蕉。
+    en: Besides apples, I also like eating bananas.
+    pinyin: chúle píngguǒ yǐwài, wǒ hái xǐhuan chī xiāngjiāo
+  - id: s-hsk3-u02-011
+    zh: 我们晚饭吃白菜和猪肉。
+    en: We're having cabbage and pork for dinner.
+    pinyin: wǒmen wǎnfàn chī báicài hé zhūròu
+  - id: s-hsk3-u02-012
+    zh: 除了猪肉以外，他也吃牛肉和羊肉。
+    en: Besides pork, he also eats beef and mutton.
+    pinyin: chúle zhūròu yǐwài, tā yě chī niúròu hé yángròu
+  tips:
+    猪: '猪, 牛, 羊 là tên con vật. Muốn nói thịt thì thêm 肉: 猪肉, 牛肉, 羊肉. Nói 我吃猪 nghe như ăn nguyên con heo!
+      猪 có âm Hán Việt là trư, bộ khuyển 犭 thường dùng cho chữ chỉ con vật.'
+    牛: 牛 có âm Hán Việt là ngưu. niú là thanh 2, đọc lên giọng giống dấu sắc. 牛肉 là thịt bò, 牛奶 (đã học)
+      là sữa bò.
+    白菜: 白 có âm Hán Việt là bạch. 白菜 là cải thảo. Chữ 菜 có bộ thảo 艹 (cỏ) ở trên, nên dễ nhớ là chữ chỉ
+      rau.
+    苹果: 'Đọc 苹果 là píngguǒ: píng lên giọng, guǒ trầm xuống rồi lên. 果 có âm Hán Việt là quả, hình cây
+      木 có quả 田 trên ngọn. Chữ này cũng có trong 水果 và 果汁.'
+- id: hsk3-u02-l04
+  title: Bữa ăn, món ngon và dinh dưỡng
+  grammar: hsk3-g010
+  new_words:
+  - 顿
+  - 刀
+  - 美食
+  - 食品
+  - 营养
+  - 香
+  sentences:
+  - id: s-hsk3-u02-013
+    zh: 我一天吃三顿饭。
+    en: I eat three meals a day.
+    pinyin: wǒ yì tiān chī sān dùn fàn
+  - id: s-hsk3-u02-014
+    zh: 这些食品很有营养。
+    en: These foods are very nutritious.
+    pinyin: zhèxiē shípǐn hěn yǒu yíngyǎng
+  - id: s-hsk3-u02-015
+    zh: 北京有很多美食。
+    en: Beijing has a lot of delicious food.
+    pinyin: Běijīng yǒu hěn duō měishí
+  - id: s-hsk3-u02-016
+    zh: 你有刀吗？
+    en: Do you have a knife?
+    pinyin: nǐ yǒu dāo ma
+    tatoeba_id: 7768306
+  tips:
+    顿: '顿 là lượng từ dùng cho bữa ăn: 一顿饭, 三顿饭. Đừng nói 吃三个饭. Biến điệu: 一 đứng trước thanh 4 thì đọc
+      yí, nên 一顿 đọc là yí dùn. 顿 có âm Hán Việt là đốn.'
+    营养: Muốn nói 'rất bổ' thì dùng 很有营养 (có nhiều dinh dưỡng), ví dụ 牛奶很有营养. 养 có âm Hán Việt là dưỡng.
+      Chữ 养 đã gặp trong từ 养 (nuôi) ở bài trước.
+    香: '香 có âm Hán Việt là hương: trên là 禾 (lúa), dưới là 日, gợi mùi lúa chín thơm. Khi khen đồ ăn,
+      người Trung Quốc hay nói 好香！ hoặc 真香！ Không nói 是香.'
+    刀: '刀 có âm Hán Việt là đao. Lượng từ của dao là 把: 一把刀. Âm d trong dāo đọc gần với ''t'' của tiếng
+      Việt, không đọc như ''d'' hay ''đ''.'
+- id: hsk3-u02-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

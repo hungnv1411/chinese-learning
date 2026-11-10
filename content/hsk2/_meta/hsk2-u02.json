@@ -1,0 +1,34 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T02:43:57",
+  "prompt_sha256": [
+    "1dc8d6d3af2d823d7f6cc8aab629d15a2285f59b736fab58a0e043a18a36bc18",
+    "6713e478dcc6a8d793c33d4e9b6490fbc51b59e74a396bfeec4c0a7b41dfcfb7"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u02-014",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin câu ghi \"dà rén le\", nhưng từ vựng 大人 là dàren và tip cũng nói 人 đọc thanh nhẹ. Cách ghi trong câu mâu thuẫn với từ và với tip.",
+      "suggestion": "Đổi pinyin thành \"nǐ xiàn zài shì dà ren le\" (hoặc \"dàren\" cho khớp kiểu ghi của tip)."
+    },
+    {
+      "where": "s-hsk2-u02-005",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu dùng dấu hỏi nửa chiều \"?\" (ASCII), trong khi các câu tiếng Trung khác dùng \"？\" toàn chiều. Dấu câu không nhất quán.",
+      "suggestion": "Đổi thành: 你什么时候出生的？"
+    }
+  ],
+  "machine_warnings": [
+    "u02-gia-dinh-va-tuoi-tac.yaml:109: [sentence_unlearned_word] Câu s-hsk2-u02-011 (bài hsk2-u02-l03) dùng từ chưa học: 五十岁, 中年人",
+    "u02-gia-dinh-va-tuoi-tac.yaml:149: [sentence_unlearned_word] Câu s-hsk2-u02-016 (bài hsk2-u02-l04) dùng từ chưa học: 两个"
+  ],
+  "han_viet_proposed": []
+}

@@ -1,0 +1,205 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u21.json.
+id: hsk3-u21
+stage: hsk3
+order: 21
+title: Tính cách và năng lực
+description: Miêu tả tính cách, ưu nhược điểm và khả năng của một người.
+lessons:
+- id: hsk3-u21-l01
+  title: Tính cách và vẻ bề ngoài
+  grammar: hsk3-g035
+  new_words:
+  - 看起来
+  - 显得
+  - 形象
+  - 个人
+  - 个性
+  - 性格
+  sentences:
+  - id: s-hsk3-u21-001
+    zh: 她看起来很年轻。
+    en: She looks young.
+    pinyin: tā kàn qǐ lái hěn nián qīng
+    tatoeba_id: 2188409
+  - id: s-hsk3-u21-002
+    zh: 她的性格很像她母亲。
+    en: Her personality is very much like her mother's.
+    pinyin: Tā de xìnggé hěn xiàng tā mǔqīn.
+  - id: s-hsk3-u21-003
+    zh: 她有很强的个性。
+    en: She has a strong personality.
+    pinyin: tā yǒu hěn qiáng de gè xìng
+    tatoeba_id: 2031263
+  - id: s-hsk3-u21-004
+    zh: 他穿这件衣服显得很年轻。
+    en: He looks young in these clothes.
+    pinyin: Tā chuān zhè jiàn yīfu xiǎnde hěn niánqīng.
+  tips:
+    性格: '性 có âm Hán Việt là tính, 格 có âm Hán Việt là cách → 性格 = tính cách. 性 gồm bộ tâm 忄 (lòng) +
+      生: tính cách là cái sinh ra từ trong lòng.'
+    个性: 个 có âm Hán Việt là cá, 性 có âm Hán Việt là tính → 个性 = cá tính. Lưu ý 个 ở đây đọc đủ thanh 4
+      gèxìng, không đọc nhẹ như lượng từ 个 (ge).
+    看起来: 'Lỗi hay gặp: thêm 是 trước tính từ. Sai: ~~他看起来是累~~ → Đúng: 他看起来很累. Trong khẩu ngữ 起来 thường
+      đọc nhẹ: kàn qilai.'
+    显得: '显得 đọc xiǎnde, 得 đọc nhẹ. 显 có bộ nhật 日 ở trên: có mặt trời chiếu thì mọi thứ hiện rõ ra → "tỏ
+      ra, trông có vẻ". Ví dụ: 他显得很高兴.'
+- id: hsk3-u21-l02
+  title: Trưởng thành, kiên cường, đáng tin
+  grammar: hsk3-g036
+  new_words:
+  - 看上去
+  - 表现
+  - 成熟
+  - 坚强
+  - 强
+  - 可靠
+  sentences:
+  - id: s-hsk3-u21-005
+    zh: 你看上去很好。
+    en: You look very good.
+    pinyin: nǐ kàn shàng qù hěn hǎo
+    tatoeba_id: 5091401
+  - id: s-hsk3-u21-006
+    zh: 你很可靠。
+    en: You're reliable.
+    pinyin: nǐ hěn kě kào
+    tatoeba_id: 1692199
+  - id: s-hsk3-u21-007
+    zh: 我不够坚强。
+    en: I wasn't strong enough.
+    pinyin: wǒ bù gòu jiān qiáng
+    tatoeba_id: 9434977
+  - id: s-hsk3-u21-008
+    zh: 他在学校的表现很好。
+    en: He is doing very well at school.
+    pinyin: tā zài xué xiào de biǎo xiàn hěn hǎo
+    tatoeba_id: 889576
+  tips:
+    可靠: 'Biến điệu 3+3: 很可靠 hěn kěkào đọc thành hén kěkào (很 lên thanh 2). Phụ âm k bật hơi mạnh, gần
+      "kh" tiếng Việt. 靠 là dựa vào → 可靠 = có thể dựa vào, đáng tin.'
+    坚强: '坚 có âm Hán Việt là kiên. jiān và qiáng: j không bật hơi, q bật hơi mạnh (đặt mặt lưỡi sát hàm
+      trên). Câu 我不够坚强: 不 đứng trước thanh 4 (够) đọc thành bú gòu.'
+    成熟: '成 có âm Hán Việt là thành, 熟 có âm Hán Việt là thục. 熟 có bộ hỏa 灬 ở dưới: quả chín, người "chín
+      chắn" nhờ lửa tôi luyện. Đọc chéngshú: ch và sh đều uốn lưỡi.'
+    表现: '表 có âm Hán Việt là biểu, 现 có âm Hán Việt là hiện → 表现 = biểu hiện. Ngoài nghĩa thể hiện, 表现
+      còn là danh từ chỉ "thành tích, cách cư xử": 他的表现很好 = anh ấy thể hiện rất tốt.'
+- id: hsk3-u21-l03
+  title: Tích cực, chủ động, tự giác
+  new_words:
+  - 积极
+  - 积极性
+  - 性
+  - 主动
+  - 自觉
+  - 自主
+  - 自身
+  sentences:
+  - id: s-hsk3-u21-009
+    zh: 他工作很积极。
+    en: He is very proactive at work.
+    pinyin: Tā gōngzuò hěn jījí.
+  - id: s-hsk3-u21-010
+    zh: 孩子们的学习积极性很高。
+    en: The children are very eager to learn.
+    pinyin: Háizimen de xuéxí jījíxìng hěn gāo.
+  - id: s-hsk3-u21-011
+    zh: 她学习很自觉，从来不用妈妈说。
+    en: She studies on her own; her mom never has to tell her.
+    pinyin: Tā xuéxí hěn zìjué, cónglái búyòng māma shuō.
+  - id: s-hsk3-u21-012
+    zh: 我重视自身的健康。
+    en: I take my health seriously.
+    pinyin: wǒ zhòng shì zì shēn de jiàn kāng
+    tatoeba_id: 1239325
+  tips:
+    积极: '积 có âm Hán Việt là tích, 极 có âm Hán Việt là cực → 积极 = tích cực. jījí: j đọc gần "ch" tiếng
+      Việt nhưng không bật hơi, đừng đọc thành "gi".'
+    性: '性 làm hậu tố giống "tính" trong tiếng Việt: 积极性 = tính tích cực, sự hăng hái. Ghép sau tính từ
+      để tạo danh từ: 积极 → 积极性. Câu: 他的积极性很高.'
+    自觉: '自 có âm Hán Việt là tự, 觉 có âm Hán Việt là giác → 自觉 = tự giác. jué: sau j chữ u thực ra là
+      ü (môi tròn như đọc "uy" nhưng giữ môi tròn), không đọc "giuê".'
+    主动: '主 đọc zhǔ: zh uốn lưỡi, khác z (đầu lưỡi thẳng) trong 自 zì. Luyện cặp: 自主 zìzhǔ — z thẳng rồi
+      zh uốn. 主动 nghĩa là tự mình làm trước, không đợi ai nhắc: 他主动帮忙.'
+- id: hsk3-u21-l04
+  title: Ưu điểm và khuyết điểm
+  grammar: hsk3-g066
+  new_words:
+  - 优点
+  - 缺点
+  - 长处
+  - 短处
+  - 优势
+  - 突出
+  - 完美
+  sentences:
+  - id: s-hsk3-u21-013
+    zh: 没有完美的人。
+    en: Nobody is perfect.
+    pinyin: méi yǒu wán měi de rén
+    tatoeba_id: 611103
+  - id: s-hsk3-u21-014
+    zh: 她的缺点让我更爱她。
+    en: I love her all the more for her faults.
+    pinyin: tā de quē diǎn ràng wǒ gèng ài tā
+    tatoeba_id: 659859
+  - id: s-hsk3-u21-015
+    zh: 每个人都有长处和短处。
+    en: Everyone has strengths and weaknesses.
+    pinyin: Měi ge rén dōu yǒu chángchù hé duǎnchù.
+  - id: s-hsk3-u21-016
+    zh: 他不但成绩突出，而且性格也很好。
+    en: Not only are his grades outstanding, he also has a good personality.
+    pinyin: Tā búdàn chéngjì tūchū, érqiě xìnggé yě hěn hǎo.
+  tips:
+    缺点: '缺 có âm Hán Việt là khuyết, 点 có âm Hán Việt là điểm → 缺点 = khuyết điểm. quē: sau q chữ u là
+      ü, môi tròn. Cặp đối: 优点 (điểm mạnh) ↔ 缺点.'
+    长处: '长 ở đây đọc cháng (dài, mạnh), không phải zhǎng (lớn lên). 处 đọc chù thanh 4. 长处 ↔ 短处: "chỗ dài"
+      là điểm mạnh, "chỗ ngắn" là điểm yếu.'
+    突出: '突 có âm Hán Việt là đột, 出 có âm Hán Việt là xuất, nhưng 突出 KHÔNG có nghĩa "đột xuất, bất ngờ"
+      như tiếng Việt mà là "nổi bật, xuất sắc": 成绩突出 = thành tích nổi bật. Trong câu 不但……而且……, 不 trước
+      thanh 4 đọc búdàn.'
+    完美: '完 có âm Hán Việt là hoàn; 完美 = hoàn hảo, trọn vẹn. 完 có bộ miên 宀 (mái nhà) + 元: nhà xây xong
+      trọn vẹn. wánměi: 美 thanh 3 đứng cuối câu đọc đủ, xuống thấp rồi lên.'
+- id: hsk3-u21-l05
+  title: Năng lực và tài năng
+  new_words:
+  - 能力
+  - 才能
+  - 本领
+  - 本事
+  - 人才
+  - 力量
+  - 具有
+  sentences:
+  - id: s-hsk3-u21-017
+    zh: 他有很好的英语能力。
+    en: He has a good command of English.
+    pinyin: tā yǒu hěn hǎo de yīng yǔ néng lì
+    tatoeba_id: 881589
+  - id: s-hsk3-u21-018
+    zh: 什么比力量还重要？
+    en: What is even more important than strength?
+    pinyin: Shénme bǐ lìliàng hái zhòngyào?
+  - id: s-hsk3-u21-019
+    zh: 他是一个很有本事的人。
+    en: He is a very capable person.
+    pinyin: Tā shì yí ge hěn yǒu běnshi de rén.
+  - id: s-hsk3-u21-020
+    zh: 我们公司缺少人才。
+    en: Our company is short of talented people.
+    pinyin: Wǒmen gōngsī quēshǎo réncái.
+  tips:
+    能力: '能 có âm Hán Việt là năng, 力 có âm Hán Việt là lực → 能力 = năng lực. Đảo lại thành 才能: 才 có âm
+      Hán Việt là tài → tài năng. Hai từ khác nhau, đừng nhầm thứ tự chữ.'
+    人才: '人 có âm Hán Việt là nhân, 才 có âm Hán Việt là tài → 人才 = nhân tài, chỉ người giỏi. Bản thân 人才
+      đã là "người có tài", nên không nói ~~有才能的人才~~. Đọc réncái: r uốn lưỡi, không đọc thành "d" hay
+      "z".'
+    本事: '本事 đọc běnshi, 事 đọc nhẹ; đây là từ khẩu ngữ, hay nói 有本事 (giỏi giang). 本领 trang trọng hơn một
+      chút: 学本领 (học kỹ năng).'
+    力量: '力 có âm Hán Việt là lực. 力量 thường nghĩa là "sức mạnh, sức lực", không hẳn chỉ một tổ chức như
+      từ "lực lượng" trong tiếng Việt. Ví dụ: 知识就是力量 = tri thức là sức mạnh.'
+    具有: '具有 trang trọng, đi với tân ngữ trừu tượng: 具有……能力/优势. Không dùng cho đồ vật cụ thể: sai ~~我具有一本书~~
+      → đúng 我有一本书.'
+- id: hsk3-u21-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

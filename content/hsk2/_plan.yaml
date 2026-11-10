@@ -1,0 +1,192 @@
+# Sinh bằng `clp plan-units` (02-5). Có thể chỉnh tay có chủ ý trước khi soạn từng chủ đề;
+# chạy `clp check-content` sau khi sửa.
+units:
+- id: hsk2-u01
+  order: 1
+  title: Chào hỏi và làm quen
+  description: Người học có thể chào hỏi, giới thiệu tên và quê quán, cảm ơn, xin lỗi và làm quen với
+    bạn mới.
+  words: [啊, 不好意思, 大家, 感谢, 好久, 欢迎, 见到, 见过, 交朋友, 叫作, 来自, 老王, 老朋友, 名, 名称, 晚安, 位, 小王, 姓, 姓名, 有空儿, 有人, 咱, 咱们, 自己]
+  grammar: [hsk30-g054, hsk30-g082, hsk30-g126]
+- id: hsk2-u02
+  order: 2
+  title: Gia đình và tuổi tác
+  description: Người học có thể giới thiệu các thành viên trong gia đình, nói về tuổi tác, tuổi thơ và
+    việc chăm sóc người thân.
+  words: [爱情, 爱人, 出生, 从小, 大人, 关心, 家庭, 家长, 老年, 年轻, 青年, 青少年, 全家, 少年, 生, 太太, 小时候, 一生, 养, 长大, 照顾, 中年]
+  grammar: [hsk30-g087, hsk30-g096, hsk30-g128]
+- id: hsk2-u03
+  order: 3
+  title: Thời gian và sinh hoạt hằng ngày
+  description: Người học có thể nói giờ giấc, ngày tháng, tuần và kể về thói quen, lịch sinh hoạt hằng
+    ngày.
+  words: [半夜, 表, 不久, 不一会儿, 才, 重新, 多久, 分钟, 经常, 刻, 老是, 平常, 平时, 前年, 全年, 日子, 上周, 生活, 事情, 手表, 随时, 午睡, 习惯, 下周, 夜, 夜里, 又, 月份, 早晨, 周, 周末]
+  grammar: [hsk30-g053, hsk30-g060, hsk30-g064, hsk30-g090, hsk30-g129]
+- id: hsk2-u04
+  order: 4
+  title: Ăn uống
+  description: Người học có thể gọi món ở nhà hàng, nói về các bữa ăn, món ăn và mùi vị.
+  words: [饱, 菜单, 蛋, 饭馆, 方便面, 干杯, 鸡, 饺子, 酒, 快餐, 筷子, 米, 面, 瓶, 瓶子, 食物, 熟, 外卖, 晚餐, 碗, 味道, 闻, 午餐, 西餐, 油, 鱼, 早餐, 中餐]
+  grammar: [hsk30-g091, hsk30-g110]
+- id: hsk2-u05
+  order: 5
+  title: Mua sắm và tiền bạc
+  description: Người học có thể đi siêu thị, hỏi giá, chọn hàng, trả tiền và làm việc ở ngân hàng.
+  words: [不够, 超市, 称, 店, 方便, 服务, 够, 顾客, 换, 角, 借, 卡, 卖, 排, 排队, 便宜, 取, 省, 送到, 信用卡, 选, 一共, 银行, 银行卡]
+  grammar: [hsk30-g086, hsk30-g112]
+- id: hsk2-u06
+  order: 6
+  title: Màu sắc, quần áo và ngoại hình
+  description: Người học có thể miêu tả màu sắc, kích cỡ, quần áo và vẻ ngoài của người hoặc đồ vật.
+  words: [白色, 长, 大小, 大衣, 低, 短, 个子, 合适, 黑, 黑色, 红, 红色, 黄, 黄色, 件, 可爱, 蓝, 蓝色, 绿, 绿色, 难看, 漂亮, 轻, 什么样, 条, 鞋, 颜色, 样子]
+  grammar: [hsk30-g056, hsk30-g058, hsk30-g089, hsk30-g125]
+- id: hsk2-u07
+  order: 7
+  title: Phương hướng và vị trí
+  description: Người học có thể hỏi đường, chỉ hướng và nói vị trí của nơi chốn, đồ vật.
+  words: [北方, 边, 出口, 大门, 到处, 东北, 东方, 东南, 对面, 方向, 近, 经过, 离, 里头, 面前, 南方, 入口, 身边, 往, 问路, 西北, 西方, 西南, 向, 一直, 直接]
+  grammar: [hsk30-g070, hsk30-g071, hsk30-g075, hsk30-g122]
+- id: hsk2-u08
+  order: 8
+  title: Giao thông và đi lại
+  description: Người học có thể nói về các phương tiện giao thông, đi xe, đỗ xe và đi lại an toàn.
+  words: [安全, 车辆, 出租车, 船, 道, 道路, 地铁, 地铁站, 公共汽车, 公交车, 公路, 交通, 辆, 骑, 骑车, 路边, 司机, 停, 停车, 停车场, 小心, 行人, 自行车, 座位]
+  grammar: [hsk30-g072, hsk30-g105]
+- id: hsk2-u09
+  order: 9
+  title: Thời tiết và các mùa
+  description: Người học có thể nói về thời tiết, nhiệt độ và đặc điểm của bốn mùa.
+  words: [吹, 春天, 冬天, 度, 多云, 空气, 凉, 凉快, 零下, 气温, 晴, 晴天, 秋天, 太阳, 天上, 温度, 下雪, 夏天, 星星, 雪, 阴, 阴天, 月亮, 云]
+  grammar: [hsk30-g102]
+- id: hsk2-u10
+  order: 10
+  title: Cơ thể và sức khỏe
+  description: Người học có thể gọi tên các bộ phận cơ thể, nói chỗ đau, đi khám bệnh và mua thuốc.
+  words: [背, 出院, 点头, 检查, 脚, 脸, 难受, 全身, 舒服, 疼, 头, 头发, 腿, 西医, 眼, 眼睛, 药, 药店, 药片, 药水, 院长, 中医, 住院, 嘴]
+  grammar: [hsk30-g127]
+- id: hsk2-u11
+  order: 11
+  title: Nhà ở và khu phố
+  description: Người học có thể miêu tả nhà cửa, thuê nhà, làm việc nhà và nói về khu phố, thành phố mình
+    sống.
+  words: [层, 出门, 出租, 灯, 广场, 街, 亮, 墙, 人口, 人们, 市, 市长, 套, 洗衣机, 洗澡, 椅子, 院, 院子, 脏, 中心, 住房, 租, 座, 做饭]
+  grammar: [hsk30-g081, hsk30-g104]
+- id: hsk2-u12
+  order: 12
+  title: Thiên nhiên và động vật
+  description: Người học có thể nói về cây cỏ, sông biển, công viên và các con vật quen thuộc.
+  words: [安静, 草, 草地, 大海, 大自然, 地球, 动物, 动物园, 公园, 狗, 海, 海边, 河, 湖, 花园, 流, 猫, 鸟, 爬, 爬山, 片, 它, 它们]
+  grammar: []
+- id: hsk2-u13
+  order: 13
+  title: Trường học và cấp lớp
+  description: Người học có thể nói về trường lớp, cấp học, thầy cô, học kỳ và kết quả học tập.
+  words: [班长, 报名, 成绩, 分数, 高级, 高中, 级, 教师, 教学, 教育, 开学, 考生, 科, 科学, 名单, 年级, 小组, 校园, 校长, 学期, 中级, 中小学, 组, 组长]
+  grammar: [hsk30-g120]
+- id: hsk2-u14
+  order: 14
+  title: Trong lớp học
+  description: Người học có thể hiểu và dùng những câu thường gặp trong giờ học như nghe giảng, làm bài,
+    nộp bài tập và ôn tập.
+  words: [笔, 笔记, 笔记本, 遍, 重复, 大声, 懂, 复习, 黑板, 讲, 交, 交给, 教室, 举手, 课堂, 练习, 清楚, 声音, 题, 听讲, 小声, 纸, 作文, 作业]
+  grammar: [hsk30-g059, hsk30-g097]
+- id: hsk2-u15
+  order: 15
+  title: Học ngôn ngữ
+  description: 'Người học có thể nói về việc học tiếng: từ vựng, câu, phát âm, tra từ điển và trình độ
+    ngôn ngữ.'
+  words: [查, 常用, 词, 词典, 词语, 读音, 段, 对话, 讲话, 句, 句子, 流利, 篇, 普通话, 生词, 水平, 意思, 音节, 英文, 英语, 语言, 正确, 准确, 字典]
+  grammar: [hsk30-g085]
+- id: hsk2-u16
+  order: 16
+  title: Điện thoại, mạng và tin tức
+  description: Người học có thể gọi điện, nhắn tin, dùng máy tính, lên mạng và trao đổi thông tin, tin
+    tức.
+  words: [打印, 短信, 发, 封, 关机, 广告, 计算机, 接, 接到, 开机, 使用, 收, 收到, 通, 通知, 网, 网站, 喂, 新闻, 信, 信号, 信息, 响, 听说]
+  grammar: [hsk30-g084]
+- id: hsk2-u17
+  order: 17
+  title: Giải trí và lễ hội
+  description: Người học có thể nói về sách báo, âm nhạc, phim ảnh, ngày lễ, kỳ nghỉ và Tết.
+  words: [报纸, 春节, 份, 故事, 过年, 画, 画儿, 假期, 节, 节目, 节日, 流行, 日报, 晚报, 晚会, 小说, 笑话, 笑话儿, 休假, 音乐, 音乐会, 影片, 有意思, 周年, 图片]
+  grammar: [hsk30-g100]
+- id: hsk2-u18
+  order: 18
+  title: Thể thao và hoạt động
+  description: Người học có thể nói về các môn thể thao, việc tập luyện, thi đấu và tham gia hoạt động.
+  words: [参加, 场, 超过, 队, 队长, 得, 加油, 健康, 活动, 进行, 举行, 篮球, 练, 努力, 排球, 提高, 球场, 球队, 球鞋, 体育, 体育场, 体育馆, 网球, 运动]
+  grammar: [hsk30-g079, hsk30-g099]
+- id: hsk2-u19
+  order: 19
+  title: Du lịch
+  description: Người học có thể lên kế hoạch đi chơi, ra nước ngoài, chụp ảnh và kể lại những nơi đã từng
+    đến.
+  words: [参观, 出发, 出国, 带, 带来, 国际, 回国, 护照, 酒店, 离开, 留学生, 旅客, 旅行, 旅游, 平安, 起飞, 外地, 相机, 一路平安, 一路顺风, 游客, 照片, 照相]
+  grammar: [hsk30-g080, hsk30-g108, hsk30-g119]
+- id: hsk2-u20
+  order: 20
+  title: Quá khứ, hiện tại và sắp tới
+  description: Người học có thể kể chuyện theo trình tự thời gian và nói việc vừa xảy ra, đã xảy ra hay
+    sắp xảy ra.
+  words: [当, 当时, 等到, 刚, 刚才, 刚刚, 过去, 后来, 接下来, 接着, 今后, 就要, 快要, 那会儿, 那时候, 那时, 同时, 已经, 以后, 以前, 永远, 早就, 这时候, 这时, 最近]
+  grammar: [hsk30-g063, hsk30-g065, hsk30-g068, hsk30-g069, hsk30-g095, hsk30-g117, hsk30-g130]
+- id: hsk2-u21
+  order: 21
+  title: Động tác và di chuyển
+  description: Người học có thể miêu tả các động tác hằng ngày như cầm, đặt, kéo, đẩy, đi vào hay đi ra.
+  words: [倒, 掉, 放下, 分开, 过来, 喊, 进入, 举, 靠, 快点儿, 拉, 留, 留下, 拿出, 拿到, 弄, 碰, 推, 完, 站住, 找出, 装, 走过, 走进, 走开]
+  grammar: [hsk30-g052, hsk30-g098, hsk30-g118]
+- id: hsk2-u22
+  order: 22
+  title: Số lượng và đo lường
+  description: Người học có thể dùng số lớn, nói cân nặng, khoảng cách và diễn đạt nhiều, ít, toàn bộ
+    hay một phần.
+  words: [不少, 部分, 大部分, 大多数, 大量, 多数, 公斤, 公里, 好多, 加, 斤, 克, 满, 其他, 其中, 千, 千克, 全, 全部, 全国, 全体, 人数, 少数, 数, 数字, 算, 所有, 万, 许多, 一部分, 一点点, 以上, 以下, 以外, 亿, 占, 只]
+  grammar: [hsk30-g057, hsk30-g062, hsk30-g121]
+- id: hsk2-u23
+  order: 23
+  title: Cảm xúc và nhận xét
+  description: Người học có thể bày tỏ cảm xúc vui, buồn, lo, sợ và đưa ra nhận xét đơn giản về sự việc.
+  words: [不错, 不满, 不行, 常见, 放心, 感到, 感动, 感觉, 急, 假, 开心, 可怕, 哭, 快乐, 满意, 难过, 难听, 怕, 平, 普通, 气, 随便, 挺好, 心里, 心情, 心中, 一般, 怎么样, 真正, 正常, 正好, 正是]
+  grammar: [hsk30-g094]
+- id: hsk2-u24
+  order: 24
+  title: Quan hệ và cách cư xử
+  description: Người học có thể nhờ giúp đỡ, mời khách, tặng quà và nhận xét thái độ, tính cách của người
+    khác.
+  words: [帮助, 答应, 故意, 好人, 好事, 坏人, 客人, 礼物, 请客, 请求, 求, 让, 热情, 受到, 送给, 态度, 特点, 行动, 行为, 要求, 友好, 主人, 碰到, 碰见]
+  grammar: [hsk30-g066, hsk30-g074, hsk30-g109, hsk30-g124]
+- id: hsk2-u25
+  order: 25
+  title: So sánh, mức độ và thay đổi
+  description: Người học có thể so sánh hai sự vật, diễn đạt mức độ và nói về sự thay đổi ngày càng nhiều.
+  words: [不如, 不同, 差不多, 等于, 更, 好像, 那么, 那样, 同样, 相同, 像, 越, 越来越, 这么, 这样, 不太, 多么, 十分, 实在, 特别, 挺, 有点儿, 有一点儿, 大大, 完全, 变, 变成, 成, 成为, 出现, 改, 改变, 影响, 组成, 作用]
+  grammar: [hsk30-g055, hsk30-g061, hsk30-g092, hsk30-g101, hsk30-g103, hsk30-g106, hsk30-g107]
+- id: hsk2-u26
+  order: 26
+  title: Công việc và mục tiêu
+  description: Người học có thể nói về nghề nghiệp, nơi làm việc, kế hoạch, ước mơ và việc đạt được mục
+    tiêu.
+  words: [办公室, 打工, 打算, 单位, 干活儿, 公司, 画家, 机会, 计划, 经理, 科学家, 理想, 明星, 目的, 取得, 商人, 实习, 实现, 收入, 顺利, 条件, 通过, 同事, 完成, 信心, 作家, 做到]
+  grammar: [hsk30-g088, hsk30-g115]
+- id: hsk2-u27
+  order: 27
+  title: Ý kiến và quan điểm
+  description: Người học có thể nêu suy nghĩ, đưa ví dụ, bày tỏ đồng ý hay không và nói về lợi ích, tác
+    hại của một việc.
+  words: [比如, 比如说, 表示, 道理, 懂得, 方面, 公平, 观点, 好处, 坏处, 角度, 接受, 看法, 例如, 例子, 平等, 认为, 相信, 想到, 想法, 想起, 以为, 意见, 重视, 自由]
+  grammar: [hsk30-g073, hsk30-g123]
+- id: hsk2-u28
+  order: 28
+  title: Giải quyết vấn đề
+  description: Người học có thể nêu vấn đề, bàn bạc cách giải quyết và nói việc nên làm, phải làm hoặc
+    có thể làm.
+  words: [办, 办法, 必须, 不要, 不一定, 得出, 方法, 该, 可能, 可以, 难题, 能够, 商量, 实际, 说明, 讨论, 提, 提出, 提到, 问题, 也许, 一定, 应该, 愿意, 怎么办, 怎样, 只能, 重点, 主要, 做法]
+  grammar: [hsk30-g049, hsk30-g050, hsk30-g051, hsk30-g067, hsk30-g093]
+- id: hsk2-u29
+  order: 29
+  title: 'Nối câu: lý do, điều kiện, kết quả'
+  description: Người học có thể nối các câu để diễn đạt nguyên nhân, kết quả, giả định, sự đối lập và
+    lựa chọn.
+  words: [不但, 不过, 但, 但是, 的话, 而且, 发现, 忽然, 或, 或者, 结果, 可是, 然后, 如果, 虽然, 所以, 为, 为什么, 因为, 原来, 原因, 只要]
+  grammar: [hsk30-g076, hsk30-g077, hsk30-g078, hsk30-g083, hsk30-g111, hsk30-g113, hsk30-g114, hsk30-g116]

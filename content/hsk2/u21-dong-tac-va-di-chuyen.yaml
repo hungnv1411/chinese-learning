@@ -1,0 +1,173 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u21.json.
+id: hsk2-u21
+stage: hsk2
+order: 21
+title: Động tác và di chuyển
+description: Người học có thể miêu tả các động tác hằng ngày như cầm, đặt, kéo, đẩy, đi vào hay đi ra.
+lessons:
+- id: hsk2-u21-l01
+  title: Cầm, lấy ra, đặt xuống
+  grammar: hsk2-g004
+  new_words:
+  - 拿出
+  - 拿到
+  - 放下
+  - 找出
+  - 装
+  - 弄
+  sentences:
+  - id: s-hsk2-u21-001
+    zh: 他拿出了他的护照。
+    en: He took out his passport.
+    pinyin: tā ná chū le tā de hù zhào
+    tatoeba_id: 833071
+  - id: s-hsk2-u21-002
+    zh: 我拿到了他的书。
+    en: I got his book.
+    pinyin: wǒ nádào le tā de shū
+  - id: s-hsk2-u21-003
+    zh: 他放下东西，就走了。
+    en: He put his things down and left.
+    pinyin: tā fàngxia dōngxi jiù zǒu le
+    tatoeba_id: 1231223
+  - id: s-hsk2-u21-004
+    zh: 你看看，我找出了什么？
+    en: Take a look, what did I find?
+    pinyin: nǐ kànkan, wǒ zhǎochū le shénme?
+  tips:
+    拿出: '拿 có âm Hán Việt là nã; chữ có 合 ở trên và 手 (tay) ở dưới: chụm tay lại để cầm. 拿 đọc thanh 2
+      (ná), giọng đi lên như dấu sắc nhẹ, đừng đọc thành thanh 3.'
+    放下: '放 có âm Hán Việt là phóng. Trong 放下, chữ 下 thường đọc nhẹ (fàngxia), ngắn và không rõ thanh.
+      放下 = đặt xuống, bỏ xuống: 放下手机 (đặt điện thoại xuống).'
+    找出: 'zh trong 找 đọc gần như ''tr'' của tiếng Việt nhưng cong lưỡi và KHÔNG bật hơi; ch trong 出 cũng
+      cong lưỡi nhưng bật mạnh hơi ra. Đặt tay trước miệng: đọc chū phải thấy hơi phả vào tay.'
+    拿到: 'Phân biệt: 拿出 = lấy ra (từ trong ra ngoài), 拿到 = lấy được, nhận được (có kết quả). Muốn nói ''đã
+      lấy được sách'' thì nói 我拿到了书 sẽ rõ nghĩa hơn 我拿了书.'
+    弄: '弄 là động từ ''đa năng'' trong khẩu ngữ, giống chữ ''làm'' của tiếng Việt: 弄早饭 (làm bữa sáng),
+      弄坏了 (làm hỏng rồi). Khi không biết động từ chính xác, người bản xứ hay dùng 弄.'
+- id: hsk2-u21-l02
+  title: Đi vào, đi qua, đứng lại
+  grammar: hsk2-g050
+  new_words:
+  - 过来
+  - 进入
+  - 走过
+  - 走进
+  - 走开
+  - 站住
+  - 快点儿
+  sentences:
+  - id: s-hsk2-u21-005
+    zh: 过来坐下。
+    en: Come and sit down.
+    pinyin: guò lái zuò xià
+    tatoeba_id: 13891997
+  - id: s-hsk2-u21-006
+    zh: 他走进了房间。
+    en: He made his way to the room.
+    pinyin: tā zǒu jìn le fáng jiān
+    tatoeba_id: 802013
+  - id: s-hsk2-u21-007
+    zh: 给我站住！
+    en: Stop right there!
+    pinyin: gěi wǒ zhàn zhù
+    tatoeba_id: 1661542
+  - id: s-hsk2-u21-008
+    zh: 走开！别在这儿玩儿。
+    en: Get out! Don't play here!
+    pinyin: zǒu kāi bié zài zhè ér wán ér
+    tatoeba_id: 1231225
+  tips:
+    进入: '入 (rù): âm r tiếng Trung không rung lưỡi như ''r'' miền Nam, mà cong lưỡi lên gần như ''gi''
+      nhẹ. 进入 nghe trang trọng (进入房间, 进入大学); nói chuyện hằng ngày thường dùng 进 hoặc 走进.'
+    站住: '站 có âm Hán Việt là trạm, 住 có âm Hán Việt là trú. 站住 = đứng lại! (住 sau động từ nghĩa là dừng,
+      giữ chặt, như 记住). Hai chữ đều bắt đầu bằng zh: cong lưỡi, không bật hơi.'
+    走进: 'Nơi chốn đứng ngay sau 走进: 走进房间, 走进教室. Lỗi hay gặp: nói ~~走进去房间~~ → nên nói 走进房间 hoặc 走进房间去.'
+    过来: 'Khi 过来 làm bổ ngữ sau động từ, chỉ 来 đọc nhẹ, 过 vẫn giữ thanh 4: 过来 guòlai, 拿过来 ná guòlai. 过来
+      = lại đây (về phía người nói), ngược với 过去 = qua đó.'
+    快点儿: '快点儿 = nhanh lên! Thêm vào sau câu mệnh lệnh: 过来，快点儿！ 点儿 đọc cuốn lưỡi thành diǎnr, âm n gần
+      như mất, chỉ còn cong lưỡi ở cuối.'
+- id: hsk2-u21-l03
+  title: Đẩy, kéo, giơ, dựa
+  grammar: hsk2-g070
+  new_words:
+  - 举
+  - 推
+  - 拉
+  - 靠
+  - 碰
+  - 喊
+  sentences:
+  - id: s-hsk2-u21-009
+    zh: 我们推了车。
+    en: We gave the car a push.
+    pinyin: wǒ men tuī le chē
+    tatoeba_id: 805107
+  - id: s-hsk2-u21-010
+    zh: 他碰了我的手。
+    en: He touched my hand.
+    pinyin: tā pèng le wǒ de shǒu
+    tatoeba_id: 8934349
+  - id: s-hsk2-u21-011
+    zh: 有人喊我的名字。
+    en: Someone's shouted my name.
+    pinyin: yǒu rén hǎn wǒ de míng zì
+    tatoeba_id: 689562
+  - id: s-hsk2-u21-012
+    zh: 她靠着门站着。
+    en: She is standing, leaning against the door.
+    pinyin: tā kàozhe mén zhànzhe.
+  tips:
+    推: '推 (đẩy) và 拉 (kéo) đều có bộ thủ 扌 (tay) bên trái: động tác làm bằng tay. Trên cửa ở Trung Quốc
+      thường dán 推 hoặc 拉, nhớ kỹ để khỏi đẩy nhầm cửa kéo!'
+    举: '举 có âm Hán Việt là cử; phần dưới có 扌 (tay): giơ tay lên. Biến điệu 3+3: 举手 jǔ shǒu đọc thành
+      jú shǒu, chữ đầu đổi sang thanh 2.'
+    碰: '碰 có bộ 石 (đá) bên trái: đá va vào nhau → chạm, va. 碰 đọc pèng, âm p bật hơi mạnh, vần eng gần
+      ''âng'' chứ không phải ''eng'' tiếng Việt.'
+    喊: '喊 có bộ 口 (miệng): dùng miệng để hét, gọi to. Thanh 3 (hǎn) khi đứng một mình hạ thấp rồi lên,
+      nhưng trong câu thường chỉ hạ thấp, đừng đọc lên cao như dấu hỏi.'
+- id: hsk2-u21-l04
+  title: Ngã, rơi, ở lại, xong
+  new_words:
+  - 倒
+  - 掉
+  - 留
+  - 留下
+  - 分开
+  - 完
+  sentences:
+  - id: s-hsk2-u21-013
+    zh: 他倒在地上。
+    en: He fell to the floor.
+    pinyin: tā dǎo zài dì shàng
+    tatoeba_id: 2138521
+  - id: s-hsk2-u21-014
+    zh: 我的手机掉到了地上。
+    en: My cellphone fell on the floor.
+    pinyin: wǒ de shǒu jī diào dào le dì shàng
+    tatoeba_id: 10341482
+  - id: s-hsk2-u21-015
+    zh: 一些学生留下了。
+    en: Some students stayed behind.
+    pinyin: yī xiē xué shēng liú xià le
+    tatoeba_id: 10752778
+  - id: s-hsk2-u21-016
+    zh: 我刚刚吃完。
+    en: I have just finished eating.
+    pinyin: wǒ gāng gāng chī wán
+    tatoeba_id: 1878330
+  tips:
+    倒: '倒 có âm Hán Việt là đảo. Đọc dǎo (thanh 3) khi là ''ngã, đổ'': 他倒了 (anh ấy ngã). Đọc dào (thanh
+      4) khi là ''rót, đổ nước'': 倒水. Cùng chữ nhưng thanh khác thì nghĩa khác.'
+    掉: '掉 = rơi, và cũng hay dùng với nghĩa ''đánh rơi, làm mất'': 我的钱包掉了 (tôi rơi mất ví rồi). Chữ có
+      bộ 扌 (tay): tuột khỏi tay thì rơi.'
+    完: '完 có âm Hán Việt là hoàn (hoàn thành). Đặt 完 sau động từ để nói ''làm xong'': 吃完, 写完, 做完. Phủ
+      định dùng 没: 我还没吃完, không nói ~~我不吃完了~~.'
+    分开: '分 có âm Hán Việt là phân, gồm 八 (tách ra) trên 刀 (dao): dùng dao tách ra → chia, phân. 分开 = tách
+      ra, chia ra, cũng dùng cho người: 他们分开了 (họ chia tay rồi).'
+    留下: '留 có âm Hán Việt là lưu. 留 = để lại, giữ lại; 留下 nhấn mạnh ''ở lại, để lại một chỗ'': 他留下了 (anh
+      ấy ở lại). 下 trong 留下 thường đọc nhẹ (liúxia). Lưu ý 一些 đọc yìxiē (一 trước thanh 1 đổi thành thanh
+      4).'
+- id: hsk2-u21-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

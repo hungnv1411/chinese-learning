@@ -1,0 +1,164 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u25.json.
+id: hsk3-u25
+stage: hsk3
+order: 25
+title: Thiên nhiên và môi trường
+description: Nói về thời tiết, cảnh vật, vật liệu tự nhiên và bảo vệ môi trường.
+lessons:
+- id: hsk3-u25-l01
+  title: Bầu trời, ánh sáng và khí hậu
+  grammar: hsk3-g061
+  new_words:
+  - 天空
+  - 阳光
+  - 光
+  - 光明
+  - 暖和
+  - 气候
+  - 预报
+  sentences:
+  - id: s-hsk3-u25-001
+    zh: 今天比昨天暖和。
+    en: It is warmer today than yesterday.
+    pinyin: jīn tiān bǐ zuó tiān nuǎn huo
+    tatoeba_id: 346459
+  - id: s-hsk3-u25-002
+    zh: 那里的气候怎么样?
+    en: How's the weather there?
+    pinyin: nà lǐ de qì hòu zěn me yàng
+    tatoeba_id: 406353
+  - id: s-hsk3-u25-003
+    zh: 天气预报说明天有雨。
+    en: The weather forecast says it will rain tomorrow.
+    pinyin: Tiānqì yùbào shuō míngtiān yǒu yǔ.
+  - id: s-hsk3-u25-004
+    zh: 今天一会儿下雨，一会儿出太阳。
+    en: Today it rains one moment and the sun comes out the next.
+    pinyin: Jīntiān yíhuìr xià yǔ, yíhuìr chū tàiyáng.
+  tips:
+    暖和: '和 ở đây đọc nhẹ là huo (thanh nhẹ), không đọc hé như trong 我和你. Nói nuǎnhuo: nuǎn thanh 3 chỉ
+      cần xuống thấp, không cần lên lại. Mẹo nhớ: 暖 có bộ nhật 日 (mặt trời) bên trái, có nắng thì ấm.'
+    气候: 'Đừng nhầm 气候 với 天气: 天气 là thời tiết từng ngày (今天天气很好), còn 气候 là khí hậu lâu dài của một vùng
+      (北京的气候). 气 có âm Hán Việt là khí, 候 có âm Hán Việt là hầu.'
+    光明: '明 = 日 (mặt trời) + 月 (mặt trăng), có cả mặt trời lẫn mặt trăng thì sáng rõ. 光 có âm Hán Việt
+      là quang, 明 có âm Hán Việt là minh. 光明 thường dùng theo nghĩa bóng: tương lai tươi sáng.'
+    阳光: 阳 có bộ 阝 bên trái và 日 (mặt trời) bên phải, dễ nhớ là gắn với nắng. yáng có vần -ang, đọc mở
+      miệng rộng, khác vần 'ăng' trong tiếng Việt.
+- id: hsk3-u25-l02
+  title: Lửa, đất, đá, gỗ và sắt
+  new_words:
+  - 火
+  - 土
+  - 沙子
+  - 石头
+  - 木头
+  - 铁
+  sentences:
+  - id: s-hsk3-u25-005
+    zh: 动物怕火。
+    en: Animals are afraid of fire.
+    pinyin: dòng wù pà huǒ
+    tatoeba_id: 512178
+  - id: s-hsk3-u25-006
+    zh: 这玩具是用木头做的。
+    en: This toy is made of wood.
+    pinyin: zhè wán jù shì yòng mù tou zuò de
+    tatoeba_id: 763911
+  - id: s-hsk3-u25-007
+    zh: 我眼睛里进沙子了。
+    en: I got some sand in my eye.
+    pinyin: wǒ yǎn jīng lǐ jìn shā zi le
+    tatoeba_id: 12089121
+  - id: s-hsk3-u25-008
+    zh: 这块石头很重。
+    en: This stone is very heavy.
+    pinyin: Zhè kuài shítou hěn zhòng.
+  tips:
+    火: 火 có âm Hán Việt là hoả. Chữ trông như ngọn lửa bốc lên. huǒ có âm h bật hơi từ cổ họng, giống
+      'h' tiếng Việt nhưng hơi ráp hơn; vần -uo đọc gần 'ua' nhưng tròn môi hơn.
+    铁: 铁 = bộ kim 钅 (kim loại) + 失. Chữ có bộ 钅 thường liên quan đến kim loại. 铁 có âm Hán Việt là thiết.
+      tiě thanh 3, t bật hơi mạnh như 'th' tiếng Việt.
+    沙子: '沙 = 氵(nước) + 少 (ít): chỗ nước rút ít đi để lộ ra cát. 沙 có âm Hán Việt là sa. shā: sh uốn đầu
+      lưỡi lên, không đọc thành ''x'' tiếng Việt.'
+    石头: 'Trong 石头 và 木头, 头 đọc nhẹ là tou, không nhấn thanh 2. 石 có âm Hán Việt là thạch, 木 có âm Hán
+      Việt là mộc. shí: sh uốn lưỡi, i đọc như ''ư'' kéo dài, không đọc ''si''.'
+- id: hsk3-u25-l03
+  title: Cây cối, muôn loài và vẻ đẹp
+  new_words:
+  - 马
+  - 种
+  - 种子
+  - 生长
+  - 生存
+  - 美丽
+  sentences:
+  - id: s-hsk3-u25-009
+    zh: 我的马是白色的。
+    en: My horse is white.
+    pinyin: wǒ de mǎ shì bái sè de
+    tatoeba_id: 2778259
+  - id: s-hsk3-u25-010
+    zh: 这些花生长在温暖的国家。
+    en: These flowers grow in warm countries.
+    pinyin: zhè xiē huā shēng zhǎng zài wēn nuǎn de guó jiā
+    tatoeba_id: 801323
+  - id: s-hsk3-u25-011
+    zh: 你会说多少种语言?
+    en: How many languages can you speak?
+    pinyin: nǐ huì shuō duō shǎo zhǒng yǔ yán
+    tatoeba_id: 848608
+  - id: s-hsk3-u25-012
+    zh: 那是个美丽的地方。
+    en: That is a beautiful place.
+    pinyin: nà shì gè měi lì de dì fāng
+    tatoeba_id: 5500541
+  tips:
+    马: '马 mǎ thanh 3 (ngựa), đừng nhầm với 妈 mā thanh 1 (mẹ). 马 có âm Hán Việt là mã. Nhiều chữ có 马 làm
+      phần âm cũng đọc ma: 妈, 吗.'
+    种: '种 = bộ hòa 禾 (lúa) + 中: liên quan hạt giống. Đọc zhǒng khi là ''loại, giống'' (一种, 种子). Dùng làm
+      lượng từ: 三种水果 ''ba loại trái cây''. zh uốn lưỡi, không bật hơi, không đọc thành ''tr'' tiếng Việt
+      cứng.'
+    生长: '长 trong 生长 đọc zhǎng (lớn lên), không đọc cháng (dài). Cách nhớ: 长大 zhǎngdà ''lớn lên'' cũng
+      đọc zhǎng. 生 có âm Hán Việt là sinh, 长 có âm Hán Việt là trường.'
+    美丽: 'Người Việt hay nói ~~那个地方是美丽~~. Tính từ làm vị ngữ không cần 是: 那个地方很美丽. Muốn dùng 是 thì thêm
+      的 cuối câu: 生活是美丽的. Mẹo nhớ: 美 = 羊 (con dê) + 大 (to). 丽 có âm Hán Việt là lệ.'
+- id: hsk3-u25-l04
+  title: Thiên nhiên và bảo vệ môi trường
+  new_words:
+  - 自然
+  - 环
+  - 环境
+  - 环保
+  - 消失
+  sentences:
+  - id: s-hsk3-u25-013
+    zh: 雪消失了。
+    en: The snow has disappeared.
+    pinyin: xuě xiāo shī le
+    tatoeba_id: 397552
+  - id: s-hsk3-u25-014
+    zh: 他们的生活环境很好。
+    en: They live in a good environment.
+    pinyin: tā men de shēng huó huán jìng hěn hǎo
+    tatoeba_id: 426018
+  - id: s-hsk3-u25-015
+    zh: 人是自然的一部分。
+    en: Humans are a part of nature.
+    pinyin: Rén shì zìrán de yí bùfen.
+  - id: s-hsk3-u25-016
+    zh: 环保是大家的事。
+    en: Environmental protection is everyone's business.
+    pinyin: Huánbǎo shì dàjiā de shì.
+  tips:
+    环: 环 = bộ ngọc 王 (vốn là 玉 ngọc) + 不. Ngày xưa vòng thường làm bằng ngọc nên có bộ ngọc. Ngày nay
+      环 hầu như không đứng một mình mà nằm trong từ ghép như 环境, 环保. huán thanh 2, giọng đi lên giống
+      dấu sắc.
+    环保: '环保 là cách nói tắt của 环境保护 ''bảo vệ môi trường'', vừa làm danh từ vừa làm tính từ: 很环保 ''rất
+      thân thiện với môi trường''. 保 có âm Hán Việt là bảo.'
+    消失: 'xiāo: x đọc gần ''s'' nhẹ, mặt lưỡi áp vào vòm miệng; shī: sh uốn lưỡi. Hai âm này người Việt
+      hay đọc lẫn nhau. 失 có âm Hán Việt là thất, chú ý nét phẩy trên đầu, khác chữ 夫.'
+    自然: '然 có bộ hỏa 灬 (bốn chấm lửa) ở dưới. 自 có âm Hán Việt là tự, 然 có âm Hán Việt là nhiên. rán:
+      r đọc gần ''r'' uốn lưỡi nhẹ, không rung lưỡi, cũng không đọc ''z''.'
+- id: hsk3-u25-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

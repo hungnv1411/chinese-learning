@@ -1,0 +1,31 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:17:37",
+  "prompt_sha256": [
+    "c2762a9b820fe92454c70e81d3b3aab6e883f7d65ebdb08938071bdb9f295536",
+    "8e878d12b3a3b0b01210e1e281b91eee19028653c232c3fb21ead877b95d6bf5"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u13-015",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "“比我们还高的分数” hơi gượng: 还 mang nghĩa “còn/thậm chí” nên nghe như so với một mức vốn đã cao, và bản dịch tiếng Anh không dịch 还. Người bản xứ thường nói “分数比我们都高” hơn.",
+      "suggestion": "Đổi thành 他的分数比我们都高。(He got a higher score than all of us.) hoặc giữ câu nhưng dịch: “He got an even higher score than us.”"
+    }
+  ],
+  "machine_warnings": [
+    "u13-truong-hoc-va-cap-lop.yaml:20: [sentence_unlearned_word] Câu s-hsk2-u13-001 (bài hsk2-u13-l01) dùng từ chưa học: 二年级",
+    "u13-truong-hoc-va-cap-lop.yaml:24: [sentence_unlearned_word] Câu s-hsk2-u13-002 (bài hsk2-u13-l01) dùng từ chưa học: 中级班, 高级班",
+    "u13-truong-hoc-va-cap-lop.yaml:28: [sentence_unlearned_word] Câu s-hsk2-u13-003 (bài hsk2-u13-l01) dùng từ chưa học: 第一年",
+    "u13-truong-hoc-va-cap-lop.yaml:59: [sentence_unlearned_word] Câu s-hsk2-u13-006 (bài hsk2-u13-l02) dùng từ chưa học: 三个, 人组, 一个",
+    "u13-truong-hoc-va-cap-lop.yaml:94: [sentence_unlearned_word] Câu s-hsk2-u13-010 (bài hsk2-u13-l03) dùng từ chưa học: 很多",
+    "u13-truong-hoc-va-cap-lop.yaml:127: [sentence_unlearned_word] Câu s-hsk2-u13-013 (bài hsk2-u13-l04) dùng từ chưa học: 哪一科"
+  ],
+  "han_viet_proposed": []
+}

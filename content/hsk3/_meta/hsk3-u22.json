@@ -1,0 +1,29 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-10T01:34:50",
+  "prompt_sha256": [
+    "6cbe0399ab234585118475fab254c2da1f7f23c9c48a6c3b372f41904722474e",
+    "4bb15e0137daff226d0a37b2dd5ca7fa85b38d35e574d919b9d251f26104169f",
+    "f6e7937ef70b8f7792d6085a24970b4a9ee074a8a0ff5eb86cc76d0da5655653"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u22-010",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"He made a determination to be a doctor.\" gượng, người bản xứ ít nói vậy. Nghĩa vẫn đúng.",
+      "suggestion": "Đổi thành \"He is determined to become a doctor.\""
+    }
+  ],
+  "machine_warnings": [
+    "u22-muc-tieu-va-thanh-cong.yaml:78: [sentence_unlearned_word] Câu s-hsk3-u22-008 (bài hsk3-u22-l02) dùng từ chưa học: 达到目标, 每天, 努力学习",
+    "u22-muc-tieu-va-thanh-cong.yaml:120: [sentence_unlearned_word] Câu s-hsk3-u22-012 (bài hsk3-u22-l03) dùng từ chưa học: 只有",
+    "u22-muc-tieu-va-thanh-cong.yaml:160: [sentence_unlearned_word] Câu s-hsk3-u22-016 (bài hsk3-u22-l04) dùng từ chưa học: 一下"
+  ],
+  "han_viet_proposed": []
+}

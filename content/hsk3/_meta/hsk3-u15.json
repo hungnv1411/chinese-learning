@@ -1,0 +1,23 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:39:38",
+  "prompt_sha256": [
+    "c2b167a4729362f4437d47c223247e6025d168fb9d7954ac46b33be34ba688f9",
+    "8cc30af351ae3da419aa0962045284c95964af8b8b04bbf5fbc1f8098deb5c03",
+    "2f3e9770d2ab53939a99a3dbd4d825c6bf15e33d7742da977441d05097adb4eb"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u15-giao-tiep-va-quan-he.yaml:19: [sentence_unlearned_word] Câu s-hsk3-u15-001 (bài hsk3-u15-l01) dùng từ chưa học: 我家",
+    "u15-giao-tiep-va-quan-he.yaml:76: [sentence_pinyin_mismatch] Câu s-hsk3-u15-008: pinyin ghi 'Shí fēnzhōng hòu, tāmen huànle gè xīn huàtí.', pypinyin cho 'fēn zhōng hòu tā men huàn le gè xīn huà tí'",
+    "u15-giao-tiep-va-quan-he.yaml:144: [sentence_unlearned_word] Câu s-hsk3-u15-014 (bài hsk3-u15-l04) dùng từ chưa học: 别吵"
+  ],
+  "han_viet_proposed": [
+    "握"
+  ]
+}

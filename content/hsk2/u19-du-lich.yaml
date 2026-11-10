@@ -1,0 +1,172 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u19.json.
+id: hsk2-u19
+stage: hsk2
+order: 19
+title: Du lịch
+description: Người học có thể lên kế hoạch đi chơi, ra nước ngoài, chụp ảnh và kể lại những nơi đã từng
+  đến.
+lessons:
+- id: hsk2-u19-l01
+  title: Đi du lịch và những nơi đã từng đến
+  grammar: hsk2-g071
+  new_words:
+  - 旅行
+  - 旅游
+  - 旅客
+  - 游客
+  - 外地
+  - 参观
+  sentences:
+  - id: s-hsk2-u19-001
+    zh: 我很喜欢旅游。
+    en: I really like travelling.
+    pinyin: wǒ hěn xǐ huān lǚ yóu
+    tatoeba_id: 984480
+  - id: s-hsk2-u19-002
+    zh: 我是游客。
+    en: I am a tourist.
+    pinyin: wǒ shì yóu kè
+    tatoeba_id: 4970147
+  - id: s-hsk2-u19-003
+    zh: 你去过外地旅游吗？
+    en: Have you ever travelled to other parts of the country?
+    pinyin: Nǐ qùguo wàidì lǚyóu ma?
+  - id: s-hsk2-u19-004
+    zh: 我没参观过他们的学校。
+    en: I have never visited their school.
+    pinyin: Wǒ méi cānguānguo tāmen de xuéxiào.
+  tips:
+    旅行: '旅 đọc lǚ: âm ü không có trong tiếng Việt. Đặt lưỡi như khi đọc "i" rồi chu tròn môi như "u",
+      giữ nguyên lưỡi. Đừng đọc thành "lủ" hay "lúy". Thanh 3 đứng một mình thì đọc trầm xuống rồi lên,
+      nhưng khi đứng trước thanh khác thì chỉ hạ thấp, giống dấu nặng kéo dài.'
+    旅游: '旅游 thiên về đi chơi, ngắm cảnh (du lịch). 旅行 nghĩa rộng hơn: đi xa, đi một chuyến, không nhất
+      thiết để chơi. Nói "đi du lịch" thì dùng 去旅游 là tự nhiên nhất.'
+    旅客: 旅 có âm Hán Việt là lữ, 客 có âm Hán Việt là khách → dễ nhớ "lữ khách". 旅客 hay dùng cho hành khách
+      đi tàu, xe, máy bay. 游客 là du khách đi tham quan, ngắm cảnh.
+    外地: 外 có âm Hán Việt là ngoại, 地 có âm Hán Việt là địa, nhưng 外地 KHÔNG phải "nước ngoài". Từ này chỉ
+      nơi khác trong cùng một nước, ngoài nơi mình đang sống. Nước ngoài là 外国 / 国外.
+    参观: '参观 chỉ dùng cho nơi chốn (trường học, nhà máy, thư viện…), không dùng cho người. Sai: 参观朋友 →
+      Đúng: 去看朋友 (đi thăm bạn). 观 có bộ 见 (thấy) bên phải, gợi nghĩa "đi xem".'
+- id: hsk2-u19-l02
+  title: Ra nước ngoài
+  grammar: hsk2-g032
+  new_words:
+  - 出国
+  - 回国
+  - 护照
+  - 国际
+  - 留学生
+  - 酒店
+  sentences:
+  - id: s-hsk2-u19-005
+    zh: 我还没出过国。
+    en: I have never been abroad.
+    pinyin: Wǒ hái méi chūguo guó.
+  - id: s-hsk2-u19-006
+    zh: 这是我的护照。
+    en: Here's my passport.
+    pinyin: zhè shì wǒ de hù zhào
+    tatoeba_id: 9492330
+  - id: s-hsk2-u19-007
+    zh: 英语是国际语言。
+    en: English is an international language.
+    pinyin: yīng yǔ shì guó jì yǔ yán
+    tatoeba_id: 811873
+  - id: s-hsk2-u19-008
+    zh: 他们在酒店吃饭。
+    en: They take their meals at the hotel.
+    pinyin: tā men zài jiǔ diàn chī fàn
+    tatoeba_id: 616554
+  tips:
+    出国: '出国 và 回国 là động từ li hợp. Khi thêm 过 hay 了, phải chèn vào giữa: 出过国, 回了国. Sai: ~~我出国过~~ → Đúng:
+      我出过国。'
+    护照: 护 có âm Hán Việt là hộ, 照 có âm Hán Việt là chiếu → "hộ chiếu". 护 có bộ 扌 (tay), gợi hình bàn
+      tay che chở. zh trong 照 phải uốn lưỡi lên và không bật hơi. Đừng đọc thành "d" hay "tr" của tiếng
+      Việt.
+    留学生: 留 có âm Hán Việt là lưu, 学 có âm Hán Việt là học, 生 có âm Hán Việt là sinh. 留学生 vừa chỉ du học
+      sinh người Việt ở Trung Quốc, vừa chỉ sinh viên nước ngoài đang học ở trường mình.
+    酒店: Tuy 酒 nghĩa là rượu, nhưng ngày nay 酒店 hầu như luôn có nghĩa là "khách sạn", không phải quán rượu.
+      酒 có bộ 氵 (nước), đúng là thứ để uống.
+    回国: '回 là ô vuông nhỏ nằm trong ô vuông lớn, thuộc bộ vi 囗. 国 cũng nằm trong khung 囗, bên trong là
+      玉. Nhớ: 回国 là "trở về cái khung đất nước của mình".'
+- id: hsk2-u19-l03
+  title: Lên đường
+  grammar: hsk2-g060
+  new_words:
+  - 出发
+  - 离开
+  - 起飞
+  - 平安
+  - 一路平安
+  - 一路顺风
+  sentences:
+  - id: s-hsk2-u19-009
+    zh: 飞机起飞了。
+    en: The plane took off.
+    pinyin: fēi jī qǐ fēi le
+    tatoeba_id: 9179801
+  - id: s-hsk2-u19-010
+    zh: 你们是什么时候出发的？
+    en: When did you set off?
+    pinyin: Nǐmen shì shénme shíhou chūfā de?
+  - id: s-hsk2-u19-011
+    zh: 他是昨天离开北京的。
+    en: It was yesterday that he left Beijing.
+    pinyin: Tā shì zuótiān líkāi Běijīng de.
+  - id: s-hsk2-u19-012
+    zh: 一路平安！
+    en: Bon voyage!
+    pinyin: yí lù píng ān
+    tatoeba_id: 1216125
+  tips:
+    一路平安: 'Biến điệu của 一: đứng trước thanh 4 (路 lù) thì 一 đọc thành thanh 2, nên 一路平安 đọc là yílù píng''ān,
+      一路顺风 đọc là yílù shùnfēng. Đây là câu chúc người sắp đi xa, nói khi tiễn ở sân bay hoặc nhà ga.'
+    一路顺风: Người Trung Quốc thường tránh nói 一路顺风 với người sắp đi máy bay, vì máy bay cất cánh cần gió
+      ngược. Khi tiễn người đi máy bay, dùng 一路平安 cho an toàn. 顺 có âm Hán Việt là thuận, 风 có âm Hán
+      Việt là phong → "thuận phong".
+    离开: '离开 đi thẳng với nơi chốn hoặc người, không cần giới từ: 离开北京, 离开他. Sai: ~~离开从北京~~.'
+    出发: 'ch trong 出 uốn lưỡi và bật hơi mạnh. Đừng đọc thành "ch" mặt lưỡi của tiếng Việt. 出发 không đi
+      với tân ngữ chỉ nơi đến. Muốn nói xuất phát từ đâu thì dùng 从 + nơi + 出发: 我们从北京出发。'
+    起飞: 起 có bộ 走 (đi, chạy) bao bên trái và bên dưới, 飞 trông như cánh chim. Ghép lại là bắt đầu bay
+      lên, tức cất cánh. 起 thanh 3 đứng trước thanh 1 nên chỉ đọc nửa thanh 3 (hạ thấp, không lên lại).
+- id: hsk2-u19-l04
+  title: Chụp ảnh kỷ niệm
+  new_words:
+  - 带
+  - 带来
+  - 相机
+  - 照片
+  - 照相
+  sentences:
+  - id: s-hsk2-u19-013
+    zh: 我们在这儿照相吧。
+    en: Let's take a photo here.
+    pinyin: Wǒmen zài zhèr zhàoxiàng ba.
+  - id: s-hsk2-u19-014
+    zh: 我的相机坏了。
+    en: Something's wrong with my camera.
+    pinyin: wǒ de xiàng jī huài le
+    tatoeba_id: 842325
+  - id: s-hsk2-u19-015
+    zh: 这些照片是她的。
+    en: Those photos are hers.
+    pinyin: Zhèxiē zhàopiàn shì tā de.
+  - id: s-hsk2-u19-016
+    zh: 你带来了吗？
+    en: Did you bring it?
+    pinyin: nǐ dài lái le ma
+    tatoeba_id: 9709532
+  tips:
+    照相: '照相 là động từ (chụp ảnh), 照片 là danh từ (bức ảnh). Sai: ~~我们照片吧~~ → Đúng: 我们照相吧。 照相 là động từ
+      li hợp: 照过相, 照个相.'
+    照片: 照 có bộ 灬 (lửa) ở dưới, gợi ánh sáng chiếu rọi, rất hợp với chụp ảnh. 照片 đọc zhàopiàn (片 thanh
+      4). Khi nói kiểu Bắc Kinh có thêm 儿 thì thành 照片儿 zhàopiānr.
+    相机: 相 trong 相机 đọc xiàng (thanh 4). 相 có âm Hán Việt là tương, 机 có âm Hán Việt là cơ. 相机 là dạng
+      rút gọn của 照相机.
+    带: '带 + người/vật: mang theo, dẫn theo. Ví dụ: 带护照 (mang hộ chiếu), 带我回家 (đưa tôi về nhà). Người Việt
+      hay quên 带 và nói ~~我忘护照~~. Đúng: 我忘了带护照。'
+    带来: 带来 là mang lại đây, hướng về phía người nói. Mang đi chỗ khác thì dùng 带去. Hướng của 来/去 giống
+      回来/回去 đã học.
+- id: hsk2-u19-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

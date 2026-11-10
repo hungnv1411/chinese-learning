@@ -1,0 +1,201 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u06.json.
+id: hsk3-u06
+stage: hsk3
+order: 6
+title: Vị trí và vùng miền
+description: Chỉ phương hướng, vị trí và giới thiệu thành phố, nông thôn, quê hương.
+lessons:
+- id: hsk3-u06-l01
+  title: Các miền của một đất nước
+  new_words:
+  - 北部
+  - 南部
+  - 东部
+  - 西部
+  - 中部
+  - 地区
+  - 各地
+  - 当地
+  sentences:
+  - id: s-hsk3-u06-001
+    zh: 我家在中国北部。
+    en: My home is in northern China.
+    pinyin: Wǒ jiā zài Zhōngguó běibù.
+  - id: s-hsk3-u06-002
+    zh: 这地区很安静。
+    en: The area was quiet.
+    pinyin: zhè dì qū hěn ān jìng
+    tatoeba_id: 825936
+  - id: s-hsk3-u06-003
+    zh: 当地人很热情。
+    en: The local people are very warm and friendly.
+    pinyin: Dāngdì rén hěn rèqíng.
+  - id: s-hsk3-u06-004
+    zh: 他去过中国各地。
+    en: He has been to all parts of China.
+    pinyin: Tā qùguo Zhōngguó gèdì.
+  tips:
+    北部: '部 có âm Hán Việt là bộ. Chỉ cần ghép phương hướng đã học (东, 南, 西, 北, 中) với 部 là ra ''miền ...'':
+      北部 = miền bắc, 中部 = miền trung, 南部 = miền nam.'
+    西部: 'x trong 西 xī không giống ''x'' tiếng Việt: đặt đầu lưỡi sau răng cửa dưới, kéo môi dẹt như đang
+      cười rồi đọc ''xi'' thanh 1, giữ giọng cao và đều.'
+    各地: '各 gè (thanh 4) nghĩa là ''mỗi, các''. Đừng nhầm với lượng từ 个 gè: cùng âm nhưng khác chữ. 各
+      gồm 夂 ở trên và 口 ở dưới. 中国各地 = khắp các nơi ở Trung Quốc.'
+    当地: 当地 dāngdì nghĩa là 'ở địa phương đó'. Thường dùng 当地人 (người địa phương), 当地菜 (món ăn địa phương).
+      Chữ 当 đọc thanh 1, không phải thanh 4.
+- id: hsk3-u06-l02
+  title: Trước, sau và ở giữa
+  grammar: hsk3-g032
+  new_words:
+  - 前面
+  - 后面
+  - 背后
+  - 眼前
+  - 当中
+  - 表面
+  sentences:
+  - id: s-hsk3-u06-005
+    zh: 请到前面来。
+    en: Move up to the front, please.
+    pinyin: qǐng dào qián miàn lái
+    tatoeba_id: 340151
+  - id: s-hsk3-u06-006
+    zh: 我在他后面。
+    en: I'm behind him.
+    pinyin: wǒ zài tā hòu miàn
+    tatoeba_id: 825930
+  - id: s-hsk3-u06-007
+    zh: 我在学校前面等你。
+    en: I'll wait for you in front of the school.
+    pinyin: wǒ zài xué xiào qián miàn děng nǐ
+    tatoeba_id: 4506252
+  - id: s-hsk3-u06-008
+    zh: 他在门背后。
+    en: He is behind the door.
+    pinyin: tā zài mén bèi hòu
+  tips:
+    前面: 'Lỗi hay gặp: dịch từng chữ ''trước trường'' thành 前面学校. Trong tiếng Trung, vật làm mốc đứng TRƯỚC,
+      từ chỉ vị trí đứng SAU: 学校前面 (trước trường), 我后面 (sau tôi).'
+    后面: 'Thanh 4 trong 后 hòu và 面 miàn đều đọc dứt khoát, đi xuống từ cao xuống thấp, gần giống dấu nặng
+      nhưng không bị chặn ở cổ họng. 面 đọc nhẹ đi trong khẩu ngữ: hòumian.'
+    背后: '背后 ngoài nghĩa ''phía sau lưng'' còn có nghĩa bóng ''đằng sau, ngầm'': 在背后说别人 = nói xấu sau lưng
+      người khác. Chữ 背 có 北 ở trên và 月 (thịt) ở dưới, gợi ý bộ phận cơ thể: cái lưng.'
+    表面: 表 có âm Hán Việt là biểu. 表面 là 'bề mặt, bề ngoài', dùng cả nghĩa đen (bề mặt cái bàn) lẫn nghĩa
+      bóng (表面上很好 = bề ngoài thì tốt).
+    眼前: 眼 (mắt) + 前 (trước) = 'trước mắt'. Giống tiếng Việt, nó vừa chỉ nơi chốn (ngay trước mắt) vừa
+      chỉ thời gian (lúc này, hiện tại).
+- id: hsk3-u06-l03
+  title: Hướng về, thẳng và xung quanh
+  grammar: hsk3-g022
+  new_words:
+  - 朝
+  - 直
+  - 周围
+  - 围
+  - 内
+  sentences:
+  - id: s-hsk3-u06-009
+    zh: 他朝我笑了笑。
+    en: He smiled at me.
+    pinyin: Tā cháo wǒ xiào le xiào.
+  - id: s-hsk3-u06-010
+    zh: 这条路很直，你朝前走就到了。
+    en: This road is very straight; just walk forward and you'll get there.
+    pinyin: Zhè tiáo lù hěn zhí, nǐ cháo qián zǒu jiù dào le.
+  - id: s-hsk3-u06-011
+    zh: 我看了看周围。
+    en: I looked around.
+    pinyin: wǒ kàn le kàn zhōu wéi
+    tatoeba_id: 780264
+  - id: s-hsk3-u06-012
+    zh: 我不可能在一小时内就完成工作。
+    en: It is impossible for me to finish the work in an hour.
+    pinyin: wǒ bù kě néng zài yī xiǎo shí nèi jiù wán chéng gōng zuò
+    tatoeba_id: 344969
+  tips:
+    朝: '朝 có âm Hán Việt là triều. Chữ này có hai cách đọc: cháo (hướng về, triều đại) và zhāo (buổi sáng).
+      Trong bài này luôn đọc cháo, thanh 2: giọng đi lên giống dấu sắc.'
+    围: 'Mẹo nhớ: khung 囗 bao quanh bên ngoài giống một bức tường vây kín, bên trong là 韦. Nhìn chữ là
+      thấy nghĩa ''vây quanh''. 周围 = xung quanh.'
+    直: 'zh trong 直 zhí: uốn đầu lưỡi lên chạm vòm miệng, đọc gần như ''tr'' tiếng Việt nhưng không bật
+      hơi. Âm i sau zh/ch/sh không đọc thành ''i'' mà giữ lưỡi ở vị trí uốn.'
+    内: '内 thường dùng trong văn viết hoặc trong khung 在……内: 在一小时内 (trong vòng một giờ), 在国内 (trong nước).
+      Khẩu ngữ hằng ngày hay dùng 里 hơn: 在房间里.'
+- id: hsk3-u06-l04
+  title: Thành phố và xây dựng
+  new_words:
+  - 城
+  - 城市
+  - 首都
+  - 区
+  - 建
+  - 建成
+  - 建设
+  sentences:
+  - id: s-hsk3-u06-013
+    zh: 北京是中国的首都。
+    en: Beijing is the capital of China.
+    pinyin: běi jīng shì zhōng guó de shǒu dū
+    tatoeba_id: 389050
+  - id: s-hsk3-u06-014
+    zh: 我想住在城市。
+    en: I want to live in the city.
+    pinyin: wǒ xiǎng zhù zài chéng shì
+    tatoeba_id: 3700468
+  - id: s-hsk3-u06-015
+    zh: 路正在建。
+    en: The road is under construction.
+    pinyin: lù zhèng zài jiàn
+    tatoeba_id: 6149486
+  - id: s-hsk3-u06-016
+    zh: 它是什么时候建成的？
+    en: When was it built?
+    pinyin: tā shì shén me shí hòu jiàn chéng de
+    tatoeba_id: 8625827
+  tips:
+    城市: '城市 chéngshì: ch bật hơi mạnh (đặt tay trước miệng sẽ thấy hơi), sh không bật hơi. Cả hai đều
+      uốn lưỡi. 城 có âm Hán Việt là thành, 市 có âm Hán Việt là thị.'
+    首都: 都 trong 首都 đọc dū, không đọc dōu như trong 我们都. Cùng một chữ, nghĩa khác thì cách đọc khác.
+    区: 'Mẹo nhớ: khung 匸 mở một bên giống một khu đất được rào lại, chữ 乂 ở bên trong. 区 là ''khu, quận''
+      (ví dụ 东城区). 区 có âm Hán Việt là khu.'
+    建设: '建 là ''xây'', 建成 là ''xây xong'' (thêm kết quả 成), 建设 là ''xây dựng'' ở quy mô lớn như đất nước,
+      thành phố: 建设国家. Không nói 建设房子, chỉ nói 建房子.'
+- id: hsk3-u06-l05
+  title: Nông thôn và quê hương
+  new_words:
+  - 村
+  - 农村
+  - 农民
+  - 农业
+  - 故乡
+  - 家乡
+  sentences:
+  - id: s-hsk3-u06-017
+    zh: 我的家乡非常漂亮。
+    en: My hometown is very pretty.
+    pinyin: wǒ de jiā xiāng fēi cháng piào liàng
+    tatoeba_id: 476609
+  - id: s-hsk3-u06-018
+    zh: 我爸爸是农民。
+    en: My father is a farmer.
+    pinyin: Wǒ bàba shì nóngmín.
+  - id: s-hsk3-u06-019
+    zh: 他很多年没回故乡了。
+    en: He hasn't been back to his hometown for many years.
+    pinyin: Tā hěn duō nián méi huí gùxiāng le.
+  - id: s-hsk3-u06-020
+    zh: 在城市生活和在农村生活很不同。
+    en: Living in the city is really different to living in the country.
+    pinyin: zài chéng shì shēng huó hé zài nóng cūn shēng huó hěn bù tóng
+    tatoeba_id: 334029
+  tips:
+    村: 'Mẹo nhớ: bộ 木 (cây) bên trái + 寸 bên phải. Làng quê có nhiều cây. 村 có âm Hán Việt là thôn. Lưu
+      ý c trong cūn đọc như ''tx'' bật hơi, không phải ''c'' tiếng Việt.'
+    农民: 农 có âm Hán Việt là nông, 民 có âm Hán Việt là dân. Ngoài ra 业 có âm Hán Việt là nghiệp, 村 có âm
+      Hán Việt là thôn. Nhớ một chữ 农 là đoán được cả nhóm 农民, 农业, 农村.
+    家乡: '家乡 dùng nhiều trong khẩu ngữ: 我的家乡在南部. 故乡 mang sắc thái văn chương và hoài niệm hơn, hay dùng
+      khi đã xa quê lâu năm.'
+    农业: Thanh 2 của 农 nóng giống dấu sắc. 业 yè đọc như vần 'iê' tiếng Việt, thanh 4 đi xuống dứt khoát.
+- id: hsk3-u06-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

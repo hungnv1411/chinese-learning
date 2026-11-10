@@ -1,0 +1,47 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:23:22",
+  "prompt_sha256": [
+    "34e90cda64e302de3973813f039ab5760e097083f3bc29b897fdc21f3d37f1dd",
+    "9249bd0a6e05b0d767eed6a8359e83e37001ad768b9b12c7bb5233052f9ef476",
+    "adca43ea3c88ec0bf5af754ce0281964e673af5f535abb28cb3b0aba9a977561"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u03-012",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "「我们是第一次见」thiếu tân ngữ/bổ ngữ nên hơi cụt. Người bản xứ thường nói 第一次见面. Từ 见面 chưa học nên không dùng được ở đây.",
+      "suggestion": "Đổi thành 我是第一次见你。 (I'm meeting you for the first time.), pinyin: Wǒ shì dì-yī cì jiàn nǐ. Chỉ dùng từ đã học."
+    },
+    {
+      "where": "s-hsk1-u03-004",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi 个 là «gè» (thanh 4) trong khi s-hsk1-u03-005 và tip 个 ghi «ge» (thanh nhẹ). Ngoài ra, pinyin không viết hoa đầu câu, không có dấu câu và tách «nán rén», khác với các câu còn lại.",
+      "suggestion": "Sửa thành: Wǒ shì ge nánrén."
+    },
+    {
+      "where": "hsk1-u03-l04 (tip 有些)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip phân biệt quá cứng: 有些 + danh từ, còn 有一些 + tính từ/động từ. Thực tế 有些 cũng đứng trước tính từ (有些不高兴) và 有一些 cũng đứng trước danh từ (有一些人). Người học có thể hiểu là hai từ này loại trừ nhau.",
+      "suggestion": "Viết rằng 有些 thường đứng trước danh từ (有些人 = một số người) và cũng có thể đứng trước tính từ (hơi, khá). 有一些 đứng trước tính từ/động từ với nghĩa «hơi…» (他有一些不高兴)."
+    }
+  ],
+  "machine_warnings": [
+    "u03-so-dem-va-luong-tu.yaml:50: [sentence_unlearned_word] Câu s-hsk1-u03-003 (bài hsk1-u03-l02) dùng từ chưa học: 九十九, 一百",
+    "u03-so-dem-va-luong-tu.yaml:79: [sentence_unlearned_word] Câu s-hsk1-u03-005 (bài hsk1-u03-l03) dùng từ chưa học: 两个",
+    "u03-so-dem-va-luong-tu.yaml:107: [sentence_unlearned_word] Câu s-hsk1-u03-007 (bài hsk1-u03-l04) dùng từ chưa học: 几个",
+    "u03-so-dem-va-luong-tu.yaml:140: [sentence_unlearned_word] Câu s-hsk1-u03-011 (bài hsk1-u03-l05) dùng từ chưa học: 第二个",
+    "u03-so-dem-va-luong-tu.yaml:144: [sentence_unlearned_word] Câu s-hsk1-u03-012 (bài hsk1-u03-l05) dùng từ chưa học: 第一次"
+  ],
+  "han_viet_proposed": [
+    "页"
+  ]
+}

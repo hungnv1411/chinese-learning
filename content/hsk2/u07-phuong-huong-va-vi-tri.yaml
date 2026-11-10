@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u07.json.
+id: hsk2-u07
+stage: hsk2
+order: 7
+title: Phương hướng và vị trí
+description: Người học có thể hỏi đường, chỉ hướng và nói vị trí của nơi chốn, đồ vật.
+lessons:
+- id: hsk2-u07-l01
+  title: 'Phương hướng: Đông, Tây, Nam, Bắc'
+  grammar: hsk2-g023
+  new_words:
+  - 方向
+  - 北方
+  - 南方
+  - 东方
+  - 西方
+  - 向
+  sentences:
+  - id: s-hsk2-u07-001
+    zh: 飞机飞向东方。
+    en: The plane flew east.
+    pinyin: fēi jī fēi xiàng dōng fāng
+    tatoeba_id: 353631
+  - id: s-hsk2-u07-002
+    zh: 北京在中国的北方。
+    en: Beijing is in the north of China.
+    pinyin: Běijīng zài Zhōngguó de běifāng.
+  - id: s-hsk2-u07-003
+    zh: 请问，车站在哪个方向？
+    en: Excuse me, which direction is the station?
+    pinyin: Qǐngwèn, chēzhàn zài nǎge fāngxiàng?
+  - id: s-hsk2-u07-004
+    zh: 他向我走来。
+    en: He walked toward me.
+    pinyin: Tā xiàng wǒ zǒu lái.
+  tips:
+    方向: 方 có âm Hán Việt là phương, 向 có âm Hán Việt là hướng. Ghép lại thành 'phương hướng', nghĩa giống
+      hệt tiếng Việt nên rất dễ nhớ.
+    向: 向 đọc là xiàng (thanh 4). Âm x tiếng Trung đọc gần giống 'x' tiếng Việt nhưng lưỡi dẹt, môi kéo
+      dài như khi cười. Đừng đọc thành 'xương' hay 'hướng'.
+    北方: 'Chữ 北 gồm hai nửa quay lưng vào nhau, như hai người ngồi tựa lưng. 北 đọc běi (thanh 3), giống
+      dấu hỏi tiếng Việt: hạ giọng xuống thấp rồi mới hơi lên.'
+    南方: Người Trung Quốc nói 南方 thường là để chỉ miền Nam Trung Quốc (phía nam sông Trường Giang), không
+      chỉ có nghĩa 'phía nam' chung chung.
+    西方: '西方 ngoài nghĩa ''phía tây'' còn chỉ ''phương Tây'' (châu Âu, Mỹ). Ví dụ: 西餐 là món Tây. 西 đọc
+      xī (thanh 1, giọng cao và đều), đừng đọc thành ''xi'' dấu huyền.'
+- id: hsk2-u07-l02
+  title: 'Đi thẳng, rẽ trái: chỉ đường với 往'
+  grammar: hsk2-g022
+  new_words:
+  - 东北
+  - 东南
+  - 西北
+  - 西南
+  - 往
+  - 一直
+  sentences:
+  - id: s-hsk2-u07-005
+    zh: 一直往前走。
+    en: Go straight ahead.
+    pinyin: Yìzhí wǎng qián zǒu.
+  - id: s-hsk2-u07-006
+    zh: 到了路口往左走。
+    en: Turn left when you reach the intersection.
+    pinyin: Dàole lùkǒu wǎng zuǒ zǒu.
+  - id: s-hsk2-u07-007
+    zh: 大家在往哪跑？
+    en: Where's everyone running to?
+    pinyin: dà jiā zài wǎng nǎ pǎo
+    tatoeba_id: 13869024
+  - id: s-hsk2-u07-008
+    zh: 他家在中国东北。
+    en: His home is in Northeast China.
+    pinyin: Tā jiā zài Zhōngguó dōngběi.
+  tips:
+    东北: '东 có âm Hán Việt là đông. Thứ tự ghép hướng giống tiếng Việt: 东北 là hướng đông bắc, 西南 là hướng
+      tây nam, 东南 là đông nam. Không đảo như tiếng Anh (northeast).'
+    一直: 'Biến điệu của 一: chữ đi sau là 直 zhí (thanh 2), nên 一 đọc thành thanh 4: yìzhí. 一直 vừa có nghĩa
+      ''đi thẳng'' (一直走) vừa có nghĩa ''suốt, luôn'' (我一直很忙).'
+    往: 往 đọc wǎng (thanh 3), có bộ 彳 (bước chân) ở bên trái, gợi ý nghĩa 'đi về phía'. Đừng nhầm với 住
+      zhù (ở), chữ này có bộ nhân 亻.
+    西北: 'Gặp 西北 hay 东北 trước một động từ như 走 thì thêm 往 vào: 往西北走 (đi về hướng tây bắc). Nói kiểu tiếng
+      Việt ~~走西北~~ là sai.'
+- id: hsk2-u07-l03
+  title: 'Hỏi đường: xa hay gần?'
+  grammar: hsk2-g027
+  new_words:
+  - 问路
+  - 离
+  - 近
+  - 经过
+  - 直接
+  - 到处
+  sentences:
+  - id: s-hsk2-u07-009
+    zh: 这里离银行远吗？
+    en: Is the bank far from here?
+    pinyin: zhè lǐ lí yín háng yuǎn ma
+    tatoeba_id: 450184
+  - id: s-hsk2-u07-010
+    zh: 我家离学校很近。
+    en: My home is very close to the school.
+    pinyin: Wǒ jiā lí xuéxiào hěn jìn.
+  - id: s-hsk2-u07-011
+    zh: 去学校要经过一个超市。
+    en: On the way to school you pass a supermarket.
+    pinyin: Qù xuéxiào yào jīngguò yí ge chāoshì.
+  - id: s-hsk2-u07-012
+    zh: 我们找个人问路吧。
+    en: Let's find someone to ask for directions.
+    pinyin: Wǒmen zhǎo ge rén wènlù ba.
+  tips:
+    离: 'Lỗi hay gặp: dùng 从 để nói khoảng cách, viết ~~我家从学校很近~~. Câu đúng là 我家离学校很近. 从 chỉ điểm xuất
+      phát (从家到学校), còn 离 dùng khi nói hai nơi cách nhau xa hay gần.'
+    近: '近 có âm Hán Việt là cận, bộ 辶 (sước) liên quan đến việc đi lại. Hãy nhớ cặp trái nghĩa 近 jìn và
+      远 yuǎn, hai chữ đều mang bộ 辶. Tính từ không đi với 是: ~~是近~~ → 很近.'
+    经过: '经 có âm Hán Việt là kinh, 过 có âm Hán Việt là quá, ghép lại là ''kinh qua'': đi ngang qua, đi
+      qua. 经过 đọc jīngguò: jīng thanh 1 kéo dài, có âm mũi -ng.'
+    问路: 路 có âm Hán Việt là lộ. 问路 là 'hỏi đường', bản thân đã có tân ngữ nên không nói ~~问路他~~. Câu đúng
+      là 向他问路 (hỏi đường anh ấy).
+    到处: '处 đọc chù (thanh 4). Âm ch phải uốn lưỡi và bật hơi mạnh, khác ''ch'' tiếng Việt. 到处 thường đi
+      với 都: 到处都是人 (đâu đâu cũng là người).'
+- id: hsk2-u07-l04
+  title: 'Vị trí: đối diện, bên cạnh, lối vào'
+  grammar: hsk2-g074
+  new_words:
+  - 对面
+  - 面前
+  - 里头
+  - 边
+  - 身边
+  - 出口
+  - 入口
+  - 大门
+  sentences:
+  - id: s-hsk2-u07-013
+    zh: 他就住在马路对面。
+    en: He lives just across the road.
+    pinyin: tā jiù zhù zài mǎ lù duì miàn
+    tatoeba_id: 848677
+  - id: s-hsk2-u07-014
+    zh: 入口就在大门旁边。
+    en: The entrance is right next to the main gate.
+    pinyin: Rùkǒu jiù zài dàmén pángbiān.
+  - id: s-hsk2-u07-015
+    zh: 出口在这里！
+    en: Here is the exit!
+    pinyin: chū kǒu zài zhè lǐ
+    tatoeba_id: 13526165
+  - id: s-hsk2-u07-016
+    zh: 你的手机就在你身边。
+    en: Your phone is right beside you.
+    pinyin: Nǐ de shǒujī jiù zài nǐ shēnbiān.
+  tips:
+    对面: '对 có âm Hán Việt là đối. 对面 nghĩa là ''đối diện, phía bên kia''. Nói ''đối diện nhà tôi'' thì
+      đặt danh từ lên trước: 我家对面, không nói ~~对面我家~~.'
+    出口: 出 có âm Hán Việt là xuất, 口 có âm Hán Việt là khẩu. Ngoài nghĩa 'lối ra', 出口 còn có nghĩa 'xuất
+      khẩu', cũng như 入口 vừa là 'lối vào' vừa là 'nhập khẩu'.
+    入口: '入 rù: âm r đọc như ''r'' uốn lưỡi nhẹ, không rung, gần giống ''gi'' nhưng lưỡi cong lên. Khi
+      viết, đừng nhầm 入 (nét phải nằm trên) với 人 (nét trái nằm trên).'
+    里头: 'Trong 里头, chữ 头 đọc thanh nhẹ: lǐtou, đọc ngắn và nhẹ. 里头 có nghĩa giống 里边, thường dùng trong
+      khẩu ngữ: 包里头有什么？'
+    边: 边 có âm Hán Việt là biên, có bộ 辶. 身边 nghĩa là 'bên cạnh mình'. 边 trong 里边, 外边 thường đọc thanh
+      nhẹ, còn 边 đứng một mình hoặc trong 身边, 旁边 đọc biān (thanh 1).
+- id: hsk2-u07-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

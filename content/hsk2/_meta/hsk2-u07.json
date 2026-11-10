@@ -1,0 +1,34 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:02:24",
+  "prompt_sha256": [
+    "9c7016bf1e0839ccf29c335d6cff6f6bc0e409ca024488bf39e228292db23222",
+    "7b3e4b9d070d4f8cf1b2f131cd3852fb0ffab749a2505f57fbbc2e5b909c168e"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u07-l02 / tips.西北",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói tuyệt đối rằng 走西北 là sai. Thực tế 走西北 vẫn nói được, ví dụ \"đi vùng Tây Bắc\". Cách nói \"kiểu tiếng Việt\" cũng không rõ ràng, vì tiếng Việt cũng nói \"đi về hướng tây bắc\".",
+      "suggestion": "Viết nhẹ hơn: \"Khi chỉ đường theo hướng, thường dùng 往 + hướng + 走, ví dụ 往西北走 (đi về hướng tây bắc).\" Bỏ cụm ~~走西北~~ là sai."
+    }
+  ],
+  "machine_warnings": [
+    "u07-phuong-huong-va-vi-tri.yaml:29: [sentence_unlearned_word] Câu s-hsk2-u07-003 (bài hsk2-u07-l01) dùng từ chưa học: 哪个",
+    "u07-phuong-huong-va-vi-tri.yaml:33: [sentence_unlearned_word] Câu s-hsk2-u07-004 (bài hsk2-u07-l01) dùng từ chưa học: 走来",
+    "u07-phuong-huong-va-vi-tri.yaml:59: [sentence_unlearned_word] Câu s-hsk2-u07-005 (bài hsk2-u07-l02) dùng từ chưa học: 往前走",
+    "u07-phuong-huong-va-vi-tri.yaml:72: [sentence_unlearned_word] Câu s-hsk2-u07-008 (bài hsk2-u07-l02) dùng từ chưa học: 他家",
+    "u07-phuong-huong-va-vi-tri.yaml:101: [sentence_unlearned_word] Câu s-hsk2-u07-010 (bài hsk2-u07-l03) dùng từ chưa học: 我家, 很近",
+    "u07-phuong-huong-va-vi-tri.yaml:105: [sentence_unlearned_word] Câu s-hsk2-u07-011 (bài hsk2-u07-l03) dùng từ chưa học: 一个",
+    "u07-phuong-huong-va-vi-tri.yaml:109: [sentence_unlearned_word] Câu s-hsk2-u07-012 (bài hsk2-u07-l03) dùng từ chưa học: 个人"
+  ],
+  "han_viet_proposed": [
+    "直"
+  ]
+}

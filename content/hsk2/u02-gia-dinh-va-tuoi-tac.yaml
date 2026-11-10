@@ -1,0 +1,164 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u02.json.
+id: hsk2-u02
+stage: hsk2
+order: 2
+title: Gia đình và tuổi tác
+description: Người học có thể giới thiệu các thành viên trong gia đình, nói về tuổi tác, tuổi thơ và việc
+  chăm sóc người thân.
+lessons:
+- id: hsk2-u02-l01
+  title: Gia đình của tôi
+  grammar: hsk2-g039
+  new_words:
+  - 家庭
+  - 家长
+  - 全家
+  - 爱人
+  - 太太
+  - 爱情
+  sentences:
+  - id: s-hsk2-u02-001
+    zh: 我喜欢你的家庭。
+    en: I like your family.
+    pinyin: wǒ xǐ huān nǐ de jiā tíng
+    tatoeba_id: 2782908
+  - id: s-hsk2-u02-002
+    zh: 老师请了我的家长。
+    en: The teacher requested to see my parents.
+    pinyin: lǎo shī qǐng le wǒ de jiā zhǎng
+    tatoeba_id: 10617850
+  - id: s-hsk2-u02-003
+    zh: 我爱人是老师。
+    en: My spouse is a teacher.
+    pinyin: Wǒ àiren shì lǎoshī.
+  - id: s-hsk2-u02-004
+    zh: 我们全家都很好。
+    en: Our whole family is doing well.
+    pinyin: Wǒmen quánjiā dōu hěn hǎo.
+  tips:
+    爱人: 'Ở Trung Quốc đại lục, 爱人 nghĩa là vợ hoặc chồng (người đã cưới), không phải ''người yêu''. Người
+      yêu thì nói 男朋友/女朋友. Chữ 人 ở đây đọc thanh nhẹ: àiren.'
+    太太: '太 có âm Hán Việt là thái. 太太 nghĩa là ''bà, vợ (người ta)'': 王太太 = bà Vương. Chữ 太 thứ hai đọc
+      thanh nhẹ: tàitai. Đừng nhầm với 太 trong 太好了 (quá, rất).'
+    家庭: '家 (nhà) có bộ miên 宀 là mái nhà, 庭 có bộ nghiễm 广 cũng là mái che: hai mái nhà gộp lại là ''gia
+      đình''. 家庭 dùng khi nói về gia đình như một đơn vị; nói chuyện thường ngày hay dùng 家 hoặc 家人.'
+    全家: '全家 = cả nhà, đặt trước động từ và hay đi với 都: 我们全家都… (cả nhà chúng tôi đều…). Đây cũng là tên
+      chuỗi cửa hàng tiện lợi FamilyMart ở Trung Quốc.'
+- id: hsk2-u02-l02
+  title: Sinh ra và lớn lên
+  grammar: hsk2-g080
+  new_words:
+  - 出生
+  - 生
+  - 长大
+  - 从小
+  - 小时候
+  - 一生
+  sentences:
+  - id: s-hsk2-u02-005
+    zh: 你什么时候出生的?
+    en: When were you born?
+    pinyin: nǐ shén me shí hòu chū shēng de
+    tatoeba_id: 692689
+  - id: s-hsk2-u02-006
+    zh: 他在哪里出生长大？
+    en: Where was he born and raised?
+    pinyin: tā zài nǎ lǐ chū shēng zhǎng dà
+    tatoeba_id: 870313
+  - id: s-hsk2-u02-007
+    zh: 你是在北京出生的吧？
+    en: You were born in Beijing, right?
+    pinyin: Nǐ shì zài Běijīng chūshēng de ba?
+  - id: s-hsk2-u02-008
+    zh: 我从小就喜欢唱歌。
+    en: I have loved singing since I was little.
+    pinyin: Wǒ cóngxiǎo jiù xǐhuan chànggē.
+  tips:
+    长大: 长 ở đây đọc zhǎng (lớn lên), không đọc cháng (dài). zh là âm uốn lưỡi, gần 'tr' uốn lưỡi, đừng
+      đọc thành 'd' hay 'gi'. 长大了 = đã lớn rồi.
+    出生: 'Cả hai chữ đều là âm uốn lưỡi: ch (bật hơi) và sh. 生 có âm Hán Việt là sinh. Hỏi ngày sinh thường
+      dùng 是…的: 你是哪年出生的？ Lưu ý: không dùng 了 sau 出生 trong câu hỏi kiểu này.'
+    小时候: '小时候 = hồi nhỏ, đứng đầu câu hoặc sau chủ ngữ: 我小时候… Không nói 小时候的时候 vì bị thừa. Đừng nhầm với
+      小时 (tiếng đồng hồ).'
+    从小: '从小 = từ nhỏ, hay đi với 就 để nhấn mạnh ''từ nhỏ đã…'': 他从小就爱看书. Nó đứng trước động từ, giống
+      trạng từ.'
+    一生: 'Biến điệu của 一: đứng một mình đọc yī; trước thanh 1, 2, 3 đọc yì; trước thanh 4 đọc yí. Trong
+      từ 一生, sách thường ghi yīshēng nhưng khi nói hay nghe thành yìshēng.'
+- id: hsk2-u02-l03
+  title: Các lứa tuổi
+  grammar: hsk2-g048
+  new_words:
+  - 年轻
+  - 青年
+  - 青少年
+  - 少年
+  - 中年
+  - 老年
+  sentences:
+  - id: s-hsk2-u02-009
+    zh: 他很年轻。
+    en: He is very young.
+    pinyin: tā hěn nián qīng
+    tatoeba_id: 1433839
+  - id: s-hsk2-u02-010
+    zh: 他比我年轻。
+    en: He's younger than me.
+    pinyin: tā bǐ wǒ nián qīng
+    tatoeba_id: 1415765
+  - id: s-hsk2-u02-011
+    zh: 我爸爸五十岁，是中年人。
+    en: My dad is fifty; he's middle-aged.
+    pinyin: Wǒ bàba wǔshí suì, shì zhōngnián rén.
+  - id: s-hsk2-u02-012
+    zh: 青少年都喜欢上网。
+    en: Teenagers all like going online.
+    pinyin: Qīngshàonián dōu xǐhuan shàngwǎng.
+  tips:
+    年轻: 'Lỗi hay gặp: dùng 是 với tính từ. Sai: 他是年轻. Đúng: 他很年轻. 轻 bắt đầu bằng q, đọc gần ''ch'' bật
+      hơi, môi dẹt (không chu môi).'
+    青少年: Trong 少年 và 青少年, 少 đọc thanh 4 shào (trẻ), không đọc thanh 3 shǎo (ít) như trong 多少. 青 có âm
+      Hán Việt là thanh. 青少年 = tuổi mới lớn, tuổi teen.
+    中年: 'Xếp theo lứa tuổi cho dễ nhớ: 少年 (tuổi thiếu niên) → 青年 (tuổi trẻ) → 中年 (tuổi trung niên) → 老年
+      (tuổi già). 中 có âm Hán Việt là trung. Thêm 人 thành chỉ người: 中年人, 老年人.'
+    老年: '老 có âm Hán Việt là lão, thanh 3. Vì 年 là thanh 2 nên 老 chỉ đọc nửa thanh 3: hạ giọng xuống thấp
+      rồi chuyển luôn sang 年, không lên lại. 老年人 trang trọng hơn 老人, hay gặp trên báo chí, biển báo.'
+- id: hsk2-u02-l04
+  title: Chăm sóc người thân
+  new_words:
+  - 大人
+  - 照顾
+  - 关心
+  - 养
+  sentences:
+  - id: s-hsk2-u02-013
+    zh: 谁照顾孩子？
+    en: Who looks after the children?
+    pinyin: shuí zhào gù hái zi
+    tatoeba_id: 410898
+  - id: s-hsk2-u02-014
+    zh: 你现在是大人了。
+    en: You are now an adult.
+    pinyin: nǐ xiàn zài shì dà rén le
+    tatoeba_id: 471372
+  - id: s-hsk2-u02-015
+    zh: 我很关心你和你的家人。
+    en: I care about you and your family.
+    pinyin: wǒ hěn guān xīn nǐ hé nǐ de jiā rén
+    tatoeba_id: 13052742
+  - id: s-hsk2-u02-016
+    zh: 她养了两个孩子。
+    en: She raised two children.
+    pinyin: Tā yǎng le liǎng ge háizi.
+  tips:
+    照顾: '照 có bộ hỏa ở dưới (灬, bốn chấm lửa), 顾 có bộ hiệt 页 (cái đầu) bên phải. Mẹo nhớ: soi sáng và
+      để tâm trí vào ai đó tức là chăm sóc họ. zh uốn lưỡi, 顾 đọc gù thanh 4.'
+    关心: '关心 + người/việc đặt ngay phía sau: 关心家人, không cần thêm giới từ. Có thể thêm 很 phía trước: 我很关心你.
+      Dùng làm danh từ cũng được: 谢谢你的关心.'
+    养: '养 có âm Hán Việt là dưỡng. Phần trên giống chữ 羊 (con dê/cừu): nuôi cừu → ''nuôi''. Dùng cho cả
+      nuôi con lẫn nuôi thú cưng. Thanh 3 yǎng: hạ giọng xuống thấp rồi mới lên, đừng đọc giống dấu hỏi
+      tiếng Việt.'
+    大人: '大人 = người lớn, đối lập với 小孩儿. Chữ 人 đọc thanh nhẹ: dàren. Câu 你是大人了 nghĩa là ''con lớn rồi''
+      (đã là người lớn).'
+- id: hsk2-u02-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

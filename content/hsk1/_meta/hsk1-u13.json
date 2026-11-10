@@ -1,0 +1,27 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-08T17:00:38",
+  "prompt_sha256": [
+    "657d41dcd4ccf1eee994ae3f0717f18bf1a61afe487cd590fe8f3e1fcb22a096",
+    "043982d0e459f103e34019b695a01f1d1c2208e706c4834ba297d93dbb3c4d24"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u13-truong-hoc.yaml:73: [sentence_unlearned_word] Câu s-hsk1-u13-008 (bài hsk1-u13-l02) dùng từ chưa học: 班有, 三十个",
+    "u13-truong-hoc.yaml:97: [sentence_unlearned_word] Câu s-hsk1-u13-009 (bài hsk1-u13-l03) dùng từ chưa học: 几点",
+    "u13-truong-hoc.yaml:101: [sentence_unlearned_word] Câu s-hsk1-u13-010 (bài hsk1-u13-l03) dùng từ chưa học: 七点, 四点",
+    "u13-truong-hoc.yaml:109: [sentence_unlearned_word] Câu s-hsk1-u13-012 (bài hsk1-u13-l03) dùng từ chưa học: 有课",
+    "u13-truong-hoc.yaml:132: [sentence_unlearned_word] Câu s-hsk1-u13-013 (bài hsk1-u13-l04) dùng từ chưa học: 了, 一个",
+    "u13-truong-hoc.yaml:136: [sentence_unlearned_word] Câu s-hsk1-u13-014 (bài hsk1-u13-l04) dùng từ chưa học: 了, 两个",
+    "u13-truong-hoc.yaml:183: [sentence_pinyin_polyphone] Câu s-hsk1-u13-019: pinyin ghi 'Lǎoshī jiāo wǒmen Hànyǔ.', pypinyin cho 'lǎo shī jiào wǒ men hàn yǔ' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u13-truong-hoc.yaml:222: [sentence_unlearned_word] Câu s-hsk1-u13-023 (bài hsk1-u13-l06) dùng từ chưa học: 了"
+  ],
+  "han_viet_proposed": [
+    "假"
+  ]
+}

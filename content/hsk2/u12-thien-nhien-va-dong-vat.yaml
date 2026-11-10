@@ -1,0 +1,158 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u12.json.
+id: hsk2-u12
+stage: hsk2
+order: 12
+title: Thiên nhiên và động vật
+description: Người học có thể nói về cây cỏ, sông biển, công viên và các con vật quen thuộc.
+lessons:
+- id: hsk2-u12-l01
+  title: Các con vật quen thuộc
+  new_words:
+  - 动物
+  - 动物园
+  - 狗
+  - 猫
+  - 鸟
+  - 它
+  - 它们
+  sentences:
+  - id: s-hsk2-u12-001
+    zh: 我喜欢狗和猫。
+    en: I like both dogs and cats.
+    pinyin: wǒ xǐ huān gǒu hé māo
+    tatoeba_id: 848640
+  - id: s-hsk2-u12-002
+    zh: 鸟在天上。
+    en: The bird is in the sky.
+    pinyin: niǎo zài tiān shàng
+    tatoeba_id: 9096132
+  - id: s-hsk2-u12-003
+    zh: 它是什么？
+    en: What is it?
+    pinyin: tā shì shén me
+    tatoeba_id: 4887708
+  - id: s-hsk2-u12-004
+    zh: 它们在动物园里。
+    en: They are in the zoo.
+    pinyin: Tāmen zài dòngwùyuán lǐ.
+  tips:
+    动物: 动 có âm Hán Việt là động, 物 có âm Hán Việt là vật → 动物 chính là "động vật". Thêm 园 (园 có âm Hán
+      Việt là vườn) thành 动物园 = vườn động vật, tức sở thú.
+    狗: '狗 gồm bộ khuyển 犭 (chỉ loài thú) + 句. Đọc gǒu thanh 3: hạ giọng xuống thấp rồi hơi lên, gần giống
+      dấu hỏi tiếng Việt. Vần ou đọc như "âu", không đọc "u".'
+    猫: '猫 = bộ khuyển 犭 + 苗 (miáo). Mẹo: 苗 gợi âm, còn māo nghe giống tiếng mèo kêu "meo". Thanh 1 đọc
+      cao và đều.'
+    它: 它, 他, 她 đều đọc tā. 他 chỉ nam, 她 chỉ nữ, 它 chỉ con vật hoặc đồ vật. Nhiều con vật thì dùng 它们.
+      Chữ 它 có bộ miên 宀 (mái nhà) ở trên.
+- id: hsk2-u12-l02
+  title: Sông, hồ và biển
+  new_words:
+  - 海
+  - 大海
+  - 海边
+  - 河
+  - 湖
+  - 流
+  sentences:
+  - id: s-hsk2-u12-005
+    zh: 他想去海边。
+    en: He wants to go to the seaside.
+    pinyin: tā xiǎng qù hǎi biān
+    tatoeba_id: 13573270
+  - id: s-hsk2-u12-006
+    zh: 这条河很长。
+    en: This river is very long.
+    pinyin: Zhè tiáo hé hěn cháng.
+  - id: s-hsk2-u12-007
+    zh: 我家旁边有一个湖。
+    en: There is a lake next to my home.
+    pinyin: Wǒ jiā pángbiān yǒu yí ge hú.
+  - id: s-hsk2-u12-008
+    zh: 水从山上流下来。
+    en: The water flows down from the mountain.
+    pinyin: Shuǐ cóng shān shàng liú xiàlái.
+  tips:
+    海: 海, 河, 湖, 流 đều có bộ thủy 氵 (ba chấm nước) bên trái, nên đều liên quan tới nước. 海 có âm Hán Việt
+      là hải, 河 có âm Hán Việt là hà, 湖 có âm Hán Việt là hồ.
+    海边: '海边 = biển + bên cạnh → bờ biển. 边 có âm Hán Việt là biên. 海 đọc thanh 3, đứng trước 边 thanh 1
+      thì chỉ đọc nửa thanh 3 (thấp, không cần lên lại): hǎi biān.'
+    河: 'Sông dùng lượng từ 条: 一条河 (yì tiáo hé). Đừng dùng 个 cho sông. 河 đọc hé thanh 2, giọng đi lên giống
+      dấu sắc. Vần e đọc gần như "ưa", không đọc "e" như tiếng Việt.'
+    流: '流 có âm Hán Việt là lưu (như "lưu thông"). Đọc liú: l + iu, thanh 2 đi lên. Hay đi kèm hướng:
+      流下来 (chảy xuống), 流过 (chảy qua).'
+- id: hsk2-u12-l03
+  title: Cỏ, công viên và vườn hoa
+  new_words:
+  - 草
+  - 草地
+  - 片
+  - 公园
+  - 花园
+  sentences:
+  - id: s-hsk2-u12-009
+    zh: 我去公园。
+    en: I'm going to the park.
+    pinyin: wǒ qù gōng yuán
+    tatoeba_id: 759070
+  - id: s-hsk2-u12-010
+    zh: 公园里有一片草地。
+    en: There is a lawn in the park.
+    pinyin: Gōngyuán lǐ yǒu yí piàn cǎodì.
+  - id: s-hsk2-u12-011
+    zh: 我们在草地上玩儿。
+    en: We are playing on the lawn.
+    pinyin: Wǒmen zài cǎodì shàng wánr.
+  - id: s-hsk2-u12-012
+    zh: 我正从花园来。
+    en: I'm coming from the garden.
+    pinyin: wǒ zhèng cóng huā yuán lái
+    tatoeba_id: 881764
+  tips:
+    草: '草 = bộ thảo 艹 (cỏ cây) ở trên + 早 ở dưới. 草 có âm Hán Việt là thảo. Đọc cǎo: c là âm "ts" bật
+      hơi mạnh, người Việt hay đọc nhầm thành "cao" → sai. Thanh 3 giống dấu hỏi.'
+    片: '片 là lượng từ cho vùng rộng (một vạt cỏ, một vùng biển): 一片草地, 一片海. Lưu ý biến điệu: 一 đứng trước
+      thanh 4 thì đọc thanh 2 → yí piàn.'
+    公园: '公 có âm Hán Việt là công, 园 có âm Hán Việt là vườn: 公园 = vườn công cộng → công viên. 花园 = vườn
+      hoa. Chữ 园 có bộ vi 囗 (khung bao quanh) như hàng rào bao quanh vườn.'
+    花园: 'Đọc huāyuán: yuán có ü (môi tròn như nói "uy" nhưng giữ môi tròn), không đọc "oan". Hai thanh
+      1 + 2: cao đều rồi đi lên.'
+- id: hsk2-u12-l04
+  title: Thiên nhiên và leo núi
+  new_words:
+  - 大自然
+  - 地球
+  - 爬
+  - 爬山
+  - 安静
+  sentences:
+  - id: s-hsk2-u12-013
+    zh: 我爱大自然。
+    en: I love nature.
+    pinyin: wǒ ài dà zì rán
+    tatoeba_id: 769662
+  - id: s-hsk2-u12-014
+    zh: 地球比太阳小。
+    en: The earth is smaller than the sun.
+    pinyin: dì qiú bǐ tài yáng xiǎo
+    tatoeba_id: 340652
+  - id: s-hsk2-u12-015
+    zh: 我们周末去爬山吧。
+    en: Let's go hiking this weekend.
+    pinyin: Wǒmen zhōumò qù pá shān ba.
+  - id: s-hsk2-u12-016
+    zh: 请安静点。
+    en: Less noise, please.
+    pinyin: qǐng ān jìng diǎn
+    tatoeba_id: 346930
+  tips:
+    大自然: 自 có âm Hán Việt là tự, 然 có âm Hán Việt là nhiên → 自然 = tự nhiên; thêm 大 thành "thế giới tự
+      nhiên". Chữ 然 có bốn chấm 灬 (bộ hỏa) ở dưới.
+    地球: '地 có âm Hán Việt là địa, 球 có âm Hán Việt là cầu → 地球 = địa cầu, Trái Đất. 球 đọc qiú: q giống
+      "ch" bật hơi, lưỡi đặt sau răng dưới, không đọc "kiu".'
+    爬山: '爬山 nghĩa đen là "bò núi", người Trung dùng để nói đi leo núi, đi bộ đường núi. 爬 đọc pá: p bật
+      hơi mạnh (khác "b" tiếng Việt), thanh 2 đi lên. Chữ 爬 có bộ trảo 爪 (móng vuốt).'
+    安静: '安静 là tính từ, đừng dùng 是 phía trước: nói 我是安静 là sai, phải nói 她很安静. 安 có âm Hán Việt là an,
+      gồm mái nhà 宀 + 女. Câu "Trật tự nào!" là 安静！ hoặc 请安静点。'
+- id: hsk2-u12-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

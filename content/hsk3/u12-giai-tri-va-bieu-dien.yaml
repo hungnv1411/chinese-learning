@@ -1,0 +1,158 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u12.json.
+id: hsk3-u12
+stage: hsk3
+order: 12
+title: Giải trí và biểu diễn
+description: Nói về phim, ca nhạc, biểu diễn và trò chơi.
+lessons:
+- id: hsk3-u12-l01
+  title: Biểu diễn trên sân khấu
+  new_words:
+  - 演
+  - 表演
+  - 演出
+  - 演员
+  - 舞台
+  - 剧场
+  sentences:
+  - id: s-hsk3-u12-001
+    zh: 我对我今天的表演不满意。
+    en: I'm not satisfied with my performance today.
+    pinyin: wǒ duì wǒ jīn tiān de biǎo yǎn bù mǎn yì
+    tatoeba_id: 1020164
+  - id: s-hsk3-u12-002
+    zh: 演出什么时候开始？
+    en: What time does the play begin?
+    pinyin: yǎn chū shén me shí hòu kāi shǐ
+    tatoeba_id: 334789
+  - id: s-hsk3-u12-003
+    zh: 他让我在舞台上唱歌。
+    en: He made me sing on the stage.
+    pinyin: tā ràng wǒ zài wǔ tái shàng chàng gē
+    tatoeba_id: 801957
+  - id: s-hsk3-u12-004
+    zh: 我们现在去哪里？去剧场还是电影院？
+    en: Where shall we go now? To the theatre or cinema?
+    pinyin: wǒ men xiàn zài qù nǎ lǐ qù jù chǎng hái shì diàn yǐng yuàn
+    tatoeba_id: 5854744
+  tips:
+    演: '演 có âm Hán Việt là diễn. Chữ có bộ thủy 氵 bên trái và 寅 bên phải. Gặp 演 là nghĩ tới “diễn”: 表演
+      (biểu diễn), 演员 (diễn viên), 演出 (buổi diễn).'
+    表演: '表 có âm Hán Việt là biểu, nên 表演 chính là “biểu diễn”, rất dễ nhớ. Biến điệu 3+3: biǎoyǎn đọc
+      thành biáoyǎn, tức là chữ đầu chuyển sang thanh 2.'
+    演出: '出 chū: ch là âm uốn lưỡi và bật hơi mạnh, khác hẳn “ch” tiếng Việt. Hãy cong đầu lưỡi lên rồi
+      bật hơi ra. 演出 vừa là danh từ (buổi diễn) vừa là động từ (lên sân khấu diễn).'
+    舞台: 舞 có âm Hán Việt là vũ (như trong “vũ điệu”). Nói “trên sân khấu” thì dùng 在舞台上, đừng quên 上 ở
+      cuối. Người Việt hay nói thiếu thành ~~在舞台~~.
+- id: hsk3-u12-l02
+  title: Ca nhạc và nhảy múa
+  new_words:
+  - 演唱
+  - 演唱会
+  - 歌手
+  - 歌声
+  - 乐队
+  - 跳舞
+  sentences:
+  - id: s-hsk3-u12-005
+    zh: 演唱会现在开始。
+    en: The concert begins now.
+    pinyin: yǎn chàng huì xiàn zài kāi shǐ
+    tatoeba_id: 1323947
+  - id: s-hsk3-u12-006
+    zh: 她是我最喜欢的歌手。
+    en: She's my favorite singer.
+    pinyin: tā shì wǒ zuì xǐ huān de gē shǒu
+    tatoeba_id: 13573899
+  - id: s-hsk3-u12-007
+    zh: 我的学校里有个乐队。
+    en: My school has a band.
+    pinyin: wǒ de xué xiào lǐ yǒu gè yuè duì
+    tatoeba_id: 2357595
+  - id: s-hsk3-u12-008
+    zh: 我很喜欢跳舞。
+    en: I love dancing.
+    pinyin: wǒ hěn xǐ huān tiào wǔ
+    tatoeba_id: 340315
+  tips:
+    演唱会: 唱 có âm Hán Việt là xướng, 会 có âm Hán Việt là hội. 演唱会 là buổi ca sĩ hát cho khán giả nghe,
+      tức là buổi hòa nhạc. 唱 có bộ khẩu 口 (miệng), hát thì phải dùng miệng.
+    乐队: 'Trong 乐队, chữ 乐 đọc là yuè (âm nhạc), không đọc lè (vui) như trong 快乐. Vần üe trong yuè: tròn
+      môi như khi đọc “uy” rồi mới mở ra “ê”.'
+    歌手: '手 có âm Hán Việt là thủ: 歌手 là “người hát”, tức ca sĩ. Khi đứng cuối câu, thanh 3 shǒu được đọc
+      trọn: xuống thấp rồi lên. Đừng đọc thành dấu hỏi ngắn kiểu tiếng Việt.'
+    跳舞: Trong 跳舞 đã có sẵn tân ngữ 舞 (điệu múa), nên không đặt người đứng ngay sau. Nói 跟她跳舞 / 和她跳舞, không
+      nói ~~跳舞她~~.
+- id: hsk3-u12-l03
+  title: Phim truyền hình và khán giả
+  new_words:
+  - 导演
+  - 电视剧
+  - 连续剧
+  - 影视
+  - 观看
+  - 观众
+  sentences:
+  - id: s-hsk3-u12-009
+    zh: 谁是您最喜欢的导演？
+    en: Who is your favourite director?
+    pinyin: shuí shì nín zuì xǐ huān de dǎo yǎn
+    tatoeba_id: 4817417
+  - id: s-hsk3-u12-010
+    zh: 你最喜欢什么电视剧？
+    en: Which drama series do you like best?
+    pinyin: nǐ zuì xǐ huān shén me diàn shì jù
+    tatoeba_id: 340648
+  - id: s-hsk3-u12-011
+    zh: 很多观众在网上观看了这个节目。
+    en: Many viewers watched this program online.
+    pinyin: Hěn duō guānzhòng zài wǎngshàng guānkàn le zhège jiémù.
+  tips:
+    导演: '导 có âm Hán Việt là đạo, 演 có âm Hán Việt là diễn, nên 导演 là “đạo diễn”. Biến điệu 3+3: dǎoyǎn
+      đọc thành dáoyǎn.'
+    观众: 众 gồm ba chữ 人 chồng lên nhau, nghĩa là nhiều người. 观众 là “nhiều người đến xem”, tức khán giả.
+      zh trong zhòng là âm uốn lưỡi không bật hơi, không đọc như “d” hay “gi”.
+    连续剧: 连 có âm Hán Việt là liên, 续 có âm Hán Việt là tục, nên 连续 = “liên tục”. 连续剧 là phim chiếu liên
+      tục nhiều tập, nghĩa gần giống 电视剧.
+    观看: '观看 trang trọng hơn 看, thường dùng với chương trình, trận đấu hay buổi diễn: 观看演出, 观看比赛. Trong
+      lời nói hằng ngày, dùng 看 là đủ.'
+- id: hsk3-u12-l04
+  title: Mê ca nhạc và trò chơi
+  grammar: hsk3-g067
+  new_words:
+  - 精彩
+  - 动人
+  - 歌迷
+  - 迷
+  - 游戏
+  - 玩具
+  sentences:
+  - id: s-hsk3-u12-012
+    zh: 我弟弟周末不是玩儿游戏，就是看电视。
+    en: On weekends my younger brother either plays games or watches TV.
+    pinyin: Wǒ dìdi zhōumò bú shì wánr yóuxì, jiù shì kàn diànshì.
+  - id: s-hsk3-u12-013
+    zh: 这场演出非常精彩。
+    en: This performance is wonderful.
+    pinyin: Zhè chǎng yǎnchū fēicháng jīngcǎi.
+  - id: s-hsk3-u12-014
+    zh: 她的歌声很动人，我是她的歌迷。
+    en: Her singing voice is moving; I'm a fan of hers.
+    pinyin: Tā de gēshēng hěn dòngrén, wǒ shì tā de gēmí.
+  - id: s-hsk3-u12-015
+    zh: 我的玩具坏了。
+    en: My toy is broken.
+    pinyin: wǒ de wán jù huài le
+    tatoeba_id: 10188666
+  tips:
+    迷: '迷 có âm Hán Việt là mê. Chữ gồm bộ sước 辶 (đi) và 米. Ghép 迷 sau danh từ để chỉ người hâm mộ: 歌迷
+      (fan ca sĩ), 球迷 (fan bóng đá, đã học).'
+    精彩: '精彩 dùng để khen buổi diễn, trận đấu hay bộ phim, không dùng để khen người đẹp. c trong cǎi đọc
+      giống “ts” và bật hơi mạnh. Nhớ dùng 很/非常 trước tính từ: 演出很精彩, không nói ~~演出是精彩~~.'
+    动人: '动 có âm Hán Việt là động, 人 có âm Hán Việt là nhân. 动人 là “làm lay động người khác”, tức cảm
+      động, hay. r trong rén: hơi cong lưỡi, đọc gần “r” nhẹ, không đọc thành “d” hay “z”.'
+    游戏: 戏 có âm Hán Việt là hí. 游 có bộ thủy 氵 bên trái. “Chơi game” nói là 玩儿游戏 hoặc 打游戏, không nói ~~做游戏~~
+      khi muốn nói chơi game điện tử.
+- id: hsk3-u12-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

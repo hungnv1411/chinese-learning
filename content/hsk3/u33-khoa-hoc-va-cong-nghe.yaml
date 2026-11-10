@@ -1,0 +1,177 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u33.json.
+id: hsk3-u33
+stage: hsk3
+order: 33
+title: Khoa học và công nghệ
+description: Nói về máy móc, thí nghiệm, phát minh và ứng dụng công nghệ.
+lessons:
+- id: hsk3-u33-l01
+  title: Máy móc và thiết bị
+  new_words:
+  - 机器
+  - 台
+  - 设备
+  - 工具
+  - 功能
+  - 动力
+  sentences:
+  - id: s-hsk3-u33-001
+    zh: 这是台旧设备。
+    en: This is an old device.
+    pinyin: zhè shì tái jiù shè bèi
+    tatoeba_id: 4757238
+  - id: s-hsk3-u33-002
+    zh: 电脑是个复杂的机器。
+    en: A computer is a complex machine.
+    pinyin: diàn nǎo shì gè fù zá de jī qì
+    tatoeba_id: 335129
+  - id: s-hsk3-u33-003
+    zh: 给我们工具，我们会完成工作。
+    en: Give us the tools, and we'll finish the job.
+    pinyin: gěi wǒ men gōng jù wǒ men huì wán chéng gōng zuò
+    tatoeba_id: 336868
+  - id: s-hsk3-u33-004
+    zh: 这台电脑的功能很多。
+    en: This computer has a lot of functions.
+    pinyin: Zhè tái diànnǎo de gōngnéng hěn duō.
+  tips:
+    机器: '机 có âm Hán Việt là cơ, 器 có âm Hán Việt là khí → "cơ khí", dễ nhớ nghĩa "máy móc". Phát âm jīqì:
+      j không bật hơi, q bật hơi mạnh (đặt tay trước miệng sẽ thấy luồng hơi). Chữ 器 có bốn chữ 口 vây
+      quanh chữ 犬, trông như một cỗ máy có nhiều bộ phận.'
+    台: '台 là lượng từ cho máy móc, thiết bị: 一台电脑, 一台洗衣机, 一台电视机. Người Việt hay dùng 个 cho mọi thứ; khi
+      nói về máy nên quen dùng 台. Khẩu ngữ thường bỏ 一: 我买了台相机.'
+    功能: '功 có âm Hán Việt là công, 能 có âm Hán Việt là năng → "công năng", tức chức năng. Chữ 功 gồm 工
+      (công việc) + 力 (sức lực): bỏ sức ra làm việc thì có công dụng.'
+    动力: '动 có âm Hán Việt là động, 力 có âm Hán Việt là lực → "động lực". Giống tiếng Việt, từ này vừa
+      chỉ năng lượng làm máy chạy, vừa có nghĩa bóng: 学习的动力 (động lực học tập). Cả 动 và 力 đều có bộ lực
+      力.'
+- id: hsk3-u33-l02
+  title: Phát minh và sáng tạo
+  new_words:
+  - 发明
+  - 创造
+  - 造
+  - 创新
+  - 设计
+  - 开发
+  sentences:
+  - id: s-hsk3-u33-005
+    zh: 谁发明了电话？
+    en: Who invented the telephone?
+    pinyin: shuí fā míng le diàn huà
+    tatoeba_id: 343714
+  - id: s-hsk3-u33-006
+    zh: 纸是中国发明的。
+    en: Paper was invented in China.
+    pinyin: zhǐ shì zhōng guó fā míng de
+    tatoeba_id: 1315973
+  - id: s-hsk3-u33-007
+    zh: 他们造了座桥。
+    en: They constructed a bridge.
+    pinyin: tā men zào le zuò qiáo
+    tatoeba_id: 4264893
+  - id: s-hsk3-u33-008
+    zh: 他设计了一个新的网站。
+    en: He designed a new website.
+    pinyin: Tā shèjì le yí ge xīn de wǎngzhàn.
+  tips:
+    发明: '发 có âm Hán Việt là phát, 明 có âm Hán Việt là minh → "phát minh". Muốn hỏi ai đã phát minh ra
+      thứ gì, người Trung hay dùng 是…的: 电话是谁发明的？ Chữ 明 gồm 日 (mặt trời) + 月 (mặt trăng), nghĩa là sáng
+      sủa.'
+    创造: '创 có âm Hán Việt là sáng, 造 có âm Hán Việt là tạo → "sáng tạo". Phát âm chuàng: ch uốn lưỡi lên
+      và bật hơi, khác hẳn "ch" tiếng Việt. Chữ 创 có bộ đao 刂 ở bên phải: dùng dao khắc ra cái mới.'
+    造: '造 (zào) nghĩa là chế tạo, xây dựng những vật cụ thể: 造桥, 造车, 造房子. Không dùng 造 thay cho 做 trong
+      những việc thường ngày như 做饭, 做作业. z đọc gần như "ch" tiếng Việt nhưng đầu lưỡi đặt sau răng trên,
+      không bật hơi.'
+    创新: '新 có âm Hán Việt là tân, nghĩa là "mới". 创新 nghĩa là đổi mới, tạo ra cái mới; vừa là động từ
+      vừa là danh từ: 这个设计很有创新. Đừng đọc chuàngxīn thành "choang xin": x đọc gần như "x" tiếng Việt nhưng
+      phải nhoẻn môi sang hai bên.'
+    开发: '开 có âm Hán Việt là khai, 发 có âm Hán Việt là phát → "khai phát", nghĩa là phát triển, khai thác:
+      开发软件 (phát triển phần mềm), 开发新产品. Đừng nhầm với 发现 (phát hiện).'
+- id: hsk3-u33-l03
+  title: Thí nghiệm và lý thuyết
+  new_words:
+  - 实验
+  - 实验室
+  - 试验
+  - 观察
+  - 理论
+  - 计算
+  sentences:
+  - id: s-hsk3-u33-009
+    zh: 这实验是成功的。
+    en: The experiment was successful.
+    pinyin: zhè shí yàn shì chéng gōng de
+    tatoeba_id: 825886
+  - id: s-hsk3-u33-010
+    zh: 实验证明了他的理论。
+    en: The experiment confirmed his theory.
+    pinyin: Shíyàn zhèngmíng le tā de lǐlùn.
+  - id: s-hsk3-u33-011
+    zh: 实验室里的空调坏了。
+    en: The air conditioner in the lab is broken.
+    pinyin: shí yàn shì lǐ de kōng tiáo huài le
+    tatoeba_id: 1750358
+  - id: s-hsk3-u33-012
+    zh: 他计算费用。
+    en: He calculated the expenses.
+    pinyin: tā jì suàn fèi yòng
+    tatoeba_id: 9958409
+  tips:
+    实验: 实 có âm Hán Việt là thực, 验 có âm Hán Việt là nghiệm. 实验 (shíyàn, thanh 2) là thí nghiệm khoa
+      học; 试验 (shìyàn, thanh 4) thiên về thử nghiệm cái mới xem có dùng được không. Chú ý phân biệt thanh
+      2 (đi lên, giống dấu sắc) với thanh 4 (đi xuống mạnh).
+    试验: '试 có âm Hán Việt là thí, chính là chữ 试 trong 考试 và 试衣服 (thử). Nhớ: 试验 = thử nghiệm, ví dụ thử
+      nghiệm máy mới, thuốc mới. Chữ 试 có bộ ngôn 讠.'
+    实验室: '室 có âm Hán Việt là thất, nghĩa là phòng (như 教室, 办公室). Chữ 实 và 室 đều có bộ miên 宀 (mái nhà)
+      ở trên. Từ ba âm tiết này đọc shí-yàn-shì: hai chữ shí và shì cùng phụ âm sh nhưng khác thanh.'
+    观察: '观 có âm Hán Việt là quan, 察 có âm Hán Việt là sát → "quan sát". Phát âm guānchá: ch uốn lưỡi
+      và bật hơi. Chữ 观 có bộ kiến 见 (nhìn) nên liên quan tới việc nhìn ngắm.'
+    理论: '理 có âm Hán Việt là lí, 论 có âm Hán Việt là luận. Nghĩa thường gặp là "lý thuyết": 理论和实际 (lý
+      thuyết và thực tế). Hai thanh liền nhau là thanh 3 + thanh 4 nên 理 chỉ đọc nửa thanh 3 (thấp, không
+      vút lên).'
+    计算: '算 có âm Hán Việt là toán, bộ trúc ⺮ ở trên: ngày xưa người ta tính toán bằng que tre. 计算 nghĩa
+      là tính toán, gần với 算 nhưng trang trọng hơn. 计算机 nghĩa là máy tính.'
+- id: hsk3-u33-l04
+  title: Khoa học kỹ thuật và ứng dụng
+  new_words:
+  - 科技
+  - 技术
+  - 先进
+  - 应用
+  - 人工
+  - 专家
+  sentences:
+  - id: s-hsk3-u33-013
+    zh: 这家公司的技术很先进。
+    en: This company's technology is very advanced.
+    pinyin: Zhè jiā gōngsī de jìshù hěn xiānjìn.
+  - id: s-hsk3-u33-014
+    zh: 科技改变了我们的生活。
+    en: Technology has changed our lives.
+    pinyin: Kējì gǎibiàn le wǒmen de shēnghuó.
+  - id: s-hsk3-u33-015
+    zh: 专家也不太清楚。
+    en: Experts don't really know.
+    pinyin: Zhuānjiā yě bú tài qīngchu.
+  - id: s-hsk3-u33-016
+    zh: 这是人工的，不是自然的。
+    en: This is artificial, not natural.
+    pinyin: Zhè shì réngōng de, bú shì zìrán de.
+  tips:
+    科技: '科 có âm Hán Việt là khoa, 技 có âm Hán Việt là kĩ → 科技 là cách nói ngắn của 科学技术 (khoa học kỹ
+      thuật). Chữ 技 có bộ thủ 扌 (tay): kỹ năng làm bằng tay.'
+    技术: '术 có âm Hán Việt là thuật → 技术 là "kỹ thuật", cũng có nghĩa là tay nghề: 他开车的技术很好. Phát âm jìshù:
+      sh phải uốn lưỡi, đừng đọc thành "xu" hay "su".'
+    先进: '先 có âm Hán Việt là tiên, 进 có âm Hán Việt là tiến → "tiên tiến". 先进 là tính từ nên không dùng
+      是 ở giữa: ~~技术是先进~~ → 技术很先进. Chữ 进 có bộ sước 辶 (đi), nghĩa là tiến lên phía trước.'
+    应用: '应 có âm Hán Việt là ứng, 用 có âm Hán Việt là dụng → "ứng dụng": 应用科学, 应用技术. Ở đây 应 đọc thanh
+      4 yìng, khác với yīng (thanh 1) trong 应该.'
+    人工: '人 có âm Hán Việt là nhân, 工 có âm Hán Việt là công. Ngoài nghĩa "nhân công", 人工 còn có nghĩa
+      "nhân tạo" (do người làm ra, không phải tự nhiên). Phát âm r trong rén: uốn lưỡi giống sh nhưng
+      rung dây thanh, không đọc như "r" rung hay "d" của tiếng Việt.'
+    专家: '专 có âm Hán Việt là chuyên, 家 có âm Hán Việt là gia → "chuyên gia". Phát âm zhuān: zh uốn lưỡi
+      và không bật hơi. Chữ 专 chỉ có 4 nét, viết cẩn thận để không nhầm với các chữ trông giống.'
+- id: hsk3-u33-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

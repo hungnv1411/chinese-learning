@@ -1,0 +1,203 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u06.json.
+id: hsk2-u06
+stage: hsk2
+order: 6
+title: Màu sắc, quần áo và ngoại hình
+description: Người học có thể miêu tả màu sắc, kích cỡ, quần áo và vẻ ngoài của người hoặc đồ vật.
+lessons:
+- id: hsk2-u06-l01
+  title: 'Màu sắc (1): đỏ, vàng, xanh lam'
+  new_words:
+  - 颜色
+  - 红
+  - 红色
+  - 黄
+  - 黄色
+  - 蓝
+  - 蓝色
+  sentences:
+  - id: s-hsk2-u06-001
+    zh: 你的车什么颜色？
+    en: What color is your car?
+    pinyin: nǐ de chē shén me yán sè
+    tatoeba_id: 9961391
+  - id: s-hsk2-u06-002
+    zh: 我最喜欢红色。
+    en: My favorite color is red.
+    pinyin: wǒ zuì xǐ huān hóng sè
+    tatoeba_id: 9955413
+  - id: s-hsk2-u06-003
+    zh: 我喜欢黄色。
+    en: I like yellow.
+    pinyin: wǒ xǐ huān huáng sè
+    tatoeba_id: 8853706
+  - id: s-hsk2-u06-004
+    zh: 有蓝色的吗？
+    en: Do you have any in blue?
+    pinyin: yǒu lán sè de ma
+    tatoeba_id: 12687019
+  tips:
+    颜色: '颜色 yánsè: ''yan'' đọc gần như ''iên'', không đọc ''yan'' như tiếng Anh. 色 sè: s đọc như ''x''
+      tiếng Việt, e đọc gần ''ơ'' → nghe gần ''xơ'' thanh 4 (hạ mạnh như dấu huyền dứt khoát). 色 có âm
+      Hán Việt là sắc.'
+    红: '红 có bộ mịch 纟 (sợi tơ) bên trái + 工: ngày xưa tơ lụa được nhuộm đỏ. 红 có âm Hán Việt là hồng.
+      Phát âm hóng: thanh 2 đi lên giống dấu sắc.'
+    红色: 'Phân biệt: 红 là tính từ (花很红 – hoa rất đỏ), 红色 là danh từ ''màu đỏ'' (我喜欢红色). Người Việt hay
+      nói ~~我喜欢红~~ → nên nói 我喜欢红色. Quy tắc này dùng được cho 黄/黄色, 蓝/蓝色.'
+    蓝: '蓝 có bộ thảo 艹 ở trên: ngày xưa thuốc nhuộm xanh lam được lấy từ cây chàm. 蓝 có âm Hán Việt là
+      lam. Lưu ý: 蓝 là xanh da trời/xanh lam, còn xanh lá là 绿.'
+- id: hsk2-u06-l02
+  title: 'Màu sắc (2): xanh lá, đen, trắng'
+  grammar: hsk2-g041
+  new_words:
+  - 绿
+  - 绿色
+  - 黑
+  - 黑色
+  - 白色
+  sentences:
+  - id: s-hsk2-u06-005
+    zh: 你要绿色的还是蓝色的？
+    en: Do you want the green or the blue?
+    pinyin: nǐ yào lǜ sè de hái shì lán sè de
+    tatoeba_id: 417376
+  - id: s-hsk2-u06-006
+    zh: 那是黑色的吗？
+    en: Is it black?
+    pinyin: nà shì hēi sè de ma
+    tatoeba_id: 8918151
+  - id: s-hsk2-u06-007
+    zh: 我的包是白色的。
+    en: My bag is white.
+    pinyin: wǒ de bāo shì báisè de
+  - id: s-hsk2-u06-008
+    zh: 我起来的时候天还是黑的呢。
+    en: I got up while it was still dark.
+    pinyin: wǒ qǐ lái de shí hòu tiān hái shì hēi de ne
+    tatoeba_id: 333411
+  tips:
+    绿: '绿 lǜ: ü là âm không có trong tiếng Việt. Cách đọc: giữ lưỡi như đọc ''i'' rồi chu tròn môi như
+      đọc ''u''. Sau l, n phải viết hai chấm (lǜ) để phân biệt với lù. 绿 có âm Hán Việt là lục.'
+    黑: '黑 có bốn chấm 灬 (lửa) ở dưới: khói lửa hun lên làm mọi thứ đen thui, dễ nhớ nghĩa ''đen''. 黑 có
+      âm Hán Việt là hắc. 天黑了 nghĩa là trời tối rồi.'
+    黑色: 'Lỗi hay gặp: dùng 是 trước tính từ. ~~天是黑~~ → 天很黑 hoặc 天黑了. Muốn dùng 是 thì thêm 的 ở cuối: 那是黑色的
+      (cái đó là màu đen).'
+    白色: '白 bạn đã học (trắng), 白色 là danh từ ''màu trắng''. 白 có âm Hán Việt là bạch. Mẫu ''X色的'' = ''cái
+      màu X'': 我要白色的 (tôi lấy cái màu trắng).'
+- id: hsk2-u06-l03
+  title: Quần áo, giày và lượng từ 件, 条
+  grammar: hsk2-g010
+  new_words:
+  - 件
+  - 条
+  - 大衣
+  - 鞋
+  - 大小
+  - 合适
+  sentences:
+  - id: s-hsk2-u06-009
+    zh: 那是我的大衣。
+    en: That's my coat.
+    pinyin: nà shì wǒ de dà yī
+    tatoeba_id: 471091
+  - id: s-hsk2-u06-010
+    zh: 我的鞋比你的大。
+    en: My shoes are bigger than yours.
+    pinyin: wǒ de xié bǐ nǐ de dà
+    tatoeba_id: 857814
+  - id: s-hsk2-u06-011
+    zh: 这件大衣大小很合适。
+    en: This overcoat is just the right size.
+    pinyin: zhè jiàn dàyī dàxiǎo hěn héshì
+  - id: s-hsk2-u06-012
+    zh: 这条鱼很大。
+    en: This fish is very big.
+    pinyin: zhè tiáo yú hěn dà
+  tips:
+    件: '件 = bộ nhân 亻 + 牛. 件 có âm Hán Việt là kiện. Lỗi hay gặp: dùng 个 cho mọi thứ. ~~一个衣服~~ → 一件衣服;
+      ~~一个大衣~~ → 一件大衣. Chú ý biến điệu: 一件 đọc yí jiàn.'
+    条: '条 dùng cho vật dài, mảnh: 一条路, 一条鱼. 条 có âm Hán Việt là điều. Biến điệu: 一 đứng trước thanh 2
+      đọc thành thanh 4 → 一条 yì tiáo.'
+    鞋: '鞋 có bộ cách 革 (da thuộc) bên trái: giày ngày xưa làm bằng da. 鞋 có âm Hán Việt là hài, giống
+      chữ ''giày hài'' trong tiếng Việt. Phát âm xié: x đọc gần như ''x'' nhưng lưỡi đặt sau răng dưới,
+      mặt lưỡi hơi bẹt.'
+    合适: '合适 héshì: sh phải uốn đầu lưỡi lên, khác với s. 合 có âm Hán Việt là hợp, dễ nhớ nghĩa ''hợp,
+      vừa vặn''. Dùng như tính từ: 很合适, 不合适, không cần 是: ~~这件是合适~~ → 这件很合适.'
+- id: hsk2-u06-l04
+  title: Dài, ngắn, thấp, nhẹ và vóc dáng
+  grammar: hsk2-g008
+  new_words:
+  - 长
+  - 短
+  - 低
+  - 轻
+  - 个子
+  sentences:
+  - id: s-hsk2-u06-013
+    zh: 她个子很高。
+    en: She is tall.
+    pinyin: tā gè zi hěn gāo
+    tatoeba_id: 8780264
+  - id: s-hsk2-u06-014
+    zh: 今天我的包很轻。
+    en: Today my bag is very light.
+    pinyin: jīn tiān wǒ de bāo hěn qīng
+    tatoeba_id: 3700307
+  - id: s-hsk2-u06-015
+    zh: 这条路很长，那条路很短。
+    en: This road is long, that road is short.
+    pinyin: zhè tiáo lù hěn cháng, nà tiáo lù hěn duǎn
+  - id: s-hsk2-u06-016
+    zh: 这个桌子太低了。
+    en: This table is too low.
+    pinyin: zhège zhuōzi tài dī le
+  tips:
+    长: '长 có hai cách đọc: cháng (dài) và zhǎng (lớn lên, như trong 长大 đã học). Khi nghĩa là ''dài'' thì
+      đọc cháng: ch bật hơi mạnh, đầu lưỡi uốn lên. 长 có âm Hán Việt là trường.'
+    短: '短 = 矢 (mũi tên) + 豆. Mẹo nhớ: lấy mũi tên đo thì thấy nó ngắn. 短 có âm Hán Việt là đoản. duǎn
+      là thanh 3: hạ giọng thấp xuống rồi mới lên, đừng đọc như dấu hỏi tiếng Việt.'
+    轻: '轻 qīng: q đọc gần ''ch'' tiếng Việt nhưng bật hơi mạnh, mặt lưỡi chạm vòm miệng. Có bộ xa 车 bên
+      trái. 轻 có âm Hán Việt là khinh (nhẹ), trái nghĩa với 重 (nặng).'
+    个子: 'Nói về chiều cao của người: ~~我是高~~ → 我个子很高 (tôi cao). 子 ở đây đọc thanh nhẹ: gèzi. Nói ai đó
+      thấp thì dùng 个子不高, không dùng 低 cho người; 低 hay dùng cho đồ vật như bàn, tầng.'
+- id: hsk2-u06-l05
+  title: 'Ngoại hình: đẹp, dễ thương, xấu'
+  grammar: hsk2-g077
+  new_words:
+  - 漂亮
+  - 可爱
+  - 难看
+  - 样子
+  - 什么样
+  sentences:
+  - id: s-hsk2-u06-017
+    zh: 你最喜欢什么样的人？
+    en: What kind of people do you like best?
+    pinyin: nǐ zuì xǐ huān shén me yàng de rén
+    tatoeba_id: 1882096
+  - id: s-hsk2-u06-018
+    zh: 她很可爱。
+    en: She is very pretty.
+    pinyin: tā hěn kě ài
+    tatoeba_id: 796881
+  - id: s-hsk2-u06-019
+    zh: 她写的字很难看。
+    en: She's got terrible handwriting.
+    pinyin: tā xiě de zì hěn nán kàn
+    tatoeba_id: 10320820
+  - id: s-hsk2-u06-020
+    zh: 这件大衣样子很漂亮。
+    en: This overcoat has a beautiful style.
+    pinyin: zhè jiàn dàyī yàngzi hěn piàoliang
+  tips:
+    漂亮: '漂亮 piàoliang: âm tiết sau đọc thanh nhẹ, ngắn và nhẹ. Lỗi hay gặp: ~~她是漂亮~~ → 她很漂亮. Muốn khen
+      ''đẹp quá!'' thì nói 真漂亮！ hoặc 太漂亮了！'
+    难看: '难看 = 难 (khó) + 看 (nhìn): ''khó nhìn'' nên nghĩa là xấu. Trái nghĩa là 好看 đã học. 难 có âm Hán
+      Việt là nan. Muốn nói nhẹ nhàng hơn thì dùng 不好看.'
+    可爱: '可爱 kě''ài: dấu '' tách hai âm tiết, đừng nối thành ''kếai''. Thanh 3 + thanh 4: 可 chỉ đọc nửa
+      thanh 3 (thấp, không lên). 可 có âm Hán Việt là khả. 爱 là chữ ''yêu'' bạn đã học: 可爱 = ''đáng yêu''.'
+    什么样: '什么样 thường đi với 的 + danh từ: 什么样的人 (người như thế nào). Có thể hỏi về ngoại hình bằng 什么样子:
+      他是什么样子的? Đặt từ để hỏi đúng chỗ cần hỏi, không đưa lên đầu câu như tiếng Anh.'
+- id: hsk2-u06-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

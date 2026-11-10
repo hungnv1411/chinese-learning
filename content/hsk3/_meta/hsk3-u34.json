@@ -1,0 +1,54 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-10T02:17:29",
+  "prompt_sha256": [
+    "cfe62d1e8c547bbce400c6c2e64db63a9236cc3ff899c1ab0226944bf709ec44",
+    "1a310090c5e4da4fcce95e2d4870e511fbbe61135e8f923ede962a03d767f868",
+    "bb18a75d021f0b73d9f51aea393f036815f775059f7badbcb78136629ccd8ef6"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk3-u34-006",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi 变为 là \"biàn wèi\", nhưng 为 trong 变为 đọc thanh 2 (biànwéi), đúng như trong bảng từ mới.",
+      "suggestion": "Sửa pinyin thành: děng dào dēng biàn wéi lǜ sè"
+    },
+    {
+      "where": "s-hsk3-u34-011",
+      "category": "sandhi",
+      "severity": "error",
+      "problem": "Pinyin ghi \"yī qiè\", nhưng 一 đứng trước thanh 4 (qiè) phải biến thành thanh 2: yíqiè. Các câu khác trong bài (012, 014) đều ghi pinyin theo biến điệu, nên câu này không nhất quán.",
+      "suggestion": "Sửa pinyin thành: yí qiè jìn zhǎn shùn lì"
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u34-006",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"等到灯变为绿色。\" chỉ là mệnh đề phụ, chưa có vế chính, nên câu bị cụt. Người bản xứ cũng thường nói 变绿/变成绿色 hơn là 变为绿色.",
+      "suggestion": "Thêm vế chính, ví dụ: 等到灯变为绿色，我们再走。 Hoặc đổi thành câu hoàn chỉnh khác, ví dụ: 灯变为绿色了。"
+    },
+    {
+      "where": "s-hsk3-u34-007",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "转变话题 không tự nhiên. 转变 thường đi với 态度, 想法, 方式. Với \"đổi chủ đề\" thì người bản xứ nói 转换话题 hoặc 换话题. Tip của bài cũng không giải thích kiểu kết hợp này.",
+      "suggestion": "Đổi sang câu có kết hợp tự nhiên, ví dụ: 他的态度转变了。 (His attitude changed.) hoặc 他转变了想法。"
+    }
+  ],
+  "machine_warnings": [
+    "u34-thay-doi-va-phat-trien.yaml:113: [sentence_unlearned_word] Câu s-hsk3-u34-012 (bài hsk3-u34-l03) dùng từ chưa học: 一步",
+    "u34-thay-doi-va-phat-trien.yaml:115: [sentence_pinyin_polyphone] Câu s-hsk3-u34-012: pinyin ghi 'wǒmen yí bù yí bù de qiánjìn', pypinyin cho 'wǒ men yí bù yí bù dì qián jìn' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u34-thay-doi-va-phat-trien.yaml:176: [sentence_unlearned_word] Câu s-hsk3-u34-018 (bài hsk3-u34-l05) dùng từ chưa học: 一下",
+    "u34-thay-doi-va-phat-trien.yaml:180: [sentence_unlearned_word] Câu s-hsk3-u34-019 (bài hsk3-u34-l05) dùng từ chưa học: 很快",
+    "u34-thay-doi-va-phat-trien.yaml:184: [sentence_unlearned_word] Câu s-hsk3-u34-020 (bài hsk3-u34-l05) dùng từ chưa học: 不能",
+    "u34-thay-doi-va-phat-trien.yaml:217: [sentence_unlearned_word] Câu s-hsk3-u34-023 (bài hsk3-u34-l06) dùng từ chưa học: 很快"
+  ],
+  "han_viet_proposed": []
+}

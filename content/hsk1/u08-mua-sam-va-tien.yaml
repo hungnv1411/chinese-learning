@@ -1,0 +1,156 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u08.json.
+id: hsk1-u08
+stage: hsk1
+order: 8
+title: Mua sắm và tiền
+description: Biết hỏi giá, nói số tiền, mua quần áo và đồ dùng ở cửa hàng.
+lessons:
+- id: hsk1-u08-l01
+  title: Tiền và giá cả
+  grammar: hsk1-g043
+  new_words:
+  - 钱
+  - 块
+  - 毛
+  - 元
+  - 贵
+  - 少
+  sentences:
+  - id: s-hsk1-u08-001
+    zh: 面包多少钱？
+    en: How much is the bread?
+    pinyin: Miànbāo duōshao qián?
+  - id: s-hsk1-u08-002
+    zh: 一杯牛奶六块五。
+    en: A glass of milk is six yuan fifty.
+    pinyin: Yì bēi niúnǎi liù kuài wǔ.
+  - id: s-hsk1-u08-003
+    zh: 水果贵不贵？
+    en: Is the fruit expensive?
+    pinyin: Shuǐguǒ guì bu guì?
+  - id: s-hsk1-u08-004
+    zh: 我没有钱。
+    en: I have no money.
+    pinyin: wǒ méi yǒu qián
+    tatoeba_id: 687042
+  tips:
+    钱: '钱 có âm Hán Việt là tiền. Bên trái là bộ kim 钅 (kim loại), vì tiền ngày xưa đúc bằng đồng. Nhớ:
+      kim loại + 戋 = tiền. Khi hỏi giá, người Trung nói 多少钱？ (bao nhiêu tiền?).'
+    块: 'Trước 块 thì số 2 phải nói là 两, không nói 二: ~~二块~~ → 两块 (2 tệ). Nhưng 12 tệ vẫn là 十二块, 20 tệ
+      là 二十块. 块 kuài có âm u-ai đọc liền, thanh 4 dứt khoát như dấu nặng kéo xuống.'
+    贵: '贵 có âm Hán Việt là quý: đồ quý thì đắt. Phía dưới có bộ bối 贝 (vỏ sò, thời xưa dùng làm tiền).
+      Lỗi hay gặp: ~~面包是贵~~. Tính từ không đi với 是, chỉ cần nói 面包贵吗？ hoặc 不贵。'
+    少: '少 shǎo: sh là âm uốn lưỡi, đầu lưỡi cong lên, khác âm x tiếng Việt. Thanh 3 xuống thấp rồi lên,
+      gần giống dấu hỏi nhưng phải xuống thấp hơn. Nét cuối 丿 dưới chữ 小 (nhỏ) như bị cắt bớt đi, nên
+      chữ này nghĩa là ít.'
+- id: hsk1-u08-l02
+  title: Đi mua đồ
+  new_words:
+  - 买
+  - 东西
+  - 商店
+  - 商场
+  - 书店
+  - 钱包
+  sentences:
+  - id: s-hsk1-u08-005
+    zh: 我没买面包。
+    en: I didn't buy bread.
+    pinyin: wǒ méi mǎi miàn bāo
+    tatoeba_id: 10002066
+  - id: s-hsk1-u08-006
+    zh: 我想买一个钱包。
+    en: I want to buy a wallet.
+    pinyin: Wǒ xiǎng mǎi yí ge qiánbāo.
+  - id: s-hsk1-u08-007
+    zh: 商店有面包吗？
+    en: Does the store have bread?
+    pinyin: Shāngdiàn yǒu miànbāo ma?
+  tips:
+    买: 买 mǎi (mua) đọc thanh 3. Sau này bạn sẽ gặp chữ 卖 mài (bán) đọc thanh 4 và có thêm 十 ở trên. Đọc
+      sai thanh là nghĩa đảo ngược, nên tập nói 买 cho thật trầm.
+    东西: 东西 dōngxi nghĩa là đồ vật, chữ 西 đọc thanh nhẹ, ngắn và nhẹ. Nếu đọc đủ dōngxī thì lại thành hướng
+      đông và tây. 买东西 nghĩa là đi mua sắm.
+    商店: 店 có âm Hán Việt là điếm, mang bộ nghiễm 广 (mái nhà), tức là nơi bán hàng có mái che. 商店 là cửa
+      hàng nói chung. Bạn đã học 饭店, cũng có chữ 店 này.
+    商场: '场 có âm Hán Việt là trường (bãi rộng). 商场 là trung tâm thương mại, nơi rộng hơn 商店. Chú ý: chǎng
+      thanh 3, ch bật hơi và uốn lưỡi, không đọc thành ''trang'' như tiếng Việt.'
+- id: hsk1-u08-l03
+  title: Cho, tặng và thêm chút nữa
+  new_words:
+  - 给
+  - 送
+  - 包
+  - 还有
+  - 一点儿
+  sentences:
+  - id: s-hsk1-u08-008
+    zh: 给我一点儿。
+    en: Give me a little.
+    pinyin: gěi wǒ yì diǎn ér
+    tatoeba_id: 869811
+  - id: s-hsk1-u08-009
+    zh: 我送你一个包。
+    en: I'll give you a bag as a gift.
+    pinyin: Wǒ sòng nǐ yí ge bāo.
+  - id: s-hsk1-u08-010
+    zh: 你们还有牛奶吗？
+    en: Do you have any more milk?
+    pinyin: nǐ men hái yǒu niú nǎi ma
+    tatoeba_id: 10305648
+  - id: s-hsk1-u08-011
+    zh: 我给你钱。
+    en: I'll give you money.
+    pinyin: wǒ gěi nǐ qián
+    tatoeba_id: 4831139
+  tips:
+    给: 'Thứ tự câu là 给 + người + vật: 给我钱 (đưa tôi tiền). Đừng nói ~~给钱我~~ theo kiểu ''đưa tiền cho tôi''.
+      给 gěi thanh 3, và khi đứng trước 我 (cũng thanh 3) thì đọc thành géi wǒ.'
+    送: 送 có âm Hán Việt là tống, như trong 'tiễn tống'. Chữ này có bộ sước 辶 (đi), vì tặng quà là mang
+      đồ đến tận tay người khác. 送 là tặng hẳn luôn, còn 给 chỉ là đưa cho.
+    一点儿: '一 đứng trước thanh 3 thì đọc thanh 4: yìdiǎnr. Đuôi 儿 không đọc thành một âm riêng mà chỉ cong
+      lưỡi ở cuối: diǎnr. Ở miền Nam Trung Quốc người ta hay nói gọn là 一点.'
+    还有: '还 ở đây đọc hái, không phải huán. 还有 nghĩa là vẫn còn, còn có. Dùng khi mua hàng để hỏi: 还有吗？
+      (còn không?). Thanh 3 của 有 đứng cuối câu thì đọc đủ: xuống thấp rồi lên.'
+- id: hsk1-u08-l04
+  title: Mua và thử quần áo
+  new_words:
+  - 衣服
+  - 穿
+  - 试
+  - 一下儿
+  - 大
+  - 小
+  - 新
+  - 好看
+  sentences:
+  - id: s-hsk1-u08-012
+    zh: 我能试一下儿吗？
+    en: Can I try it on?
+    pinyin: Wǒ néng shì yíxiàr ma?
+  - id: s-hsk1-u08-013
+    zh: 有大的吗？
+    en: Do you have big ones?
+    pinyin: yǒu dà de ma
+    tatoeba_id: 6158461
+  - id: s-hsk1-u08-014
+    zh: 我的新衣服好看吗？
+    en: Do my new clothes look nice?
+    pinyin: Wǒ de xīn yīfu hǎokàn ma?
+  - id: s-hsk1-u08-015
+    zh: 穿你想穿的。
+    en: Wear whatever you want to wear.
+    pinyin: chuān nǐ xiǎng chuān de
+    tatoeba_id: 5911765
+  tips:
+    穿: '穿 có âm Hán Việt là xuyên (luồn qua): mặc áo là luồn tay qua tay áo. Nói ''mặc quần áo'' là 穿衣服.
+      ch là âm uốn lưỡi và bật hơi mạnh, không đọc thành ''tr'' hay ''ch'' của tiếng Việt.'
+    一下儿: '一 đứng trước thanh 4 thì đọc thanh 2: yíxiàr. Đặt sau động từ để câu nhẹ nhàng hơn, nghĩa là
+      ''thử một chút'': 试一下儿. Khi mua quần áo, câu hỏi 我能试一下儿吗？ rất hay dùng.'
+    好看: 'Lỗi hay gặp: ~~衣服是好看~~. 好看 là tính từ nên không cần 是, chỉ cần nói 衣服好看吗？ hoặc 不好看. Chữ 好 thanh
+      3 đứng trước thanh 4 thì chỉ đọc nửa thanh, tức là xuống thấp rồi dừng.'
+    衣服: '服 trong 衣服 đọc thanh nhẹ: yīfu. Muốn nói quần áo mới thì dùng 新衣服. 新 có âm Hán Việt là tân, mang
+      bộ cân 斤 (cái rìu): dùng rìu chặt cây thì được gỗ mới.'
+- id: hsk1-u08-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,51 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T08:27:40",
+  "prompt_sha256": [
+    "a2cece6a510c36a0bfb39110647710a0ad5a054ddc8f49d2d3794befdf525a97",
+    "cb8f4573974c42f5f3f41162fb280b6e0b5efc7b90ccae475fdc5b0bc8fd16e5"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u05-004",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu kết thúc bằng dấu chấm nửa chiều \".\" thay vì dấu câu tiếng Trung \"。\". Câu 过马路时小心 cũng hơi cộc, người bản xứ thường nói 过马路时要小心.",
+      "suggestion": "Đổi thành 过马路时要小心。 Nếu giữ câu của Tatoeba thì ít nhất đổi \".\" thành \"。\"."
+    },
+    {
+      "where": "s-hsk3-u05-008",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Câu này không dùng từ mới nào của bài l02 (久, 工夫, 空儿, 整天, 日常). Hai từ 工夫 và 日常 cũng không có câu ví dụ nào.",
+      "suggestion": "Đổi câu 008 thành câu có từ mới, ví dụ 我最近没工夫看电视。 hoặc 这是我的日常生活。"
+    },
+    {
+      "where": "hsk3-u05-l02 (tip 整天)",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Tip dùng 天天 trong ví dụ 他天天看电视, nhưng 天天 chưa có trong danh sách từ đã học. Tip ở l01 cũng dùng 会议, từ này cũng chưa học.",
+      "suggestion": "Thay 天天 bằng cách nói đã học, ví dụ 他每天… hoặc 他常常看电视. Ở l01 thay 会议 bằng 开会 hoặc 假期/休息."
+    },
+    {
+      "where": "s-hsk3-u05-002",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin viết rời từng âm tiết (xiū xī jié shù le), không phân từ, không viết hoa đầu câu, và 休息 ghi xī với thanh 1 thay vì thanh nhẹ (xiūxi). Khác định dạng với các câu tự soạn như 001. Các câu s-003, 004, 005, 009, 017–019 cũng bị như vậy.",
+      "suggestion": "Chuẩn hoá theo từ: Xiūxi jiéshù le! (tương tự với các câu Tatoeba khác)."
+    }
+  ],
+  "machine_warnings": [
+    "u05-thoi-gian.yaml:20: [sentence_unlearned_word] Câu s-hsk3-u05-001 (bài hsk3-u05-l01) dùng từ chưa học: 八点",
+    "u05-thoi-gian.yaml:71: [sentence_pinyin_mismatch] Câu s-hsk3-u05-007: pinyin ghi 'Nǐ míngtiān yǒu kòngr ma?', pypinyin cho 'nǐ míng tiān yǒu kòng er ma'",
+    "u05-thoi-gian.yaml:73: [sentence_unlearned_word] Câu s-hsk3-u05-008 (bài hsk3-u05-l02) dùng từ chưa học: 我学, 两年",
+    "u05-thoi-gian.yaml:108: [sentence_unlearned_word] Câu s-hsk3-u05-011 (bài hsk3-u05-l03) dùng từ chưa học: 这件",
+    "u05-thoi-gian.yaml:112: [sentence_unlearned_word] Câu s-hsk3-u05-012 (bài hsk3-u05-l03) dùng từ chưa học: 这件"
+  ],
+  "han_viet_proposed": []
+}

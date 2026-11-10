@@ -1,0 +1,163 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u07.json.
+id: hsk3-u07
+stage: hsk3
+order: 7
+title: Sức khỏe và cơ thể
+description: Nói về cơ thể, bệnh tật, chấn thương và thói quen giữ sức khỏe.
+lessons:
+- id: hsk3-u07-l01
+  title: Ốm đau và đi khám bác sĩ
+  grammar: hsk3-g053
+  new_words:
+  - 大夫
+  - 感冒
+  - 痛
+  - 痛苦
+  - 毛病
+  - 困
+  sentences:
+  - id: s-hsk3-u07-001
+    zh: 我感冒了。
+    en: I have a cold.
+    pinyin: wǒ gǎn mào le
+    tatoeba_id: 488753
+  - id: s-hsk3-u07-002
+    zh: 你哪里痛？
+    en: Where do you have pain?
+    pinyin: nǐ nǎ lǐ tòng
+    tatoeba_id: 842286
+  - id: s-hsk3-u07-003
+    zh: 我头很痛，要去看大夫。
+    en: I have a bad headache, I need to see a doctor.
+    pinyin: Wǒ tóu hěn tòng, yào qù kàn dàifu.
+  - id: s-hsk3-u07-004
+    zh: 我非常困。
+    en: I'm very sleepy.
+    pinyin: wǒ fēi cháng kùn
+    tatoeba_id: 8968587
+  tips:
+    大夫: Khi có nghĩa 'bác sĩ', 大夫 đọc là dàifu (dài thanh 4, fu thanh nhẹ), KHÔNG đọc dàfū. Đây là cách
+      gọi thân mật trong khẩu ngữ, nghĩa giống 医生.
+    感冒: 感 có âm Hán Việt là cảm, 冒 có âm Hán Việt là mạo. Chữ 冒 gồm 日 ở trên, 目 ở dưới. Muốn nói 'tôi
+      bị cảm' thì dùng 我感冒了, thêm 了 vào cuối câu, không cần chữ nào tương đương 'bị'.
+    痛: 痛 có âm Hán Việt là thống. Bộ 疒 (bộ nạch) chỉ bệnh tật, cũng có trong 病 và 疼. Thấy bộ 疒 là biết
+      chữ đó liên quan tới ốm đau.
+    困: 'Chữ 困 là chữ 木 (cây) bị nhốt trong khung 囗. Trong khẩu ngữ, 困 thường có nghĩa là ''buồn ngủ''.
+      Lỗi hay gặp: ~~我是困~~ → 我很困. Tính từ không đi với 是.'
+    毛病: '毛病 không chỉ là ''bệnh'' mà còn là ''tật xấu, chỗ hỏng'': 手机有毛病了 (điện thoại bị trục trặc). 病
+      có âm Hán Việt là bệnh.'
+- id: hsk3-u07-l02
+  title: Bị thương
+  new_words:
+  - 受
+  - 伤
+  - 受伤
+  - 血
+  - 手指
+  - 心
+  sentences:
+  - id: s-hsk3-u07-005
+    zh: 我受伤了。
+    en: I am hurt.
+    pinyin: wǒ shòu shāng le
+    tatoeba_id: 10699406
+  - id: s-hsk3-u07-006
+    zh: 你受伤了吗？
+    en: Are you hurt?
+    pinyin: nǐ shòu shāng le ma
+    tatoeba_id: 2217674
+  - id: s-hsk3-u07-007
+    zh: 他手指受伤了。
+    en: He hurt his finger.
+    pinyin: Tā shǒuzhǐ shòushāng le.
+  - id: s-hsk3-u07-008
+    zh: 那是血吗？
+    en: Is that blood?
+    pinyin: nà shì xuè ma
+    tatoeba_id: 13754353
+  tips:
+    受伤: 受伤 shòushāng có hai âm sh. Âm sh phải uốn lưỡi lên, không đọc thành 's' bẹt như tiếng Việt. 受
+      có âm Hán Việt là thụ, 伤 có âm Hán Việt là thương, nghĩa là 'chịu tổn thương'.
+    血: 血 có âm Hán Việt là huyết. Chữ có 皿 (cái bát) ở dưới và một nét phẩy ở trên, giống giọt máu rơi
+      vào bát. Khi đứng một mình trong khẩu ngữ thường đọc xiě, trong từ ghép và văn viết đọc xuè.
+    手指: '手指 là hai thanh 3 đi liền nhau nên thanh đầu đổi thành thanh 2: đọc shóuzhǐ. Cả 手 và 指 đều thuộc
+      bộ thủ (tay).'
+    心: 心 có âm Hán Việt là tâm, nghĩa là quả tim hoặc tấm lòng. Chữ 心 cũng làm bộ thủ ở dưới các chữ chỉ
+      cảm xúc, ví dụ 感 và 态.
+- id: hsk3-u07-l03
+  title: Sự sống và trạng thái cơ thể
+  new_words:
+  - 活
+  - 死
+  - 生命
+  - 力
+  - 状态
+  sentences:
+  - id: s-hsk3-u07-009
+    zh: 她活了很久。
+    en: She lived a long life.
+    pinyin: tā huó le hěn jiǔ
+    tatoeba_id: 333957
+  - id: s-hsk3-u07-010
+    zh: 我忙死了。
+    en: I'm incredibly busy.
+    pinyin: wǒ máng sǐ le
+    tatoeba_id: 1120769
+  - id: s-hsk3-u07-011
+    zh: 我爱生命。
+    en: I love life.
+    pinyin: wǒ ài shēng mìng
+    tatoeba_id: 1774097
+  - id: s-hsk3-u07-012
+    zh: 他今天状态很好。
+    en: He's in good shape today.
+    pinyin: Tā jīntiān zhuàngtài hěn hǎo.
+  tips:
+    死: '死 có âm Hán Việt là tử. Trong khẩu ngữ, mẫu ''tính từ/động từ + 死了'' là cách nói phóng đại, giống
+      ''chết mất'' trong tiếng Việt: 忙死了 (bận chết đi được), 累死了, 笑死我了. Không ai chết thật cả.'
+    活: '活 có âm Hán Việt là hoạt. Chữ gồm 氵 (nước) và 舌 (lưỡi). Mẹo nhớ: còn nước, còn cái lưỡi để ăn
+      uống tức là còn sống.'
+    力: 力 có âm Hán Việt là lực. Chữ này ít khi đứng một mình, hay đi trong từ ghép như 用力 (dùng sức),
+      努力. Hãy để ý 力 nằm trong chữ 伤.
+    状态: 状 có âm Hán Việt là trạng, 态 có âm Hán Việt là thái. Âm zh trong zhuàng phải uốn lưỡi, không đọc
+      thành 'tr' hay 'gi' của tiếng Việt.
+- id: hsk3-u07-l04
+  title: Thói quen giữ sức khỏe
+  new_words:
+  - 跑步
+  - 散步
+  - 结实
+  - 卫生
+  - 烟
+  sentences:
+  - id: s-hsk3-u07-013
+    zh: 我喜欢跑步。
+    en: I like to run.
+    pinyin: wǒ xǐ huān pǎo bù
+    tatoeba_id: 363979
+  - id: s-hsk3-u07-014
+    zh: 他常常散步，身体很结实。
+    en: He often takes walks and is very strong.
+    pinyin: Tā chángcháng sànbù, shēntǐ hěn jiēshi.
+  - id: s-hsk3-u07-015
+    zh: 这食物不卫生。
+    en: This food is unhygienic.
+    pinyin: zhè shí wù bù wèi shēng
+    tatoeba_id: 856530
+  - id: s-hsk3-u07-016
+    zh: 我不喜欢烟的味道。
+    en: I don't like the smell of smoke.
+    pinyin: Wǒ bù xǐhuan yān de wèidào.
+  tips:
+    散步: 散 có âm Hán Việt là tản, 步 có âm Hán Việt là bộ, nên 散步 chính là 'tản bộ'. Chú ý 散 trong từ này
+      đọc thanh 4 (sàn).
+    跑步: 跑 có bộ 足 (chân) bên trái, liên quan tới việc chạy. 跑步 là chạy bộ để tập thể dục, còn 跑 là động
+      từ 'chạy' nói chung.
+    结实: '结实 đọc là jiēshi: 结 thanh 1, 实 thanh nhẹ. Đừng đọc thành jiéshí. Lỗi hay gặp: ~~他是结实~~ → 他很结实.'
+    卫生: '卫 có âm Hán Việt là vệ, 生 có âm Hán Việt là sinh, nên 卫生 là ''vệ sinh'', giống trong từ 卫生间 đã
+      học. Khi dùng như tính từ thì phủ định bằng 不: 不卫生.'
+    烟: 'Chữ 烟 có bộ 火 (lửa) bên trái, chữ 因 bên phải: có lửa thì có khói. Từ này vừa có nghĩa ''khói''
+      vừa có nghĩa ''thuốc lá''.'
+- id: hsk3-u07-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

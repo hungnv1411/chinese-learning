@@ -1,0 +1,54 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-10T02:08:17",
+  "prompt_sha256": [
+    "baa5ff657a6b0d5467ce17a481c6409b8e782055f03ad92c55f80450205aa60f",
+    "6d8b501df206cc6fb97e54e869ea15bcbdd17c8e676719f559d77ca646bcf92c",
+    "5a7cee26c8316d7646d7ffc1383d050490cc28b82b5a3c4a1f21a4915cf9a8e3"
+  ],
+  "review_unresolved": [
+    {
+      "where": "hsk3-u32-l04 (tips: 谈判)",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Tip ghi \"tánpàn: hai thanh 2 rồi thanh 4\". Sai, vì 谈判 chỉ có hai âm tiết: tán (thanh 2) và pàn (thanh 4). Cách viết này làm người học hiểu thành ba thanh.",
+      "suggestion": "Sửa thành: \"tánpàn: tán thanh 2, pàn thanh 4.\""
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u32-009",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin câu ghi \"shēng yì\" (yì thanh 4). Nhưng 生意 đọc shēngyi với chữ sau là thanh nhẹ, và tip của chính bài cũng ghi shēngyi. Hai chỗ không khớp.",
+      "suggestion": "Đổi thành \"shēng yi zěn me yàng\" hoặc \"shēngyi zěnmeyàng\"."
+    },
+    {
+      "where": "s-hsk3-u32-019",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"fèi yòng\" (yòng thanh 4). Nhưng 费用 đọc fèiyong với thanh nhẹ ở chữ sau, và tip bài l05 cũng nói vậy. Hai chỗ không khớp.",
+      "suggestion": "Ghi \"fèi yong\" cho khớp với tip."
+    },
+    {
+      "where": "s-hsk3-u32-014",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"做这交易\" nghe hơi gượng. 交易 có lượng từ 笔 (tip của bài cũng nói vậy), nên người bản xứ thường nói 这笔交易.",
+      "suggestion": "Đổi thành 我看你该做这笔交易。 (pinyin: wǒ kàn nǐ gāi zuò zhè bǐ jiāo yì). Từ 笔 đã học."
+    }
+  ],
+  "machine_warnings": [
+    "u32-kinh-te-va-kinh-doanh.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u32-007 (bài hsk3-u32-l02) dùng từ chưa học: 这个, 很大",
+    "u32-kinh-te-va-kinh-doanh.yaml:112: [sentence_pinyin_polyphone] Câu s-hsk3-u32-011: pinyin ghi 'nà jiā gōngsī yóu wǒ de gēge jīngyíng.', pypinyin cho 'nà jiā gōng sī yóu wǒ dī gē gē jīng yíng' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u32-kinh-te-va-kinh-doanh.yaml:114: [sentence_unlearned_word] Câu s-hsk3-u32-012 (bài hsk3-u32-l03) dùng từ chưa học: 这家",
+    "u32-kinh-te-va-kinh-doanh.yaml:151: [sentence_unlearned_word] Câu s-hsk3-u32-016 (bài hsk3-u32-l04) dùng từ chưa học: 很多"
+  ],
+  "han_viet_proposed": [
+    "济"
+  ]
+}

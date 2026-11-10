@@ -1,0 +1,44 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-09T08:01:48",
+  "prompt_sha256": [
+    "10df26d020cf0bb0da4c18c3b17cb5d3a3cbb3c8785136ad149469b4cfc0edf6"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u29-l05",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo 而且 nói \"'e' đọc gần 'ơ'\", nhưng âm đầu của 而 là \"er\" (âm uốn lưỡi), không phải \"e\" đơn. Người học dễ đọc thành \"ơ\" thường.",
+      "suggestion": "Sửa thành: 'ér' là âm uốn lưỡi: đọc \"ơ\" rồi cong đầu lưỡi lên (như \"ơr\"); 'q' bật hơi như 'ch' nhẹ; 'ie' như 'iê'.'"
+    },
+    {
+      "where": "hsk2-u29-l06",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo phát âm 'r' trong rú tự mâu thuẫn và khó hiểu: vừa nói \"hơi rung nhẹ như 'r' pha 'd'\" vừa nói \"không rung lưỡi như 'r' miền Nam\".",
+      "suggestion": "Viết gọn: 'r' trong rú: cong đầu lưỡi lên, phát âm nhẹ, không rung lưỡi (không đọc thành 'd/z' như giọng miền Bắc, cũng không rung như 'r' lăn)."
+    }
+  ],
+  "machine_warnings": [
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:62: [sentence_unlearned_word] Câu s-hsk2-u29-007 (bài hsk2-u29-l02) dùng từ chưa học: 考得, 不好",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:86: [sentence_unlearned_word] Câu s-hsk2-u29-009 (bài hsk2-u29-l03) dùng từ chưa học: 很累",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:90: [sentence_unlearned_word] Câu s-hsk2-u29-010 (bài hsk2-u29-l03) dùng từ chưa học: 这件, 太贵",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:121: [sentence_pinyin_mismatch] Câu s-hsk2-u29-013: pinyin ghi 'cài hěn hǎochī, búguò yǒudiǎnr guì', pypinyin cho 'cài hěn hǎo chī bù guò yǒu diǎn ér guì'",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:123: [sentence_unlearned_word] Câu s-hsk2-u29-014 (bài hsk2-u29-l04) dùng từ chưa học: 学好",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:145: [sentence_unlearned_word] Câu s-hsk2-u29-016 (bài hsk2-u29-l05) dùng từ chưa học: 这个",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:199: [sentence_unlearned_word] Câu s-hsk2-u29-022 (bài hsk2-u29-l07) dùng từ chưa học: 别来",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:226: [sentence_unlearned_word] Câu s-hsk2-u29-025 (bài hsk2-u29-l08) dùng từ chưa học: 周六, 周日",
+    "u29-noi-cau-ly-do-dieu-kien-ket-qua.yaml:230: [sentence_unlearned_word] Câu s-hsk2-u29-026 (bài hsk2-u29-l08) dùng từ chưa học: 喝茶"
+  ],
+  "han_viet_proposed": [
+    "但",
+    "者",
+    "而"
+  ]
+}

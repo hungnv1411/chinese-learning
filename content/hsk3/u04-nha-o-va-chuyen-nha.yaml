@@ -1,0 +1,197 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u04.json.
+id: hsk3-u04
+stage: hsk3
+order: 4
+title: Nhà ở và chuyển nhà
+description: Thuê nhà, chuyển nhà, sắp xếp đồ đạc và tả căn phòng.
+lessons:
+- id: hsk3-u04-l01
+  title: 'Thuê nhà: chủ nhà, tiền thuê và các phòng'
+  grammar: hsk3-g080
+  new_words:
+  - 房东
+  - 房租
+  - 房屋
+  - 室
+  - 卫生间
+  - 空调
+  sentences:
+  - id: s-hsk3-u04-001
+    zh: 我们的房东很好，房租也不贵。
+    en: Our landlord is very nice, and the rent isn't expensive either.
+    pinyin: Wǒmen de fángdōng hěn hǎo, fángzū yě bú guì.
+  - id: s-hsk3-u04-002
+    zh: 房租贵就贵吧，这里离公司很近。
+    en: So the rent is high, never mind; it's close to the office here.
+    pinyin: Fángzū guì jiù guì ba, zhèlǐ lí gōngsī hěn jìn.
+  - id: s-hsk3-u04-003
+    zh: 空调坏了。
+    en: The air conditioner has got out of order.
+    pinyin: kōng tiáo huài le
+    tatoeba_id: 7773214
+  - id: s-hsk3-u04-004
+    zh: 我当时在卫生间。
+    en: I was in the bathroom.
+    pinyin: wǒ dāng shí zài wèi shēng jiān
+    tatoeba_id: 7767594
+  tips:
+    房租: 租 có âm Hán Việt là tô. Chữ này có bộ hòa 禾 (cây lúa), ngày xưa tiền thuê ruộng hay được trả bằng
+      lúa. Phụ âm z trong zū đọc như “ch” nhẹ, không bật hơi, đầu lưỡi đặt sau răng; đừng uốn lưỡi như
+      zh.
+    卫生间: 卫 có âm Hán Việt là vệ, 生 có âm Hán Việt là sinh, 间 có âm Hán Việt là gian, ghép lại là “gian
+      vệ sinh”, tức phòng vệ sinh. Từ này cùng nghĩa với 洗手间 bạn đã học.
+    室: 室 có âm Hán Việt là thất. Bộ miên 宀 ở trên là mái nhà nên chữ mang nghĩa “phòng”, như 教室 (lớp học),
+      办公室 (văn phòng). shì phải uốn lưỡi (sh), không đọc thành “sư” bằng âm s phẳng.
+    空调: '空 có âm Hán Việt là không, 调 có âm Hán Việt là điều, nên dễ nhớ theo cụm “điều hòa không khí”.
+      Đọc kōngtiáo: thanh 1 rồi thanh 2. Lượng từ đi với nó là 台 (tái).'
+- id: hsk3-u04-l02
+  title: Chuyển nhà và đồ đạc
+  grammar: hsk3-g002
+  new_words:
+  - 搬
+  - 搬家
+  - 家具
+  - 沙发
+  - 被子
+  - 屋子
+  sentences:
+  - id: s-hsk3-u04-005
+    zh: 我们去年搬家了。
+    en: We moved house last year.
+    pinyin: wǒ men qù nián bān jiā le
+    tatoeba_id: 2737431
+  - id: s-hsk3-u04-006
+    zh: 这些家具都是新买的。
+    en: All of this furniture was newly bought.
+    pinyin: Zhèxiē jiājù dōu shì xīn mǎi de.
+  - id: s-hsk3-u04-007
+    zh: 屋子里太冷了，多拿一条被子吧。
+    en: It's too cold in the room; take another quilt.
+    pinyin: Wūzi lǐ tài lěng le, duō ná yì tiáo bèizi ba.
+  - id: s-hsk3-u04-008
+    zh: 我在沙发上睡的。
+    en: I slept on the sofa.
+    pinyin: wǒ zài shā fā shàng shuì de
+    tatoeba_id: 9139560
+  tips:
+    搬家: '搬家 là động từ li hợp nên 了 có thể chen vào giữa: 搬了家, hoặc đặt cuối: 搬家了. Không nói ~~搬家北京~~
+      mà phải nói 搬到北京. Chữ 搬 có bộ thủ 扌 (tay), vì chuyển đồ thì phải dùng tay.'
+    家具: 家 có âm Hán Việt là gia, 具 có âm Hán Việt là cụ, tức “gia cụ”, đồ dùng trong nhà. Trong jù, chữ
+      u thực chất là ü, đọc tròn môi như “uy” khép, không đọc thành “chu”.
+    被子: '被 có âm Hán Việt là bị. Bên trái là bộ y 衤 (áo, vải) nên chữ chỉ đồ may bằng vải như chăn. Đừng
+      nhầm với bộ thị 礻, bộ này có ít hơn một nét. 子 ở cuối đọc thanh nhẹ: bèizi.'
+    沙发: 沙发 shāfā là từ phiên âm của “sofa”. shā phải uốn lưỡi (sh). Hai chữ đều thanh 1, đọc đều và cao
+      giọng.
+- id: hsk3-u04-l03
+  title: Lắp đặt, treo đồ và sắp xếp
+  grammar: hsk3-g047
+  new_words:
+  - 安装
+  - 挂
+  - 修
+  - 架
+  - 书架
+  - 整理
+  sentences:
+  - id: s-hsk3-u04-009
+    zh: 我从书架上拿下来一本书。
+    en: I took a book down from the bookshelf.
+    pinyin: Wǒ cóng shūjià shang ná xiàlái yì běn shū.
+  - id: s-hsk3-u04-010
+    zh: 明天有人来安装空调。
+    en: Someone is coming tomorrow to install the air conditioner.
+    pinyin: Míngtiān yǒu rén lái ānzhuāng kōngtiáo.
+  - id: s-hsk3-u04-011
+    zh: 我在修洗衣机。
+    en: I'm fixing the washing machine.
+    pinyin: wǒ zài xiū xǐ yī jī
+    tatoeba_id: 9096097
+  - id: s-hsk3-u04-012
+    zh: 周末我要整理一下儿房间。
+    en: This weekend I'm going to tidy up my room.
+    pinyin: Zhōumò wǒ yào zhěnglǐ yíxiàr fángjiān.
+  tips:
+    挂: 挂 nghĩa là treo, nhưng 挂电话 lại là CÚP máy, không phải gọi điện (gọi điện là 打电话). Chữ có bộ thủ
+      扌 (tay) bên trái, còn 圭 bên phải gợi âm.
+    书架: '架 có âm Hán Việt là giá, nên 书架 là “giá sách”. Chữ gồm 加 ở trên và 木 (gỗ) ở dưới, gợi hình cái
+      khung gỗ. Bạn đã học 衣架 (mắc áo) cũng có chữ này. 架 còn là lượng từ cho máy bay: 一架飞机.'
+    整理: '整 có âm Hán Việt là chỉnh, 理 có âm Hán Việt là lí, tức “chỉnh lí”, sắp xếp lại cho gọn. Có biến
+      điệu 3+3: zhěnglǐ đọc thành zhénglǐ.'
+    安装: '安 có âm Hán Việt là an, 装 có âm Hán Việt là trang. zhuāng là âm uốn lưỡi: cong đầu lưỡi lên,
+      giống “tr” khi đọc thật rõ. Từ này dùng cho việc lắp máy móc: 安装空调, 安装电脑.'
+    修: 修 có âm Hán Việt là tu, như trong “tu sửa”. Âm x trong xiū đọc gần “x” tiếng Việt nhưng môi bẹt
+      sang hai bên, mặt lưỡi áp sát lợi dưới.
+- id: hsk3-u04-l04
+  title: 'Tả căn phòng: gọn, bừa, trống, yên tĩnh'
+  new_words:
+  - 静
+  - 空
+  - 乱
+  - 齐
+  - 整齐
+  sentences:
+  - id: s-hsk3-u04-013
+    zh: 他的房间很乱。
+    en: His room's a mess.
+    pinyin: tā de fáng jiān hěn luàn
+    tatoeba_id: 454271
+  - id: s-hsk3-u04-014
+    zh: 她的房间很整齐，也很干净。
+    en: Her room is very neat and very clean.
+    pinyin: Tā de fángjiān hěn zhěngqí, yě hěn gānjìng.
+  - id: s-hsk3-u04-015
+    zh: 这房间是空的。
+    en: The room is empty.
+    pinyin: zhè fáng jiān shì kōng de
+    tatoeba_id: 3078816
+  - id: s-hsk3-u04-016
+    zh: 晚上这里很静。
+    en: It's very quiet here at night.
+    pinyin: Wǎnshang zhèlǐ hěn jìng.
+  tips:
+    乱: '乱 có âm Hán Việt là loạn. Lỗi hay gặp: dùng 是 trước tính từ. Đừng viết ~~房间是乱~~, hãy viết 房间很乱.
+      Tính từ làm vị ngữ thì thêm 很 chứ không thêm 是.'
+    静: Chữ 静 gồm 青 bên trái và 争 bên phải. Bạn đã học 安静, còn 静 đứng một mình thường gặp trong 很静, 静一下儿.
+      jìng là thanh 4, dứt khoát, đừng đọc lên giọng.
+    空: '空 có âm Hán Việt là không. Khi nghĩa là “trống, rỗng”, chữ đọc kōng (thanh 1): 空的, 空调. Khi nghĩa
+      là “rảnh”, chữ đọc kòng (thanh 4): 有空儿. Một chữ có hai cách đọc, nhớ phân biệt theo nghĩa.'
+    整齐: q trong qí là âm bật hơi, giống “ch” nhưng đẩy mạnh hơi ra. Đừng đọc thành “ki”. Câu 大家齐了 nghĩa
+      là “mọi người đến đủ cả rồi”, ở đây 齐 nghĩa là đủ, đông đủ.
+- id: hsk3-u04-l05
+  title: Trong, ngoài, trên, dưới
+  new_words:
+  - 里面
+  - 外面
+  - 上面
+  - 下面
+  - 底下
+  sentences:
+  - id: s-hsk3-u04-017
+    zh: 里面很热，但外面很冷。
+    en: Inside, it's very hot, but outside it's very cold.
+    pinyin: Lǐmiàn hěn rè, dàn wàimiàn hěn lěng.
+  - id: s-hsk3-u04-018
+    zh: 进来吧，外面很冷。
+    en: Come in, it's cold outside.
+    pinyin: jìn lái ba wài miàn hěn lěng
+    tatoeba_id: 693750
+  - id: s-hsk3-u04-019
+    zh: 猫在椅子上面，还是在椅子下面呢？
+    en: Is the cat on the chair or under the chair?
+    pinyin: māo zài yǐ zi shàng miàn hái shì zài yǐ zi xià miàn ne
+    tatoeba_id: 444973
+  - id: s-hsk3-u04-020
+    zh: 猫在桌子底下。
+    en: The cat is under the table.
+    pinyin: māo zài zhuō zi dǐ xià
+    tatoeba_id: 802831
+  tips:
+    里面: '里面, 外面, 上面, 下面 dùng giống 里边, 外边, 上边, 下边 bạn đã học. 面 thường đọc nhẹ: lǐmian. Nhớ trật tự tiếng
+      Trung: vật đứng trước, vị trí đứng sau. “Trong phòng” là 房间里面, không nói ~~里面房间~~.'
+    底下: '底 có âm Hán Việt là để, chỉ phần đáy. 底下 là chỗ ngay phía dưới một vật, ví dụ 床底下 (gầm giường),
+      桌子底下 (gầm bàn). 下 trong từ này đọc nhẹ: dǐxia.'
+    上面: 上面 ngoài nghĩa “phía trên” còn có nghĩa “nêu ở trên” khi nói về văn bản, như 上面说的 (điều đã nói
+      ở trên). Tương tự, 下面 có thể hiểu là “sau đây, tiếp theo”.
+- id: hsk3-u04-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

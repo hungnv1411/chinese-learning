@@ -1,0 +1,174 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u19.json.
+id: hsk3-u19
+stage: hsk3
+order: 19
+title: So sánh và mức độ
+description: So sánh sự vật, phân loại và nói về mức độ giống khác nhau.
+lessons:
+- id: hsk3-u19-l01
+  title: 'Nói về mức độ: khá, rất, càng'
+  grammar: hsk3-g012
+  new_words:
+  - 比较
+  - 较
+  - 更加
+  - 相当
+  - 超级
+  - 程度
+  sentences:
+  - id: s-hsk3-u19-001
+    zh: 今天超级冷。
+    en: Today is very cold.
+    pinyin: jīn tiān chāo jí lěng
+    tatoeba_id: 10256745
+  - id: s-hsk3-u19-002
+    zh: 这相当不错。
+    en: This is quite good.
+    pinyin: zhè xiāng dāng bù cuò
+    tatoeba_id: 13887449
+  - id: s-hsk3-u19-003
+    zh: 我必须更加努力。
+    en: I need to go at it harder.
+    pinyin: wǒ bì xū gèng jiā nǔ lì
+    tatoeba_id: 10629833
+  - id: s-hsk3-u19-004
+    zh: 可以相信他到什么程度？
+    en: To what extent can he be trusted?
+    pinyin: kě yǐ xiāng xìn tā dào shén me chéng dù
+    tatoeba_id: 3982114
+  tips:
+    比较: '比 có âm Hán Việt là tỉ (so sánh). Lỗi hay gặp: 我比较忙 nghĩa là ''tôi khá bận'', không phải câu
+      so sánh, nên không cần thêm B. Đặt 比较 trước tính từ để nói ''tương đối, khá''.'
+    较: '较 đọc jiào (thanh 4, giọng đi xuống dứt khoát), đừng đọc thành jiāo. Bộ xa 车 ở bên trái, chữ 交
+      ở bên phải. 较 hay dùng trong văn viết: 较重要 = khá quan trọng.'
+    超级: '超 có âm Hán Việt là siêu, 级 có âm Hán Việt là cấp. Đây là từ khẩu ngữ, nghĩa ''cực kỳ'': 超级冷,
+      超级好吃. Âm ch bật hơi mạnh, khác ''ch'' tiếng Việt.'
+    更加: '更 đọc gèng (thanh 4), đừng đọc gēng. 更加 đã mang nghĩa ''càng hơn'' nên không đi kèm 很: viết ~~更加很好~~
+      là sai → 更加好. Từ này hay đứng trước tính từ hoặc động từ hai âm tiết: 更加努力.'
+    程度: '程 có âm Hán Việt là trình, 度 có âm Hán Việt là độ. Câu hỏi hay gặp: 到什么程度？ = đến mức nào? Âm
+      chéng bật hơi, cong lưỡi.'
+    相当: '相 đọc xiāng: x đọc gần giống ''x'' tiếng Việt nhưng lưỡi đặt sau răng dưới, môi dẹt. 相当 + tính
+      từ = ''khá là'', mạnh hơn 比较: 相当大 = khá lớn.'
+- id: hsk3-u19-l02
+  title: 'So sánh: giống và khác'
+  grammar: hsk3-g058
+  new_words:
+  - 相比
+  - 区别
+  - 明显
+  - 相似
+  - 类似
+  - 深
+  sentences:
+  - id: s-hsk3-u19-005
+    zh: 他跑得比我快。
+    en: He runs faster than me.
+    pinyin: Tā pǎo de bǐ wǒ kuài.
+  - id: s-hsk3-u19-006
+    zh: 这条河不比那条河深。
+    en: This river isn't any deeper than that one.
+    pinyin: Zhè tiáo hé bù bǐ nà tiáo hé shēn.
+  - id: s-hsk3-u19-007
+    zh: 和去年相比，今年冷多了。
+    en: Compared with last year, this year is much colder.
+    pinyin: Hé qùnián xiāngbǐ, jīnnián lěng duō le.
+  - id: s-hsk3-u19-008
+    zh: “这”和“那”有什么区别？
+    en: What is the difference between this and that?
+    pinyin: zhè hé nà yǒu shén me qū bié
+    tatoeba_id: 609851
+  tips:
+    相比: 'Mẫu hay dùng: 跟/和 + A + 相比, … = So với A thì… Lỗi người Việt hay gặp với câu 比: ~~他比我很高~~ là
+      sai, phải nói 他比我高 hoặc 他比我高多了.'
+    区别: '区 đọc qū: q + ü, khi viết pinyin thì bỏ hai chấm trên ü. Tròn môi như khi nói ''uy'' nhưng giữ
+      nguyên khẩu hình. Mẫu câu: A和B有什么区别？ = A và B khác nhau chỗ nào?'
+    相似: '似 có âm Hán Việt là tự, có bộ nhân 亻 ở bên trái: hai người trông ''giống'' nhau. Mẫu câu: A跟B相似.
+      Âm sì là s đầu lưỡi, đừng đọc thành shì.'
+    类似: '类似 nghĩa gần với 相似 nhưng hay đứng trước danh từ: 类似的问题 = những vấn đề tương tự. Âm lèi mang
+      thanh 4, đọc dứt khoát.'
+    明显: 明 có âm Hán Việt là minh, 显 có âm Hán Việt là hiển. Cả hai chữ đều có bộ nhật 日 (mặt trời), sáng
+      sủa nên 'rõ ràng'. xiǎn mang thanh 3, đọc hạ xuống thấp như dấu hỏi.
+    深: 深 có âm Hán Việt là thâm. Bộ thủy 氵 cho biết chữ liên quan đến nước, như nước 'sâu'. shēn uốn lưỡi,
+      thanh 1 đọc cao và đều. Đừng nhầm với 身 (thân thể) cùng cách đọc shēn.
+- id: hsk3-u19-l03
+  title: Phân loại và phạm vi
+  grammar: hsk3-g034
+  new_words:
+  - 类
+  - 属于
+  - 范围
+  - 形状
+  - 相关
+  - 准
+  sentences:
+  - id: s-hsk3-u19-009
+    zh: 苹果属于水果。
+    en: Apples are fruit.
+    pinyin: píng guǒ shǔ yú shuǐ guǒ
+    tatoeba_id: 13166876
+  - id: s-hsk3-u19-010
+    zh: 这双鞋不大不小，正合适。
+    en: These shoes are neither too big nor too small — just right.
+    pinyin: Zhè shuāng xié bú dà bù xiǎo, zhèng héshì.
+  - id: s-hsk3-u19-011
+    zh: 这个题不在考试范围内。
+    en: This question isn't within the scope of the exam.
+    pinyin: Zhège tí bú zài kǎoshì fànwéi nèi.
+  - id: s-hsk3-u19-012
+    zh: 你的表准吗？
+    en: Is your watch accurate?
+    pinyin: Nǐ de biǎo zhǔn ma?
+  tips:
+    类: '类 có âm Hán Việt là loại. Chữ này làm được lượng từ: 这类问题 = loại vấn đề này. Cấu tạo gồm 米 ở trên,
+      大 ở dưới.'
+    属于: '属 có âm Hán Việt là thuộc. shǔ uốn lưỡi, mang thanh 3. yú là ü, tròn môi. Sau 属于 đặt thẳng danh
+      từ: 苹果属于水果.'
+    范围: '围 có bộ vi 囗, một khung bao quanh, giúp nhớ nghĩa ''vây quanh, giới hạn''. Cụm hay gặp: 考试范围
+      = phạm vi thi, 在…范围内 = trong phạm vi…'
+    形状: 形 có âm Hán Việt là hình, 状 có âm Hán Việt là trạng. zhuàng uốn lưỡi và không bật hơi, nghe gần
+      'tr' tiếng Việt miền Bắc đọc chuẩn.
+    准: '准 có bộ băng 冫 (hai chấm), không phải bộ thủy 氵 (ba chấm). Đừng nhầm. zhǔn mang thanh 3. 准 nghĩa
+      là ''chính xác'': 表很准 = đồng hồ chạy đúng.'
+    相关: 'Mẫu câu: 跟/和 + A + 相关 = có liên quan đến A. 关 đọc guān, thanh 1 cao và đều.'
+- id: hsk3-u19-l04
+  title: Cơ bản, phổ biến, quan trọng
+  new_words:
+  - 基本
+  - 基本上
+  - 普遍
+  - 全面
+  - 重大
+  - 真实
+  sentences:
+  - id: s-hsk3-u19-013
+    zh: 我基本上都懂了。
+    en: I've basically understood everything.
+    pinyin: Wǒ jīběnshàng dōu dǒng le.
+  - id: s-hsk3-u19-014
+    zh: 这个问题很普遍。
+    en: This problem is very common.
+    pinyin: Zhège wèntí hěn pǔbiàn.
+  - id: s-hsk3-u19-015
+    zh: 这是一个真实的故事。
+    en: This is a true story.
+    pinyin: Zhè shì yí ge zhēnshí de gùshi.
+  - id: s-hsk3-u19-016
+    zh: 这是一件重大的事情。
+    en: This is a major matter.
+    pinyin: Zhè shì yí jiàn zhòngdà de shìqing.
+  tips:
+    基本: '基 có âm Hán Việt là cơ, 本 có âm Hán Việt là bản. 基本 là tính từ, đứng trước danh từ: 基本问题 = vấn
+      đề cơ bản.'
+    基本上: '基本上 là phó từ, nghĩa ''về cơ bản, nhìn chung'', thường đứng đầu câu hoặc trước động từ: 我基本上都懂了.
+      Trả lời ngắn: 基本上吧 = cũng gần như vậy.'
+    普遍: '普 có âm Hán Việt là phổ. pǔ (thanh 3) đứng trước biàn (thanh 4) nên chỉ đọc nửa thanh 3, giọng
+      thấp rồi chuyển ngay sang biàn. 遍 có bộ sước 辶 liên quan đến đi lại: đi khắp nơi nên mang nghĩa
+      ''rộng khắp''.'
+    全面: '全 có âm Hán Việt là toàn. Cấu tạo gồm 入 ở trên, 玉 ở dưới. quán: q bật hơi, có âm ü ẩn trong ''uan''.'
+    重大: 重 ở đây đọc zhòng (nặng, quan trọng), không đọc chóng như trong 重新. 重 có âm Hán Việt là trọng,
+      大 có âm Hán Việt là đại.
+    真实: '真 có âm Hán Việt là chân, 实 có âm Hán Việt là thực. Cả hai âm đều uốn lưỡi: zh không bật hơi,
+      sh xát. Đừng đọc zhēn theo âm ''ch'' của tiếng Việt.'
+- id: hsk3-u19-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

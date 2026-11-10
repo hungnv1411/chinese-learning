@@ -1,0 +1,172 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u04.json.
+id: hsk1-u04
+stage: hsk1
+order: 4
+title: Gia đình
+description: Biết giới thiệu các thành viên trong gia đình, tuổi tác và nói nhà mình có mấy người.
+lessons:
+- id: hsk1-u04-l01
+  title: Bố mẹ và chữ 的
+  grammar: hsk1-g020
+  new_words:
+  - 爸爸
+  - 爸
+  - 妈妈
+  - 妈
+  - 爱
+  - 的
+  sentences:
+  - id: s-hsk1-u04-001
+    zh: 你是我的朋友。
+    en: You're my friend.
+    pinyin: nǐ shì wǒ de péng yǒu
+    tatoeba_id: 933622
+  - id: s-hsk1-u04-002
+    zh: 我爱我妈妈。
+    en: I love my mother.
+    pinyin: wǒ ài wǒ mā mā
+    tatoeba_id: 13968375
+  - id: s-hsk1-u04-003
+    zh: 她是你妈妈吗?
+    en: Is she your mother?
+    pinyin: tā shì nǐ mā mā ma
+    tatoeba_id: 884211
+  - id: s-hsk1-u04-004
+    zh: 你是我爸吗？
+    en: Are you my father?
+    pinyin: nǐ shì wǒ bà ma
+    tatoeba_id: 9972811
+  tips:
+    爸爸: 'Chữ 爸 có bộ 父 (cha) ở trên và chữ 巴 (bā) ở dưới để gợi âm. Âm tiết thứ hai đọc thanh nhẹ: bàba,
+      chữ đầu xuống giọng dứt khoát, chữ sau đọc ngắn và nhẹ.'
+    妈妈: '妈 có âm Hán Việt là má. Chữ gồm bộ 女 (phụ nữ) và chữ 马 (mǎ, con ngựa) gợi âm. Đọc là māma: chữ
+      đầu thanh 1, giữ giọng cao và đều, chữ sau đọc nhẹ. Nếu đọc thành thanh 3 (mǎ) thì nghe thành “ngựa”!'
+    的: 'Với người thân thì thường bỏ 的: nói 我妈妈 tự nhiên hơn 我的妈妈. Với bạn bè, đồ vật thì giữ 的: 我的朋友.
+      的 có âm Hán Việt là đích, nhưng khi làm trợ từ thì đọc nhẹ là de.'
+    爱: '爱 (ài) đọc thanh 4, xuống giọng mạnh. Mẹo nhớ chữ: phần dưới là 友 (bạn). Yêu thương thì phải có
+      “bạn” ở trong lòng. Câu phủ định là 我不爱… Đọc là bú ài, vì 不 đứng trước thanh 4 nên đổi sang thanh
+      2.'
+- id: hsk1-u04-l02
+  title: Anh chị và câu với 有
+  grammar: hsk1-g037
+  new_words:
+  - 哥哥
+  - 哥
+  - 姐姐
+  - 姐
+  - 有
+  - 没有
+  sentences:
+  - id: s-hsk1-u04-005
+    zh: 我有个哥哥。
+    en: I have an older brother.
+    pinyin: wǒ yǒu gè gē gē
+    tatoeba_id: 679442
+  - id: s-hsk1-u04-006
+    zh: 我没有姐姐。
+    en: I don't have an older sister.
+    pinyin: wǒ méiyǒu jiějie
+  - id: s-hsk1-u04-007
+    zh: 她是我的姐姐。
+    en: She's my older sister.
+    pinyin: tā shì wǒ de jiě jiě
+    tatoeba_id: 469258
+  - id: s-hsk1-u04-008
+    zh: 你哥哥是谁？
+    en: Who is your brother?
+    pinyin: nǐ gē gē shì shuí
+    tatoeba_id: 3699585
+  tips:
+    哥哥: '哥 có âm Hán Việt là ca, giống chữ “ca” trong “đại ca”. Chữ này gồm hai chữ 可 chồng lên nhau.
+      Chữ e trong pinyin gē đọc gần giống “ơ” kéo về “ưa”, không đọc là “e” như tiếng Việt. Chữ thứ hai
+      đọc nhẹ: gēge.'
+    姐姐: '姐 có âm Hán Việt là thư. Chữ có bộ 女 vì chị là nữ. Âm j đọc gần giống “ch” tiếng Việt nhưng đầu
+      lưỡi tì vào sau răng dưới. jiějie: chữ đầu thanh 3 đọc thấp, chữ sau đọc nhẹ.'
+    没有: 'Lỗi hay gặp: phủ định 有 bằng 不. Viết sai: ~~我不有姐姐~~ → đúng: 我没有姐姐. 有 chỉ đi với 没. 没 có âm Hán
+      Việt là một (nghĩa là không có).'
+    有: '有 có âm Hán Việt là hữu, như trong “sở hữu”. yǒu là thanh 3, nên khi đứng sau một chữ thanh 3
+      khác thì chữ đứng trước đổi thành thanh 2: 你有 đọc là ní yǒu, 我有 đọc là wó yǒu.'
+- id: hsk1-u04-l03
+  title: Em và ông bà, nối bằng 和
+  grammar: hsk1-g019
+  new_words:
+  - 弟弟
+  - 弟
+  - 妹妹
+  - 妹
+  - 爷爷
+  - 奶奶
+  - 和
+  sentences:
+  - id: s-hsk1-u04-009
+    zh: 他是我弟弟。
+    en: He's my younger brother.
+    pinyin: tā shì wǒ dì di
+    tatoeba_id: 771449
+  - id: s-hsk1-u04-010
+    zh: 你有妹妹吗？
+    en: Have you got a little sister?
+    pinyin: nǐ yǒu mèi mèi ma
+    tatoeba_id: 3378193
+  - id: s-hsk1-u04-011
+    zh: 我爱爷爷和奶奶。
+    en: I love Grandpa and Grandma.
+    pinyin: wǒ ài yéye hé nǎinai
+  - id: s-hsk1-u04-012
+    zh: 我和他是朋友。
+    en: I'm friends with him.
+    pinyin: wǒ hé tā shì péng yǒu
+    tatoeba_id: 1275327
+  tips:
+    弟弟: '弟 có âm Hán Việt là đệ, như trong “huynh đệ”. Đọc dìdi: chữ đầu thanh 4 xuống mạnh, chữ sau đọc
+      nhẹ. Chữ d trong pinyin đọc gần giống “t” tiếng Việt, không phải “d” (z).'
+    妹妹: 妹 có âm Hán Việt là muội, như trong “tỷ muội”. Chữ có bộ 女 bên trái và chữ 未 bên phải. 姐 (chị)
+      và 妹 (em gái) đều có bộ 女, chỉ khác phần bên phải. Đọc mèimei, chữ sau đọc nhẹ.
+    奶奶: '爷爷 (yéye) và 奶奶 (nǎinai) là ông bà nội (bên bố). Chữ 奶 có bộ 女 vì bà là nữ; chữ 爷 có bộ 父 ở trên,
+      giống chữ 爸. nǎinai: chữ đầu thanh 3 đọc thấp, chữ sau đọc nhẹ.'
+    和: '和 có âm Hán Việt là hoà. Lỗi hay gặp: dùng 和 như chữ “và” để nối hai câu. 和 chỉ nối danh từ và
+      đại từ: 爸爸和妈妈. Viết sai: ~~我有弟弟和我爱他~~.'
+- id: hsk1-u04-l04
+  title: Con cái, nhà mình có mấy người, mấy tuổi
+  grammar: hsk1-g027
+  new_words:
+  - 儿子
+  - 女儿
+  - 孩子
+  - 家
+  - 家里
+  - 家人
+  - 口
+  - 岁
+  sentences:
+  - id: s-hsk1-u04-013
+    zh: 你家里都有谁？
+    en: Who do you live with?
+    pinyin: nǐ jiā lǐ dōu yǒu shuí
+    tatoeba_id: 3537983
+  - id: s-hsk1-u04-014
+    zh: 我家有三口人。
+    en: There are three people in my family.
+    pinyin: wǒ jiā yǒu sān kǒu rén
+  - id: s-hsk1-u04-015
+    zh: 我儿子两岁。
+    en: My son is two years old.
+    pinyin: wǒ érzi liǎng suì
+  - id: s-hsk1-u04-016
+    zh: 他们是我的家人。
+    en: They are my family.
+    pinyin: tāmen shì wǒ de jiārén
+  tips:
+    家: '家 có âm Hán Việt là gia. Chữ gồm bộ 宀 (mái nhà) ở trên và 豕 (con lợn) ở dưới: dưới mái có nuôi
+      lợn thì là một “nhà”. Đọc jiā thanh 1, giữ giọng cao và đều. Trong 家里, chữ 里 đọc nhẹ: jiā li.'
+    口: '口 có âm Hán Việt là khẩu, như trong “nhân khẩu”. Khi đếm số người trong nhà thì dùng 口: 我家有五口人.
+      Đếm người ở chỗ khác thì dùng 个: 三个朋友.'
+    岁: 'Khi nói tuổi thường không cần 是: 我十岁. Không nên nói ~~我是十岁~~. Hai tuổi là 两岁, không nói ~~二岁~~.
+      suì đọc với s như “x” tiếng Việt, phần uì đọc gần “uây”.'
+    女儿: 'nǚ có âm ü: chu môi tròn như khi nói “u” nhưng lưỡi đặt như khi nói “i”. Tiếng Việt không có
+      âm này. ér là âm uốn lưỡi: đọc “ơ” rồi cong đầu lưỡi lên, đừng đọc thành “ơ” phẳng như tiếng Việt.'
+    孩子: 孩 có âm Hán Việt là hài. Chữ có bộ 子 (con) bên trái. 子 trong 孩子 và 儿子 đọc nhẹ là zi. z đọc gần
+      “ch” nhưng không bật hơi, đầu lưỡi đặt sau răng.
+- id: hsk1-u04-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

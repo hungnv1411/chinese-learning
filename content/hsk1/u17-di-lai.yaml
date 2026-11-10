@@ -1,0 +1,187 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u17.json.
+id: hsk1-u17
+stage: hsk1
+order: 17
+title: Đi lại
+description: Biết nói về phương tiện giao thông, mua vé, đi đường và hỏi cách đi đến một nơi nào đó.
+lessons:
+- id: hsk1-u17-l01
+  title: Phương tiện giao thông
+  new_words:
+  - 车
+  - 汽车
+  - 火车
+  - 飞机
+  - 飞
+  - 坐
+  sentences:
+  - id: s-hsk1-u17-001
+    zh: 你有车吗？
+    en: Do you have a car?
+    pinyin: nǐ yǒu chē ma
+    tatoeba_id: 472404
+  - id: s-hsk1-u17-002
+    zh: 我没有汽车。
+    en: I don't have a car.
+    pinyin: wǒ méi yǒu qì chē
+    tatoeba_id: 765266
+  - id: s-hsk1-u17-003
+    zh: 他喜欢火车。
+    en: He loves trains.
+    pinyin: tā xǐ huān huǒ chē
+    tatoeba_id: 826287
+  - id: s-hsk1-u17-004
+    zh: 我坐飞机去北京。
+    en: I'm going to Beijing by plane.
+    pinyin: Wǒ zuò fēijī qù Běijīng.
+  tips:
+    车: '车 chē: "ch" là âm uốn lưỡi và bật hơi (cong đầu lưỡi lên, đẩy mạnh hơi ra), không giống "ch" tiếng
+      Việt. Vần "e" đọc gần như "ơ" hơi lùi vào trong họng. 车 có âm Hán Việt là xa.'
+    飞机: 飞 có âm Hán Việt là phi, 机 có âm Hán Việt là cơ → 飞机 chính là "phi cơ" (máy bay). Chú ý "f" đọc
+      như "ph" tiếng Việt, cả hai chữ đều thanh 1, đọc đều và cao.
+    坐: 'Mẹo nhớ chữ: 坐 gồm hai chữ 人 (người) ngồi trên 土 (đất). Đi xe buýt, tàu, máy bay đều dùng 坐: 坐火车,
+      坐飞机. Đừng dịch "đi" thành 走 (~~走飞机~~) – 走 là đi bộ.'
+- id: hsk1-u17-l02
+  title: Vé, nhà ga và sân bay
+  new_words:
+  - 票
+  - 车票
+  - 机票
+  - 车站
+  - 站
+  - 机场
+  sentences:
+  - id: s-hsk1-u17-005
+    zh: 我没有票。
+    en: I don't have a ticket.
+    pinyin: wǒ méi yǒu piào
+    tatoeba_id: 692000
+  - id: s-hsk1-u17-006
+    zh: 他要去车站。
+    en: He will have to go to the station.
+    pinyin: tā yào qù chē zhàn
+    tatoeba_id: 347124
+  - id: s-hsk1-u17-007
+    zh: 我去机场。
+    en: I'm going to the airport.
+    pinyin: wǒ qù jī chǎng
+    tatoeba_id: 9524578
+  - id: s-hsk1-u17-008
+    zh: 机票贵吗？
+    en: Is the plane ticket expensive?
+    pinyin: Jīpiào guì ma?
+  tips:
+    票: '票 có âm Hán Việt là phiếu – giống "phiếu" trong tiếng Việt. Ghép với phương tiện: 车票 (vé xe/tàu),
+      机票 (vé máy bay). "p" trong piào là âm bật hơi, đẩy mạnh hơi ra, khác "p" tiếng Việt.'
+    站: '站 có âm Hán Việt là trạm. Chữ có bộ lập 立 (đứng) bên trái: trạm là nơi người ta đứng chờ xe. "zh"
+      uốn lưỡi nhưng KHÔNG bật hơi, gần với "tr" uốn lưỡi của giọng miền Trung/Nam.'
+    机场: 机 có âm Hán Việt là cơ, 场 có âm Hán Việt là trường. 机场 là sân bay. Chú ý 场 chǎng thanh 3, "ch"
+      uốn lưỡi và bật hơi.
+- id: hsk1-u17-l03
+  title: Lên xe, xuống xe, lái xe
+  new_words:
+  - 打车
+  - 开车
+  - 上车
+  - 下车
+  - 车上
+  - 快
+  - 慢
+  sentences:
+  - id: s-hsk1-u17-009
+    zh: 她会开车。
+    en: She can drive a car.
+    pinyin: tā huì kāi chē
+    tatoeba_id: 344237
+  - id: s-hsk1-u17-010
+    zh: 我们打车去机场。
+    en: We'll take a taxi to the airport.
+    pinyin: Wǒmen dǎchē qù jīchǎng.
+  - id: s-hsk1-u17-011
+    zh: 快上车！
+    en: Get in the car, quick!
+    pinyin: Kuài shàng chē!
+  - id: s-hsk1-u17-012
+    zh: 我们在这儿下车。
+    en: We get off here.
+    pinyin: Wǒmen zài zhèr xià chē.
+  tips:
+    上车: '上 có âm Hán Việt là thượng, 下 có âm Hán Việt là hạ: 上车 = lên xe, 下车 = xuống xe. Còn 车上 (đảo thứ
+      tự) nghĩa là "trên xe", chỉ nơi chốn: 他在车上 (anh ấy đang ở trên xe).'
+    开车: 开车 là tự mình lái xe, 坐车 là ngồi xe (đi nhờ, đi xe buýt). 打车 là gọi/bắt taxi, không phải "đánh
+      xe" dù 打 có âm Hán Việt là đả.
+    快: '快 và 慢 đều có bộ tâm 忄 (trái tim) bên trái. Lỗi hay gặp: ~~他是快~~ → 他很快. Tính từ không đi với 是,
+      thường thêm 很 phía trước.'
+- id: hsk1-u17-l04
+  title: Trên đường đi
+  new_words:
+  - 路
+  - 马路
+  - 路口
+  - 路上
+  - 走
+  - 走路
+  sentences:
+  - id: s-hsk1-u17-013
+    zh: 他在路上。
+    en: He's on the way.
+    pinyin: tā zài lù shàng
+    tatoeba_id: 3378267
+  - id: s-hsk1-u17-014
+    zh: 我走路去。
+    en: I will go on foot.
+    pinyin: wǒ zǒu lù qù
+    tatoeba_id: 380734
+  - id: s-hsk1-u17-015
+    zh: 学校在路口旁边。
+    en: The school is next to the intersection.
+    pinyin: Xuéxiào zài lùkǒu pángbiān.
+  - id: s-hsk1-u17-016
+    zh: 你能走吗？
+    en: Can you walk?
+    pinyin: nǐ néng zǒu ma
+    tatoeba_id: 3713825
+  tips:
+    路: '路 có âm Hán Việt là lộ. Bên trái là bộ túc 足 (chân), bên phải là 各: dùng chân để đi trên đường.
+      路口 = miệng đường, tức là ngã tư/giao lộ.'
+    走: '走 có âm Hán Việt là tẩu, nhưng trong tiếng Trung hiện đại 走 là "đi (bộ)", còn "chạy" là 跑. Biến
+      điệu 3+3: 我走路 đọc wó zǒulù (我 chuyển thành thanh 2).'
+    马路: 马 có âm Hán Việt là mã, nhưng 马路 không phải "đường cho ngựa" mà là đường phố, đường cái nói chung.
+- id: hsk1-u17-l05
+  title: Đi từ đâu đến đâu, đi thế nào
+  grammar: hsk1-g015
+  new_words:
+  - 从
+  - 到
+  - 去
+  - 来
+  - 来到
+  - 怎么
+  sentences:
+  - id: s-hsk1-u17-017
+    zh: 你从哪儿来？
+    en: Where do you come from?
+    pinyin: Nǐ cóng nǎr lái?
+  - id: s-hsk1-u17-018
+    zh: 从我家到学校很远。
+    en: It's far from my home to the school.
+    pinyin: Cóng wǒ jiā dào xuéxiào hěn yuǎn.
+  - id: s-hsk1-u17-019
+    zh: 去机场怎么走？
+    en: How do I get to the airport?
+    pinyin: Qù jīchǎng zěnme zǒu?
+  - id: s-hsk1-u17-020
+    zh: 他怎么没来？
+    en: How come he didn't show up?
+    pinyin: tā zěn me méi lái
+    tatoeba_id: 386864
+  tips:
+    从: '从 có âm Hán Việt là tòng: hai chữ 人 đi nối nhau, người sau đi theo người trước. Nhớ đặt 从 trước
+      động từ: 我从中国来, không nói ~~我来从中国~~.'
+    去: 来 là đi về phía người nói (đến đây), 去 là đi xa khỏi người nói (đi đến đó). Bạn ở nhà thì nói 你来我家;
+      ở chỗ khác thì nói 我去你家.
+    怎么: '怎么 + động từ = làm thế nào: 怎么走 (đi thế nào), 怎么说 (nói thế nào). "z" đọc như "ch" nhẹ, lưỡi thẳng
+      không uốn, không bật hơi. 么 đọc thanh nhẹ: zěnme.'
+- id: hsk1-u17-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

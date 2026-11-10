@@ -1,0 +1,34 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T14:02:53",
+  "prompt_sha256": [
+    "ad8592032f137d2d26793e4f7bbaf08c3eb0e4fa36168b8b5683150eb68ab64f",
+    "d5bafd45b64fe4163a3d99defafa6bacb87efa9cd81dc84e7d11c5c946fcab2f",
+    "595156bbd0c9294da03d2dff01bef5597cc7c6c7aed6a40773ac87a466557760"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u21-007",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Câu zh 我不够坚强 ở thì hiện tại, nhưng bản dịch en \"I wasn't strong enough\" lại ở quá khứ nên lệch nghĩa nhẹ.",
+      "suggestion": "Đổi en thành \"I'm not strong enough.\" (hoặc thêm ngữ cảnh quá khứ vào câu zh nếu muốn giữ bản dịch hiện tại)."
+    }
+  ],
+  "machine_warnings": [
+    "u21-tinh-cach-va-nang-luc.yaml:29: [sentence_unlearned_word] Câu s-hsk3-u21-003 (bài hsk3-u21-l01) dùng từ chưa học: 强",
+    "u21-tinh-cach-va-nang-luc.yaml:34: [sentence_unlearned_word] Câu s-hsk3-u21-004 (bài hsk3-u21-l01) dùng từ chưa học: 这件",
+    "u21-tinh-cach-va-nang-luc.yaml:106: [sentence_unlearned_word] Câu s-hsk3-u21-011 (bài hsk3-u21-l03) dùng từ chưa học: 从来不",
+    "u21-tinh-cach-va-nang-luc.yaml:146: [sentence_unlearned_word] Câu s-hsk3-u21-015 (bài hsk3-u21-l04) dùng từ chưa học: 每个",
+    "u21-tinh-cach-va-nang-luc.yaml:150: [sentence_unlearned_word] Câu s-hsk3-u21-016 (bài hsk3-u21-l04) dùng từ chưa học: 成绩突出",
+    "u21-tinh-cach-va-nang-luc.yaml:184: [sentence_unlearned_word] Câu s-hsk3-u21-019 (bài hsk3-u21-l05) dùng từ chưa học: 一个"
+  ],
+  "han_viet_proposed": [
+    "优"
+  ]
+}

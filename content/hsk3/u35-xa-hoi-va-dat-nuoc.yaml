@@ -1,0 +1,179 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u35.json.
+id: hsk3-u35
+stage: hsk3
+order: 35
+title: Xã hội và đất nước
+description: Nói về xã hội, nhân dân, dân tộc, quan hệ quốc tế và hòa bình.
+lessons:
+- id: hsk3-u35-l01
+  title: Nhân dân và xã hội
+  grammar: hsk3-g023
+  new_words:
+  - 人民
+  - 老百姓
+  - 公民
+  - 人群
+  - 人类
+  - 社会
+  sentences:
+  - id: s-hsk3-u35-001
+    zh: 我们要为人民服务。
+    en: We should serve the people.
+    pinyin: Wǒmen yào wèi rénmín fúwù.
+  - id: s-hsk3-u35-002
+    zh: 他是中国的公民。
+    en: He's a Chinese citizen.
+    pinyin: tā shì zhōng guó de gōng mín
+    tatoeba_id: 719109
+  - id: s-hsk3-u35-003
+    zh: 我在人群中看见了她。
+    en: I caught sight of her in the crowd.
+    pinyin: wǒ zài rén qún zhōng kàn jiàn le tā
+    tatoeba_id: 390997
+  - id: s-hsk3-u35-004
+    zh: 狗是人类最好的朋友。
+    en: Dog is man's best friend.
+    pinyin: gǒu shì rén lèi zuì hǎo de péng yǒu
+    tatoeba_id: 1235591
+  tips:
+    人民: '人 có âm Hán Việt là nhân, 民 có âm Hán Việt là dân, nên 人民 rất dễ nhớ. Phát âm rén: âm r tiếng
+      Trung không rung lưỡi như r miền Nam. Hãy uốn đầu lưỡi lên gần vòm miệng rồi phát âm nhẹ, gần giống
+      r trong tiếng Anh.'
+    老百姓: 'Biến điệu 3+3: 老 (lǎo) đứng trước 百 (bǎi) cũng là thanh 3 nên 老 đọc thành thanh 2: láobǎixìng.
+      老百姓 nghĩa là "người dân thường", không có nghĩa "già". 姓 có âm Hán Việt là tính, gồm bộ nữ 女 và
+      chữ 生.'
+    人群: '群 có âm Hán Việt là quần. Chữ này gồm 君 + 羊 (con cừu): cừu đi thành bầy, nên 群 là "bầy, đám"
+      và 人群 là "đám đông". Pinyin qún thật ra là q + ün; sau q thì bỏ hai chấm của ü, nên đừng đọc thành
+      "cun" với u tròn môi.'
+    社会: '社 có âm Hán Việt là xã, 会 có âm Hán Việt là hội. 社 gồm bộ thị 礻 và 土 (đất). Phát âm shè: sh phải
+      cong lưỡi, khác hẳn s của tiếng Việt. Đừng đọc thành "xơ".'
+    公民: 公 có âm Hán Việt là công, 民 có âm Hán Việt là dân. 公民 là người có quốc tịch, ví dụ 中国公民. Còn 人民
+      là "nhân dân" nói chung, mang tính tập thể, nên không nói ~~一个人民~~ mà nói 一个公民 hoặc 一个人.
+- id: hsk3-u35-l02
+  title: Dân tộc và đất nước
+  new_words:
+  - 民族
+  - 中华民族
+  - 华人
+  - 国内
+  - 国庆
+  - 文明
+  sentences:
+  - id: s-hsk3-u35-005
+    zh: 中国有五十六个民族。
+    en: There are 56 ethnic groups in China.
+    pinyin: Zhōngguó yǒu wǔshíliù gè mínzú.
+  - id: s-hsk3-u35-006
+    zh: 我是华人。
+    en: I'm Chinese.
+    pinyin: wǒ shì huá rén
+    tatoeba_id: 2629584
+  - id: s-hsk3-u35-007
+    zh: 我在国内工作。
+    en: I work in my home country.
+    pinyin: Wǒ zài guónèi gōngzuò.
+  - id: s-hsk3-u35-008
+    zh: 十月一日是中国的国庆。
+    en: October 1st is China's National Day.
+    pinyin: Shí yuè yī rì shì Zhōngguó de guóqìng.
+  tips:
+    民族: '族 có âm Hán Việt là tộc, nên 民族 nghĩa là "dân tộc". Phát âm zú: z giống "ts" không bật hơi, đặt
+      đầu lưỡi sau răng cửa. Đừng đọc thành "dú" hay "chú".'
+    华人: 华 có âm Hán Việt là hoa. 华人 là người gốc Hoa nói chung, kể cả người mang quốc tịch nước khác.
+      Còn 中国人 thường chỉ người mang quốc tịch Trung Quốc. Phát âm huá giống "hoá" nhưng đọc thanh 2, giọng
+      đi lên.
+    国庆: '国 có âm Hán Việt là quốc, 庆 có âm Hán Việt là khánh, nên 国庆 là "quốc khánh". Phát âm qìng: q
+      giống "ch" nhưng bật mạnh hơi ra, đầu lưỡi đặt sau răng dưới.'
+    国内: 内 có âm Hán Việt là nội. 国内 (trong nước) đối lập với 国外 (nước ngoài), không có nghĩa là "Trung
+      Quốc". Phát âm nèi đọc thanh 4, giọng dứt khoát đi từ cao xuống thấp.
+    文明: '文明 vừa là danh từ (nền văn minh) vừa là tính từ (lịch sự, có văn hoá). Người Trung hay nói 不文明
+      để chỉ hành vi thiếu ý thức, ví dụ xả rác. Khi làm tính từ, nhớ dùng 很 chứ không dùng 是: ~~他是文明~~
+      → 他很文明.'
+- id: hsk3-u35-l03
+  title: Thế giới và hòa bình
+  new_words:
+  - 世界
+  - 全球
+  - 和平
+  - 联合国
+  - 外交
+  - 代表
+  - 代表团
+  sentences:
+  - id: s-hsk3-u35-009
+    zh: 我们要世界和平。
+    en: We want world peace.
+    pinyin: wǒ men yào shì jiè hé píng
+    tatoeba_id: 781558
+  - id: s-hsk3-u35-010
+    zh: 我是世界公民。
+    en: I'm a citizen of the world.
+    pinyin: wǒ shì shì jiè gōng mín
+    tatoeba_id: 2007054
+  - id: s-hsk3-u35-011
+    zh: 我只能代表我自己讲话。
+    en: I can only speak for myself.
+    pinyin: wǒ zhǐ néng dài biǎo wǒ zì jǐ jiǎng huà
+    tatoeba_id: 918558
+  - id: s-hsk3-u35-012
+    zh: 联合国代表团明天来北京。
+    en: The UN delegation is coming to Beijing tomorrow.
+    pinyin: Liánhéguó dàibiǎotuán míngtiān lái Běijīng.
+  tips:
+    世界: '世 có âm Hán Việt là thế, 界 có âm Hán Việt là giới. 界 gồm bộ điền 田 (ruộng) và 介, gợi ý "bờ ranh
+      giới giữa các thửa ruộng". Phát âm shìjiè: sh cong lưỡi, jiè gần giống "chiê" nhưng không bật hơi.'
+    联合国: 联 có âm Hán Việt là liên, 合 có âm Hán Việt là hợp, 国 có âm Hán Việt là quốc. 联 có bộ nhĩ 耳 (tai)
+      bên trái, đừng viết nhầm thành bộ nhật hay bộ mục.
+    代表团: '团 có âm Hán Việt là đoàn, gồm bộ vi 囗 bao ngoài chữ 才. Trật tự từ ngược với tiếng Việt: 代表团
+      = "đại biểu + đoàn" = đoàn đại biểu. Trong tiếng Trung, phần bổ nghĩa luôn đứng trước.'
+    和平: '和 có âm Hán Việt là hoà, 平 có âm Hán Việt là bình, trật tự giống hệt tiếng Việt. Cả hai chữ đều
+      đọc thanh 2: hépíng, giọng đi lên như dấu sắc nhưng xuất phát thấp hơn.'
+    代表: '代表 vừa là danh từ (đại biểu, người đại diện) vừa là động từ (đại diện, tượng trưng). Ví dụ: 绿色代表希望
+      nghĩa là "màu xanh tượng trưng cho hy vọng". 表 có âm Hán Việt là biểu. Phát âm biǎo đọc thanh 3,
+      xuống thấp rồi lên.'
+- id: hsk3-u35-l04
+  title: Lớn mạnh và mở cửa
+  new_words:
+  - 公共
+  - 广大
+  - 开放
+  - 普及
+  - 强大
+  - 伟大
+  sentences:
+  - id: s-hsk3-u35-013
+    zh: 英语已经普及全国。
+    en: English has spread all over the country.
+    pinyin: yīng yǔ yǐ jīng pǔ jí quán guó
+    tatoeba_id: 811860
+  - id: s-hsk3-u35-014
+    zh: 它已经开放了。
+    en: It's already open.
+    pinyin: tā yǐ jīng kāi fàng le
+    tatoeba_id: 9958522
+  - id: s-hsk3-u35-015
+    zh: 我认为他是位伟大的作家。
+    en: I think he's a great writer.
+    pinyin: wǒ rèn wéi tā shì wèi wěi dà de zuò jiā
+    tatoeba_id: 1446868
+  - id: s-hsk3-u35-016
+    zh: 公园是公共场所。
+    en: A park is a public place.
+    pinyin: Gōngyuán shì gōnggòng chǎngsuǒ.
+  tips:
+    伟大: '伟 gồm bộ nhân 亻 và chữ 韦, gợi ý "con người lớn lao". 伟大 chỉ dùng cho con người, sự nghiệp, tư
+      tưởng đáng kính phục, không dùng cho đồ vật to: ~~伟大的房子~~ → 很大的房子.'
+    强大: '强大 (hùng mạnh) thường đi với quốc gia, quân đội, sức mạnh: 强大的国家. Muốn nói một người khỏe mạnh
+      thì dùng 身体很好, không nói ~~他很强大~~. Phát âm qiáng: q bật hơi, đọc thanh 2.'
+    普及: '普 có âm Hán Việt là phổ, 及 có âm Hán Việt là cập, nên 普及 là "phổ cập", nghĩa là lan rộng đến
+      mọi người. Phát âm pǔjí: p bật hơi mạnh, ǔ đọc thanh 3 thấp; j giống "ch" nhưng không bật hơi.'
+    公共: '共 có âm Hán Việt là cộng. Bạn đã gặp chữ này trong 公共汽车 (xe buýt công cộng). Cả 公 và 共 đều có
+      hai nét 八: 公 có 八 ở trên, 共 có 八 ở dưới. Phát âm gōnggòng: thanh 1 ngang rồi thanh 4 đi xuống.'
+    广大: '广 có âm Hán Việt là quảng, 大 có âm Hán Việt là đại. 广大 hay dùng để nói một vùng rộng lớn hoặc
+      số đông người: 广大人民 (đông đảo nhân dân). Phát âm guǎng đọc thanh 3, đừng đọc thành "quang" thanh
+      ngang.'
+    开放: '放 có âm Hán Việt là phóng. 开放 là mở cửa đón công chúng hoặc mở cửa với bên ngoài: 公园开放了. Còn
+      mở cánh cửa thật thì dùng 开门 hoặc 打开, không dùng 开放.'
+- id: hsk3-u35-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

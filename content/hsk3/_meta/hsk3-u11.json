@@ -1,0 +1,56 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T13:28:19",
+  "prompt_sha256": [
+    "4a63cdf001cca6a308cddf2191c349a99580f58db401ab0bdfd59ceb63b8c825",
+    "5a4a48d069ef4e94276bff6a3f7426fac8dc73c446c566f59fc91bb86d401c69"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk3-u11-l01 / tips.足球",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo nói âm z (zú) \"gần giống ch\" dễ làm người học lẫn với zh/ch. Trong khi đó, các mẹo khác trong bài lại nhấn mạnh ch/zh là âm uốn lưỡi.",
+      "suggestion": "Sửa thành: z là âm đầu lưỡi phẳng, giống \"tz/dz\", không bật hơi và không uốn lưỡi. Khác với zh uốn lưỡi."
+    },
+    {
+      "where": "hsk3-u11-l05 / tips.排名",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu \"Không nói 排名是第二\" quá tuyệt đối. 排名是第二 vẫn nói được, chỉ là 排名第二 ngắn gọn và tự nhiên hơn.",
+      "suggestion": "Sửa thành: \"Thường nói 排名第二 cho gọn, ít khi thêm 是.\""
+    },
+    {
+      "where": "hsk3-u11-l03 / tips.球迷",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu chuyện \"đi lạc giữa ruộng lúa\" được nói như thể là nguồn gốc chữ. Thực ra 米 trong 迷 chủ yếu là thành phần chỉ âm.",
+      "suggestion": "Ghi rõ đây chỉ là mẹo nhớ vui, ví dụ \"Mẹo nhớ (không phải nguồn gốc chữ): ...\". Hoặc bỏ câu này."
+    },
+    {
+      "where": "hsk3-u11-l04 / tips.赢",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Nói 贝 \"ở giữa\" chữ 赢 không chính xác. 贝 nằm ở phần dưới của chữ.",
+      "suggestion": "Sửa \"ở giữa\" thành \"ở phía dưới\"."
+    }
+  ],
+  "machine_warnings": [
+    "u11-the-thao.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u11-007 (bài hsk3-u11-l02) dùng từ chưa học: 跳得",
+    "u11-the-thao.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u11-008 (bài hsk3-u11-l02) dùng từ chưa học: 三个",
+    "u11-the-thao.yaml:103: [sentence_pinyin_polyphone] Câu s-hsk3-u11-010: pinyin ghi 'Juésài de duìshǒu shì shéi?', pypinyin cho 'jué sài de duì shǒu shì shuí' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u11-the-thao.yaml:105: [sentence_unlearned_word] Câu s-hsk3-u11-011 (bài hsk3-u11-l03) dùng từ chưa học: 这个",
+    "u11-the-thao.yaml:143: [sentence_unlearned_word] Câu s-hsk3-u11-015 (bài hsk3-u11-l04) dùng từ chưa học: 三分"
+  ],
+  "han_viet_proposed": [
+    "录",
+    "泳",
+    "赛",
+    "赢"
+  ]
+}

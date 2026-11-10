@@ -1,0 +1,219 @@
+# Sinh bằng `clp plan-units` (02-5). Có thể chỉnh tay có chủ ý trước khi soạn từng chủ đề;
+# chạy `clp check-content` sau khi sửa.
+units:
+- id: hsk3-u01
+  order: 1
+  title: Gia đình và người thân
+  description: Giới thiệu được người trong gia đình, tuổi tác, hôn nhân và tình cảm gia đình.
+  words: [父母, 父亲, 母亲, 子女, 亲人, 亲, 家属, 姑娘, 男子, 女子, 老太太, 老头儿, 年纪, 性别, 结婚, 离婚, 去世, 熟人, 对象, 爱心, 幸福, 温暖, 亲切]
+  grammar: [hsk30-g131, hsk30-g135, hsk30-g209]
+- id: hsk3-u02
+  order: 2
+  title: Ăn uống
+  description: Gọi món, nói về đồ ăn thức uống, mùi vị và dinh dưỡng.
+  words: [白菜, 刀, 顿, 果汁, 红茶, 红酒, 咖啡, 可乐, 凉水, 绿茶, 美食, 奶茶, 啤酒, 苹果, 汤, 糖, 甜, 食品, 香, 香蕉, 营养, 猪, 牛, 羊]
+  grammar: [hsk30-g140, hsk30-g168]
+- id: hsk3-u03
+  order: 3
+  title: Mua sắm và quần áo
+  description: Mua quần áo, nói về kích cỡ, màu sắc, giá cả và cách trả tiền.
+  words: [布, 彩色, 衬衫, 衬衣, 短裤, 服装, 旧, 紧, 裤子, 理发, 牌子, 配, 皮, 皮包, 裙子, 上衣, 适合, 双, 线, 胖, 美, 衣架, 价格, 价钱, 付, 现金, 支付, 美元, 人民币, 值, 值得, 节约, 浪费]
+  grammar: [hsk30-g139, hsk30-g193, hsk30-g198]
+- id: hsk3-u04
+  order: 4
+  title: Nhà ở và chuyển nhà
+  description: Thuê nhà, chuyển nhà, sắp xếp đồ đạc và tả căn phòng.
+  words: [安装, 搬, 搬家, 被子, 房东, 房屋, 房租, 挂, 家具, 架, 静, 空, 空调, 乱, 齐, 沙发, 室, 书架, 卫生间, 屋子, 修, 整理, 整齐, 里面, 外面, 上面, 下面, 底下]
+  grammar: [hsk30-g132, hsk30-g177, hsk30-g210]
+- id: hsk3-u05
+  order: 5
+  title: Thời gian
+  description: Nói về thời điểm, khoảng thời gian, quá khứ và tương lai.
+  words: [长期, 初, 从前, 代, 当初, 定期, 短期, 工夫, 后年, 结束, 近期, 久, 将来, 开始, 空儿, 目前, 年初, 年代, 年底, 期, 日常, 时, 时代, 时刻, 世纪, 现代, 以来, 整天, 直到, 至今, 钟, 自从]
+  grammar: [hsk30-g141, hsk30-g151, hsk30-g169, hsk30-g181]
+- id: hsk3-u06
+  order: 6
+  title: Vị trí và vùng miền
+  description: Chỉ phương hướng, vị trí và giới thiệu thành phố, nông thôn, quê hương.
+  words: [北部, 背后, 表面, 朝, 当中, 东部, 后面, 南部, 内, 前面, 围, 西部, 眼前, 直, 中部, 周围, 城, 城市, 村, 当地, 地区, 各地, 故乡, 家乡, 建, 建成, 建设, 农村, 农民, 农业, 区, 首都]
+  grammar: [hsk30-g152, hsk30-g162]
+- id: hsk3-u07
+  order: 7
+  title: Sức khỏe và cơ thể
+  description: Nói về cơ thể, bệnh tật, chấn thương và thói quen giữ sức khỏe.
+  words: [大夫, 感冒, 活, 结实, 困, 力, 跑步, 散步, 伤, 受, 受伤, 手指, 死, 痛, 痛苦, 卫生, 血, 心, 烟, 状态, 生命, 毛病]
+  grammar: [hsk30-g183]
+- id: hsk3-u08
+  order: 8
+  title: Cảm xúc
+  description: Diễn tả vui buồn, lo sợ, ngạc nhiên và các cảm xúc mạnh.
+  words: [不安, 敢, 感情, 感受, 哈哈, 害怕, 好奇, 欢乐, 极了, 紧张, 美好, 满足, 内心, 奇怪, 强烈, 情感, 热爱, 热烈, 乐, 乐观, 伤心, 失去, 幸运, 压力]
+  grammar: [hsk30-g133, hsk30-g161, hsk30-g179, hsk30-g205]
+- id: hsk3-u09
+  order: 9
+  title: Động tác hằng ngày
+  description: Miêu tả các động tác tay chân và xử lý đồ vật bằng câu chữ 把, câu bị động và bổ ngữ.
+  words: [按, 把, 被, 补, 断, 放到, 合, 解开, 拍, 破, 上来, 上去, 推开, 退, 下来, 下去, 压, 张, 支, 指, 抓, 抓住, 追]
+  grammar: [hsk30-g136, hsk30-g157, hsk30-g176, hsk30-g178, hsk30-g184]
+- id: hsk3-u10
+  order: 10
+  title: Du lịch và giao thông
+  description: Đặt vé, đặt phòng, hỏi đường và kể về chuyến đi.
+  words: [长城, 到达, 等待, 订, 访问, 飞行, 赶到, 高速, 高速公路, 景色, 快速, 路线, 旅馆, 旅行社, 前往, 桥, 取消, 速度, 铁路, 行李, 游, 转, 票价, 提前]
+  grammar: [hsk30-g180, hsk30-g186]
+- id: hsk3-u11
+  order: 11
+  title: Thể thao
+  description: Nói về các môn thể thao, trận đấu, tập luyện và thắng thua.
+  words: [比赛, 打破, 得分, 队员, 对手, 功夫, 划船, 纪录, 教练, 金, 金牌, 决赛, 领先, 排名, 球迷, 全场, 胜, 胜利, 实力, 世界杯, 输, 跳, 跳高, 跳远, 武术, 选手, 训练, 银, 银牌, 赢, 游泳, 足球]
+  grammar: [hsk30-g189]
+- id: hsk3-u12
+  order: 12
+  title: Giải trí và biểu diễn
+  description: Nói về phim, ca nhạc, biểu diễn và trò chơi.
+  words: [导演, 电视剧, 动人, 歌迷, 歌声, 歌手, 观看, 观众, 精彩, 剧场, 连续剧, 迷, 跳舞, 玩具, 舞台, 演, 演唱, 演唱会, 演出, 演员, 影视, 游戏, 乐队, 表演]
+  grammar: [hsk30-g197]
+- id: hsk3-u13
+  order: 13
+  title: Trường lớp và học tập
+  description: Nói về lớp học, môn học, bài tập, thi cử và du học.
+  words: [班级, 板, 报到, 初一, 初级, 初中, 单元, 功课, 集中, 教材, 课程, 留学, 难度, 念, 请教, 试题, 提问, 题目, 听力, 图, 外文, 系, 写作, 修改, 学费, 预习, 指导, 专门, 专业]
+  grammar: [hsk30-g208]
+- id: hsk3-u14
+  order: 14
+  title: Thư từ và Internet
+  description: Gửi thư, email, tin nhắn và giữ liên lạc qua mạng.
+  words: [保存, 电子邮件, 发送, 复印, 互联网, 联系, 输入, 通信, 文件, 信封, 邮件, 邮票, 邮箱, 消息, 录, 录音, 记录, 发出, 打听, 约, 文字, 显示, 自动]
+  grammar: [hsk30-g194]
+- id: hsk3-u15
+  order: 15
+  title: Giao tiếp và quan hệ
+  description: Chào hỏi, tiếp khách, trò chuyện và giữ gìn các mối quan hệ.
+  words: [表达, 吵, 吵架, 对待, 对方, 分别, 告别, 关系, 互相, 话题, 接待, 交流, 交往, 亲自, 认出, 认得, 双方, 谈, 谈话, 握手, 相互, 信任, 迎接, 做客]
+  grammar: [hsk30-g147, hsk30-g154, hsk30-g211]
+- id: hsk3-u16
+  order: 16
+  title: Công việc
+  description: Nói về nghề nghiệp, công ty, chức vụ, lương và trách nhiệm.
+  words: [安排, 报告, 部, 部门, 部长, 创业, 从事, 带领, 调, 分配, 负责, 工程师, 工资, 公务员, 管, 管理, 合作, 会议, 就业, 老板, 领, 领导, 派, 配合, 人员, 任, 任务, 所长, 退休, 员, 服务员, 员工, 责任, 职工, 职业, 主任]
+  grammar: [hsk30-g150, hsk30-g182, hsk30-g187]
+- id: hsk3-u17
+  order: 17
+  title: Trạng từ thời gian và tần suất
+  description: Diễn đạt việc xảy ra nhanh, chậm, thường xuyên hay từ trước đến nay.
+  words: [本来, 曾经, 从来, 反复, 赶, 赶紧, 赶快, 及时, 立刻, 连忙, 连续, 慢慢, 仍, 仍然, 始终, 通常, 突然, 往往, 已, 早已, 总, 总是, 好好]
+  grammar: [hsk30-g144, hsk30-g145, hsk30-g146]
+- id: hsk3-u18
+  order: 18
+  title: Số lượng và phạm vi
+  description: Ước lượng số lượng, nói về toàn bộ, từng phần và giới hạn.
+  words: [大概, 大约, 将近, 接近, 前后, 左右, 至少, 足够, 数量, 比例, 面积, 共有, 仅, 仅仅, 有的是, 整, 整个, 整体, 整整, 一切, 完整, 缺, 缺少, 充满, 丰富, 每, 各, 各位, 各种, 各自, 任何, 某]
+  grammar: [hsk30-g137, hsk30-g138, hsk30-g143, hsk30-g167, hsk30-g204]
+- id: hsk3-u19
+  order: 19
+  title: So sánh và mức độ
+  description: So sánh sự vật, phân loại và nói về mức độ giống khác nhau.
+  words: [比较, 超级, 程度, 范围, 更加, 基本, 基本上, 较, 类, 类似, 普遍, 区别, 全面, 属于, 相比, 相当, 相关, 相似, 形状, 重大, 明显, 准, 深, 真实]
+  grammar: [hsk30-g142, hsk30-g164, hsk30-g188]
+- id: hsk3-u20
+  order: 20
+  title: Giọng điệu và thái độ
+  description: Thể hiện sự chắc chắn, ngạc nhiên, nhấn mạnh và câu hỏi tu từ.
+  words: [必然, 不必, 不得不, 当然, 到底, 反正, 干吗, 根本, 果然, 简直, 绝对, 恐怕, 难道, 能不能, 其实, 千万, 巧, 确实, 实际上, 事实上, 显然, 应当, 只好, 终于]
+  grammar: [hsk30-g148, hsk30-g149, hsk30-g206]
+- id: hsk3-u21
+  order: 21
+  title: Tính cách và năng lực
+  description: Miêu tả tính cách, ưu nhược điểm và khả năng của một người.
+  words: [本领, 本事, 表现, 才能, 长处, 成熟, 短处, 个人, 个性, 积极, 坚强, 具有, 看上去, 看起来, 可靠, 力量, 能力, 强, 缺点, 人才, 突出, 完美, 显得, 形象, 性, 积极性, 性格, 优点, 优势, 主动, 自觉, 自身, 自主]
+  grammar: [hsk30-g165, hsk30-g166, hsk30-g196]
+- id: hsk3-u22
+  order: 22
+  title: Mục tiêu và thành công
+  description: Nói về ước mơ, mục tiêu, kinh nghiệm và nỗ lực để thành công.
+  words: [成功, 成果, 成就, 达到, 坚持, 坚决, 尽量, 决心, 考验, 命运, 目标, 人生, 事业, 希望, 现实, 愿望, 争, 争取, 志愿, 经历, 经验, 体会, 体验, 克服]
+  grammar: [hsk30-g200, hsk30-g202]
+- id: hsk3-u23
+  order: 23
+  title: Truyền thông và báo chí
+  description: Nói về tin tức, truyền hình, phát thanh, báo chí và việc đưa tin.
+  words: [报, 报道, 标题, 播出, 播放, 传, 传播, 传来, 电视台, 电台, 发表, 公布, 公开, 关注, 广播, 记者, 据说, 媒体, 内容, 声明, 收看, 收听, 收音机, 听众, 文章, 宣布, 宣传, 杂志, 直播, 专题]
+  grammar: [hsk30-g175, hsk30-g203]
+- id: hsk3-u24
+  order: 24
+  title: Văn hóa và nghệ thuật
+  description: Giới thiệu văn hóa truyền thống, lễ hội, văn học và nghệ thuật Trung Quốc.
+  words: [传说, 创作, 福, 古, 古代, 纪念, 龙, 美术, 民间, 庆祝, 生动, 属, 束, 特色, 图画, 文化, 文学, 艺术, 祝, 作品, 作者, 京剧, 读者, 话剧]
+  grammar: [hsk30-g190]
+- id: hsk3-u25
+  order: 25
+  title: Thiên nhiên và môi trường
+  description: Nói về thời tiết, cảnh vật, vật liệu tự nhiên và bảo vệ môi trường.
+  words: [光明, 环, 环保, 环境, 火, 马, 美丽, 木头, 暖和, 气候, 沙子, 生存, 生长, 石头, 天空, 铁, 土, 阳光, 预报, 种, 种子, 自然, 光, 消失]
+  grammar: [hsk30-g191]
+- id: hsk3-u26
+  order: 26
+  title: An toàn và bảo vệ
+  description: Nói về nguy hiểm, tai nạn, phòng ngừa và cách bảo vệ bản thân.
+  words: [保, 保安, 保护, 保险, 保证, 发生, 防, 防止, 风险, 紧急, 警察, 破坏, 确保, 事故, 事件, 危害, 危险, 武器, 意外, 预防, 注意, 救, 交警, 现场]
+  grammar: [hsk30-g185, hsk30-g199]
+- id: hsk3-u27
+  order: 27
+  title: Giấy tờ và thủ tục
+  description: Làm thủ tục, nộp giấy tờ, hiểu quy định và tiêu chuẩn.
+  words: [办理, 标准, 规定, 规范, 合法, 批准, 身份证, 实行, 适用, 手续, 正式, 证, 证件, 证据, 证明, 制定, 制度, 资格, 按照, 照, 海关, 大使馆, 合格, 表格]
+  grammar: [hsk30-g159]
+- id: hsk3-u28
+  order: 28
+  title: Vấn đề và cách giải quyết
+  description: Mô tả khó khăn, phân tích tình huống và đề xuất cách giải quyết.
+  words: [把握, 采取, 采用, 处理, 错误, 调查, 方式, 复杂, 后果, 简单, 解决, 困难, 利用, 麻烦, 面对, 情况, 容易, 如何, 效果, 需要, 有效, 造成, 状况, 没用]
+  grammar: [hsk30-g134, hsk30-g155, hsk30-g171]
+- id: hsk3-u29
+  order: 29
+  title: Ý kiến và đánh giá
+  description: Bày tỏ đồng ý, phản đối, góp ý và đánh giá người khác.
+  words: [同意, 反对, 支持, 建议, 主意, 主张, 决定, 批评, 评价, 认可, 否定, 否认, 强调, 指出, 补充, 理由, 判断, 确定, 反应, 印象, 表明, 理解, 预计, 称为]
+  grammar: [hsk30-g170, hsk30-g174, hsk30-g207]
+- id: hsk3-u30
+  order: 30
+  title: Liên kết câu
+  description: Nối các câu để liệt kê, bổ sung, giả định và trình bày nguyên nhân, kết quả.
+  words: [并, 并且, 不论, 不光, 不仅, 除了, 就是, 连, 另外, 另一方面, 其次, 首先, 所, 为了, 要是, 一方面, 因此, 由, 由于, 只是, 只有, 随, 总结]
+  grammar: [hsk30-g156, hsk30-g158, hsk30-g160, hsk30-g201]
+- id: hsk3-u31
+  order: 31
+  title: Tổ chức và sự kiện
+  description: Nói về hội nhóm, thành viên và việc tổ chức các hoạt động tập thể.
+  words: [场合, 场所, 成立, 成员, 发动, 发言, 分组, 共同, 会员, 集体, 建立, 举办, 开展, 联合, 群, 设立, 团, 团结, 团体, 退出, 展开, 者, 志愿者, 主持, 组合]
+  grammar: []
+- id: hsk3-u32
+  order: 32
+  title: Kinh tế và kinh doanh
+  description: Nói về sản xuất, buôn bán, thị trường, tiêu dùng và chi phí.
+  words: [厂, 发达, 富, 工厂, 工业, 加工, 价值, 交易, 经济, 经营, 开业, 商品, 商业, 生产, 生意, 石油, 市场, 谈判, 需求, 运输, 制造, 制作, 资金, 存, 费, 费用, 交费, 收费, 消费]
+  grammar: [hsk30-g195]
+- id: hsk3-u33
+  order: 33
+  title: Khoa học và công nghệ
+  description: Nói về máy móc, thí nghiệm, phát minh và ứng dụng công nghệ.
+  words: [创新, 创造, 发明, 工具, 功能, 观察, 机器, 计算, 技术, 开发, 科技, 理论, 人工, 设备, 设计, 实验, 实验室, 试验, 台, 先进, 应用, 造, 专家, 动力]
+  grammar: []
+- id: hsk3-u34
+  order: 34
+  title: Thay đổi và phát triển
+  description: Miêu tả sự thay đổi, tiến bộ, tăng giảm và quá trình phát triển.
+  words: [保持, 保留, 变化, 变为, 不断, 步, 成长, 持续, 初步, 带动, 发展, 改进, 改造, 化, 现代化, 继续, 加快, 加强, 进步, 进一步, 进展, 落后, 前进, 上升, 升, 使, 适应, 停止, 推动, 推广, 推进, 完善, 增加, 增长, 转变, 调整]
+  grammar: [hsk30-g163, hsk30-g172]
+- id: hsk3-u35
+  order: 35
+  title: Xã hội và đất nước
+  description: Nói về xã hội, nhân dân, dân tộc, quan hệ quốc tế và hòa bình.
+  words: [公共, 公民, 广大, 国内, 和平, 华人, 开放, 老百姓, 联合国, 民族, 普及, 强大, 全球, 人类, 人民, 人群, 社会, 世界, 外交, 伟大, 文明, 中华民族, 代表, 代表团, 国庆]
+  grammar: [hsk30-g153]
+- id: hsk3-u36
+  order: 36
+  title: Tư duy và khái niệm
+  description: Trình bày suy nghĩ trừu tượng về khái niệm, hiện tượng, ý nghĩa và cơ sở của sự việc.
+  words: [必要, 概念, 观念, 合理, 具体, 客观, 明确, 深刻, 深入, 事实, 思想, 体现, 现象, 意义, 有利, 产生, 形成, 结合, 过程, 形式, 存在, 精神, 头脑, 基础]
+  grammar: [hsk30-g173, hsk30-g192]

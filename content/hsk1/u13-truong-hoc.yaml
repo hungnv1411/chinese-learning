@@ -1,0 +1,241 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u13.json.
+id: hsk1-u13
+stage: hsk1
+order: 13
+title: Trường học
+description: Biết nói về trường lớp, giờ học, sách vở, bài thi và việc học của mình.
+lessons:
+- id: hsk1-u13-l01
+  title: Các loại trường và nơi trong trường
+  new_words:
+  - 学校
+  - 小学
+  - 中学
+  - 大学
+  - 学院
+  - 教学楼
+  - 图书馆
+  sentences:
+  - id: s-hsk1-u13-001
+    zh: 学校在哪儿？
+    en: Where is the school?
+    pinyin: xué xiào zài nǎ ér
+    tatoeba_id: 1054527
+  - id: s-hsk1-u13-002
+    zh: 我妹妹上小学，我上中学。
+    en: My younger sister is in primary school, and I'm in middle school.
+    pinyin: Wǒ mèimei shàng xiǎoxué, wǒ shàng zhōngxué.
+  - id: s-hsk1-u13-003
+    zh: 图书馆在教学楼旁边。
+    en: The library is next to the school building.
+    pinyin: Túshūguǎn zài jiàoxuélóu pángbiān.
+  - id: s-hsk1-u13-004
+    zh: 我爱图书馆。
+    en: I love libraries.
+    pinyin: wǒ ài tú shū guǎn
+    tatoeba_id: 8932579
+  tips:
+    学校: '学 có âm Hán Việt là học, 校 có âm Hán Việt là hiệu. Phát âm xué: x đặt đầu lưỡi sau răng dưới,
+      nghe gần "x" nhưng mềm hơn; ue đọc gần "uê" với môi tròn như ü. Đừng đọc thành "xuê" dẹt môi.'
+    大学: 'Người Việt nói "trường đại học" nên hay thêm 校 thành ~~大学校~~. Tiếng Trung chỉ nói 大学, cũng như
+      小学, 中学: bản thân chúng đã có nghĩa là trường. 大 có âm Hán Việt là đại.'
+    图书馆: '图 có âm Hán Việt là đồ, 书 có âm Hán Việt là thư, 馆 có âm Hán Việt là quán. Chữ 馆 có bộ thực
+      饣 (ăn) bên trái và 官 bên phải: ban đầu là nhà trọ có cơm ăn, sau chỉ chung các toà nhà công cộng.'
+    教学楼: Trong 教学楼, 教 đọc thanh 4 jiào (giảng dạy), khác với động từ 教 jiāo thanh 1 (dạy ai đó) sẽ học
+      ở bài sau. 楼 là toà nhà/tầng, bạn đã biết qua 楼上, 楼下.
+- id: hsk1-u13-l02
+  title: Thầy trò và bạn học
+  new_words:
+  - 学生
+  - 小学生
+  - 中学生
+  - 大学生
+  - 老师
+  - 同学
+  - 班
+  sentences:
+  - id: s-hsk1-u13-005
+    zh: 我们是同学。
+    en: We're classmates.
+    pinyin: wǒ men shì tóng xué
+    tatoeba_id: 333784
+  - id: s-hsk1-u13-006
+    zh: 我是大学生。
+    en: I'm at university.
+    pinyin: wǒ shì dà xué shēng
+    tatoeba_id: 567558
+  - id: s-hsk1-u13-007
+    zh: 谁是你老师？
+    en: Who is your teacher?
+    pinyin: shuí shì nǐ lǎo shī
+    tatoeba_id: 787631
+  - id: s-hsk1-u13-008
+    zh: 我们班有三十个学生。
+    en: There are thirty students in our class.
+    pinyin: Wǒmen bān yǒu sānshí ge xuésheng.
+  tips:
+    学生: 'Ghép tên trường + 生 là ra người học ở đó: 小学 → 小学生, 中学 → 中学生, 大学 → 大学生. 生 có âm Hán Việt là sinh.
+      Trong khẩu ngữ, 生 của 学生 thường đọc nhẹ: xuésheng.'
+    老师: '老 có âm Hán Việt là lão, 师 có âm Hán Việt là sư. lǎo là thanh 3: hạ thấp giọng rồi mới lên, đừng
+      đọc vút lên như dấu hỏi tiếng Việt. shī: uốn đầu lưỡi lên như "s" miền Bắc nói chuẩn, vần i ở đây
+      đọc gần "ư".'
+    同学: '同 có âm Hán Việt là đồng: 同学 là người cùng học, tức bạn học. Gọi bạn trong lớp, người Trung Quốc
+      hay nói 同学们 (các bạn), thầy cô cũng gọi cả lớp là 同学们.'
+    班: 'Chữ 班 gồm hai chữ 王 (ngọc) kẹp con dao 刂 ở giữa: dao chia khối ngọc làm hai, gợi nghĩa chia nhóm,
+      tức chia lớp. 班 có âm Hán Việt là ban. 我们班 = lớp chúng tôi.'
+- id: hsk1-u13-l03
+  title: Giờ học, tan học, nghỉ học
+  new_words:
+  - 上课
+  - 下课
+  - 上学
+  - 放学
+  - 放假
+  - 课
+  sentences:
+  - id: s-hsk1-u13-009
+    zh: 你几点上课？
+    en: What time do you have class?
+    pinyin: Nǐ jǐ diǎn shàngkè?
+  - id: s-hsk1-u13-010
+    zh: 我七点上学，下午四点放学。
+    en: I go to school at seven and get out at four in the afternoon.
+    pinyin: Wǒ qī diǎn shàngxué, xiàwǔ sì diǎn fàngxué.
+  - id: s-hsk1-u13-011
+    zh: 明天放假，不用上学。
+    en: Tomorrow is a holiday, so there's no need to go to school.
+    pinyin: Míngtiān fàngjià, búyòng shàngxué.
+  - id: s-hsk1-u13-012
+    zh: 你今天有课吗？
+    en: Do you have class today?
+    pinyin: Nǐ jīntiān yǒu kè ma?
+  tips:
+    上课: '上 có âm Hán Việt là thượng, 下 có âm Hán Việt là hạ, 课 có âm Hán Việt là khoá. 上课 là vào học (một
+      tiết), 下课 là tan tiết. 上学 thì là đi học nói chung, đến trường. Phát âm kè: k bật hơi mạnh như "kh"
+      nhẹ, e đọc gần "ơ".'
+    放学: '放 có âm Hán Việt là phóng, nghĩa gốc là thả. 放学 = thả học trò về, tức tan trường cuối ngày. Cùng
+      bộ đó: 放假 = được nghỉ (lễ, hè). Phân biệt: 下课 là hết một tiết, 放学 là hết cả buổi học.'
+    放假: 'Câu 明天放假，不用上学: 不 đứng trước thanh 4 (用 yòng) thì đổi thành thanh 2: búyòng. jià là thanh 4, đọc
+      dứt khoát như dấu nặng hơi kéo xuống.'
+- id: hsk1-u13-l04
+  title: Sách vở và cặp sách
+  grammar: hsk1-g041
+  new_words:
+  - 书
+  - 书包
+  - 本子
+  - 课本
+  - 课文
+  - 读书
+  sentences:
+  - id: s-hsk1-u13-013
+    zh: 我买了一个新书包。
+    en: I bought a new schoolbag.
+    pinyin: Wǒ mǎile yí ge xīn shūbāo.
+  - id: s-hsk1-u13-014
+    zh: 我昨天买了两个本子。
+    en: I bought two notebooks yesterday.
+    pinyin: Wǒ zuótiān mǎile liǎng ge běnzi.
+  - id: s-hsk1-u13-015
+    zh: 课本在书包里。
+    en: The textbook is in the schoolbag.
+    pinyin: Kèběn zài shūbāo li.
+  - id: s-hsk1-u13-016
+    zh: 你爱读书吗？
+    en: Do you like to study?
+    pinyin: nǐ ài dú shū ma
+    tatoeba_id: 1178264
+  tips:
+    书: '书 có âm Hán Việt là thư. shū: sh uốn lưỡi, u tròn môi như "u" tiếng Việt. Ghép thêm: 书包 (cặp sách,
+      包 có âm Hán Việt là bao), 书店 (hiệu sách), 图书馆 (thư viện).'
+    书包: 'Lỗi hay gặp: muốn nói "đã không mua" thì người Việt dễ viết ~~我不买了书包~~. Phủ định của V + 了 là
+      没 + V, bỏ 了: 我没买书包. Lưu ý 一个 đọc yí ge vì 一 đứng trước 个 (gốc thanh 4) nên đổi sang thanh 2.'
+    本子: '本 có âm Hán Việt là bản: chữ 木 (cây) thêm một nét ngang ở gốc, nghĩa gốc là gốc rễ, sau thành
+      lượng từ cho sách vở. 子 trong 本子 đọc thanh nhẹ zi: z giống "ch" không bật hơi, môi dẹt, vần i đọc
+      gần "ư".'
+    读书: '读书 không chỉ là đọc sách mà còn là đi học, theo học: 他在大学读书 = Anh ấy đang học đại học. 读 có âm
+      Hán Việt là độc, bộ ngôn 讠 vì liên quan đến lời nói, đọc thành tiếng.'
+    课文: 课文 là bài khoá (đoạn văn trong bài học), còn 课本 là sách giáo khoa. 文 có âm Hán Việt là văn, 本
+      có âm Hán Việt là bản. Đừng nhầm hai từ này vì chúng chỉ khác chữ sau.
+- id: hsk1-u13-l05
+  title: Thi cử và dạy học
+  new_words:
+  - 考
+  - 考试
+  - 难
+  - 错
+  - 听写
+  - 教
+  sentences:
+  - id: s-hsk1-u13-017
+    zh: 考试难吗？
+    en: Is the test hard?
+    pinyin: kǎo shì nán ma
+    tatoeba_id: 10276227
+  - id: s-hsk1-u13-018
+    zh: 这是错的。
+    en: This is wrong.
+    pinyin: zhè shì cuò de
+    tatoeba_id: 9432347
+  - id: s-hsk1-u13-019
+    zh: 老师教我们汉语。
+    en: The teacher teaches us Chinese.
+    pinyin: Lǎoshī jiāo wǒmen Hànyǔ.
+  - id: s-hsk1-u13-020
+    zh: 明天听写汉字。
+    en: Tomorrow there's a Chinese character dictation.
+    pinyin: Míngtiān tīngxiě Hànzì.
+  tips:
+    考试: '考 có âm Hán Việt là khảo, 试 có âm Hán Việt là thí. kǎo thanh 3: giọng xuống thấp rồi mới lên.
+      考 đứng một mình là động từ "thi": 考汉语 = thi tiếng Trung; 考试 vừa là động từ vừa là danh từ.'
+    难: 'Lỗi người Việt hay mắc: dùng 是 trước tính từ, ~~考试是难~~. Tính từ làm vị ngữ không cần 是, thường
+      thêm 很: 考试很难. 难 có âm Hán Việt là nan.'
+    错: '错 bộ kim 钅 bên trái. cuò: c bật hơi mạnh, giống "ts" có luồng hơi, không đọc như "c" tiếng Việt.
+      Lưu ý: 不错 nghĩa là "khá tốt, được đấy", không phải chỉ "không sai".'
+    教: '教 có âm Hán Việt là giáo. Làm động từ "dạy ai cái gì" thì đọc jiāo thanh 1: 教我们汉语 (dạy + người
+      + môn). Trong từ ghép như 教学楼 thì đọc jiào thanh 4.'
+    听写: '听 có âm Hán Việt là thính, 写 có âm Hán Việt là tả: nghe rồi viết lại, tức nghe chép chính tả.
+      tīngxiě là thanh 1 + thanh 3 nên không biến điệu; chỉ khi hai thanh 3 đi liền nhau (như 你好) thì
+      thanh 3 đầu mới đọc thành thanh 2.'
+- id: hsk1-u13-l06
+  title: Nhớ, quên và học nghiêm túc
+  new_words:
+  - 记
+  - 记得
+  - 记住
+  - 忘
+  - 忘记
+  - 认真
+  - 知识
+  sentences:
+  - id: s-hsk1-u13-021
+    zh: 你记得吗？
+    en: Do you remember?
+    pinyin: nǐ jì de ma
+    tatoeba_id: 444736
+  - id: s-hsk1-u13-022
+    zh: 我没有忘。
+    en: I didn't forget.
+    pinyin: wǒ méi yǒu wàng
+    tatoeba_id: 902035
+  - id: s-hsk1-u13-023
+    zh: 我忘记了他的名字。
+    en: I forgot his name.
+    pinyin: Wǒ wàngjìle tā de míngzi.
+  - id: s-hsk1-u13-024
+    zh: 我是认真的。
+    en: I'm serious.
+    pinyin: wǒ shì rèn zhēn de
+    tatoeba_id: 824668
+  tips:
+    记得: '记得 là trạng thái "vẫn còn nhớ" (你记得吗?), còn 记住 là "ghi nhớ cho chắc, nhớ kỹ" (một kết quả): 请记住我的名字.
+      记 có âm Hán Việt là kí, bộ ngôn 讠. 得 trong 记得 đọc nhẹ de.'
+    忘: '忘 có âm Hán Việt là vong: trên là 亡 (mất), dưới là 心 (tim) → mất khỏi lòng, tức quên. Hay gặp
+      nhất là 忘了 / 忘记了 (đã quên). Phủ định dùng 没: 我没有忘.'
+    认真: '认 có âm Hán Việt là nhận, 真 có âm Hán Việt là chân. rèn: r tiếng Trung không rung lưỡi như "r"
+      tiếng Việt, mà uốn đầu lưỡi lên gần giống "r" nhẹ của tiếng Anh. zhēn: zh như "tr" không bật hơi.'
+    知识: '知 có âm Hán Việt là tri (biết). 知识 là kiến thức, tri thức. zhīshi có hai âm uốn lưỡi liền nhau:
+      zh ≈ "tr", sh ≈ "s" uốn lưỡi, vần i đọc như "ư". Chữ sau đọc nhẹ shi; chữ 识 có bộ ngôn 讠 bên trái.'
+- id: hsk1-u13-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

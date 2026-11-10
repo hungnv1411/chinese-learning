@@ -1,0 +1,247 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u20.json.
+id: hsk2-u20
+stage: hsk2
+order: 20
+title: Quá khứ, hiện tại và sắp tới
+description: Người học có thể kể chuyện theo trình tự thời gian và nói việc vừa xảy ra, đã xảy ra hay
+  sắp xảy ra.
+lessons:
+- id: hsk2-u20-l01
+  title: Vừa mới và đã rồi
+  grammar: hsk2-g015
+  new_words:
+  - 刚
+  - 刚刚
+  - 刚才
+  - 已经
+  sentences:
+  - id: s-hsk2-u20-001
+    zh: 他刚离开家。
+    en: He has just left home.
+    pinyin: tā gāng lí kāi jiā
+    tatoeba_id: 333209
+  - id: s-hsk2-u20-002
+    zh: 他刚才到了。
+    en: He had just arrived.
+    pinyin: tā gāng cái dào le
+    tatoeba_id: 1300399
+  - id: s-hsk2-u20-003
+    zh: 我刚刚才到的。
+    en: I arrived just now.
+    pinyin: wǒ gāng gāng cái dào de
+    tatoeba_id: 818150
+  - id: s-hsk2-u20-004
+    zh: 他已经走了。
+    en: He's already left.
+    pinyin: tā yǐ jīng zǒu le
+    tatoeba_id: 628386
+  tips:
+    刚: '刚 có bộ đao 刂 (con dao) bên phải, bên trái là 冈. Đọc gāng thanh 1: giữ giọng cao và đều như tiếng
+      Việt không dấu, đừng hạ giọng ở cuối.'
+    刚才: '刚 là phó từ nên phải đứng sau chủ ngữ: 我刚到. 刚才 là danh từ chỉ thời gian nên đứng được trước chủ
+      ngữ: 刚才你去哪儿了? Lỗi hay gặp: ~~刚我到~~ → 我刚到 hoặc 刚才我到了.'
+    已经: '已 có âm Hán Việt là dĩ, 经 có âm Hán Việt là kinh. 已经 thường đi với 了 ở cuối câu: 我已经吃了. Người
+      Việt hay quên 了 vì tiếng Việt chỉ cần nói "đã… rồi".'
+- id: hsk2-u20-l02
+  title: Từ lâu, dạo này và mãi mãi
+  grammar: hsk2-g020
+  new_words:
+  - 早就
+  - 最近
+  - 永远
+  sentences:
+  - id: s-hsk2-u20-005
+    zh: 我早就知道了。
+    en: I knew it long ago.
+    pinyin: Wǒ zǎo jiù zhīdào le.
+  - id: s-hsk2-u20-006
+    zh: 我最近很忙。
+    en: I'm very busy these days.
+    pinyin: wǒ zuì jìn hěn máng
+    tatoeba_id: 409710
+  - id: s-hsk2-u20-007
+    zh: 他昨天晚上十二点才睡觉。
+    en: He didn't go to bed until twelve last night.
+    pinyin: Tā zuótiān wǎnshang shí'èr diǎn cái shuìjiào.
+  - id: s-hsk2-u20-008
+    zh: 我永远记得你。
+    en: I will always remember you.
+    pinyin: Wǒ yǒngyuǎn jìde nǐ.
+  tips:
+    早就: '早 có âm Hán Việt là tảo. 早就 = "đã… từ lâu rồi", cuối câu thường có 了: 我早就知道了. Âm z trong zǎo
+      không bật hơi, đọc gần như "ch" nhẹ, đừng phả hơi ra.'
+    最近: '最 có âm Hán Việt là tối, 近 có âm Hán Việt là cận. 最近 = "dạo này, gần đây". Lỗi hay gặp: ~~我最近是忙~~
+      → 我最近很忙 (trước tính từ dùng 很, không dùng 是).'
+    永远: '永远 gồm hai thanh 3 đứng liền nhau nên chữ đầu đổi thành thanh 2: đọc yóngyuǎn. 远 có âm Hán Việt
+      là viễn, có bộ sước 辶 (đi lại) giống 近 và 这.'
+- id: hsk2-u20-l03
+  title: Sắp xảy ra
+  grammar: hsk2-g082
+  new_words:
+  - 快要
+  - 就要
+  - 接下来
+  sentences:
+  - id: s-hsk2-u20-009
+    zh: 天快要下雨了。
+    en: It'll rain soon.
+    pinyin: tiān kuài yào xià yǔ le
+    tatoeba_id: 335128
+  - id: s-hsk2-u20-010
+    zh: 春天就要来了。
+    en: Spring will come soon.
+    pinyin: chūn tiān jiù yào lái le
+    tatoeba_id: 343938
+  - id: s-hsk2-u20-011
+    zh: 我们就要到了。
+    en: We'll be there soon.
+    pinyin: wǒ men jiù yào dào le
+    tatoeba_id: 9501482
+  - id: s-hsk2-u20-012
+    zh: 接下来我们做什么？
+    en: What are we doing next?
+    pinyin: Jiēxiàlái wǒmen zuò shénme?
+  tips:
+    快要: '快 có âm Hán Việt là khoái, bộ tâm 忄. 快要 không đi với thời gian cụ thể: ~~明天快要考试了~~ → 明天就要考试了.
+      Cuối câu nhớ có 了.'
+    就要: '就要……了 = "sắp… rồi", ghép được với thời gian cụ thể: 下个月就要放假了. Đừng nhầm với 我现在就要它 ("tôi muốn
+      nó ngay") — câu đó là 就 + 要 (muốn) và không có 了 ở cuối.'
+    接下来: '接 có âm Hán Việt là tiếp, bộ thủ 扌 (tay), gợi hình ảnh đưa tay "đón lấy" phần tiếp theo. 接下来
+      đứng đầu câu, giống "tiếp theo" trong tiếng Việt: 接下来我们学什么?'
+- id: hsk2-u20-l04
+  title: Trước đây và sau này
+  grammar: hsk2-g047
+  new_words:
+  - 以前
+  - 以后
+  - 过去
+  - 今后
+  sentences:
+  - id: s-hsk2-u20-013
+    zh: 你以前喜欢吗？
+    en: Did you use to like it?
+    pinyin: nǐ yǐ qián xǐ huān ma
+    tatoeba_id: 1783793
+  - id: s-hsk2-u20-014
+    zh: 以后再讲。
+    en: Let's talk later.
+    pinyin: yǐ hòu zài jiǎng
+    tatoeba_id: 330582
+  - id: s-hsk2-u20-015
+    zh: 夏天过去了。
+    en: Summer is over.
+    pinyin: xià tiān guò qù le
+    tatoeba_id: 7774794
+  - id: s-hsk2-u20-016
+    zh: 今后我会努力学习。
+    en: From now on I will study hard.
+    pinyin: Jīnhòu wǒ huì nǔlì xuéxí.
+  tips:
+    以前: 'Tiếng Việt nói "trước khi ăn cơm", còn tiếng Trung đặt 以前 phía sau: 吃饭以前. Lỗi hay gặp: ~~以前吃饭~~
+      (thành "trước đây ăn cơm") → 吃饭以前. 前 có âm Hán Việt là tiền.'
+    过去: '过 có âm Hán Việt là quá, 去 có âm Hán Việt là khứ. Âm q trong qù bật hơi mạnh: đặt lưỡi như khi
+      nói "ch" rồi phả hơi ra; ü đọc với môi tròn, gần "uy" nhưng không trượt âm.'
+    今后: '今 có âm Hán Việt là kim, 后 có âm Hán Việt là hậu. 今后 = "từ nay về sau", chỉ tính từ hiện tại.
+      以后 rộng hơn, có thể là sau một mốc bất kỳ: 下课以后.'
+- id: hsk2-u20-l05
+  title: Kể chuyện theo trình tự
+  grammar: hsk2-g069
+  new_words:
+  - 接着
+  - 后来
+  - 等到
+  sentences:
+  - id: s-hsk2-u20-017
+    zh: 我一到家就睡觉了。
+    en: I went to bed as soon as I got home.
+    pinyin: Wǒ yí dào jiā jiù shuìjiào le.
+  - id: s-hsk2-u20-018
+    zh: 他吃了饭，接着看电视。
+    en: He ate and then went on to watch TV.
+    pinyin: Tā chī le fàn, jiēzhe kàn diànshì.
+  - id: s-hsk2-u20-019
+    zh: 后来他去了北京。
+    en: Later he went to Beijing.
+    pinyin: Hòulái tā qù le Běijīng.
+  - id: s-hsk2-u20-020
+    zh: 请等到他回来。
+    en: Please wait till he comes back.
+    pinyin: qǐng děng dào tā huí lái
+    tatoeba_id: 858809
+  tips:
+    后来: '后来 chỉ dùng để kể chuyện đã xảy ra. Nói về tương lai phải dùng 以后: ~~后来我想当医生~~ → 以后我想当医生. 来 có
+      âm Hán Việt là lai.'
+    接着: '着 trong 接着 đọc thanh nhẹ zhe, ngắn và nhẹ. zh là âm cong lưỡi: uốn đầu lưỡi lên ngạc, giống "tr"
+      tiếng Việt nhưng không bật hơi.'
+    等到: 等 có âm Hán Việt là đẳng, bộ trúc ⺮ ở trên; 到 có âm Hán Việt là đáo, bộ đao 刂. Thanh 3 của děng
+      đứng trước thanh 4 chỉ đọc nửa (xuống thấp rồi dừng), không vòng lên như dấu hỏi.
+- id: hsk2-u20-l06
+  title: Lúc đó, hồi ấy
+  grammar: hsk2-g021
+  new_words:
+  - 当
+  - 当时
+  - 那时
+  - 那时候
+  - 那会儿
+  sentences:
+  - id: s-hsk2-u20-021
+    zh: 当我回到家的时候，他已经睡了。
+    en: When I got home, he was already asleep.
+    pinyin: Dāng wǒ huídào jiā de shíhou, tā yǐjīng shuì le.
+  - id: s-hsk2-u20-022
+    zh: 我当时是学生。
+    en: I was a student at that time.
+    pinyin: wǒ dāng shí shì xué shēng
+    tatoeba_id: 464948
+  - id: s-hsk2-u20-023
+    zh: 那时是白天。
+    en: It was daytime.
+    pinyin: nà shí shì bái tiān
+    tatoeba_id: 10484361
+  - id: s-hsk2-u20-024
+    zh: 那会儿我还小。
+    en: I was still little back then.
+    pinyin: Nàhuìr wǒ hái xiǎo.
+  tips:
+    当: '当 có âm Hán Việt là đương. Khi là giới từ, 当 đi với 的时候 ở cuối: 当我回家的时候. Nó còn là động từ "làm
+      (nghề)": 我想当医生.'
+    那时候: '时 có âm Hán Việt là thì, bộ nhật 日 (mặt trời) gợi ý thời gian. sh trong shí là âm cong lưỡi:
+      uốn đầu lưỡi lên ngạc như khi đọc phân biệt "s" với "x" (sông ≠ xông). 候 trong 时候 đọc thanh nhẹ
+      hou.'
+    那会儿: '那会儿 là lối nói khẩu ngữ, đọc nàhuìr: thêm âm r cuộn lưỡi vào cuối huì, không đọc tách thành
+      "huì ér". Ở đây 会 không mang nghĩa "biết, sẽ" mà chỉ "một lúc".'
+- id: hsk2-u20-l07
+  title: Lúc này và cùng lúc
+  grammar: hsk2-g017
+  new_words:
+  - 这时
+  - 这时候
+  - 同时
+  sentences:
+  - id: s-hsk2-u20-025
+    zh: 我正在吃饭，这时候他打电话来了。
+    en: I was eating when he called.
+    pinyin: Wǒ zhèngzài chīfàn, zhè shíhou tā dǎ diànhuà lái le.
+  - id: s-hsk2-u20-026
+    zh: 你想去，我们就去吧。
+    en: If you want to go, let's go.
+    pinyin: Nǐ xiǎng qù, wǒmen jiù qù ba.
+  - id: s-hsk2-u20-027
+    zh: 大家别同时说。
+    en: Don't all speak at once.
+    pinyin: dà jiā bié tóng shí shuō
+    tatoeba_id: 1019940
+  - id: s-hsk2-u20-028
+    zh: 我们同时到的。
+    en: We arrived at the same time.
+    pinyin: wǒ men tóng shí dào de
+    tatoeba_id: 10596608
+  tips:
+    同时: 同 có âm Hán Việt là đồng (cùng), 时 có âm Hán Việt là thì → 同时 = "cùng lúc". tóng là thanh 2, giọng
+      đi lên giống dấu sắc, không phải dấu huyền.
+    这时: 这 có bộ sước 辶 (đi lại). 这时 dùng khi kể chuyện để đưa ra một việc xảy ra "đúng lúc đó". Tiếng
+      Việt hay nói "lúc đó", nhưng tiếng Trung kể chuyện vẫn dùng 这时.
+- id: hsk2-u20-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

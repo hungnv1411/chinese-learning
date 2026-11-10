@@ -1,0 +1,235 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u34.json.
+id: hsk3-u34
+stage: hsk3
+order: 34
+title: Thay đổi và phát triển
+description: Miêu tả sự thay đổi, tiến bộ, tăng giảm và quá trình phát triển.
+lessons:
+- id: hsk3-u34-l01
+  title: Tiếp tục, duy trì và dừng lại
+  new_words:
+  - 继续
+  - 持续
+  - 不断
+  - 停止
+  - 保持
+  - 保留
+  sentences:
+  - id: s-hsk3-u34-001
+    zh: 继续努力。
+    en: Keep trying.
+    pinyin: jì xù nǔ lì
+    tatoeba_id: 5092521
+  - id: s-hsk3-u34-002
+    zh: 保持安静！
+    en: Keep quiet.
+    pinyin: bǎo chí ān jìng
+    tatoeba_id: 5102187
+  - id: s-hsk3-u34-003
+    zh: 停止工作。
+    en: Stop working.
+    pinyin: tíng zhǐ gōng zuò
+    tatoeba_id: 13150948
+  - id: s-hsk3-u34-004
+    zh: 会议持续多久？
+    en: How long will the meeting last?
+    pinyin: huì yì chí xù duō jiǔ
+    tatoeba_id: 6064678
+  tips:
+    继续: '继 có âm Hán Việt là kế, 续 có âm Hán Việt là tục → nghĩa là "kế tục", tức là tiếp tục. Cả hai
+      chữ đều có bộ mịch 纟 (sợi tơ): việc làm được nối tiếp như sợi chỉ không đứt.'
+    不断: 'Biến điệu của 不: 断 mang thanh 4 nên 不 đọc thành thanh 2 → búduàn. 不断 đứng trước động từ: 不断进步
+      (tiến bộ không ngừng).'
+    停止: '停 có âm Hán Việt là đình, 止 có âm Hán Việt là chỉ. Mẹo nhớ: 停 = 亻(người) + 亭 (cái đình) → người
+      dừng chân nghỉ ở đình. Chú ý zh trong zhǐ phải uốn lưỡi.'
+    保持: 保持 là giữ một trạng thái không đổi (保持安静, 保持干净), còn 保留 là giữ lại, không bỏ đi (保留照片). Đừng nói
+      ~~保留安静~~.
+- id: hsk3-u34-l02
+  title: Biến đổi và thích nghi
+  new_words:
+  - 变化
+  - 变为
+  - 转变
+  - 化
+  - 现代化
+  - 适应
+  sentences:
+  - id: s-hsk3-u34-005
+    zh: 时代在变化。
+    en: Times are changing.
+    pinyin: shí dài zài biàn huà
+    tatoeba_id: 1406037
+  - id: s-hsk3-u34-006
+    zh: 等到灯变为绿色。
+    en: Wait until the light changes to green.
+    pinyin: děng dào dēng biàn wéi lǜ sè
+    tatoeba_id: 798046
+  - id: s-hsk3-u34-007
+    zh: 他转变了话题。
+    en: He changed the topic of conversation.
+    pinyin: tā zhuǎn biàn le huà tí
+    tatoeba_id: 429196
+  - id: s-hsk3-u34-008
+    zh: 他适应了新的生活方式。
+    en: He got accustomed to the new way of living.
+    pinyin: tā shì yìng le xīn de shēng huó fāng shì
+    tatoeba_id: 611536
+  tips:
+    变化: '变化 là nội động từ, không mang tân ngữ phía sau. Người Việt hay nói sai ~~变化计划~~ → phải nói 改变计划.
+      Nói được: 天气变化很大, 有很多变化.'
+    现代化: 现 có âm Hán Việt là hiện, 代 có âm Hán Việt là đại, 化 có âm Hán Việt là hoá → "hiện đại hoá".
+      Hậu tố 化 giống "-hoá" trong tiếng Việt, ghép sau danh từ/tính từ để chỉ quá trình biến thành.
+    适应: 'shìyìng: sh uốn lưỡi, không đọc như "s" tiếng Việt. 适应 mang tân ngữ trực tiếp: 适应新生活, 适应这里的天气
+      – không cần thêm giới từ.'
+    转变: 'zhuǎnbiàn: thanh 3 + thanh 4. Thanh 3 đứng trước thanh khác chỉ đọc nửa thấp (xuống rồi dừng),
+      không cần lên cao như dấu hỏi tiếng Việt.'
+- id: hsk3-u34-l03
+  title: Tiến bộ từng bước
+  grammar: hsk3-g033
+  new_words:
+  - 进步
+  - 步
+  - 初步
+  - 进一步
+  - 进展
+  - 前进
+  sentences:
+  - id: s-hsk3-u34-009
+    zh: 你进步了。
+    en: You've made progress.
+    pinyin: nǐ jìn bù le
+    tatoeba_id: 5819684
+  - id: s-hsk3-u34-010
+    zh: 她中文有进步。
+    en: She is progressing in Chinese.
+    pinyin: tā zhōng wén yǒu jìn bù
+    tatoeba_id: 426862
+  - id: s-hsk3-u34-011
+    zh: 一切进展顺利。
+    en: Everything went smoothly.
+    pinyin: yí qiè jìn zhǎn shùn lì
+    tatoeba_id: 10752767
+  - id: s-hsk3-u34-012
+    zh: 我们一步一步地前进。
+    en: We move forward step by step.
+    pinyin: wǒmen yí bù yí bù de qiánjìn
+  tips:
+    进一步: 'Biến điệu của 一: 步 mang thanh 4 nên 一 đọc thành thanh 2 → jìn yí bù. Tương tự 一步一步 đọc là yí
+      bù yí bù.'
+    步: 步 có bộ chỉ 止 ở trên, vốn là hình bàn chân → bước đi. 步 có âm Hán Việt là bộ (như "đi bộ", "tiến
+      bộ").
+    进步: 'Lỗi hay gặp: ~~我很进步~~. Nên nói 我有进步 hoặc 我进步很大 / 我很有进步. 进步 dùng cho người, trình độ; còn công
+      việc, kế hoạch tiến triển thì dùng 进展.'
+    前进: 'qiánjìn: q là âm bật hơi mạnh (đặt lưỡi như j rồi bật hơi ra), j không bật hơi. Chú ý vần: qián
+      (-ian) khác jìn (-in).'
+- id: hsk3-u34-l04
+  title: Tăng lên và đẩy mạnh
+  grammar: hsk3-g042
+  new_words:
+  - 增加
+  - 增长
+  - 上升
+  - 升
+  - 加快
+  - 加强
+  sentences:
+  - id: s-hsk3-u34-013
+    zh: 人口正在增长。
+    en: The population is growing.
+    pinyin: rén kǒu zhèng zài zēng zhǎng
+    tatoeba_id: 984843
+  - id: s-hsk3-u34-014
+    zh: 出国的人数一直在增加。
+    en: The number of people who go abroad has been increasing.
+    pinyin: chū guó de rén shù yì zhí zài zēng jiā
+    tatoeba_id: 1394883
+  - id: s-hsk3-u34-015
+    zh: 气温不断上升。
+    en: The temperature keeps rising.
+    pinyin: qìwēn búduàn shàngshēng
+  - id: s-hsk3-u34-016
+    zh: 他越跑越快。
+    en: The more he runs, the faster he gets.
+    pinyin: tā yuè pǎo yuè kuài
+  tips:
+    增长: Trong 增长, 长 đọc zhǎng (lớn lên), không đọc cháng (dài). Phân biệt z (không uốn lưỡi) trong zēng
+      và zh (uốn lưỡi) trong zhǎng.
+    增加: 增 có âm Hán Việt là tăng, 加 có âm Hán Việt là gia → "gia tăng". 增加 thường có tân ngữ (增加收入), còn
+      增长 thường dùng cho số lượng tự lớn lên (人口增长).
+    升: '升 shēng ngoài nghĩa "lên cao" còn là "lít": 一升水. 升 có âm Hán Việt là thăng (như "thăng chức").'
+    加快: '加快 + danh từ chỉ tốc độ, nhịp độ: 加快速度. 加强 + danh từ trừu tượng: 加强管理, 加强练习. Không nói ~~加快管理~~.'
+- id: hsk3-u34-l05
+  title: Cải tiến, điều chỉnh và trưởng thành
+  new_words:
+  - 改进
+  - 改造
+  - 完善
+  - 调整
+  - 落后
+  - 成长
+  sentences:
+  - id: s-hsk3-u34-017
+    zh: 我们要改进学习方法。
+    en: We need to improve our study methods.
+    pinyin: wǒmen yào gǎijìn xuéxí fāngfǎ
+  - id: s-hsk3-u34-018
+    zh: 请你调整一下时间。
+    en: Please adjust the time a bit.
+    pinyin: qǐng nǐ tiáozhěng yíxià shíjiān
+  - id: s-hsk3-u34-019
+    zh: 孩子成长得很快。
+    en: Children grow up fast.
+    pinyin: háizi chéngzhǎng de hěn kuài
+  - id: s-hsk3-u34-020
+    zh: 我们不能落后。
+    en: We can't fall behind.
+    pinyin: wǒmen bù néng luòhòu
+  tips:
+    调整: '调 có hai cách đọc: tiáo (điều chỉnh, như 调整) và diào (điều động, như 调工作). Trong từ này phải
+      đọc tiáozhěng.'
+    改进: '进 có âm Hán Việt là tiến. 改进 là sửa cho tốt hơn, tiến lên (改进方法, 改进工作). 改造 là sửa lại cả cấu
+      trúc, biến đổi hẳn: 改造房子. Chữ 改 có bộ phộc 攵 (tác động vào) → làm cho khác đi.'
+    落后: 落 có bộ thảo 艹 ở trên (lá cỏ rơi xuống) → rơi lại phía sau. Trong 落后, 落 đọc luò. 落后 vừa là động
+      từ (落后了) vừa là tính từ (很落后).
+    完善: 完善 vừa là tính từ (制度很完善 – hoàn chỉnh) vừa là động từ (完善计划 – làm cho hoàn chỉnh hơn). 完 có âm
+      Hán Việt là hoàn, 善 có âm Hán Việt là thiện.
+- id: hsk3-u34-l06
+  title: Phát triển và thúc đẩy
+  new_words:
+  - 发展
+  - 推动
+  - 推广
+  - 推进
+  - 带动
+  - 使
+  sentences:
+  - id: s-hsk3-u34-021
+    zh: 新闻使她不安。
+    en: The news distressed her.
+    pinyin: xīn wén shǐ tā bù ān
+    tatoeba_id: 1783849
+  - id: s-hsk3-u34-022
+    zh: 她的故事使我很感动。
+    en: I was very moved by her story.
+    pinyin: tā de gù shì shǐ wǒ hěn gǎn dòng
+    tatoeba_id: 6452002
+  - id: s-hsk3-u34-023
+    zh: 中国经济发展得很快。
+    en: China's economy is developing very fast.
+    pinyin: Zhōngguó jīngjì fāzhǎn de hěn kuài
+  - id: s-hsk3-u34-024
+    zh: 我们要推广普通话。
+    en: We should promote Mandarin.
+    pinyin: wǒmen yào tuīguǎng pǔtōnghuà
+  tips:
+    使: 'Cấu trúc: A + 使 + người + tính từ/động từ (làm cho ai thế nào). Giống 让 nhưng trang trọng hơn,
+      hay dùng trong văn viết. Sai: ~~使我感动了很~~ → đúng: 使我很感动.'
+    推动: '推 có bộ thủ 扌(tay) → dùng tay đẩy. Các từ 推动, 推广, 推进 đều mang ý "đẩy": 推动 (thúc đẩy), 推广 (đẩy
+      rộng ra, phổ biến), 推进 (đẩy tới trước).'
+    发展: 'fāzhǎn: zh uốn lưỡi, thanh 3 đọc thấp. 发 có âm Hán Việt là phát, 展 có âm Hán Việt là triển →
+      "phát triển", rất dễ nhớ với người Việt.'
+    带动: '带动 là "kéo theo", cái này phát triển làm cái khác phát triển theo: 旅游带动了经济. Chữ 动 có bộ lực 力
+      → dùng sức làm chuyển động.'
+- id: hsk3-u34-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

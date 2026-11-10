@@ -1,0 +1,194 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u03.json.
+id: hsk3-u03
+stage: hsk3
+order: 3
+title: Mua sắm và quần áo
+description: Mua quần áo, nói về kích cỡ, màu sắc, giá cả và cách trả tiền.
+lessons:
+- id: hsk3-u03-l01
+  title: Các loại quần áo
+  new_words:
+  - 衬衫
+  - 衬衣
+  - 上衣
+  - 裤子
+  - 短裤
+  - 裙子
+  - 服装
+  sentences:
+  - id: s-hsk3-u03-001
+    zh: 这是谁的衬衫？
+    en: Whose shirt is this?
+    pinyin: zhè shì shéi de chèn shān
+    tatoeba_id: 1261424
+  - id: s-hsk3-u03-002
+    zh: 那是我的裤子。
+    en: Those are my pants.
+    pinyin: nà shì wǒ de kù zi
+    tatoeba_id: 1202583
+  - id: s-hsk3-u03-003
+    zh: 你的裙子很可爱。
+    en: Your skirt is very cute.
+    pinyin: nǐ de qún zi hěn kě ài
+    tatoeba_id: 8856199
+  - id: s-hsk3-u03-004
+    zh: 夏天我常常穿短裤。
+    en: In summer I often wear shorts.
+    pinyin: xiàtiān wǒ chángcháng chuān duǎnkù
+  tips:
+    衬衫: 'Các chữ có bộ 衤 (bộ y) bên trái thường liên quan tới quần áo: 衬, 衫, 裤, 裙. Đừng nhầm với 礻 (ít
+      hơn một nét chấm). Phát âm chèn: ch uốn lưỡi, bật hơi mạnh, khác hẳn "ch" tiếng Việt.'
+    裙子: 'Bẫy cho người Việt: 裙 có âm Hán Việt là quần, nhưng 裙子 lại là cái VÁY! Quần dài là 裤子 (裤 có âm
+      Hán Việt là khố). Phát âm qún: u sau q thực ra là ü, môi tròn như đọc "uy" mà không đổi khẩu hình.'
+    裤子: 'Lượng từ: quần, váy dùng 条 (一条裤子, 一条裙子); áo dùng 件 (一件衬衫, 一件上衣). Đừng nói ~~一个裤子~~.'
+    短裤: 短 (ngắn) + 裤 (quần) = quần đùi, quần short. 短 có âm Hán Việt là đoản. duǎn là thanh 3, đọc trầm
+      xuống giống dấu hỏi.
+- id: hsk3-u03-l02
+  title: Chất liệu, phụ kiện và thương hiệu
+  grammar: hsk3-g009
+  new_words:
+  - 布
+  - 皮
+  - 皮包
+  - 线
+  - 衣架
+  - 双
+  - 牌子
+  sentences:
+  - id: s-hsk3-u03-005
+    zh: 衣架在哪？
+    en: Where are the hangers?
+    pinyin: yī jià zài nǎ
+    tatoeba_id: 14061589
+  - id: s-hsk3-u03-006
+    zh: 我想买一双鞋。
+    en: I want to buy a pair of shoes.
+    pinyin: wǒ xiǎng mǎi yì shuāng xié
+  - id: s-hsk3-u03-007
+    zh: 这个皮包是什么牌子的？
+    en: What brand is this handbag?
+    pinyin: zhège píbāo shì shénme páizi de
+  tips:
+    双: '双 có âm Hán Việt là song: hai chữ 又 (bàn tay) đứng cạnh nhau, tức một đôi. Dùng làm lượng từ:
+      一双鞋, 一双筷子. Chú ý biến điệu: 一 đứng trước thanh 1 đọc thành thanh 4: yì shuāng.'
+    皮包: '皮 có âm Hán Việt là bì (da), 包 có âm Hán Việt là bao (túi). 皮包 là túi da, cặp da. p trong pí,
+      b trong bāo: p bật hơi mạnh, b không bật hơi và không rung như "b" tiếng Việt.'
+    牌子: 'Hỏi thương hiệu: 这是什么牌子的？ (Cái này hiệu gì?). 牌 có âm Hán Việt là bài; bộ 片 bên trái gợi tấm
+      bảng, biển hiệu.'
+- id: hsk3-u03-l03
+  title: Vừa người, đẹp hay chật?
+  grammar: hsk3-g063
+  new_words:
+  - 彩色
+  - 旧
+  - 紧
+  - 胖
+  - 美
+  - 适合
+  - 配
+  sentences:
+  - id: s-hsk3-u03-008
+    zh: 他的房子又小又旧。
+    en: His house was small and old.
+    pinyin: tā de fáng zi yòu xiǎo yòu jiù
+    tatoeba_id: 334638
+  - id: s-hsk3-u03-009
+    zh: 这条裙子很适合你。
+    en: The dress suits you very well.
+    pinyin: zhè tiáo qún zi hěn shì hé nǐ
+    tatoeba_id: 335854
+  - id: s-hsk3-u03-010
+    zh: 我最近胖了。
+    en: I've put on weight recently.
+    pinyin: wǒ zuì jìn pàng le
+    tatoeba_id: 669066
+  - id: s-hsk3-u03-011
+    zh: 这条裤子太紧了。
+    en: These trousers are too tight.
+    pinyin: zhè tiáo kùzi tài jǐn le
+  tips:
+    适合: '适合 là động từ, đi kèm tân ngữ: 这件衣服适合你. 合适 là tính từ, không có tân ngữ: 这件衣服很合适. Lỗi hay gặp:
+      ~~很合适你~~ → 很适合你.'
+    胖: '胖 có bộ ⺼ (thịt) + 半 → nhiều thịt là mập. Lỗi hay gặp: ~~我是胖~~ → 我很胖 / 我有点儿胖. Tính từ làm vị ngữ
+      không cần 是.'
+    旧: '旧 là cũ, trái nghĩa với 新, dùng cho đồ vật: 旧衣服, 旧书. Người già thì dùng 老 chứ không dùng 旧.'
+    紧: '紧 jǐn là thanh 3, đọc trầm như dấu hỏi tiếng Việt. Đi mua quần áo hay nói: 太紧了 (chật quá), trái
+      nghĩa là 太大了.'
+- id: hsk3-u03-l04
+  title: Giá cả và trả tiền
+  new_words:
+  - 价格
+  - 价钱
+  - 美元
+  - 人民币
+  - 现金
+  - 付
+  - 支付
+  sentences:
+  - id: s-hsk3-u03-012
+    zh: 价钱都一样吗？
+    en: Are all the prices the same?
+    pinyin: jiàqián dōu yíyàng ma
+  - id: s-hsk3-u03-013
+    zh: 我想用信用卡支付。
+    en: I'd like to pay by credit card.
+    pinyin: wǒ xiǎng yòng xìn yòng kǎ zhī fù
+    tatoeba_id: 894390
+  - id: s-hsk3-u03-014
+    zh: 我现在没有多少现金。
+    en: I don't have much money on me now.
+    pinyin: wǒ xiàn zài méi yǒu duō shǎo xiàn jīn
+    tatoeba_id: 6402741
+  - id: s-hsk3-u03-015
+    zh: 我们已经付了钱了。
+    en: We've already paid.
+    pinyin: wǒ men yǐ jīng fù le qián le
+    tatoeba_id: 10464509
+  tips:
+    价钱: 价 có âm Hán Việt là giá, 钱 có âm Hán Việt là tiền. 价钱 hay dùng khi nói chuyện hằng ngày; 价格 trang
+      trọng hơn, hay gặp trên văn bản, bảng giá.
+    现金: '现 có âm Hán Việt là hiện, 金 có âm Hán Việt là kim: tiền mặt. xiànjīn: j đọc gần như "ch" không
+      bật hơi, mặt lưỡi chạm vòm miệng, không đọc thành "gi".'
+    人民币: 'r trong rén không giống r rung của tiếng Việt: uốn đầu lưỡi lên giống sh nhưng có rung dây thanh.
+      Khi nói chuyện, người Trung Quốc thường đếm tiền bằng 块 thay cho 元.'
+    付: '付 hay đi với 钱: 付钱 (trả tiền); 支付 trang trọng hơn. Chữ 付 = 亻 (người) + 寸 (tay) → đưa tay trao
+      cho người khác. 付 có âm Hán Việt là phó.'
+- id: hsk3-u03-l05
+  title: Có đáng tiền không?
+  grammar: hsk3-g068
+  new_words:
+  - 值
+  - 值得
+  - 节约
+  - 浪费
+  - 理发
+  sentences:
+  - id: s-hsk3-u03-016
+    zh: 这件衣服好看是好看，就是太贵了。
+    en: This piece of clothing is nice, all right, but it's just too expensive.
+    pinyin: zhè jiàn yīfu hǎokàn shì hǎokàn, jiùshì tài guì le
+  - id: s-hsk3-u03-017
+    zh: 这真的值得吗？
+    en: Is it really worth it?
+    pinyin: zhè zhēn de zhídé ma
+  - id: s-hsk3-u03-018
+    zh: 你在浪费水。
+    en: You're wasting water.
+    pinyin: nǐ zài làng fèi shuǐ
+    tatoeba_id: 10371729
+  - id: s-hsk3-u03-019
+    zh: 你该理发了。
+    en: You should get your hair cut.
+    pinyin: nǐ gāi lǐ fà le
+    tatoeba_id: 1839177
+  tips:
+    值得: '值得 + động từ = đáng để làm gì: 值得买 (đáng mua), 值得看. Phủ định: 不值得. zhí: zh uốn lưỡi, không bật
+      hơi; đừng đọc thành "chi" tiếng Việt.'
+    浪费: '浪费 (lãng phí) trái nghĩa với 节约 (tiết kiệm): 浪费钱, 浪费时间 ↔ 节约钱, 节约时间. 费 có âm Hán Việt là phí,
+      phần dưới là 贝 (vỏ sò, ngày xưa dùng làm tiền) → liên quan tới tiền bạc.'
+    理发: 理 có âm Hán Việt là lí, 发 có âm Hán Việt là phát; ở đây 发 đọc fà (tóc), khác với fā (phát ra).
+      理发 đã có nghĩa là cắt tóc, không nói ~~理发头发~~. Thanh 3 của lǐ đứng trước thanh 4 nên chỉ đọc nửa
+      thanh 3 (trầm xuống, không lên lại).
+- id: hsk3-u03-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

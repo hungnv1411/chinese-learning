@@ -1,0 +1,232 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u16.json.
+id: hsk3-u16
+stage: hsk3
+order: 16
+title: Công việc
+description: Nói về nghề nghiệp, công ty, chức vụ, lương và trách nhiệm.
+lessons:
+- id: hsk3-u16-l01
+  title: Nghề nghiệp
+  new_words:
+  - 职业
+  - 工程师
+  - 公务员
+  - 服务员
+  - 员
+  - 人员
+  sentences:
+  - id: s-hsk3-u16-001
+    zh: 您的职业是什么？
+    en: What's your occupation?
+    pinyin: nín de zhí yè shì shén me
+    tatoeba_id: 832460
+  - id: s-hsk3-u16-002
+    zh: 相信我，我是工程师!
+    en: Trust me, I'm an engineer!
+    pinyin: xiāng xìn wǒ wǒ shì gōng chéng shī
+    tatoeba_id: 3925270
+  - id: s-hsk3-u16-003
+    zh: 我是服务员。
+    en: I'm a waiter.
+    pinyin: wǒ shì fú wù yuán
+    tatoeba_id: 10895465
+  - id: s-hsk3-u16-004
+    zh: 我姐姐是公务员。
+    en: My older sister is a civil servant.
+    pinyin: Wǒ jiějie shì gōngwùyuán.
+  tips:
+    职业: '职 có âm Hán Việt là chức, 业 có âm Hán Việt là nghiệp. 职 có bộ nhĩ 耳 bên trái. zh trong zhí là
+      âm uốn lưỡi: cong đầu lưỡi lên vòm miệng, không đọc thành "gi" hay "d" của tiếng Việt.'
+    员: '员 có âm Hán Việt là viên. Chữ gồm 口 ở trên và 贝 ở dưới. 员 là hậu tố chỉ người làm một việc nhất
+      định: 服务员 (người phục vụ), 公务员 (công chức), 人员 (nhân viên, nhân sự). Thường không đứng một mình.'
+    工程师: 程 có âm Hán Việt là trình, 师 có âm Hán Việt là sư. chéng và shī đều là âm uốn lưỡi; ch phải bật
+      hơi mạnh. Hỏi nghề nghiệp thường dùng 你做什么工作？ trong hội thoại, còn 你的职业是什么？ thì trang trọng hơn.
+- id: hsk3-u16-l02
+  title: Công ty và chức vụ
+  new_words:
+  - 老板
+  - 员工
+  - 职工
+  - 部
+  - 部门
+  - 部长
+  - 所长
+  - 主任
+  sentences:
+  - id: s-hsk3-u16-005
+    zh: 老板在哪里？
+    en: Where's the boss?
+    pinyin: lǎo bǎn zài nǎ lǐ
+    tatoeba_id: 824661
+  - id: s-hsk3-u16-006
+    zh: 员工在办公室工作。
+    en: The employees work at the office.
+    pinyin: yuán gōng zài bàn gōng shì gōng zuò
+    tatoeba_id: 3695349
+  - id: s-hsk3-u16-007
+    zh: 他是我们部门的部长。
+    en: He is the head of our department.
+    pinyin: Tā shì wǒmen bùmén de bùzhǎng.
+  - id: s-hsk3-u16-008
+    zh: 王主任正在开会。
+    en: Director Wang is in a meeting.
+    pinyin: Wáng zhǔrèn zhèngzài kāihuì.
+  tips:
+    老板: 'Biến điệu 3+3: hai thanh 3 liền nhau thì thanh đầu đọc thành thanh 2, nên lǎobǎn đọc là láobǎn.
+      Thanh 3 đứng cuối gần dấu hỏi tiếng Việt, nhưng hạ thấp sâu hơn.'
+    部长: '长 có âm Hán Việt là trường. Trong 部长, 所长, 长 đọc là zhǎng (người đứng đầu), không đọc là cháng
+      (dài). 部 có âm Hán Việt là bộ, có bộ ấp 阝 bên phải. 部 còn là lượng từ cho phim và máy: 一部电影.'
+    主任: '主 có âm Hán Việt là chúa, 任 có âm Hán Việt là nhậm. Gọi chức vụ thì để họ trước: 王主任, 李部长 (tiếng
+      Việt nói "trưởng phòng Vương"). Âm r trong rèn không rung lưỡi như r tiếng Việt, mà là âm uốn lưỡi
+      gần giống "j" trong tiếng Pháp.'
+    职工: 员工 và 职工 đều chỉ người làm công. 员工 hay dùng ở công ty, còn 职工 hay dùng ở cơ quan, nhà máy. 职
+      có âm Hán Việt là chức, 工 có âm Hán Việt là công.
+- id: hsk3-u16-l03
+  title: Lương, việc làm và nghỉ hưu
+  grammar: hsk3-g052
+  new_words:
+  - 工资
+  - 就业
+  - 创业
+  - 从事
+  - 退休
+  - 调
+  sentences:
+  - id: s-hsk3-u16-009
+    zh: 我的工资比他少多了。
+    en: My salary is much lower than his.
+    pinyin: Wǒ de gōngzī bǐ tā shǎo duō le.
+  - id: s-hsk3-u16-010
+    zh: 我去年退休了。
+    en: I retired last year.
+    pinyin: wǒ qù nián tuì xiū le
+    tatoeba_id: 819411
+  - id: s-hsk3-u16-011
+    zh: 我爷爷退休十年了。
+    en: My grandfather has been retired for ten years.
+    pinyin: Wǒ yéye tuìxiū shí nián le.
+  - id: s-hsk3-u16-012
+    zh: 他从事教育工作。
+    en: He works in education.
+    pinyin: Tā cóngshì jiàoyù gōngzuò.
+  tips:
+    工资: 'zī: z là âm đầu lưỡi phẳng, không bật hơi, nghe gần "ts". Vần -i sau z/c/s đọc gần như "ư", không
+      đọc thành "i". Lưu ý: cả 工 và 资 đều là thanh 1, giữ giọng cao và bằng.'
+    退休: '退 có âm Hán Việt là thoái, 休 có âm Hán Việt là hưu. Mẹo nhớ chữ 休: người (亻) tựa vào cây (木)
+      để nghỉ. Muốn nói đã nghỉ hưu bao lâu thì đặt thời gian sau động từ: 他退休三年了。'
+    调: '调 có âm Hán Việt là điều. Chữ này có hai cách đọc: diào là điều chuyển công tác (他调到北京工作了), còn
+      tiáo là điều chỉnh. Trong chủ đề này đọc là diào.'
+    创业: 创 có âm Hán Việt là sáng, 业 có âm Hán Việt là nghiệp. chuàng là thanh 4, đọc dứt khoát từ cao
+      xuống thấp. 就业 là tìm được việc làm, còn 创业 là tự mở doanh nghiệp. Đừng nhầm hai từ này.
+- id: hsk3-u16-l04
+  title: Trách nhiệm và quản lý
+  new_words:
+  - 负责
+  - 责任
+  - 任务
+  - 任
+  - 管
+  - 管理
+  sentences:
+  - id: s-hsk3-u16-013
+    zh: 你要对结果负责。
+    en: You are responsible for the result.
+    pinyin: nǐ yào duì jié guǒ fù zé
+    tatoeba_id: 2004698
+  - id: s-hsk3-u16-014
+    zh: 我的责任是什么？
+    en: What are my responsibilities?
+    pinyin: wǒ de zé rèn shì shén me
+    tatoeba_id: 469444
+  - id: s-hsk3-u16-015
+    zh: 任务完成。
+    en: Mission accomplished.
+    pinyin: Rènwu wánchéng.
+  - id: s-hsk3-u16-016
+    zh: 她管理一个大公司。
+    en: She manages a big company.
+    pinyin: Tā guǎnlǐ yí ge dà gōngsī.
+  tips:
+    负责: 负 có âm Hán Việt là phụ, 责 có âm Hán Việt là trách. 负责 là động từ (phụ trách), còn 责任 là danh
+      từ (trách nhiệm). Câu ~~我责任这个工作~~ là sai, phải nói 我负责这个工作. Nói "chịu trách nhiệm với..." thì dùng
+      对……负责.
+    任务: '任 có âm Hán Việt là nhậm, 务 có âm Hán Việt là vụ. Trong 任务, chữ 务 đọc thanh nhẹ: rènwu. 任 có
+      bộ nhân 亻 bên trái.'
+    管: '管 có âm Hán Việt là quản. Chữ gồm bộ trúc ⺮ ở trên và 官 ở dưới. 管 trong khẩu ngữ còn có nghĩa
+      "để ý, can thiệp": 不要管我 nghĩa là đừng bận tâm đến tôi. 管理 trang trọng hơn, dùng cho công ty, nhân
+      sự.'
+- id: hsk3-u16-l05
+  title: Lãnh đạo và phân công
+  grammar: hsk3-g057
+  new_words:
+  - 领导
+  - 领
+  - 带领
+  - 派
+  - 安排
+  - 分配
+  sentences:
+  - id: s-hsk3-u16-017
+    zh: 经理派我去北京开会。
+    en: The manager sent me to Beijing for a meeting.
+    pinyin: Jīnglǐ pài wǒ qù Běijīng kāihuì.
+  - id: s-hsk3-u16-018
+    zh: 已经安排好了。
+    en: Arrangements have already been made.
+    pinyin: yǐ jīng ān pái hǎo le
+    tatoeba_id: 5624858
+  - id: s-hsk3-u16-019
+    zh: 领导在开会。
+    en: The boss is in a meeting.
+    pinyin: Lǐngdǎo zài kāihuì.
+  - id: s-hsk3-u16-020
+    zh: 老师带领我们参观了学校。
+    en: The teacher led us on a tour of the school.
+    pinyin: Lǎoshī dàilǐng wǒmen cānguān le xuéxiào.
+  tips:
+    领导: '领 có âm Hán Việt là lãnh, 导 có âm Hán Việt là đạo. lǐngdǎo là hai thanh 3 liền nhau, nên đọc
+      thành língdǎo. 领导 vừa là động từ (lãnh đạo) vừa là danh từ chỉ cấp trên, sếp: 领导在开会 (sếp đang họp).'
+    派: '派 có âm Hán Việt là phái, có bộ thủy 氵 bên trái. Cấu trúc thường gặp: 派 + người + 去 + làm gì:
+      公司派他去北京. Lưu ý: 派 còn là từ phiên âm của "pie" (bánh), ví dụ 香蕉派.'
+    安排: '安 có âm Hán Việt là an: mái nhà 宀 che cho người phụ nữ 女 nên yên ổn. 排 có âm Hán Việt là bài,
+      có bộ thủ 扌 vì là động tác dùng tay sắp xếp. Ví dụ: 安排好了 nghĩa là đã sắp xếp xong.'
+    分配: '分 có âm Hán Việt là phân, 配 có âm Hán Việt là phối. 分配 là chia việc, phân công: 分配任务, 分配工作. pèi
+      là thanh 4 và p phải bật hơi mạnh.'
+- id: hsk3-u16-l06
+  title: Hợp tác, họp và báo cáo
+  grammar: hsk3-g020
+  new_words:
+  - 合作
+  - 配合
+  - 会议
+  - 报告
+  sentences:
+  - id: s-hsk3-u16-021
+    zh: 我想和贵公司合作。
+    en: I want to work with your company.
+    pinyin: wǒ xiǎng hé guì gōng sī hé zuò
+    tatoeba_id: 460483
+  - id: s-hsk3-u16-022
+    zh: 你要参加会议吗？
+    en: Are you going to attend the meeting?
+    pinyin: nǐ yào cān jiā huì yì ma
+    tatoeba_id: 874470
+  - id: s-hsk3-u16-023
+    zh: 我今天必须交报告。
+    en: I must hand in the report today.
+    pinyin: wǒ jīn tiān bì xū jiāo bào gào
+    tatoeba_id: 887787
+  - id: s-hsk3-u16-024
+    zh: 会议从上午九点开始。
+    en: The meeting starts at 9 a.m.
+    pinyin: Huìyì cóng shàngwǔ jiǔ diǎn kāishǐ.
+  tips:
+    合作: '合 có âm Hán Việt là hợp, 作 có âm Hán Việt là tác. Cấu trúc: 和/跟 + ai + 合作. 合作 là hai bên cùng
+      làm ngang hàng, còn 配合 là phối hợp, hỗ trợ cho bên chính: 请大家配合.'
+    会议: 会 có âm Hán Việt là hội, 议 có âm Hán Việt là nghị. 会议 là danh từ, đi với 参加, 开始, 结束. Muốn nói
+      "đi họp" thì dùng 开会 (đã học). Đừng nói ~~我去会议~~ mà nói 我去开会 hoặc 我去参加会议.
+    报告: '报 có âm Hán Việt là báo, có bộ thủ 扌 bên trái. Cả hai chữ đều là thanh 4: bàogào. Hãy đọc dứt
+      khoát, đừng kéo dài như dấu huyền. Động từ hay đi kèm: 写报告 (viết báo cáo), 交报告 (nộp báo cáo).'
+- id: hsk3-u16-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

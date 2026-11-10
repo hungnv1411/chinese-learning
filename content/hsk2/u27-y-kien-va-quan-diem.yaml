@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u27.json.
+id: hsk2-u27
+stage: hsk2
+order: 27
+title: Ý kiến và quan điểm
+description: Người học có thể nêu suy nghĩ, đưa ví dụ, bày tỏ đồng ý hay không và nói về lợi ích, tác
+  hại của một việc.
+lessons:
+- id: hsk2-u27-l01
+  title: Nghĩ, tin và nhớ ra
+  new_words:
+  - 认为
+  - 以为
+  - 相信
+  - 想到
+  - 想起
+  - 懂得
+  sentences:
+  - id: s-hsk2-u27-001
+    zh: 我认为你错了。
+    en: I think you're wrong.
+    pinyin: wǒ rèn wéi nǐ cuò le
+    tatoeba_id: 349287
+  - id: s-hsk2-u27-002
+    zh: 我以为你知道。
+    en: I thought you knew.
+    pinyin: wǒ yǐ wéi nǐ zhī dào
+    tatoeba_id: 3213056
+  - id: s-hsk2-u27-003
+    zh: 我相信你。
+    en: I believe you.
+    pinyin: wǒ xiāng xìn nǐ
+    tatoeba_id: 335418
+  - id: s-hsk2-u27-004
+    zh: 我想起他的名字了。
+    en: I remembered his name.
+    pinyin: wǒ xiǎngqǐ tā de míngzi le
+  tips:
+    以为: '认为 là "cho rằng", dùng để nêu quan điểm một cách nghiêm túc. 以为 thường dùng khi mình đã nghĩ
+      sai: 我以为你知道 (tôi cứ tưởng bạn biết, hóa ra bạn không biết). Chữ 为 trong hai từ này đọc wéi (thanh
+      2), không đọc wèi.'
+    相信: '信 gồm bộ nhân 亻 và chữ 言 (lời nói): người giữ đúng lời mình nói thì đáng tin. 信 có âm Hán Việt
+      là tín. Âm x trong xiāngxìn đọc như "x" tiếng Việt nhưng mặt lưỡi nâng cao hơn, môi hơi kéo sang
+      hai bên.'
+    想起: '想起 là nhớ lại một điều đã biết từ trước (tên người, chuyện cũ). 想到 là nghĩ tới hoặc nghĩ ra điều
+      gì đó. Khi đọc 我想起 (3+3+3), các thanh 3 đứng trước thường được đọc gần như thanh 2: wó xiáng qǐ.'
+    懂得: '懂 có bộ tâm 忄 (trái tim) đứng bên trái: phải hiểu bằng cả tấm lòng. Chữ 得 trong 懂得 đọc nhẹ là
+      de. 懂得 thường dùng để nói về việc hiểu một đạo lý hay một điều sâu sắc, chứ không chỉ là nghe hiểu
+      câu nói.'
+- id: hsk2-u27-l02
+  title: Ý kiến, cách nhìn và quan điểm
+  new_words:
+  - 看法
+  - 想法
+  - 意见
+  - 观点
+  - 角度
+  - 方面
+  - 表示
+  sentences:
+  - id: s-hsk2-u27-005
+    zh: 请给我你的意见。
+    en: Give me your opinion, please.
+    pinyin: qǐng gěi wǒ nǐ de yì jiàn
+    tatoeba_id: 833099
+  - id: s-hsk2-u27-006
+    zh: 这想法不错。
+    en: That's a pretty good idea.
+    pinyin: zhè xiǎng fǎ bù cuò
+    tatoeba_id: 338993
+  - id: s-hsk2-u27-007
+    zh: 从这个角度看，你说得对。
+    en: From this point of view, you're right.
+    pinyin: cóng zhège jiǎodù kàn, nǐ shuō de duì
+  - id: s-hsk2-u27-008
+    zh: 老师表示很满意。
+    en: The teacher said she was very satisfied.
+    pinyin: lǎoshī biǎoshì hěn mǎnyì
+  tips:
+    意见: '意 có âm Hán Việt là ý, 见 có âm Hán Việt là kiến, nên rất dễ nhớ. Nhưng cần chú ý: 我对他有意见 thường
+      có nghĩa là "tôi không hài lòng về anh ta", chứ không chỉ đơn giản là "tôi có ý kiến".'
+    观点: 观 có âm Hán Việt là quan, 点 có âm Hán Việt là điểm. Chữ 点 có bốn chấm 灬 (lửa) ở dưới. Thanh điệu
+      là guān (đọc ngang, cao) rồi diǎn (thanh 3, xuống thấp rồi lên). 观点 mang sắc thái trang trọng hơn
+      看法 và 想法.
+    方面: '方 có âm Hán Việt là phương. 方面 nghĩa là "mặt, khía cạnh" của một vấn đề. Cấu trúc hay gặp là
+      在……方面 (về mặt…): 在学习方面 (về mặt học tập). Người Việt hay quên thêm 在 ở đầu.'
+    角度: 角 có âm Hán Việt là góc, nghĩa đen 角度 là "góc độ". Thường dùng theo mẫu 从……角度看 (nhìn từ góc độ…).
+      jiǎo là thanh 3, khi đọc cần hạ giọng xuống thấp, đừng đọc thành dấu sắc.
+- id: hsk2-u27-l03
+  title: Ví dụ và lý lẽ
+  grammar: hsk2-g075
+  new_words:
+  - 比如
+  - 比如说
+  - 例如
+  - 例子
+  - 道理
+  - 接受
+  sentences:
+  - id: s-hsk2-u27-009
+    zh: 那是有道理的。
+    en: That makes sense.
+    pinyin: nà shì yǒu dào lǐ de
+    tatoeba_id: 781532
+  - id: s-hsk2-u27-010
+    zh: 给我个例子。
+    en: Show me an example.
+    pinyin: gěi wǒ gè lì zi
+    tatoeba_id: 490074
+  - id: s-hsk2-u27-011
+    zh: 我喜欢运动，比如说打篮球。
+    en: I like sports, for example playing basketball.
+    pinyin: wǒ xǐhuan yùndòng, bǐrú shuō dǎ lánqiú
+  - id: s-hsk2-u27-012
+    zh: 我不接受。
+    en: I don't accept it.
+    pinyin: wǒ bù jiē shòu
+    tatoeba_id: 5897891
+  tips:
+    比如说: 比如, 比如说 và 例如 đều nghĩa là "ví dụ như". 比如说 hay dùng nhất trong văn nói, 例如 thường gặp trong
+      văn viết. Chúng đứng trước các ví dụ, ngay sau câu nêu ý chung. Không nói "给我一个比如". Muốn nói "cho
+      tôi một ví dụ" thì dùng danh từ 例子.
+    道理: '有道理 nghĩa là "có lý", còn 没有道理 là "vô lý". Khi đồng ý với ai đó, có thể nói 你说得有道理. Lưu ý: 你有道理
+      (3+3) đọc thành ní yǒu dàolǐ, và chữ 理 có bộ ngọc 王.'
+    接受: '接 có bộ thủ 扌 (tay): đưa tay ra đón nhận. Âm sh trong shòu cần uốn đầu lưỡi lên, khác với "s"
+      tiếng Việt. 不 đứng trước jiē (thanh 1) nên vẫn đọc bù.'
+    例子: '例 có bộ nhân 亻. Chữ 子 trong 例子 đọc nhẹ, không có thanh: lìzi. Lượng từ đi kèm là 个: 一个例子.'
+- id: hsk2-u27-l04
+  title: Lợi, hại và những điều quan trọng
+  grammar: hsk2-g025
+  new_words:
+  - 好处
+  - 坏处
+  - 公平
+  - 平等
+  - 自由
+  - 重视
+  sentences:
+  - id: s-hsk2-u27-013
+    zh: 运动对身体有好处。
+    en: Exercise is good for your health.
+    pinyin: yùndòng duì shēntǐ yǒu hǎochù
+  - id: s-hsk2-u27-014
+    zh: 这对谁有好处？
+    en: Who benefits?
+    pinyin: zhè duì shuí yǒu hǎo chù
+    tatoeba_id: 9857805
+  - id: s-hsk2-u27-015
+    zh: 这不公平。
+    en: That isn't fair.
+    pinyin: zhè bù gōng píng
+    tatoeba_id: 819322
+  - id: s-hsk2-u27-016
+    zh: 我们很重视你的意见。
+    en: We value your opinion very much.
+    pinyin: wǒmen hěn zhòngshì nǐ de yìjiàn
+  tips:
+    好处: Trong từ này, 好 đọc hǎo (thanh 3), không đọc hào. 处 đọc chù, cần uốn lưỡi ở âm ch. Dùng theo mẫu
+      A 对 B 有好处. Đừng nói ~~对身体是好~~, hãy nói 对身体很好 hoặc 对身体有好处.
+    公平: '公 có âm Hán Việt là công, 平 có âm Hán Việt là bình. 公平 (công bằng) nói về cách đối xử hay cách
+      phân chia, còn 平等 nói về vị trí ngang nhau giữa người với người. Vì là tính từ nên không dùng 是
+      trước nó: ~~这是公平~~ → 这很公平 / 这不公平.'
+    重视: '重 ở đây đọc zhòng (nặng, coi trọng), không đọc chóng. 视 có bộ kiến 见 (nhìn): nhìn một việc là
+      quan trọng. 重视 là động từ nên đi kèm tân ngữ: 重视学习, 重视你的意见.'
+    自由: '自 có âm Hán Việt là tự, 由 có âm Hán Việt là do, nên 自由 chính là "tự do". Âm z không bật hơi,
+      đọc gần giống "ch" nhẹ của tiếng Việt, lưỡi đặt sau răng: zì. Không đọc thành "di".'
+- id: hsk2-u27-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

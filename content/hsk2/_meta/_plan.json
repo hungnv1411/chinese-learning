@@ -1,0 +1,11 @@
+{
+  "script": "plan_units/1",
+  "model": "claude-opus-5-5",
+  "attempts": 1,
+  "generated_at": "2026-11-08T17:26:08",
+  "prompt_sha256": "c006f325f7d2902f3b19394ae1ac337484ad910ef2ac3e4cbdf5165c6889bc22",
+  "words": 770,
+  "grammar": 82,
+  "units": 29,
+  "warnings": []
+}

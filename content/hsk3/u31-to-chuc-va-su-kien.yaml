@@ -1,0 +1,160 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u31.json.
+id: hsk3-u31
+stage: hsk3
+order: 31
+title: Tổ chức và sự kiện
+description: Nói về hội nhóm, thành viên và việc tổ chức các hoạt động tập thể.
+lessons:
+- id: hsk3-u31-l01
+  title: Thành lập tổ chức, nhóm
+  new_words:
+  - 成立
+  - 建立
+  - 设立
+  - 团体
+  - 集体
+  - 团
+  - 群
+  sentences:
+  - id: s-hsk3-u31-001
+    zh: 我们学校成立了一个音乐团体。
+    en: Our school set up a music group.
+    pinyin: Wǒmen xuéxiào chénglìle yí ge yīnyuè tuántǐ.
+  - id: s-hsk3-u31-002
+    zh: 他们建立了很好的关系。
+    en: They built a good relationship.
+    pinyin: Tāmen jiànlìle hěn hǎo de guānxi.
+  - id: s-hsk3-u31-003
+    zh: 这是集体的决定。
+    en: This is a collective decision.
+    pinyin: Zhè shì jítǐ de juédìng.
+  - id: s-hsk3-u31-004
+    zh: 一群学生在公园里唱歌。
+    en: A group of students is singing in the park.
+    pinyin: Yì qún xuésheng zài gōngyuán li chàng gē.
+  tips:
+    成立: '成 có âm Hán Việt là thành, 立 có âm Hán Việt là lập → 成立 = thành lập (công ty, câu lạc bộ, tổ
+      chức). Lỗi hay gặp: nói ~~成立关系~~ theo kiểu tiếng Việt. Với quan hệ, hệ thống thì dùng 建立: 建立关系.
+      设立 thường dùng khi lập ra một bộ phận, chức vụ hay giải thưởng.'
+    群: '群 là lượng từ cho một đám người hoặc một đàn vật: 一群人, 一群羊. Chữ có bộ dương 羊 (con dê), dễ nhớ
+      theo hình ảnh "một đàn dê". Sau q, chữ u thật ra là ü: tròn môi như đọc "uy" nhưng giữ môi tròn.
+      一 đứng trước thanh 2 thì đọc yì: yì qún.'
+    集体: '集 có bộ chuy 隹 (con chim) đứng trên 木 (cái cây): chim tụ lại trên cây → tụ tập. 集 có âm Hán Việt
+      là tập. 集体 là tập thể, cũng hay dùng như định ngữ: 集体活动 (hoạt động tập thể).'
+    团: 团 có bộ vi 囗 bao quanh 才, giống một vòng tròn bao lấy mọi người → đoàn, nhóm. 团 có âm Hán Việt
+      là đoàn. tuán là thanh 2, giọng đi lên giống dấu sắc.
+- id: hsk3-u31-l02
+  title: Thành viên và tình đoàn kết
+  new_words:
+  - 成员
+  - 会员
+  - 者
+  - 志愿者
+  - 退出
+  - 团结
+  - 联合
+  sentences:
+  - id: s-hsk3-u31-005
+    zh: 所有的成员都必须参加。
+    en: Every member must attend.
+    pinyin: suǒ yǒu de chéng yuán dōu bì xū cān jiā
+    tatoeba_id: 4060568
+  - id: s-hsk3-u31-006
+    zh: 他们必须联合起来。
+    en: They must unite.
+    pinyin: tā men bì xū lián hé qǐ lái
+    tatoeba_id: 5715200
+  - id: s-hsk3-u31-007
+    zh: 我以为你退出了。
+    en: I thought you quit.
+    pinyin: wǒ yǐ wéi nǐ tuì chū le
+    tatoeba_id: 8889994
+  - id: s-hsk3-u31-008
+    zh: 很多志愿者来帮忙。
+    en: Many volunteers came to help.
+    pinyin: Hěn duō zhìyuànzhě lái bāngmáng.
+  tips:
+    者: '者 là hậu tố chỉ người, gắn sau động từ hoặc danh từ: 作者, 读者, 记者, 志愿者. zhě phải uốn lưỡi, không
+      đọc thành "giơ" hay "chơ" kiểu tiếng Việt. Thanh 3 đứng một mình thì xuống thấp rồi lên.'
+    会员: '会员 là hội viên: người đăng ký làm thành viên một câu lạc bộ, cửa hàng hay hội (会员卡: thẻ hội viên).
+      成员 rộng hơn, chỉ thành viên của một nhóm, tổ chức hay gia đình: 家庭成员.'
+    退出: '退 có bộ sước 辶 (bước đi), gợi ý lùi bước ra. 退 có âm Hán Việt là thoái, 出 có âm Hán Việt là xuất.
+      退出 + nhóm/tổ chức: 退出比赛, 退出群 (rời nhóm chat). tuì: môi tròn rồi chuyển sang "ây", đừng đọc thành
+      "tui".'
+    团结: '团结 vừa là động từ (đoàn kết lại) vừa là tính từ (đoàn kết). Khi là tính từ thì dùng 很, không
+      dùng 是: ~~我们是团结~~ → 我们很团结. 结 có bộ mịch 纟 (sợi tơ), gợi ý buộc các sợi lại với nhau.'
+- id: hsk3-u31-l03
+  title: Tổ chức hoạt động
+  new_words:
+  - 举办
+  - 开展
+  - 展开
+  - 发动
+  - 主持
+  - 发言
+  sentences:
+  - id: s-hsk3-u31-009
+    zh: 学校下个月举办音乐会。
+    en: The school will hold a concert next month.
+    pinyin: Xuéxiào xià ge yuè jǔbàn yīnyuèhuì.
+  - id: s-hsk3-u31-010
+    zh: 今天的晚会由王老师主持。
+    en: Tonight's party is hosted by Teacher Wang.
+    pinyin: Jīntiān de wǎnhuì yóu Wáng lǎoshī zhǔchí.
+  - id: s-hsk3-u31-011
+    zh: 他突然发言了。
+    en: All at once, he spoke out.
+    pinyin: tā tū rán fā yán le
+    tatoeba_id: 782909
+  - id: s-hsk3-u31-012
+    zh: 已展开调查。
+    en: An investigation was launched.
+    pinyin: yǐ zhǎn kāi diào chá
+    tatoeba_id: 13206709
+  tips:
+    举办: '举办 nhấn vào người đứng ra tổ chức, chủ ngữ thường là đơn vị: 学校举办晚会. 举行 nhấn vào việc sự kiện
+      diễn ra: 晚会在八点举行. 举办 jǔbàn là thanh 3 + thanh 4, nên 举 chỉ đọc nửa thanh 3, giữ giọng thấp.'
+    开展: '开展 và 展开 có cùng hai chữ nhưng đảo thứ tự. 开展 + hoạt động, phong trào kéo dài: 开展活动. 展开 + điều
+      tra, thảo luận, hoặc trải ra một vật: 展开讨论, 展开地图. 开 có âm Hán Việt là khai, 展 có âm Hán Việt là
+      triển.'
+    主持: 'zhǔchí: cả zh và ch đều phải uốn đầu lưỡi lên, ch bật hơi mạnh hơn. Người dẫn chương trình gọi
+      là 主持人. 持 có bộ thủ 扌 (tay), gợi ý "cầm, nắm" việc điều hành.'
+    发言: '发言 là phát biểu, thường không mang tân ngữ phía sau: nói 在会上发言, không nói ~~发言问题~~. Có thể chen
+      thành phần vào giữa: 发了言. f trong fā đọc giống "ph" tiếng Việt.'
+- id: hsk3-u31-l04
+  title: Nơi chốn, chia nhóm và mục tiêu chung
+  new_words:
+  - 场合
+  - 场所
+  - 分组
+  - 组合
+  - 共同
+  sentences:
+  - id: s-hsk3-u31-013
+    zh: 在这样的场所不能大声说话。
+    en: You can't talk loudly in a place like this.
+    pinyin: Zài zhèyàng de chǎngsuǒ bù néng dàshēng shuōhuà.
+  - id: s-hsk3-u31-014
+    zh: 我们先分组，然后讨论。
+    en: Let's divide into groups first, then discuss.
+    pinyin: Wǒmen xiān fēn zǔ, ránhòu tǎolùn.
+  - id: s-hsk3-u31-015
+    zh: 这是我们共同的目标。
+    en: This is our common goal.
+    pinyin: Zhè shì wǒmen gòngtóng de mùbiāo.
+  - id: s-hsk3-u31-016
+    zh: 这里你可以看到漂亮的颜色组合。
+    en: Here you can see beautiful colour combinations.
+    pinyin: zhè lǐ nǐ kě yǐ kàn dào piào liàng de yán sè zǔ hé
+    tatoeba_id: 804919
+  tips:
+    场合: '场合 là hoàn cảnh, dịp (正式场合: dịp trang trọng). 场所 là một nơi chốn cụ thể (公园, 商场…). 场 có âm Hán
+      Việt là trường, bộ thổ 土 (đất), gợi ý một bãi đất. Trong hai từ này 场 đọc chǎng, thanh 3.'
+    共同: 共 có âm Hán Việt là cộng, 同 có âm Hán Việt là đồng. Nhưng 共同 nghĩa là "chung, cùng nhau" (共同的目标,
+      共同努力), không phải "cộng đồng" (một nhóm dân cư) như trong tiếng Việt. Đừng dịch máy móc.
+    分组: '分 gồm 八 (tách ra) đặt trên 刀 (con dao): dùng dao tách ra → chia. 组 có bộ mịch 纟 (sợi tơ). 分组
+      = chia nhóm, 组合 = kết hợp, tổ hợp (cũng dùng cho nhóm nhạc: 歌手组合). zǔ: z đọc như "ch" không bật
+      hơi, đầu lưỡi đặt sau răng, không uốn.'
+- id: hsk3-u31-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

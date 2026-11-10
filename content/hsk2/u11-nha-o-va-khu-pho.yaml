@@ -1,0 +1,170 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u11.json.
+id: hsk2-u11
+stage: hsk2
+order: 11
+title: Nhà ở và khu phố
+description: Người học có thể miêu tả nhà cửa, thuê nhà, làm việc nhà và nói về khu phố, thành phố mình
+  sống.
+lessons:
+- id: hsk2-u11-l01
+  title: Thuê nhà, mua nhà
+  new_words:
+  - 住房
+  - 套
+  - 层
+  - 座
+  - 租
+  - 出租
+  sentences:
+  - id: s-hsk2-u11-001
+    zh: 我想买套房子。
+    en: I'd like to buy a house.
+    pinyin: wǒ xiǎng mǎi tào fáng zi
+    tatoeba_id: 8929192
+  - id: s-hsk2-u11-002
+    zh: 我想租一套小房子。
+    en: I want to rent a small apartment.
+    pinyin: wǒ xiǎng zū yí tào xiǎo fángzi
+  - id: s-hsk2-u11-003
+    zh: 这座楼有二十层。
+    en: This building has twenty floors.
+    pinyin: zhè zuò lóu yǒu èrshí céng
+  - id: s-hsk2-u11-004
+    zh: 楼上的房间出租吗？
+    en: Is the room upstairs for rent?
+    pinyin: lóushàng de fángjiān chūzū ma
+  tips:
+    层: '层 có âm Hán Việt là tầng. Phụ âm c đọc như "ts" bật mạnh hơi, KHÔNG đọc như chữ "c" (k) của tiếng
+      Việt. 层 là lượng từ chỉ tầng nhà: 三层 = tầng ba / ba tầng, 我住在五层 = tôi ở tầng năm.'
+    座: '座 có âm Hán Việt là toà. Đây là lượng từ cho vật to, đứng yên một chỗ: 一座楼 (một toà nhà), 一座山
+      (một ngọn núi). Đừng dùng 个 cho toà nhà khi viết trang trọng. Chú ý zuò (thanh 4) khác 坐 zuò (ngồi)
+      – cùng âm, khác chữ: 座 có thêm 广 bên ngoài.'
+    套: '套 là lượng từ cho căn hộ, bộ đồ: 一套房子 (một căn nhà), 一套衣服 (một bộ quần áo). Biến điệu: 一 đứng
+      trước thanh 4 đọc thành thanh 2 → 一套 đọc yí tào.'
+    租: '租 có bộ 禾 (cây lúa) bên trái: ngày xưa tiền thuê ruộng đất trả bằng lúa. z đọc như "ts" không
+      bật hơi. 租 là đi thuê (我租房子), còn 出租 là cho thuê (房子出租) – giống 出租车 là xe cho thuê, tức taxi.'
+    住房: 住 có âm Hán Việt là trú, 房 có âm Hán Việt là phòng. 住房 là từ chung chỉ nhà ở, chuyện nhà cửa (住房问题),
+      còn nói căn nhà cụ thể thì dùng 房子.
+- id: hsk2-u11-l02
+  title: Trong nhà và ngoài sân
+  grammar: hsk2-g033
+  new_words:
+  - 院
+  - 院子
+  - 墙
+  - 灯
+  - 亮
+  - 椅子
+  sentences:
+  - id: s-hsk2-u11-005
+    zh: 灯没有亮着。
+    en: The lights aren't on.
+    pinyin: dēng méi yǒu liàng zhe
+    tatoeba_id: 2000409
+  - id: s-hsk2-u11-006
+    zh: 房间里的灯还亮着。
+    en: The light in the room is still on.
+    pinyin: fángjiān lǐ de dēng hái liàngzhe
+  - id: s-hsk2-u11-007
+    zh: 他在院子里等我。
+    en: He is waiting for me in the yard.
+    pinyin: tā zài yuàn zi lǐ děng wǒ
+    tatoeba_id: 3378265
+  - id: s-hsk2-u11-008
+    zh: 椅子上没有人。
+    en: The chair is empty.
+    pinyin: yǐ zi shàng méi yǒu rén
+    tatoeba_id: 6056492
+  tips:
+    灯: '灯 có âm Hán Việt là đăng. Chữ gồm bộ 火 (lửa) + 丁: ngày xưa đèn là ngọn lửa. Bật/tắt đèn: 开灯 /
+      关灯 – dùng 开, 关 chứ không dùng "mở" kiểu khác.'
+    亮: '亮 là tính từ "sáng", đã gặp trong 月亮. Như mọi tính từ, KHÔNG dùng 是: ~~房间是亮~~ → 房间很亮. Đèn đang
+      bật thì nói 灯亮着.'
+    墙: '墙 có âm Hán Việt là tường, bộ 土 (đất) vì tường xưa đắp bằng đất. q đọc như "ch" bật mạnh hơi,
+      môi dẹt, không tròn môi. Trên tường: 墙上.'
+    椅子: 椅 có bộ 木 (gỗ) – ghế làm bằng gỗ; bàn 桌子 cũng thế. yǐ là thanh 3 đọc trầm xuống, 子 đọc nhẹ (thanh
+      nhẹ), không nhấn.
+    院: '院 có âm Hán Việt là viện – giống trong 医院, 学院, 电影院. Đứng một mình hay trong 院子 nghĩa là cái sân
+      của nhà. Trong sân: 院子里 (cần thêm 里).'
+- id: hsk2-u11-l03
+  title: Việc nhà hằng ngày
+  new_words:
+  - 洗衣机
+  - 脏
+  - 洗澡
+  - 做饭
+  - 出门
+  sentences:
+  - id: s-hsk2-u11-009
+    zh: 衣服脏了，放洗衣机里洗吧。
+    en: The clothes are dirty; put them in the washing machine.
+    pinyin: yīfu zāng le, fàng xǐyījī lǐ xǐ ba
+  - id: s-hsk2-u11-010
+    zh: 我习惯早上洗澡。
+    en: I am in the habit of taking a shower in the morning.
+    pinyin: wǒ xí guàn zǎo shàng xǐ zǎo
+    tatoeba_id: 1516224
+  - id: s-hsk2-u11-011
+    zh: 你家里谁做饭？
+    en: Who does the cooking in your home?
+    pinyin: nǐ jiā lǐ shuí zuò fàn
+    tatoeba_id: 5613716
+  - id: s-hsk2-u11-012
+    zh: 明天下雨，我不出门。
+    en: It'll rain tomorrow, so I won't be going out.
+    pinyin: míng tiān xià yǔ wǒ bù chū mén
+    tatoeba_id: 6056640
+  tips:
+    洗衣机: '洗 có âm Hán Việt là tẩy, 衣 có âm Hán Việt là y, 机 có âm Hán Việt là cơ. Ghép lại: máy (机) giặt
+      (洗) quần áo (衣). Cùng kiểu với 飞机, 手机, 电视机.'
+    脏: '脏 là tính từ "bẩn", trái nghĩa với 干净. Lỗi hay gặp: ~~衣服是脏~~ → 衣服很脏. Bẩn ra thì dùng 了: 衣服脏了.'
+    洗澡: '洗澡 là động từ + tân ngữ, nên chen được chữ vào giữa: 洗个澡 (tắm một cái), 洗了澡. Không thêm tân ngữ
+      sau: ~~洗澡孩子~~. Hai chữ đều có bộ 氵 (nước). Thanh 3 + 3: xǐ zǎo đọc thành xí zǎo.'
+    做饭: '做饭 nghĩa là nấu ăn nói chung, không chỉ nấu cơm. Dùng 做 (bộ 亻, làm), không dùng 作. Biết nấu ăn:
+      会做饭.'
+    出门: '出 có âm Hán Việt là xuất, 门 có âm Hán Việt là môn. 出门 là ra khỏi nhà (ra ngoài, đi đâu đó), còn
+      出去 là đi ra ngoài so với chỗ người nói đang đứng. Chào khi ra khỏi nhà: 我出门了!'
+- id: hsk2-u11-l04
+  title: Khu phố và thành phố
+  grammar: hsk2-g056
+  new_words:
+  - 街
+  - 广场
+  - 市
+  - 市长
+  - 人口
+  - 人们
+  - 中心
+  sentences:
+  - id: s-hsk2-u11-013
+    zh: 市中心有一个大广场。
+    en: There is a big square in the city center.
+    pinyin: shì zhōngxīn yǒu yí ge dà guǎngchǎng
+  - id: s-hsk2-u11-014
+    zh: 广场上站着很多人。
+    en: Many people are standing in the square.
+    pinyin: guǎngchǎng shang zhànzhe hěn duō rén
+  - id: s-hsk2-u11-015
+    zh: 他住在我们街对面。
+    en: He lives across the street from us.
+    pinyin: tā zhù zài wǒ men jiē duì miàn
+    tatoeba_id: 877517
+  - id: s-hsk2-u11-016
+    zh: 他认识市长。
+    en: He knows the mayor.
+    pinyin: tā rèn shí shì zhǎng
+    tatoeba_id: 390545
+  tips:
+    广场: '广 có âm Hán Việt là quảng, 场 có âm Hán Việt là trường. Hai thanh 3 đi liền: guǎng chǎng đọc thành
+      guáng chǎng. Ở trên quảng trường: 广场上.'
+    街: 'Chữ 街 gồm 行 (đi) tách ra hai bên, kẹp ở giữa là 圭 (hai chữ 土 chồng lên): con đường để đi, hai
+      bên là đất nhà cửa. j đọc gần "ch" nhưng không bật hơi, môi dẹt. Trên phố: 街上.'
+    人们: '人们 là "mọi người, người ta" nói chung. Đã có 们 thì KHÔNG đi với số lượng: ~~三个人们~~ → 三个人, ~~很多人们~~
+      → 很多人.'
+    市长: '市 có âm Hán Việt là thị. 长 ở đây đọc zhǎng (người đứng đầu), giống trong 院长, 家长, không đọc cháng
+      (dài). Thành phố Hà Nội: 河内市.'
+    人口: '人口 là dân số: 北京人口很多. Đừng lẫn với lượng từ 口 khi đếm người trong nhà: 我家有四口人 (nhà tôi có bốn
+      người).'
+- id: hsk2-u11-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

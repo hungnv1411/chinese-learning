@@ -1,0 +1,199 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u26.json.
+id: hsk2-u26
+stage: hsk2
+order: 26
+title: Công việc và mục tiêu
+description: Người học có thể nói về nghề nghiệp, nơi làm việc, kế hoạch, ước mơ và việc đạt được mục
+  tiêu.
+lessons:
+- id: hsk2-u26-l01
+  title: Nơi làm việc và đồng nghiệp
+  new_words:
+  - 办公室
+  - 公司
+  - 单位
+  - 同事
+  - 经理
+  - 打工
+  sentences:
+  - id: s-hsk2-u26-001
+    zh: 明天在办公室见。
+    en: See you tomorrow in the office.
+    pinyin: míng tiān zài bàn gōng shì jiàn
+    tatoeba_id: 333832
+  - id: s-hsk2-u26-002
+    zh: 你们是同事。
+    en: You are colleagues.
+    pinyin: nǐ men shì tóng shì
+    tatoeba_id: 6147808
+  - id: s-hsk2-u26-003
+    zh: 对，是我们经理。
+    en: Yes, he's our manager.
+    pinyin: duì shì wǒ men jīng lǐ
+    tatoeba_id: 389056
+  - id: s-hsk2-u26-004
+    zh: 周末我在超市打工。
+    en: I work part-time at the supermarket on weekends.
+    pinyin: zhōu mò wǒ zài chāo shì dǎ gōng
+    tatoeba_id: 2055680
+  tips:
+    公司: '公 có âm Hán Việt là công, 司 có âm Hán Việt là ti → 公司 nghe rất gần với từ tiếng Việt quen thuộc.
+      Lượng từ đi với 公司 là 家: 一家公司 (một công ty), đừng dùng 个 thay cho quen.'
+    同事: '同 có âm Hán Việt là đồng, 事 có âm Hán Việt là sự → nghĩa là người cùng làm việc với mình. Chú
+      ý 事 shì: uốn lưỡi lên như sh, không đọc thành ''xư'' kiểu tiếng Việt.'
+    打工: 打工 là đi làm thêm, làm việc tạm thời (sinh viên làm thêm cuối tuần). Công việc chính thức thì
+      dùng 工作. Người Việt hay nói ~~我在公司打工经理~~; chỉ cần 我在公司工作 là đủ.
+    经理: '经 có âm Hán Việt là kinh, 理 có âm Hán Việt là lí. Nghĩa là quản lý, giám đốc (bộ phận). Phát
+      âm jīnglǐ: thanh 1 cao đều rồi thanh 3 trầm xuống, đừng đọc lên giọng như dấu hỏi.'
+- id: hsk2-u26-l02
+  title: Các nghề nghiệp và thu nhập
+  new_words:
+  - 画家
+  - 作家
+  - 科学家
+  - 商人
+  - 明星
+  - 收入
+  sentences:
+  - id: s-hsk2-u26-005
+    zh: 他是作家。
+    en: He's an author.
+    pinyin: tā shì zuò jiā
+    tatoeba_id: 4970153
+  - id: s-hsk2-u26-006
+    zh: 他想成为科学家。
+    en: He wants to be a scientist in the future.
+    pinyin: tā xiǎng chéng wéi kē xué jiā
+    tatoeba_id: 1733473
+  - id: s-hsk2-u26-007
+    zh: 他的收入不错。
+    en: He has a fair income.
+    pinyin: tā de shōu rù bù cuò
+    tatoeba_id: 1083797
+  - id: s-hsk2-u26-008
+    zh: 她想当明星。
+    en: She wants to become a star.
+    pinyin: tā xiǎng dāng míngxīng
+  tips:
+    科学家: '家 có âm Hán Việt là gia. Ở cuối từ, 家 là hậu tố chỉ người chuyên về một lĩnh vực: 画家 (họa sĩ),
+      作家 (nhà văn), 科学家 (nhà khoa học). Nhớ cấu trúc: lĩnh vực + 家.'
+    明星: 明 có âm Hán Việt là minh, 星 có âm Hán Việt là tinh. Cả hai chữ đều có bộ nhật 日 (mặt trời) → sáng
+      chói, như ngôi sao nổi tiếng. 星 = 日 + 生.
+    收入: '入 rù: âm r tiếng Trung không rung lưỡi như r tiếng Việt, mà uốn lưỡi giống ''r'' nhẹ trong tiếng
+      Anh. Đừng nhầm chữ 入 (nhập) với 人 (người): 入 nét phải dài hơn.'
+    商人: '商 shāng: sh uốn lưỡi, thanh 1 giữ cao và bằng. Chữ 商 có bộ khẩu 口 bên dưới – buôn bán thì phải
+      nói nhiều!'
+- id: hsk2-u26-l03
+  title: Kế hoạch và mục đích
+  new_words:
+  - 打算
+  - 计划
+  - 目的
+  - 机会
+  - 实习
+  sentences:
+  - id: s-hsk2-u26-009
+    zh: 你打算出国吗？
+    en: Do you plan to go abroad?
+    pinyin: nǐ dǎ suàn chū guó ma
+    tatoeba_id: 476641
+  - id: s-hsk2-u26-010
+    zh: 你周末有什么计划？
+    en: What are your weekend plans?
+    pinyin: nǐ zhōu mò yǒu shén me jì huà
+    tatoeba_id: 836230
+  - id: s-hsk2-u26-011
+    zh: 她的目的是成为教师。
+    en: Her goal is to become a teacher.
+    pinyin: tā de mù dì shì chéng wéi jiào shī
+    tatoeba_id: 336098
+  - id: s-hsk2-u26-012
+    zh: 我明年去公司实习。
+    en: Next year I'm going to intern at a company.
+    pinyin: wǒ míngnián qù gōngsī shíxí
+  tips:
+    目的: Trong 目的, chữ 的 đọc là dì (thanh 4), không phải de như trong 我的. 目 có âm Hán Việt là mục, 的 có
+      âm Hán Việt là đích.
+    打算: '打算 + động từ = định làm gì: 我打算去北京. Đây là ý định cá nhân, nói hằng ngày. 计划 trang trọng hơn,
+      thường là kế hoạch cụ thể. 算 có bộ trúc ⺮ trên đầu – ngày xưa dùng que tre để tính toán.'
+    实习: '实习 shíxí: phân biệt sh (uốn lưỡi) và x (lưỡi phẳng, giống ''x'' tiếng Việt nhưng nhẹ hơn). Hai
+      âm tiết đều thanh 2, đọc như dấu sắc.'
+    机会: '机 có âm Hán Việt là cơ, 会 có âm Hán Việt là hội. Hỏi cơ hội có lớn không: 机会大不大？ – dùng 大 chứ
+      không dùng 多.'
+- id: hsk2-u26-l04
+  title: Hoàn thành công việc
+  grammar: hsk2-g040
+  new_words:
+  - 完成
+  - 做到
+  - 通过
+  - 顺利
+  - 干活儿
+  sentences:
+  - id: s-hsk2-u26-013
+    zh: 你完成工作了吗？
+    en: Did you complete the work?
+    pinyin: nǐ wán chéng gōng zuò le ma
+    tatoeba_id: 7767750
+  - id: s-hsk2-u26-014
+    zh: 他通过考试了吗？
+    en: Did he pass the test?
+    pinyin: tā tōng guò kǎo shì le ma
+    tatoeba_id: 833156
+  - id: s-hsk2-u26-015
+    zh: 我做到了！
+    en: I did it.
+    pinyin: wǒ zuò dào le
+    tatoeba_id: 8709238
+  - id: s-hsk2-u26-016
+    zh: 今天的考试很顺利。
+    en: Today's exam went smoothly.
+    pinyin: jīntiān de kǎoshì hěn shùnlì
+  tips:
+    顺利: '顺 có âm Hán Việt là thuận, 利 có âm Hán Việt là lợi. 顺利 là tính từ nên không dùng 是: ~~工作是顺利~~
+      → 工作很顺利.'
+    干活儿: '干 ở đây đọc gàn (thanh 4) nghĩa là làm; đừng đọc gān (khô). 干活儿 là làm việc, thường là việc
+      tay chân, rất khẩu ngữ. Âm 儿 cuối: cong lưỡi ngay sau huó → huór.'
+    通过: 通过考试 = thi đỗ. Hay dùng 我通过了考试 hoặc 我考试通过了; trong khẩu ngữ cũng nói 我考试过了. Cả 通 và 过 đều có bộ
+      sước 辶 (đi) → đi xuyên qua.
+    做到: '做到 nhấn vào kết quả: làm được. 完成 nhấn vào làm xong việc. 我做到了！= Tôi làm được rồi! 我完成了 = Tôi
+      làm xong rồi.'
+- id: hsk2-u26-l05
+  title: Ước mơ và niềm tin
+  grammar: hsk2-g067
+  new_words:
+  - 理想
+  - 实现
+  - 取得
+  - 条件
+  - 信心
+  sentences:
+  - id: s-hsk2-u26-017
+    zh: 我对你有信心。
+    en: I have confidence in you.
+    pinyin: wǒ duì nǐ yǒu xìn xīn
+    tatoeba_id: 834570
+  - id: s-hsk2-u26-018
+    zh: 只要努力，就能实现理想。
+    en: As long as you work hard, you can realize your dream.
+    pinyin: zhǐyào nǔlì, jiù néng shíxiàn lǐxiǎng
+  - id: s-hsk2-u26-019
+    zh: 只要你有信心，就能做到。
+    en: As long as you have confidence, you can do it.
+    pinyin: zhǐyào nǐ yǒu xìnxīn, jiù néng zuòdào
+  - id: s-hsk2-u26-020
+    zh: 他取得了好成绩。
+    en: He got good results.
+    pinyin: tā qǔdéle hǎo chéngjì
+  tips:
+    理想: 'Biến điệu 3+3: 理想 lǐxiǎng hai thanh 3 liền nhau, thanh 3 đầu đọc thành thanh 2 → líxiǎng. Còn
+      只要 zhǐyào thì không đổi vì sau là thanh 4.'
+    实现: 实 có âm Hán Việt là thực, 现 có âm Hán Việt là hiện. Nhưng nghĩa là biến thành hiện thực (实现理想,
+      实现计划), không phải 'thực hiện' một việc. Muốn nói làm/tiến hành thì dùng 做 hoặc 进行.
+    信心: '信 có âm Hán Việt là tín, 心 có âm Hán Việt là tâm. Tin vào ai: 对 + người + 有信心. Đừng nói ~~我信心你~~.
+      信 = 亻(người) + 言 (lời nói): người giữ lời thì đáng tin.'
+    条件: '条 có âm Hán Việt là điều, 件 có âm Hán Việt là kiện. Nói điều kiện tốt: 条件很好. 取得 thường đi với
+      成绩: 取得好成绩 (đạt thành tích tốt).'
+- id: hsk2-u26-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

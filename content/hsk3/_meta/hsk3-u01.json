@@ -1,0 +1,37 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T08:12:06",
+  "prompt_sha256": [
+    "9b78971fafda808dd4932217dda2920f25f05ea1b4190291cd240e64a5ff3dae",
+    "2be9a4da9cbf0d54d6f7fa35634a9fe03577f96cf8b947bffa22c58b2e593afc"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk3-u01-l01 (tips.亲)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Tip nói 亲 trong 父亲 và 母亲 \"thường đọc nhẹ\". Điều này không khớp với pinyin của bài là fùqīn và mǔqīn (thanh 1 đầy đủ), nên người học dễ bối rối. Trong khẩu ngữ, 亲 đọc nhẹ chỉ là một cách đọc phụ.",
+      "suggestion": "Bỏ câu đó, hoặc sửa thành: \"Bài này đọc đủ thanh 1: fùqīn, mǔqīn. Trong khẩu ngữ đôi khi nghe qin đọc nhẹ, nhưng bạn không cần bắt chước.\""
+    }
+  ],
+  "machine_warnings": [
+    "u01-gia-dinh-va-nguoi-than.yaml:32: [sentence_unlearned_word] Câu s-hsk3-u01-003 (bài hsk3-u01-l01) dùng từ chưa học: 多大",
+    "u01-gia-dinh-va-nguoi-than.yaml:36: [sentence_unlearned_word] Câu s-hsk3-u01-004 (bài hsk3-u01-l01) dùng từ chưa học: 九十岁",
+    "u01-gia-dinh-va-nguoi-than.yaml:65: [sentence_unlearned_word] Câu s-hsk3-u01-006 (bài hsk3-u01-l02) dùng từ chưa học: 那位",
+    "u01-gia-dinh-va-nguoi-than.yaml:69: [sentence_unlearned_word] Câu s-hsk3-u01-007 (bài hsk3-u01-l02) dùng từ chưa học: 那个",
+    "u01-gia-dinh-va-nguoi-than.yaml:71: [sentence_pinyin_mismatch] Câu s-hsk3-u01-007: pinyin ghi 'Xiǎo Wáng, nǐ rènshi nàge lǎotóur ma?', pypinyin cho 'xiǎo wáng nǐ rèn shí nà ge lǎo tou er ma'",
+    "u01-gia-dinh-va-nguoi-than.yaml:97: [sentence_unlearned_word] Câu s-hsk3-u01-009 (bài hsk3-u01-l03) dùng từ chưa học: 结过, 两次, 婚",
+    "u01-gia-dinh-va-nguoi-than.yaml:148: [sentence_unlearned_word] Câu s-hsk3-u01-016 (bài hsk3-u01-l04) dùng từ chưa học: 我家"
+  ],
+  "han_viet_proposed": [
+    "婚",
+    "幸",
+    "暖",
+    "父"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T01:53:36",
+  "prompt_sha256": [
+    "ac75777239e1181a255b90bdbfe37f9c8340664c0c1a560fae3a563f6723f798",
+    "c39f42ba7f0ac7b0102fef0fa181c57b808dedd376d2fa93fbc55a0f3e3af718"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u28-van-de-va-cach-giai-quyet.yaml:35: [sentence_unlearned_word] Câu s-hsk3-u28-004 (bài hsk3-u28-l01) dùng từ chưa học: 这个",
+    "u28-van-de-va-cach-giai-quyet.yaml:66: [sentence_unlearned_word] Câu s-hsk3-u28-006 (bài hsk3-u28-l02) dùng từ chưa học: 一个, 不好",
+    "u28-van-de-va-cach-giai-quyet.yaml:74: [sentence_unlearned_word] Câu s-hsk3-u28-008 (bài hsk3-u28-l02) dùng từ chưa học: 身体状况, 不太好",
+    "u28-van-de-va-cach-giai-quyet.yaml:108: [sentence_unlearned_word] Câu s-hsk3-u28-011 (bài hsk3-u28-l03) dùng từ chưa học: 采取行动",
+    "u28-van-de-va-cach-giai-quyet.yaml:112: [sentence_unlearned_word] Câu s-hsk3-u28-012 (bài hsk3-u28-l03) dùng từ chưa học: 这件",
+    "u28-van-de-va-cach-giai-quyet.yaml:114: [sentence_pinyin_mismatch] Câu s-hsk3-u28-012: pinyin ghi 'Zhè jiàn shì wǒ yìdiǎnr bǎwò yě méiyǒu.', pypinyin cho 'zhè jiàn shì wǒ yì diǎn ér bǎ wò yě méi yǒu'"
+  ],
+  "han_viet_proposed": [
+    "误",
+    "需"
+  ]
+}

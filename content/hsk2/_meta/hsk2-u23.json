@@ -1,0 +1,24 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T07:40:19",
+  "prompt_sha256": [
+    "dcff62c4456a87175f0573840395281147b895f3faf6a9c38229ff53f6bcf1e4",
+    "da9fa61b9fb170fc3cfef50ad7a6093348b09b6611b2af2894b01925236cd704",
+    "d427a574078640e57d34ec10184b00d8b22b39ba83f66f6caa99d57aba905c28"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u23-cam-xuc-va-nhan-xet.yaml:75: [sentence_pinyin_mismatch] Câu s-hsk2-u23-008: pinyin ghi 'nǐ fàngxīn ba, wǒ méi shìr', pypinyin cho 'nǐ fàng xīn ba wǒ méi shì ér'",
+    "u23-cam-xuc-va-nhan-xet.yaml:146: [sentence_unlearned_word] Câu s-hsk2-u23-015 (bài hsk2-u23-l04) dùng từ chưa học: 这个",
+    "u23-cam-xuc-va-nhan-xet.yaml:186: [sentence_unlearned_word] Câu s-hsk2-u23-019 (bài hsk2-u23-l05) dùng từ chưa học: 来得"
+  ],
+  "han_viet_proposed": [
+    "怕",
+    "挺"
+  ]
+}

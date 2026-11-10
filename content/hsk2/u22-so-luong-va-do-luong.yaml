@@ -1,0 +1,232 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u22.json.
+id: hsk2-u22
+stage: hsk2
+order: 22
+title: Số lượng và đo lường
+description: Người học có thể dùng số lớn, nói cân nặng, khoảng cách và diễn đạt nhiều, ít, toàn bộ hay
+  một phần.
+lessons:
+- id: hsk2-u22-l01
+  title: 'Số lớn: nghìn, vạn, trăm triệu và tính toán'
+  grammar: hsk2-g009
+  new_words:
+  - 千
+  - 万
+  - 亿
+  - 数字
+  - 数
+  - 算
+  - 加
+  sentences:
+  - id: s-hsk2-u22-001
+    zh: 中国有十四亿人。
+    en: China has 1.4 billion people.
+    pinyin: Zhōngguó yǒu shísì yì rén.
+  - id: s-hsk2-u22-002
+    zh: 我有一万块钱。
+    en: I have ten thousand yuan.
+    pinyin: Wǒ yǒu yí wàn kuài qián.
+  - id: s-hsk2-u22-003
+    zh: 那些数字是什么？
+    en: What are those numbers?
+    pinyin: nà xiē shù zì shì shén me
+    tatoeba_id: 4844975
+  - id: s-hsk2-u22-004
+    zh: 三加五是几？
+    en: What is three plus five?
+    pinyin: Sān jiā wǔ shì jǐ?
+  tips:
+    万: '万 có âm Hán Việt là vạn. Người Trung Quốc đếm số lớn theo từng vạn (10.000), không theo nghìn
+      như tiếng Việt: 十万 = 100.000, 一百万 = 1 triệu. Lỗi hay gặp: nói ~~一百千~~ cho 100.000 → phải nói 十万.'
+    亿: '亿 có âm Hán Việt là ức. 一亿 = 100 triệu, 十亿 = 1 tỷ. Chữ có bộ nhân 亻 bên trái và 乙 bên phải. Số
+      2 đứng trước 千/万/亿 thường nói 两: 两千, 两万, 两亿.'
+    数: '数 có hai cách đọc: shǔ (thanh 3) là động từ ''đếm'' (数一数); shù (thanh 4) là danh từ ''con số''
+      như trong 数字, 人数. 数 có âm Hán Việt là số.'
+    算: '算 có âm Hán Việt là toán. Bộ trúc ⺮ ở trên gợi nhớ thời xưa người ta tính toán bằng que tre. Mẹo
+      phát âm: suàn có âm ''uan'', môi tròn rồi mở ra, gần ''xoan'' nhưng s đọc nhẹ, không cong lưỡi.'
+- id: hsk2-u22-l02
+  title: Cân nặng và khoảng cách
+  grammar: hsk2-g073
+  new_words:
+  - 公斤
+  - 斤
+  - 克
+  - 千克
+  - 公里
+  - 以上
+  - 以下
+  sentences:
+  - id: s-hsk2-u22-005
+    zh: 他有八十公斤。
+    en: He weighs 80 kilos.
+    pinyin: Tā yǒu bāshí gōngjīn.
+  - id: s-hsk2-u22-006
+    zh: 我买了两斤多肉。
+    en: I bought a little over two jin of meat.
+    pinyin: Wǒ mǎi le liǎng jīn duō ròu.
+  - id: s-hsk2-u22-007
+    zh: 学校离这儿二十多公里。
+    en: The school is more than twenty kilometers from here.
+    pinyin: Xuéxiào lí zhèr èrshí duō gōnglǐ.
+  - id: s-hsk2-u22-008
+    zh: 三岁以下的小孩儿不用买票。
+    en: Children under three don't need to buy a ticket.
+    pinyin: Sān suì yǐxià de xiǎoháir bú yòng mǎi piào.
+  tips:
+    斤: 'Bẫy lớn cho người Việt: 一斤 chỉ là 500 gam (nửa cân Việt), còn 1 cân Việt (1 kg) là 一公斤 hoặc 两斤.
+      Ngoài chợ Trung Quốc giá thường tính theo 斤, nên đừng nhầm giá!'
+    千克: 千克 = 1.000 克 = 1 kg, nghĩa giống 公斤. 千克 hay gặp trên bao bì, sách vở; nói chuyện hằng ngày người
+      ta dùng 公斤 hoặc 斤 nhiều hơn. 克 = gam.
+    以上: '以上/以下 đứng sau con số: 十八岁以上 (từ 18 tuổi trở lên), 三岁以下 (từ 3 tuổi trở xuống). Thường tính cả
+      mốc đó. Người Việt hay đặt lên trước như ''trên 18 tuổi'' — sai: không nói ~~以上十八岁~~.'
+    公里: '公里 (gōnglǐ) = km. Chữ 里 thanh 3 đọc trầm xuống rồi lên, đừng đọc như dấu hỏi tiếng Việt quá nhẹ.
+      Phân biệt 公里 (km) với 公斤 (kg): chỉ khác chữ sau.'
+- id: hsk2-u22-l03
+  title: Nhiều và ít
+  new_words:
+  - 许多
+  - 好多
+  - 不少
+  - 大量
+  - 一点点
+  - 满
+  sentences:
+  - id: s-hsk2-u22-009
+    zh: 我有好多朋友。
+    en: I have many friends.
+    pinyin: wǒ yǒu hǎo duō péng yǒu
+    tatoeba_id: 382503
+  - id: s-hsk2-u22-010
+    zh: 她在这里有不少朋友。
+    en: She has a lot of friends here.
+    pinyin: tā zài zhè lǐ yǒu bù shǎo péng yǒu
+    tatoeba_id: 349760
+  - id: s-hsk2-u22-011
+    zh: 水他只喝了一点点。
+    en: He drank very little of the water.
+    pinyin: shuǐ tā zhǐ hē le yì diǎn diǎn
+    tatoeba_id: 13924705
+  - id: s-hsk2-u22-012
+    zh: 今天她满十岁了。
+    en: Today she turns ten years old.
+    pinyin: Jīntiān tā mǎn shí suì le.
+  tips:
+    好多: 'Trong 好多, 好 không có nghĩa ''tốt'' mà là ''rất'': 好多人 = rất nhiều người. Cẩn thận: 好多了 (sau tính
+      từ) lại nghĩa là ''đỡ/tốt hơn nhiều'': 她觉得好多了.'
+    不少: 不 chỉ đổi thành bú khi đứng trước thanh 4 (不用 bú yòng). 少 là thanh 3 nên 不少 vẫn đọc bù shǎo. 不少
+      nghĩa 'không ít' = khá nhiều, giống cách nói tiếng Việt.
+    一点点: '一 đứng trước thanh 3 (点 diǎn) đổi thành thanh 4: yì diǎndiǎn. 一点点 nhấn mạnh ''một chút xíu'',
+      ít hơn 一点儿.'
+    满: '满 có âm Hán Việt là mãn. Bộ thủy 氵 bên trái: nước đổ đầy → ''đầy''. 杯子满了 = cốc đầy rồi; 满十岁 =
+      tròn 10 tuổi.'
+- id: hsk2-u22-l04
+  title: Đa số, thiểu số và số người
+  new_words:
+  - 多数
+  - 大多数
+  - 少数
+  - 人数
+  - 占
+  sentences:
+  - id: s-hsk2-u22-013
+    zh: 人数不够啊！
+    en: There aren't enough people!
+    pinyin: Rénshù bú gòu a!
+  - id: s-hsk2-u22-014
+    zh: 大多数学生都喜欢上网。
+    en: Most students like going online.
+    pinyin: Dàduōshù xuésheng dōu xǐhuan shàngwǎng.
+  - id: s-hsk2-u22-015
+    zh: 我们班女生占一半。
+    en: Girls make up half of our class.
+    pinyin: Wǒmen bān nǚshēng zhàn yíbàn.
+  - id: s-hsk2-u22-016
+    zh: 这件事只有少数人知道。
+    en: Only a few people know about this.
+    pinyin: Zhè jiàn shì zhǐyǒu shǎoshù rén zhīdào.
+  tips:
+    多数: 多 có âm Hán Việt là đa, 数 có âm Hán Việt là số — dễ nhớ vì giống từ 'đa số' trong tiếng Việt.
+      Tương tự 少 có âm Hán Việt là thiểu → 少数 giống 'thiểu số'. Ở đây 数 đọc shù (thanh 4).
+    大多数: '大多数 (phần lớn) mạnh hơn 多数. Câu có 大多数/多数 làm chủ ngữ thường thêm 都 trước động từ: 大多数人都喜欢…'
+    人数: '人数 = số người: 人数不够 (không đủ người). Biến điệu: 不 đứng trước 够 (gòu, thanh 4) phải đọc thanh
+      2: bú gòu. Nhớ quy tắc: 不 + thanh 4 → bú (不对 bú duì, 不用 bú yòng).'
+    占: '占 zhàn: zh là âm cong lưỡi, đầu lưỡi uốn lên chạm vòm miệng, khác ''gi/d'' của tiếng Việt. Cấu
+      trúc: A 占 + tỉ lệ: 女生占一半 = nữ chiếm một nửa.'
+- id: hsk2-u22-l05
+  title: Toàn bộ, tất cả và chỉ
+  grammar: hsk2-g014
+  new_words:
+  - 全
+  - 全部
+  - 全国
+  - 全体
+  - 所有
+  - 只
+  sentences:
+  - id: s-hsk2-u22-017
+    zh: 所有的书都是我的。
+    en: All of the books are mine.
+    pinyin: suǒ yǒu de shū dōu shì wǒ de
+    tatoeba_id: 13968301
+  - id: s-hsk2-u22-018
+    zh: 你全做错了！
+    en: You have done it totally incorrect!
+    pinyin: nǐ quán zuò cuò le
+    tatoeba_id: 5640740
+  - id: s-hsk2-u22-019
+    zh: 我只吃肉。
+    en: I only eat meat.
+    pinyin: wǒ zhǐ chī ròu
+    tatoeba_id: 843486
+  - id: s-hsk2-u22-020
+    zh: 他在全国都很有名。
+    en: He is famous all over the country.
+    pinyin: Tā zài quánguó dōu hěn yǒumíng.
+  tips:
+    只: '只 (zhǐ, thanh 3) = ''chỉ'', luôn đứng trước động từ: 我只吃肉, không nói ~~我吃只肉~~. Cùng chữ này đọc
+      zhī (thanh 1) là lượng từ cho con vật: 一只猫 — nhìn vị trí trong câu để phân biệt.'
+    全: '全 có âm Hán Việt là toàn. Pinyin quán viết ''u'' nhưng thật ra là ü (sau q, j, x luôn là ü): tròn
+      môi như ''uy'' rồi mở ra ''en''. 全 + danh từ: 全国, 全家, 全身.'
+    所有: '所有 thường đi theo mẫu 所有(的) + danh từ + 都 + động từ: 所有的书都是我的. Người Việt hay quên 都 — có 所有
+      thì nhớ thêm 都.'
+    全体: '全体 dùng cho cả một tập thể người: 全体学生 (toàn thể học sinh). 全部 dùng được cho cả người lẫn vật:
+      全部的店都关了.'
+- id: hsk2-u22-l06
+  title: Một phần, trong đó và khác
+  new_words:
+  - 部分
+  - 大部分
+  - 一部分
+  - 其中
+  - 其他
+  - 以外
+  sentences:
+  - id: s-hsk2-u22-021
+    zh: 你对了一部分。
+    en: You're partially correct.
+    pinyin: Nǐ duì le yí bùfen.
+  - id: s-hsk2-u22-022
+    zh: 我大部分时间都在家。
+    en: I'm at home most of the time.
+    pinyin: Wǒ dàbùfen shíjiān dōu zài jiā.
+  - id: s-hsk2-u22-023
+    zh: 我们班有三十个学生，其中二十个是女生。
+    en: There are thirty students in our class, twenty of whom are girls.
+    pinyin: Wǒmen bān yǒu sānshí ge xuésheng, qízhōng èrshí ge shì nǚshēng.
+  - id: s-hsk2-u22-024
+    zh: 中文比其他外语难。
+    en: Chinese is harder than other foreign languages.
+    pinyin: zhōng wén bǐ qí tā wài yǔ nán
+    tatoeba_id: 10192345
+  tips:
+    部分: 部 có âm Hán Việt là bộ, 分 có âm Hán Việt là phân. Trong khẩu ngữ đại lục, 分 trong 部分 đọc thanh
+      nhẹ (bùfen), không phải fèn. 一部分 đọc yí bùfen vì 一 đứng trước 部 (thanh 4).
+    其中: '其中 = ''trong đó'', đứng đầu vế sau, chỉ lại nhóm vừa nói ở vế trước: 有三十个学生，其中二十个是女生. Không đặt
+      其中 ở đầu câu khi chưa nhắc tới nhóm nào.'
+    其他: '其 có âm Hán Việt là kì, 他 có âm Hán Việt là tha. 其他 + danh từ = ''(những) … khác'': 其他学生. Chữ
+      其 đọc qí — q bật hơi mạnh như ''ch'' có hơi, không đọc như ''k''.'
+    以外: '以外 đứng sau từ/cụm từ: 五公里以外 = ngoài 5 km. Người Việt hay đặt 以外 lên trước như tiếng Việt (''ngoài…'')
+      — sai: không nói ~~以外五公里~~.'
+- id: hsk2-u22-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

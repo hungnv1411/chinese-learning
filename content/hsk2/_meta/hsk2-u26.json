@@ -1,0 +1,29 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T07:52:55",
+  "prompt_sha256": [
+    "8ddd6b65aa84a52dcf52087f524b1b1ce5f47ae55ef6e016a6d3432069892b03",
+    "51071607cc8e7ca111d2124531d7494ce45759fe2302db5c397e9a6bb056e803"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u26-l01 (tips.打工)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu sai mẫu ~~我在公司打工经理~~ không phải lỗi người Việt thường mắc. Câu này vô nghĩa và dễ gây khó hiểu, nên mẹo dễ bị coi là bịa.",
+      "suggestion": "Bỏ câu sai mẫu. Có thể viết: '打工 là làm thêm, làm tạm (sinh viên làm cuối tuần). Việc làm chính thức dùng 工作: 我在公司工作.'"
+    }
+  ],
+  "machine_warnings": [
+    "u26-cong-viec-va-muc-tieu.yaml:177: [sentence_unlearned_word] Câu s-hsk2-u26-018 (bài hsk2-u26-l05) dùng từ chưa học: 只要, 实现理想",
+    "u26-cong-viec-va-muc-tieu.yaml:181: [sentence_unlearned_word] Câu s-hsk2-u26-019 (bài hsk2-u26-l05) dùng từ chưa học: 只要"
+  ],
+  "han_viet_proposed": [
+    "办"
+  ]
+}

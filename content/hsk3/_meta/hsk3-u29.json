@@ -1,0 +1,35 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T01:57:28",
+  "prompt_sha256": [
+    "b5dabb040700d566aa648d53816e1b4ae91a8a097412b1459e6d607d06cbd071",
+    "d044bf49a4b9cf89e7adeb74c5c66a142e0088a8cc8e6b5a2f5018561d1142fb"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u29-008",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Câu tiếng Trung 我确定你会来 ở thì hiện tại/tương lai, nhưng bản dịch \"I was certain that you'd come\" ở quá khứ nên lệch ngữ cảnh.",
+      "suggestion": "Đổi thành \"I'm sure you'll come.\" cho khớp với câu tiếng Trung."
+    },
+    {
+      "where": "s-hsk3-u29-006",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin ghi 个 là \"gè\", nhưng ở đây 个 là lượng từ thanh nhẹ. Câu s-hsk3-u29-016 lại ghi \"ge\" cho cùng chữ này nên cách ghi không thống nhất. Pinyin câu cũng ghi \"zhǔ yì\", trong khi tip và pinyin từ ghi 主意 là zhǔyi (thanh nhẹ).",
+      "suggestion": "Ghi \"zhè shì ge hǎo zhǔyi\" cho nhất quán với tip và với câu 016."
+    }
+  ],
+  "machine_warnings": [
+    "u29-y-kien-va-danh-gia.yaml:110: [sentence_unlearned_word] Câu s-hsk3-u29-011 (bài hsk3-u29-l03) dùng từ chưa học: 来说",
+    "u29-y-kien-va-danh-gia.yaml:146: [sentence_unlearned_word] Câu s-hsk3-u29-014 (bài hsk3-u29-l04) dùng từ chưa học: 一点",
+    "u29-y-kien-va-danh-gia.yaml:154: [sentence_unlearned_word] Câu s-hsk3-u29-016 (bài hsk3-u29-l04) dùng từ chưa học: 这个"
+  ],
+  "han_viet_proposed": []
+}

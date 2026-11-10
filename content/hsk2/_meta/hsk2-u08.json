@@ -1,0 +1,57 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:05:20",
+  "prompt_sha256": [
+    "28b58deb68b3a4ee7a6aa85b774e0edf7c76f02dbeaec01ee8b7bae21d9641d1",
+    "0b66987d3630a75c1cd6fe89bfc2c05cb5bd10c0d534f0fc5a7317cea522884c"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u08-l02 (tip 骑)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip ghi 坐 là \"đi nhờ\". Nghĩa này sai: 坐 là đi xe với tư cách hành khách (坐出租车, 坐公共汽车), không phải đi nhờ. Cách ghi này còn mâu thuẫn với câu s-hsk2-u08-001 (我坐出租车去).",
+      "suggestion": "Sửa thành: ô tô, xe buýt thì dùng 坐 (ngồi xe, đi với tư cách hành khách) hoặc 开 (lái)."
+    },
+    {
+      "where": "hsk2-u08-l04 (tip 安全)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói 安全 là tính từ, nhưng câu s-hsk2-u08-015 (最重要的是安全) dùng nó như danh từ. Nghĩa đã cho trong từ mới cũng có cả \"safe\" và \"safety\". Học viên có thể thấy hai chỗ mâu thuẫn.",
+      "suggestion": "Thêm: 安全 vừa là tính từ (这里很安全) vừa là danh từ (最重要的是安全)."
+    },
+    {
+      "where": "s-hsk2-u08-010",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"This place isn't convenient to public transportation\" gượng và hơi lệch nghĩa. Câu Trung nói giao thông ở đây không thuận tiện.",
+      "suggestion": "Dịch: \"Transportation isn't convenient here.\" hoặc \"This place has poor transportation.\""
+    },
+    {
+      "where": "s-hsk2-u08-007, s-hsk2-u08-011, s-hsk2-u08-012",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Định dạng pinyin không đồng nhất với các câu khác. Ba câu này viết hoa chữ đầu, có dấu câu và ghép âm tiết (Wǒ jiā yǒu liǎng liàng zìxíngchē.). Các câu còn lại viết thường, tách từng âm tiết, không dấu câu. Nội dung thanh điệu vẫn đúng.",
+      "suggestion": "Thống nhất một định dạng, ví dụ: wǒ jiā yǒu liǎng liàng zì xíng chē."
+    },
+    {
+      "where": "s-hsk2-u08-003",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu dùng dấu \"?\" nửa chiều rộng (这儿有地铁站吗?), trong khi các câu khác dùng \"？\" toàn chiều rộng.",
+      "suggestion": "Đổi thành 这儿有地铁站吗？"
+    }
+  ],
+  "machine_warnings": [
+    "u08-giao-thong-va-di-lai.yaml:72: [sentence_unlearned_word] Câu s-hsk2-u08-007 (bài hsk2-u08-l02) dùng từ chưa học: 我家, 两辆",
+    "u08-giao-thong-va-di-lai.yaml:111: [sentence_unlearned_word] Câu s-hsk2-u08-011 (bài hsk2-u08-l03) dùng từ chưa học: 很快"
+  ],
+  "han_viet_proposed": [
+    "辆"
+  ]
+}

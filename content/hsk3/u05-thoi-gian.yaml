@@ -1,0 +1,208 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u05.json.
+id: hsk3-u05
+stage: hsk3
+order: 5
+title: Thời gian
+description: Nói về thời điểm, khoảng thời gian, quá khứ và tương lai.
+lessons:
+- id: hsk3-u05-l01
+  title: Bắt đầu, kết thúc và thời khắc
+  grammar: hsk3-g039
+  new_words:
+  - 开始
+  - 结束
+  - 直到
+  - 时
+  - 钟
+  - 时刻
+  sentences:
+  - id: s-hsk3-u05-001
+    zh: 我八点开始工作。
+    en: I start work at 8.
+    pinyin: Wǒ bā diǎn kāishǐ gōngzuò.
+  - id: s-hsk3-u05-002
+    zh: 休息结束了！
+    en: Rest time's over!
+    pinyin: xiū xī jié shù le
+    tatoeba_id: 1188449
+  - id: s-hsk3-u05-003
+    zh: 直到下周。
+    en: Until next week.
+    pinyin: zhí dào xià zhōu
+    tatoeba_id: 686739
+  - id: s-hsk3-u05-004
+    zh: 过马路时小心.
+    en: Take care when you cross the street.
+    pinyin: guò mǎ lù shí xiǎo xīn
+    tatoeba_id: 1399736
+  tips:
+    开始: '始 có âm Hán Việt là thuỷ, bộ 女 + 台. 始 đọc shǐ: sh phải uốn lưỡi, khác hẳn chữ "s" tiếng Việt.
+      Sau 开始 có thể đặt thẳng động từ: 开始工作, 开始下雨 (không cần thêm 去).'
+    结束: '结 có âm Hán Việt là kết, bộ mịch 纟 (sợi tơ): buộc sợi lại cho xong. Người Việt hay nói ~~我结束作业了~~;
+      nên dùng 我做完作业了. 结束 hợp với sự việc, sự kiện: 会议/假期/休息结束了.'
+    时: '时 có âm Hán Việt là thì. Đặt sau một cụm động từ, 时 nghĩa là "khi": 过马路时, 吃饭时. Lưu ý trật tự ngược
+      với tiếng Việt: "khi qua đường" → 过马路时, không nói ~~时过马路~~.'
+    钟: '钟 có âm Hán Việt là chung, chuông: bộ kim 钅 (kim loại) + 中. Chuông, đồng hồ treo đều làm bằng
+      kim loại. 钟 là đồng hồ treo/để bàn, còn đồng hồ đeo tay là 手表.'
+    直到: '直 đọc zhí: zh là âm uốn lưỡi, không bật hơi, cong đầu lưỡi lên vòm miệng. 直到 + thời điểm = "mãi
+      đến, cho đến tận": 直到晚上他才回家。'
+- id: hsk3-u05-l02
+  title: Lâu, rảnh rỗi và cả ngày
+  grammar: hsk3-g051
+  new_words:
+  - 久
+  - 工夫
+  - 空儿
+  - 整天
+  - 日常
+  sentences:
+  - id: s-hsk3-u05-005
+    zh: 我等了你很久！
+    en: I have waited for you for a long time!
+    pinyin: wǒ děng le nǐ hěn jiǔ
+    tatoeba_id: 382984
+  - id: s-hsk3-u05-006
+    zh: 他整天都很忙。
+    en: He is busy all day long.
+    pinyin: Tā zhěngtiān dōu hěn máng.
+  - id: s-hsk3-u05-007
+    zh: 你明天有空儿吗？
+    en: Are you free tomorrow?
+    pinyin: Nǐ míngtiān yǒu kòngr ma?
+  - id: s-hsk3-u05-008
+    zh: 我学了两年汉语。
+    en: I studied Chinese for two years.
+    pinyin: Wǒ xué le liǎng nián Hànyǔ.
+  tips:
+    久: '久 có âm Hán Việt là cửu. 久 đọc thanh 3 (jiǔ). Khi đi với 很 hay 好 (cũng thanh 3), chữ đầu đổi sang
+      thanh 2: 很久 đọc là hén jiǔ, 好久 đọc là háo jiǔ (biến điệu 3+3).'
+    空儿: '空 có âm Hán Việt là không. Khi nghĩa là "thời gian rảnh", 空 đọc thanh 4 (kòngr), còn khi nghĩa
+      là "trống rỗng" thì đọc thanh 1 (kōng). Hay dùng nhất: 有空儿 / 没空儿.'
+    整天: 整 có âm Hán Việt là chỉnh. 整天 là "suốt cả ngày", khác với 天天 là "ngày nào cũng". 他整天看电视 = anh
+      ấy xem TV cả ngày; 他天天看电视 = ngày nào anh ấy cũng xem TV.
+    工夫: '工夫 đọc gōngfu, chữ 夫 đọc thanh nhẹ. Nghĩa thường gặp là "thời gian": 我没工夫看电视 (tôi không có thời
+      gian xem TV). Đừng lẫn với 功夫 (kungfu).'
+    日常: '日常 là tính từ "thường ngày", đặt trước danh từ: 日常生活 (cuộc sống thường ngày), 日常用语. 常 đọc cháng:
+      ch uốn lưỡi và bật hơi mạnh.'
+- id: hsk3-u05-l03
+  title: Từ trước đến nay
+  grammar: hsk3-g021
+  new_words:
+  - 自从
+  - 以来
+  - 至今
+  - 从前
+  - 当初
+  - 初
+  sentences:
+  - id: s-hsk3-u05-009
+    zh: 他和从前不一样。
+    en: He is not the same as before.
+    pinyin: tā hé cóng qián bù yí yàng
+    tatoeba_id: 3710598
+  - id: s-hsk3-u05-010
+    zh: 自从上大学以来，他一直很忙。
+    en: Ever since he started university, he has been very busy.
+    pinyin: Zìcóng shàng dàxué yǐlái, tā yìzhí hěn máng.
+  - id: s-hsk3-u05-011
+    zh: 这件事我至今还记得。
+    en: I still remember this to this day.
+    pinyin: Zhè jiàn shì wǒ zhìjīn hái jìde.
+  - id: s-hsk3-u05-012
+    zh: 我当初不知道这件事。
+    en: I didn't know about this at the time.
+    pinyin: Wǒ dāngchū bù zhīdào zhè jiàn shì.
+  tips:
+    初: '初 có âm Hán Việt là sơ. Cấu tạo: bộ y 衤 (áo) + 刀 (dao). Muốn may áo, việc đầu tiên là lấy dao
+      cắt vải, nên 初 là "lúc đầu". Âm lịch: 初一, 初三 = mùng 1, mùng 3.'
+    自从: 自从 chỉ dùng cho mốc trong quá khứ, thường đi với 以来 hoặc 以后. Đừng nói ~~自从明天~~; nói về tương lai
+      thì dùng 从明天起.
+    至今: '至 có âm Hán Việt là chí, 今 có âm Hán Việt là kim. Ghép lại là "đến tận bây giờ". 至今 thường đi
+      với 还 hoặc 一直: 我至今还记得。'
+    当初: '当初 nghĩa là "hồi đó, lúc đầu", thường mang ý so sánh với bây giờ: 当初我不喜欢他，现在… 当 đọc dāng thanh
+      1, đừng đọc thành dàng.'
+    从前: '从前 (cóngqián) là "trước kia, ngày xưa". Truyện cổ tích tiếng Trung hay mở đầu bằng 从前… giống
+      câu "Ngày xửa ngày xưa…". cóng: c bật hơi mạnh, gần như "tx".'
+- id: hsk3-u05-l04
+  title: Hiện tại, tương lai và kỳ hạn
+  new_words:
+  - 将来
+  - 目前
+  - 近期
+  - 短期
+  - 长期
+  - 定期
+  - 期
+  sentences:
+  - id: s-hsk3-u05-013
+    zh: 目前我在北京工作。
+    en: I'm currently working in Beijing.
+    pinyin: Mùqián wǒ zài Běijīng gōngzuò.
+  - id: s-hsk3-u05-014
+    zh: 我将来想去中国工作。
+    en: In the future I want to work in China.
+    pinyin: Wǒ jiānglái xiǎng qù Zhōngguó gōngzuò.
+  - id: s-hsk3-u05-015
+    zh: 他要定期去医院检查身体。
+    en: He has to go to the hospital for regular check-ups.
+    pinyin: Tā yào dìngqī qù yīyuàn jiǎnchá shēntǐ.
+  - id: s-hsk3-u05-016
+    zh: 我们近期没有考试。
+    en: We don't have any exams in the near future.
+    pinyin: Wǒmen jìnqī méiyǒu kǎoshì.
+  tips:
+    期: '期 có âm Hán Việt là kì, bộ nguyệt 月: trăng tròn rồi khuyết theo chu kỳ. 期 đọc qī: q bật hơi, gần
+      với "ch" tiếng Việt và môi bẹt sang hai bên. Học 期 rồi sẽ nhận ra 长期, 短期, 近期, 定期, 学期, 假期.'
+    长期: '长 có âm Hán Việt là trường. Trong 长期, 长 đọc cháng (dài); còn trong 长大 thì đọc zhǎng (lớn lên).
+      长期 trái nghĩa với 短期: 长期计划 / 短期计划.'
+    目前: '目 có âm Hán Việt là mục, 前 có âm Hán Việt là tiền: "ngay trước mắt" nghĩa là hiện giờ. 目前 trang
+      trọng hơn 现在 một chút và thường đứng đầu câu.'
+    将来: 将 có âm Hán Việt là tướng, 来 có âm Hán Việt là lai. 将来 chỉ tương lai xa nói chung. Chuyện sắp
+      xảy ra ngay thì dùng 近期 hoặc 马上 hợp hơn.
+    定期: '定期 là "định kỳ": 定期检查 = kiểm tra định kỳ. 定 đọc dìng thanh 4; người Việt hay đọc nhầm thành "đinh"
+      ngang, cần hạ giọng dứt khoát.'
+- id: hsk3-u05-l05
+  title: Năm, thế kỷ và thời đại
+  grammar: hsk3-g011
+  new_words:
+  - 年初
+  - 年底
+  - 后年
+  - 世纪
+  - 年代
+  - 时代
+  - 现代
+  - 代
+  sentences:
+  - id: s-hsk3-u05-017
+    zh: 时代变了。
+    en: Times have changed.
+    pinyin: shí dài biàn le
+    tatoeba_id: 13952561
+  - id: s-hsk3-u05-018
+    zh: 他喜欢现代音乐。
+    en: He has a liking for modern music.
+    pinyin: tā xǐ huān xiàn dài yīn yuè
+    tatoeba_id: 845982
+  - id: s-hsk3-u05-019
+    zh: 你可以代我去吗？
+    en: Will you go in place of me?
+    pinyin: nǐ kě yǐ dài wǒ qù ma
+    tatoeba_id: 587563
+  - id: s-hsk3-u05-020
+    zh: 年底我们都很忙。
+    en: We are all very busy at the end of the year.
+    pinyin: Niándǐ wǒmen dōu hěn máng.
+  tips:
+    代: '代 có âm Hán Việt là đại, bộ nhân 亻: người này thay người kia, đời này nối đời khác. 代 là động
+      từ "thay": 代我去 = đi thay tôi. Chú ý bên phải 代 là 弋, ít hơn 戈 một nét; đừng viết nhầm thành 伐.'
+    年代: '年代 dùng để chỉ thập niên: 八十年代 = thập niên 80. Người Việt dễ dịch thành "năm 80", nhưng năm 1980
+      phải nói là 一九八〇年.'
+    世纪: 纪 có âm Hán Việt là kỉ, bộ mịch 纟 + 己. 世纪 đọc shìjì, cả hai âm đều thanh 4. sh uốn lưỡi, j không
+      uốn lưỡi, cần phân biệt rõ. 二十一世纪 = thế kỷ 21.
+    年底: 底 có âm Hán Việt là để (đáy). 年底 là "đáy của năm", tức cuối năm; ngược lại là 年初 (đầu năm). 底
+      đọc dǐ thanh 3, nói nhanh thì chỉ cần hạ thấp giọng.
+    后年: 'Nhớ theo cặp: 前年 (năm kia), 去年, 今年, 明年, 后年 (năm sau nữa). Lối ghép giống 前天, 后天 đã học.'
+- id: hsk3-u05-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

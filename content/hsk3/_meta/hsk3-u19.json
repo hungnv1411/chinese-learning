@@ -1,0 +1,36 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T13:55:56",
+  "prompt_sha256": [
+    "e8253afece58dd1d948799409300d32cd905d7f7c9676e2df7ca15f88129b8db",
+    "0498cd5e3f6698283435e84e080e8a842c13c7d03a0106daa91e8f446619c6d2"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk3-u19-l04 (tip 全面)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói 全 gồm 入 ở trên, 玉 ở dưới. Chữ 全 hiện đại viết với 王 (không có chấm) ở dưới, không phải 玉.",
+      "suggestion": "Sửa thành: 'Cấu tạo gồm 入 ở trên, 王 ở dưới.' Hoặc bỏ phần mô tả cấu tạo."
+    }
+  ],
+  "machine_warnings": [
+    "u19-so-sanh-va-muc-do.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u19-006 (bài hsk3-u19-l02) dùng từ chưa học: 这条, 河不比, 那条, 河深",
+    "u19-so-sanh-va-muc-do.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u19-007 (bài hsk3-u19-l02) dùng từ chưa học: 冷多",
+    "u19-so-sanh-va-muc-do.yaml:110: [sentence_unlearned_word] Câu s-hsk3-u19-010 (bài hsk3-u19-l03) dùng từ chưa học: 这双鞋, 不大不小, 正合适",
+    "u19-so-sanh-va-muc-do.yaml:114: [sentence_unlearned_word] Câu s-hsk3-u19-011 (bài hsk3-u19-l03) dùng từ chưa học: 这个, 不在",
+    "u19-so-sanh-va-muc-do.yaml:118: [sentence_unlearned_word] Câu s-hsk3-u19-012 (bài hsk3-u19-l03) dùng từ chưa học: 表准",
+    "u19-so-sanh-va-muc-do.yaml:148: [sentence_unlearned_word] Câu s-hsk3-u19-014 (bài hsk3-u19-l04) dùng từ chưa học: 这个",
+    "u19-so-sanh-va-muc-do.yaml:152: [sentence_unlearned_word] Câu s-hsk3-u19-015 (bài hsk3-u19-l04) dùng từ chưa học: 这是, 一个",
+    "u19-so-sanh-va-muc-do.yaml:156: [sentence_unlearned_word] Câu s-hsk3-u19-016 (bài hsk3-u19-l04) dùng từ chưa học: 这是, 一件"
+  ],
+  "han_viet_proposed": [
+    "范",
+    "较"
+  ]
+}

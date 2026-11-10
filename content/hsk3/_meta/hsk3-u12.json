@@ -1,0 +1,22 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:30:58",
+  "prompt_sha256": [
+    "3ff38d213ac23f70851a981b372308e5df74ed4a85864bc42599785ee6eb31b5",
+    "85bdaa03f6b39916f2a27b2427d1f03902cb6107b16d6cf625b37a4c19733f90",
+    "f69b10ce8076d958115717887817bbf59fc8aecd44a409ac14cad4db2fd2afe6"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u12-giai-tri-va-bieu-dien.yaml:107: [sentence_unlearned_word] Câu s-hsk3-u12-011 (bài hsk3-u12-l03) dùng từ chưa học: 很多, 这个",
+    "u12-giai-tri-va-bieu-dien.yaml:131: [sentence_unlearned_word] Câu s-hsk3-u12-012 (bài hsk3-u12-l04) dùng từ chưa học: 不是, 就是, 看电视",
+    "u12-giai-tri-va-bieu-dien.yaml:133: [sentence_pinyin_mismatch] Câu s-hsk3-u12-012: pinyin ghi 'Wǒ dìdi zhōumò bú shì wánr yóuxì, jiù shì kàn diànshì.', pypinyin cho 'wǒ dì di zhōu mò bú shì wán ér yóu xì jiù shì kàn diàn shì'",
+    "u12-giai-tri-va-bieu-dien.yaml:135: [sentence_unlearned_word] Câu s-hsk3-u12-013 (bài hsk3-u12-l04) dùng từ chưa học: 这场"
+  ],
+  "han_viet_proposed": []
+}

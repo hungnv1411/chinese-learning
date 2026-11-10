@@ -1,0 +1,126 @@
+# Sinh bằng `clp plan-units` (02-5). Có thể chỉnh tay có chủ ý trước khi soạn từng chủ đề;
+# chạy `clp check-content` sau khi sửa.
+units:
+- id: hsk1-u01
+  order: 1
+  title: Tôi, bạn và mọi người
+  description: Biết dùng đại từ nhân xưng và gọi tên các kiểu người quanh mình như bạn bè, nam nữ, trẻ
+    em, người già.
+  words: [我, 我们, 你, 你们, 您, 他, 他们, 她, 她们, 们, 谁, 人, 别人, 朋友, 朋友们, 男, 女, 男人, 女人, 男孩儿, 女孩儿, 男生, 女生, 男朋友, 女朋友,
+    小孩儿, 小朋友, 小姐, 先生, 老人, 老, 都]
+  grammar: [hsk30-g005, hsk30-g024, hsk30-g026, hsk30-g029]
+- id: hsk1-u02
+  order: 2
+  title: Chào hỏi và làm quen
+  description: Biết chào hỏi, cảm ơn, xin lỗi, giới thiệu tên mình và đặt câu hỏi có/không đơn giản.
+  words: [好, 再见, 再, 见, 谢谢, 不客气, 对不起, 没关系, 没什么, 没事儿, 没, 请, 请问, 请进, 请坐, 叫, 名字, 认识, 高兴, 介绍, 吗, 呢, 是, 是不是,
+    不, 也, 对, 不对, 不用]
+  grammar: [hsk30-g036, hsk30-g014, hsk30-g045, hsk30-g022, hsk30-g032, hsk30-g033, hsk30-g048, hsk30-g013]
+- id: hsk1-u03
+  order: 3
+  title: Số đếm và lượng từ
+  description: Biết đếm số, hỏi số lượng và dùng các lượng từ cơ bản.
+  words: [一, 二, 三, 四, 五, 六, 七, 八, 九, 十, 零, 〇, 百, 两, 半, 一半, 几, 多, 多少, 个, 本, 第, 第二, 次, 一些, 有些, 有一些, 页]
+  grammar: [hsk30-g007, hsk30-g008, hsk30-g023, hsk30-g004]
+- id: hsk1-u04
+  order: 4
+  title: Gia đình
+  description: Biết giới thiệu các thành viên trong gia đình, tuổi tác và nói nhà mình có mấy người.
+  words: [爸爸, 爸, 妈妈, 妈, 哥哥, 哥, 姐姐, 姐, 弟弟, 弟, 妹妹, 妹, 爷爷, 奶奶, 儿子, 女儿, 孩子, 家, 家里, 家人, 口, 岁, 和, 有, 没有, 爱,
+    的]
+  grammar: [hsk30-g037, hsk30-g020, hsk30-g019, hsk30-g027]
+- id: hsk1-u05
+  order: 5
+  title: Quốc gia và ngôn ngữ
+  description: Biết nói về đất nước, ngôn ngữ và khả năng nghe, nói, đọc, viết tiếng Trung của mình.
+  words: [国, 国家, 中国, 北京, 外国, 国外, 汉语, 汉字, 中文, 外语, 话, 说, 说话, 会, 能, 写, 字, 听, 读, 学, 学习, 知道, 明白, 问, 回答, 告诉,
+    有名]
+  grammar: [hsk30-g002]
+- id: hsk1-u06
+  order: 6
+  title: Thời gian và ngày tháng
+  description: Biết nói ngày, tháng, năm, thứ trong tuần, giờ giấc và các buổi trong ngày.
+  words: [年, 月, 日, 号, 天, 星期, 星期日, 星期天, 今天, 明天, 昨天, 前天, 后天, 今年, 明年, 去年, 半年, 新年, 生日, 日期, 时候, 时间, 现在, 点,
+    分, 小时, 差, 半天, 早上, 上午, 中午, 下午, 晚上, 白天]
+  grammar: [hsk30-g044, hsk30-g028]
+- id: hsk1-u07
+  order: 7
+  title: Ăn uống
+  description: Biết gọi món, nói mình muốn ăn uống gì và hỏi lựa chọn trong bữa ăn.
+  words: [吃, 吃饭, 喝, 饭, 米饭, 菜, 肉, 鸡蛋, 包子, 面包, 面条儿, 水, 水果, 茶, 牛奶, 奶, 杯, 杯子, 饿, 渴, 好吃, 早饭, 午饭, 晚饭, 饭店, 还是,
+    要, 想]
+  grammar: [hsk30-g003, hsk30-g047]
+- id: hsk1-u08
+  order: 8
+  title: Mua sắm và tiền
+  description: Biết hỏi giá, nói số tiền, mua quần áo và đồ dùng ở cửa hàng.
+  words: [买, 钱, 钱包, 块, 毛, 元, 贵, 少, 东西, 商店, 商场, 书店, 衣服, 穿, 试, 包, 给, 还有, 一点儿, 一下儿, 送, 大, 小, 新, 好看]
+  grammar: [hsk30-g043]
+- id: hsk1-u09
+  order: 9
+  title: Đây, đó và ở đâu
+  description: Biết chỉ người, vật ở gần hay xa và hỏi đường, hỏi ai đó hoặc thứ gì đang ở đâu.
+  words: [这, 那, 这儿, 那儿, 这里, 那里, 这边, 那边, 这些, 那些, 哪, 哪儿, 哪里, 哪些, 什么, 别的, 有的, 在, 找, 找到, 地方, 地图, 远, 地点]
+  grammar: [hsk30-g006, hsk30-g016, hsk30-g046]
+- id: hsk1-u10
+  order: 10
+  title: Phương hướng và vị trí
+  description: Biết mô tả vị trí trên, dưới, trước, sau, trái, phải và các hướng đông, tây, nam, bắc.
+  words: [上, 下, 里, 外, 前, 后, 左, 右, 东, 南, 西, 北, 上边, 下边, 里边, 外边, 前边, 后边, 左边, 右边, 东边, 南边, 西边, 北边, 旁边, 中间,
+    中]
+  grammar: [hsk30-g001]
+- id: hsk1-u11
+  order: 11
+  title: Nhà cửa
+  description: Biết nói về nơi mình ở, phòng ốc, đồ đạc và đưa ra yêu cầu đơn giản trong nhà như mở cửa,
+    đóng cửa.
+  words: [房子, 房间, 间, 楼, 楼上, 楼下, 干净, 床, 桌子, 门, 门口, 放, 住, 在家, 打开, 开, 关, 关上, 洗, 洗手间, 子, 拿, 重, 地上]
+  grammar: [hsk30-g034]
+- id: hsk1-u12
+  order: 12
+  title: Sinh hoạt hằng ngày và sức khỏe
+  description: Biết kể các việc hằng ngày, mức độ thường xuyên và nói khi mình mệt, bị ốm hoặc đi khám
+    bệnh.
+  words: [早, 晚, 起, 起床, 起来, 睡, 睡觉, 休息, 做, 干, 干什么, 回家, 常, 常常, 有时, 有时候, 先, 身体, 身上, 手, 病, 病人, 生病, 看病, 医生,
+    医院, 累]
+  grammar: [hsk30-g012]
+- id: hsk1-u13
+  order: 13
+  title: Trường học
+  description: Biết nói về trường lớp, giờ học, sách vở, bài thi và việc học của mình.
+  words: [学校, 学生, 学院, 大学, 大学生, 中学, 中学生, 小学, 小学生, 老师, 同学, 班, 上课, 下课, 上学, 放学, 放假, 课, 课本, 课文, 书, 书包, 本子,
+    考, 考试, 难, 错, 教, 教学楼, 图书馆, 听写, 记, 记得, 记住, 忘, 忘记, 认真, 知识, 读书]
+  grammar: [hsk30-g041]
+- id: hsk1-u14
+  order: 14
+  title: Công việc và công nghệ
+  description: Biết nói về công việc, lịch làm việc, điện thoại, máy tính và việc mình đang làm.
+  words: [工作, 工人, 上班, 下班, 开会, 忙, 请假, 电, 电话, 打电话, 手机, 电脑, 上网, 网上, 网友, 用, 有用, 重要, 事, 准备, 正, 正在, 着, 得到]
+  grammar: [hsk30-g011, hsk30-g042]
+- id: hsk1-u15
+  order: 15
+  title: Sở thích và giải trí
+  description: Biết nói về sở thích như ca hát, xem phim, chơi thể thao và làm hai việc cùng lúc.
+  words: [爱好, 喜欢, 玩儿, 好玩儿, 唱, 唱歌, 歌, 好听, 看, 电视, 电视机, 电影, 电影院, 打球, 球, 打, 跑, 动, 动作, 门票, 一边, 笑, 开玩笑, 看到,
+    看见, 听到, 听见]
+  grammar: [hsk30-g039]
+- id: hsk1-u16
+  order: 16
+  title: Thời tiết và miêu tả
+  description: Biết nói về thời tiết, miêu tả đồ vật, cảm xúc và so sánh hai sự vật.
+  words: [天气, 冷, 热, 风, 雨, 下雨, 花, 山, 树, 白, 高, 太, 非常, 真, 真的, 最, 最好, 很, 比, 一样, 不大, 坏, 觉得, 生气, 最后, 地]
+  grammar: [hsk30-g009, hsk30-g025, hsk30-g030, hsk30-g018, hsk30-g038, hsk30-g035, hsk30-g040]
+- id: hsk1-u17
+  order: 17
+  title: Đi lại
+  description: Biết nói về phương tiện giao thông, mua vé, đi đường và hỏi cách đi đến một nơi nào đó.
+  words: [车, 汽车, 火车, 飞机, 飞, 车票, 机票, 票, 车上, 车站, 站, 机场, 打车, 开车, 上车, 下车, 路, 马路, 路口, 路上, 走, 走路, 从, 到, 去, 来,
+    来到, 怎么, 快, 慢, 坐]
+  grammar: [hsk30-g015]
+- id: hsk1-u18
+  order: 18
+  title: Hẹn gặp và cùng làm
+  description: Biết rủ rê, hẹn gặp, nhờ giúp đỡ và nói về việc ra vào, đi về cùng người khác.
+  words: [见面, 等, 一起, 一块儿, 吧, 马上, 一会儿, 上次, 下次, 跟, 行, 帮, 帮忙, 别, 回, 回到, 回来, 回去, 出, 出来, 出去, 进, 进来, 进去, 过,
+    坐下, 了, 就, 还]
+  grammar: [hsk30-g010, hsk30-g017, hsk30-g021, hsk30-g031]

@@ -1,0 +1,23 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T07:59:03",
+  "prompt_sha256": [
+    "db6d91ad41fdcf742ed6ca52883dab95a8ea1d90a025c67409e551b084c6552b",
+    "9d3275959a11cf952575ff360079470c7e5950c039d2d0bff4018d1e62366a41"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u28-giai-quyet-van-de.yaml:36: [sentence_unlearned_word] Câu s-hsk2-u28-004 (bài hsk2-u28-l01) dùng từ chưa học: 这个",
+    "u28-giai-quyet-van-de.yaml:62: [sentence_unlearned_word] Câu s-hsk2-u28-006 (bài hsk2-u28-l02) dùng từ chưa học: 这个",
+    "u28-giai-quyet-van-de.yaml:66: [sentence_unlearned_word] Câu s-hsk2-u28-007 (bài hsk2-u28-l02) dùng từ chưa học: 一个",
+    "u28-giai-quyet-van-de.yaml:70: [sentence_unlearned_word] Câu s-hsk2-u28-008 (bài hsk2-u28-l02) dùng từ chưa học: 这件"
+  ],
+  "han_viet_proposed": [
+    "该"
+  ]
+}

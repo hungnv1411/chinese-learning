@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u09.json.
+id: hsk2-u09
+stage: hsk2
+order: 9
+title: Thời tiết và các mùa
+description: Người học có thể nói về thời tiết, nhiệt độ và đặc điểm của bốn mùa.
+lessons:
+- id: hsk2-u09-l01
+  title: Bốn mùa trong năm
+  new_words:
+  - 春天
+  - 夏天
+  - 秋天
+  - 冬天
+  - 凉快
+  - 凉
+  sentences:
+  - id: s-hsk2-u09-001
+    zh: 我最喜欢春天。
+    en: I like spring the best.
+    pinyin: wǒ zuì xǐ huān chūn tiān
+    tatoeba_id: 362354
+  - id: s-hsk2-u09-002
+    zh: 这里夏天非常热。
+    en: It is very hot here in summer.
+    pinyin: zhè lǐ xià tiān fēi cháng rè
+    tatoeba_id: 1397140
+  - id: s-hsk2-u09-003
+    zh: 今天很凉快。
+    en: It's cool today.
+    pinyin: jīn tiān hěn liáng kuài
+    tatoeba_id: 405263
+  - id: s-hsk2-u09-004
+    zh: 我不喜欢冬天。
+    en: I don't like winter.
+    pinyin: wǒ bù xǐ huān dōng tiān
+    tatoeba_id: 4673821
+  tips:
+    春天: '春 (chūn): ch là âm uốn lưỡi, bật hơi mạnh, đầu lưỡi cong lên chạm sau lợi trên, không đọc như
+      "ch" tiếng Việt. Chữ 春 có bộ nhật 日 (mặt trời) ở dưới: mùa xuân là lúc nắng ấm trở lại.'
+    秋天: '秋 có âm Hán Việt là thu. Chữ gồm 禾 (cây lúa) + 火 (lửa): lúa chín vàng như lửa, mùa gặt là mùa
+      thu. Đọc qiū: q bật hơi, lưỡi phẳng, gần như "ch" Việt nhưng có hơi bật ra.'
+    冬天: '冬 có âm Hán Việt là đông, giống "mùa đông". Đừng nhầm với 东 (dōng, phía đông): cùng âm, khác
+      chữ. 冬 có hai chấm phía dưới như hai giọt băng.'
+    凉快: 凉 có âm Hán Việt là lương. Bộ băng 冫 (hai chấm) bên trái chỉ cái lạnh, như trong 冷. 凉快 đọc liángkuai,
+      chữ 快 đọc thanh nhẹ. 凉快 là "mát mẻ dễ chịu", còn 凉 đứng một mình hay chỉ cảm giác lạnh/nguội, như
+      水凉了 (nước nguội rồi).
+- id: hsk2-u09-l02
+  title: Trời nắng, trời âm u, nhiều mây
+  new_words:
+  - 晴
+  - 晴天
+  - 阴
+  - 阴天
+  - 多云
+  - 云
+  sentences:
+  - id: s-hsk2-u09-005
+    zh: 今天多云。
+    en: It's cloudy today.
+    pinyin: jīn tiān duō yún
+    tatoeba_id: 4751231
+  - id: s-hsk2-u09-006
+    zh: 今天是个阴天。
+    en: Today is a cloudy day.
+    pinyin: jīn tiān shì gè yīn tiān
+    tatoeba_id: 4625757
+  - id: s-hsk2-u09-007
+    zh: 明天是晴天，很热。
+    en: Tomorrow will be a sunny day, and very hot.
+    pinyin: míng tiān shì qíng tiān hěn rè
+    tatoeba_id: 6056639
+  - id: s-hsk2-u09-008
+    zh: 今天的云比昨天多。
+    en: There's more cloud today than yesterday.
+    pinyin: jīn tiān de yún bǐ zuó tiān duō
+    tatoeba_id: 801567
+  tips:
+    晴: '晴 = 日 (mặt trời) + 青 (xanh): mặt trời và trời xanh là trời quang. Đọc qíng, thanh 2 đi lên, vần
+      -ing có âm mũi ở cuối (giống "inh" nhẹ).'
+    阴: '阴 có âm Hán Việt là âm. Chữ có 月 (mặt trăng), đối lập với 阳 có 日 (mặt trời): không thấy mặt trời
+      là trời âm u. 阴 là tính từ nên không ghép thẳng với 是: ~~今天是阴~~ → 今天是阴天 hoặc 今天阴天。'
+    云: '云 có âm Hán Việt là vân. Đọc yún: viết u nhưng phát âm là ü (tròn môi như nói "uy" nhưng giữ môi
+      tròn), vì sau y thì ü bỏ hai chấm.'
+    多云: '多云 là thuật ngữ dự báo thời tiết: "nhiều mây". Nói gọn 今天多云, không cần 很 hay 是. Đừng nói ~~今天很多云~~
+      khi muốn nói thời tiết.'
+- id: hsk2-u09-l03
+  title: Nhiệt độ và không khí
+  grammar: hsk2-g054
+  new_words:
+  - 气温
+  - 温度
+  - 度
+  - 零下
+  - 空气
+  - 吹
+  sentences:
+  - id: s-hsk2-u09-009
+    zh: 今天零下五度。
+    en: It's five degrees below zero today.
+    pinyin: Jīntiān língxià wǔ dù.
+  - id: s-hsk2-u09-010
+    zh: 明天气温十八度。
+    en: Tomorrow's temperature is eighteen degrees.
+    pinyin: Míngtiān qìwēn shíbā dù.
+  - id: s-hsk2-u09-011
+    zh: 北京今天空气很好。
+    en: The air is very good in Beijing today.
+    pinyin: běi jīng jīn tiān kōng qì hěn hǎo
+    tatoeba_id: 4704316
+  - id: s-hsk2-u09-012
+    zh: 今天吹北风，很冷。
+    en: The north wind is blowing today; it's very cold.
+    pinyin: Jīntiān chuī běifēng, hěn lěng.
+  tips:
+    零下: 'Tiếng Việt nói "âm năm độ", tiếng Trung nói 零下五度 (dưới số không năm độ): 零下 đứng trước con số.
+      Nhắc lại: 零 đọc líng, thanh 2.'
+    度: '度 có âm Hán Việt là độ. Đặt sau con số giống tiếng Việt: 二十度 (20 độ), 三十五度 (35 độ). Hỏi nhiệt
+      độ: 今天多少度？'
+    气温: '气温 là nhiệt độ không khí, dùng khi nói thời tiết. 温度 là nhiệt độ nói chung (nước, phòng, cơ thể…).
+      Nói thời tiết thì dùng cả hai đều được: 今天气温很高 / 今天温度很高.'
+    空气: 空 có âm Hán Việt là không, 气 có âm Hán Việt là khí, ghép lại thành "không khí", y như tiếng Việt.
+      气 đọc qì thanh 4, dứt khoát.
+    吹: '吹 = 口 (miệng) + 欠 (há miệng thở ra): thổi. Đọc chuī, ch uốn lưỡi bật hơi. Gió thổi: 风吹; trời có
+      gió hướng bắc: 吹北风.'
+- id: hsk2-u09-l04
+  title: Mặt trời, mặt trăng, sao và tuyết
+  new_words:
+  - 太阳
+  - 月亮
+  - 星星
+  - 天上
+  - 雪
+  - 下雪
+  sentences:
+  - id: s-hsk2-u09-013
+    zh: 太阳比月亮大。
+    en: The sun is larger than the moon.
+    pinyin: tài yáng bǐ yuè liàng dà
+    tatoeba_id: 905775
+  - id: s-hsk2-u09-014
+    zh: 天上有很多星星。
+    en: There are many stars in the sky.
+    pinyin: Tiānshàng yǒu hěn duō xīngxing.
+  - id: s-hsk2-u09-015
+    zh: 冬天经常下雪。
+    en: There's a lot of snow in the winter.
+    pinyin: dōng tiān jīng cháng xià xuě
+    tatoeba_id: 2364539
+  - id: s-hsk2-u09-016
+    zh: 我很喜欢雪。
+    en: I like snow a lot.
+    pinyin: wǒ hěn xǐ huān xuě
+    tatoeba_id: 6994073
+  tips:
+    太阳: '太 có âm Hán Việt là thái, 阳 có âm Hán Việt là dương: "thái dương". 阳 có 日 (mặt trời), còn 阴 có
+      月 (mặt trăng). Nhớ cặp này là nhớ được cả hai chữ.'
+    月亮: '亮 nghĩa là sáng, nên 月亮 là "vầng trăng sáng" = mặt trăng. Trong 月亮, 亮 thường đọc thanh nhẹ: yuèliang.
+      Lỗi hay gặp: dùng 月 một mình để chỉ mặt trăng; trong khẩu ngữ 月 thường là "tháng", mặt trăng phải
+      nói 月亮.'
+    星星: '星 có âm Hán Việt là tinh. Chữ = 日 + 生: những đốm sáng sinh ra trên trời. 星星 đọc xīngxing, chữ
+      thứ hai thanh nhẹ. Đừng nhầm với 星期 (tuần).'
+    下雪: 'Nhiều chữ có bộ vũ 雨 ở trên liên quan đến thời tiết, như 雪 (tuyết), 雷 (sấm). Giống 下雨, tuyết
+      rơi là 下雪 (động từ 下 + danh từ 雪). 雪 đọc xuě: viết u nhưng đọc ü tròn môi, thanh 3.'
+- id: hsk2-u09-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

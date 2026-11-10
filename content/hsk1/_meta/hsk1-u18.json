@@ -1,0 +1,28 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T17:16:55",
+  "prompt_sha256": [
+    "f1ae236c42a29816f60dce8ffc5e686689a483885bdfe83eadf8190194be7907",
+    "30bbd854241514d69753e8216a3092a644d3b7f190e3157907fe320750e65e8c",
+    "829505acca6cabaf6ba6a655a9dbe3579e64be59f8208bf7b15374083371e3ab"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u18-hen-gap-va-cung-lam.yaml:23: [sentence_pinyin_mismatch] Câu s-hsk1-u18-001: pinyin ghi 'Yíhuìr jiàn!', pypinyin cho 'yī huì er jiàn'",
+    "u18-hen-gap-va-cung-lam.yaml:36: [sentence_pinyin_mismatch] Câu s-hsk1-u18-004: pinyin ghi 'Děng yíhuìr, wǒ mǎshàng lái.', pypinyin cho 'děng yī huì er wǒ mǎ shàng lái'",
+    "u18-hen-gap-va-cung-lam.yaml:66: [sentence_pinyin_mismatch] Câu s-hsk1-u18-006: pinyin ghi 'Míngtiān wǒmen yíkuàir qù, xíng ma?', pypinyin cho 'míng tiān wǒ men yī kuài ér qù xíng ma'",
+    "u18-hen-gap-va-cung-lam.yaml:72: [sentence_unlearned_word] Câu s-hsk1-u18-008 (bài hsk1-u18-l02) dùng từ chưa học: 别生气, 我来",
+    "u18-hen-gap-va-cung-lam.yaml:104: [sentence_unlearned_word] Câu s-hsk1-u18-010 (bài hsk1-u18-l03) dùng từ chưa học: 昨天晚上",
+    "u18-hen-gap-va-cung-lam.yaml:113: [sentence_unlearned_word] Câu s-hsk1-u18-012 (bài hsk1-u18-l03) dùng từ chưa học: 就是",
+    "u18-hen-gap-va-cung-lam.yaml:150: [sentence_unlearned_word] Câu s-hsk1-u18-015 (bài hsk1-u18-l04) dùng từ chưa học: 请进来"
+  ],
+  "han_viet_proposed": [
+    "就",
+    "帮"
+  ]
+}

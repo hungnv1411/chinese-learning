@@ -1,0 +1,68 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T03:44:18",
+  "prompt_sha256": [
+    "cfb23931ca63d005fb37d47c72c383aefffc13881fef2a8537daafc357aa92e0",
+    "8b8be38b82ea3b1a1fa8495b8a84418504141cce110fb123ba9b4d04b77d5f85",
+    "a36686cd8f2e3fed09f70479b86586622e4f8cc858207e475c6f19acff9ac2cd"
+  ],
+  "review_unresolved": [
+    {
+      "where": "s-hsk2-u21-003",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Pinyin ghi \"dōng xī\" (nghĩa là đông tây, phương hướng). Với nghĩa \"đồ đạc\" thì 东西 đọc dōngxi, chữ 西 thanh nhẹ. Ngoài ra 放下 là fàngxia (theo từ vựng) nhưng câu ghi \"fàng xià\".",
+      "suggestion": "Sửa thành: tā fàngxia dōngxi, jiù zǒu le (hoặc \"dōng xi\", \"fàng xia\" nếu giữ kiểu tách âm tiết)."
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u21-008",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Hóa âm儿 bị tách thành âm tiết riêng: \"zhè ér wán ér\". Người học sẽ đọc thành 2 âm tiết thay vì cuốn lưỡi.",
+      "suggestion": "Sửa thành: zǒukāi! bié zài zhèr wánr."
+    },
+    {
+      "where": "s-hsk2-u21-015",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"yī xiē\" nhưng 一 đứng trước thanh 1 (些) phải đọc yì. Điều này mâu thuẫn với tip của chính bài (yìxiē).",
+      "suggestion": "Sửa thành: yì xiē xué shēng liú xià le (hoặc yìxiē xuésheng liúxia le)."
+    },
+    {
+      "where": "s-hsk2-u21-006",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"He made his way to the room\" không sát nghĩa 走进 (đi vào trong). Bản dịch này nghe như đi tới phòng, chưa chắc đã vào.",
+      "suggestion": "Đổi thành \"He walked into the room.\""
+    },
+    {
+      "where": "s-hsk2-u21-011",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"Someone's shouted my name\" là dạng viết tắt gượng (Someone has shouted). Bản dịch này không khớp tự nhiên với 有人喊我的名字.",
+      "suggestion": "Đổi thành \"Someone called my name.\" hoặc \"Someone shouted my name.\""
+    },
+    {
+      "where": "s-hsk2-u21-012",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin kết thúc bằng dấu chấm (\"zhànzhe.\") trong khi các câu khác không có dấu câu. Ngoài ra 名字 ở s-011 ghi \"míng zì\" không có thanh nhẹ (míngzi).",
+      "suggestion": "Bỏ dấu chấm cuối để thống nhất định dạng, và dùng \"míngzi\" nếu muốn thể hiện thanh nhẹ."
+    }
+  ],
+  "machine_warnings": [
+    "u21-dong-tac-va-di-chuyen.yaml:34: [sentence_unlearned_word] Câu s-hsk2-u21-004 (bài hsk2-u21-l01) dùng từ chưa học: 看看",
+    "u21-dong-tac-va-di-chuyen.yaml:117: [sentence_unlearned_word] Câu s-hsk2-u21-012 (bài hsk2-u21-l03) dùng từ chưa học: 靠着, 门站"
+  ],
+  "han_viet_proposed": [
+    "喊",
+    "碰",
+    "靠"
+  ]
+}

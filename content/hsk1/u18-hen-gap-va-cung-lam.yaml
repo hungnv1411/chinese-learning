@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u18.json.
+id: hsk1-u18
+stage: hsk1
+order: 18
+title: Hẹn gặp và cùng làm
+description: Biết rủ rê, hẹn gặp, nhờ giúp đỡ và nói về việc ra vào, đi về cùng người khác.
+lessons:
+- id: hsk1-u18-l01
+  title: 'Hẹn gặp: lần sau, lát nữa, chờ nhé'
+  grammar: hsk1-g031
+  new_words:
+  - 见面
+  - 等
+  - 吧
+  - 马上
+  - 一会儿
+  - 上次
+  - 下次
+  sentences:
+  - id: s-hsk1-u18-001
+    zh: 一会儿见！
+    en: See you soon!
+    pinyin: Yíhuìr jiàn!
+  - id: s-hsk1-u18-002
+    zh: 我在等他。
+    en: I'm waiting for him.
+    pinyin: wǒ zài děng tā
+    tatoeba_id: 1227093
+  - id: s-hsk1-u18-003
+    zh: 我们下次见面吧。
+    en: Let's meet next time.
+    pinyin: Wǒmen xià cì jiànmiàn ba.
+  - id: s-hsk1-u18-004
+    zh: 等一会儿，我马上来。
+    en: Wait a moment, I'm coming right away.
+    pinyin: Děng yíhuìr, wǒ mǎshàng lái.
+  tips:
+    见面: 见面 đã mang sẵn nghĩa "gặp mặt" nên phía sau không có tân ngữ. Không nói ~~我见面你~~ mà phải nói 我跟你见面.
+      见 có âm Hán Việt là kiến, cũng là chữ 见 trong 再见 mà bạn đã học.
+    等: 等 gồm bộ trúc ⺮ ở trên và 寺 ở dưới. děng mang thanh 3, khi nói nhanh chỉ cần hạ giọng xuống thấp,
+      không phải vòng giọng lên như dấu hỏi. Câu 等一下儿! nghĩa là "Chờ chút!".
+    吧: '吧 có bộ khẩu 口, giống các trợ từ 吗, 呢. Đặt 吧 ở cuối câu để rủ rê hoặc đề nghị, giống "nhé", "đi"
+      trong tiếng Việt: 走吧! = Đi thôi! 吧 đọc thanh nhẹ, ngắn và nhẹ.'
+    上次: 'Tiếng Trung dùng 上 (trên) để chỉ "trước" và 下 (dưới) để chỉ "sau": 上次 là lần trước, 下次 là lần
+      sau. Cứ hình dung lật lịch từ trên xuống dưới là nhớ. 马上 cũng có chữ 上 nhưng nghĩa là "ngay lập
+      tức".'
+- id: hsk1-u18-l02
+  title: Cùng nhau và nhờ giúp đỡ
+  grammar: hsk1-g010
+  new_words:
+  - 一起
+  - 一块儿
+  - 帮
+  - 帮忙
+  - 别
+  - 行
+  sentences:
+  - id: s-hsk1-u18-005
+    zh: 一起来吧。
+    en: Come along.
+    pinyin: yì qǐ lái ba
+    tatoeba_id: 3499679
+  - id: s-hsk1-u18-006
+    zh: 明天我们一块儿去，行吗？
+    en: Let's go together tomorrow, OK?
+    pinyin: Míngtiān wǒmen yíkuàir qù, xíng ma?
+  - id: s-hsk1-u18-007
+    zh: 你能帮我吗？
+    en: Can you help me?
+    pinyin: Nǐ néng bāng wǒ ma?
+  - id: s-hsk1-u18-008
+    zh: 别生气，我来帮忙。
+    en: Don't be angry, I'll help.
+    pinyin: Bié shēngqì, wǒ lái bāngmáng.
+  tips:
+    一起: 'Người Việt quen nói "đi cùng nhau" nên dễ viết sai thành ~~我们去一起~~. Trong tiếng Trung, 一起 phải
+      đứng trước động từ: 我们一起去. Lưu ý biến điệu: 一 đứng trước 起 (thanh 3) thì đọc thành yì qǐ.'
+    一块儿: '一块儿 cùng nghĩa với 一起 nhưng mang tính khẩu ngữ hơn, người miền Bắc Trung Quốc dùng nhiều. 一
+      đứng trước 块 (thanh 4) thì đổi sang thanh 2: yíkuàir. Âm 儿 là động tác uốn lưỡi ngay cuối âm, không
+      tách ra thành một tiếng riêng.'
+    帮忙: 帮忙 không mang tân ngữ trực tiếp. Không nói ~~帮忙我~~ mà nói 帮我 hoặc 帮我的忙. Chữ 忙 có bộ tâm 忄, cũng
+      chính là chữ 忙 (bận) mà bạn đã học.
+    别: '别 + động từ nghĩa là "đừng": 别走! = Đừng đi! Chữ 别 có bộ đao 刂 ở bên phải. Người Việt hay nói thừa
+      thành ~~不要别~~, thực ra chỉ cần 别 hoặc 不要 là đủ.'
+- id: hsk1-u18-l03
+  title: 'Trở về, đi qua: đã xong chưa?'
+  grammar: hsk1-g021
+  new_words:
+  - 回
+  - 回到
+  - 回来
+  - 回去
+  - 过
+  - 了
+  - 就
+  - 还
+  sentences:
+  - id: s-hsk1-u18-009
+    zh: 我回来了。
+    en: I'm back.
+    pinyin: wǒ huí lái le
+    tatoeba_id: 591712
+  - id: s-hsk1-u18-010
+    zh: 他昨天晚上回到了北京。
+    en: He got back to Beijing last night.
+    pinyin: Tā zuótiān wǎnshang huídàole Běijīng.
+  - id: s-hsk1-u18-011
+    zh: 我还没吃。
+    en: I haven't eaten yet.
+    pinyin: wǒ hái méi chī
+    tatoeba_id: 420110
+  - id: s-hsk1-u18-012
+    zh: 过了马路就是学校。
+    en: Once you cross the road, there's the school.
+    pinyin: Guòle mǎlù jiù shì xuéxiào.
+  tips:
+    回来: 'Đi về phía người nói thì dùng 来, đi xa khỏi người nói thì dùng 去. Mẹ ở nhà gọi: 回来吧! (Về đây
+      đi!). Bạn đang ở trường thì nói với bạn bè: 我回去了 (Tớ về đây). 回 có âm Hán Việt là hồi, 来 có âm Hán
+      Việt là lai, 去 có âm Hán Việt là khứ.'
+    了: Lỗi hay gặp là vẫn giữ 了 khi phủ định. Muốn nói "chưa ăn" thì không nói ~~我没吃了~~ mà nói 我没吃 hoặc
+      我还没吃. Phủ định việc đã xảy ra thì dùng 没 và bỏ 了. 了 ở đây đọc thanh nhẹ le.
+    还: '还 có hai cách đọc: hái nghĩa là "vẫn, còn" (还没 = vẫn chưa), huán nghĩa là "trả lại". Trong bài
+      này đọc là hái. Các chữ 还, 过, 进 đều có bộ sước 辶 (bộ đi lại), nên đều liên quan tới việc di chuyển.'
+    就: '就 gồm 京 bên trái và 尤 bên phải. Vần iu thực chất là iou, vì vậy jiù khi đọc phải tròn môi ở cuối.
+      就 dùng để nhấn mạnh "ngay, liền, chính là": 现在就做! = Làm ngay bây giờ!'
+- id: hsk1-u18-l04
+  title: Ra vào cùng người khác
+  grammar: hsk1-g017
+  new_words:
+  - 跟
+  - 出
+  - 出来
+  - 出去
+  - 进
+  - 进来
+  - 进去
+  - 坐下
+  sentences:
+  - id: s-hsk1-u18-013
+    zh: 跟我们来。
+    en: Come with us.
+    pinyin: gēn wǒ men lái
+    tatoeba_id: 778962
+  - id: s-hsk1-u18-014
+    zh: 她出去了
+    en: She went out.
+    pinyin: tā chū qù le
+    tatoeba_id: 7812138
+  - id: s-hsk1-u18-015
+    zh: 请进来，坐下吧。
+    en: Please come in and sit down.
+    pinyin: Qǐng jìnlái, zuòxia ba.
+  - id: s-hsk1-u18-016
+    zh: 我跟他一起出去吃饭。
+    en: I'm going out to eat with him.
+    pinyin: Wǒ gēn tā yìqǐ chūqù chīfàn.
+  tips:
+    跟: '跟 có bộ túc 足 (chân) ở bên trái: chân bước theo sau người khác, nên 跟 nghĩa là "theo, cùng với".
+      Cụm 跟 + người phải đứng trước động từ: 我跟他去. Không nói ~~我去跟他~~.'
+    出: 'Chữ 出 trông như hai chữ 山 chồng lên nhau. ch trong chū là âm uốn lưỡi và bật hơi: cong đầu lưỡi
+      lên rồi đẩy mạnh hơi ra, khác hẳn âm "ch" của tiếng Việt. 出 có âm Hán Việt là xuất.'
+    进去: 进来 là "đi vào (về phía mình)", còn 进去 là "đi vào (xa khỏi mình)". Đang ở trong phòng mời khách
+      thì nói 请进来, đứng ngoài cửa giục bạn thì nói 你进去吧. 进 có âm Hán Việt là tiến, gồm bộ sước 辶 bao lấy
+      chữ 井.
+    坐下: Trong 坐下, chữ 下 đọc thanh nhẹ (zuò xia) và chỉ hướng "xuống". Câu mời lịch sự là 请坐下, nói gọn
+      là 请坐. Chữ 坐 trông như hai người (人人) ngồi trên mặt đất (土), rất dễ nhớ.
+- id: hsk1-u18-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

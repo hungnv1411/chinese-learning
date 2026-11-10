@@ -43,7 +43,7 @@ Phần còn lại lớn nhất là **M6 (học)** và **M7 (lộ trình/Hôm nay
 - Monorepo, Docker Compose (Caddy, web, speech, db, backup), Postgres + Drizzle (4 migration), Better Auth (Google), API utilities, GuestStore.
 - **Pipeline dữ liệu trong DB dev:** CC-CEDICT 125.356 mục · HSK 2021 (11.109 từ, 3.000 chữ, 573 ngữ pháp) · 3.000 chữ có nét và Hán Việt (Unihan) · 214 bộ thủ · 61.896 câu Tatoeba có cấp HSK và liên kết từ · báo cáo `report.md`.
 - **Hệ thống nội dung (02):** hợp đồng JSON zod ↔ Pydantic, đọc YAML báo lỗi `file:dòng`, 30+ quy tắc chặn/cảnh báo, chuẩn hóa + bố cục mặc định + ghi DB một transaction, báo cáo độ phủ + điều kiện mở bài kiểm tra cuối, kiểm tra đối chiếu (pinyin, Tatoeba, Hán Việt).
-- **Soạn nội dung bằng AI (02-5, 02-6):** `plan-units`, `author-unit`, rà soát bằng model khác, vòng sửa tối đa 2 lần. Đã viết và test bằng model giả; gọi Claude qua Claude Code CLI (`claude -p`, dịch vụ `py-claude`, không cần API key); đã thử một lượt nhỏ thật, **chưa chạy cả chủ đề thật**.
+- **Soạn nội dung bằng AI (02-5, 02-6):** `plan-units`, `author-unit`, rà soát bằng model khác, vòng sửa tối đa 2 lần. Đã viết và test bằng model giả; gọi Claude qua Claude Code CLI (`claude -p`, dịch vụ `py-claude`, không cần API key); đã soạn thật **36 chủ đề HSK 3** (`content/hsk3/`, `check-content`: 0 lỗi, 432 cảnh báo; đã sửa hết mục rà soát tồn đọng của HSK 1–3). LEDGER 02-D4 vẫn ⬜ vì chưa duyệt tay và chưa nạp DB.
 - **Core thuần:** `pinyin`, `sandhi`, `classifyQuery`, `parsePinyinQuery`, `writingScore`, hợp đồng nội dung.
 
 ## 4. Chưa làm và đang chờ

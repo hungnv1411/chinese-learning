@@ -1,0 +1,41 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-08T17:03:34",
+  "prompt_sha256": [
+    "08a28d42c2b1ece11f2b7015f5d5702aaaca6971da18ac676de7f036b1c3b060"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u14-010",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu kết thúc bằng dấu chấm ASCII '.' thay vì dấu câu tiếng Trung '。', không đồng nhất với các câu khác.",
+      "suggestion": "Sửa thành: 我正拿着书。"
+    },
+    {
+      "where": "s-hsk1-u14-001",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu dùng dấu hỏi ASCII '?' thay vì '？' như các câu khác.",
+      "suggestion": "Sửa thành: 你做什么工作？"
+    },
+    {
+      "where": "hsk1-u14-l01 (tip 工作)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Mẹo nói z 'đọc như ch nhẹ' dễ gây hiểu nhầm, vì ch tiếng Việt gần với zh/ch hơn là z.",
+      "suggestion": "Nói z gần 'tsơ/dz', đầu lưỡi chạm sau răng trên, không bật hơi, khác với zh uốn lưỡi."
+    }
+  ],
+  "machine_warnings": [
+    "u14-cong-viec-va-cong-nghe.yaml:155: [sentence_unlearned_word] Câu s-hsk1-u14-016 (bài hsk1-u14-l04) dùng từ chưa học: 本书"
+  ],
+  "han_viet_proposed": [
+    "电"
+  ]
+}

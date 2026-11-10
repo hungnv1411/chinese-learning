@@ -1,0 +1,202 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u32.json.
+id: hsk3-u32
+stage: hsk3
+order: 32
+title: Kinh tế và kinh doanh
+description: Nói về sản xuất, buôn bán, thị trường, tiêu dùng và chi phí.
+lessons:
+- id: hsk3-u32-l01
+  title: Nhà máy và sản xuất
+  new_words:
+  - 厂
+  - 工厂
+  - 工业
+  - 生产
+  - 制造
+  - 制作
+  - 加工
+  sentences:
+  - id: s-hsk3-u32-001
+    zh: 我父亲在工厂工作。
+    en: My father works at a factory.
+    pinyin: wǒ fù qīn zài gōng chǎng gōng zuò
+    tatoeba_id: 2255509
+  - id: s-hsk3-u32-002
+    zh: 汽车在汽车工厂里生产。
+    en: Automobiles are made in factories.
+    pinyin: qì chē zài qì chē gōng chǎng lǐ shēng chǎn
+    tatoeba_id: 2599850
+  - id: s-hsk3-u32-003
+    zh: 许多人在工业城市工作。
+    en: Many people work in industrial towns.
+    pinyin: xǔ duō rén zài gōng yè chéng shì gōng zuò
+    tatoeba_id: 332869
+  - id: s-hsk3-u32-004
+    zh: 我在制作电影。
+    en: I'm making a movie.
+    pinyin: wǒ zài zhì zuò diàn yǐng
+    tatoeba_id: 6583881
+  tips:
+    厂: '厂 có âm Hán Việt là xưởng. Chữ chỉ có bộ hán (giống mái vách đá che phía trên) – hình dung một
+      nhà xưởng có mái. Đọc chǎng: ch uốn lưỡi và bật hơi mạnh, thanh 3 xuống thấp rồi lên, đừng đọc thành
+      dấu hỏi ngắn kiểu tiếng Việt.'
+    制造: '制造 thường dùng cho sản xuất công nghiệp (制造汽车), và còn có nghĩa ''gây ra'' (制造麻烦). 制作 dùng cho
+      đồ làm thủ công, phim ảnh, chương trình (制作电影). Phát âm: 制 zhì uốn lưỡi, 造 zào không uốn lưỡi –
+      đừng đọc lẫn.'
+    生产: '产 có âm Hán Việt là sản, 生 có âm Hán Việt là sinh. 生产 nghĩa là sản xuất, nhưng nói về phụ nữ
+      thì còn nghĩa là ''sinh con'' (她最近生产了). shēng chǎn: cả sh và ch đều uốn lưỡi.'
+    加工: '加 có âm Hán Việt là gia, gồm 力 (sức) + 口 (miệng): thêm sức vào. 加工 = chế biến, gia công nguyên
+      liệu thành sản phẩm. Thường dùng: 加工食品 (thực phẩm chế biến).'
+- id: hsk3-u32-l02
+  title: Kinh tế và thị trường
+  grammar: hsk3-g065
+  new_words:
+  - 经济
+  - 发达
+  - 富
+  - 市场
+  - 需求
+  - 消费
+  sentences:
+  - id: s-hsk3-u32-005
+    zh: 经济怎么样？
+    en: How is the economy?
+    pinyin: jīng jì zěn me yàng
+    tatoeba_id: 10340656
+  - id: s-hsk3-u32-006
+    zh: 我正在大学里读经济。
+    en: I'm studying economics in college.
+    pinyin: wǒ zhèng zài dà xué lǐ dú jīng jì
+    tatoeba_id: 334302
+  - id: s-hsk3-u32-007
+    zh: 这个城市的经济很发达，并且消费需求很大。
+    en: This city's economy is well developed, and consumer demand is high.
+    pinyin: Zhège chéngshì de jīngjì hěn fādá, bìngqiě xiāofèi xūqiú hěn dà.
+  - id: s-hsk3-u32-008
+    zh: 有什么办法呢？这些都是市场决定的。
+    en: What can be done? These are market forces.
+    pinyin: yǒu shén me bàn fǎ ne zhè xiē dōu shì shì chǎng jué dìng de
+    tatoeba_id: 13953449
+  tips:
+    发达: 'Lỗi hay gặp: dùng 是 với tính từ. Sai: ~~经济是发达~~ → Đúng: 经济很发达. 发 có âm Hán Việt là phát, 达 có
+      âm Hán Việt là đạt. 达 có bộ sước 辶 (đi), gợi ý ''đi tới nơi''.'
+    富: '富 có âm Hán Việt là phú. Cấu tạo: 宀 (mái nhà) + 畐 (hình cái bình đầy) → nhà có bình đầy của cải
+      = giàu. Đọc fù: f giống ''ph'' tiếng Việt, thanh 4 dứt khoát.'
+    需求: '需求 nghĩa là nhu cầu (phía ''cầu'' trong cung – cầu). 需 có bộ vũ 雨 (mưa) ở trên + 而. xūqiú: u
+      sau x thực ra là ü (tròn môi như nói ''uy'' mà giữ nguyên khẩu hình), q bật hơi mạnh, không đọc
+      như ''qu'' tiếng Việt.'
+    消费: '消 có âm Hán Việt là tiêu, 费 có âm Hán Việt là phí. 消费 = tiêu dùng. 消 có bộ thủy 氵: tiêu đi như
+      nước chảy. xiāo: x đọc nhẹ, đầu lưỡi chạm răng dưới, không phải ''s'' tiếng Việt.'
+- id: hsk3-u32-l03
+  title: Buôn bán và kinh doanh
+  new_words:
+  - 商业
+  - 商品
+  - 生意
+  - 经营
+  - 开业
+  sentences:
+  - id: s-hsk3-u32-009
+    zh: 生意怎么样？
+    en: How's business?
+    pinyin: shēng yì zěn me yàng
+    tatoeba_id: 431126
+  - id: s-hsk3-u32-010
+    zh: 英语在商业中很有用。
+    en: English is useful in commerce.
+    pinyin: yīng yǔ zài shāng yè zhōng hěn yǒu yòng
+    tatoeba_id: 811904
+  - id: s-hsk3-u32-011
+    zh: 那家公司由我的哥哥经营。
+    en: That company is managed by my older brother.
+    pinyin: nà jiā gōngsī yóu wǒ de gēge jīngyíng.
+  - id: s-hsk3-u32-012
+    zh: 这家商店明天开业。
+    en: This shop opens tomorrow.
+    pinyin: Zhè jiā shāngdiàn míngtiān kāiyè.
+  tips:
+    经营: '经 có âm Hán Việt là kinh. 经营 là động từ: điều hành, làm ăn, kinh doanh (经营一家饭馆). Còn ''ngành
+      thương mại'' nói là 商业. 营 có bộ thảo 艹 ở trên, đọc yíng thanh 2.'
+    生意: '生意 đọc shēngyi, chữ sau thường đọc thanh nhẹ. Động từ đi kèm là 做: 做生意 = làm ăn, buôn bán. Hỏi
+      thăm người buôn bán: 生意怎么样？'
+    商品: 品 có âm Hán Việt là phẩm, gồm ba chữ 口 xếp chồng – nhiều món hàng bày ra. 商 có âm Hán Việt là
+      thương. 商品 = hàng hóa; lượng từ thường dùng 件 hoặc 种.
+    开业: '开业 không mang tân ngữ phía sau. Sai: ~~开业商店~~ → Đúng: 商店开业 (cửa hàng khai trương). 开 có âm Hán
+      Việt là khai, 业 có âm Hán Việt là nghiệp.'
+- id: hsk3-u32-l04
+  title: Giao dịch, vốn và vận tải
+  new_words:
+  - 交易
+  - 谈判
+  - 资金
+  - 价值
+  - 石油
+  - 运输
+  sentences:
+  - id: s-hsk3-u32-013
+    zh: 谈判没有成功。
+    en: The negotiations were not successful.
+    pinyin: Tánpàn méiyǒu chénggōng.
+  - id: s-hsk3-u32-014
+    zh: 我看你该做这交易。
+    en: I think you should make the deal.
+    pinyin: wǒ kàn nǐ gāi zuò zhè jiāo yì
+    tatoeba_id: 5576798
+  - id: s-hsk3-u32-015
+    zh: 那部电影有看的价值。
+    en: That movie is worth seeing.
+    pinyin: nà bù diàn yǐng yǒu kàn de jià zhí
+    tatoeba_id: 2029444
+  - id: s-hsk3-u32-016
+    zh: 石油运输需要很多资金。
+    en: Transporting oil requires a lot of capital.
+    pinyin: Shíyóu yùnshū xūyào hěn duō zījīn.
+  tips:
+    谈判: '谈 có âm Hán Việt là đàm, 判 có âm Hán Việt là phán. 谈 có bộ ngôn 讠 (lời nói) + 炎; 判 có 半 (một
+      nửa) + 刂 (dao): chia đôi phân xử. tán (thanh 2) + pàn (thanh 4), tổng cộng hai âm tiết.'
+    交易: '交 có âm Hán Việt là giao, 易 có âm Hán Việt là dịch. Lượng từ của 交易 là 笔: 一笔交易. Động từ đi kèm:
+      做交易.'
+    运输: '运 có âm Hán Việt là vận, 输 có âm Hán Việt là thâu. 输 có bộ xa 车 (xe) – chở bằng xe. Lưu ý 输 một
+      mình còn nghĩa ''thua'' (输了比赛). yùnshū: yùn đọc tròn môi như ü.'
+    价值: 'Đừng nhầm 价值 (giá trị) với 价格 (giá cả). 价 có âm Hán Việt là giá; 价 và 值 đều có bộ nhân 亻. Mẫu
+      hay dùng: 有……的价值 (đáng để…), ví dụ 有看的价值 = đáng xem.'
+- id: hsk3-u32-l05
+  title: Phí, chi phí và tiết kiệm
+  new_words:
+  - 存
+  - 费
+  - 费用
+  - 交费
+  - 收费
+  sentences:
+  - id: s-hsk3-u32-017
+    zh: 我打算存更多钱。
+    en: I'm going to save more money.
+    pinyin: wǒ dǎ suàn cún gèng duō qián
+    tatoeba_id: 502906
+  - id: s-hsk3-u32-018
+    zh: 我们建议提高收费。
+    en: We suggest raising the fees.
+    pinyin: wǒ men jiàn yì tí gāo shōu fèi
+    tatoeba_id: 810072
+  - id: s-hsk3-u32-019
+    zh: 那些钱足够支付费用。
+    en: That's enough money to cover the expenses.
+    pinyin: nà xiē qián zú gòu zhī fù fèi yòng
+    tatoeba_id: 895773
+  - id: s-hsk3-u32-020
+    zh: 请先去那边交费。
+    en: Please go over there to pay the fee first.
+    pinyin: Qǐng xiān qù nàbiān jiāofèi.
+  tips:
+    费: '费 có âm Hán Việt là phí. Phần dưới là bộ bối 贝 (vỏ sò – tiền ngày xưa), nên chữ liên quan đến
+      tiền. 费 còn là động từ ''tốn'': 费时间, 费钱. Đọc fèi thanh 4.'
+    交费: 'Phân biệt theo người làm: người trả tiền thì 交费 (nộp phí), bên nhận tiền thì 收费 (thu phí). 收
+      có âm Hán Việt là thu, 交 có âm Hán Việt là giao.'
+    费用: '费用 đọc fèiyong, chữ 用 thường đọc thanh nhẹ. Đây là danh từ ''chi phí''; không dùng làm động từ.
+      Hỏi: 费用是多少？'
+    存: '存 có âm Hán Việt là tồn. 存钱 = gửi/để dành tiền. Đọc cún: c đọc như ''ts'' kèm bật hơi mạnh, không
+      phải ''c'' (k) tiếng Việt.'
+- id: hsk3-u32-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

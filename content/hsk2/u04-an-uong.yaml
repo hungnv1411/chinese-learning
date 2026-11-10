@@ -1,0 +1,204 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u04.json.
+id: hsk2-u04
+stage: hsk2
+order: 4
+title: Ăn uống
+description: Người học có thể gọi món ở nhà hàng, nói về các bữa ăn, món ăn và mùi vị.
+lessons:
+- id: hsk2-u04-l01
+  title: 'Các bữa ăn: sáng, trưa, tối, món Trung, món Tây'
+  new_words:
+  - 早餐
+  - 午餐
+  - 晚餐
+  - 中餐
+  - 西餐
+  - 快餐
+  sentences:
+  - id: s-hsk2-u04-001
+    zh: 你早餐吃什么？
+    en: What do you have for breakfast?
+    pinyin: nǐ zǎo cān chī shén me
+    tatoeba_id: 334256
+  - id: s-hsk2-u04-002
+    zh: 你晚餐想吃什么?
+    en: What would you like for supper?
+    pinyin: nǐ wǎn cān xiǎng chī shén me
+    tatoeba_id: 864416
+  - id: s-hsk2-u04-003
+    zh: 你喜欢中餐还是西餐？
+    en: Do you prefer Chinese food or Western food?
+    pinyin: Nǐ xǐhuan zhōngcān háishi xīcān?
+  - id: s-hsk2-u04-004
+    zh: 我中午常常吃快餐。
+    en: I often eat fast food at noon.
+    pinyin: Wǒ zhōngwǔ chángcháng chī kuàicān.
+  tips:
+    早餐: 早 có âm Hán Việt là tảo (sớm). 早餐, 午餐, 晚餐 nghĩa giống 早饭, 午饭, 晚饭 đã học nhưng trang trọng hơn,
+      hay gặp ở khách sạn, thực đơn. Nói chuyện hằng ngày thì 早饭 nghe tự nhiên hơn.
+    午餐: '餐 đọc là cān: âm c đọc như "ts" kèm bật hơi mạnh, không đọc như chữ c (= k) trong tiếng Việt.
+      午 có âm Hán Việt là ngọ (buổi trưa).'
+    中餐: '中 có âm Hán Việt là trung, 西 có âm Hán Việt là tây → 中餐 là món Trung, 西餐 là món Tây. Chú ý: 中餐
+      còn có thể là bữa trưa (giống 午餐), nghe ngữ cảnh để hiểu.'
+    快餐: 快 có âm Hán Việt là khoái, nghĩa là "nhanh" → 快餐 là đồ ăn nhanh. Chữ 餐 ở bên dưới có bộ 食 (đồ
+      ăn), nhìn thấy là biết chữ này liên quan đến bữa ăn.
+- id: hsk2-u04-l02
+  title: 'Ở nhà hàng: thực đơn, đồ ăn mang về'
+  new_words:
+  - 饭馆
+  - 菜单
+  - 外卖
+  - 方便面
+  - 饺子
+  sentences:
+  - id: s-hsk2-u04-005
+    zh: 请给我菜单。
+    en: Please show me the menu.
+    pinyin: qǐng gěi wǒ cài dān
+    tatoeba_id: 713003
+  - id: s-hsk2-u04-006
+    zh: 这家饭馆的饺子很好吃。
+    en: The dumplings at this restaurant are delicious.
+    pinyin: Zhè jiā fànguǎn de jiǎozi hěn hǎochī.
+  - id: s-hsk2-u04-007
+    zh: 今天太忙了，我们叫外卖吧。
+    en: We're too busy today, let's order takeout.
+    pinyin: Jīntiān tài máng le, wǒmen jiào wàimài ba.
+  - id: s-hsk2-u04-008
+    zh: 我晚上常常吃方便面。
+    en: I often eat instant noodles in the evening.
+    pinyin: Wǒ wǎnshang chángcháng chī fāngbiànmiàn.
+  tips:
+    饭馆: '馆 có âm Hán Việt là quán → 饭馆 là quán ăn (饭 là cơm, bữa ăn, từ đã học). Hai chữ đều có bộ 饣 (bộ
+      thực, liên quan đến ăn uống) bên trái. Đếm nhà hàng dùng 家: 一家饭馆.'
+    菜单: '单 có âm Hán Việt là đơn; 菜 là món ăn (từ đã học) → 菜单 là thực đơn. 单 đọc dān thanh 1, giữ giọng
+      cao và đều. Mẫu câu hay dùng ở nhà hàng: 请给我菜单 (cho tôi xem thực đơn).'
+    外卖: 'Đừng nhầm 卖 mài (bán, thanh 4) với 买 mǎi (mua, thanh 3). Mẹo nhớ: 卖 có thêm chữ 十 trên đầu 买.
+      外 có âm Hán Việt là ngoại, 卖 có âm Hán Việt là mại → 外卖 là đồ ăn mang đi, giao tận nơi. Gọi đồ ăn
+      giao tận nơi nói là 叫外卖.'
+    饺子: '饺子 đọc jiǎozi: 饺 thanh 3, 子 đọc nhẹ, ngắn (thanh nhẹ). Chữ 饺 gồm bộ 饣 (đồ ăn) + 交 (cũng gợi âm
+      jiāo), nên dễ đoán cách đọc.'
+    方便面: '方便 nghĩa là tiện lợi (便 có âm Hán Việt là tiện), 面 là mì → 方便面 là mì ăn liền. Lưu ý: 便 ở đây
+      đọc biàn, không đọc pián.'
+- id: hsk2-u04-l03
+  title: 'Nguyên liệu: gà, cá, trứng, gạo, mì, dầu'
+  grammar: hsk2-g043
+  new_words:
+  - 鸡
+  - 鱼
+  - 蛋
+  - 米
+  - 面
+  - 油
+  sentences:
+  - id: s-hsk2-u04-009
+    zh: 肉还是鱼？
+    en: Meat or fish?
+    pinyin: ròu hái shì yú
+    tatoeba_id: 1358670
+  - id: s-hsk2-u04-010
+    zh: 我经常吃鸡。
+    en: I often eat chicken.
+    pinyin: wǒ jīng cháng chī jī
+    tatoeba_id: 6624685
+  - id: s-hsk2-u04-011
+    zh: 你们国家的人吃米饭吗？
+    en: Do people in your country eat rice?
+    pinyin: Nǐmen guójiā de rén chī mǐfàn ma?
+  - id: s-hsk2-u04-012
+    zh: 我去商店买了米、面、油什么的。
+    en: I went to the store and bought rice, flour, oil and so on.
+    pinyin: Wǒ qù shāngdiàn mǎile mǐ, miàn, yóu shénmede.
+  tips:
+    鱼: '鱼 yú có nguyên âm ü: miệng đặt như khi đọc "i" rồi chu tròn môi. Không đọc thành "diu"
+      hay "du" như kiểu tiếng Việt. 鱼 có âm Hán Việt là ngư.'
+    鸡: Bên phải chữ 鸡 là 鸟 (chim), nên chữ này chỉ loài gia cầm. 鸡 + 蛋 = 鸡蛋 (trứng gà), từ bạn đã học.
+      鸡 đọc jī thanh 1, giữ giọng cao và đều.
+    米: '米 là gạo chưa nấu. Cơm đã nấu chín là 米饭. Lỗi hay gặp: ~~我吃米~~ khi muốn nói ăn cơm → 我吃米饭. 米 còn
+      có nghĩa là mét: 一百米.'
+    油: 油 có âm Hán Việt là du (như trong 石油 = thạch du), nghĩa là dầu, mỡ. Bộ 氵 (nước) bên trái cho biết đây là chất lỏng. Đọc yóu thanh 2, giọng
+      đi lên, không đọc xuống như dấu huyền.
+    蛋: Đứng một mình 蛋 là quả trứng nói chung. Khi nói trứng gà thì dùng 鸡蛋 cho rõ nghĩa. Bên dưới chữ
+      có 虫 (con trùng), nên dễ nhận ra chữ này.
+- id: hsk2-u04-l04
+  title: Bát đũa, chai lọ và nâng ly
+  new_words:
+  - 筷子
+  - 碗
+  - 瓶
+  - 瓶子
+  - 酒
+  - 干杯
+  sentences:
+  - id: s-hsk2-u04-013
+    zh: 筷子怎么用？
+    en: How do I use chopsticks?
+    pinyin: kuài zi zěn me yòng
+    tatoeba_id: 2257020
+  - id: s-hsk2-u04-014
+    zh: 请打开瓶子。
+    en: Please open the bottle.
+    pinyin: qǐng dǎ kāi píng zi
+    tatoeba_id: 819481
+  - id: s-hsk2-u04-015
+    zh: 我要一碗米饭、一瓶水。
+    en: I'd like a bowl of rice and a bottle of water.
+    pinyin: Wǒ yào yì wǎn mǐfàn, yì píng shuǐ.
+  - id: s-hsk2-u04-016
+    zh: 来，大家干杯！
+    en: Come on, everyone, cheers!
+    pinyin: Lái, dàjiā gānbēi!
+  tips:
+    筷子: 'Chữ 筷 gồm bộ trúc ⺮ (tre, vì đũa làm bằng tre) ở trên và 快 ở dưới. 快 cũng gợi cách đọc kuài.
+      Đếm đũa theo đôi dùng 双: 一双筷子.'
+    碗: '碗 wǎn đọc giống hệt 晚 (tối), đều thanh 3. Bộ 石 (đá) bên trái gợi ý bát làm bằng sứ, gốm. 碗 vừa
+      là danh từ vừa làm lượng từ: 一碗米饭 (một bát cơm). Biến điệu: 一 trước thanh 3 đọc yì.'
+    瓶: '瓶 có âm Hán Việt là bình. 瓶 dùng làm lượng từ: 一瓶水, 两瓶酒. Còn 瓶子 là danh từ "cái chai", không dùng
+      làm lượng từ: không nói ~~一瓶子水~~ theo nghĩa "một chai nước".'
+    酒: Chữ 酒 gồm 氵 (chất lỏng) + 酉 (hình cái vò đựng rượu). Đọc jiǔ thanh 3. 酒 là đồ uống có cồn nói chung,
+      không chỉ rượu mạnh.
+    干杯: 干 ở đây đọc gān (thanh 1, nghĩa là khô, cạn), khác 干 gàn trong 干什么. 杯 có âm Hán Việt là bôi. 干杯
+      = cạn ly, nói khi nâng ly mời nhau.
+- id: hsk2-u04-l05
+  title: Mùi vị, chín tới và no bụng
+  grammar: hsk2-g062
+  new_words:
+  - 味道
+  - 闻
+  - 熟
+  - 饱
+  - 食物
+  sentences:
+  - id: s-hsk2-u04-017
+    zh: 不，谢谢，我饱了。
+    en: No more, thank you. I'm full.
+    pinyin: bù xiè xiè wǒ bǎo le
+    tatoeba_id: 430995
+  - id: s-hsk2-u04-018
+    zh: 你闻闻，味道好吗？
+    en: Smell it. Does it smell good?
+    pinyin: Nǐ wénwen, wèidào hǎo ma?
+  - id: s-hsk2-u04-019
+    zh: 肉还没熟，你先喝点儿水，再吃吧。
+    en: The meat isn't cooked yet. Have some water first, then eat.
+    pinyin: Ròu hái méi shú, nǐ xiān hē diǎnr shuǐ, zài chī ba.
+  - id: s-hsk2-u04-020
+    zh: 食物是冷的。
+    en: The food is cold.
+    pinyin: shí wù shì lěng de
+    tatoeba_id: 4761473
+  tips:
+    饱: '饱 bǎo là tính từ, không dùng 是 đi kèm: ~~我是饱~~ → 我饱了 (tôi no rồi). Thanh 3 giống dấu hỏi nhưng
+      phải hạ thấp giọng hơn. Khi đứng trước thanh 3 khác thì đổi sang thanh 2.'
+    熟: '熟 có âm Hán Việt là thục. Chữ này có hai nghĩa: (1) chín: 肉熟了; (2) quen thân: 我跟他很熟. Âm sh phải
+      uốn lưỡi lên, không đọc thành x. Khẩu ngữ hay đọc shóu. Phía dưới có bộ 灬 (lửa), vì phải nấu thì
+      mới chín.'
+    闻: 'Lỗi hay gặp: 闻 trong tiếng Trung hiện đại nghĩa là NGỬI, còn nghe là 听. Chữ gồm 门 (cửa) bao lấy
+      耳 (tai). Lặp lại 闻闻 hoặc nói 闻一下 nghĩa là ngửi thử.'
+    味道: '味 có âm Hán Việt là vị, 道 có âm Hán Việt là đạo. 味道 là mùi vị. Câu hỏi thông dụng: 味道好吗？ (vị
+      có ngon không?). Chữ 道 trong 味道 thường đọc nhẹ (dao).'
+    食物: '物 có âm Hán Việt là vật. 食物 là đồ ăn, thực phẩm nói chung, nghe trang trọng hơn 吃的东西. 食 đọc shí:
+      sh uốn lưỡi, thanh 2.'
+- id: hsk2-u04-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

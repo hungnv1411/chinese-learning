@@ -1,0 +1,47 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-10T01:51:39",
+  "prompt_sha256": [
+    "8fe3acb559df99de1ac0bea84781efa8ba7cafdb6316903635370122994d51f4"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u27-008",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"stamp of approval\" là thành ngữ, làm mất nghĩa của 正式 (chính thức) là từ mới của bài. Người học khó thấy 正式 ứng với phần nào của câu.",
+      "suggestion": "Dịch sát hơn: \"He gave me formal approval.\" hoặc \"He gave me official approval.\""
+    },
+    {
+      "where": "s-hsk3-u27-012",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"各种规定让他失去了自由\" hơi gượng và lệch chủ đề thủ tục giấy tờ. Câu nói về việc quy định tước mất tự do, nghe như bình luận chính trị - xã hội, không hợp trình độ HSK 3.",
+      "suggestion": "Thay bằng câu đời thường hơn, ví dụ 学校有很多规定。 hoặc 这个规定很重要。 Nếu giữ câu này thì cần xem lại tính phù hợp về nội dung."
+    },
+    {
+      "where": "hsk3-u27-l03 (tip 资格)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Mẹo phát âm nói z \"giống ch\" dễ gây hiểu sai. \"ch\" tiếng Việt là âm vòm, còn z là âm đầu lưỡi sau răng cửa, không bật hơi. Chữ \"ch\" thường được dùng để so với zh. Câu sau của mẹo lại nói \"không bật hơi\", nên nghe mâu thuẫn.",
+      "suggestion": "Viết lại: z là \"tz\" không bật hơi, đầu lưỡi chạm mặt sau răng cửa dưới; zī gần như \"tzư\". Đừng đọc thành \"di\" hay \"dư\"."
+    },
+    {
+      "where": "hsk3-u27-l03 (tip 合格)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói không dùng 是 với 合格 \"khi chỉ miêu tả\" là quá tuyệt đối. 这个是合格的 hoặc 他是合格的 vẫn là câu tự nhiên. Tip cũng dùng 产品, là từ chưa học.",
+      "suggestion": "Chỉ cần nhấn mạnh 合格 thường làm vị ngữ trực tiếp (他的成绩合格, 考试合格) và phân biệt với 合法. Bỏ phần \"không nói 是合格\", hoặc đổi 产品合格 thành ví dụ dùng từ đã học."
+    }
+  ],
+  "machine_warnings": [
+    "u27-giay-to-va-thu-tuc.yaml:59: [sentence_unlearned_word] Câu s-hsk3-u27-005 (bài hsk3-u27-l02) dùng từ chưa học: 办理手续",
+    "u27-giay-to-va-thu-tuc.yaml:156: [sentence_unlearned_word] Câu s-hsk3-u27-016 (bài hsk3-u27-l04) dùng từ chưa học: 办理手续"
+  ],
+  "han_viet_proposed": []
+}

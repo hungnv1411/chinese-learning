@@ -1,0 +1,35 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:51:42",
+  "prompt_sha256": [
+    "804154209a8af4921f6cfa92932bd3a816570e0cc96cba234991e10a3c477070",
+    "fa92f89241d9a75f3a792180f92bde2bc131fa5647582902a335ee34b5fb745b",
+    "44f90e501b89c8425216cf21efcf726c245a021b36620e69a1ba679634155856"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk1-u11-l01, hsk1-u11-l03",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Một số từ mới không xuất hiện trong câu ví dụ nào của bài: 在家 (l01), 床, 拿, 地上 (l03). Người học học từ mà không gặp từ đó trong câu. Tip của 放 có nhắc 包放在地上 nhưng đó không phải câu ví dụ chính thức.",
+      "suggestion": "Thêm hoặc thay một câu ví dụ có từ đó, chỉ dùng từ đã học. Ví dụ: 爸爸在家。 / 我的床在楼上。 / 包在地上。 / 你拿什么？"
+    }
+  ],
+  "machine_warnings": [
+    "u11-nha-cua.yaml:72: [sentence_unlearned_word] Câu s-hsk1-u11-008 (bài hsk1-u11-l02) dùng từ chưa học: 我要, 洗衣服",
+    "u11-nha-cua.yaml:106: [sentence_unlearned_word] Câu s-hsk1-u11-011 (bài hsk1-u11-l03) dùng từ chưa học: 放在",
+    "u11-nha-cua.yaml:110: [sentence_unlearned_word] Câu s-hsk1-u11-012 (bài hsk1-u11-l03) dùng từ chưa học: 这个, 包重",
+    "u11-nha-cua.yaml:138: [sentence_unlearned_word] Câu s-hsk1-u11-013 (bài hsk1-u11-l04) dùng từ chưa học: 打开门",
+    "u11-nha-cua.yaml:142: [sentence_unlearned_word] Câu s-hsk1-u11-014 (bài hsk1-u11-l04) dùng từ chưa học: 关上门",
+    "u11-nha-cua.yaml:146: [sentence_unlearned_word] Câu s-hsk1-u11-015 (bài hsk1-u11-l04) dùng từ chưa học: 不要, 开门"
+  ],
+  "han_viet_proposed": [
+    "净",
+    "桌"
+  ]
+}

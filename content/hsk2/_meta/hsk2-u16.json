@@ -1,0 +1,35 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T03:27:20",
+  "prompt_sha256": [
+    "87e3c964c615f9dcbbce40bccd416f35acd4f94e6ca85c398e0f384da873d80d",
+    "0b149d3e0db30cb230e2c462ca9c8b23e28ad3c1cb7323c929e0a61bb5d04493"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk2-u16-016",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"Please keep me updated\" (hãy cập nhật tin cho tôi) lệch so với 请通知我, nghĩa sát là báo/thông báo cho tôi. Nó cũng không khớp với từ mới 通知 \"to notify\".",
+      "suggestion": "Đổi thành \"Please notify me.\" hoặc \"Please let me know.\""
+    },
+    {
+      "where": "hsk2-u16-l03 (tip 网)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu \"wǎng là thanh 3, khi đứng cuối câu thì đọc trầm xuống\" không liên quan. Trong 网站, wǎng đứng trước zhàn (thanh 4) nên đọc nửa thanh 3, và 网 cũng không đứng cuối câu.",
+      "suggestion": "Sửa thành: \"wǎng là thanh 3; trước zhàn (thanh 4) chỉ đọc nửa thanh 3, hạ thấp giọng rồi chuyển ngay sang thanh 4.\""
+    }
+  ],
+  "machine_warnings": [
+    "u16-dien-thoai-mang-va-tin-tuc.yaml:77: [sentence_unlearned_word] Câu s-hsk2-u16-008 (bài hsk2-u16-l02) dùng từ chưa học: 一封信",
+    "u16-dien-thoai-mang-va-tin-tuc.yaml:111: [sentence_unlearned_word] Câu s-hsk2-u16-011 (bài hsk2-u16-l03) dùng từ chưa học: 一下",
+    "u16-dien-thoai-mang-va-tin-tuc.yaml:115: [sentence_unlearned_word] Câu s-hsk2-u16-012 (bài hsk2-u16-l03) dùng từ chưa học: 不通"
+  ],
+  "han_viet_proposed": []
+}

@@ -1,0 +1,173 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u36.json.
+id: hsk3-u36
+stage: hsk3
+order: 36
+title: Tư duy và khái niệm
+description: Trình bày suy nghĩ trừu tượng về khái niệm, hiện tượng, ý nghĩa và cơ sở của sự việc.
+lessons:
+- id: hsk3-u36-l01
+  title: Khái niệm, tư tưởng và ý nghĩa
+  new_words:
+  - 概念
+  - 观念
+  - 思想
+  - 精神
+  - 头脑
+  - 意义
+  sentences:
+  - id: s-hsk3-u36-001
+    zh: 我明白这概念。
+    en: I understand the concept.
+    pinyin: wǒ míng bái zhè gài niàn
+    tatoeba_id: 5911674
+  - id: s-hsk3-u36-002
+    zh: 他精神很好。
+    en: He was in good spirits.
+    pinyin: tā jīng shén hěn hǎo
+    tatoeba_id: 6075689
+  - id: s-hsk3-u36-003
+    zh: 告诉我人生的意义。
+    en: Tell me the meaning of life.
+    pinyin: gào sù wǒ rén shēng de yì yì
+    tatoeba_id: 7823031
+  - id: s-hsk3-u36-004
+    zh: 他很有头脑。
+    en: He is very smart.
+    pinyin: Tā hěn yǒu tóunǎo.
+  tips:
+    概念: '念 có âm Hán Việt là niệm. Chữ 念 gồm 今 (bây giờ) ở trên và 心 (tim) ở dưới, tức là điều đang có
+      trong lòng lúc này: ý nghĩ. Chữ 概 có bộ 木 (cây) bên trái. 观念 cũng có chữ 念, chỉ cách nghĩ đã thành
+      nếp.'
+    思想: 'Cả hai chữ đều có bộ 心 (tim) ở dưới: 思 = 田 + 心, 想 = 相 + 心. Người xưa cho rằng ta suy nghĩ bằng
+      trái tim. 想 đọc thanh 3, khi đứng cuối từ thì đọc trầm xuống rồi hơi lên, giống dấu hỏi nhưng kéo
+      dài hơn.'
+    精神: '精神 vừa chỉ tinh thần, vừa chỉ sự khỏe khoắn, tươi tỉnh. Người Việt hay dùng 是 với tính từ, cần
+      tránh: ~~他是精神好~~ → 他精神很好. Khi nói về sự tươi tỉnh, người ta thường đọc nhẹ chữ sau: jīngshen.'
+    意义: Đừng nhầm 意义 với 意思. 意义 là ý nghĩa, giá trị (人生的意义). 意思 là nghĩa của từ, hoặc điều gì đó thú vị
+      (这个词的意思, 有意思). Không nói ~~这个字的意义是什么~~ khi chỉ muốn hỏi nghĩa của chữ.
+    头脑: 脑 mang bộ nhục ⺼ (trông giống 月), chỉ một bộ phận cơ thể. 有头脑 nghĩa là có đầu óc, biết tính toán;
+      没有头脑 là thiếu suy nghĩ.
+- id: hsk3-u36-l02
+  title: Sự thật, hiện tượng và tính cụ thể
+  new_words:
+  - 事实
+  - 现象
+  - 存在
+  - 客观
+  - 具体
+  - 明确
+  sentences:
+  - id: s-hsk3-u36-005
+    zh: 我知道事实。
+    en: I know the facts.
+    pinyin: wǒ zhī dào shì shí
+    tatoeba_id: 5624984
+  - id: s-hsk3-u36-006
+    zh: 我不相信这样的事情存在。
+    en: I don't believe such things exist.
+    pinyin: wǒ bù xiāng xìn zhè yàng de shì qíng cún zài
+    tatoeba_id: 879200
+  - id: s-hsk3-u36-007
+    zh: 可以说说您的具体要求吗？
+    en: Could you tell me what your specific requirements are?
+    pinyin: kě yǐ shuō shuō nín de jù tǐ yāo qiú ma
+    tatoeba_id: 747525
+  - id: s-hsk3-u36-008
+    zh: 这种现象很常见。
+    en: This phenomenon is very common.
+    pinyin: Zhè zhǒng xiànxiàng hěn chángjiàn.
+  tips:
+    事实: Cả shì và shí đều bắt đầu bằng sh, phải uốn đầu lưỡi lên vòm miệng, không đọc thành "x" như tiếng
+      Việt. 事 thanh 4 (đọc dứt khoát xuống), 实 thanh 2 (đọc đi lên, giống dấu sắc).
+    存在: 'Âm c trong cún đọc như "ts" có bật hơi mạnh, không phải "c" (k) của tiếng Việt. Còn z trong zài
+      là "ts" không bật hơi. Hãy đặt tay trước miệng: đọc cún phải thấy luồng hơi, đọc zài thì không.'
+    客观: '客 có âm Hán Việt là khách, 观 có âm Hán Việt là quan. 观 = 又 + 见 (nhìn): là cách nhìn sự việc.
+      客观 là đứng ngoài nhìn vào, không thiên vị. Lưu ý: kè đọc với e như "ơ" hơi lùi về sau.'
+    具体: '具体 thường đứng trước danh từ: 具体要求 (yêu cầu cụ thể), 具体情况. Trong jù, chữ u thực ra là ü: tròn
+      môi và đọc như "uy" bị kéo ngắn, không đọc là "u".'
+    明确: 'Trong 确 què, ue sau q thực ra là üe: tròn môi đọc "uy" rồi lướt sang "ê". 明确 vừa là tính từ (目的很明确:
+      mục đích rất rõ ràng) vừa là động từ (明确任务: làm rõ nhiệm vụ).'
+- id: hsk3-u36-l03
+  title: Cần thiết, hợp lý và có lợi
+  grammar: hsk3-g043
+  new_words:
+  - 必要
+  - 合理
+  - 有利
+  - 深刻
+  - 深入
+  - 基础
+  sentences:
+  - id: s-hsk3-u36-009
+    zh: 打好基础很重要。
+    en: Building a solid foundation is very important.
+    pinyin: Dǎ hǎo jīchǔ hěn zhòngyào.
+  - id: s-hsk3-u36-010
+    zh: 我们没必要急。
+    en: We didn't need to hurry.
+    pinyin: wǒ men méi bì yào jí
+    tatoeba_id: 390552
+  - id: s-hsk3-u36-011
+    zh: 这对他有利。
+    en: It is to his advantage.
+    pinyin: zhè duì tā yǒu lì
+    tatoeba_id: 10478311
+  - id: s-hsk3-u36-012
+    zh: 我对她有很深刻的印象。
+    en: I find her very impressive.
+    pinyin: wǒ duì tā yǒu hěn shēn kè de yìn xiàng
+    tatoeba_id: 801982
+  tips:
+    必要: 'Lỗi hay gặp: dùng 必要 như 必须. 必要 là tính từ hoặc danh từ, còn 必须 là phó từ đứng trước động từ.
+      ~~你必要去~~ → 你必须去 hoặc 你有必要去. Khi phủ định thì dùng 没(有)必要: 没必要生气.'
+    合理: 合 có âm Hán Việt là hợp, 理 có âm Hán Việt là lí. Chữ 理 có bộ 王 (ngọc) ở bên trái, gợi hình ảnh
+      mài ngọc theo đúng vân. Ta nói 价钱很合理; không nói ~~价钱是合理~~ nếu không có 的 ở cuối câu.
+    有利: 'Cấu trúc cố định là 对 + đối tượng + 有利 (có lợi cho ai/cái gì): 这对他有利. Người Việt hay đặt theo
+      trật tự tiếng Việt: ~~有利对他~~ → 对他有利.'
+    深刻: '深刻 nghĩa là sâu sắc (印象深刻, 意义深刻). 深入 nghĩa là đi sâu vào, thường đứng trước động từ: 深入讨论, 深入了解.
+      Cả hai đều có 深 (sâu), chữ này mang bộ 氵 (nước): nước sâu.'
+    基础: '基 = 其 + 土 (đất): nền đất. 础 = 石 (đá) + 出: viên đá kê chân cột. Cụm hay dùng là 打基础 (xây nền móng):
+      学汉语要打好基础.'
+- id: hsk3-u36-l04
+  title: Quá trình hình thành và hình thức
+  grammar: hsk3-g062
+  new_words:
+  - 产生
+  - 形成
+  - 结合
+  - 过程
+  - 形式
+  - 体现
+  sentences:
+  - id: s-hsk3-u36-013
+    zh: 我们一方面要学习理论，另一方面要结合实际。
+    en: On the one hand we need to study theory; on the other hand we need to connect it with practice.
+    pinyin: Wǒmen yì fāngmiàn yào xuéxí lǐlùn, lìng yì fāngmiàn yào jiéhé shíjì.
+  - id: s-hsk3-u36-014
+    zh: 他的讲话对所有同事产生了积极影响。
+    en: His speech has had a positive effect on all of his coworkers.
+    pinyin: tā de jiǎng huà duì suǒ yǒu tóng shì chǎn shēng le jī jí yǐng xiǎng
+    tatoeba_id: 2938654
+  - id: s-hsk3-u36-015
+    zh: 她用数字的形式写了日期。
+    en: She wrote the date in numeric form.
+    pinyin: tā yòng shù zì de xíng shì xiě le rì qī
+    tatoeba_id: 347090
+  - id: s-hsk3-u36-016
+    zh: 好习惯的形成需要一个过程。
+    en: Forming good habits takes a process.
+    pinyin: Hǎo xíguàn de xíngchéng xūyào yí ge guòchéng.
+  tips:
+    产生: '产生 thường đi với những thứ trừu tượng: 产生影响, 产生问题, 产生想法. Còn 发生 dùng cho sự việc xảy ra: 发生事故.
+      Không nói ~~产生事故~~. Chú ý chǎn bắt đầu bằng ch, phải uốn lưỡi và bật hơi.'
+    形成: '形 có âm Hán Việt là hình, 成 có âm Hán Việt là thành. Chữ 形 có bộ 彡 (ba nét lông), chỉ đường nét,
+      hình dáng. Chữ 形式 cũng có 形: hình thức bên ngoài.'
+    结合: '结 có bộ 纟 (sợi tơ): buộc, thắt lại với nhau. 结合 là gắn hai thứ lại với nhau, cụm hay gặp là 理论结合实际.
+      结 jié đọc thanh 2, đi lên giống dấu sắc.'
+    过程: '程 chéng đọc giống hệt 成 chéng nhưng nghĩa khác. 程 có bộ 禾 (lúa): ngày xưa người ta đo lường lúa,
+      nên chữ này mang nghĩa trình tự, mức độ. Cụm thường gặp là 学习的过程 (quá trình học).'
+    体现: '体现 nghĩa là thể hiện một ý nghĩa hay phẩm chất trừu tượng: 这体现了他的精神. Nếu nói về cách một người
+      cư xử, làm việc thì dùng 表现: 他表现很好.'
+- id: hsk3-u36-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

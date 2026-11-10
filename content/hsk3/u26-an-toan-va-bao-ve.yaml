@@ -1,0 +1,171 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u26.json.
+id: hsk3-u26
+stage: hsk3
+order: 26
+title: An toàn và bảo vệ
+description: Nói về nguy hiểm, tai nạn, phòng ngừa và cách bảo vệ bản thân.
+lessons:
+- id: hsk3-u26-l01
+  title: Nguy hiểm và chú ý
+  grammar: hsk3-g069
+  new_words:
+  - 危险
+  - 注意
+  - 风险
+  - 危害
+  - 意外
+  - 紧急
+  sentences:
+  - id: s-hsk3-u26-001
+    zh: 这很危险。
+    en: It's very dangerous.
+    pinyin: zhè hěn wēi xiǎn
+    tatoeba_id: 9466906
+  - id: s-hsk3-u26-002
+    zh: 风险太大。
+    en: The risk is too great.
+    pinyin: fēng xiǎn tài dà
+    tatoeba_id: 5691298
+  - id: s-hsk3-u26-003
+    zh: 紧急出口在哪里？
+    en: Where's the emergency exit?
+    pinyin: jǐn jí chū kǒu zài nǎ lǐ
+    tatoeba_id: 616424
+  - id: s-hsk3-u26-004
+    zh: 如果有危险，就马上给我打电话。
+    en: If there's any danger, call me right away.
+    pinyin: Rúguǒ yǒu wēixiǎn, jiù mǎshàng gěi wǒ dǎ diànhuà.
+  tips:
+    危险: '危 có âm Hán Việt là nguy, 险 có âm Hán Việt là hiểm → 危险 = nguy hiểm. Lỗi hay gặp: không thêm
+      是 trước tính từ: nói 这很危险, không nói ~~这是危险~~. Chú ý 险 đọc xiǎn: x đọc gần như ''x'' tiếng Việt
+      nhưng lưỡi đặt sau răng dưới, môi dẹt.'
+    注意: 'zhù: zh là âm uốn lưỡi, đầu lưỡi cong lên chạm phía sau lợi trên, không đọc như ''ch'' hay ''tr''
+      Việt phẳng. 注意 + tân ngữ: 注意安全 (chú ý an toàn). Phủ định quá khứ dùng 没: 我没注意.'
+    紧急: 'jǐnjí: thanh 3 rồi thanh 2. Thanh 3 đứng trước thanh khác chỉ đọc nửa (xuống thấp, không vòng
+      lên), không kéo dài như dấu hỏi. 紧急 thường đứng trước danh từ: 紧急出口 (lối thoát hiểm), 紧急情况.'
+    意外: '意外 vừa là tính từ ''bất ngờ'' (我很意外), vừa là danh từ ''sự cố ngoài ý muốn'' (发生意外). Nhớ: 意 (ý
+      định) + 外 (ngoài) → nằm ngoài dự tính.'
+    危害: '危害 là động từ/danh từ ''gây hại'': 喝酒危害健康. Phân biệt với 危险 (tính từ ''nguy hiểm''): không nói
+      ~~这很危害~~. Chữ 害 có bộ miên 宀 (mái nhà) ở trên.'
+- id: hsk3-u26-l02
+  title: Cảnh sát và cứu giúp
+  new_words:
+  - 警察
+  - 交警
+  - 保安
+  - 救
+  - 保护
+  - 保
+  sentences:
+  - id: s-hsk3-u26-005
+    zh: 叫保安来！
+    en: Call security!
+    pinyin: jiào bǎo ān lái
+    tatoeba_id: 5092526
+  - id: s-hsk3-u26-006
+    zh: 你救了我。
+    en: You saved me.
+    pinyin: nǐ jiù le wǒ
+    tatoeba_id: 10357455
+  - id: s-hsk3-u26-007
+    zh: 我告诉警察了。
+    en: I've told the police.
+    pinyin: wǒ gào sù jǐng chá le
+    tatoeba_id: 13524181
+  - id: s-hsk3-u26-008
+    zh: 你没有保护我。
+    en: You didn't protect me.
+    pinyin: nǐ méi yǒu bǎo hù wǒ
+    tatoeba_id: 5091470
+  tips:
+    警察: 'chá: ch là âm uốn lưỡi bật hơi, cong lưỡi và bật mạnh hơi ra; khác zh (không bật hơi). jǐng là
+      thanh 3, đứng trước thanh 2 nên chỉ đọc nửa thanh 3 (thấp xuống rồi dừng).'
+    交警: '交警 là dạng rút gọn của 交通警察 (cảnh sát giao thông): lấy chữ đầu 交 và chữ 警. Người Trung Quốc rất
+      hay rút gọn kiểu này, nên gặp từ 2 chữ lạ hãy thử nghĩ tới từ dài.'
+    保护: '保 có âm Hán Việt là bảo, 护 có âm Hán Việt là hộ → 保护 = bảo hộ, nghĩa là ''bảo vệ''. Chữ 护: bộ
+      thủ 扌 (tay) + 户 (cửa) → dùng tay giữ cửa = che chở. Đọc bǎohù: thanh 3 + thanh 4.'
+    救: '救 có âm Hán Việt là cứu. Cấu tạo: 求 (cầu xin) + 攵 (hành động) → có người cầu xin thì ra tay =
+      cứu. Tiếng kêu cứu: 救命！(Jiùmìng!).'
+    保安: '保安 trong đời sống thường chỉ ''nhân viên bảo vệ'' (ở tòa nhà, khu chung cư). Đừng nhầm với 保护
+      (động từ ''bảo vệ''): 保安保护我们 = nhân viên bảo vệ bảo vệ chúng ta.'
+- id: hsk3-u26-l03
+  title: Sự cố và tai nạn
+  grammar: hsk3-g055
+  new_words:
+  - 发生
+  - 事故
+  - 事件
+  - 现场
+  - 破坏
+  - 武器
+  sentences:
+  - id: s-hsk3-u26-009
+    zh: 事故发生在前天。
+    en: The accident happened the day before yesterday.
+    pinyin: shì gù fā shēng zài qián tiān
+    tatoeba_id: 336943
+  - id: s-hsk3-u26-010
+    zh: 把你的武器放下。
+    en: Put your weapon down.
+    pinyin: bǎ nǐ de wǔ qì fàng xià
+    tatoeba_id: 6678460
+  - id: s-hsk3-u26-011
+    zh: 我的自行车被人破坏了。
+    en: My bike was damaged by someone.
+    pinyin: Wǒ de zìxíngchē bèi rén pòhuài le.
+  - id: s-hsk3-u26-012
+    zh: 警察马上来到了现场。
+    en: The police arrived at the scene right away.
+    pinyin: Jǐngchá mǎshàng láidào le xiànchǎng.
+  tips:
+    发生: 'fāshēng: cả hai đều thanh 1, giữ giọng cao và bằng. sh là âm uốn lưỡi, cong lưỡi lên, khác ''s''
+      Việt. Câu hỏi hay dùng: 发生了什么事？(Đã xảy ra chuyện gì?).'
+    事故: '事 có âm Hán Việt là sự, 故 có âm Hán Việt là cố → 事故 = sự cố, nhưng trong tiếng Trung chủ yếu
+      nghĩa là ''tai nạn'': 交通事故 (tai nạn giao thông). Còn 事件 là ''sự kiện, vụ việc'' nói chung.'
+    现场: 'chǎng là thanh 3, khác 长 cháng (thanh 2). 现场 = nơi xảy ra sự việc ngay lúc đó: 事故现场 (hiện trường
+      tai nạn). Chữ 场 có bộ thổ 土 (đất) → một khoảng đất, nơi chốn.'
+    破坏: '破坏 ghép từ 破 (vỡ, rách) và 坏 (hỏng) – hai từ bạn đã học. Hay dùng với câu bị động 被: 东西被破坏了.
+      Chữ 破 có bộ thạch 石 (đá) → đá đập vỡ.'
+    武器: '器 có 4 chữ 口 bao quanh 犬: nhớ là ''nhiều cái miệng'' = nhiều đồ vật, dụng cụ. Lượng từ thường
+      dùng: 一种武器.'
+- id: hsk3-u26-l04
+  title: Phòng ngừa và bảo đảm
+  new_words:
+  - 防
+  - 防止
+  - 预防
+  - 保证
+  - 确保
+  - 保险
+  sentences:
+  - id: s-hsk3-u26-013
+    zh: 我向你保证。
+    en: I promise.
+    pinyin: wǒ xiàng nǐ bǎo zhèng
+    tatoeba_id: 502727
+  - id: s-hsk3-u26-014
+    zh: 我可以确保成功。
+    en: I can assure success.
+    pinyin: wǒ kě yǐ què bǎo chéng gōng
+    tatoeba_id: 10484083
+  - id: s-hsk3-u26-015
+    zh: 我家买了保险。
+    en: We bought insurance for our home.
+    pinyin: Wǒ jiā mǎi le bǎoxiǎn.
+  - id: s-hsk3-u26-016
+    zh: 多运动可以预防感冒。
+    en: Exercising more can help prevent colds.
+    pinyin: Duō yùndòng kěyǐ yùfáng gǎnmào.
+  tips:
+    保险: 'Biến điệu 3+3: bǎo + xiǎn đều thanh 3 → chữ đầu đọc thành thanh 2: báoxiǎn. 保险 vừa là danh từ
+      ''bảo hiểm'' (买保险) vừa là tính từ ''chắc chắn, an toàn'' (这样做比较保险).'
+    防: '防 có âm Hán Việt là phòng. Cấu tạo: bộ 阝 (gò đất, tường thành) + 方 (âm fāng gợi âm fáng) → đắp
+      tường để phòng thủ. Đọc thanh 2 (giọng đi lên), đừng đọc thành fāng.'
+    预防: '预 có âm Hán Việt là dự → 预防 = dự phòng, phòng trước khi xảy ra: 预防感冒. 防止 thì nhấn mạnh ''ngăn
+      không cho việc xấu xảy ra'': 防止发生事故.'
+    保证: '证 có âm Hán Việt là chứng. 保证 = cam đoan, hứa chắc: 我保证明天就做. Nói hứa với ai: 向/跟 + người + 保证.'
+    确保: '确 có âm Hán Việt là xác. 确保 trang trọng hơn 保证, nghĩa ''đảm bảo chắc chắn'' một kết quả: 确保安全.
+      Đọc quèbǎo: q bật hơi mạnh, ü sau q viết thành u nhưng vẫn tròn môi như đọc ''uy'' kéo dài.'
+- id: hsk3-u26-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

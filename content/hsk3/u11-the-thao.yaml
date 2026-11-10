@@ -1,0 +1,200 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u11.json.
+id: hsk3-u11
+stage: hsk3
+order: 11
+title: Thể thao
+description: Nói về các môn thể thao, trận đấu, tập luyện và thắng thua.
+lessons:
+- id: hsk3-u11-l01
+  title: Các môn thể thao
+  new_words:
+  - 足球
+  - 游泳
+  - 划船
+  - 武术
+  - 功夫
+  - 世界杯
+  sentences:
+  - id: s-hsk3-u11-001
+    zh: 我喜欢足球。
+    en: I like soccer.
+    pinyin: wǒ xǐ huān zú qiú
+    tatoeba_id: 5568572
+  - id: s-hsk3-u11-002
+    zh: 我们去海边游泳。
+    en: We went swimming at the beach.
+    pinyin: wǒ men qù hǎi biān yóu yǒng
+    tatoeba_id: 874215
+  - id: s-hsk3-u11-003
+    zh: 周末我们去公园划船吧。
+    en: Let's go boating in the park this weekend.
+    pinyin: Zhōumò wǒmen qù gōngyuán huáchuán ba.
+  - id: s-hsk3-u11-004
+    zh: 我和爸爸一起看世界杯。
+    en: I watch the World Cup with my dad.
+    pinyin: Wǒ hé bàba yìqǐ kàn Shìjièbēi.
+  tips:
+    足球: '足 có âm Hán Việt là túc (chân), 球 có âm Hán Việt là cầu → bóng chơi bằng chân. Phát âm: z trong
+      zú gần giống "ch" nhưng không bật hơi; q trong qiú thì bật hơi mạnh, đọc như "chi-âu" bật hơi.'
+    游泳: 'Cả 游 và 泳 đều có bộ 氵(nước) → hoạt động dưới nước. Thanh điệu: yóu (thanh 2, đi lên) + yǒng (thanh
+      3, xuống thấp rồi lên). Đừng đọc yǒng ngắn như dấu hỏi tiếng Việt, hãy kéo dài phần đi xuống.'
+    功夫: '功 có âm Hán Việt là công (bộ 力 = sức lực). 功夫 vừa là "kungfu", vừa có nghĩa "thời gian, công
+      sức": 我没功夫吃饭 = Tôi không có thời gian ăn cơm. Chữ 夫 đọc thanh nhẹ: gōngfu.'
+    武术: 武 có âm Hán Việt là vũ, 术 có âm Hán Việt là thuật → dễ nhớ là "võ thuật". sh trong shù phải uốn
+      cong đầu lưỡi lên, khác với "s" tiếng Việt.
+    划船: 船 có âm Hán Việt là thuyền, bộ 舟 cũng là hình chiếc thuyền. ch trong chuán là âm uốn lưỡi và bật
+      hơi, đừng đọc thành "choan" kiểu tiếng Việt.
+- id: hsk3-u11-l02
+  title: Nhảy và tập luyện
+  grammar: hsk3-g059
+  new_words:
+  - 跳
+  - 跳高
+  - 跳远
+  - 训练
+  - 教练
+  sentences:
+  - id: s-hsk3-u11-005
+    zh: 你能跳多高？
+    en: How high can you jump?
+    pinyin: nǐ néng tiào duō gāo
+    tatoeba_id: 471318
+  - id: s-hsk3-u11-006
+    zh: 我是教练。
+    en: I'm the coach.
+    pinyin: wǒ shì jiào liàn
+    tatoeba_id: 10369267
+  - id: s-hsk3-u11-007
+    zh: 他跳远跳得很远。
+    en: He jumps very far in the long jump.
+    pinyin: Tā tiàoyuǎn tiào de hěn yuǎn.
+  - id: s-hsk3-u11-008
+    zh: 他们今天训练了三个小时。
+    en: They trained for three hours today.
+    pinyin: Tāmen jīntiān xùnliàn le sān ge xiǎoshí.
+  tips:
+    跳: 跳 có bộ 足 (chân) bên trái → hành động dùng chân. Âm t trong tiào bật hơi mạnh như "th" tiếng Việt,
+      thanh 4 đọc dứt khoát từ cao xuống thấp.
+    跳远: 'yuǎn: "yu" là âm ü, tròn môi như khi nói "u" nhưng lưỡi đặt như "i". 远 có âm Hán Việt là viễn.
+      跳高 = nhảy cao, 跳远 = nhảy xa, ghép 跳 với 高/远 là xong.'
+    训练: '训 có âm Hán Việt là huấn, 练 có âm Hán Việt là luyện → "huấn luyện". 训练 là động từ hoặc danh từ:
+      会有训练 = Sẽ có buổi tập.'
+    教练: Trong 教练, 教 đọc jiào (thanh 4), không phải jiāo như trong 教汉语. 教 có âm Hán Việt là giáo, 练 có
+      âm Hán Việt là luyện → người dạy luyện tập = huấn luyện viên.
+- id: hsk3-u11-l03
+  title: Trận đấu và người tham gia
+  new_words:
+  - 比赛
+  - 决赛
+  - 对手
+  - 选手
+  - 队员
+  - 球迷
+  - 全场
+  sentences:
+  - id: s-hsk3-u11-009
+    zh: 他想参加比赛。
+    en: He would like to take part in the competition.
+    pinyin: tā xiǎng cān jiā bǐ sài
+    tatoeba_id: 780363
+  - id: s-hsk3-u11-010
+    zh: 决赛的对手是谁？
+    en: Who is the opponent in the final?
+    pinyin: Juésài de duìshǒu shì shéi?
+  - id: s-hsk3-u11-011
+    zh: 这个选手是我们队的队员。
+    en: This athlete is a member of our team.
+    pinyin: Zhège xuǎnshǒu shì wǒmen duì de duìyuán.
+  - id: s-hsk3-u11-012
+    zh: 全场的球迷都站起来了。
+    en: All the fans in the stadium stood up.
+    pinyin: Quánchǎng de qiúmí dōu zhàn qǐlai le.
+  tips:
+    比赛: 's trong sài đọc như "x" tiếng Việt, không uốn lưỡi. 比 có âm Hán Việt là tỉ (so sánh) → thi đấu
+      là so tài. 决赛 là trận chung kết: 决 có âm Hán Việt là quyết.'
+    对手: 对 có âm Hán Việt là đối, 手 có âm Hán Việt là thủ → "đối thủ". 选 có âm Hán Việt là tuyển → 选手 =
+      "tuyển thủ", vận động viên. Chữ 手 ở đây chỉ người giỏi một việc.
+    球迷: '迷 có âm Hán Việt là mê → 球迷 = người mê bóng, fan bóng đá. Trong 迷 có bộ 辶 (đi) và 米 (gạo): đi
+      lạc giữa ruộng lúa → mê.'
+    全场: 全 có âm Hán Việt là toàn, 场 có âm Hán Việt là trường → toàn bộ sân, cả khán đài. chǎng là thanh
+      3, ch uốn lưỡi bật hơi.
+- id: hsk3-u11-l04
+  title: Thắng và thua
+  new_words:
+  - 赢
+  - 输
+  - 胜
+  - 胜利
+  - 得分
+  - 领先
+  - 实力
+  sentences:
+  - id: s-hsk3-u11-013
+    zh: 他们赢了。
+    en: They won.
+    pinyin: tā men yíng le
+    tatoeba_id: 5092506
+  - id: s-hsk3-u11-014
+    zh: 我们比赛输了。
+    en: We lost the game.
+    pinyin: wǒ men bǐ sài shū le
+    tatoeba_id: 1411666
+  - id: s-hsk3-u11-015
+    zh: 现在我们领先三分。
+    en: We are now leading by three points.
+    pinyin: Xiànzài wǒmen lǐngxiān sān fēn.
+  - id: s-hsk3-u11-016
+    zh: 他们队很有实力。
+    en: Their team is very strong.
+    pinyin: Tāmen duì hěn yǒu shílì.
+  tips:
+    赢: '赢 yíng (thắng) và 输 shū (thua) là cặp trái nghĩa, hay dùng nhất trong khẩu ngữ. Mẹo nhớ: 赢 có
+      chữ 贝 (tiền) ở giữa, thắng thì được tiền. Thua ai thì nói 输给 + người: 我输给他了.'
+    输: '输 có âm Hán Việt là thâu. sh uốn lưỡi, thanh 1 giữ cao và đều. Lỗi hay gặp: đặt 了 sai chỗ. Nói
+      我们输了 hoặc 我们比赛输了.'
+    胜利: '胜 có âm Hán Việt là thắng, 利 có âm Hán Việt là lợi → "thắng lợi". 胜 dùng một mình mang sắc thái
+      trang trọng, hay gặp trên báo: 中国队三比一胜了对手. Nói chuyện hằng ngày người ta dùng 赢 nhiều hơn.'
+    领先: '领先 lǐngxiān = dẫn trước, sau đó có thể thêm số điểm: 领先两分. 先 có âm Hán Việt là tiên. Thanh 3
+      + thanh 1 nên không biến điệu.'
+    得分: Trong 得分, 得 đọc dé (thanh 2) nghĩa là "đạt được", khác với 得 đọc nhẹ de trong 跑得很快. 得 có âm Hán
+      Việt là đắc, 分 có âm Hán Việt là phân.
+- id: hsk3-u11-l05
+  title: Huy chương, kỷ lục và xếp hạng
+  new_words:
+  - 金
+  - 金牌
+  - 银
+  - 银牌
+  - 纪录
+  - 打破
+  - 排名
+  sentences:
+  - id: s-hsk3-u11-017
+    zh: 她拿到了金牌。
+    en: She won the gold medal.
+    pinyin: Tā nádào le jīnpái.
+  - id: s-hsk3-u11-018
+    zh: 他打破了纪录。
+    en: He broke the record.
+    pinyin: Tā dǎpò le jìlù.
+  - id: s-hsk3-u11-019
+    zh: 我们队排名第二。
+    en: Our team is ranked second.
+    pinyin: Wǒmen duì páimíng dì-èr.
+  - id: s-hsk3-u11-020
+    zh: 她也把杯子打破了。
+    en: She broke the cup, too.
+    pinyin: tā yě bǎ bēi zi dǎ pò le
+    tatoeba_id: 844240
+  tips:
+    金牌: 金 có âm Hán Việt là kim, 银 có âm Hán Việt là ngân, 牌 có âm Hán Việt là bài → 金牌 = huy chương vàng,
+      银牌 = huy chương bạc. Chữ 银 có bộ 钅 (kim loại) ở bên trái.
+    银: 'yín và yíng (赢) chỉ khác nhau ở âm cuối: -n (đầu lưỡi chạm lợi trên) và -ng (cuống lưỡi nâng lên).
+      Người Việt hay đọc lẫn hai âm này, hãy luyện nói 赢银牌 (yíng yínpái).'
+    打破: '打 có âm Hán Việt là đả, 破 có âm Hán Việt là phá → "đả phá". 打破 vừa là làm vỡ đồ (打破杯子), vừa là
+      phá kỷ lục (打破纪录). dǎpò: thanh 3 + thanh 4, đọc dǎ thấp rồi pò bật hơi.'
+    排名: '排 có âm Hán Việt là bài, 名 có âm Hán Việt là danh → xếp hạng. Cấu trúc: 排名 + 第 + số: 排名第一. Không
+      nói ~~排名是第二~~, chỉ cần nói 排名第二.'
+- id: hsk3-u11-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

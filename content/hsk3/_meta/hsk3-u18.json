@@ -1,0 +1,60 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:51:12",
+  "prompt_sha256": [
+    "4aa37f86d60615dcc177f0b674ce880fe48bc2aaad290613317a7161718b0247",
+    "190fdd6ef13094a252390efd1518144ad80380c11e019c7ace6a6748a0e5a2b6",
+    "a5d61e646f847545ec963aa2be58c569ae6f1fc0501a0297147509f60a5add06"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u18-017",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "Pinyin của câu ghi \"yī qiè\" (giữ thanh gốc), nhưng tip của chính bài này nói 一 đứng trước thanh 4 phải đọc yíqiè. Câu s-hsk3-u18-003 thì lại ghi biến điệu (yí ge), nên cách ghi không nhất quán.",
+      "suggestion": "Sửa thành \"yí qiè dōu hěn shùn lì\" hoặc ghi chú rõ pinyin giữ thanh gốc."
+    },
+    {
+      "where": "s-hsk3-u18-018",
+      "category": "sandhi",
+      "severity": "warning",
+      "problem": "Pinyin ghi \"yī xiǎo shí\" và \"zhěng zhěng\". 一 trước thanh 3 (小) đọc yì, và 整整 (3+3) đọc zhéngzhěng như tip l05 đã nêu. Pinyin câu không khớp với tip.",
+      "suggestion": "Ghi \"tā jiǎng le zhéng zhěng yì xiǎoshí\" hoặc thống nhất cách ghi pinyin (thanh gốc hoặc thanh biến điệu) cho cả unit."
+    },
+    {
+      "where": "s-hsk3-u18-019",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"What did you do over the weekend?\" bỏ mất 整个, là từ trọng tâm của câu. Câu 19 và câu 15 còn dùng dấu ? và ! nửa chiều (ASCII) trong khi zh là câu tiếng Trung.",
+      "suggestion": "Dịch: \"What did you do the whole weekend?\" Đổi dấu thành \"？\" và \"！\" ở zh."
+    },
+    {
+      "where": "hsk3-u18-l04",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip của 每 nói \"phải có lượng từ\" rồi liệt kê ngoại lệ chỉ có 每天/每年. Thực tế 每人 (每人一份) cũng đúng, và ví dụ sai 每人来了 sai vì thiếu 都, không phải vì thiếu lượng từ.",
+      "suggestion": "Viết lại: \"每 thường đi với lượng từ (每个人, 每本书) hoặc danh từ chỉ thời gian (每天, 每年). Phần sau thường có 都: 每个人都来了.\" Bỏ ví dụ sai gây hiểu nhầm."
+    }
+  ],
+  "machine_warnings": [
+    "u18-so-luong-va-pham-vi.yaml:25: [sentence_unlearned_word] Câu s-hsk3-u18-002 (bài hsk3-u18-l01) dùng từ chưa học: 四十岁",
+    "u18-so-luong-va-pham-vi.yaml:29: [sentence_unlearned_word] Câu s-hsk3-u18-003 (bài hsk3-u18-l01) dùng từ chưa học: 一个",
+    "u18-so-luong-va-pham-vi.yaml:33: [sentence_unlearned_word] Câu s-hsk3-u18-004 (bài hsk3-u18-l01) dùng từ chưa học: 很难",
+    "u18-so-luong-va-pham-vi.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u18-007 (bài hsk3-u18-l02) dùng từ chưa học: 七个",
+    "u18-so-luong-va-pham-vi.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u18-008 (bài hsk3-u18-l02) dùng từ chưa học: 一个",
+    "u18-so-luong-va-pham-vi.yaml:97: [sentence_unlearned_word] Câu s-hsk3-u18-009 (bài hsk3-u18-l03) dùng từ chưa học: 别急",
+    "u18-so-luong-va-pham-vi.yaml:106: [sentence_unlearned_word] Câu s-hsk3-u18-011 (bài hsk3-u18-l03) dùng từ chưa học: 这个",
+    "u18-so-luong-va-pham-vi.yaml:110: [sentence_unlearned_word] Câu s-hsk3-u18-012 (bài hsk3-u18-l03) dùng từ chưa học: 三十个",
+    "u18-so-luong-va-pham-vi.yaml:149: [sentence_unlearned_word] Câu s-hsk3-u18-016 (bài hsk3-u18-l04) dùng từ chưa học: 每个"
+  ],
+  "han_viet_proposed": [
+    "仅",
+    "何",
+    "概"
+  ]
+}

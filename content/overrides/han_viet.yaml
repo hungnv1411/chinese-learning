@@ -1,1 +1,509 @@
-{}
+儿:
+  han_viet:
+  - nhi
+  source: ai
+她:
+  han_viet:
+  - tha
+  source: ai
+您:
+  han_viet:
+  - nâm
+  source: ai
+谁:
+  han_viet:
+  - thùy
+  source: ai
+坐:
+  han_viet:
+  - tọa
+  source: ai
+识:
+  han_viet:
+  - thức
+  - chí
+  source: ai
+问:
+  han_viet:
+  - vấn
+  source: ai
+页:
+  han_viet:
+  - hiệt
+  source: ai
+岁:
+  han_viet:
+  - tuế
+  source: ai
+爱:
+  han_viet:
+  - ái
+  source: ai
+爷:
+  han_viet:
+  - da
+  - gia
+  source: ai
+爸:
+  han_viet:
+  - bá
+  source: ai
+北:
+  han_viet:
+  - bắc
+  source: ai
+告:
+  han_viet:
+  - cáo
+  source: ai
+昨:
+  han_viet:
+  - tạc
+  source: ai
+米:
+  han_viet:
+  - mễ
+  source: ai
+肉:
+  han_viet:
+  - nhục
+  source: ai
+菜:
+  han_viet:
+  - thái
+  source: ai
+蛋:
+  han_viet:
+  - đản
+  source: ai
+面:
+  han_viet:
+  - diện
+  - miến
+  source: ai
+饭:
+  han_viet:
+  - phạn
+  source: ai
+饿:
+  han_viet:
+  - ngạ
+  source: ai
+鸡:
+  han_viet:
+  - kê
+  source: ai
+这:
+  han_viet:
+  - giá
+  source: ai
+净:
+  han_viet:
+  - tịnh
+  source: ai
+桌:
+  han_viet:
+  - trác
+  source: ai
+做:
+  han_viet:
+  - tố
+  source: ai
+睡:
+  han_viet:
+  - thụy
+  source: ai
+假:
+  han_viet:
+  - giả
+  - giá
+  source: ai
+电:
+  han_viet:
+  - điện
+  source: ai
+笑:
+  han_viet:
+  - tiếu
+  source: ai
+跑:
+  han_viet:
+  - bào
+  source: ai
+很:
+  han_viet:
+  - ngận
+  source: ai
+雨:
+  han_viet:
+  - vũ
+  source: ai
+汽:
+  han_viet:
+  - khí
+  source: ai
+就:
+  han_viet:
+  - tựu
+  source: ai
+帮:
+  han_viet:
+  - bang
+  source: ai
+咱:
+  han_viet:
+  - cha
+  source: ai
+碗:
+  han_viet:
+  - oản
+  - uyển
+  source: ai
+筷:
+  han_viet:
+  - khoái
+  source: ai
+酒:
+  han_viet:
+  - tửu
+  source: ai
+闻:
+  han_viet:
+  - văn
+  source: ai
+食:
+  han_viet:
+  - thực
+  - tự
+  source: ai
+餐:
+  han_viet:
+  - xan
+  - san
+  source: ai
+饱:
+  han_viet:
+  - bão
+  source: ai
+饺:
+  han_viet:
+  - giảo
+  source: ai
+卡:
+  han_viet:
+  - ca
+  - tạp
+  source: ai
+够:
+  han_viet:
+  - cú
+  - cấu
+  source: ai
+换:
+  han_viet:
+  - hoán
+  source: ai
+亮:
+  han_viet:
+  - lượng
+  source: ai
+直:
+  han_viet:
+  - trực
+  source: ai
+辆:
+  han_viet:
+  - lượng
+  source: ai
+夏:
+  han_viet:
+  - hạ
+  source: ai
+春:
+  han_viet:
+  - xuân
+  source: ai
+雪:
+  han_viet:
+  - tuyết
+  source: ai
+嘴:
+  han_viet:
+  - chủy
+  source: ai
+疼:
+  han_viet:
+  - đông
+  source: ai
+睛:
+  han_viet:
+  - tinh
+  source: ai
+脚:
+  han_viet:
+  - cước
+  source: ai
+脸:
+  han_viet:
+  - kiểm
+  source: ai
+套:
+  han_viet:
+  - sáo
+  source: ai
+椅:
+  han_viet:
+  - ỷ
+  source: ai
+澡:
+  han_viet:
+  - táo
+  source: ai
+街:
+  han_viet:
+  - nhai
+  source: ai
+它:
+  han_viet:
+  - tha
+  source: ai
+静:
+  han_viet:
+  - tĩnh
+  source: ai
+懂:
+  han_viet:
+  - đổng
+  source: ai
+遍:
+  han_viet:
+  - biến
+  source: ai
+题:
+  han_viet:
+  - đề
+  source: ai
+篇:
+  han_viet:
+  - thiên
+  source: ai
+努:
+  han_viet:
+  - nỗ
+  source: ai
+游:
+  han_viet:
+  - du
+  source: ai
+际:
+  han_viet:
+  - tế
+  source: ai
+以:
+  han_viet:
+  - dĩ
+  source: ai
+刚:
+  han_viet:
+  - cương
+  source: ai
+喊:
+  han_viet:
+  - hảm
+  source: ai
+碰:
+  han_viet:
+  - bánh
+  source: ai
+靠:
+  han_viet:
+  - kháo
+  source: ai
+量:
+  han_viet:
+  - lượng
+  - lường
+  source: ai
+怕:
+  han_viet:
+  - phạ
+  source: ai
+挺:
+  han_viet:
+  - đĩnh
+  source: ai
+改:
+  han_viet:
+  - cải
+  source: ai
+办:
+  han_viet:
+  - biện
+  source: ai
+该:
+  han_viet:
+  - cai
+  source: ai
+但:
+  han_viet:
+  - đãn
+  source: ai
+者:
+  han_viet:
+  - giả
+  source: ai
+而:
+  han_viet:
+  - nhi
+  source: ai
+婚:
+  han_viet:
+  - hôn
+  source: ai
+幸:
+  han_viet:
+  - hạnh
+  source: ai
+暖:
+  han_viet:
+  - noãn
+  source: ai
+父:
+  han_viet:
+  - phụ
+  source: ai
+咖:
+  han_viet:
+  - ca
+  - già
+  source: ai
+啡:
+  han_viet:
+  - phê
+  source: ai
+啤:
+  han_viet:
+  - ti
+  source: ai
+甜:
+  han_viet:
+  - điềm
+  source: ai
+营:
+  han_viet:
+  - doanh
+  source: ai
+值:
+  han_viet:
+  - trị
+  source: ai
+旧:
+  han_viet:
+  - cựu
+  source: ai
+浪:
+  han_viet:
+  - lãng
+  source: ai
+线:
+  han_viet:
+  - tuyến
+  source: ai
+衬:
+  han_viet:
+  - sấn
+  source: ai
+乡:
+  han_viet:
+  - hương
+  source: ai
+烟:
+  han_viet:
+  - yên
+  source: ai
+怪:
+  han_viet:
+  - quái
+  source: ai
+赶:
+  han_viet:
+  - cản
+  source: ai
+录:
+  han_viet:
+  - lục
+  source: ai
+泳:
+  han_viet:
+  - vịnh
+  source: ai
+赛:
+  han_viet:
+  - tái
+  source: ai
+赢:
+  han_viet:
+  - doanh
+  source: ai
+材:
+  han_viet:
+  - tài
+  source: ai
+邮:
+  han_viet:
+  - bưu
+  source: ai
+握:
+  han_viet:
+  - ác
+  source: ai
+资:
+  han_viet:
+  - tư
+  source: ai
+仅:
+  han_viet:
+  - cận
+  source: ai
+何:
+  han_viet:
+  - hà
+  source: ai
+概:
+  han_viet:
+  - khái
+  source: ai
+范:
+  han_viet:
+  - phạm
+  source: ai
+较:
+  han_viet:
+  - giảo
+  - giác
+  source: ai
+优:
+  han_viet:
+  - ưu
+  source: ai
+环:
+  han_viet:
+  - hoàn
+  source: ai
+误:
+  han_viet:
+  - ngộ
+  source: ai
+需:
+  han_viet:
+  - nhu
+  source: ai
+济:
+  han_viet:
+  - tế
+  source: ai
+油:
+  han_viet:
+  - du
+  - dầu
+  source: ai

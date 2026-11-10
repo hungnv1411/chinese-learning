@@ -1,0 +1,44 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T02:12:16",
+  "prompt_sha256": [
+    "215e0ceac82ce7e8184fc7a67216af6cb49dfec8275d7047121fcb4a495e5431",
+    "52a3e6f84ad27ecc0b720d45d270e6943daedb069b3bea638ef96709f4494855"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk3-u33-l02 (tip 造)",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Tip nói \"z đọc gần như 'ch' tiếng Việt\" dễ gây hiểu nhầm, vì z (âm đầu lưỡi trước, không bật hơi) khác zh/ch. Người học Việt sẽ lẫn zào với zhào.",
+      "suggestion": "Sửa thành: \"z là âm đầu lưỡi chạm sau răng trên, không bật hơi, không uốn lưỡi, khác zh (uốn lưỡi)\"; bỏ so sánh với \"ch\"."
+    },
+    {
+      "where": "hsk3-u33-l02 (tip 创新)",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Ví dụ \"这个设计很有创新\" nghe hơi gượng. Người bản xứ thường nói 很有创意 hoặc 创新性 khi 创新 làm danh từ.",
+      "suggestion": "Đổi ví dụ thành \"这个设计很有创新性\" hoặc \"技术创新很重要\" (性, 技术, 重要 đều đã học)."
+    },
+    {
+      "where": "s-hsk3-u33-015",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch \"Experts don't really know.\" bỏ mất 也, vì 也 nghĩa là \"cũng\".",
+      "suggestion": "Dịch thành \"Even the experts aren't too sure.\" hoặc \"The experts aren't too sure either.\""
+    }
+  ],
+  "machine_warnings": [
+    "u33-khoa-hoc-va-cong-nghe.yaml:34: [sentence_unlearned_word] Câu s-hsk3-u33-004 (bài hsk3-u33-l01) dùng từ chưa học: 这台, 很多",
+    "u33-khoa-hoc-va-cong-nghe.yaml:74: [sentence_unlearned_word] Câu s-hsk3-u33-008 (bài hsk3-u33-l02) dùng từ chưa học: 一个",
+    "u33-khoa-hoc-va-cong-nghe.yaml:109: [sentence_pinyin_polyphone] Câu s-hsk3-u33-010: pinyin ghi 'Shíyàn zhèngmíng le tā de lǐlùn.', pypinyin cho 'shí yàn zhèng míng liǎo tā de lǐ lùn' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u33-khoa-hoc-va-cong-nghe.yaml:146: [sentence_unlearned_word] Câu s-hsk3-u33-013 (bài hsk3-u33-l04) dùng từ chưa học: 这家",
+    "u33-khoa-hoc-va-cong-nghe.yaml:158: [sentence_unlearned_word] Câu s-hsk3-u33-016 (bài hsk3-u33-l04) dùng từ chưa học: 这是, 不是"
+  ],
+  "han_viet_proposed": []
+}

@@ -1,0 +1,28 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-10T01:39:22",
+  "prompt_sha256": [
+    "55753a41f148f9554c5b9c251b12857e3427102a2124a34c9e7c8e47479e1b04",
+    "509567b7e28e4b52a1177c373535e0634b0ed8b8b9faafc542beeccf0186b97a",
+    "88ecce66f6e235e05b7ef972683caf0da96d4db8ebb5092d71c31e14f988ea11"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u23-truyen-thong-va-bao-chi.yaml:62: [sentence_unlearned_word] Câu s-hsk3-u23-005 (bài hsk3-u23-l02) dùng từ chưa học: 这个, 每天晚上, 八点",
+    "u23-truyen-thong-va-bao-chi.yaml:66: [sentence_unlearned_word] Câu s-hsk3-u23-006 (bài hsk3-u23-l02) dùng từ chưa học: 我下",
+    "u23-truyen-thong-va-bao-chi.yaml:70: [sentence_unlearned_word] Câu s-hsk3-u23-007 (bài hsk3-u23-l02) dùng từ chưa học: 一个",
+    "u23-truyen-thong-va-bao-chi.yaml:109: [sentence_unlearned_word] Câu s-hsk3-u23-011 (bài hsk3-u23-l03) dùng từ chưa học: 篇文章",
+    "u23-truyen-thong-va-bao-chi.yaml:136: [sentence_unlearned_word] Câu s-hsk3-u23-012 (bài hsk3-u23-l04) dùng từ chưa học: 这篇",
+    "u23-truyen-thong-va-bao-chi.yaml:138: [sentence_pinyin_polyphone] Câu s-hsk3-u23-012: pinyin ghi 'Zhè piān bàodào shì shéi xiě de?', pypinyin cho 'zhè piān bào dào shì shuí xiě de' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u23-truyen-thong-va-bao-chi.yaml:145: [sentence_unlearned_word] Câu s-hsk3-u23-014 (bài hsk3-u23-l04) dùng từ chưa học: 考试成绩",
+    "u23-truyen-thong-va-bao-chi.yaml:149: [sentence_unlearned_word] Câu s-hsk3-u23-015 (bài hsk3-u23-l04) dùng từ chưa học: 一个",
+    "u23-truyen-thong-va-bao-chi.yaml:185: [sentence_unlearned_word] Câu s-hsk3-u23-018 (bài hsk3-u23-l05) dùng từ chưa học: 这个, 很快",
+    "u23-truyen-thong-va-bao-chi.yaml:189: [sentence_unlearned_word] Câu s-hsk3-u23-019 (bài hsk3-u23-l05) dùng từ chưa học: 这件"
+  ],
+  "han_viet_proposed": []
+}

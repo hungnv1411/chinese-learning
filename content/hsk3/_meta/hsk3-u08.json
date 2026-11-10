@@ -1,0 +1,32 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T08:37:25",
+  "prompt_sha256": [
+    "772313af05b4643e5af3c1765acaf308dab4ca9d61248aa9b7e58df663d04327",
+    "13ebc0f49ddebda4724b261750663a56501cb5afbe31b4568b6eabe6885ad65e",
+    "f0b7e526c2d8f641cd7eeb4c0d550364f7c607b83f8bd51638329612839dd64a"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u08-014",
+      "category": "english",
+      "severity": "warning",
+      "problem": "热爱 nghĩa là yêu tha thiết (to love ardently). Bản dịch \"likes music a lot\" yếu hơn nghĩa gốc, trong khi tip của bài lại nhấn mạnh 热爱 mạnh hơn 喜欢.",
+      "suggestion": "Sửa en thành \"He really loves music.\" hoặc \"He is passionate about music.\""
+    }
+  ],
+  "machine_warnings": [
+    "u08-cam-xuc.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u08-007 (bài hsk3-u08-l02) dùng từ chưa học: 很大",
+    "u08-cam-xuc.yaml:70: [sentence_pinyin_mismatch] Câu s-hsk3-u08-007: pinyin ghi 'gōngzuò yālì hěn dà, wǒ yǒudiǎnr jǐnzhāng.', pypinyin cho 'gōng zuò yā lì hěn dà wǒ yǒu diǎn ér jǐn zhāng'",
+    "u08-cam-xuc.yaml:112: [sentence_unlearned_word] Câu s-hsk3-u08-012 (bài hsk3-u08-l03) dùng từ chưa học: 饿死",
+    "u08-cam-xuc.yaml:154: [sentence_pinyin_mismatch] Câu s-hsk3-u08-016: pinyin ghi 'wǒ yìdiǎnr yě bú hàipà.', pypinyin cho 'wǒ yì diǎn ér yě bù hài pà'"
+  ],
+  "han_viet_proposed": [
+    "怪"
+  ]
+}

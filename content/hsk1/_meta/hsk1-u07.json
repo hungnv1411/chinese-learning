@@ -1,0 +1,53 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T16:39:51",
+  "prompt_sha256": [
+    "016cd82a7e41f80ba8784a46d855d83b61ea0eafe6c9b3fef6615a6587da77cb",
+    "961535152e133decec1bba0afa5d24e7bb5ad40898dd02dd00c1d132053421f6",
+    "c3a79ad0b1f3b90530c43c2a10e632a5da6714e77cc7604d86dfc1a25651b437"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u07-004",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "Câu dùng dấu '?' nửa chiều rộng, không đồng nhất với các câu khác dùng '？'. Bản dịch 'How many' cũng chỉ là một nghĩa của 多少, nghĩa 'how much' cũng có thể dùng.",
+      "suggestion": "Đổi thành 他要多少？ và có thể dịch 'How many/much does he want?'."
+    },
+    {
+      "where": "s-hsk1-u07-013",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "点 trong 吃点 nghĩa là 'một chút', khác với 点 (giờ) đã học trước đó. Nghĩa này chưa được dạy.",
+      "suggestion": "Giữ câu nếu chấp nhận dùng nghĩa mới của 点, hoặc đổi thành 你想吃午饭吗？."
+    },
+    {
+      "where": "hsk1-u07-l01 (tip 饿), hsk1-u07-l04 (tip 好吃)",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Ví dụ trong ghi chú dùng 很 (我很饿, 菜很好吃), nhưng 很 chưa có trong danh sách từ đã học hay từ mới của chủ đề.",
+      "suggestion": "Giải thích ngắn rằng 很 là từ đứng trước tính từ (sẽ học sau), hoặc dùng ví dụ chỉ có từ đã học, như 我饿 và 菜好吃。"
+    }
+  ],
+  "machine_warnings": [
+    "u07-an-uong.yaml:77: [sentence_unlearned_word] Câu s-hsk1-u07-008 (bài hsk1-u07-l02) dùng từ chưa học: 我要, 两个",
+    "u07-an-uong.yaml:113: [sentence_unlearned_word] Câu s-hsk1-u07-011 (bài hsk1-u07-l03) dùng từ chưa học: 喝水",
+    "u07-an-uong.yaml:117: [sentence_unlearned_word] Câu s-hsk1-u07-012 (bài hsk1-u07-l03) dùng từ chưa học: 我要, 一杯",
+    "u07-an-uong.yaml:147: [sentence_unlearned_word] Câu s-hsk1-u07-014 (bài hsk1-u07-l04) dùng từ chưa học: 喝茶, 喝水"
+  ],
+  "han_viet_proposed": [
+    "米",
+    "肉",
+    "菜",
+    "蛋",
+    "面",
+    "饭",
+    "饿",
+    "鸡"
+  ]
+}

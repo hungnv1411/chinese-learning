@@ -1,0 +1,201 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u03.json.
+id: hsk2-u03
+stage: hsk2
+order: 3
+title: Thời gian và sinh hoạt hằng ngày
+description: Người học có thể nói giờ giấc, ngày tháng, tuần và kể về thói quen, lịch sinh hoạt hằng ngày.
+lessons:
+- id: hsk2-u03-l01
+  title: Phút, khắc, tuần và đồng hồ
+  grammar: hsk2-g012
+  new_words:
+  - 分钟
+  - 刻
+  - 表
+  - 手表
+  - 周
+  - 周末
+  - 上周
+  - 下周
+  sentences:
+  - id: s-hsk2-u03-001
+    zh: 我十分钟后回来。
+    en: I'll be back in ten minutes.
+    pinyin: Wǒ shí fēnzhōng hòu huílái.
+  - id: s-hsk2-u03-002
+    zh: 现在九点一刻。
+    en: It's a quarter past nine now.
+    pinyin: Xiànzài jiǔ diǎn yí kè.
+  - id: s-hsk2-u03-003
+    zh: 我的手表坏了。
+    en: Something is wrong with my watch.
+    pinyin: wǒ de shǒu biǎo huài le
+    tatoeba_id: 858744
+  - id: s-hsk2-u03-004
+    zh: 你下周来吗？
+    en: Are you coming next week?
+    pinyin: nǐ xià zhōu lái ma
+    tatoeba_id: 6057854
+  tips:
+    手表: '手 và 表 đều mang thanh 3, gặp nhau thì chữ đầu đọc thành thanh 2: shǒubiǎo đọc là shóubiǎo. Thanh
+      3 không giống dấu hỏi tiếng Việt: hạ giọng xuống thấp rồi giữ, đừng vút giọng lên. 手 có âm Hán Việt
+      là thủ, 表 có âm Hán Việt là biểu.'
+    刻: '一刻 là 15 phút, 三刻 là 45 phút. 30 phút thì nói 半, không nói 两刻. 一 đứng trước 刻 (thanh 4) đổi thành
+      thanh 2: yí kè. 刻 có âm Hán Việt là khắc, giống chữ "khắc" trong "một khắc" của tiếng Việt.'
+    分钟: 'Phân biệt hai từ: 分 chỉ thời điểm (三点十分: 3 giờ 10 phút), còn 分钟 chỉ khoảng thời gian (休息十分钟:
+      nghỉ 10 phút). Âm zh trong 钟 đọc uốn lưỡi, gần với "tr" của tiếng Việt, đừng đọc thành "d".'
+    周末: 周 nghĩa giống 星期 nhưng ngắn gọn, hay gặp trong 上周 (tuần trước), 下周 (tuần sau), 周末 (cuối tuần).
+      末 có âm Hán Việt là mạt, nghĩa là cuối. Chữ 末 có nét ngang trên dài hơn nét dưới, còn chữ 未 thì
+      ngược lại, đừng viết nhầm.
+- id: hsk2-u03-l02
+  title: Bao lâu? Ngày tháng và năm
+  grammar: hsk2-g005
+  new_words:
+  - 多久
+  - 不久
+  - 日子
+  - 月份
+  - 前年
+  - 全年
+  sentences:
+  - id: s-hsk2-u03-005
+    zh: 我们要等多久？
+    en: How long will we have to wait?
+    pinyin: wǒ men yào děng duō jiǔ
+    tatoeba_id: 875292
+  - id: s-hsk2-u03-006
+    zh: 你在这里多久了？
+    en: How long have you been here?
+    pinyin: nǐ zài zhè lǐ duō jiǔ le
+    tatoeba_id: 846571
+  - id: s-hsk2-u03-007
+    zh: 今天是什么日子？
+    en: What's the special occasion today?
+    pinyin: Jīntiān shì shénme rìzi?
+  - id: s-hsk2-u03-008
+    zh: 我前年去了北京。
+    en: I went to Beijing the year before last.
+    pinyin: Wǒ qiánnián qù le Běijīng.
+  tips:
+    多久: '多久 dùng để hỏi khoảng thời gian (bao lâu), đặt sau động từ: 你等了多久？ Đừng nhầm với 几点 (mấy giờ),
+      vốn hỏi thời điểm. Âm j trong jiǔ đọc gần "ch" tiếng Việt, không bật hơi.'
+    前年: 'Người Việt hay nhầm chỗ này: 前年 là năm kia (cách đây 2 năm), còn năm ngoái là 去年. Cách gọi giống
+      前天 (hôm kia) và 昨天 (hôm qua).'
+    日子: 'Âm r trong rì không phải "d" hay "z": cong lưỡi lên như khi đọc sh rồi rung dây thanh. 子 đọc
+      thanh nhẹ: rìzi. 日子 thường chỉ một ngày đặc biệt (今天是什么日子？ = hôm nay là ngày gì vậy?) hoặc cuộc
+      sống, những ngày tháng đã qua. Muốn hỏi thứ mấy thì dùng 星期几.'
+    全年: 全 có âm Hán Việt là toàn, nên 全年 là cả năm, suốt năm. Chữ 全 gồm 人 ở trên và 王 ở dưới.
+- id: hsk2-u03-l03
+  title: Sáng sớm, đêm khuya và giấc ngủ trưa
+  grammar: hsk2-g042
+  new_words:
+  - 不一会儿
+  - 早晨
+  - 夜
+  - 夜里
+  - 半夜
+  - 午睡
+  sentences:
+  - id: s-hsk2-u03-009
+    zh: 不一会儿，他就回来了。
+    en: He came back in no time.
+    pinyin: Bù yíhuìr, tā jiù huílai le.
+  - id: s-hsk2-u03-010
+    zh: 他半夜打电话给我。
+    en: He rang me up at midnight.
+    pinyin: tā bàn yè dǎ diàn huà gěi wǒ
+    tatoeba_id: 838752
+  - id: s-hsk2-u03-011
+    zh: 我中午常常午睡。
+    en: I often take a nap at noon.
+    pinyin: Wǒ zhōngwǔ chángcháng wǔshuì.
+  tips:
+    不一会儿: '一 đứng trước 会 (thanh 4) đổi thành thanh 2: yíhuìr. 不 đứng trước 一 (thanh 1) thì giữ nguyên
+      bù. Chữ 儿 không đọc thành âm riêng, chỉ cong lưỡi ở cuối: huìr.'
+    夜: 夜 có âm Hán Việt là dạ, như trong "dạ hội". Chữ này có 夕 (buổi chiều tối) ở góc phải, nhìn vào
+      là nhớ ngay đến ban đêm. 夜里 là trong đêm, 半夜 là nửa đêm.
+    午睡: '午 có âm Hán Việt là ngọ, giống "giờ ngọ" (buổi trưa). Bên trái chữ 睡 là bộ 目 (mắt), mắt nhắm
+      lại tức là ngủ. 午睡 vừa là danh từ vừa là động từ: 我要午睡。'
+    早晨: 'Âm ch là "tr" bật hơi mạnh. Trong khẩu ngữ, 晨 thường đọc nhẹ: zǎochen. Chữ 晨 có bộ 日 (mặt trời)
+      ở trên, gợi lúc mặt trời mọc.'
+- id: hsk2-u03-l04
+  title: Thường xuyên, lại, làm lại
+  grammar: hsk2-g016
+  new_words:
+  - 经常
+  - 老是
+  - 又
+  - 重新
+  - 平常
+  - 平时
+  sentences:
+  - id: s-hsk2-u03-012
+    zh: 您经常去吗？
+    en: Do you go often?
+    pinyin: nín jīng cháng qù ma
+    tatoeba_id: 785919
+  - id: s-hsk2-u03-013
+    zh: 又下雨了！
+    en: It's raining again!
+    pinyin: yòu xià yǔ le
+    tatoeba_id: 507343
+  - id: s-hsk2-u03-014
+    zh: 重新来过吧。
+    en: Start over.
+    pinyin: chóng xīn lái guò ba
+    tatoeba_id: 3475951
+  - id: s-hsk2-u03-015
+    zh: 今天比平时还忙。
+    en: Today's even busier than normal.
+    pinyin: jīn tiān bǐ píng shí hái máng
+    tatoeba_id: 2442043
+  tips:
+    又: Đây là lỗi người Việt hay mắc. 又 là "lại" cho việc đã xảy ra (昨天他又来了), còn 再 là "nữa" cho việc
+      chưa xảy ra (明天再来). Không nói ~~昨天他再来了~~.
+    重新: 重 ở đây đọc chóng (làm lại từ đầu), không đọc zhòng (nặng) như trong 很重. ch là âm "tr" bật hơi.
+    老是: '老是 (lúc nào cũng) thường mang ý than phiền: 你老是迟到 = cậu cứ đến muộn mãi. 经常 thì trung tính, chỉ
+      có nghĩa là thường xuyên.'
+    平常: '平 có âm Hán Việt là bình, 常 có âm Hán Việt là thường, nên rất dễ nhớ. 平常 và 平时 đều là "ngày thường",
+      đứng ở đầu câu hoặc trước động từ: 我平时七点起床。'
+- id: hsk2-u03-l05
+  title: Thói quen, cuộc sống và giờ giấc
+  grammar: hsk2-g081
+  new_words:
+  - 才
+  - 随时
+  - 习惯
+  - 生活
+  - 事情
+  sentences:
+  - id: s-hsk2-u03-016
+    zh: 我很晚才睡。
+    en: I stayed up till late at night.
+    pinyin: wǒ hěn wǎn cái shuì
+    tatoeba_id: 344235
+  - id: s-hsk2-u03-017
+    zh: 我习惯了。
+    en: I'm used to it.
+    pinyin: wǒ xí guàn le
+    tatoeba_id: 736601
+  - id: s-hsk2-u03-018
+    zh: 随时再来。
+    en: Come again any time.
+    pinyin: suí shí zài lái
+    tatoeba_id: 824705
+  - id: s-hsk2-u03-019
+    zh: 我爱我的生活。
+    en: I love my life.
+    pinyin: wǒ ài wǒ de shēng huó
+    tatoeba_id: 465838
+  tips:
+    才: '才 nghĩa là "mới", diễn tả việc xảy ra muộn hơn mong đợi. Cuối câu không thêm 了: ~~他十点才来了~~ → 他十点才来。
+      Âm c đọc như "ts" bật hơi, không phải "c" tiếng Việt.'
+    生活: '生 có âm Hán Việt là sinh, 活 có âm Hán Việt là hoạt. Tuy vậy 生活 thường mang nghĩa "cuộc sống":
+      我爱我的生活。 活 có bộ 氵 (nước), có nước thì mới sống được.'
+    习惯: 'Muốn nói "quen rồi" thì dùng 习惯了: 我习惯了。 Âm x đọc gần "x" tiếng Việt nhưng đầu lưỡi đặt sau răng
+      dưới, môi kéo dẹt sang hai bên. 习 có âm Hán Việt là tập.'
+    随时: 随 có âm Hán Việt là tuỳ, 时 có âm Hán Việt là thì, nên 随时 là "tuỳ lúc", tức bất cứ lúc nào. Âm
+      s đọc như "x" tiếng Việt, đừng đọc thành "sh".
+- id: hsk2-u03-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,198 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u28.json.
+id: hsk2-u28
+stage: hsk2
+order: 28
+title: Giải quyết vấn đề
+description: Người học có thể nêu vấn đề, bàn bạc cách giải quyết và nói việc nên làm, phải làm hoặc có
+  thể làm.
+lessons:
+- id: hsk2-u28-l01
+  title: 'Gặp vấn đề: làm sao bây giờ?'
+  grammar: hsk2-g045
+  new_words:
+  - 问题
+  - 难题
+  - 办
+  - 怎么办
+  - 办法
+  - 怎样
+  sentences:
+  - id: s-hsk2-u28-001
+    zh: 没有问题。
+    en: There are no problems.
+    pinyin: méi yǒu wèn tí
+    tatoeba_id: 825141
+  - id: s-hsk2-u28-002
+    zh: 没办法了。
+    en: It can't be helped.
+    pinyin: méi bàn fǎ le
+    tatoeba_id: 12278510
+  - id: s-hsk2-u28-003
+    zh: 天气怎样？
+    en: How is the weather?
+    pinyin: tiān qì zěn yàng
+    tatoeba_id: 824719
+  - id: s-hsk2-u28-004
+    zh: 这个难题怎么办？我们还是问老师吧。
+    en: What do we do about this hard problem? We'd better ask the teacher.
+    pinyin: Zhège nántí zěnme bàn? Wǒmen háishi wèn lǎoshī ba.
+  tips:
+    问题: 'Chữ 问 là cái miệng 口 đứng trong cửa 门: đứng ở cửa mà mở miệng ra hỏi. 问题 vừa là ''câu hỏi'' vừa
+      là ''vấn đề, trục trặc'': 没问题 = không có vấn đề gì, được thôi.'
+    办法: 法 có âm Hán Việt là pháp, có bộ thủy 氵. 办 là 'lo liệu, xử lý', nên 办法 là cách xử lý, cách giải
+      quyết. 'Không còn cách nào' thì nói 没办法, không nói ~~不办法~~.
+    怎么办: '怎 đọc zěn: âm z giống ''ch'' nhẹ, không bật hơi. 么 đọc thanh nhẹ, ngắn và nhẹ. Thanh 3 của zěn
+      đi trước thanh nhẹ nên chỉ hạ giọng xuống thấp, không cần lên lại như dấu hỏi.'
+- id: hsk2-u28-l02
+  title: Nêu vấn đề và bàn bạc
+  grammar: hsk2-g003
+  new_words:
+  - 提
+  - 提出
+  - 提到
+  - 商量
+  - 讨论
+  - 愿意
+  sentences:
+  - id: s-hsk2-u28-005
+    zh: 你愿意跟我商量吗？
+    en: Are you willing to talk it over with me?
+    pinyin: Nǐ yuànyì gēn wǒ shāngliang ma?
+  - id: s-hsk2-u28-006
+    zh: 我们明天讨论这个问题吧。
+    en: Let's discuss this problem tomorrow.
+    pinyin: Wǒmen míngtiān tǎolùn zhège wèntí ba.
+  - id: s-hsk2-u28-007
+    zh: 他提出了一个好办法。
+    en: He put forward a good solution.
+    pinyin: Tā tíchūle yí ge hǎo bànfǎ.
+  - id: s-hsk2-u28-008
+    zh: 她不愿意提到这件事。
+    en: She doesn't want to mention this matter.
+    pinyin: Tā bú yuànyì tídào zhè jiàn shì.
+  tips:
+    提: '提 có bộ thủ 扌 (tay) ở bên trái: dùng tay nhấc lên, rồi từ đó có nghĩa ''nêu ra''. 提 có âm Hán
+      Việt là đề, nên 提出 gần với ''đề xuất''.'
+    讨论: Cả 讨 và 论 đều có bộ ngôn 讠, chỉ lời nói, nên hai chữ đều liên quan tới chuyện nói năng. 讨 có âm
+      Hán Việt là thảo, 论 có âm Hán Việt là luận → 'thảo luận'.
+    商量: '量 trong 商量 đọc thanh nhẹ: shāngliang, không đọc liàng. sh là âm uốn lưỡi, cong đầu lưỡi lên,
+      không đọc thành ''x'' như trong tiếng Việt.'
+    愿意: '愿意 là ''bằng lòng, sẵn lòng'' làm gì, phía sau thường có động từ: 我愿意帮你. Hai chữ đều có bộ tâm
+      心 ở dưới, tức đều là chuyện trong lòng.'
+- id: hsk2-u28-l03
+  title: Nên làm, đừng làm, chỉ có thể làm
+  grammar: hsk2-g002
+  new_words:
+  - 该
+  - 应该
+  - 不要
+  - 只能
+  - 方法
+  - 做法
+  sentences:
+  - id: s-hsk2-u28-009
+    zh: 你应该去。
+    en: You should go.
+    pinyin: nǐ yīng gāi qù
+    tatoeba_id: 832786
+  - id: s-hsk2-u28-010
+    zh: 我该做什么？
+    en: What should I do?
+    pinyin: wǒ gāi zuò shén me
+    tatoeba_id: 469441
+  - id: s-hsk2-u28-011
+    zh: 请不要问。
+    en: Please don't ask.
+    pinyin: qǐng bú yào wèn
+    tatoeba_id: 824619
+  - id: s-hsk2-u28-012
+    zh: 没办法，我们只能等。
+    en: There's no way around it; we can only wait.
+    pinyin: Méi bànfǎ, wǒmen zhǐ néng děng.
+  tips:
+    不要: 'Biến điệu của 不: đứng trước thanh 4 thì 不 đổi thành thanh 2, nên 不要 đọc là búyào. Muốn bảo ai
+      đó ''đừng'' làm gì thì dùng 不要 + động từ: 不要哭了.'
+    只能: '只 đọc zhǐ: zh là âm uốn lưỡi, khác với z. Thanh 3 đi trước thanh 2 thì chỉ đọc nửa đầu (hạ thấp
+      giọng), sau đó chuyển sang néng.'
+    做法: 方法 là phương pháp nói chung (学习方法), còn 做法 là cách làm cụ thể của một người trong một việc (你的做法不对).
+      法 có âm Hán Việt là pháp, có bộ thủy 氵.
+- id: hsk2-u28-l04
+  title: Phải, có lẽ, nhất định
+  grammar: hsk2-g019
+  new_words:
+  - 必须
+  - 也许
+  - 一定
+  - 不一定
+  - 主要
+  - 重点
+  sentences:
+  - id: s-hsk2-u28-013
+    zh: 你必须走。
+    en: You must leave.
+    pinyin: nǐ bì xū zǒu
+    tatoeba_id: 407097
+  - id: s-hsk2-u28-014
+    zh: 她也许来。
+    en: She may come.
+    pinyin: tā yě xǔ lái
+    tatoeba_id: 826112
+  - id: s-hsk2-u28-015
+    zh: 他明天一定来。
+    en: He will definitely come tomorrow.
+    pinyin: Tā míngtiān yídìng lái.
+  - id: s-hsk2-u28-016
+    zh: 贵的不一定好。
+    en: Expensive things aren't necessarily good.
+    pinyin: Guì de bù yídìng hǎo.
+  tips:
+    一定: 'Biến điệu của 一: đứng trước thanh 4 thì 一 đổi thành thanh 2, nên đọc là yídìng. Trong 不一定, 不
+      đứng trước yí (thanh 2) nên vẫn giữ thanh 4: bù yídìng.'
+    必须: 'Lỗi hay gặp: muốn nói ''không cần phải'' lại nói ~~不必须~~. Cách đúng là 不用: 你不用去 (bạn không cần
+      đi). 须 đọc xū, thực chất là xü: môi tròn như đọc ''u'' nhưng lưỡi đặt như đọc ''i''.'
+    重点: 重 có âm Hán Việt là trọng, 点 có âm Hán Việt là điểm → 'trọng điểm', tức ý chính. 点 có bộ hỏa 灬
+      (bốn chấm) ở dưới.
+    也许: '也许 gồm hai thanh 3 đi liền nhau nên chữ đầu đổi thành thanh 2: đọc yéxǔ. Từ này đứng trước động
+      từ: 她也许会来.'
+- id: hsk2-u28-l05
+  title: Có thể, có khả năng, thực tế
+  grammar: hsk2-g001
+  new_words:
+  - 可能
+  - 可以
+  - 能够
+  - 实际
+  - 说明
+  - 得出
+  sentences:
+  - id: s-hsk2-u28-017
+    zh: 有可能吗？
+    en: Is that possible?
+    pinyin: yǒu kě néng ma
+    tatoeba_id: 9432340
+  - id: s-hsk2-u28-018
+    zh: 可能会下雨。
+    en: It might rain.
+    pinyin: kě néng huì xià yǔ
+    tatoeba_id: 465902
+  - id: s-hsk2-u28-019
+    zh: 她可以来。
+    en: She may come.
+    pinyin: tā kě yǐ lái
+    tatoeba_id: 826110
+  - id: s-hsk2-u28-020
+    zh: 这说明你的方法不对。
+    en: This shows your method is wrong.
+    pinyin: Zhè shuōmíng nǐ de fāngfǎ bú duì.
+  tips:
+    可以: '可以 gồm hai thanh 3 liền nhau nên 可 đổi thành thanh 2: đọc kéyǐ. Khi muốn từ chối sự cho phép,
+      người ta thường nói 不能 hoặc 不可以, rất ít khi nói 不可能 (vì 不可能 là ''không thể xảy ra'').'
+    可能: 'Người Việt hay nhầm 可能 với 可以. 可能 nói về khả năng xảy ra (他可能病了: có lẽ anh ấy ốm). 可以 nói về
+      việc được phép hoặc làm được (你可以走了: bạn đi được rồi).'
+    实际: 实 có âm Hán Việt là thực; 实际 nghĩa là 'thực tế'. 实 đọc shí, sh uốn lưỡi; 际 đọc jì, j gần giống
+      'ch' nhẹ trong tiếng Việt, môi dẹt.
+    说明: '说 có âm Hán Việt là thuyết, 明 có âm Hán Việt là minh. Nghĩa thường gặp của từ này là ''giải thích''
+      hoặc ''cho thấy'': 这说明…… (điều này cho thấy…).'
+- id: hsk2-u28-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

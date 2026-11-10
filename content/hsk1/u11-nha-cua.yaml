@@ -1,0 +1,166 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u11.json.
+id: hsk1-u11
+stage: hsk1
+order: 11
+title: Nhà cửa
+description: Biết nói về nơi mình ở, phòng ốc, đồ đạc và đưa ra yêu cầu đơn giản trong nhà như mở cửa,
+  đóng cửa.
+lessons:
+- id: hsk1-u11-l01
+  title: 'Nơi mình ở: nhà, lầu trên, lầu dưới'
+  new_words:
+  - 房子
+  - 住
+  - 在家
+  - 楼
+  - 楼上
+  - 楼下
+  sentences:
+  - id: s-hsk1-u11-001
+    zh: 你住在哪里？
+    en: Where do you live?
+    pinyin: nǐ zhù zài nǎ lǐ
+    tatoeba_id: 136401
+  - id: s-hsk1-u11-002
+    zh: 这房子是我的。
+    en: This house is mine.
+    pinyin: zhè fáng zi shì wǒ de
+    tatoeba_id: 718459
+  - id: s-hsk1-u11-003
+    zh: 她们在楼上。
+    en: They're upstairs.
+    pinyin: tā men zài lóu shàng
+    tatoeba_id: 10304791
+  - id: s-hsk1-u11-004
+    zh: 她们住在楼下。
+    en: They live downstairs.
+    pinyin: tā men zhù zài lóu xià
+    tatoeba_id: 10460786
+  tips:
+    住: '住 có âm Hán Việt là trú. Chữ gồm 亻 (người) + 主 (chủ): người làm chủ một chỗ → ở. Thứ tự đúng:
+      住在 + nơi chốn. Người Việt hay nói ~~我在住北京~~ → đúng là 我住在北京.'
+    在家: 'Nói ''ở nhà'' chỉ cần 在家, không thêm 是: ~~我是在家~~ → 我在家. Phủ định dùng 不: 他不在家. z (zài) đặt đầu
+      lưỡi phẳng sau răng cửa, không bật hơi, gần ''tz''; khác zh (uốn lưỡi) và khác ''d'' tiếng Việt.'
+    楼: 楼 có âm Hán Việt là lầu. Bộ 木 (cây, gỗ) bên trái gợi nhà nhiều tầng thời xưa dựng bằng gỗ. Đọc
+      lóu thanh 2, giống dấu sắc. 楼上 = trên lầu, 楼下 = dưới lầu.
+    房子: '子 trong 房子 đọc thanh nhẹ: fángzi, đọc ngắn và nhẹ, không nhấn. 房 có âm Hán Việt là phòng nhưng
+      房子 nghĩa là ''ngôi nhà'', không phải ''căn phòng'' (căn phòng là 房间).'
+- id: hsk1-u11-l02
+  title: 'Phòng ốc: phòng, nhà vệ sinh, sạch sẽ'
+  new_words:
+  - 房间
+  - 间
+  - 洗手间
+  - 洗
+  - 干净
+  sentences:
+  - id: s-hsk1-u11-005
+    zh: 这间房间是谁的？
+    en: Whose room is this?
+    pinyin: zhè jiān fáng jiān shì shéi de
+    tatoeba_id: 686926
+  - id: s-hsk1-u11-006
+    zh: 洗手间在哪里？
+    en: Where is the bathroom?
+    pinyin: xǐ shǒu jiān zài nǎ lǐ
+    tatoeba_id: 346667
+  - id: s-hsk1-u11-007
+    zh: 洗手间干净吗？
+    en: Is the bathroom clean?
+    pinyin: Xǐshǒujiān gānjìng ma?
+  - id: s-hsk1-u11-008
+    zh: 我要洗衣服。
+    en: I need to wash clothes.
+    pinyin: Wǒ yào xǐ yīfu.
+  tips:
+    间: '间 có âm Hán Việt là gian. Chữ là 门 (cửa) bao quanh 日 (mặt trời): ánh nắng lọt qua khe cửa → khoảng
+      giữa, gian phòng. 间 còn là lượng từ của phòng: 一间房间, 这间房间.'
+    洗: '洗 có âm Hán Việt là tẩy. Bộ 氵 (nước) bên trái cho biết liên quan đến nước. xǐ thanh 3: hạ giọng
+      xuống thấp rồi mới lên, sâu hơn dấu hỏi tiếng Việt. x đọc gần ''x'' nhưng mặt lưỡi áp sát lợi trên,
+      môi dẹt.'
+    洗手间: '洗手间 nghĩa đen là ''gian rửa tay'', cách nói lịch sự của nhà vệ sinh. Biến điệu 3+3: xǐ shǒu
+      → đọc xí shǒu (thanh 3 đầu chuyển thành thanh 2). shǒu: sh uốn đầu lưỡi lên, khác ''x'' tiếng Việt.'
+    干净: '干净 là tính từ, làm vị ngữ không cần 是: ~~房间是干净~~ → 房间干净吗？ Chữ 净 có bộ 冫 (hai chấm) bên trái,
+      đừng viết thành ba chấm 氵. 净 đọc jìng, j đọc gần ''ch'' nhẹ, môi dẹt.'
+- id: hsk1-u11-l03
+  title: 'Đồ đạc: giường, bàn, đặt và cầm'
+  new_words:
+  - 床
+  - 桌子
+  - 子
+  - 地上
+  - 放
+  - 拿
+  - 重
+  sentences:
+  - id: s-hsk1-u11-009
+    zh: 桌子上有什么？
+    en: What is on the desk?
+    pinyin: zhuō zi shàng yǒu shén me
+    tatoeba_id: 8976061
+  - id: s-hsk1-u11-010
+    zh: 房间里没有桌子。
+    en: There are no tables in the room.
+    pinyin: Fángjiān lǐ méiyǒu zhuōzi.
+  - id: s-hsk1-u11-011
+    zh: 杯子放在桌子上。
+    en: The cup is on the table.
+    pinyin: Bēizi fàng zài zhuōzi shang.
+  - id: s-hsk1-u11-012
+    zh: 这个包重吗？
+    en: Is this bag heavy?
+    pinyin: Zhège bāo zhòng ma?
+  tips:
+    床: '床 có âm Hán Việt là sàng. Chữ gồm 广 (mái nhà) + 木 (gỗ): tấm gỗ kê dưới mái nhà → cái giường. Đọc
+      chuáng: ch uốn đầu lưỡi lên và bật hơi mạnh, không đọc như ''ch'' tiếng Việt.'
+    桌子: 'zhuōzi: zh uốn lưỡi, không bật hơi; người Việt hay đọc nhầm thành ''chua''. 子 cuối từ đọc thanh
+      nhẹ. ''Trên bàn'' nói 桌子上, đặt 上 sau danh từ, ngược với tiếng Việt.'
+    子: 'Khi làm hậu tố danh từ (桌子, 房子, 杯子, 包子), 子 đọc zi thanh nhẹ, không mang nghĩa riêng. Không thêm
+      tùy tiện: 床 đã là ''giường'', không nói ~~床子~~.'
+    放: '放 có âm Hán Việt là phóng. Chỉ nơi đặt đồ: 放在 + nơi chốn, ví dụ 杯子放在桌子上, 包放在地上. Đừng bỏ 在 rồi
+      nói ~~放桌子上~~ trong câu kiểu này.'
+    拿: '拿 có âm Hán Việt là nã. Chữ gồm 合 (hợp lại) ở trên + 手 (tay) ở dưới: khép tay lại → cầm, lấy.
+      Đọc ná thanh 2.'
+    重: '重 có âm Hán Việt là trọng. Đọc zhòng thanh 4, đi xuống dứt khoát. Là tính từ nên không dùng 是:
+      ~~这个包是重~~ → 这个包重吗？'
+- id: hsk1-u11-l04
+  title: 'Cửa: mở cửa, đóng cửa'
+  grammar: hsk1-g034
+  new_words:
+  - 门
+  - 门口
+  - 开
+  - 打开
+  - 关
+  - 关上
+  sentences:
+  - id: s-hsk1-u11-013
+    zh: 请打开门。
+    en: Please open the door.
+    pinyin: Qǐng dǎkāi mén.
+  - id: s-hsk1-u11-014
+    zh: 关上门！
+    en: Close the door!
+    pinyin: Guānshang mén!
+  - id: s-hsk1-u11-015
+    zh: 不要开门！
+    en: Don't open the door!
+    pinyin: Bú yào kāi mén!
+  - id: s-hsk1-u11-016
+    zh: 我在门口。
+    en: I'm at the door.
+    pinyin: Wǒ zài ménkǒu.
+  tips:
+    门: '门 có âm Hán Việt là môn. Chữ giản thể trông như một khung cửa: chấm ở trên, nét dọc trái, nét
+      ngang móc bên phải. Nhiều chữ có 门 bao ngoài liên quan đến cửa, như 间.'
+    开: '开 có âm Hán Việt là khai. 开门 = mở cửa. kāi thanh 1 đọc cao và đều. k là âm bật hơi: như ''c/k''
+      tiếng Việt nhưng đẩy thêm một luồng hơi mạnh ra miệng.'
+    关: '关 có âm Hán Việt là quan. 关门 = đóng cửa. 关上 nhấn mạnh đóng kín lại, 上 đọc thanh nhẹ: guānshang.
+      Đừng nhầm 关 với 开: 关 có hai nét chấm ở trên.'
+    打开: '打 có âm Hán Việt là đả, nhưng 打开 không phải ''đánh mở'' mà chỉ là ''mở ra''. dǎkāi: thanh 3 trước
+      thanh 1 chỉ đọc nửa thanh 3 (xuống thấp, không cần lên lại).'
+    门口: 门口 = cửa ra vào, chỗ ngay trước cửa. Nói 'ở trước cửa' chỉ cần 在门口, không nói ~~在门口前~~. 口 đọc
+      kǒu thanh 3.
+- id: hsk1-u11-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

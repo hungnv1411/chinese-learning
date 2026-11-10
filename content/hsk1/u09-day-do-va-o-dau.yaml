@@ -1,0 +1,174 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u09.json.
+id: hsk1-u09
+stage: hsk1
+order: 9
+title: Đây, đó và ở đâu
+description: Biết chỉ người, vật ở gần hay xa và hỏi đường, hỏi ai đó hoặc thứ gì đang ở đâu.
+lessons:
+- id: hsk1-u09-l01
+  title: 'Cái này, cái kia: 这 và 那'
+  grammar: hsk1-g006
+  new_words:
+  - 这
+  - 那
+  - 这些
+  - 那些
+  - 别的
+  - 有的
+  sentences:
+  - id: s-hsk1-u09-001
+    zh: 这是我的。
+    en: This is mine.
+    pinyin: zhè shì wǒ de
+    tatoeba_id: 4760167
+  - id: s-hsk1-u09-002
+    zh: 这些是人。
+    en: These are people.
+    pinyin: zhè xiē shì rén
+    tatoeba_id: 780402
+  - id: s-hsk1-u09-003
+    zh: 有的人不吃肉。
+    en: Some people don't eat meat.
+    pinyin: Yǒude rén bù chī ròu.
+  - id: s-hsk1-u09-004
+    zh: 你要别的吗？
+    en: Do you want anything else?
+    pinyin: Nǐ yào biéde ma?
+  tips:
+    这: 'zh là âm uốn lưỡi: cong đầu lưỡi lên vòm miệng rồi đọc, không bật hơi; đừng đọc thành "d" hay
+      "gi" tiếng Việt. 这 đọc thanh 4 (zhè), giọng rơi mạnh từ cao xuống thấp. Khi nói nhanh, người Bắc
+      Kinh hay đọc là zhèi, nhất là trước lượng từ: 这个 zhèige.'
+    那: '那 có âm Hán Việt là na. 那 nà (thanh 4) = "kia, đó", chỉ cái ở xa. Cẩn thận đừng nhầm với 哪 nǎ
+      (thanh 3) = "nào" sẽ học sau: hai chữ chỉ khác nhau bộ 口 và thanh điệu.'
+    这些: '些 có âm Hán Việt là ta. 这些/那些 là "những… này/kia", đã mang nghĩa số nhiều nên không ghép thêm
+      số đếm hay 们: ~~这三些书~~ → 这三本书; ~~这些人们~~ → 这些人.'
+    别的: '别的 + danh từ = "… khác": 别的东西 (đồ khác). Đừng nhầm với 别人 (người khác) đã học: 别人 tự đứng một
+      mình được, còn 别的 thường đi kèm danh từ phía sau, hoặc làm tân ngữ cuối câu như 你要别的吗？ (bạn có cần
+      gì khác không?).'
+    有的: '有的 = "có (những) … thì", luôn đứng TRƯỚC danh từ, thường đặt ở đầu câu: 有的人… Hay đi theo cặp:
+      有的人喝茶，有的人喝水 (có người uống trà, có người uống nước). Đừng nhầm với 有 + 的 kiểu sở hữu.'
+- id: hsk1-u09-l02
+  title: 'Ở đây, ở đó: chỉ nơi chốn và giới từ 在'
+  grammar: hsk1-g016
+  new_words:
+  - 这儿
+  - 那儿
+  - 这里
+  - 那里
+  - 这边
+  - 那边
+  - 在
+  sentences:
+  - id: s-hsk1-u09-005
+    zh: 他在这里。
+    en: He is here.
+    pinyin: tā zài zhè lǐ
+    tatoeba_id: 5630391
+  - id: s-hsk1-u09-006
+    zh: 这里没人。
+    en: There's nobody here.
+    pinyin: zhè lǐ méi rén
+    tatoeba_id: 6065738
+  - id: s-hsk1-u09-007
+    zh: 我在这里吃。
+    en: I eat here.
+    pinyin: wǒ zài zhè lǐ chī
+    tatoeba_id: 826251
+  - id: s-hsk1-u09-008
+    zh: 我的朋友在那边。
+    en: My friend is over there.
+    pinyin: Wǒ de péngyou zài nàbiān.
+  tips:
+    这儿: '这儿 zhèr đọc liền thành MỘT âm tiết, cuối âm cong lưỡi lên (âm r), không đọc rời "zhè ér". 这儿/那儿
+      là cách nói khẩu ngữ miền Bắc; 这里/那里 dùng được ở mọi nơi, cả văn viết. Nghĩa giống nhau: ở đây /
+      ở đó.'
+    这里: 'Trong 这里, 那里, chữ 里 thường đọc nhẹ (thanh nhẹ): zhèli, nàli. 这里 là đại từ nơi chốn nên đứng ngay
+      sau 在 được: 在这里. Khẩu ngữ đôi khi nói gọn 在这, nhưng người mới học nên dùng 在这里/在这儿 cho chuẩn.'
+    这边: '边 có âm Hán Việt là biên, nghĩa là "bên, phía". 这边 = bên này, 那边 = bên kia. Bộ 辶 (bước đi) trong
+      边 gợi ý chuyện di chuyển, phương hướng. Hay dùng khi chỉ chỗ: 我在这边 (tôi ở bên này).'
+    在: '在 có âm Hán Việt là tại. Lỗi hay gặp: dùng 是 để nói "ở": ~~他是这里~~ → 他在这里; ~~我是在家~~ → 我在家. Phát
+      âm: z đầu lưỡi phẳng chạm sau răng cửa, không bật hơi, giống "tz" ngắn; khác zh (uốn lưỡi) của 这.'
+- id: hsk1-u09-l03
+  title: Ở đâu? Cái gì? Hỏi bằng đại từ nghi vấn
+  grammar: hsk1-g046
+  new_words:
+  - 哪
+  - 哪儿
+  - 哪里
+  - 哪些
+  - 什么
+  sentences:
+  - id: s-hsk1-u09-009
+    zh: 你在哪儿?
+    en: Where are you?
+    pinyin: nǐ zài nǎ ér
+    tatoeba_id: 346124
+  - id: s-hsk1-u09-010
+    zh: 你是哪里人？
+    en: Where are you from?
+    pinyin: nǐ shì nǎ lǐ rén
+    tatoeba_id: 374862
+  - id: s-hsk1-u09-011
+    zh: 那是什么？
+    en: What's that?
+    pinyin: nà shì shén me
+    tatoeba_id: 465906
+  - id: s-hsk1-u09-012
+    zh: 你想买哪些东西？
+    en: Which things do you want to buy?
+    pinyin: Nǐ xiǎng mǎi nǎxiē dōngxi?
+  tips:
+    哪: '哪 có âm Hán Việt là ná. Mẹo nhớ: 哪 = 口 (miệng) + 那 → dùng miệng để HỎI "cái nào". Phân biệt thanh:
+      哪 nǎ (thanh 3, xuống thấp rồi lên) = nào; 那 nà (thanh 4) = kia. Đọc sai thanh là đổi câu hỏi thành
+      câu khẳng định!'
+    哪里: 'Khẩu ngữ thường đọc nǎli: 里 đọc nhẹ, nên không có biến điệu 3+3, 哪 giữ nửa thanh 3 (chỉ hạ giọng
+      thấp). Biến điệu 3+3 thật sự xảy ra khi hai thanh 3 đi liền: 你想 nǐ xiǎng → ní xiǎng. Thanh 3 không
+      phải dấu hỏi tiếng Việt. 哪里哪里！còn là câu khiêm tốn khi được khen: "Đâu có, đâu có!"'
+    什么: '什么 shénme: sh uốn lưỡi (không phải "s" hay "x" tiếng Việt), 么 đọc nhẹ, ngắn. Lỗi hay gặp: đưa
+      từ để hỏi lên đầu câu như tiếng Anh: ~~什么你想吃？~~ → 你想吃什么？ Từ để hỏi đứng đúng chỗ của câu trả lời.'
+    哪儿: 'Câu đã có 哪儿, 什么, 哪些… thì KHÔNG thêm 吗: ~~你在哪儿吗？~~ → 你在哪儿？ Có thể thêm 呢 cho mềm: 你在哪儿呢？ 哪儿 nǎr
+      đọc liền một âm tiết, cuối cong lưỡi.'
+    哪些: '哪些 = "những … nào", hỏi về nhiều thứ, đi trước danh từ: 哪些东西, 哪些人. Câu trả lời dùng 这些/那些: 你要哪些？—
+      我要这些。'
+- id: hsk1-u09-l04
+  title: 'Tìm đường: địa điểm, bản đồ, xa hay gần'
+  new_words:
+  - 找
+  - 找到
+  - 地方
+  - 地图
+  - 远
+  - 地点
+  sentences:
+  - id: s-hsk1-u09-013
+    zh: 你有地图吗？
+    en: Do you have a map?
+    pinyin: nǐ yǒu dì tú ma
+    tatoeba_id: 1261483
+  - id: s-hsk1-u09-014
+    zh: 你在找谁？
+    en: Who're you looking for?
+    pinyin: nǐ zài zhǎo shuí
+    tatoeba_id: 10145753
+  - id: s-hsk1-u09-015
+    zh: 我没找到我的钱包。
+    en: I didn't find my wallet.
+    pinyin: Wǒ méi zhǎodào wǒ de qiánbāo.
+  - id: s-hsk1-u09-016
+    zh: 那个地方远吗？
+    en: Is that place far?
+    pinyin: Nàge dìfang yuǎn ma?
+  tips:
+    找: '找 có bộ 扌 (tay) bên trái: tìm đồ thường phải dùng tay lục lọi. zhǎo: zh uốn lưỡi, thanh 3. 找 còn
+      nghĩa là "tìm gặp ai": 你找谁？ (bạn tìm ai?).'
+    找到: '找 = tìm (đang tìm, chưa chắc thấy); 找到 = tìm thấy (có kết quả). Phủ định kết quả dùng 没, không
+      dùng 不: ~~我不找到~~ → 我没找到 (tôi không tìm thấy).'
+    远: '远 có âm Hán Việt là viễn. Bộ 辶 (bước đi) + 元: phải đi bộ nhiều → xa. yuǎn: y + üan, môi tròn như
+      âm ü, không đọc "doan" hay "oan". 远 là tính từ nên không dùng 是: ~~那里是远~~ → 那里远吗？'
+    地图: 地 có âm Hán Việt là địa, 图 có âm Hán Việt là đồ → 地图 dễ nhớ như "địa đồ" = bản đồ. Chữ 图 có khung
+      囗 bao quanh như khung của tấm bản đồ.
+    地点: '地方 và 地点 đều là "nơi, chỗ". 地方 dùng hằng ngày, chung chung (这个地方很好); 地点 trang trọng hơn, chỉ
+      địa điểm cụ thể của sự kiện, hay đi với 时间: 时间和地点. Trong 地方, 方 đọc nhẹ: dìfang.'
+- id: hsk1-u09-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

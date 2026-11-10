@@ -1,0 +1,155 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u03.json.
+id: hsk1-u03
+stage: hsk1
+order: 3
+title: Số đếm và lượng từ
+description: Biết đếm số, hỏi số lượng và dùng các lượng từ cơ bản.
+lessons:
+- id: hsk1-u03-l01
+  title: Số đếm 0–5
+  new_words:
+  - 一
+  - 二
+  - 三
+  - 四
+  - 五
+  - 零
+  - 〇
+  sentences:
+  - id: s-hsk1-u03-001
+    zh: 一，二，三，四，五。
+    en: One, two, three, four, five.
+    pinyin: yī èr sān sì wǔ
+    tatoeba_id: 12993361
+  tips:
+    一: 'Thanh của 一 biến đổi: khi đếm số hoặc đứng cuối thì đọc yī; trước thanh 4 đọc yí (一半 yíbàn, 一个
+      yí ge); trước thanh 1, 2, 3 đọc yì (一些 yìxiē). Sách thường vẫn ghi yī.'
+    三: 'Mẹo nhớ: 一 có một nét ngang, 二 có hai nét, 三 có ba nét. 三 có âm Hán Việt là tam. sān: s đọc như
+      ''x'' tiếng Việt, không uốn lưỡi.'
+    四: 'Đừng lẫn 四 sì (bốn) với 十 shí (mười): s đọc như ''x'', đầu lưỡi thẳng; sh phải uốn lưỡi. Chữ i
+      sau s đọc gần như ''ư'', không đọc là ''i''. Đọc sai là nhầm 4 thành 10 đấy!'
+    〇: 〇 chỉ dùng khi viết hoặc đọc từng chữ số, ví dụ năm 二〇二六. 零 dùng được trong mọi trường hợp. Chữ
+      零 có bộ 雨 (mưa) ở trên và chữ 令 ở dưới.
+- id: hsk1-u03-l02
+  title: Số đếm 6–100
+  grammar: hsk1-g007
+  new_words:
+  - 六
+  - 七
+  - 八
+  - 九
+  - 十
+  - 百
+  sentences:
+  - id: s-hsk1-u03-002
+    zh: 一、二、三、四、五、六、七、八、九、十。
+    en: One, two, three, four, five, six, seven, eight, nine, ten.
+    pinyin: yī èr sān sì wǔ liù qī bā jiǔ shí
+    tatoeba_id: 382212
+  - id: s-hsk1-u03-003
+    zh: 九十九，一百！
+    en: Ninety-nine, one hundred!
+    pinyin: Jiǔshíjiǔ, yìbǎi!
+  tips:
+    七: 'qī: q đọc gần như ''ch'' tiếng Việt nhưng bật hơi mạnh, mặt lưỡi áp sát, đầu lưỡi chạm sau răng
+      dưới. Đừng đọc thành ''ki''. 七 có âm Hán Việt là thất.'
+    十: 'shí: uốn đầu lưỡi lên vòm miệng, i sau sh đọc gần như ''ư''. Ghép số giống tiếng Việt: 十一 = mười
+      một, 二十 = hai mươi, 九十九 = chín mươi chín. 十 có âm Hán Việt là thập.'
+    百: '百 gồm 一 ở trên và 白 ở dưới. 百 có âm Hán Việt là bách. Số 105 nói là 一百零五: 零 ở đây giống chữ ''linh/lẻ''
+      trong ''một trăm linh năm''.'
+    九: 'jiǔ mang thanh 3: hạ giọng xuống thấp rồi hơi nhấc lên, gần dấu hỏi nhưng trầm hơn. j giống ''ch''
+      nhưng không bật hơi. 九 có âm Hán Việt là cửu.'
+- id: hsk1-u03-l03
+  title: 'Lượng từ cơ bản: 个, 本, 页'
+  grammar: hsk1-g008
+  new_words:
+  - 两
+  - 半
+  - 一半
+  - 个
+  - 本
+  - 页
+  sentences:
+  - id: s-hsk1-u03-004
+    zh: 我是个男人。
+    en: I'm a man.
+    pinyin: wǒ shì gè nán rén
+    tatoeba_id: 333655
+  - id: s-hsk1-u03-005
+    zh: 他们两个人都是我朋友。
+    en: Both of them are my friends.
+    pinyin: Tāmen liǎng ge rén dōu shì wǒ péngyou.
+  - id: s-hsk1-u03-006
+    zh: 一半是男生，一半是女生。
+    en: Half are boys, half are girls.
+    pinyin: Yíbàn shì nánshēng, yíbàn shì nǚshēng.
+  tips:
+    两: 'Lỗi hay gặp: ~~二个人~~ → 两个人. Trước lượng từ dùng 两; khi đếm, chỉ thứ tự (第二) và trong 十二, 二十 thì
+      dùng 二. 两 có âm Hán Việt là lưỡng.'
+    个: 'Tiếng Việt có ''cái, con, quyển'', tiếng Trung cũng bắt buộc có lượng từ: ~~一朋友~~ → 一个朋友. Trong
+      câu 个 thường đọc nhẹ ''ge''. Vì 个 vốn mang thanh 4 nên 一个 đọc là yí ge.'
+    本: '本 = 木 (cây) thêm một nét ngang ở gốc, chỉ ''gốc rễ''. Làm lượng từ cho sách vở, giống ''quyển,
+      cuốn'' trong tiếng Việt: 两本 = hai quyển.'
+    一半: '半 có âm Hán Việt là bán. 一半 (một nửa) đứng một mình được: 一半是男生. Còn 半 thường đi với lượng từ:
+      半个 (nửa cái). 一半 đọc là yíbàn.'
+- id: hsk1-u03-l04
+  title: 'Hỏi số lượng: 几, 多少 và 一些'
+  grammar: hsk1-g004
+  new_words:
+  - 几
+  - 多
+  - 多少
+  - 一些
+  - 有些
+  - 有一些
+  sentences:
+  - id: s-hsk1-u03-007
+    zh: 你们几个人？
+    en: How many of you are there?
+    pinyin: Nǐmen jǐ ge rén?
+  - id: s-hsk1-u03-008
+    zh: 我认识一些人。
+    en: I know some people.
+    pinyin: Wǒ rènshi yìxiē rén.
+  - id: s-hsk1-u03-009
+    zh: 有些人不认识他。
+    en: Some people don't know him.
+    pinyin: Yǒuxiē rén bú rènshi tā.
+  - id: s-hsk1-u03-010
+    zh: 他有一些不高兴。
+    en: He's a bit unhappy.
+    pinyin: Tā yǒu yìxiē bù gāoxìng.
+  tips:
+    几: '几 jǐ dùng để hỏi số nhỏ (thường dưới 10) và phải có lượng từ đi kèm: 几个人？ Trong khẩu ngữ không
+      nói ~~几人~~. jǐ mang thanh 3, đọc trầm.'
+    多少: '多 gồm hai chữ 夕 chồng lên nhau, nghĩa là ''nhiều''. 多 có âm Hán Việt là đa. 多少 = nhiều + ít,
+      nghĩa là ''bao nhiêu''. Chữ 少 đọc nhẹ: duōshao.'
+    一些: '些 gồm 此 ở trên và 二 ở dưới. 一些 đứng trước danh từ: 一些人 (một số người), không cần thêm 个. 一些 đọc
+      là yìxiē.'
+    有些: 有些 + danh từ = một số…, có những… (有些人不认识他). 有一些 đứng trước tính từ/động từ = hơi, khá… (他有一些不高兴).
+      Đừng nhầm với động từ 有 + 一些 = có vài…
+- id: hsk1-u03-l05
+  title: 'Số thứ tự và số lần: 第, 次'
+  grammar: hsk1-g023
+  new_words:
+  - 第
+  - 第二
+  - 次
+  sentences:
+  - id: s-hsk1-u03-011
+    zh: 我是第二个。
+    en: I'm the second one.
+    pinyin: Wǒ shì dì-èr ge.
+  - id: s-hsk1-u03-012
+    zh: 我们是第一次见。
+    en: This is the first time we've met.
+    pinyin: Wǒmen shì dì-yī cì jiàn.
+  tips:
+    第: '第 có bộ trúc ⺮ ở trên. 第 có âm Hán Việt là đệ. 第 + số tạo số thứ tự, giống ''thứ'' trong tiếng
+      Việt: 第一 = thứ nhất, 第二 = thứ hai.'
+    第二: 'Số thứ tự luôn dùng 二, không dùng 两: ~~第两~~ → 第二. Nhưng ''hai lần'' lại là 两次. 第二 đọc là dì-èr.'
+    次: '次 có âm Hán Việt là thứ. Làm lượng từ nghĩa là ''lần'': 一次, 两次, 第一次 (lần đầu). Âm c như ''tx''
+      bật hơi mạnh, i đọc gần ''ư'': cì.'
+- id: hsk1-u03-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

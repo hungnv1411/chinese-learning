@@ -1,0 +1,161 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u14.json.
+id: hsk2-u14
+stage: hsk2
+order: 14
+title: Trong lớp học
+description: Người học có thể hiểu và dùng những câu thường gặp trong giờ học như nghe giảng, làm bài,
+  nộp bài tập và ôn tập.
+lessons:
+- id: hsk2-u14-l01
+  title: Đồ dùng trong lớp học
+  new_words:
+  - 教室
+  - 课堂
+  - 黑板
+  - 笔
+  - 纸
+  - 笔记本
+  sentences:
+  - id: s-hsk2-u14-001
+    zh: 请看黑板。
+    en: Look at the blackboard.
+    pinyin: qǐng kàn hēi bǎn
+    tatoeba_id: 13148496
+  - id: s-hsk2-u14-002
+    zh: 学生们在教室里。
+    en: The students are in the classroom.
+    pinyin: xué shēng men zài jiào shì lǐ
+    tatoeba_id: 2778803
+  - id: s-hsk2-u14-003
+    zh: 你有笔吗？
+    en: Do you have a pen?
+    pinyin: nǐ yǒu bǐ ma
+    tatoeba_id: 1780718
+  - id: s-hsk2-u14-004
+    zh: 这是你的笔记本吗？
+    en: Is this your notebook?
+    pinyin: zhè shì nǐ de bǐ jì běn ma
+    tatoeba_id: 9054607
+  tips:
+    笔: 'Mẹo nhớ chữ: trên là bộ trúc ⺮ (tre), dưới là 毛 (lông). Ngày xưa bút làm bằng ống tre gắn lông.
+      笔 có âm Hán Việt là bút. Lượng từ thường dùng: 一支笔.'
+    黑板: '黑 có âm Hán Việt là hắc (đen). 板 có bộ mộc 木 vì bảng làm bằng gỗ. Đọc hēibǎn: thanh 1 giữ cao
+      đều, rồi thanh 3 xuống thấp. Đừng đọc 黑 thành ''hây'' có dấu sắc.'
+    教室: Chữ 教 trong 教室 đọc jiào (thanh 4), còn khi là động từ 'dạy' (教汉语) thì đọc jiāo. 室 có âm Hán Việt
+      là thất, có bộ miên 宀 (mái nhà) ở trên, gợi một căn phòng.
+    笔记本: '笔记本 vừa là ''quyển vở ghi chép'', vừa là cách nói tắt của ''máy tính xách tay'' (laptop). Cứ
+      dựa vào ngữ cảnh mà hiểu. Lượng từ cho vở là 本: 一本笔记本.'
+- id: hsk2-u14-l02
+  title: Nghe giảng và phát biểu
+  new_words:
+  - 讲
+  - 听讲
+  - 举手
+  - 声音
+  - 大声
+  - 小声
+  sentences:
+  - id: s-hsk2-u14-005
+    zh: 上课要认真听讲。
+    en: You should listen carefully in class.
+    pinyin: shàngkè yào rènzhēn tīngjiǎng
+  - id: s-hsk2-u14-006
+    zh: 想回答的同学请举手。
+    en: Students who want to answer, please raise your hand.
+    pinyin: xiǎng huídá de tóngxué qǐng jǔshǒu
+  - id: s-hsk2-u14-007
+    zh: 请大声一点儿。
+    en: Please speak a bit louder.
+    pinyin: qǐng dà shēng yì diǎnr
+  - id: s-hsk2-u14-008
+    zh: 他的声音很好听。
+    en: He has a pleasant voice.
+    pinyin: tā de shēng yīn hěn hǎo tīng
+    tatoeba_id: 369130
+  tips:
+    讲: '讲 có âm Hán Việt là giảng, có bộ ngôn 讠 (lời nói). Phụ âm j đọc gần giống ''ch'' trong ''chi''
+      nhưng không bật hơi, mặt lưỡi áp vào ngạc trên. jiǎng là thanh 3: hạ giọng xuống thấp, đừng đọc
+      thành dấu hỏi tiếng Việt.'
+    举手: 'Hai thanh 3 đi liền nhau thì thanh đầu đổi thành thanh 2: jǔshǒu đọc thành júshǒu. Chữ 举 viết
+      ju nhưng nguyên âm là ü (dấu chấm bị bỏ sau j, q, x): tròn môi và đọc ''i''.'
+    声音: '声 có âm Hán Việt là thanh, 音 có âm Hán Việt là âm, ghép lại thành ''thanh âm'', tức là âm thanh
+      hay giọng nói. sh là âm uốn lưỡi: cong đầu lưỡi lên, khác với x trong 小.'
+    大声: 'Khi muốn nói ''nói to / nói khẽ'', 大声/小声 thường đặt trước động từ: 大声说 (nói to), 小声说话 (nói khẽ).
+      Câu nhắc nhở hay gặp trong lớp: 请小声说话。'
+- id: hsk2-u14-l03
+  title: Nghe hiểu và ghi chép
+  grammar: hsk2-g049
+  new_words:
+  - 懂
+  - 清楚
+  - 题
+  - 笔记
+  - 重复
+  sentences:
+  - id: s-hsk2-u14-009
+    zh: 这道题你听懂了吗？
+    en: Did you understand this question?
+    pinyin: zhè dào tí nǐ tīngdǒng le ma
+  - id: s-hsk2-u14-010
+    zh: 我听不太清楚。
+    en: I can't hear very well.
+    pinyin: wǒ tīng bú tài qīngchu
+  - id: s-hsk2-u14-011
+    zh: 老师，请再重复一下儿。
+    en: Teacher, please repeat it again.
+    pinyin: lǎoshī, qǐng zài chóngfù yíxiàr
+  - id: s-hsk2-u14-012
+    zh: 我看了自己的笔记。
+    en: I looked at my notes.
+    pinyin: wǒ kàn le zì jǐ de bǐ jì
+    tatoeba_id: 8777514
+  tips:
+    懂: 'Bộ tâm 忄 ở bên trái: hiểu là việc của tâm trí. Phân biệt: 懂 là hiểu nội dung, còn 知道 là biết một
+      thông tin. Không nói ~~我懂他的名字~~ mà nói 我知道他的名字。 Khi nghe giảng nên nói 我听懂了。'
+    清楚: '清 có âm Hán Việt là thanh, có bộ thủy 氵 (nước trong thì nhìn rõ). 楚 trong 清楚 đọc thanh nhẹ: qīngchu.
+      Biến điệu: 不 đứng trước thanh 4 thì đổi thành thanh 2, nên 我听不太清楚 đọc là wǒ tīng bú tài qīngchu.'
+    题: 'Lượng từ của 题 là 道: 一道题, 这道题. Chữ 题 gồm 是 ở bên trái và 页 (bộ hiệt, nghĩa là đầu, trang) ở bên
+      phải. Đọc tí (thanh 2), t bật hơi.'
+    重复: '重 là chữ đa âm: trong 重复 đọc chóng (lặp lại), còn khi nghĩa là ''nặng'' thì đọc zhòng. 重 có âm
+      Hán Việt là trọng. Câu hay dùng trong lớp: 请再重复一下儿。'
+- id: hsk2-u14-l04
+  title: Bài tập và ôn tập
+  grammar: hsk2-g011
+  new_words:
+  - 遍
+  - 练习
+  - 复习
+  - 作业
+  - 作文
+  - 交
+  - 交给
+  sentences:
+  - id: s-hsk2-u14-013
+    zh: 课文我读了三遍。
+    en: I read the text three times.
+    pinyin: kèwén wǒ dú le sān biàn
+  - id: s-hsk2-u14-014
+    zh: 考试前我们复习了两遍。
+    en: We reviewed it twice before the exam.
+    pinyin: kǎoshì qián wǒmen fùxí le liǎng biàn
+  - id: s-hsk2-u14-015
+    zh: 你写作业了没有？
+    en: Did you do the homework?
+    pinyin: nǐ xiě zuò yè le méi yǒu
+    tatoeba_id: 3702789
+  - id: s-hsk2-u14-016
+    zh: 我的作业交给老师了。
+    en: I handed my homework in to the teacher.
+    pinyin: wǒ de zuòyè jiāo gěi lǎoshī le
+  tips:
+    遍: 'Bộ sước 辶 (đi) gợi ý ''đi hết một lượt''. 遍 nhấn mạnh làm trọn từ đầu đến cuối: 读一遍课文. Còn 次 chỉ
+      đếm số lần. Chú ý 一遍 đọc yí biàn vì 一 đứng trước thanh 4 thì đổi thành thanh 2.'
+    作业: 'Bài tập về nhà thì nói 写作业 hoặc 做作业, không nói ~~学作业~~. 作 đọc zuò: z không bật hơi, gần giống
+      ''ch'' nhẹ đặt đầu lưỡi sau răng. 业 có âm Hán Việt là nghiệp.'
+    交给: '交 có âm Hán Việt là giao. Nộp bài tập thì nói 交作业. Có thể nói 把作业交给老师 hoặc 作业交给老师了; trong 交给,
+      người nhận đặt ngay sau động từ: 交给老师 (nộp cho thầy cô).'
+    复习: 习 có âm Hán Việt là tập. 复习 là ôn lại bài đã học, 练习 là luyện tập hoặc bài luyện. x đọc gần 'x'
+      tiếng Việt nhưng mặt lưỡi áp sát ngạc, môi dẹt như khi cười.
+- id: hsk2-u14-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

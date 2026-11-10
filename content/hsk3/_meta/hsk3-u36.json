@@ -1,0 +1,42 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T02:26:21",
+  "prompt_sha256": [
+    "7634bf380fe3a554e91b62a179e929a969f5dc33ebdba6046d81827524e96a11",
+    "539be1e8cef86a3c2fe0f5dab699f50dc140274f3cf32e5ec50661b127e4cf69"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk3-u36-002",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Câu 他精神很好 mang nghĩa khỏe khoắn, tươi tỉnh. Tip của chính bài nói nghĩa này đọc nhẹ chữ sau (jīngshen). Pinyin của câu lại ghi 'jīng shén' đủ thanh, và bản dịch 'in good spirits' dễ làm người học hiểu là tinh thần/tâm trạng.",
+      "suggestion": "Giữ nhất quán với tip. Có thể ghi pinyin là 'tā jīngshen hěn hǎo' và dịch 'He is full of energy' / 'He looks energetic'."
+    },
+    {
+      "where": "s-hsk3-u36-016",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Bản dịch 'Forming good habits takes a process' không tự nhiên trong tiếng Anh.",
+      "suggestion": "Sửa thành 'Forming good habits is a process' hoặc 'Forming good habits takes a process of gradual effort'."
+    },
+    {
+      "where": "hsk3-u36-l03",
+      "category": "learned_words",
+      "severity": "warning",
+      "problem": "Tip của 深刻 dùng ví dụ 深入了解, mà 了解 không có trong danh sách từ đã học hoặc từ mới của chủ đề.",
+      "suggestion": "Thay bằng ví dụ dùng từ đã học, ví dụ 深入讨论, 深入学习."
+    }
+  ],
+  "machine_warnings": [
+    "u36-tu-duy-va-khai-niem.yaml:76: [sentence_unlearned_word] Câu s-hsk3-u36-008 (bài hsk3-u36-l02) dùng từ chưa học: 这种",
+    "u36-tu-duy-va-khai-niem.yaml:143: [sentence_unlearned_word] Câu s-hsk3-u36-013 (bài hsk3-u36-l04) dùng từ chưa học: 结合实际",
+    "u36-tu-duy-va-khai-niem.yaml:157: [sentence_unlearned_word] Câu s-hsk3-u36-016 (bài hsk3-u36-l04) dùng từ chưa học: 一个"
+  ],
+  "han_viet_proposed": []
+}

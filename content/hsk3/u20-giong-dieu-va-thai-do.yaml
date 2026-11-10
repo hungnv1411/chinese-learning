@@ -1,0 +1,175 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u20.json.
+id: hsk3-u20
+stage: hsk3
+order: 20
+title: Giọng điệu và thái độ
+description: Thể hiện sự chắc chắn, ngạc nhiên, nhấn mạnh và câu hỏi tu từ.
+lessons:
+- id: hsk3-u20-l01
+  title: Chắc chắn và hiển nhiên
+  grammar: hsk3-g019
+  new_words:
+  - 当然
+  - 必然
+  - 绝对
+  - 确实
+  - 显然
+  - 果然
+  sentences:
+  - id: s-hsk3-u20-001
+    zh: 我当然爱你。
+    en: Of course I love you.
+    pinyin: wǒ dāng rán ài nǐ
+    tatoeba_id: 8881263
+  - id: s-hsk3-u20-002
+    zh: 绝对不行！
+    en: Absolutely not!
+    pinyin: jué duì bù xíng
+    tatoeba_id: 13108973
+  - id: s-hsk3-u20-003
+    zh: 她确实喜欢动物。
+    en: She really does like animals.
+    pinyin: tā què shí xǐ huān dòng wù
+    tatoeba_id: 3032019
+  - id: s-hsk3-u20-004
+    zh: 他果然来了。
+    en: Sure enough, he came.
+    pinyin: Tā guǒrán lái le.
+  tips:
+    当然: '当 có âm Hán Việt là đương, 然 có âm Hán Việt là nhiên → nghĩa giống hệt từ quen thuộc của tiếng
+      Việt: "đương nhiên". Dùng hằng ngày để trả lời: 当然！= Tất nhiên rồi!'
+    果然: 果然 = đúng như đã đoán trước (có dự đoán từ trước rồi mới xảy ra). Đừng nhầm với 当然 (lẽ dĩ nhiên).
+      Trước đó đoán anh ấy sẽ đến, và anh ấy đến thật → 他果然来了。
+    确实: 'què: q + üe, viết là "ue" nhưng môi phải tròn như âm ü. q bật hơi mạnh, gần giống "ch" nhưng
+      đầu lưỡi đặt sau răng dưới. 确 có âm Hán Việt là xác, 实 có âm Hán Việt là thực.'
+    绝对: '绝 có âm Hán Việt là tuyệt, 对 có âm Hán Việt là đối. Hay đứng trước 不 để nói chắc nịch: 绝对不行 (tuyệt
+      đối không được). juéduì: hai thanh 2 rồi 4, giọng lên rồi rơi dứt khoát.'
+    必然: 必然 trang trọng hơn 当然, mang nghĩa "tất yếu, chắc chắn sẽ xảy ra" theo quy luật. Nói chuyện hằng
+      ngày người ta dùng 当然 nhiều hơn. Chữ 必 thuộc bộ tâm (心), có thêm một nét phẩy cắt ngang.
+- id: hsk3-u20-l02
+  title: Thật ra, hoàn toàn và trùng hợp
+  new_words:
+  - 其实
+  - 实际上
+  - 事实上
+  - 根本
+  - 简直
+  - 巧
+  sentences:
+  - id: s-hsk3-u20-005
+    zh: 其实，我不知道。
+    en: Actually, I don't know.
+    pinyin: qí shí wǒ bù zhī dào
+    tatoeba_id: 8856211
+  - id: s-hsk3-u20-006
+    zh: 我根本不累。
+    en: I'm not at all tired.
+    pinyin: wǒ gēnběn bú lèi
+  - id: s-hsk3-u20-007
+    zh: 这个菜简直太好吃了！
+    en: This dish is simply too delicious!
+    pinyin: Zhège cài jiǎnzhí tài hǎochī le!
+  - id: s-hsk3-u20-008
+    zh: 真巧，我也在这儿！
+    en: What a coincidence, I'm here too!
+    pinyin: Zhēn qiǎo, wǒ yě zài zhèr!
+  tips:
+    根本: 'Lỗi hay gặp: hiểu 根本 là "căn bản" theo nghĩa tiếng Việt. Khi làm phó từ, 根本 + 不/没 = "hoàn toàn
+      không, chẳng hề": 我根本不累 = Tôi chẳng mệt chút nào. 根 có âm Hán Việt là căn.'
+    其实: 其 có âm Hán Việt là kì, 实 có âm Hán Việt là thực → "kì thực" = thật ra. Dùng khi nói ra sự thật
+      trái với điều người khác tưởng. Hay đứng đầu câu hoặc ngay sau chủ ngữ.
+    事实上: 'shìshíshang: cả ba âm đều có sh/sh, phải uốn lưỡi, đừng đọc thành "x" kiểu tiếng Việt. 上 ở đây
+      đọc nhẹ (thanh nhẹ). 事实上 và 实际上 dùng gần như nhau, đều có nghĩa "trên thực tế".'
+    简直: '简直 dùng để nói quá lên, kiểu "quả thật là, đúng là…": 简直太好了! Chữ 简 có bộ trúc (⺮) ở trên, chữ
+      间 ở dưới. 简 có âm Hán Việt là giản.'
+    巧: 'qiǎo mang thanh 3: giọng xuống thấp rồi mới lên, đừng đọc như dấu hỏi tiếng Việt. Câu cửa miệng:
+      真巧! = Trùng hợp thật! 巧 có bộ công (工) bên trái.'
+- id: hsk3-u20-l03
+  title: Không cần, buộc phải và e rằng
+  grammar: hsk3-g018
+  new_words:
+  - 不必
+  - 不得不
+  - 只好
+  - 应当
+  - 千万
+  - 恐怕
+  sentences:
+  - id: s-hsk3-u20-009
+    zh: 恐怕我现在得走了。
+    en: I'm afraid I have to go now.
+    pinyin: kǒngpà wǒ xiànzài děi zǒu le
+  - id: s-hsk3-u20-010
+    zh: 你不必紧张。
+    en: You don't need to be nervous.
+    pinyin: nǐ búbì jǐnzhāng
+  - id: s-hsk3-u20-011
+    zh: 只好坐下来等待。
+    en: There was no choice but to sit and wait.
+    pinyin: zhǐ hǎo zuò xià lái děng dài
+    tatoeba_id: 361697
+  - id: s-hsk3-u20-012
+    zh: 千万不要!
+    en: Please don't!
+    pinyin: qiān wàn bú yào
+    tatoeba_id: 9778760
+  tips:
+    不必: 'Biến điệu của 不: đứng trước thanh 4 thì 不 đổi thành thanh 2, nên 不必 đọc là búbì. 不必 = 不用 = không
+      cần; ngược nghĩa với 必须 (bắt buộc phải).'
+    不得不: 'Hai lần phủ định thành khẳng định: "không thể không" = buộc phải làm (dù không muốn). 得 ở đây
+      đọc là dé, không đọc là de hay děi. 得 có âm Hán Việt là đắc.'
+    只好: 'Biến điệu 3+3: zhǐ và hǎo đều thanh 3 nên chữ đầu đọc thành thanh 2: zhíhǎo. 只好 = đành phải,
+      vì không còn cách nào khác: 没车了，我只好走路。'
+    恐怕: '恐 có âm Hán Việt là khủng. Cả hai chữ đều có bộ tâm (心 nằm dưới 恐, 忄 bên trái 怕), liên quan đến
+      cảm giác sợ. 恐怕 = "e là", dùng để từ chối hoặc báo tin không vui một cách lịch sự: 恐怕不行。'
+    千万: '千 có âm Hán Việt là thiên, 万 có âm Hán Việt là vạn. Làm phó từ, 千万 = "nhất định, dù thế nào cũng",
+      hay dùng để dặn dò: 千万别忘了! Thường đi với 要/别/不要.'
+    应当: '应当 = 应该 (nên), nhưng nghe trang trọng hơn. Lỗi hay gặp: đặt 应当 sau động từ. Phải đặt trước: 你应当多运动
+      chứ không nói ~~你运动应当~~.'
+- id: hsk3-u20-l04
+  title: Rốt cuộc, chẳng lẽ và câu hỏi tu từ
+  grammar: hsk3-g076
+  new_words:
+  - 到底
+  - 难道
+  - 干吗
+  - 能不能
+  - 反正
+  - 终于
+  sentences:
+  - id: s-hsk3-u20-013
+    zh: 到底怎么了？
+    en: What on earth is the matter?
+    pinyin: dào dǐ zěn me le
+    tatoeba_id: 6828233
+  - id: s-hsk3-u20-014
+    zh: 难道你不知道吗？
+    en: Don't tell me you don't know?
+    pinyin: Nándào nǐ bù zhīdào ma?
+  - id: s-hsk3-u20-015
+    zh: 爸爸，你在干吗？
+    en: What are you doing, Dad?
+    pinyin: bà bà nǐ zài gàn má
+    tatoeba_id: 343312
+  - id: s-hsk3-u20-016
+    zh: 他终于出现了。
+    en: He appeared at last.
+    pinyin: tā zhōng yú chū xiàn le
+    tatoeba_id: 2680388
+  tips:
+    到底: 'Lỗi hay gặp: dùng 到底 với 吗. Câu hỏi có 到底 phải dùng từ để hỏi hoặc dạng chính-phản: 你到底去不去？ chứ
+      không nói ~~你到底去吗？~~. 到 có âm Hán Việt là đáo.'
+    难道: '难道 mở đầu câu hỏi tu từ, cuối câu thường có 吗. Người nói không thật sự hỏi mà muốn nhấn mạnh
+      ý ngược lại: 难道你不知道吗？ = Lẽ nào bạn không biết? (ý là: chắc chắn bạn biết).'
+    干吗: gànmá là cách nói khẩu ngữ của 干什么 (làm gì) hoặc 为什么 (sao lại…). Chữ 吗 ở đây đọc thanh 2 (má),
+      không đọc nhẹ như ma trong câu hỏi thường. Hỏi với người thân thì được, với người lớn tuổi thì nghe
+      hơi suồng sã.
+    能不能: 'Trong cấu trúc chính-phản, 不 ở giữa đọc thanh nhẹ: néng bu néng. Dùng để nhờ vả lịch sự: 你能不能帮我？
+      Khi đã dùng 能不能 thì không thêm 吗 ở cuối câu nữa.'
+    反正: '反正 = "dù sao thì, đằng nào cũng", ý là kết quả không thay đổi: 反正一样。 fǎnzhèng: f giống "ph" tiếng
+      Việt, zh phải uốn lưỡi, đừng đọc thành "ch".'
+    终于: 'yú có âm ü: môi tròn như khi nói "u" nhưng lưỡi đặt như khi nói "i". 终于 = rốt cuộc cũng…, sau
+      khi chờ đợi lâu; thường có 了 ở cuối: 终于下雨了! 终 có âm Hán Việt là chung.'
+- id: hsk3-u20-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

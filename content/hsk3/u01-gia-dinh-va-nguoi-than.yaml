@@ -1,0 +1,164 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u01.json.
+id: hsk3-u01
+stage: hsk3
+order: 1
+title: Gia đình và người thân
+description: Giới thiệu được người trong gia đình, tuổi tác, hôn nhân và tình cảm gia đình.
+lessons:
+- id: hsk3-u01-l01
+  title: Cha mẹ, con cái và người thân
+  grammar: hsk3-g079
+  new_words:
+  - 父母
+  - 父亲
+  - 母亲
+  - 子女
+  - 亲人
+  - 亲
+  - 家属
+  - 年纪
+  sentences:
+  - id: s-hsk3-u01-001
+    zh: 这是我母亲。
+    en: This is my mother.
+    pinyin: zhè shì wǒ mǔ qīn
+    tatoeba_id: 796923
+  - id: s-hsk3-u01-002
+    zh: 听父母的。
+    en: Obey your parents.
+    pinyin: tīng fù mǔ de
+    tatoeba_id: 3857754
+  - id: s-hsk3-u01-003
+    zh: 您父亲多大年纪了？
+    en: How old is your father?
+    pinyin: nín fùqīn duō dà niánjì le?
+  - id: s-hsk3-u01-004
+    zh: 我爷爷都九十岁了。
+    en: My grandpa is already ninety.
+    pinyin: wǒ yéye dōu jiǔshí suì le.
+  tips:
+    母亲: 母 có âm Hán Việt là mẫu, 亲 có âm Hán Việt là thân. 父亲/母亲 mang sắc thái trang trọng, hay dùng khi
+      viết hoặc giới thiệu lịch sự. Ở nhà người Trung Quốc gọi 爸爸/妈妈, không gọi thẳng 「母亲!」.
+    亲: 'q trong qīn đọc gần như ''ch'' của tiếng Việt nhưng bật hơi mạnh, môi dẹt; tuyệt đối không đọc
+      thành ''quin''. Trong 父亲, 母亲 chữ 亲 thường đọc nhẹ. Khi là động từ, 亲 còn có nghĩa là hôn: 他想亲她。'
+    家属: '家 có âm Hán Việt là gia, 属 có âm Hán Việt là thuộc → người thuộc về một gia đình. Từ này hay
+      gặp ở bệnh viện, cơ quan: 病人家属 (người nhà bệnh nhân). 属 shǔ: sh uốn lưỡi, thanh 3.'
+    年纪: Hỏi tuổi người lớn tuổi dùng 您多大年纪了？ cho lịch sự. Đừng hỏi người già bằng 你几岁？ vì câu này chỉ
+      dùng cho trẻ nhỏ.
+- id: hsk3-u01-l02
+  title: Nam nữ, già trẻ và giới tính
+  grammar: hsk3-g001
+  new_words:
+  - 姑娘
+  - 男子
+  - 女子
+  - 老太太
+  - 老头儿
+  - 性别
+  sentences:
+  - id: s-hsk3-u01-005
+    zh: 她上女子高中。
+    en: She goes to a girls' high school.
+    pinyin: tā shàng nǚ zǐ gāo zhōng
+    tatoeba_id: 892487
+  - id: s-hsk3-u01-006
+    zh: 那位老太太是我奶奶。
+    en: That old lady is my grandma.
+    pinyin: nà wèi lǎotàitai shì wǒ nǎinai.
+  - id: s-hsk3-u01-007
+    zh: 小王，你认识那个老头儿吗？
+    en: Xiao Wang, do you know that old man?
+    pinyin: Xiǎo Wáng, nǐ rènshi nàge lǎotóur ma?
+  - id: s-hsk3-u01-008
+    zh: 请写上你的姓名和性别。
+    en: Please write your name and gender.
+    pinyin: qǐng xiěshang nǐ de xìngmíng hé xìngbié.
+  tips:
+    姑娘: 姑 có âm Hán Việt là cô, 娘 có âm Hán Việt là nương. Cả hai chữ đều có bộ nữ 女 bên trái, gợi ý chỉ
+      phụ nữ. Đọc gūniang, chữ 娘 đọc nhẹ, ngắn.
+    老太太: 老 có âm Hán Việt là lão. Đọc lǎotàitai, chữ 太 cuối cùng đọc nhẹ. Đứng một mình, 太太 nghĩa là 'bà/vợ'
+      (như Mrs.), còn 老太太 là cách gọi lịch sự một bà cụ.
+    老头儿: 'Đọc lǎotóur: âm 儿 nhập vào âm trước, cuối âm thì cong đầu lưỡi lên. Từ này khẩu ngữ, khá suồng
+      sã; muốn lịch sự trước mặt người già thì dùng 老人 hoặc gọi 爷爷.'
+    男子: '男 có âm Hán Việt là nam, gồm 田 (ruộng) + 力 (sức) → người dùng sức làm ruộng là đàn ông. 男子/女子
+      hơi trang trọng, hay dùng trong thể thao, tên trường: 男子篮球.'
+    性别: 性 có âm Hán Việt là tính, bộ tâm đứng 忄. Âm x trong xìng đọc gần 'x' tiếng Việt nhưng mặt lưỡi
+      áp vào hàm trên, môi dẹt như cười.
+- id: hsk3-u01-l03
+  title: Hôn nhân và chuyện đời
+  grammar: hsk3-g005
+  new_words:
+  - 结婚
+  - 离婚
+  - 去世
+  - 对象
+  sentences:
+  - id: s-hsk3-u01-009
+    zh: 他结过两次婚。
+    en: He has been married twice.
+    pinyin: tā jiéguo liǎng cì hūn.
+  - id: s-hsk3-u01-010
+    zh: 我父母离婚了。
+    en: My parents are divorced.
+    pinyin: wǒ fù mǔ lí hūn le
+    tatoeba_id: 2109174
+  - id: s-hsk3-u01-011
+    zh: 他父亲去世了。
+    en: His father passed away.
+    pinyin: tā fù qīn qù shì le
+    tatoeba_id: 8089863
+  - id: s-hsk3-u01-012
+    zh: 你有对象了吗？
+    en: Do you have a partner yet?
+    pinyin: nǐ yǒu duìxiàng le ma?
+  tips:
+    结婚: '结 có âm Hán Việt là kết. Lỗi hay gặp: dịch thẳng ''cưới cô ấy'' thành ~~他结婚她~~. Phải nói 他跟她结婚了.
+      结婚 đã có tân ngữ bên trong nên không mang thêm tân ngữ phía sau.'
+    离婚: '离婚 cũng là động từ ly hợp như 结婚: 他离过婚 (anh ấy từng ly hôn). Chữ 离 lí (thanh 2) cũng là chữ trong
+      离开 (rời đi) mà bạn đã học.'
+    去世: 去 có âm Hán Việt là khứ, 世 có âm Hán Việt là thế, ý là 'rời khỏi cõi đời'. Đây là cách nói tế
+      nhị, lịch sự khi ai đó mất. Nói về người thân, người lớn tuổi thì nên dùng 去世 thay cho 死.
+    对象: '对 có âm Hán Việt là đối, 象 có âm Hán Việt là tượng. Trong khẩu ngữ, 对象 thường chỉ người yêu,
+      người đang tìm hiểu để tiến tới hôn nhân. Người lớn hay hỏi bạn trẻ: 你有对象了吗？'
+- id: hsk3-u01-l04
+  title: Tình cảm gia đình
+  new_words:
+  - 熟人
+  - 爱心
+  - 幸福
+  - 温暖
+  - 亲切
+  sentences:
+  - id: s-hsk3-u01-013
+    zh: 我很幸福。
+    en: I'm very happy.
+    pinyin: wǒ hěn xìng fú
+    tatoeba_id: 7767739
+  - id: s-hsk3-u01-014
+    zh: 他很有爱心。
+    en: He is very loving.
+    pinyin: tā hěn yǒu ài xīn
+    tatoeba_id: 6120206
+  - id: s-hsk3-u01-015
+    zh: 我们是熟人吗？
+    en: Are we acquaintances?
+    pinyin: wǒ men shì shú rén ma
+    tatoeba_id: 1790036
+  - id: s-hsk3-u01-016
+    zh: 我家很温暖。
+    en: My home is very warm.
+    pinyin: wǒ jiā hěn wēnnuǎn.
+  tips:
+    幸福: '福 có âm Hán Việt là phúc, bộ thị 礻 (liên quan đến cầu phúc). 幸福 là hạnh phúc lâu dài, sâu sắc;
+      高兴 là vui trong lúc đó. Đừng dùng 是 với tính từ: ~~我是幸福~~ → 我很幸福.'
+    温暖: 'Chữ 暖 có bộ nhật 日 (mặt trời) → có nắng thì ấm. nuǎn thanh 3: đọc trầm xuống thấp rồi hơi lên,
+      thấp hơn dấu hỏi tiếng Việt. 温暖 dùng cho cả thời tiết lẫn tình cảm: 温暖的家.'
+    爱心: '心 có âm Hán Việt là tâm. 爱心 là tấm lòng yêu thương, quan tâm người khác. Đây là danh từ nên đi
+      với 有: 他很有爱心. Người Việt hay nói sai thành ~~他很爱心~~.'
+    熟人: '熟 có âm Hán Việt là thục, có bộ hỏa 灬 (lửa): nấu chín → nghĩa mở rộng là quen thuộc. Đọc shú,
+      trong khẩu ngữ cũng hay nghe shóu. 熟人 là người quen, chưa hẳn là bạn thân (朋友).'
+    亲切: '切 có âm Hán Việt là thiết. qiè: q bật hơi mạnh, ie đọc như ''iê''. 亲切 dùng tả thái độ, giọng
+      nói thân thiện, ấm áp: 老师对我们很亲切。'
+- id: hsk3-u01-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

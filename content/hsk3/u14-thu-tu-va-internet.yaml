@@ -1,0 +1,158 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u14.json.
+id: hsk3-u14
+stage: hsk3
+order: 14
+title: Thư từ và Internet
+description: Gửi thư, email, tin nhắn và giữ liên lạc qua mạng.
+lessons:
+- id: hsk3-u14-l01
+  title: Thư tay và tin tức
+  new_words:
+  - 邮票
+  - 信封
+  - 邮箱
+  - 邮件
+  - 通信
+  - 消息
+  sentences:
+  - id: s-hsk3-u14-001
+    zh: 你有外国邮票吗？
+    en: Do you have any foreign stamps?
+    pinyin: nǐ yǒu wài guó yóu piào ma
+    tatoeba_id: 345710
+  - id: s-hsk3-u14-002
+    zh: 我已经有信封了。
+    en: I already have an envelope.
+    pinyin: wǒ yǐ jīng yǒu xìn fēng le
+    tatoeba_id: 403758
+  - id: s-hsk3-u14-003
+    zh: 今天有给我的邮件吗？
+    en: Is there any mail for me today?
+    pinyin: jīn tiān yǒu gěi wǒ de yóu jiàn ma
+    tatoeba_id: 6199254
+  - id: s-hsk3-u14-004
+    zh: 你最近有他的消息吗？
+    en: Have you heard from him recently?
+    pinyin: nǐ zuì jìn yǒu tā de xiāo xī ma
+    tatoeba_id: 839557
+  tips:
+    邮票: Chữ 邮 gồm 由 + bộ ấp 阝 ở bên phải. Bộ ấp thường chỉ nơi chốn. Chữ 票 gồm 覀 ở trên và 示 ở dưới, chính
+      là chữ 票 trong 车票, 门票 mà bạn đã học. Vậy 邮票 là con tem dán lên thư.
+    信封: '信 có âm Hán Việt là tín, 封 có âm Hán Việt là phong. 信封 là cái phong bì. 封 còn là lượng từ của
+      thư: 一封信, 一封邮件. Đừng nói 一个信.'
+    消息: '息 trong 消息 thường đọc thanh nhẹ: xiāoxi. Âm x giống ''x'' tiếng Việt nhưng mặt lưỡi áp sát vòm
+      miệng, môi hơi bành ra. Muốn nói ''có tin tức của ai'' thì dùng 有 + người + 的消息: 有他的消息吗？'
+    邮箱: '箱 có bộ trúc ⺮ ở trên, gợi hình chiếc hộp đan bằng tre. 邮箱 vừa là hòm thư bưu điện, vừa là hộp
+      thư email. Ví dụ: 你的邮箱是什么？ nghĩa là ''Địa chỉ email của bạn là gì?'''
+- id: hsk3-u14-l02
+  title: Email, Internet và giữ liên lạc
+  new_words:
+  - 电子邮件
+  - 互联网
+  - 发送
+  - 发出
+  - 联系
+  - 打听
+  - 约
+  sentences:
+  - id: s-hsk3-u14-005
+    zh: 我给你发了封邮件。
+    en: I sent you an email.
+    pinyin: wǒ gěi nǐ fā le fēng yóu jiàn
+    tatoeba_id: 1870348
+  - id: s-hsk3-u14-006
+    zh: 我怎么联系你？
+    en: How can I reach you?
+    pinyin: wǒ zěn me lián xì nǐ
+    tatoeba_id: 408244
+  - id: s-hsk3-u14-007
+    zh: 我想向你打听点他的事。
+    en: I want to ask you about him.
+    pinyin: wǒ xiǎng xiàng nǐ dǎ tīng diǎn tā de shì
+    tatoeba_id: 13892065
+  - id: s-hsk3-u14-008
+    zh: 我们约的是今天还是明天？
+    en: Is our appointment today or tomorrow?
+    pinyin: wǒ men yuē de shì jīn tiān hái shì míng tiān
+    tatoeba_id: 6579291
+  tips:
+    联系: '联 có âm Hán Việt là liên, 系 có âm Hán Việt là hệ, ghép lại là ''liên hệ''. 联系 có thể đi thẳng
+      với người: 联系我, 联系老师. Cũng có thể nói 跟/和 + người + 联系: 我跟您联系.'
+    互联网: 互 có âm Hán Việt là hỗ, 联 có âm Hán Việt là liên, 网 có âm Hán Việt là võng. Ghép lại là 'mạng
+      liên kết lẫn nhau', tức Internet. Trong khẩu ngữ người ta hay nói gọn là 网 hoặc 网上.
+    打听: '打听 là hỏi thăm, dò hỏi về một chuyện, không phải ''đánh'' và ''nghe''. Người Việt hay nói sai
+      ~~我打听老师~~. Người được hỏi phải đặt sau 向/跟: 我向老师打听这件事. 听 ở đây thường đọc nhẹ: dǎting.'
+    约: '约 có âm Hán Việt là ước (như ''hẹn ước''). 约 + người là hẹn ai: 我约了朋友. Chữ 约 có bộ mịch 纟 (sợi
+      tơ) bên trái: hẹn là ''buộc'' hai người lại với nhau.'
+    发送: '发 fā thanh 1, 送 sòng thanh 4. 发送 hay dùng cho email, tin nhắn trên máy, như nút ''Gửi'' trên
+      điện thoại. 发出 thiên về phát ra, gửi đi: 发出声音 (phát ra âm thanh), 发出通知 (gửi thông báo).'
+- id: hsk3-u14-l03
+  title: Soạn thảo và lưu tài liệu
+  grammar: hsk3-g064
+  new_words:
+  - 文件
+  - 文字
+  - 输入
+  - 显示
+  - 保存
+  sentences:
+  - id: s-hsk3-u14-009
+    zh: 先输入文字，然后保存文件。
+    en: First type in the text, then save the file.
+    pinyin: Xiān shūrù wénzì, ránhòu bǎocún wénjiàn.
+  - id: s-hsk3-u14-010
+    zh: 手机上显示“没有信号”。
+    en: The phone shows "no signal".
+    pinyin: Shǒujī shang xiǎnshì "méiyǒu xìnhào".
+  - id: s-hsk3-u14-011
+    zh: 把钱保存在安全的地方。
+    en: Keep the money in a safe place.
+    pinyin: bǎ qián bǎo cún zài ān quán de dì fāng
+    tatoeba_id: 894378
+  tips:
+    输入: '输 có âm Hán Việt là thâu, 入 có âm Hán Việt là nhập. Phát âm: sh trong shū phải uốn đầu lưỡi lên,
+      không đọc thành ''s'' hay ''x''. r trong rù cũng uốn lưỡi, nghe gần ''r'' nhẹ, không rung như ''r''
+      tiếng Việt. Đừng nhầm 入 rù với 人 rén.'
+    显示: '显 xiǎn thanh 3, xuống thấp rồi mới lên, đừng đọc như dấu hỏi tiếng Việt. 示 có âm Hán Việt là
+      thị, giống 示 trong 表示. Chủ ngữ thường là màn hình, máy: 电脑上显示…'
+    文件: '文 có âm Hán Việt là văn, 件 có âm Hán Việt là kiện, nên 文件 là ''văn kiện'', tức tài liệu, file.
+      文字 là chữ viết, văn bản. Nhớ: lưu 文件 (file), gõ 文字 (chữ).'
+    保存: '保 có âm Hán Việt là bảo, 存 có âm Hán Việt là tồn, tức ''bảo tồn'', giữ gìn. Trên máy tính, 保存
+      là ''lưu (Save)''. 保 có bộ nhân 亻 bên trái: người giữ đồ cho cẩn thận.'
+- id: hsk3-u14-l04
+  title: Photo, ghi âm và ghi chép
+  new_words:
+  - 复印
+  - 录
+  - 录音
+  - 记录
+  - 自动
+  sentences:
+  - id: s-hsk3-u14-012
+    zh: 请帮我复印这份文件。
+    en: Please help me photocopy this document.
+    pinyin: Qǐng bāng wǒ fùyìn zhè fèn wénjiàn.
+  - id: s-hsk3-u14-013
+    zh: 我把老师的话都录下来了。
+    en: I recorded everything the teacher said.
+    pinyin: Wǒ bǎ lǎoshī de huà dōu lù xiàlai le.
+  - id: s-hsk3-u14-014
+    zh: 手机会自动保存录音。
+    en: The phone saves recordings automatically.
+    pinyin: Shǒujī huì zìdòng bǎocún lùyīn.
+  - id: s-hsk3-u14-015
+    zh: 请你记录一下开会的时间。
+    en: Please write down the meeting time.
+    pinyin: Qǐng nǐ jìlù yíxià kāihuì de shíjiān.
+  tips:
+    复印: 印 có âm Hán Việt là ấn (như 'ấn bản'). 复印 là photo, sao chụp tài liệu. 打印 là in từ máy tính. f
+      trong fù là âm môi răng, giống 'ph' tiếng Việt.
+    录: '录 lù thanh 4. 录 là ghi lại bằng máy (thu âm, quay phim), hay đi với 下来: 录下来. 记录 là ghi chép lại
+      bằng chữ, hoặc là bản ghi chép. Đừng nhầm với 纪录 (thành tích cao nhất trong thể thao, như 打破纪录).'
+    录音: 音 có âm Hán Việt là âm, 录音 là thu âm hoặc bản ghi âm. Chữ 音 gồm 立 ở trên và 日 ở dưới. 录 lù thanh
+      4, đọc dứt khoát, đi xuống.
+    自动: '自 có âm Hán Việt là tự, 动 có âm Hán Việt là động, tức ''tự động''. Đặt trước động từ: 自动保存, 自动关机.
+      z trong zì đọc như ''ch'' không bật hơi, đầu lưỡi đặt sau răng trên.'
+- id: hsk3-u14-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

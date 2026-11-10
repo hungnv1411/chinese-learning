@@ -1,0 +1,170 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u16.json.
+id: hsk2-u16
+stage: hsk2
+order: 16
+title: Điện thoại, mạng và tin tức
+description: Người học có thể gọi điện, nhắn tin, dùng máy tính, lên mạng và trao đổi thông tin, tin tức.
+lessons:
+- id: hsk2-u16-l01
+  title: A lô! Nghe điện thoại
+  grammar: hsk2-g036
+  new_words:
+  - 喂
+  - 接
+  - 接到
+  - 响
+  - 信号
+  - 关机
+  - 开机
+  sentences:
+  - id: s-hsk2-u16-001
+    zh: 喂？你还在吗？
+    en: Hello? Are you still here?
+    pinyin: wèi nǐ hái zài ma
+    tatoeba_id: 502848
+  - id: s-hsk2-u16-002
+    zh: 我的手机在响。
+    en: My cellphone is ringing.
+    pinyin: wǒ de shǒu jī zài xiǎng
+    tatoeba_id: 8932588
+  - id: s-hsk2-u16-003
+    zh: 我手机没信号。
+    en: My mobile hasn't got a signal.
+    pinyin: wǒ shǒu jī méi xìn hào
+    tatoeba_id: 11371523
+  - id: s-hsk2-u16-004
+    zh: 他的手机关机了。
+    en: His cell phone is off.
+    pinyin: tā de shǒu jī guān jī le
+    tatoeba_id: 3626385
+  tips:
+    喂: '喂 có bộ khẩu (口) bên trái, gợi đến việc gọi bằng miệng. Khi nghe điện thoại, người Trung Quốc
+      thường đọc thành wéi (thanh 2, lên giọng như hỏi) cho mềm hơn. Còn wèi (thanh 4) nghe dứt khoát,
+      giống “Này!”. Ngoài ra 喂 còn có nghĩa là “cho ăn”: 我喂了猫 (Tôi cho mèo ăn rồi).'
+    接: 'Người Việt nói “nghe điện thoại” nên hay dịch sai thành ~~听电话~~. Đúng phải là 接电话 (bắt máy), ngược
+      lại là 打电话 (gọi). 接到 nhấn mạnh là đã nhận được: 我接到了她的电话. 接 có bộ thủ (扌), chỉ động tác dùng tay
+      đón lấy.'
+    响: '响 có âm Hán Việt là hưởng. Chữ gồm bộ khẩu (口) và 向, gợi đến âm thanh vang lên. xiǎng là thanh
+      3: hạ giọng xuống thấp rồi mới hơi lên, đừng đọc vút lên như dấu hỏi tiếng Việt. Cách dùng: 手机响了
+      (điện thoại reo rồi).'
+    关机: '关 có âm Hán Việt là quan, 开 có âm Hán Việt là khai, 机 có âm Hán Việt là cơ. Hai từ này là một
+      cặp trái nghĩa: 开机 (bật máy) và 关机 (tắt máy). Chữ 机 có bộ mộc (木), cũng là chữ 机 trong 手机 và 飞机.'
+- id: hsk2-u16-l02
+  title: Thư và tin nhắn
+  new_words:
+  - 信
+  - 封
+  - 短信
+  - 发
+  - 收
+  - 收到
+  sentences:
+  - id: s-hsk2-u16-005
+    zh: 我收到了您的信。
+    en: I received your letter.
+    pinyin: wǒ shōu dào le nín de xìn
+    tatoeba_id: 334694
+  - id: s-hsk2-u16-006
+    zh: 她没有回我的信。
+    en: She didn't answer my letter.
+    pinyin: tā méi yǒu huí wǒ de xìn
+    tatoeba_id: 408474
+  - id: s-hsk2-u16-007
+    zh: 我给你发了短信。
+    en: I sent you a text message.
+    pinyin: wǒ gěi nǐ fā le duǎn xìn
+  - id: s-hsk2-u16-008
+    zh: 她给我写了一封信。
+    en: She wrote me a letter.
+    pinyin: tā gěi wǒ xiě le yì fēng xìn
+  tips:
+    信: 信 có âm Hán Việt là tín. Chữ gồm bộ nhân (亻) và 言 (lời nói), tức là lời của người gửi đi, nghĩa
+      là bức thư. 短 có âm Hán Việt là đoản (ngắn), nên 短信 là “thư ngắn”, tức tin nhắn SMS.
+    封: '封 là lượng từ của thư: 一封信. Đừng nói ~~一个信~~. Lưu ý biến điệu: 一 đứng trước thanh 1 (fēng) thì
+      đọc thành yì, nên ta nói yì fēng xìn.'
+    发: '发 fā nghĩa là gửi đi: 发短信 (gửi tin nhắn), 发信息 (gửi tin). Âm f trong pinyin đọc gần giống “ph”
+      tiếng Việt. Muốn nói “gửi cho ai” thì dùng 给: 我给你发短信.'
+    收到: '收 có âm Hán Việt là thu (nhận vào). 收到 dùng cho những thứ nhận được như thư, tin nhắn, quà, tiền:
+      收到信. Còn 接到 thường đi với điện thoại hoặc thông báo: 接到电话. Thêm 到 vào sau 收 để cho biết là đã nhận
+      được rồi.'
+- id: hsk2-u16-l03
+  title: Máy tính và mạng
+  new_words:
+  - 计算机
+  - 使用
+  - 打印
+  - 网
+  - 网站
+  - 通
+  sentences:
+  - id: s-hsk2-u16-009
+    zh: 您会使用计算机吗？
+    en: Can you use a computer?
+    pinyin: nín huì shǐ yòng jì suàn jī ma
+    tatoeba_id: 7781512
+  - id: s-hsk2-u16-010
+    zh: 我找到了网站。
+    en: I found the website.
+    pinyin: wǒ zhǎo dào le wǎng zhàn
+    tatoeba_id: 13139001
+  - id: s-hsk2-u16-011
+    zh: 请帮我打印一下。
+    en: Please help me print it out.
+    pinyin: qǐng bāng wǒ dǎ yìn yí xià
+  - id: s-hsk2-u16-012
+    zh: 电话打不通。
+    en: The call won't go through.
+    pinyin: diàn huà dǎ bù tōng
+  tips:
+    计算机: 算 có âm Hán Việt là toán, mang bộ trúc (⺮) vì ngày xưa người ta tính toán bằng que tre. 计算机 là
+      “máy tính”, nghĩa giống 电脑. Trong khẩu ngữ hằng ngày, người ta nói 电脑 nhiều hơn.
+    使用: 使 có âm Hán Việt là sứ, 用 có âm Hán Việt là dụng, nên 使用 là “sử dụng”. Âm shǐ cần uốn đầu lưỡi
+      lên, đừng đọc thành “s” phẳng như tiếng Việt. 使用 trang trọng hơn 用.
+    网: 网 có âm Hán Việt là võng. Chữ trông như một tấm lưới có các mắt đan chéo (乂乂). 站 có âm Hán Việt
+      là trạm, nên 网站 là “trạm trên mạng”, tức trang web. wǎng là thanh 3, khi đứng cuối câu thì đọc trầm
+      xuống.
+    通: 通 có âm Hán Việt là thông, có bộ sước (辶) chỉ đường đi, nên mang nghĩa đi xuyên qua, thông suốt.
+      电话通了 nghĩa là đã gọi được. 打不通 nghĩa là gọi không được (máy không kết nối).
+- id: hsk2-u16-l04
+  title: Tin tức và thông tin
+  new_words:
+  - 新闻
+  - 信息
+  - 广告
+  - 通知
+  - 听说
+  sentences:
+  - id: s-hsk2-u16-013
+    zh: 你听到新闻了吗？
+    en: Did you hear the news?
+    pinyin: nǐ tīng dào xīn wén le ma
+    tatoeba_id: 345984
+  - id: s-hsk2-u16-014
+    zh: 这些信息对我们非常重要。
+    en: The information is very important to us.
+    pinyin: zhè xiē xìn xī duì wǒ men fēi cháng zhòng yào
+    tatoeba_id: 528043
+  - id: s-hsk2-u16-015
+    zh: 听说你有新女朋友了。
+    en: I hear you have a new girlfriend.
+    pinyin: tīng shuō nǐ yǒu xīn nǚ péng yǒu le
+    tatoeba_id: 432317
+  - id: s-hsk2-u16-016
+    zh: 请通知我。
+    en: Please keep me updated.
+    pinyin: qǐng tōng zhī wǒ
+    tatoeba_id: 918789
+  tips:
+    新闻: 新 có âm Hán Việt là tân (mới). Chữ 闻 có 耳 (tai) nằm trong 门 (cửa), gợi hình ảnh ghé tai vào cửa
+      để nghe. Vậy 新闻 là “chuyện mới nghe được”, tức tin thời sự trên báo, TV. Đừng nhầm với 信息 (thông
+      tin, tin nhắn).
+    广告: '广 có âm Hán Việt là quảng. 广告 nghĩa là “quảng cáo”, nghe khá giống tiếng Việt nên rất dễ nhớ.
+      guǎnggào là thanh 3 + thanh 4: guǎng chỉ đọc nửa thanh 3 (hạ giọng thấp, không vút lên) rồi chuyển
+      ngay sang gào thanh 4 dứt khoát.'
+    通知: 通 có âm Hán Việt là thông, 知 có âm Hán Việt là tri, nên 通知 là làm cho người khác biết, tức “thông
+      báo”. Từ này vừa là động từ (请通知我) vừa là danh từ (接到通知).
+    听说: '听说 nghĩa là “nghe nói”, thường đặt ở đầu câu: 听说你病了. Khi phủ định thì dùng 没: 我没听说. Đừng dùng
+      ~~不听说~~. shuō cần uốn lưỡi (sh), khác với “s” tiếng Việt.'
+- id: hsk2-u16-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,24 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-09T13:43:20",
+  "prompt_sha256": [
+    "dd15578b2728d8743f0d7eb8e7ab8646164cd68c0f59ad1f4550df3db40971e0",
+    "9099f0597f61e23e6bf80835eeef931a455df3c44e582062e730d0a26ea3c103",
+    "479d509990f0de7f17910634255a2686731c01e87affadb17011de5fa05fc849"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u16-cong-viec.yaml:71: [sentence_unlearned_word] Câu s-hsk3-u16-008 (bài hsk3-u16-l02) dùng từ chưa học: 王",
+    "u16-cong-viec.yaml:105: [sentence_unlearned_word] Câu s-hsk3-u16-011 (bài hsk3-u16-l03) dùng từ chưa học: 十年",
+    "u16-cong-viec.yaml:146: [sentence_unlearned_word] Câu s-hsk3-u16-016 (bài hsk3-u16-l04) dùng từ chưa học: 一个",
+    "u16-cong-viec.yaml:220: [sentence_unlearned_word] Câu s-hsk3-u16-024 (bài hsk3-u16-l06) dùng từ chưa học: 九点"
+  ],
+  "han_viet_proposed": [
+    "资"
+  ]
+}

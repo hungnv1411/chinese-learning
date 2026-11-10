@@ -1,0 +1,239 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u29.json.
+id: hsk2-u29
+stage: hsk2
+order: 29
+title: 'Nối câu: lý do, điều kiện, kết quả'
+description: Người học có thể nối các câu để diễn đạt nguyên nhân, kết quả, giả định, sự đối lập và lựa
+  chọn.
+lessons:
+- id: hsk2-u29-l01
+  title: 'Hỏi lý do: 为什么, 为, 原因'
+  grammar: hsk2-g028
+  new_words:
+  - 为
+  - 为什么
+  - 原因
+  sentences:
+  - id: s-hsk2-u29-001
+    zh: 我为你工作。
+    en: I work for you.
+    pinyin: wǒ wèi nǐ gōng zuò
+    tatoeba_id: 827655
+  - id: s-hsk2-u29-002
+    zh: 你为什么哭？
+    en: Why did you cry?
+    pinyin: nǐ wèi shén me kū
+    tatoeba_id: 343391
+  - id: s-hsk2-u29-003
+    zh: 我明白原因。
+    en: I understand why.
+    pinyin: wǒ míng bái yuán yīn
+    tatoeba_id: 13671092
+  - id: s-hsk2-u29-004
+    zh: 为我高兴吧。
+    en: Be happy for me.
+    pinyin: wèi wǒ gāo xìng ba
+    tatoeba_id: 5691285
+  tips:
+    原因: '原 có âm Hán Việt là nguyên, 因 có âm Hán Việt là nhân → 原因 chính là ''nguyên nhân''. Mẹo nhớ chữ
+      因: một người (大) bị nhốt trong khung (囗) — phải có lý do mới bị nhốt.'
+    为什么: 'Đọc wèi shénme: 为 thanh 4 dứt khoát, 什 ''sh'' uốn lưỡi (không đọc thành ''x'' như tiếng Việt),
+      么 đọc nhẹ. Trả lời câu hỏi 为什么 bằng 因为…, đừng lặp lại 为什么.'
+    为: '为 đứng trước người/việc rồi mới đến động từ: 我为你工作 (tôi làm việc cho bạn). Người Việt hay đặt
+      sai kiểu ~~我工作为你~~ theo trật tự tiếng Việt/Anh.'
+- id: hsk2-u29-l02
+  title: 'Vì… nên…: 因为, 所以, 结果'
+  grammar: hsk2-g068
+  new_words:
+  - 因为
+  - 所以
+  - 结果
+  sentences:
+  - id: s-hsk2-u29-005
+    zh: 因为我说汉语。
+    en: Because I speak Chinese.
+    pinyin: yīn wèi wǒ shuō hàn yǔ
+    tatoeba_id: 1328091
+  - id: s-hsk2-u29-006
+    zh: 因为下雨，所以我没去。
+    en: Because it rained, I didn't go.
+    pinyin: yīnwèi xià yǔ, suǒyǐ wǒ méi qù
+  - id: s-hsk2-u29-007
+    zh: 他没复习，结果考得不好。
+    en: He didn't review, and as a result he did badly on the exam.
+    pinyin: tā méi fùxí, jiéguǒ kǎo de bù hǎo
+  - id: s-hsk2-u29-008
+    zh: 告诉我考试结果。
+    en: Let me know about the result of the exam.
+    pinyin: gào sù wǒ kǎo shì jié guǒ
+    tatoeba_id: 398890
+  tips:
+    所以: 'Biến điệu 3+3: suǒ và yǐ đều thanh 3 nên 所 đọc gần như thanh 2: suóyǐ. Đừng đọc 所 như dấu hỏi
+      tiếng Việt kéo dài.'
+    结果: 结 có âm Hán Việt là kết, 果 có âm Hán Việt là quả → 'kết quả'. Ngoài nghĩa danh từ, 结果 còn làm
+      liên từ 'rốt cuộc, kết cục là', hay dùng cho kết quả không như mong muốn.
+    因为: 因为…，所以… giống hệt 'vì… nên…' của tiếng Việt, có thể dùng cả cặp hoặc chỉ một vế. Lưu ý 为 ở đây
+      đọc wèi (thanh 4).
+- id: hsk2-u29-l03
+  title: 'Tuy… nhưng…: 虽然, 但是, 可是'
+  grammar: hsk2-g065
+  new_words:
+  - 虽然
+  - 但是
+  - 可是
+  sentences:
+  - id: s-hsk2-u29-009
+    zh: 虽然很累，但是我很高兴。
+    en: Although I'm tired, I'm very happy.
+    pinyin: suīrán hěn lèi, dànshì wǒ hěn gāoxìng
+  - id: s-hsk2-u29-010
+    zh: 这件衣服很好看，可是太贵了。
+    en: This piece of clothing looks nice, but it's too expensive.
+    pinyin: zhè jiàn yīfu hěn hǎokàn, kěshì tài guì le
+  - id: s-hsk2-u29-011
+    zh: 但是你有孩子。
+    en: But you have kids.
+    pinyin: dàn shì nǐ yǒu hái zi
+    tatoeba_id: 8577719
+  tips:
+    虽然: 虽 có âm Hán Việt là tuy, 然 có âm Hán Việt là nhiên, nhưng 虽然 nghĩa là 'tuy, mặc dù', KHÔNG phải
+      'tuy nhiên' (= however). Muốn nói 'tuy nhiên' thì dùng 但是/可是/不过.
+    但是: 'Chữ 但 gồm bộ nhân 亻 + 旦. Người Việt hay bỏ vế sau theo thói quen văn nói; trong tiếng Trung 虽然
+      gần như luôn đi với 但是/可是 ở vế sau: 虽然…，但是…'
+    可是: '可是 kěshì: 可 thanh 3 + 是 thanh 4, đọc 可 thấp rồi bật 是 xuống. 可是 hơi khẩu ngữ hơn 但是, nghĩa như
+      nhau.'
+- id: hsk2-u29-l04
+  title: 'Nhưng, có điều, chỉ cần: 但, 不过, 只要'
+  grammar: hsk2-g030
+  new_words:
+  - 但
+  - 不过
+  - 只要
+  sentences:
+  - id: s-hsk2-u29-012
+    zh: 但我没钱。
+    en: But I have no money.
+    pinyin: dàn wǒ méi qián
+    tatoeba_id: 1219104
+  - id: s-hsk2-u29-013
+    zh: 菜很好吃，不过有点儿贵。
+    en: The food is delicious, but it's a bit expensive.
+    pinyin: cài hěn hǎochī, búguò yǒudiǎnr guì
+  - id: s-hsk2-u29-014
+    zh: 只要你努力，就能学好汉语。
+    en: As long as you work hard, you can learn Chinese well.
+    pinyin: zhǐyào nǐ nǔlì, jiù néng xuéhǎo Hànyǔ
+  tips:
+    不过: 'Biến điệu 不: trước thanh 4 (过 guò), 不 đổi thành thanh 2 → búguò. 不过 nhẹ nhàng hơn 但是, giống ''có
+      điều là…'' trong tiếng Việt.'
+    只要: '只 có âm Hán Việt là chỉ, 要 có âm Hán Việt là yếu. 只要… thường đi với 就… ở vế sau: 只要…，就… = ''chỉ
+      cần… là…''. ''zh'' uốn lưỡi, không đọc thành ''tr'' hay ''ch'' tiếng Việt.'
+    但: '但 là dạng ngắn của 但是, hay gặp trong văn viết và câu ngắn: 但我没钱. Đọc dàn thanh 4, dứt khoát.'
+- id: hsk2-u29-l05
+  title: 'Không những… mà còn…, sau đó: 不但, 而且, 然后'
+  grammar: hsk2-g063
+  new_words:
+  - 不但
+  - 而且
+  - 然后
+  sentences:
+  - id: s-hsk2-u29-015
+    zh: 她不但会说汉语，而且会说英语。
+    en: She can speak not only Chinese but also English.
+    pinyin: tā búdàn huì shuō Hànyǔ, érqiě huì shuō Yīngyǔ
+  - id: s-hsk2-u29-016
+    zh: 这个饭馆不但便宜，而且很好吃。
+    en: This restaurant is not only cheap but also very tasty.
+    pinyin: zhège fànguǎn búdàn piányi, érqiě hěn hǎochī
+  - id: s-hsk2-u29-017
+    zh: 我们先吃饭，然后去看电影。
+    en: Let's eat first, then go see a movie.
+    pinyin: wǒmen xiān chīfàn, ránhòu qù kàn diànyǐng
+  - id: s-hsk2-u29-018
+    zh: 对，然后呢？
+    en: Yes, and?
+    pinyin: duì rán hòu ne
+    tatoeba_id: 12278432
+  tips:
+    不但: '不但 đọc búdàn (不 biến thành thanh 2 vì 但 thanh 4). Khi hai vế cùng chủ ngữ, đặt 不但 SAU chủ ngữ:
+      她不但…，而且… ; tránh ~~不但她会说汉语~~.'
+    而且: '而且 érqiě: ''e'' đọc gần ''ơ'', ''q'' bật hơi như ''ch'' nhẹ, ''ie'' như ''iê''. 而且 cũng dùng
+      một mình để thêm ý: 很便宜，而且很好吃.'
+    然后: '然后 chỉ thứ tự trước–sau (''rồi sau đó''), hay đi với 先: 先…，然后…. Đừng nhầm với 所以 (vì vậy) — 然后
+      không mang nghĩa nguyên nhân.'
+- id: hsk2-u29-l06
+  title: 'Nếu… thì…, phát hiện: 如果, 发现'
+  grammar: hsk2-g066
+  new_words:
+  - 如果
+  - 发现
+  sentences:
+  - id: s-hsk2-u29-019
+    zh: 如果明天下雨，我们就不去了。
+    en: If it rains tomorrow, we won't go.
+    pinyin: rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le
+  - id: s-hsk2-u29-020
+    zh: 如果你喜欢。
+    en: If you like.
+    pinyin: rú guǒ nǐ xǐ huān
+    tatoeba_id: 3338922
+  - id: s-hsk2-u29-021
+    zh: 你发现了什么？
+    en: What did you find?
+    pinyin: nǐ fā xiàn le shén me
+    tatoeba_id: 1928598
+  tips:
+    如果: '如 có âm Hán Việt là như, 如 gồm bộ nữ 女 + 口. Âm ''r'' trong rú: uốn lưỡi lên, hơi rung nhẹ như
+      ''r'' pha ''d'', không rung lưỡi như ''r'' miền Nam.'
+    发现: 发 có âm Hán Việt là phát, 现 có âm Hán Việt là hiện → 'phát hiện'. Âm 'f' đọc như 'ph' tiếng Việt.
+      现 có bộ ngọc 王 + 见 (thấy).
+- id: hsk2-u29-l07
+  title: '…的话, hóa ra, bỗng nhiên: 的话, 原来, 忽然'
+  grammar: hsk2-g035
+  new_words:
+  - 的话
+  - 原来
+  - 忽然
+  sentences:
+  - id: s-hsk2-u29-022
+    zh: 你忙的话，就别来了。
+    en: If you're busy, don't come.
+    pinyin: nǐ máng dehuà, jiù bié lái le
+  - id: s-hsk2-u29-023
+    zh: 原来都是假的。
+    en: So it was all a lie.
+    pinyin: yuán lái dōu shì jiǎ de
+    tatoeba_id: 2301453
+  - id: s-hsk2-u29-024
+    zh: 忽然下雨了。
+    en: It suddenly started to rain.
+    pinyin: hūrán xià yǔ le
+  tips:
+    的话: '的话 đứng CUỐI vế điều kiện, giống ''nếu… thì'' đặt ngược: 你忙的话 = nếu bạn bận. 的 đọc nhẹ. Đừng
+      nhầm với 听老师的话 (lời của thầy) — ở đó 的 + 话 là ''lời nói''.'
+    原来: 原 có âm Hán Việt là nguyên, 来 có âm Hán Việt là lai. 原来 nghĩa là 'vốn dĩ, lúc đầu', và rất hay
+      dùng với nghĩa 'hóa ra…' khi vừa vỡ lẽ điều gì.
+    忽然: '忽 có âm Hán Việt là hốt, 然 có âm Hán Việt là nhiên → ''hốt nhiên'' = bỗng nhiên. 忽 có bộ tâm
+      心 ở dưới: lòng chợt giật mình. ''h'' trong hū đọc từ cổ họng, hơi khàn hơn ''h'' tiếng Việt.'
+- id: hsk2-u29-l08
+  title: 'Hoặc: 或, 或者'
+  grammar: hsk2-g029
+  new_words:
+  - 或
+  - 或者
+  sentences:
+  - id: s-hsk2-u29-025
+    zh: 我们周六或周日去。
+    en: We'll go on Saturday or Sunday.
+    pinyin: wǒmen zhōuliù huò zhōurì qù
+  - id: s-hsk2-u29-026
+    zh: 你可以喝茶或者牛奶。
+    en: You can drink tea or milk.
+    pinyin: nǐ kěyǐ hē chá huòzhě niúnǎi
+  tips:
+    或者: 'Lỗi hay gặp: dùng 或者 trong câu hỏi lựa chọn. Câu hỏi dùng 还是: 你喝茶还是牛奶？ Câu kể mới dùng 或者: 喝茶或者牛奶都可以.'
+    或: '或 có âm Hán Việt là hoặc. 或 là dạng ngắn của 或者, hay dùng trong văn viết hoặc giữa hai từ ngắn:
+      周六或周日.'
+- id: hsk2-u29-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

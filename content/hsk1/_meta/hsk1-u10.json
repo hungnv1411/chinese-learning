@@ -1,0 +1,42 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-08T16:49:20",
+  "prompt_sha256": [
+    "5bbc324e91c969fbed330fb97830c4733508ff28df2ed1a09b8bd2f87a6c0251",
+    "3470a70f557058cb2f0f0129281cc5d4832aa6241f5789d592ecb8925116e61b"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u10-001, s-hsk1-u10-004, s-hsk1-u10-007",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin của các câu lấy từ Tatoeba (bēi zi lǐ yǒu shuǐ / tā zài tā de páng biān / wǒ zài yòu biān) viết tách âm tiết, không viết hoa, không có dấu câu. Cách viết này khác với các câu còn lại (Bēizi, Wǒmen…). Ở 007, 'yòu biān' ghi 边 là biān thanh 1, trong khi từ vựng và tip ghi yòubian với 边 thanh nhẹ.",
+      "suggestion": "Chuẩn hoá về cùng một kiểu: Bēizi lǐ yǒu shuǐ. / Tā zài tā de pángbiān. / Wǒ zài yòubian."
+    },
+    {
+      "where": "hsk1-u10-l03 (tip 左边)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "So sánh z với 'ch' dễ khiến người Việt đọc nhầm. z là âm tắc xát đầu lưỡi (gần 'tz/ts'), không phải âm 'ch'. Tip 中间 lại đã ví zh với 'tr', nên hai tip dễ gây rối.",
+      "suggestion": "Viết lại: 'z gần như \"tz/tsơ\" không bật hơi, đầu lưỡi chạm sau răng cửa trên (khác zh uốn lưỡi).'"
+    },
+    {
+      "where": "hsk1-u10-l03 (tip 前)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu 'ở đây 前/后 chỉ thời gian' dễ bị hiểu là trong bài này 前/后 chỉ thời gian. Trong bài này 前/后 chỉ vị trí, còn 前天/后天 mới chỉ thời gian.",
+      "suggestion": "Viết lại: 'Bạn đã học 前天 (hôm kia), 后天 (ngày kia), ở đó 前/后 chỉ thời gian; trong bài này 前/后 chỉ vị trí: 前边, 后边.'"
+    }
+  ],
+  "machine_warnings": [
+    "u10-phuong-huong-va-vi-tri.yaml:31: [sentence_pinyin_polyphone] Câu s-hsk1-u10-003: pinyin ghi 'Wǒmen zhōngjiān shéi huì shuō Hànyǔ?', pypinyin cho 'wǒ men zhōng jiān shuí huì shuō hàn yǔ' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u10-phuong-huong-va-vi-tri.yaml:87: [sentence_unlearned_word] Câu s-hsk1-u10-008 (bài hsk1-u10-l03) dùng từ chưa học: 我家, 一个",
+    "u10-phuong-huong-va-vi-tri.yaml:120: [sentence_unlearned_word] Câu s-hsk1-u10-011 (bài hsk1-u10-l04) dùng từ chưa học: 你家"
+  ],
+  "han_viet_proposed": []
+}

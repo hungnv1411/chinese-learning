@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u17.json.
+id: hsk2-u17
+stage: hsk2
+order: 17
+title: Giải trí và lễ hội
+description: Người học có thể nói về sách báo, âm nhạc, phim ảnh, ngày lễ, kỳ nghỉ và Tết.
+lessons:
+- id: hsk2-u17-l01
+  title: Báo chí, tiểu thuyết và truyện
+  new_words:
+  - 报纸
+  - 份
+  - 日报
+  - 晚报
+  - 小说
+  - 故事
+  sentences:
+  - id: s-hsk2-u17-001
+    zh: 报纸在哪儿？
+    en: Where is the newspaper?
+    pinyin: bào zhǐ zài nǎ ér
+    tatoeba_id: 348608
+  - id: s-hsk2-u17-002
+    zh: 我买了份英文写的报纸。
+    en: I bought a newspaper written in English.
+    pinyin: wǒ mǎi le fèn yīng wén xiě de bào zhǐ
+    tatoeba_id: 441466
+  - id: s-hsk2-u17-003
+    zh: 爸爸早上看日报，晚上看晚报。
+    en: Dad reads the daily paper in the morning and the evening paper at night.
+    pinyin: Bàba zǎoshang kàn rìbào, wǎnshang kàn wǎnbào.
+  - id: s-hsk2-u17-004
+    zh: 我真喜欢这故事。
+    en: I really like this story.
+    pinyin: wǒ zhēn xǐ huān zhè gù shì
+    tatoeba_id: 6105116
+  tips:
+    报纸: '报 có âm Hán Việt là báo, 纸 có âm Hán Việt là chỉ (giấy) → "giấy báo". 纸 có bộ mịch 纟 (sợi tơ)
+      vì giấy xưa làm từ sợi. Phát âm zhǐ: cong đầu lưỡi lên, không đọc như "ch" tiếng Việt; thanh 3 xuống
+      thấp rồi mới lên.'
+    份: '份 là lượng từ cho báo, tài liệu, quà: 一份报纸, 两份报纸. Người Việt hay nói nhầm ~~一个报纸~~ hay ~~一本报纸~~.
+      Chữ 份 = 亻(người) + 分 (chia) → phần chia cho mỗi người; 份 có âm Hán Việt là phần.'
+    小说: '小 có âm Hán Việt là tiểu, 说 có âm Hán Việt là thuyết → "tiểu thuyết", rất dễ nhớ. Lượng từ dùng
+      本: 一本小说. shuō: sh uốn lưỡi, khác "s" tiếng Việt.'
+    故事: 故事 đọc gùshi, chữ 事 đọc nhẹ (thanh nhẹ), không nhấn shì. Kể chuyện là 讲故事. 故 có âm Hán Việt là
+      cố, 事 có âm Hán Việt là sự → "chuyện cũ" = câu chuyện.
+- id: hsk2-u17-l02
+  title: Âm nhạc, phim ảnh và tranh vẽ
+  grammar: hsk2-g052
+  new_words:
+  - 音乐
+  - 音乐会
+  - 影片
+  - 节目
+  - 画
+  - 画儿
+  - 图片
+  sentences:
+  - id: s-hsk2-u17-005
+    zh: 你喜欢听什么音乐?
+    en: What music do you like?
+    pinyin: nǐ xǐ huān tīng shén me yīn yuè
+    tatoeba_id: 9510605
+  - id: s-hsk2-u17-006
+    zh: 我们在画动物。
+    en: We are drawing animals.
+    pinyin: wǒ men zài huà dòng wù
+    tatoeba_id: 10355117
+  - id: s-hsk2-u17-007
+    zh: 这个影片我看了两遍。
+    en: I have watched this film twice.
+    pinyin: Zhège yǐngpiàn wǒ kànle liǎng biàn.
+  - id: s-hsk2-u17-008
+    zh: 我去过两次音乐会。
+    en: I have been to a concert twice.
+    pinyin: Wǒ qùguo liǎng cì yīnyuèhuì.
+  tips:
+    音乐: '音 có âm Hán Việt là âm, 乐 có âm Hán Việt là lạc. Trong 音乐, 乐 đọc yuè: môi tròn như đọc "uy" rồi
+      chuyển sang "ê". Thêm 会 thành 音乐会 = buổi hòa nhạc; "đi xem hòa nhạc" là 去听音乐会.'
+    画: '画 vừa là động từ "vẽ" vừa là danh từ "bức tranh"; 画儿 chỉ là danh từ. Vì vậy "vẽ tranh" nói 画画儿
+      (huà huàr). Mẹo nhớ chữ: ruộng 田 nằm trong khung 凵, trên có nét 一 → như một bức tranh vẽ cánh đồng.
+      画 có âm Hán Việt là hoạ.'
+    影片: 影 có âm Hán Việt là ảnh, 片 có âm Hán Việt là phiến. 影片 nghĩa là bộ phim, trang trọng hơn 电影, hay
+      gặp trên báo, quảng cáo. Còn 图片 là hình ảnh, ảnh minh họa (图 có âm Hán Việt là đồ).
+    节目: '节 có âm Hán Việt là tiết, 目 có âm Hán Việt là mục → "tiết mục": chương trình TV, tiết mục biểu
+      diễn. Ví dụ: 电视节目 (chương trình TV). Chú ý jié: j đọc gần "ch" nhưng bẹt lưỡi, không bật hơi.'
+- id: hsk2-u17-l03
+  title: Truyện cười, thú vị và thịnh hành
+  new_words:
+  - 笑话
+  - 笑话儿
+  - 有意思
+  - 流行
+  - 晚会
+  sentences:
+  - id: s-hsk2-u17-009
+    zh: 他讲的笑话很有意思。
+    en: His joke was great.
+    pinyin: tā jiǎng de xiào huà hěn yǒu yì si
+    tatoeba_id: 788657
+  - id: s-hsk2-u17-010
+    zh: 你在笑话谁？
+    en: Who are you laughing at?
+    pinyin: nǐ zài xiào huà shuí
+    tatoeba_id: 1324961
+  - id: s-hsk2-u17-011
+    zh: 红色不流行了。
+    en: Red is out of fashion.
+    pinyin: hóng sè bù liú xíng le
+    tatoeba_id: 343963
+  - id: s-hsk2-u17-012
+    zh: 昨天的晚会很有意思。
+    en: Yesterday's evening party was a lot of fun.
+    pinyin: Zuótiān de wǎnhuì hěn yǒu yìsi.
+  tips:
+    笑话: '笑话 có hai nghĩa: danh từ "truyện cười" (讲笑话 = kể chuyện cười; khẩu ngữ phương Bắc hay nói 笑话儿)
+      và động từ "chê cười" (别笑话我 = đừng cười chê tôi). Mẹo nhớ chữ 笑: bộ trúc ⺮ ở trên, 夭 ở dưới như
+      người nghiêng đầu cười. 话 đọc nhẹ: xiàohua.'
+    有意思: 'Lỗi hay gặp: ~~这本书是有意思~~ → 这本书很有意思. Phủ định dùng 没(有)意思, không nói ~~不有意思~~. 思 trong 有意思 đọc
+      nhẹ: yǒu yìsi. 意 có âm Hán Việt là ý, 思 có âm Hán Việt là tư.'
+    流行: 流 có âm Hán Việt là lưu; bộ thủy 氵 cho thấy nghĩa gốc là chảy → một thứ "chảy lan" khắp nơi là
+      đang thịnh hành. 流行音乐 = nhạc pop. Cũng dùng cho bệnh lây lan.
+    晚会: '晚 có âm Hán Việt là vãn, 会 có âm Hán Việt là hội → buổi hội vào buổi tối, dạ hội. Đêm giao thừa
+      người Trung Quốc xem 春节晚会 trên TV. 晚 có bộ nhật 日: mặt trời đã lặn.'
+- id: hsk2-u17-l04
+  title: Ngày lễ, Tết và kỳ nghỉ
+  new_words:
+  - 春节
+  - 过年
+  - 节
+  - 节日
+  - 假期
+  - 休假
+  - 周年
+  sentences:
+  - id: s-hsk2-u17-013
+    zh: 春节是中国最重要的节日。
+    en: The Spring Festival is the most important holiday in China.
+    pinyin: Chūnjié shì Zhōngguó zuì zhòngyào de jiérì.
+  - id: s-hsk2-u17-014
+    zh: 你们在哪儿过年？
+    en: Where are you celebrating the New Year?
+    pinyin: Nǐmen zài nǎr guònián?
+  - id: s-hsk2-u17-015
+    zh: 我假期哪里都没去。
+    en: I didn't go anywhere on my time off.
+    pinyin: wǒ jià qī nǎ li dōu méi qù
+    tatoeba_id: 7532558
+  - id: s-hsk2-u17-016
+    zh: 我明天下午休假。
+    en: I am taking tomorrow afternoon off.
+    pinyin: wǒ míng tiān xià wǔ xiū jiǎ
+    tatoeba_id: 848582
+  tips:
+    春节: '春节 là Tết Nguyên đán (Tết âm lịch); 春 là mùa xuân như trong 春天 đã học. 节 có âm Hán Việt là tiết,
+      có bộ thảo 艹 ở trên. Chữ 春 có 日 (mặt trời) ở dưới: nắng ấm mùa xuân. Viết pinyin hoa chữ đầu: Chūnjié.'
+    过年: '"Ăn Tết" tiếng Trung là 过年, không dịch từng chữ thành ~~吃年~~. Cấu trúc 过 + dịp lễ: 过春节, 过生日,
+      过节. 过年 là động từ ly hợp: 过了一个好年.'
+    节: '节 còn là lượng từ cho tiết học: 一节课, 两节课 (không nói ~~二节课~~). Danh từ 节日 = ngày lễ; 节 có âm Hán
+      Việt là tiết, 日 có âm Hán Việt là nhật.'
+    假期: '假 trong 假期, 休假 đọc jià (thanh 4), khác jiǎ trong 真假 (thật giả). Phân biệt: 放假 = trường/cơ quan
+      cho nghỉ; 休假 = người đi làm nghỉ phép; 假期 = kỳ nghỉ. 假 có bộ nhân 亻 bên trái.'
+    周年: '周 có âm Hán Việt là chu → tròn một vòng năm. 一周年 = tròn 1 năm, 十周年 = kỷ niệm 10 năm. Biến điệu:
+      一 đứng trước thanh 1 đọc thanh 4: yì zhōunián.'
+- id: hsk2-u17-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

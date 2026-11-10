@@ -1,0 +1,152 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u13.json.
+id: hsk2-u13
+stage: hsk2
+order: 13
+title: Trường học và cấp lớp
+description: Người học có thể nói về trường lớp, cấp học, thầy cô, học kỳ và kết quả học tập.
+lessons:
+- id: hsk2-u13-l01
+  title: Cấp học và khối lớp
+  grammar: hsk2-g072
+  new_words:
+  - 高中
+  - 中小学
+  - 年级
+  - 级
+  - 高级
+  - 中级
+  sentences:
+  - id: s-hsk2-u13-001
+    zh: 我妹妹上小学二年级。
+    en: My younger sister is in the second grade of primary school.
+    pinyin: wǒ mèimei shàng xiǎoxué èr niánjí.
+  - id: s-hsk2-u13-002
+    zh: 我在中级班，他在高级班。
+    en: I'm in the intermediate class, and he's in the advanced class.
+    pinyin: wǒ zài zhōngjí bān, tā zài gāojí bān.
+  - id: s-hsk2-u13-003
+    zh: 这是我上高中的第一年。
+    en: This is my first year of high school.
+    pinyin: zhè shì wǒ shàng gāozhōng de dì yī nián.
+  tips:
+    年级: 'Lỗi hay gặp: tiếng Việt nói “lớp ba” (số đứng sau), còn tiếng Trung đặt số TRƯỚC: 三年级, không
+      nói ~~年级三~~. Cũng không cần 第: nói 一年级, không nói ~~第一年级~~. Khi chỉ thứ tự, 一 giữ nguyên thanh 1:
+      yī niánjí.'
+    级: 级 có âm Hán Việt là cấp, nên 高级 giống “cao cấp”, 中级 giống “trung cấp”. Bộ 纟 (sợi tơ) bên trái,
+      及 bên phải chỉ âm. Phụ âm j đọc gần “ch” tiếng Việt nhưng đặt mặt lưỡi sát vòm miệng, môi dẹt.
+    高中: '高中 là dạng nói tắt của 高级中学 (trường trung học bậc cao, tức cấp 3). Tương tự, 中小学 là nói gộp 中学
+      + 小学: “các trường tiểu học và trung học”.'
+- id: hsk2-u13-l02
+  title: Thầy cô, lớp trưởng và nhóm
+  new_words:
+  - 教师
+  - 校长
+  - 班长
+  - 组长
+  - 小组
+  - 组
+  sentences:
+  - id: s-hsk2-u13-004
+    zh: 她是我们的教师。
+    en: She's our teacher.
+    pinyin: tā shì wǒ men de jiào shī
+    tatoeba_id: 10361394
+  - id: s-hsk2-u13-005
+    zh: 校长和班长在开会。
+    en: The principal and the class monitor are having a meeting.
+    pinyin: xiàozhǎng hé bānzhǎng zài kāihuì.
+  - id: s-hsk2-u13-006
+    zh: 我们三个人组一个小组吧。
+    en: Let's form a group of the three of us.
+    pinyin: wǒmen sān ge rén zǔ yí ge xiǎozǔ ba.
+  - id: s-hsk2-u13-007
+    zh: 他是我们小组的组长。
+    en: He is the leader of our group.
+    pinyin: tā shì wǒmen xiǎozǔ de zǔzhǎng.
+  tips:
+    校长: 校 có âm Hán Việt là hiệu, 长 có âm Hán Việt là trường → giống “hiệu trưởng”. Chú ý 长 ở đây đọc
+      zhǎng (người đứng đầu), không đọc cháng (dài). 班长, 组长 cũng đọc zhǎng.
+    组长: 'Biến điệu 3+3: 组长 zǔ + zhǎng, chữ đầu đọc thành thanh 2 → zúzhǎng. Tương tự 小组 đọc gần xiáozǔ.
+      Phụ âm z đọc như “ch” nhẹ, không bật hơi, đầu lưỡi chạm sau răng.'
+    教师: 教 đọc jiào trong 教师, 教学, 教育; nhưng khi là động từ “dạy” thì đọc jiāo (我教汉语). 教师 trang trọng hơn
+      老师; gọi thầy cô thì dùng 老师, không gọi ~~教师~~.
+- id: hsk2-u13-l03
+  title: Khai giảng, học kỳ và đăng ký
+  new_words:
+  - 开学
+  - 学期
+  - 报名
+  - 名单
+  - 考生
+  - 校园
+  sentences:
+  - id: s-hsk2-u13-008
+    zh: 明天就开学了。
+    en: School begins tomorrow.
+    pinyin: míng tiān jiù kāi xué le
+    tatoeba_id: 688808
+  - id: s-hsk2-u13-009
+    zh: 他是上个学期来的吗？
+    en: Did he get here last term?
+    pinyin: tā shì shàng gè xué qī lái de ma
+    tatoeba_id: 2737447
+  - id: s-hsk2-u13-010
+    zh: 很多考生来报名了。
+    en: Many exam candidates have come to sign up.
+    pinyin: hěn duō kǎoshēng lái bàomíng le.
+  - id: s-hsk2-u13-011
+    zh: 名单上没有她的名字。
+    en: Her name wasn't on the list.
+    pinyin: míngdān shàng méiyǒu tā de míngzi.
+  tips:
+    报名: '报名 là động từ ly hợp (động từ 报 + tân ngữ 名), nên không mang tân ngữ trực tiếp: nói 我报名了 hoặc
+      tách ra 我报了名, không nói ~~我报名汉语班~~. Muốn nêu nội dung thì dùng 报名参加… hoặc 报了汉语班. Còn 报名考试 (đăng
+      ký để thi) là hai động từ nối tiếp nhau, nói như vậy vẫn đúng.'
+    名单: 'Mẹo nhớ chữ 名: trên là 夕 (buổi tối), dưới là 口 (miệng). Trời tối không nhìn rõ mặt nên phải dùng
+      miệng gọi tên. 名单 là “danh sách tên”.'
+    学期: '学 xué có nguyên âm ü (viết u sau x): tròn môi như “u” nhưng lưỡi đặt như “i”. Chữ 期 có âm Hán
+      Việt là kì; bên phải là bộ 月 (trăng), gợi chuyện thời gian. Học kỳ trước/sau: 上个学期, 下个学期.'
+    校园: 园 có bộ 囗 (vây quanh) bao bên ngoài, giống bức tường bao một khu vườn, nên 校园 là “khuôn viên trường”.
+      Nói “trong trường” thì dùng 在校园里.
+- id: hsk2-u13-l04
+  title: Môn học, giáo dục và kết quả
+  new_words:
+  - 教学
+  - 教育
+  - 科
+  - 科学
+  - 成绩
+  - 分数
+  sentences:
+  - id: s-hsk2-u13-012
+    zh: 我不喜欢科学。
+    en: I don't like science.
+    pinyin: wǒ bù xǐ huān kē xué
+    tatoeba_id: 2032167
+  - id: s-hsk2-u13-013
+    zh: 你最喜欢哪一科？
+    en: Which subject do you like best?
+    pinyin: nǐ zuì xǐhuan nǎ yì kē?
+  - id: s-hsk2-u13-014
+    zh: 你成绩比我好。
+    en: Your grades are better than mine.
+    pinyin: nǐ chéng jì bǐ wǒ hǎo
+    tatoeba_id: 9972927
+  - id: s-hsk2-u13-015
+    zh: 他得到了比我们还高的分数。
+    en: He got a better score than us.
+    pinyin: tā dé dào le bǐ wǒ men hái gāo de fēn shù
+    tatoeba_id: 402781
+  tips:
+    科学: '科 có âm Hán Việt là khoa, 学 có âm Hán Việt là học → giống “khoa học”. Mẹo nhớ chữ 科: bộ 禾 (lúa)
+      + 斗 (cái đấu đong lúa), tức là đong rồi chia loại, nên 科 nghĩa là ngành, môn. k bật hơi mạnh, e
+      đọc gần “ơ”.'
+    成绩: 'Kết hợp tự nhiên: 成绩好/不好 (thành tích tốt hay kém), còn 分数高/低 (điểm cao hay thấp). Người Việt
+      hay nói ~~分数好~~, nên nói 分数高 thì tự nhiên hơn. ch trong 成 là âm uốn lưỡi, bật hơi.'
+    教育: '教 có âm Hán Việt là giáo, 育 có âm Hán Việt là dục → giống “giáo dục”. 育 yù có ü: tròn môi, giữ
+      lưỡi như đọc “i”. Phân biệt: 教学 là việc giảng dạy trên lớp, 教育 là giáo dục nói chung.'
+    分数: '数 đọc shù, sh là âm uốn lưỡi: cong đầu lưỡi lên, khác “s” tiếng Việt. 分 trong 分数 là điểm số;
+      bạn đã gặp 分 với nghĩa “phút” trong 三点十分.'
+- id: hsk2-u13-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

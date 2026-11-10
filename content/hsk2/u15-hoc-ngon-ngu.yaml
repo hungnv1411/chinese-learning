@@ -1,0 +1,164 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u15.json.
+id: hsk2-u15
+stage: hsk2
+order: 15
+title: Học ngôn ngữ
+description: 'Người học có thể nói về việc học tiếng: từ vựng, câu, phát âm, tra từ điển và trình độ ngôn
+  ngữ.'
+lessons:
+- id: hsk2-u15-l01
+  title: Từ, câu, đoạn văn
+  new_words:
+  - 词
+  - 词语
+  - 生词
+  - 句
+  - 句子
+  - 段
+  - 篇
+  sentences:
+  - id: s-hsk2-u15-001
+    zh: 我的句子在哪里？
+    en: Where is my sentence?
+    pinyin: wǒ de jù zi zài nǎ lǐ
+    tatoeba_id: 744891
+  - id: s-hsk2-u15-002
+    zh: 这课有十个生词。
+    en: This lesson has ten new words.
+    pinyin: Zhè kè yǒu shí gè shēngcí.
+  - id: s-hsk2-u15-003
+    zh: 请读这段课文。
+    en: Please read this passage of the text.
+    pinyin: Qǐng dú zhè duàn kèwén.
+  - id: s-hsk2-u15-004
+    zh: 我写了一篇作文。
+    en: I wrote an essay.
+    pinyin: Wǒ xiěle yì piān zuòwén.
+  tips:
+    词: 词 có âm Hán Việt là từ. Bên trái là bộ ngôn 讠 (lời nói), nên chữ này liên quan tới lời. Phụ âm
+      c đọc như "ts" có bật hơi mạnh, không đọc như chữ "c" (k) trong tiếng Việt.
+    句: '句 có âm Hán Việt là câu. 句 còn là lượng từ cho lời nói: 一句话 (một câu nói). Trong jù, chữ u đứng
+      sau j thật ra là ü: tròn môi như khi nói "u" nhưng lưỡi đặt như khi nói "i".'
+    篇: Phía trên chữ 篇 là bộ trúc ⺮ (tre), vì ngày xưa người ta viết lên thẻ tre. 篇 dùng cho cả một bài
+      viết (一篇作文), còn 段 dùng cho một đoạn trong bài (一段课文). Lưu ý 一 trước 篇 (thanh 1) đổi thành yì.
+    生词: 生 có âm Hán Việt là sinh, 词 có âm Hán Việt là từ. 生 ở đây nghĩa là "lạ, chưa quen", nên 生词 là
+      từ mới mình chưa học.
+- id: hsk2-u15-l02
+  title: Tra từ điển
+  new_words:
+  - 查
+  - 词典
+  - 字典
+  - 常用
+  - 意思
+  - 读音
+  sentences:
+  - id: s-hsk2-u15-005
+    zh: 你有字典吗？
+    en: Do you have a dictionary?
+    pinyin: nǐ yǒu zì diǎn ma
+    tatoeba_id: 2705437
+  - id: s-hsk2-u15-006
+    zh: 我查一下词典。
+    en: Let me look it up in the dictionary.
+    pinyin: Wǒ chá yíxià cídiǎn.
+  - id: s-hsk2-u15-007
+    zh: 这些都是常用词。
+    en: These are all common words.
+    pinyin: Zhèxiē dōu shì chángyòng cí.
+  - id: s-hsk2-u15-008
+    zh: 我懂你的意思。
+    en: I know what you mean.
+    pinyin: wǒ dǒng nǐ de yì si
+    tatoeba_id: 980937
+  tips:
+    查: '查 có âm Hán Việt là tra, nghĩa giống hệt chữ "tra" trong tiếng Việt: 查词典 là tra từ điển. Phụ âm
+      ch là âm uốn lưỡi có bật hơi, không đọc như "ch" tiếng Việt. Muốn nói tra từ điển thì dùng 查, không
+      dùng 看.'
+    字典: 典 có âm Hán Việt là điển. 字典 chủ yếu tra từng chữ (字) riêng lẻ, còn 词典 tra từ (词) gồm một hay
+      nhiều chữ. Trong văn nói, hai từ này hay được dùng lẫn cho nhau. Ở diǎn mang thanh 3, khi đứng một
+      mình hãy hạ giọng xuống thấp rồi mới lên.
+    意思: '思 trong 意思 đọc thanh nhẹ: yìsi. Khi hỏi nghĩa của từ, hãy nói 这个词是什么意思？, đừng bỏ 是 rồi nói ~~这个词意思什么~~.'
+    常用: '常 có âm Hán Việt là thường, 用 có âm Hán Việt là dụng, nên 常用 nghĩa là "thường dùng". 常用 đứng
+      trước danh từ: 常用词 (từ thường dùng).'
+    读音: 读 có âm Hán Việt là độc, 音 có âm Hán Việt là âm. 读音 là cách đọc của một chữ hay một từ. Trong
+      dú có phụ âm d, đọc như "t" tiếng Việt chứ không phải "đ".
+- id: hsk2-u15-l03
+  title: Ngôn ngữ và tiếng Anh
+  new_words:
+  - 语言
+  - 英语
+  - 英文
+  - 普通话
+  - 讲话
+  - 对话
+  sentences:
+  - id: s-hsk2-u15-009
+    zh: 你会说什么语言？
+    en: What languages do you speak?
+    pinyin: nǐ huì shuō shén me yǔ yán
+    tatoeba_id: 6047131
+  - id: s-hsk2-u15-010
+    zh: 你会讲普通话吗？
+    en: Can you speak Mandarin?
+    pinyin: nǐ huì jiǎng pǔ tōng huà ma
+    tatoeba_id: 421010
+  - id: s-hsk2-u15-011
+    zh: 你会说英文吗？
+    en: Can you speak English?
+    pinyin: nǐ huì shuō yīng wén ma
+    tatoeba_id: 3521512
+  - id: s-hsk2-u15-012
+    zh: 我们用汉语对话吧。
+    en: Let's have a conversation in Chinese.
+    pinyin: Wǒmen yòng Hànyǔ duìhuà ba.
+  tips:
+    语言: 语 có âm Hán Việt là ngữ, 言 có âm Hán Việt là ngôn. Tiếng Việt nói "ngôn ngữ", còn tiếng Trung
+      đảo thứ tự thành 语言. Hai chữ đều có bộ ngôn (lời nói).
+    普通话: '普 có âm Hán Việt là phổ, 通 có âm Hán Việt là thông, 话 có âm Hán Việt là thoại. Ghép lại là "lời
+      nói phổ thông", tức tiếng phổ thông Trung Quốc. Trong pǔ, thanh 3 đứng trước thanh 1 nên chỉ đọc
+      nửa đầu: hạ giọng thấp rồi thôi, không vút lên.'
+    英语: '英语 và 英文 đều có nghĩa là tiếng Anh. 语 nghiêng về tiếng nói, 文 nghiêng về chữ viết, nhưng trong
+      giao tiếp hằng ngày hai từ dùng như nhau: 说英语 hay 说英文 đều được.'
+    讲话: 讲话 nghĩa là nói chuyện hoặc phát biểu, và không mang tân ngữ chỉ ngôn ngữ phía sau. Câu ~~讲话英语~~
+      là sai, phải nói 说英语 hoặc 讲英语.
+    对话: '对 có âm Hán Việt là đối, 话 có âm Hán Việt là thoại, nên 对话 là "đối thoại". Từ này vừa là danh
+      từ (một đoạn hội thoại) vừa là động từ: 跟老师对话 (nói chuyện với thầy cô).'
+- id: hsk2-u15-l04
+  title: Trình độ và phát âm
+  grammar: hsk2-g037
+  new_words:
+  - 水平
+  - 流利
+  - 正确
+  - 准确
+  - 音节
+  sentences:
+  - id: s-hsk2-u15-013
+    zh: 他的汉语很流利。
+    en: His Chinese is fluent.
+    pinyin: Tā de Hànyǔ hěn liúlì.
+  - id: s-hsk2-u15-014
+    zh: 你的汉语水平很高。
+    en: Your Chinese level is very high.
+    pinyin: Nǐ de Hànyǔ shuǐpíng hěn gāo.
+  - id: s-hsk2-u15-015
+    zh: 这个回答是正确的。
+    en: This answer is correct.
+    pinyin: Zhège huídá shì zhèngquè de.
+  - id: s-hsk2-u15-016
+    zh: “妈妈”有两个音节。
+    en: '"Māma" has two syllables.'
+    pinyin: '"Māma" yǒu liǎng gè yīnjié.'
+  tips:
+    水平: '水 có âm Hán Việt là thuỷ, 平 có âm Hán Việt là bình. Nghĩa gốc là mặt nước phẳng, sau dùng với
+      nghĩa trình độ. Khi khen trình độ, người Trung Quốc thường dùng 高/低: 水平很高 (trình độ cao).'
+    流利: '流 có âm Hán Việt là lưu, 利 có âm Hán Việt là lợi. Cách đọc hơi giống "lưu loát" nên dễ nhớ. 流利
+      là tính từ, không dùng 是 trước nó: ~~他汉语是流利~~ → 他汉语很流利.'
+    准确: '正确 là đúng, không sai (回答正确: trả lời đúng). 准确 là chính xác đến từng chi tiết (读音很准确: phát âm
+      rất chuẩn). Trong què, chữ ue sau q thật ra là üe: tròn môi ngay từ đầu.'
+    音节: 音 có âm Hán Việt là âm, 节 có âm Hán Việt là tiết, nên 音节 là "âm tiết". Giống tiếng Việt, mỗi chữ
+      Hán đọc thành đúng một âm tiết.
+- id: hsk2-u15-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

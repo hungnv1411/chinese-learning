@@ -1,0 +1,22 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T01:43:24",
+  "prompt_sha256": [
+    "3d131dd7d08ee932a505aa017c44212d7f369aebaa28d06d1fe035998aad7496",
+    "592676e972ee83b72172fa140bdd919462b174f861448b9a832dade0aecdde28"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u24-van-hoa-va-nghe-thuat.yaml:30: [sentence_unlearned_word] Câu s-hsk3-u24-003 (bài hsk3-u24-l01) dùng từ chưa học: 这是, 一个, 民间传说",
+    "u24-van-hoa-va-nghe-thuat.yaml:67: [sentence_unlearned_word] Câu s-hsk3-u24-007 (bài hsk3-u24-l02) dùng từ chưa học: 一束花",
+    "u24-van-hoa-va-nghe-thuat.yaml:101: [sentence_unlearned_word] Câu s-hsk3-u24-010 (bài hsk3-u24-l03) dùng từ chưa học: 这位, 写文章",
+    "u24-van-hoa-va-nghe-thuat.yaml:109: [sentence_unlearned_word] Câu s-hsk3-u24-012 (bài hsk3-u24-l03) dùng từ chưa học: 本书",
+    "u24-van-hoa-va-nghe-thuat.yaml:141: [sentence_unlearned_word] Câu s-hsk3-u24-015 (bài hsk3-u24-l04) dùng từ chưa học: 看过"
+  ],
+  "han_viet_proposed": []
+}

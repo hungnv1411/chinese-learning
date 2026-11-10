@@ -1,0 +1,202 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u18.json.
+id: hsk3-u18
+stage: hsk3
+order: 18
+title: Số lượng và phạm vi
+description: Ước lượng số lượng, nói về toàn bộ, từng phần và giới hạn.
+lessons:
+- id: hsk3-u18-l01
+  title: 'Ước lượng: khoảng, chừng, gần'
+  grammar: hsk3-g074
+  new_words:
+  - 大概
+  - 大约
+  - 左右
+  - 前后
+  - 将近
+  - 接近
+  sentences:
+  - id: s-hsk3-u18-001
+    zh: 我大概懂了。
+    en: I sort of understand.
+    pinyin: wǒ dà gài dǒng le
+    tatoeba_id: 333776
+  - id: s-hsk3-u18-002
+    zh: 他应该四十岁左右吧。
+    en: He must be about forty.
+    pinyin: Tā yīnggāi sìshí suì zuǒyòu ba.
+  - id: s-hsk3-u18-003
+    zh: 我等了将近一个小时。
+    en: I waited for nearly an hour.
+    pinyin: Wǒ děngle jiāngjìn yí ge xiǎoshí.
+  - id: s-hsk3-u18-004
+    zh: 春节前后车票很难买。
+    en: Train tickets are hard to buy around the Spring Festival.
+    pinyin: Chūnjié qiánhòu chēpiào hěn nán mǎi.
+  tips:
+    左右: 'Tiếng Việt nói ''khoảng 40 tuổi'' (từ ước lượng đứng TRƯỚC số), còn 左右 đứng SAU số: 四十岁左右. Người
+      Việt hay nói sai thành ~~左右四十岁~~. Nếu muốn đặt trước số thì dùng 大概/大约: 大约四十岁.'
+    前后: '前后 chỉ đi sau mốc thời gian hoặc dịp lễ: 春节前后, 八点前后. Không dùng cho số lượng người hay vật: ~~五十个人前后~~
+      → 五十个人左右.'
+    将近: '近 có âm Hán Việt là cận (gần). 将近 là phó từ ''gần tới (chưa đủ)'': 将近一个小时. 接近 là động từ ''tiến
+      lại gần'': 不要接近我. jiāng và jìn: j đọc gần như ''ch'' tiếng Việt nhưng mặt lưỡi áp sát, không cong
+      lưỡi.'
+    大概: 'Chữ 概 gồm bộ 木 (cây) bên trái và 既 bên phải. Tránh nói dư ~~大概四十岁左右~~ trong văn viết chuẩn; chọn
+      một trong hai: 大概四十岁 hoặc 四十岁左右.'
+- id: hsk3-u18-l02
+  title: 'Giới hạn: chỉ, ít nhất, đủ, thiếu'
+  grammar: hsk3-g013
+  new_words:
+  - 至少
+  - 仅
+  - 仅仅
+  - 足够
+  - 缺
+  - 缺少
+  sentences:
+  - id: s-hsk3-u18-005
+    zh: 我仅仅吃了口面包。
+    en: I only took a bite of bread.
+    pinyin: wǒ jǐn jǐn chī le kǒu miàn bāo
+    tatoeba_id: 1446821
+  - id: s-hsk3-u18-006
+    zh: 他没有足够的钱。
+    en: He did not have enough money.
+    pinyin: tā méi yǒu zú gòu de qián
+    tatoeba_id: 752105
+  - id: s-hsk3-u18-007
+    zh: 我至少要睡七个小时。
+    en: I need to sleep at least seven hours.
+    pinyin: Wǒ zhìshǎo yào shuì qī ge xiǎoshí.
+  - id: s-hsk3-u18-008
+    zh: 我们班还缺一个人。
+    en: Our class is still one person short.
+    pinyin: Wǒmen bān hái quē yí ge rén.
+  tips:
+    至少: '少 có âm Hán Việt là thiểu → 至少 = ''ít nhất''. zhì và shǎo đều là âm uốn lưỡi: cong đầu lưỡi lên,
+      khác ''ch'', ''x'' tiếng Việt. 至少 đứng trước động từ hoặc số: 至少要等半个小时.'
+    仅仅: 仅 gồm bộ 亻(người) + 又. 仅仅 là thanh 3 + thanh 3 nên đọc biến thành jínjǐn (chữ đầu lên giọng như
+      thanh 2). Đừng đọc thanh 3 giống dấu hỏi tiếng Việt kéo dài; thanh 3 chủ yếu là xuống thấp.
+    缺: 'quē: q bật hơi mạnh, và ''ue'' sau q thực ra là üe (môi tròn như phát ''uy''), không phải ''u-ê''
+      tiếng Việt. Chữ 缺 có bộ 缶 bên trái, 夬 bên phải.'
+    足够: '足够 + 的 + danh từ: 足够的时间. Dạng phủ định thường dùng 不够 hoặc 没有足够的…; không nói ~~不足够~~ trong khẩu
+      ngữ hằng ngày.'
+- id: hsk3-u18-l03
+  title: Số lượng, diện tích và sự dồi dào
+  grammar: hsk3-g037
+  new_words:
+  - 有的是
+  - 充满
+  - 丰富
+  - 数量
+  - 比例
+  - 面积
+  - 共有
+  sentences:
+  - id: s-hsk3-u18-009
+    zh: 别急，我们有的是时间。
+    en: Don't worry, we have plenty of time.
+    pinyin: Bié jí, wǒmen yǒudeshì shíjiān.
+  - id: s-hsk3-u18-010
+    zh: 我心里充满着快乐。
+    en: My heart was filled with happiness.
+    pinyin: wǒ xīn lǐ chōng mǎn zhe kuài lè
+    tatoeba_id: 503219
+  - id: s-hsk3-u18-011
+    zh: 这个房子的面积不大。
+    en: This house isn't very big in area.
+    pinyin: Zhège fángzi de miànjī bú dà.
+  - id: s-hsk3-u18-012
+    zh: 我们班共有三十个学生。
+    en: Our class has thirty students in total.
+    pinyin: Wǒmen bān gòngyǒu sānshí ge xuésheng.
+  tips:
+    有的是: '有的是 nghĩa là ''có thừa, có rất nhiều'', KHÔNG có nghĩa ''có cái là''. 的 đọc nhẹ (de). Người
+      Việt hay nhầm với 有的 (có cái/có người): 有的人喜欢 ≠ 他有的是钱.'
+    面积: '积 có âm Hán Việt là tích. 面积 = diện tích, đi với 大/小: 面积很大, không nói ~~面积很多~~. Còn 数量 (số lượng)
+      thì đi với 多/少: 数量不多. Chữ 积 có bộ 禾 (lúa) bên trái: lúa gom lại thành đống.'
+    丰富: '丰 có âm Hán Việt là phong, 富 có âm Hán Việt là phú → 丰富 = phong phú. 富 có bộ 宀 (mái nhà) ở trên:
+      nhà đầy của cải. fù: f đọc như ''ph'' tiếng Việt.'
+    充满: '充 có âm Hán Việt là sung, 满 có âm Hán Việt là mãn → ''sung mãn'', tràn đầy. Cấu trúc: 充满 + danh
+      từ trừu tượng: 充满快乐, 充满信心. chōng: ch uốn lưỡi, bật hơi.'
+- id: hsk3-u18-l04
+  title: Mỗi, các, bất kỳ
+  grammar: hsk3-g008
+  new_words:
+  - 每
+  - 各
+  - 各位
+  - 各种
+  - 各自
+  - 任何
+  sentences:
+  - id: s-hsk3-u18-013
+    zh: 各位，请安静。
+    en: Everyone, please be quiet.
+    pinyin: gè wèi qǐng ān jìng
+    tatoeba_id: 824599
+  - id: s-hsk3-u18-014
+    zh: 她喜欢各种运动。
+    en: She likes all kinds of sports.
+    pinyin: tā xǐ huān gè zhǒng yùn dòng
+    tatoeba_id: 1019951
+  - id: s-hsk3-u18-015
+    zh: 没有任何问题!
+    en: No problem at all!
+    pinyin: méi yǒu rèn hé wèn tí
+    tatoeba_id: 2043283
+  - id: s-hsk3-u18-016
+    zh: 每个人都有各自的想法。
+    en: Everyone has their own ideas.
+    pinyin: Měi ge rén dōu yǒu gèzì de xiǎngfǎ.
+  tips:
+    每: '每 phải có lượng từ đi kèm: 每个人, 每本书 (riêng 每天, 每年 không cần). Sau đó thường có 都: 每个人都来了. Lỗi
+      hay gặp: ~~每人来了~~ → 每个人都来了.'
+    各位: 各 có âm Hán Việt là các, 位 có âm Hán Việt là vị → 各位 = 'các vị', cách gọi lịch sự khi nói trước
+      nhiều người, giống 'thưa các bạn/quý vị'.
+    任何: '任何 + danh từ thường đi với 都/也 hoặc câu phủ định: 任何问题都可以问, 没有任何朋友. Chữ 何 gồm 亻+ 可. 任 rèn: r
+      tiếng Trung không rung như ''r'' tiếng Việt, mà cong lưỡi gần giống ''gi'' nhẹ.'
+    各种: '种 ở đây đọc zhǒng (thanh 3) = loại; 各种 + danh từ, không cần 个: 各种运动, ~~各种个运动~~ là sai. Chữ 种
+      có bộ 禾 (lúa).'
+- id: hsk3-u18-l05
+  title: Toàn bộ, nguyên vẹn và cách dùng bất định
+  grammar: hsk3-g007
+  new_words:
+  - 整
+  - 整个
+  - 整体
+  - 整整
+  - 完整
+  - 一切
+  - 某
+  sentences:
+  - id: s-hsk3-u18-017
+    zh: 一切都很顺利。
+    en: Everything went well.
+    pinyin: yī qiè dōu hěn shùn lì
+    tatoeba_id: 466062
+  - id: s-hsk3-u18-018
+    zh: 他讲了整整一小时。
+    en: He talked for an entire hour.
+    pinyin: tā jiǎng le zhěng zhěng yī xiǎo shí
+    tatoeba_id: 799214
+  - id: s-hsk3-u18-019
+    zh: 你整个周末做了什么?
+    en: What did you do over the weekend?
+    pinyin: nǐ zhěng gè zhōu mò zuò le shén me
+    tatoeba_id: 905866
+  - id: s-hsk3-u18-020
+    zh: 他什么都知道。
+    en: He knows everything.
+    pinyin: Tā shénme dōu zhīdào.
+  tips:
+    一切: 'Biến điệu của 一: đứng trước thanh 4 (切 qiè) thì 一 đọc thanh 2 → yíqiè. 一切 thường đi với 都: 一切都好.'
+    整整: '整整 là 3+3 nên đọc zhéngzhěng. Dùng trước số lượng để nhấn mạnh ''tròn, đủ cả'': 整整一小时. 整 có âm
+      Hán Việt là chỉnh.'
+    完整: 完 có âm Hán Việt là hoàn, 整 có âm Hán Việt là chỉnh → 完整 = hoàn chỉnh, nguyên vẹn. Đây là tính
+      từ, nói 很完整, không nói ~~是完整~~ khi chỉ tính chất.
+    某: '某 có âm Hán Việt là mỗ. 某 + (lượng từ) + danh từ = ''một … nào đó'': 某人, 某天. Chữ gồm 甘 trên, 木
+      dưới.'
+- id: hsk3-u18-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

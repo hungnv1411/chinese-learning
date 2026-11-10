@@ -1,0 +1,195 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u13.json.
+id: hsk3-u13
+stage: hsk3
+order: 13
+title: Trường lớp và học tập
+description: Nói về lớp học, môn học, bài tập, thi cử và du học.
+lessons:
+- id: hsk3-u13-l01
+  title: Lớp học và cấp học
+  grammar: hsk3-g078
+  new_words:
+  - 班级
+  - 初一
+  - 初中
+  - 初级
+  - 念
+  - 报到
+  sentences:
+  - id: s-hsk3-u13-001
+    zh: 新的班级怎么样？
+    en: How is your new class?
+    pinyin: xīn de bān jí zěn me yàng
+    tatoeba_id: 8756332
+  - id: s-hsk3-u13-002
+    zh: 你在哪里念高中？
+    en: Where do you attend high school?
+    pinyin: nǐ zài nǎ lǐ niàn gāo zhōng
+    tatoeba_id: 775795
+  - id: s-hsk3-u13-003
+    zh: 你弟弟念初一？
+    en: Your younger brother is in the first year of junior high?
+    pinyin: nǐ dìdi niàn chūyī?
+  - id: s-hsk3-u13-004
+    zh: 新同学明天去学校报到。
+    en: The new students will register at the school tomorrow.
+    pinyin: xīn tóngxué míngtiān qù xuéxiào bàodào.
+  tips:
+    初一: '一 trong 初一 là số thứ tự (lớp 1 cấp hai, hoặc mùng 1 âm lịch) nên luôn đọc thanh 1: chūyī, không
+      biến điệu. Tương tự: 初二, 初三 là lớp 8, lớp 9.'
+    念: '念 = đọc (thành tiếng) hoặc đi học ở trường nào: 念初中, 念大学. Chữ gồm 今 trên 心 dưới: ''bây giờ trong
+      lòng nghĩ tới''. 念 có âm Hán Việt là niệm.'
+    初中: '初中 (cấp hai) ≠ 中学 nói chung. Trung Quốc chia: 小学 → 初中 (3 năm) → 高中 (3 năm). 初 có âm Hán Việt
+      là sơ, 中 có âm Hán Việt là trung: ''sơ trung''.'
+    报到: 报到 là 'trình diện, làm thủ tục nhập học/nhận việc', khác 报名 (đăng ký ghi danh trước). Đừng nhầm
+      到 dào với 道 dào cùng âm.
+- id: hsk3-u13-l02
+  title: Chuyên ngành và du học
+  new_words:
+  - 专业
+  - 系
+  - 留学
+  - 学费
+  - 外文
+  - 专门
+  sentences:
+  - id: s-hsk3-u13-005
+    zh: 你的专业是什么？
+    en: What's your major?
+    pinyin: nǐ de zhuān yè shì shén me
+    tatoeba_id: 5094692
+  - id: s-hsk3-u13-006
+    zh: 我明年想出国留学。
+    en: I want to study abroad next year.
+    pinyin: wǒ míng nián xiǎng chū guó liú xué
+    tatoeba_id: 336179
+  - id: s-hsk3-u13-007
+    zh: 留学的学费很贵。
+    en: Tuition for studying abroad is expensive.
+    pinyin: liúxué de xuéfèi hěn guì.
+  - id: s-hsk3-u13-008
+    zh: 他是中文系的学生。
+    en: He is a student in the Chinese department.
+    pinyin: tā shì zhōngwén xì de xuésheng.
+  tips:
+    专业: 'zh trong 专 zhuān là âm uốn lưỡi: cong đầu lưỡi lên chạm sau lợi trên, khác ''tr'' miền Bắc đọc
+      như ''ch''. 专 có âm Hán Việt là chuyên, 业 có âm Hán Việt là nghiệp.'
+    留学: 'Lỗi hay gặp: ~~我留学中国~~ (nói thường ngày nghe cứng). Nên nói 我去中国留学 hoặc 我在中国留学. 学 xué có âm ü:
+      chu môi tròn như ''uy'' nhưng giữ lưỡi như ''i''.'
+    系: '系 xì ở đây là ''khoa'' trong trường đại học: 中文系 khoa tiếng Trung. Chữ có bộ mịch 糸 (sợi tơ) –
+      các sợi nối liền, nên còn nghĩa ''liên hệ''.'
+    专门: '专门 vừa là phó từ ''chuyên, đặc biệt để'': 我专门来看你 (tôi đến riêng để thăm bạn), vừa là tính từ
+      ''chuyên môn''. Đặt trước động từ, không đặt cuối câu.'
+- id: hsk3-u13-l03
+  title: Chương trình và bài vở
+  new_words:
+  - 课程
+  - 教材
+  - 单元
+  - 功课
+  - 预习
+  - 板
+  sentences:
+  - id: s-hsk3-u13-009
+    zh: 课程下周开始。
+    en: Classes begin next week.
+    pinyin: kè chéng xià zhōu kāi shǐ
+    tatoeba_id: 2694357
+  - id: s-hsk3-u13-010
+    zh: 他正在做功课。
+    en: He is doing the homework.
+    pinyin: tā zhèng zài zuò gōng kè
+    tatoeba_id: 846657
+  - id: s-hsk3-u13-011
+    zh: 这本教材有十个单元。
+    en: This textbook has ten units.
+    pinyin: zhè běn jiàocái yǒu shí ge dānyuán.
+  - id: s-hsk3-u13-012
+    zh: 上课以前要预习课文。
+    en: You should prepare the text before class.
+    pinyin: shàngkè yǐqián yào yùxí kèwén.
+  tips:
+    预习: '预习 (học trước bài mới) đối lập với 复习 (ôn lại bài cũ). 预 có âm Hán Việt là dự – ''dự'' tức là
+      trước. yù đọc âm ü: môi tròn, lưỡi như ''i'', không đọc thành ''du''.'
+    功课: 'Động từ đi với 功课 là 做: 做功课, không dùng ~~写功课~~ hay ~~学功课~~. 课 có bộ ngôn 讠, 课 có âm Hán Việt
+      là khoá.'
+    单元: '单 có âm Hán Việt là đơn, 元 có âm Hán Việt là nguyên: ''đơn nguyên'' = một đơn vị bài. Trong sách:
+      第一单元 bài/đơn vị 1. Ở chung cư, 单元 còn là ''cầu thang/lối vào''.'
+    板: '板 bǎn thanh 3: hạ giọng thấp rồi mới lên, đừng đọc như dấu hỏi tiếng Việt quá ngắn. Bộ mộc 木 +
+      反: tấm gỗ. Bạn đã học 黑板 (bảng đen).'
+- id: hsk3-u13-l04
+  title: Đề thi và kỹ năng
+  new_words:
+  - 试题
+  - 题目
+  - 难度
+  - 听力
+  - 写作
+  - 集中
+  sentences:
+  - id: s-hsk3-u13-013
+    zh: 她的写作很好。
+    en: Her writing is very good.
+    pinyin: tā de xiě zuò hěn hǎo
+    tatoeba_id: 788164
+  - id: s-hsk3-u13-014
+    zh: 他不喜欢写作。
+    en: He doesn't like writing.
+    pinyin: tā bù xǐ huān xiě zuò
+    tatoeba_id: 10360663
+  - id: s-hsk3-u13-015
+    zh: 这次考试的题目不难。
+    en: The questions on this exam aren't hard.
+    pinyin: zhè cì kǎoshì de tímù bù nán.
+  - id: s-hsk3-u13-016
+    zh: 听力试题的难度很大。
+    en: The listening questions are very difficult.
+    pinyin: tīnglì shìtí de nándù hěn dà.
+  tips:
+    难度: '难度 là danh từ ''độ khó'', nên nói 难度很大/很高, không nói ~~难度很难~~. Còn 难 là tính từ: 这题很难. Người
+      Việt hay nhầm: ~~这题是难~~ → 这题很难.'
+    写作: z trong 作 zuò là âm đầu lưỡi phẳng (đặt lưỡi sau răng cửa, như 'ts'), không uốn lưỡi như zh. 写
+      có âm Hán Việt là tả, 作 có âm Hán Việt là tác.
+    题目: '题 gồm 是 + 页 (trang, đầu): đề bài nằm ở đầu trang. 题目 vừa là ''đề mục, tiêu đề'' vừa là ''câu
+      hỏi trong bài thi''; lượng từ là 道: 三道题目.'
+    集中: '集中 = tập trung, dùng như động từ: 集中时间 (dồn thời gian). 集 có âm Hán Việt là tập: chim 隹 đậu trên
+      cây 木 – nhiều con tụ lại.'
+- id: hsk3-u13-l05
+  title: Hỏi han và hướng dẫn
+  new_words:
+  - 提问
+  - 请教
+  - 指导
+  - 修改
+  - 图
+  sentences:
+  - id: s-hsk3-u13-017
+    zh: 欢迎随时提问。
+    en: Please feel free to ask questions.
+    pinyin: huān yíng suí shí tí wèn
+    tatoeba_id: 851544
+  - id: s-hsk3-u13-018
+    zh: 谢谢你的修改。
+    en: Thank you for the corrections.
+    pinyin: xiè xiè nǐ de xiū gǎi
+    tatoeba_id: 2349169
+  - id: s-hsk3-u13-019
+    zh: 你最好请教你的医生。
+    en: You'd better consult your doctor.
+    pinyin: nǐ zuì hǎo qǐng jiào nǐ de yī shēng
+    tatoeba_id: 842332
+  - id: s-hsk3-u13-020
+    zh: 老师指导我修改作文。
+    en: The teacher guides me in revising my composition.
+    pinyin: lǎoshī zhǐdǎo wǒ xiūgǎi zuòwén.
+  tips:
+    指导: 'Biến điệu 3+3: 指 zhǐ và 导 dǎo đều thanh 3, nên 指 đọc lên thành thanh 2: zhídǎo. Chữ 指 có bộ thủ
+      扌 (tay) – lấy tay chỉ đường.'
+    请教: '请教 là hỏi xin chỉ bảo một cách lễ phép, dùng với thầy cô, người lớn: 我想请教您一个问题. Với bạn bè ngang
+      hàng dùng 问 là đủ. q trong qǐng bật hơi mạnh, giống ''ch'' bật hơi.'
+    提问: 提问 là động từ 'đặt câu hỏi', còn 问题 là danh từ 'câu hỏi'. Đừng nói ~~我有一个提问~~ → 我有一个问题. 提 có bộ
+      thủ 扌, 问 có bộ môn 门 với 口 bên trong.
+    图: '图 tú: khung 囗 bao quanh 冬 – bức vẽ đóng khung. Bạn đã học 地图, 图书馆, 图片. 图 có âm Hán Việt là đồ.'
+- id: hsk3-u13-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

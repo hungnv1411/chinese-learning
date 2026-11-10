@@ -1,0 +1,43 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-08T17:05:10",
+  "prompt_sha256": [
+    "15fdda78e4e1df86e26b3b1fefd4f1cd81d5c8c9b9c497e0169ff492a21b0eee",
+    "a21460710303e262dd84dda023ac1d1c6a1ed0cb7216d9e7f0db261de3414b93",
+    "62cdea6af9c10945026d0b6cd256ffe7136bacf77f1eab8ed3103d9cc36c2469"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "s-hsk1-u15-003, s-hsk1-u15-004, s-hsk1-u15-006, s-hsk1-u15-008, s-hsk1-u15-009, s-hsk1-u15-010, s-hsk1-u15-011",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Pinyin của các câu lấy từ Tatoeba tách từng âm tiết (wǒ bù kāi wán xiào, shén me, kàn dào, tīng jiàn…) và không có dấu câu cuối câu. Các câu còn lại viết liền theo từ (wánxiào, shénme, chànggē…) và có dấu câu. Cách ghi này không nhất quán và dễ làm người học tưởng đó là các từ riêng.",
+      "suggestion": "Viết liền theo từ và thêm dấu câu. Ví dụ: wǒ bù kāi wánxiào. / nǐ xiào shénme ne? / nín huì chànggē ma? / wǒ méi tīngjiàn. / nǐ zài kàn shénme? / wǒ méi kàndào rén. / méi rén kànjiàn nǐ."
+    },
+    {
+      "where": "s-hsk1-u15-009",
+      "category": "english",
+      "severity": "warning",
+      "problem": "Câu 你在看什么？ được dịch là \"What are you reading?\". Bài này dạy 看 theo nghĩa rộng (xem, nhìn, đọc), và câu không có ngữ cảnh đọc sách, nên bản dịch thu hẹp nghĩa.",
+      "suggestion": "Dịch là \"What are you looking at?\" hoặc \"What are you watching?\"."
+    }
+  ],
+  "machine_warnings": [
+    "u15-so-thich-va-giai-tri.yaml:66: [sentence_unlearned_word] Câu s-hsk1-u15-007 (bài hsk1-u15-l02) dùng từ chưa học: 唱的歌",
+    "u15-so-thich-va-giai-tri.yaml:108: [sentence_unlearned_word] Câu s-hsk1-u15-012 (bài hsk1-u15-l03) dùng từ chưa học: 我家",
+    "u15-so-thich-va-giai-tri.yaml:131: [sentence_pinyin_mismatch] Câu s-hsk1-u15-013: pinyin ghi 'diànyǐngyuàn zài nǎr?', pypinyin cho 'diàn yǐng yuàn zài nǎ ér'",
+    "u15-so-thich-va-giai-tri.yaml:133: [sentence_unlearned_word] Câu s-hsk1-u15-014 (bài hsk1-u15-l04) dùng từ chưa học: 多少钱",
+    "u15-so-thich-va-giai-tri.yaml:137: [sentence_unlearned_word] Câu s-hsk1-u15-015 (bài hsk1-u15-l04) dùng từ chưa học: 看电视",
+    "u15-so-thich-va-giai-tri.yaml:172: [sentence_unlearned_word] Câu s-hsk1-u15-019 (bài hsk1-u15-l05) dùng từ chưa học: 不要",
+    "u15-so-thich-va-giai-tri.yaml:176: [sentence_unlearned_word] Câu s-hsk1-u15-020 (bài hsk1-u15-l05) dùng từ chưa học: 这个"
+  ],
+  "han_viet_proposed": [
+    "笑",
+    "跑"
+  ]
+}

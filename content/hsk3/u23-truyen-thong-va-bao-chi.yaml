@@ -1,0 +1,205 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u23.json.
+id: hsk3-u23
+stage: hsk3
+order: 23
+title: Truyền thông và báo chí
+description: Nói về tin tức, truyền hình, phát thanh, báo chí và việc đưa tin.
+lessons:
+- id: hsk3-u23-l01
+  title: Đài phát thanh và radio
+  new_words:
+  - 广播
+  - 电台
+  - 收音机
+  - 收听
+  - 听众
+  - 传来
+  sentences:
+  - id: s-hsk3-u23-001
+    zh: 他喜欢听广播。
+    en: He likes to listen to the radio.
+    pinyin: tā xǐ huān tīng guǎng bō
+    tatoeba_id: 846207
+  - id: s-hsk3-u23-002
+    zh: 你最喜欢的电台是什么？
+    en: What's your favorite radio station?
+    pinyin: nǐ zuì xǐ huān de diàn tái shì shén me
+    tatoeba_id: 6109310
+  - id: s-hsk3-u23-003
+    zh: 我想收听新闻。
+    en: I want to listen to the news.
+    pinyin: wǒ xiǎng shōu tīng xīn wén
+    tatoeba_id: 13519146
+  - id: s-hsk3-u23-004
+    zh: 收音机里传来了好听的音乐。
+    en: Lovely music came from the radio.
+    pinyin: Shōuyīnjī lǐ chuánlái le hǎotīng de yīnyuè.
+  tips:
+    广播: '播 có bộ thủ 扌 (bàn tay) bên trái, ghép với 番. Hãy hình dung tay vung rải hạt giống ra khắp nơi,
+      giống như sóng phát thanh lan rộng. 广播 đọc guǎngbō: thanh 3 rồi đến thanh 1, chữ guǎng chỉ cần hạ
+      giọng xuống thấp.'
+    收音机: 收 có âm Hán Việt là thu, 音 có âm Hán Việt là âm, 机 có âm Hán Việt là cơ, ghép lại là 'máy thu
+      âm', tức cái radio. Chữ shōu bắt đầu bằng sh, phải uốn đầu lưỡi lên chứ không đọc như 's' của tiếng
+      Việt.
+    听众: '众 gồm ba chữ 人 chồng lên nhau, nghĩa là nhiều người. 听 có âm Hán Việt là thính, 众 có âm Hán Việt
+      là chúng. Chữ zhòng: zh uốn lưỡi, không bật hơi, gần giống ''tr'' của giọng miền Nam.'
+    收听: 收听 dùng cho việc nghe đài, nghe chương trình phát thanh. Với tivi thì dùng 收看. Khi nói chuyện
+      hằng ngày, người Trung Quốc vẫn hay nói 听广播 hơn.
+    传来: 传来 dùng khi âm thanh hoặc tin tức từ đâu đó truyền tới người nói, ví dụ 外边传来了歌声 (bên ngoài vọng
+      vào tiếng hát). Chữ chuán có ch bật hơi mạnh, giống 'ch' kèm một luồng hơi.
+- id: hsk3-u23-l02
+  title: Truyền hình và phát sóng
+  grammar: hsk3-g073
+  new_words:
+  - 电视台
+  - 播出
+  - 播放
+  - 直播
+  - 收看
+  - 专题
+  sentences:
+  - id: s-hsk3-u23-005
+    zh: 这个节目每天晚上八点播出。
+    en: This program airs every evening at eight.
+    pinyin: Zhège jiémù měitiān wǎnshang bā diǎn bōchū.
+  - id: s-hsk3-u23-006
+    zh: 我下了班就回家收看足球直播。
+    en: As soon as I get off work, I go home to watch the live football broadcast.
+    pinyin: Wǒ xià le bān jiù huí jiā shōukàn zúqiú zhíbō.
+  - id: s-hsk3-u23-007
+    zh: 电视台今天播放了一个新闻专题。
+    en: The TV station aired a news special today.
+    pinyin: Diànshìtái jīntiān bōfàng le yí ge xīnwén zhuāntí.
+  tips:
+    直播: 直播 nghĩa là phát sóng trực tiếp, dùng cho cả truyền hình lẫn livestream trên mạng. Chữ zhí mang
+      thanh 2, giọng đi lên giống dấu sắc; zh phải uốn lưỡi, không bật hơi.
+    播出: '播出 nói về việc một chương trình được lên sóng, thường đi kèm thời gian: 晚上八点播出. Còn 播放 nhấn vào
+      việc phát một nội dung cụ thể như phim, nhạc, video: 播放音乐.'
+    电视台: Hãy tách ra thành 电视 (tivi) + 台 (trạm phát sóng), nghĩa là đài truyền hình. Bỏ 视 đi thì còn 电台,
+      nghĩa là đài phát thanh. Không nên nhầm hai từ này.
+    专题: 专 có âm Hán Việt là chuyên. 专题 là chương trình hay bài viết về một chủ đề riêng. Lưu ý 一个 trong
+      câu đọc là yí ge, vì 一 đứng trước chữ mang thanh 4 (个 vốn là gè) thì đổi thành thanh 2.
+- id: hsk3-u23-l03
+  title: Báo, tạp chí và bài viết
+  grammar: hsk3-g045
+  new_words:
+  - 报
+  - 记者
+  - 杂志
+  - 文章
+  - 标题
+  - 内容
+  sentences:
+  - id: s-hsk3-u23-008
+    zh: 以下是我写的内容。
+    en: Here's what I wrote.
+    pinyin: yǐ xià shì wǒ xiě de nèi róng
+    tatoeba_id: 13992597
+  - id: s-hsk3-u23-009
+    zh: 他是时代杂志的记者。
+    en: He is a reporter for Time magazine.
+    pinyin: tā shì shí dài zá zhì de jì zhě
+    tatoeba_id: 336642
+  - id: s-hsk3-u23-010
+    zh: 他的照片上了报。
+    en: His picture was in the newspaper.
+    pinyin: tā de zhào piān shàng le bào
+    tatoeba_id: 410687
+  - id: s-hsk3-u23-011
+    zh: 这篇文章的标题很有意思。
+    en: The title of this article is very interesting.
+    pinyin: Zhè piān wénzhāng de biāotí hěn yǒu yìsi.
+  tips:
+    记者: 记 có âm Hán Việt là kí, nghĩa là ghi chép. 记者 là người ghi chép tin tức, tức phóng viên. Chữ zhě
+      mang thanh 3, đọc trầm xuống chứ không lên giọng như dấu hỏi tiếng Việt.
+    杂志: 杂 có âm Hán Việt là tạp, 志 có âm Hán Việt là chí, ghép lại là 'tạp chí'. Âm z trong zá đọc giống
+      'ts' không bật hơi. Người Việt hay đọc nhầm thành 'd', cần tránh.
+    内容: 内 có âm Hán Việt là nội, 容 có âm Hán Việt là dung, ghép lại là 'nội dung'. Âm r trong róng phải
+      uốn lưỡi, không rung, nghe gần giữa 'r' và 'd'.
+    文章: '文 có âm Hán Việt là văn, 章 có âm Hán Việt là chương. Lượng từ đi với 文章 là 篇: 一篇文章, không dùng
+      个.'
+    报: 报 dùng một mình có nghĩa là tờ báo, ví dụ 上了报 (lên báo). Chữ này đã gặp trong 报纸, 日报, 报名. Bên trái
+      là bộ thủ 扌 (tay).
+    标题: 'Chữ 题 trong 标题 cũng là chữ 题 trong 问题 và 题目 đã học, bên phải có 页. 标题 là tiêu đề của bài báo,
+      bài viết: 文章的标题.'
+- id: hsk3-u23-l04
+  title: Đưa tin và công bố
+  new_words:
+  - 报道
+  - 发表
+  - 公布
+  - 公开
+  - 宣布
+  - 声明
+  sentences:
+  - id: s-hsk3-u23-012
+    zh: 这篇报道是谁写的？
+    en: Who wrote this report?
+    pinyin: Zhè piān bàodào shì shéi xiě de?
+  - id: s-hsk3-u23-013
+    zh: 它发表在哪里？
+    en: Where was it published?
+    pinyin: tā fā biǎo zài nǎ lǐ
+    tatoeba_id: 8511419
+  - id: s-hsk3-u23-014
+    zh: 学校公布了考试成绩。
+    en: The school announced the exam results.
+    pinyin: Xuéxiào gōngbù le kǎoshì chéngjì.
+  - id: s-hsk3-u23-015
+    zh: 公司今天宣布了一个重要的消息。
+    en: The company announced an important piece of news today.
+    pinyin: Gōngsī jīntiān xuānbù le yí ge zhòngyào de xiāoxi.
+  tips:
+    发表: 发 có âm Hán Việt là phát, 表 có âm Hán Việt là biểu. 发表 vừa có nghĩa là đăng bài (发表文章), vừa có
+      nghĩa là nêu ý kiến, phát biểu chính thức (发表意见, 发表讲话). Cần lưu ý nghĩa 'đăng bài' rất phổ biến,
+      trong khi chữ 'phát biểu' của tiếng Việt không có nghĩa này.
+    声明: 声 có âm Hán Việt là thanh, 明 có âm Hán Việt là minh, nhưng 声明 KHÔNG mang nghĩa 'thanh minh' (giải
+      thích để chứng minh mình vô tội). Nghĩa của nó là tuyên bố chính thức, hoặc bản tuyên bố.
+    宣布: '宣 có âm Hán Việt là tuyên, 布 có âm Hán Việt là bố, ghép lại là ''tuyên bố''. Từ này dùng khi
+      thông báo chính thức một quyết định hay một tin tức: 宣布结果.'
+    公开: 公 có âm Hán Việt là công, 开 có âm Hán Việt là khai, ghép lại là 'công khai'. 公开 vừa là tính từ
+      (公开的信) vừa là động từ (公开信息). Còn 公布 chỉ là động từ, dùng cho kết quả, danh sách, số liệu.
+    报道: 报道 đọc bàodào, cả hai chữ đều mang thanh 4, phải dứt khoát đi xuống. Đây vừa là động từ (đưa tin)
+      vừa là danh từ (bài phóng sự). Lượng từ đi kèm là 篇.
+- id: hsk3-u23-l05
+  title: Lan truyền, truyền thông và sự quan tâm
+  new_words:
+  - 传
+  - 传播
+  - 宣传
+  - 媒体
+  - 关注
+  - 据说
+  sentences:
+  - id: s-hsk3-u23-016
+    zh: 据说她爱他。
+    en: It's said that she loves him.
+    pinyin: jù shuō tā ài tā
+    tatoeba_id: 852169
+  - id: s-hsk3-u23-017
+    zh: 我感觉大家都在关注我。
+    en: I feel like everybody's watching me.
+    pinyin: wǒ gǎn jué dà jiā dōu zài guān zhù wǒ
+    tatoeba_id: 5026442
+  - id: s-hsk3-u23-018
+    zh: 这个消息在网上传得很快。
+    en: This news spread quickly online.
+    pinyin: Zhège xiāoxi zài wǎngshang chuán de hěn kuài.
+  - id: s-hsk3-u23-019
+    zh: 媒体都报道了这件事。
+    en: The media all reported on this matter.
+    pinyin: Méitǐ dōu bàodào le zhè jiàn shì.
+  tips:
+    传: '传 gồm bộ nhân 亻 và chữ 专: người này chuyển cho người kia, tức là truyền đi. 传 có âm Hán Việt là
+      truyền. Chữ chuán có ch bật hơi, nhớ đẩy hơi ra mạnh.'
+    宣传: 宣 có âm Hán Việt là tuyên, 传 có âm Hán Việt là truyền. Trong tiếng Trung hằng ngày, 宣传 thường
+      mang nghĩa trung tính là quảng bá, giới thiệu rộng rãi, ví dụ 宣传新书 (quảng bá sách mới).
+    媒体: 媒 có bộ nữ 女. 媒 có âm Hán Việt là mối, gợi tới bà mối, người làm trung gian. Truyền thông cũng
+      là trung gian đưa tin tới công chúng. 体 có âm Hán Việt là thể.
+    关注: '关 có âm Hán Việt là quan, 注 có âm Hán Việt là chú, nghĩa là theo dõi sát, quan tâm. Trên mạng
+      xã hội, 关注 còn có nghĩa là ''follow'': 关注我!'
+    据说: '据说 thường đứng đầu câu và không cần chủ ngữ: 据说他去中国了. Hãy phân biệt với 听说: 听说 có thể có người
+      nghe làm chủ ngữ (我听说…), còn ~~我据说~~ là sai.'
+- id: hsk3-u23-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

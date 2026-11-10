@@ -1,0 +1,201 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u23.json.
+id: hsk2-u23
+stage: hsk2
+order: 23
+title: Cảm xúc và nhận xét
+description: Người học có thể bày tỏ cảm xúc vui, buồn, lo, sợ và đưa ra nhận xét đơn giản về sự việc.
+lessons:
+- id: hsk2-u23-l01
+  title: Vui, buồn và tâm trạng
+  new_words:
+  - 开心
+  - 快乐
+  - 难过
+  - 哭
+  - 心情
+  - 感动
+  sentences:
+  - id: s-hsk2-u23-001
+    zh: 你开心吗？
+    en: Are you happy?
+    pinyin: nǐ kāi xīn ma
+    tatoeba_id: 8924804
+  - id: s-hsk2-u23-002
+    zh: 我很难过。
+    en: I'm sad.
+    pinyin: wǒ hěn nán guò
+    tatoeba_id: 333736
+  - id: s-hsk2-u23-003
+    zh: 你心情好吗？
+    en: Are you in a good mood?
+    pinyin: nǐ xīn qíng hǎo ma
+    tatoeba_id: 1490853
+  - id: s-hsk2-u23-004
+    zh: 我很感动。
+    en: I'm very touched.
+    pinyin: wǒ hěn gǎndòng
+  tips:
+    难过: 'Lỗi hay gặp: người Việt hay nói kiểu ''我是难过'' theo ''tôi là buồn''. Tính từ trong tiếng Trung
+      không đi với 是, mà thường thêm 很: 我很难过 (Tôi buồn). Tương tự: 我很开心, 我很快乐.'
+    快乐: '快 có âm Hán Việt là khoái, 乐 có âm Hán Việt là lạc → ''khoái lạc'' nghĩa là vui vẻ. 快乐 hay dùng
+      trong lời chúc: 生日快乐！ (Chúc mừng sinh nhật). 开心 thì hay dùng trong văn nói hằng ngày: 今天我很开心.'
+    哭: 'Mẹo nhớ chữ: 哭 có hai chữ 口 (cái miệng) ở trên, chữ 犬 (con chó) ở dưới, giống hai cái miệng đang
+      gào khóc. 哭 nghĩa là khóc, đọc kū – nghe hơi giống ''khóc'' trong tiếng Việt. Đọc kū với thanh 1,
+      giữ giọng cao và đều; k bật hơi mạnh.'
+    心情: 'Chữ 情 có bộ tâm đứng 忄 ở bên trái, và rất nhiều chữ chỉ cảm xúc có bộ này (快, 怕...). 心情 là danh
+      từ ''tâm trạng'': 心情很好 (tâm trạng tốt), 没心情 (không có hứng).'
+- id: hsk2-u23-l02
+  title: Sợ hãi, lo lắng và tức giận
+  new_words:
+  - 怕
+  - 可怕
+  - 急
+  - 气
+  - 放心
+  - 不满
+  sentences:
+  - id: s-hsk2-u23-005
+    zh: 你怕狗吗？
+    en: Are you afraid of dogs?
+    pinyin: nǐ pà gǒu ma
+    tatoeba_id: 7781713
+  - id: s-hsk2-u23-006
+    zh: 太可怕了。
+    en: How awful!
+    pinyin: tài kě pà le
+    tatoeba_id: 5102161
+  - id: s-hsk2-u23-007
+    zh: 我们很急。
+    en: We're in a hurry.
+    pinyin: wǒ men hěn jí
+    tatoeba_id: 819353
+  - id: s-hsk2-u23-008
+    zh: 你放心吧，我没事儿。
+    en: Don't worry, I'm fine.
+    pinyin: nǐ fàngxīn ba, wǒ méi shìr
+  tips:
+    怕: '怕 gồm bộ tâm đứng 忄 + 白: chữ có bộ 忄 thường liên quan đến cảm xúc. 怕 là động từ nên có thể đi
+      thẳng với tân ngữ: 我怕狗 (tôi sợ chó). Còn 可怕 là tính từ ''đáng sợ'': 这只狗很可怕.'
+    急: '急 có bộ 心 ở dưới, nghĩa là trong lòng nóng ruột. 急 có âm Hán Việt là cấp, như trong ''cấp bách''.
+      Đọc jí: j giống ''ch'' đọc nhẹ, môi dẹt, không tròn môi.'
+    不满: '满 có âm Hán Việt là mãn → 不满 là ''bất mãn'', còn 满意 là ''mãn ý'' (hài lòng). Chú ý thanh 3 của
+      mǎn: hạ giọng thấp xuống rồi mới lên, đừng đọc như dấu hỏi của tiếng Việt.'
+    放心: '放 có âm Hán Việt là phóng, 心 có âm Hán Việt là tâm → ''phóng tâm'', tức là buông lỏng nỗi lo,
+      yên tâm. Câu hay dùng: 你放心吧！ (Bạn cứ yên tâm!).'
+- id: hsk2-u23-l03
+  title: Cảm giác và trong lòng
+  new_words:
+  - 感到
+  - 感觉
+  - 心里
+  - 心中
+  - 满意
+  - 随便
+  sentences:
+  - id: s-hsk2-u23-009
+    zh: 我感觉很好。
+    en: I feel fine.
+    pinyin: wǒ gǎn jué hěn hǎo
+    tatoeba_id: 784051
+  - id: s-hsk2-u23-010
+    zh: 他们满意了。
+    en: They were pleased.
+    pinyin: tā men mǎn yì le
+    tatoeba_id: 1541719
+  - id: s-hsk2-u23-011
+    zh: 你住在我心里。
+    en: You live in my heart.
+    pinyin: nǐ zhù zài wǒ xīn lǐ
+    tatoeba_id: 4490242
+  - id: s-hsk2-u23-012
+    zh: 请随便选。
+    en: You may choose whichever you like.
+    pinyin: qǐng suí biàn xuǎn
+    tatoeba_id: 400376
+  tips:
+    感觉: 'Trong 感觉, chữ 觉 đọc là jué, còn trong 睡觉 thì đọc là jiào. Chữ ''u'' sau j/q/x thực ra là ü: tròn
+      môi như khi đọc ''uy'' nhưng lưỡi đặt như khi đọc ''i''.'
+    感到: '感 có âm Hán Việt là cảm, có bộ 心 ở dưới. 感到 + tính từ/cảm xúc: 我感到很高兴. 感觉 vừa là động từ vừa
+      là danh từ (cảm giác), còn 感到 chỉ là động từ.'
+    随便: '随便 đọc là suíbiàn, khác với 便 trong 便宜 (piányi). 随 có âm Hán Việt là tuỳ, 便 có âm Hán Việt là
+      tiện → ''tuỳ tiện'', nhưng thường mang nghĩa ''tuỳ ý, sao cũng được''. Ví dụ: 随便！ (Sao cũng được!).'
+    心里: 心里 và 心中 đều nghĩa là 'trong lòng'. 心里 dùng nhiều khi nói chuyện hằng ngày, còn 心中 nghe trang
+      trọng hơn. Trong 心里, chữ 里 thường đọc nhẹ.
+- id: hsk2-u23-l04
+  title: 'Nhận xét: hay, dở, bình thường'
+  grammar: hsk2-g046
+  new_words:
+  - 不错
+  - 挺好
+  - 一般
+  - 怎么样
+  - 不行
+  - 难听
+  sentences:
+  - id: s-hsk2-u23-013
+    zh: 你觉得怎么样？
+    en: How do you like it?
+    pinyin: nǐ jué de zěn me yàng
+    tatoeba_id: 336719
+  - id: s-hsk2-u23-014
+    zh: 听起来不错。
+    en: Sounds good.
+    pinyin: tīng qǐ lái bù cuò
+    tatoeba_id: 10783861
+  - id: s-hsk2-u23-015
+    zh: 这个菜又便宜又好吃。
+    en: This dish is both cheap and tasty.
+    pinyin: zhège cài yòu piányi yòu hǎochī
+  tips:
+    不错: 'Biến điệu của 不: đứng trước thanh 4, 不 đổi sang thanh 2 → 不错 đọc là búcuò. Còn 不行 (bùxíng) thì
+      giữ nguyên thanh 4 vì xíng là thanh 2. 不错 nghĩa là ''khá tốt'', mức độ khen nhẹ hơn 很好.'
+    挺好: 'Biến điệu 3+3: 挺 tǐng và 好 hǎo đều mang thanh 3, nên 挺 đọc thành thanh 2 → tíng hǎo. 挺 + tính
+      từ nghĩa là ''khá…, cũng…'', rất hay dùng khi nói chuyện: 挺好的!'
+    一般: 'Biến điệu của 一: đứng trước thanh 1, 一 đọc thành thanh 4 → yìbān. 一般 nghĩa là ''bình thường,
+      tàm tạm'', khi dùng để nhận xét thì thường ý là ''không hay lắm'': 这个电影很一般.'
+    怎么样: 'Đừng nhầm z và zh: 怎 là zěn (z không uốn lưỡi, giống ''ch'' đọc nhẹ, lưỡi để sau răng), còn
+      zh trong 中 thì phải uốn lưỡi. Đặt 怎么样 ở cuối câu để hỏi ý kiến: 你的工作怎么样？'
+- id: hsk2-u23-l05
+  title: Bình thường, thật giả, vừa khéo
+  new_words:
+  - 普通
+  - 正常
+  - 常见
+  - 平
+  - 假
+  - 真正
+  - 正好
+  - 正是
+  sentences:
+  - id: s-hsk2-u23-016
+    zh: 它很正常。
+    en: It's very normal.
+    pinyin: tā hěn zhèng cháng
+    tatoeba_id: 5780622
+  - id: s-hsk2-u23-017
+    zh: 它们是假的。
+    en: They're fake.
+    pinyin: tā men shì jiǎ de
+    tatoeba_id: 7769298
+  - id: s-hsk2-u23-018
+    zh: 你常见到她吗？
+    en: Do you see her often?
+    pinyin: nǐ cháng jiàn dào tā ma
+    tatoeba_id: 349702
+  - id: s-hsk2-u23-019
+    zh: 你来得正好。
+    en: You came just at the right time.
+    pinyin: nǐ lái de zhènghǎo
+  tips:
+    假: '假 có bộ nhân đứng 亻 bên trái. Khi mang nghĩa ''giả'' thì đọc thanh 3 jiǎ; khi mang nghĩa ''kỳ
+      nghỉ'' như trong 放假, 假期 thì đọc thanh 4 jià. Nói ''đồ giả'' thì dùng 是…的: 这是假的.'
+    正常: 'Cả zh (正) và ch (常) đều là âm uốn lưỡi: cong đầu lưỡi lên chạm phía sau lợi trên. Đừng đọc 正
+      thành ''giâng'' hay 常 thành ''chang'' như tiếng Việt. 正 có âm Hán Việt là chính, 常 có âm Hán Việt
+      là thường.'
+    普通: 普 có âm Hán Việt là phổ, 通 có âm Hán Việt là thông → 'phổ thông', nghĩa là bình thường, phổ biến.
+      Bạn đã học 普通话 (tiếng phổ thông). Chữ p phải bật hơi mạnh, khác hẳn chữ 'p' trong tiếng Việt.
+    真正: '真正 (zhēnzhèng) có hai âm zh liền nhau, nên đọc chậm và uốn lưỡi cả hai. 真正 thường đứng trước
+      danh từ: 真正的朋友 (người bạn thật sự). Còn 真 đứng trước tính từ: 真好.'
+- id: hsk2-u23-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

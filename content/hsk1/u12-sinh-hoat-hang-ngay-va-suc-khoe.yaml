@@ -1,0 +1,190 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u12.json.
+id: hsk1-u12
+stage: hsk1
+order: 12
+title: Sinh hoạt hằng ngày và sức khỏe
+description: Biết kể các việc hằng ngày, mức độ thường xuyên và nói khi mình mệt, bị ốm hoặc đi khám bệnh.
+lessons:
+- id: hsk1-u12-l01
+  title: Dậy sớm, đi ngủ
+  new_words:
+  - 早
+  - 晚
+  - 起
+  - 起床
+  - 起来
+  - 睡
+  - 睡觉
+  sentences:
+  - id: s-hsk1-u12-001
+    zh: 我六点起床。
+    en: I get up at six.
+    pinyin: wǒ liù diǎn qǐchuáng
+  - id: s-hsk1-u12-002
+    zh: 你几点起床？
+    en: What time do you get up?
+    pinyin: nǐ jǐ diǎn qǐchuáng
+  - id: s-hsk1-u12-003
+    zh: 我想睡觉。
+    en: I want to sleep.
+    pinyin: wǒ xiǎng shuì jiào
+    tatoeba_id: 380912
+  - id: s-hsk1-u12-004
+    zh: 她在睡觉。
+    en: She is sleeping.
+    pinyin: tā zài shuì jiào
+    tatoeba_id: 5580848
+  tips:
+    早: '早 có âm Hán Việt là tảo. Chữ gồm 日 (mặt trời) ở trên 十: mặt trời vừa nhô lên là "sớm". Gặp nhau
+      buổi sáng chỉ cần nói 早! là "Chào buổi sáng".'
+    起床: '床 có âm Hán Việt là sàng (giường). 起床 là "rời khỏi giường" = thức dậy. Giờ giấc đặt trước động
+      từ: 我六点起床, không nói ~~我起床六点~~. q trong qǐ đọc gần "ch" tiếng Việt nhưng bật hơi mạnh, đừng đọc
+      thành "k".'
+    睡觉: 'Chữ 睡 có bộ mục 目 (mắt) cộng 垂 (rủ xuống): mắt rủ xuống là ngủ. 觉 ở đây đọc jiào, không đọc jué.
+      sh trong shuì phải uốn lưỡi, khác chữ x của tiếng Việt.'
+    晚: '晚 là tính từ "muộn", còn "buổi tối" là 晚上. Đừng nhầm hai từ này. Chữ có bộ nhật 日: chữ chỉ thời
+      gian trong ngày hay có bộ này (早, 晚, 时).'
+- id: hsk1-u12-l02
+  title: Bạn đang làm gì?
+  new_words:
+  - 休息
+  - 做
+  - 干
+  - 干什么
+  - 回家
+  - 先
+  sentences:
+  - id: s-hsk1-u12-005
+    zh: 你在干什么？
+    en: What are you doing?
+    pinyin: nǐ zài gàn shén me
+    tatoeba_id: 659301
+  - id: s-hsk1-u12-006
+    zh: 她晚上做什么?
+    en: What does she do in the evening?
+    pinyin: tā wǎn shàng zuò shén me
+    tatoeba_id: 907332
+  - id: s-hsk1-u12-007
+    zh: 我今天休息。
+    en: I am off today.
+    pinyin: wǒ jīntiān xiūxi
+    tatoeba_id: 1990181
+  - id: s-hsk1-u12-008
+    zh: 我先回家。
+    en: I'll go home first.
+    pinyin: wǒ xiān huí jiā
+  tips:
+    干什么: Trong 干什么, 干 đọc thanh 4 gàn (làm). Khi đọc thanh 1 gān thì nghĩa là "khô", như trong 干净 (sạch
+      sẽ). 干什么 mang tính khẩu ngữ hơn 做什么.
+    做: 'Chữ 做 gồm bộ nhân 亻 (người) và 故: có người thì mới "làm" việc. zuò: z đọc như "ch" nhẹ, không
+      bật hơi, đừng đọc thành "d".'
+    休息: '休 có âm Hán Việt là hưu: người 亻 dựa vào cây 木 để nghỉ ngơi. 息 trong 休息 đọc nhẹ: xiūxi.'
+    先: '先 đứng trước động từ: 我先回家. Người Việt hay nói theo kiểu "tôi về nhà trước" thành ~~我回家先~~, đây
+      là câu sai.'
+- id: hsk1-u12-l03
+  title: Thường xuyên hay thỉnh thoảng
+  grammar: hsk1-g012
+  new_words:
+  - 常
+  - 常常
+  - 有时
+  - 有时候
+  sentences:
+  - id: s-hsk1-u12-009
+    zh: 他常常在家里。
+    en: He is often home.
+    pinyin: tā cháng cháng zài jiā lǐ
+    tatoeba_id: 3378259
+  - id: s-hsk1-u12-010
+    zh: 我常常六点起床。
+    en: I often get up at six.
+    pinyin: wǒ chángcháng liù diǎn qǐchuáng
+  - id: s-hsk1-u12-011
+    zh: 他有时候在家吃饭。
+    en: Sometimes he eats at home.
+    pinyin: tā yǒu shíhou zài jiā chīfàn
+  - id: s-hsk1-u12-012
+    zh: 你常在这儿吃饭吗？
+    en: Do you often eat here?
+    pinyin: nǐ cháng zài zhèr chīfàn ma
+  tips:
+    常常: 'Phủ định nói 不常 (không hay), không nói ~~不常常~~: 我不常喝茶. ch trong cháng là âm uốn lưỡi, bật hơi;
+      đừng đọc như "ch" của tiếng Việt.'
+    常: '常/常常 đứng sau chủ ngữ, trước động từ. Người Việt hay đặt cuối câu như "tôi dậy lúc sáu giờ thường
+      xuyên": ~~我六点起床常常~~ → 我常常六点起床.'
+    有时候: '有 thanh 3 đứng trước 时 thanh 2 nên chỉ đọc nửa thanh 3 (hạ thấp, không lên lại). 候 đọc nhẹ:
+      yǒu shíhou. 有时 là dạng ngắn, nghĩa giống hệt.'
+- id: hsk1-u12-l04
+  title: Cơ thể và mệt mỏi
+  new_words:
+  - 身体
+  - 身上
+  - 手
+  - 累
+  sentences:
+  - id: s-hsk1-u12-013
+    zh: 你身体好吗？
+    en: How is your health?
+    pinyin: nǐ shēntǐ hǎo ma
+  - id: s-hsk1-u12-014
+    zh: 我身上没有钱。
+    en: I don't have any money on me.
+    pinyin: wǒ shēnshang méiyǒu qián
+    tatoeba_id: 875094
+  - id: s-hsk1-u12-015
+    zh: 请洗手。
+    en: Please wash your hands.
+    pinyin: qǐng xǐ shǒu
+  - id: s-hsk1-u12-016
+    zh: 我现在不累。
+    en: I'm not tired right now.
+    pinyin: wǒ xiàn zài bù lèi
+    tatoeba_id: 735147
+  tips:
+    累: '累 là tính từ nên không dùng 是: ~~我是累~~ → 我累 / 我不累. Đọc lèi thanh 4, dứt khoát, kéo từ cao xuống.'
+    身体: '体 có âm Hán Việt là thể, 身 có âm Hán Việt là thân: 身体 = thân thể. Từ này còn có nghĩa "sức khỏe",
+      nên 你身体好吗？ là câu hỏi thăm sức khỏe rất hay dùng.'
+    手: '手 có âm Hán Việt là thủ. shǒu thanh 3: trầm xuống rồi lên lại, giống dấu hỏi nhưng thấp hơn. 请洗手
+      có ba thanh 3 liền nhau, thường đọc qíng xí shǒu (hai chữ đầu đổi sang thanh 2). Nói 洗手, không nói
+      ~~洗我的手~~.'
+    身上: '上 trong 身上 đọc nhẹ: shēnshang. 身上 nghĩa là "trên người, mang theo người": 我身上没有钱 = tôi không
+      mang tiền theo người.'
+- id: hsk1-u12-l05
+  title: Bị ốm và đi khám bệnh
+  new_words:
+  - 病
+  - 病人
+  - 生病
+  - 看病
+  - 医生
+  - 医院
+  sentences:
+  - id: s-hsk1-u12-017
+    zh: 她是医生。
+    en: She's a doctor.
+    pinyin: tā shì yī shēng
+    tatoeba_id: 334971
+  - id: s-hsk1-u12-018
+    zh: 他在医院。
+    en: He's in hospital.
+    pinyin: tā zài yī yuàn
+    tatoeba_id: 1169502
+  - id: s-hsk1-u12-019
+    zh: 我要看病。
+    en: I need to see a doctor.
+    pinyin: wǒ yào kànbìng
+  - id: s-hsk1-u12-020
+    zh: 医院里有多少病人？
+    en: How many patients are there in the hospital?
+    pinyin: yīyuàn lǐ yǒu duōshao bìngrén
+  tips:
+    病: '病 có âm Hán Việt là bệnh. Bộ nạch 疒 bao bên ngoài là bộ "bệnh tật": gặp chữ có bộ này thường liên
+      quan đến ốm đau. Bên trong là 丙, gợi âm đọc.'
+    医院: '医 có âm Hán Việt là y, 院 có âm Hán Việt là viện: 医院 = y viện, tức bệnh viện. yuàn: tròn môi như
+      ü rồi mở ra "oan", đừng đọc thành "diên".'
+    看病: '看病 có hai nghĩa: người bệnh đi khám, hoặc bác sĩ khám bệnh. Muốn nói "tôi đi khám bệnh" chỉ cần
+      我要看病, không cần thêm 医生 phía sau.'
+    生病: 生病 là động từ "bị ốm". Đừng nói ~~我是病~~; nói 我生病了 (tôi ốm rồi), phủ định là 我没生病.
+- id: hsk1-u12-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

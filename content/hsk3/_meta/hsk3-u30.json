@@ -1,0 +1,52 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 3,
+  "generated_at": "2026-11-10T02:00:26",
+  "prompt_sha256": [
+    "006a693607c3f5f9209ef20b7c83f2e0564bf75f00cac02b272b89b7ff263f13",
+    "5064dd67fab0c65b4115787af83f7b315ef64271824393ae477a660e062fdd92",
+    "175b8c241254ae50ad54e859e0d00e6790f719efa193d8d844927e1adae19d03"
+  ],
+  "review_unresolved": [
+    {
+      "where": "hsk3-u30-l04 (tips.总结)",
+      "category": "pinyin",
+      "severity": "error",
+      "problem": "Tip nói z (总 zǒng) \"giống 'ch' nhẹ\". Sai: z là âm xát-tắc đầu lưỡi, gần \"tz/ts\" không bật hơi, không giống \"ch\". Tip này cũng mâu thuẫn với tip 因此, nơi c được so với \"ts\".",
+      "suggestion": "Sửa thành: \"总 đọc zǒng: z giống \"ts/dz\" không bật hơi (đầu lưỡi chạm răng trên), khác c là \"ts\" bật hơi; không đọc \"ch\" hay \"d\".\""
+    }
+  ],
+  "review_warnings": [
+    {
+      "where": "hsk3-u30-l04 (tips.由于)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói 由于 \"chỉ đứng ở vế đầu\". Quy tắc này quá tuyệt đối. Trong văn viết 由于 vẫn có thể đứng ở vế sau hoặc giữa câu, ví dụ 他没来，是由于生病了.",
+      "suggestion": "Sửa thành: \"由于 thường đứng ở vế đầu, hay đi với 所以/因此 ở vế sau\". Bỏ chữ \"chỉ\" và bỏ ví dụ sai."
+    },
+    {
+      "where": "s-hsk3-u30-012",
+      "category": "pinyin",
+      "severity": "warning",
+      "problem": "Trong mẫu A不A, 不 đọc thanh nhẹ (zǒu bu zǒu), nhưng pinyin ghi bù.",
+      "suggestion": "Ghi \"zǒu bu zǒu suí nǐ\", hoặc thêm một ghi chú ngắn về 不 thanh nhẹ trong mẫu A不A."
+    },
+    {
+      "where": "s-hsk3-u30-012",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"You may go or stay at will\" dịch hơi cứng và lệch. Câu gốc nghĩa là đi hay không tùy bạn.",
+      "suggestion": "Đổi thành \"Whether to go or not is up to you.\""
+    }
+  ],
+  "machine_warnings": [
+    "u30-lien-ket-cau.yaml:24: [sentence_unlearned_word] Câu s-hsk3-u30-002 (bài hsk3-u30-l01) dùng từ chưa học: 这个",
+    "u30-lien-ket-cau.yaml:101: [sentence_unlearned_word] Câu s-hsk3-u30-009 (bài hsk3-u30-l03) dùng từ chưa học: 身体健康, 每天",
+    "u30-lien-ket-cau.yaml:140: [sentence_unlearned_word] Câu s-hsk3-u30-013 (bài hsk3-u30-l04) dùng từ chưa học: 不好",
+    "u30-lien-ket-cau.yaml:144: [sentence_unlearned_word] Câu s-hsk3-u30-014 (bài hsk3-u30-l04) dùng từ chưa học: 每天"
+  ],
+  "han_viet_proposed": []
+}

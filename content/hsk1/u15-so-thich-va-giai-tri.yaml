@@ -1,0 +1,188 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u15.json.
+id: hsk1-u15
+stage: hsk1
+order: 15
+title: Sở thích và giải trí
+description: Biết nói về sở thích như ca hát, xem phim, chơi thể thao và làm hai việc cùng lúc.
+lessons:
+- id: hsk1-u15-l01
+  title: Sở thích và trò vui
+  new_words:
+  - 爱好
+  - 喜欢
+  - 玩儿
+  - 好玩儿
+  - 开玩笑
+  - 笑
+  sentences:
+  - id: s-hsk1-u15-001
+    zh: 你的爱好是什么？
+    en: What is your hobby?
+    pinyin: nǐ de àihào shì shénme?
+  - id: s-hsk1-u15-002
+    zh: 你喜欢什么？
+    en: What do you like?
+    pinyin: nǐ xǐhuan shénme?
+  - id: s-hsk1-u15-003
+    zh: 我不开玩笑。
+    en: I'm not kidding.
+    pinyin: wǒ bù kāi wán xiào
+    tatoeba_id: 3656925
+  - id: s-hsk1-u15-004
+    zh: 你笑什么呢？
+    en: What made you laugh?
+    pinyin: nǐ xiào shén me ne
+    tatoeba_id: 4881696
+  tips:
+    爱好: Trong 爱好, chữ 好 đọc là hào (thanh 4, nghĩa là thích), không đọc hǎo (tốt). 好 có âm Hán Việt là
+      háo. Khi đọc đừng lẫn với 好 (hǎo) trong 好玩儿.
+    喜欢: '喜 có âm Hán Việt là hỉ, 欢 có âm Hán Việt là hoan. Ghép lại là vui thích, nên dễ nhớ. Chữ 欢 thường
+      đọc nhẹ (huan). Muốn nói "không thích" thì dùng 不: 我不喜欢. Không nói ~~我没喜欢~~.'
+    玩儿: '玩儿 đọc thành một âm tiết: wánr, cuối âm thì cong lưỡi lên. Đừng đọc tách thành "wán ér". 玩 gồm
+      王 (bộ ngọc) và 元: chơi với đồ quý. 玩 có âm Hán Việt là ngoạn.'
+    笑: 'Chữ 笑 có bộ trúc ⺮ ở trên, chữ 夭 ở dưới. Mẹo nhớ: cành tre rung rinh trước gió, như người đang
+      cười nghiêng ngả. Đọc xiào: x gần với "x" tiếng Việt nhưng mặt lưỡi áp sát lợi dưới, môi dẹt, không
+      tròn môi.'
+- id: hsk1-u15-l02
+  title: Ca hát và nghe nhạc
+  new_words:
+  - 唱
+  - 唱歌
+  - 歌
+  - 好听
+  - 听到
+  - 听见
+  sentences:
+  - id: s-hsk1-u15-005
+    zh: 你喜欢唱歌吗？
+    en: Do you like singing?
+    pinyin: nǐ xǐhuan chànggē ma?
+  - id: s-hsk1-u15-006
+    zh: 您会唱歌吗？
+    en: Can you sing?
+    pinyin: nín huì chàng gē ma
+    tatoeba_id: 10696069
+  - id: s-hsk1-u15-007
+    zh: 他唱的歌好听吗？
+    en: Are the songs he sings nice to listen to?
+    pinyin: tā chàng de gē hǎotīng ma?
+  - id: s-hsk1-u15-008
+    zh: 我没听见。
+    en: I didn't hear it.
+    pinyin: wǒ méi tīng jiàn
+    tatoeba_id: 1417573
+  tips:
+    唱: '唱 gồm 口 (miệng) và 昌: hát thì phải dùng miệng. 唱 có âm Hán Việt là xướng. ch là âm bật hơi, cong
+      lưỡi: uốn đầu lưỡi lên rồi bật mạnh hơi ra. Đừng đọc thành "ch" của tiếng Việt.'
+    歌: '歌 có âm Hán Việt là ca. Chữ gồm 哥 bên trái và 欠 (há miệng) bên phải: há miệng ra để ca. 唱歌 là
+      "hát (bài) hát", đã có sẵn tân ngữ 歌. Muốn nói hát bài gì thì dùng 唱 + bài đó: 唱中国歌.'
+    听见: '听 là hành động nghe. 听见 và 听到 là nghe thấy, tức đã có kết quả. Khi phủ định thì dùng 没: 我没听见
+      (tôi không nghe thấy). Không nói ~~我不听见~~.'
+    好听: '好听 nghĩa là hay, dễ nghe. Đây là tính từ nên không dùng 是: nói 这个歌很好听, không nói ~~这个歌是好听~~.
+      Chữ 好 ở đây đọc hǎo, thanh 3.'
+- id: hsk1-u15-l03
+  title: Xem và nhìn thấy
+  new_words:
+  - 看
+  - 看到
+  - 看见
+  - 电视
+  - 电视机
+  sentences:
+  - id: s-hsk1-u15-009
+    zh: 你在看什么？
+    en: What are you reading?
+    pinyin: nǐ zài kàn shén me
+    tatoeba_id: 846000
+  - id: s-hsk1-u15-010
+    zh: 我没看到人。
+    en: I didn't see anyone.
+    pinyin: wǒ méi kàn dào rén
+    tatoeba_id: 2383440
+  - id: s-hsk1-u15-011
+    zh: 没人看见你。
+    en: No one has seen you.
+    pinyin: méi rén kàn jiàn nǐ
+    tatoeba_id: 9415404
+  - id: s-hsk1-u15-012
+    zh: 我家没有电视机。
+    en: My family doesn't have a TV set.
+    pinyin: wǒ jiā méiyǒu diànshìjī.
+  tips:
+    看: '看 gồm 手 (tay) đặt trên 目 (mắt): đưa tay che mắt để nhìn xa. 看 có âm Hán Việt là khán (như "khán
+      giả"). Xem TV, xem phim, đọc sách đều dùng 看.'
+    看见: '看 là hành động nhìn, xem. 看见 và 看到 là nhìn thấy, đã có kết quả. Khi phủ định thì dùng 没: 我没看见.
+      Người Việt hay nói nhầm thành ~~我不看见~~.'
+    电视: '视 có âm Hán Việt là thị. sh là âm cong lưỡi: uốn đầu lưỡi lên rồi đọc, giống "s" uốn lưỡi của
+      giọng miền Trung, miền Nam. 电视 là truyền hình, chương trình TV, còn 电视机 là cái máy TV (机 có âm Hán
+      Việt là cơ).'
+- id: hsk1-u15-l04
+  title: Đi xem phim – vừa… vừa…
+  grammar: hsk1-g039
+  new_words:
+  - 电影
+  - 电影院
+  - 门票
+  - 一边
+  sentences:
+  - id: s-hsk1-u15-013
+    zh: 电影院在哪儿？
+    en: Where is the cinema?
+    pinyin: diànyǐngyuàn zài nǎr?
+  - id: s-hsk1-u15-014
+    zh: 电影门票多少钱？
+    en: How much is a movie ticket?
+    pinyin: diànyǐng ménpiào duōshao qián?
+  - id: s-hsk1-u15-015
+    zh: 他一边吃饭，一边看电视。
+    en: He watches TV while eating.
+    pinyin: tā yìbiān chīfàn, yìbiān kàn diànshì.
+  - id: s-hsk1-u15-016
+    zh: 我喜欢唱歌，她也喜欢唱歌。
+    en: I like singing, and she likes singing too.
+    pinyin: wǒ xǐhuan chànggē, tā yě xǐhuan chànggē.
+  tips:
+    一边: 'Biến điệu của 一: chữ 边 mang thanh 1, nên 一 đọc thành thanh 4, tức yìbiān. 一边 đặt sau chủ ngữ
+      và trước động từ: 我一边…，一边…. Không đặt chủ ngữ ở giữa hai vế.'
+    电影: '影 có âm Hán Việt là ảnh. 影 đọc yǐng, thanh 3, xuống thấp rồi lên giống dấu hỏi. Khi đứng trước
+      院 thì chỉ cần xuống thấp, không cần lên lại: diànyǐngyuàn.'
+    电影院: 院 có âm Hán Việt là viện. Bên trái chữ 院 là bộ 阝. 院 nằm trong nhiều từ đã học như 医院 (bệnh viện)
+      và 学院 (học viện), nên 电影院 là "nơi chiếu phim", tức rạp chiếu phim.
+    门票: '票 có âm Hán Việt là phiếu, 门 có âm Hán Việt là môn. 门票 là vé vào cửa: vé xem phim, vé công viên,
+      vé bảo tàng.'
+- id: hsk1-u15-l05
+  title: Thể thao và vận động
+  new_words:
+  - 打球
+  - 球
+  - 打
+  - 跑
+  - 动
+  - 动作
+  sentences:
+  - id: s-hsk1-u15-017
+    zh: 你会打球吗？
+    en: Can you play ball?
+    pinyin: nǐ huì dǎqiú ma?
+  - id: s-hsk1-u15-018
+    zh: 我们下午打球。
+    en: We play ball in the afternoon.
+    pinyin: wǒmen xiàwǔ dǎqiú.
+  - id: s-hsk1-u15-019
+    zh: 不要动！
+    en: Don't move!
+    pinyin: bú yào dòng!
+  - id: s-hsk1-u15-020
+    zh: 这个动作难吗？
+    en: Is this move difficult?
+    pinyin: zhège dòngzuò nán ma?
+  tips:
+    打球: '"Chơi bóng" trong tiếng Trung là 打球, không nói ~~玩球~~. 打 có âm Hán Việt là đả, 球 có âm Hán Việt
+      là cầu. Chữ 打 có bộ thủ 扌 (tay) cộng với 丁: dùng tay đánh.'
+    跑: '跑 có bộ túc 足 (chân) bên trái và 包 bên phải: dùng chân thì chạy. pǎo mang thanh 3, đọc gần giống
+      dấu hỏi tiếng Việt, xuống thấp rồi lên.'
+    动: '动 có âm Hán Việt là động, 作 có âm Hán Việt là tác, nên 动作 là "động tác". 动 có bộ lực 力 (sức):
+      phải dùng sức mới chuyển động được. Khi 不 đứng trước 要 (thanh 4) thì đọc là bú: bú yào dòng.'
+- id: hsk1-u15-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

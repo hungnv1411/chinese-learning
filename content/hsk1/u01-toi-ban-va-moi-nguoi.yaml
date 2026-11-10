@@ -1,0 +1,173 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u01.json.
+id: hsk1-u01
+stage: hsk1
+order: 1
+title: Tôi, bạn và mọi người
+description: Biết dùng đại từ nhân xưng và gọi tên các kiểu người quanh mình như bạn bè, nam nữ, trẻ em,
+  người già.
+lessons:
+- id: hsk1-u01-l01
+  title: Tôi, bạn, anh ấy, cô ấy — ai?
+  grammar: hsk1-g005
+  new_words:
+  - 我
+  - 你
+  - 您
+  - 他
+  - 她
+  - 谁
+  sentences:
+  - id: s-hsk1-u01-001
+    zh: 谁？——我。
+    en: Who is it? — Me.
+    pinyin: Shéi? — Wǒ.
+  - id: s-hsk1-u01-002
+    zh: 你？——我？
+    en: You? — Me?
+    pinyin: Nǐ? — Wǒ?
+  - id: s-hsk1-u01-003
+    zh: 谁？——他。
+    en: Who? — Him.
+    pinyin: Shéi? — Tā.
+  tips:
+    我: 'wǒ mang thanh 3: hạ giọng thật thấp rồi mới lên nhẹ, đừng đọc vút lên như dấu hỏi. Nói nhanh thì
+      gần như chỉ còn phần trầm. 我 có âm Hán Việt là ngã.'
+    你: 你 = bộ nhân 亻 + 尔. Đọc nǐ (thanh 3). Hai thanh 3 đi liền nhau thì thanh đầu đổi thành thanh 2,
+      ví dụ 你好 nǐ hǎo đọc là ní hǎo. 你 có âm Hán Việt là nể.
+    您: '您 = 你 + 心 (trái tim): gọi ai đó bằng cả tấm lòng nên lịch sự hơn. Dùng 您 với người lớn tuổi, thầy
+      cô, khách hàng. Tiếng Việt có anh, chị, cô, chú…, còn tiếng Trung chỉ cần 你 (thân mật) hoặc 您 (kính
+      trọng).'
+    她: '他 (anh ấy) và 她 (cô ấy) đều đọc là tā, nghe không phân biệt được. Nhìn bộ thủ để nhận ra: 他 có
+      bộ nhân 亻, 她 có bộ nữ 女. 他 có âm Hán Việt là tha.'
+    谁: 'Đọc shéi hoặc shuí. Âm sh phải uốn đầu lưỡi lên, không đọc như chữ ''s'' tiếng Việt. Từ để hỏi
+      giữ nguyên vị trí của câu trả lời, giống tiếng Việt: 他是谁？ (Anh ấy là ai?).'
+- id: hsk1-u01-l02
+  title: Chúng tôi, các bạn, họ — số nhiều với 们
+  grammar: hsk1-g024
+  new_words:
+  - 们
+  - 我们
+  - 你们
+  - 他们
+  - 她们
+  - 都
+  sentences:
+  - id: s-hsk1-u01-004
+    zh: 谁？——我们。
+    en: Who? — Us.
+    pinyin: Shéi? — Wǒmen.
+  - id: s-hsk1-u01-005
+    zh: 你们？——我们。
+    en: You all? — Us.
+    pinyin: Nǐmen? — Wǒmen.
+  - id: s-hsk1-u01-006
+    zh: 他们？她们？
+    en: Them? Them (the women)?
+    pinyin: Tāmen? Tāmen?
+  tips:
+    们: '们 = 亻 (người) + 门 (cửa, gợi âm men): nhiều người. Đọc nhẹ và ngắn, không mang thanh điệu: wǒmen.
+      Đã có số đếm đứng trước thì không thêm 们.'
+    我们: Tiếng Việt phân biệt 'chúng tôi' (không gồm người nghe) và 'chúng ta' (gồm cả người nghe). Tiếng
+      Trung thì 我们 dùng được cho cả hai nghĩa.
+    她们: 她们 chỉ dùng khi cả nhóm đều là nữ. Nhóm có cả nam lẫn nữ, dù chỉ một nam, vẫn dùng 他们.
+    都: 'Lỗi hay gặp: dịch thẳng ''tất cả chúng tôi'' thành ~~都我们~~. 都 phải đứng sau chủ ngữ và trước động
+      từ: 我们都是朋友. 都 có âm Hán Việt là đô.'
+- id: hsk1-u01-l03
+  title: Người và bạn bè
+  grammar: hsk1-g026
+  new_words:
+  - 人
+  - 别人
+  - 朋友
+  - 朋友们
+  - 男朋友
+  - 女朋友
+  sentences:
+  - id: s-hsk1-u01-007
+    zh: 谁？——我朋友。
+    en: Who? — My friend.
+    pinyin: Shéi? — Wǒ péngyou.
+  - id: s-hsk1-u01-008
+    zh: 他？——她男朋友。
+    en: Him? — Her boyfriend.
+    pinyin: Tā? — Tā nánpéngyou.
+  - id: s-hsk1-u01-009
+    zh: 朋友们！
+    en: Friends!
+    pinyin: Péngyoumen!
+  tips:
+    人: 'rén: âm r tiếng Trung không rung như ''r'' miền Nam, cũng không phải ''d'' hay ''gi''. Uốn lưỡi
+      giống như khi đọc sh rồi cho dây thanh rung lên. 人 có âm Hán Việt là nhân.'
+    朋友: '朋 gồm hai chữ 月 đứng cạnh nhau, như hai người sánh vai. 朋 có âm Hán Việt là bằng, 友 có âm Hán
+      Việt là hữu. Chữ 友 đọc nhẹ: péngyou.'
+    男朋友: 'Thứ tự ngược với tiếng Việt: chữ bổ nghĩa đứng trước. 男朋友 là ''bạn trai'', 女朋友 là ''bạn gái''.
+      Lưu ý: hai từ này chỉ người yêu, không dùng cho bạn bè thường khác giới.'
+    别人: 别人 nghĩa là 'người khác' (không phải mình hay người đang nói tới). Đọc biérén, cả hai chữ đều
+      thanh 2, giọng đi lên.
+- id: hsk1-u01-l04
+  title: Nam, nữ, ông và cô
+  grammar: hsk1-g029
+  new_words:
+  - 男
+  - 女
+  - 男人
+  - 女人
+  - 男生
+  - 女生
+  - 先生
+  - 小姐
+  sentences:
+  - id: s-hsk1-u01-010
+    zh: 先生！
+    en: Sir!
+    pinyin: Xiānsheng!
+  - id: s-hsk1-u01-011
+    zh: 男生？女生？
+    en: A boy or a girl?
+    pinyin: Nánshēng? Nǚshēng?
+  - id: s-hsk1-u01-012
+    zh: 小姐！
+    en: Miss!
+    pinyin: Xiǎojiě!
+  tips:
+    女: 'nǚ: ü đọc bằng cách giữ lưỡi như khi nói ''i'' rồi chu tròn môi. Tiếng Việt không có âm này. Sau
+      n và l phải giữ hai dấu chấm: nǚ (phụ nữ) khác nǔ (cố gắng).'
+    男: '男 = 田 (ruộng) + 力 (sức): người dùng sức làm ruộng là đàn ông. 男 có âm Hán Việt là nam.'
+    男生: 男生/女生 không chỉ là học sinh. Người trẻ thường dùng để gọi con trai, con gái nói chung. 生 có âm
+      Hán Việt là sinh.
+    先生: 'Đặt sau họ, ngược với tiếng Việt: 王先生 = ông Vương. Chữ 生 trong 先生 đọc nhẹ: xiānsheng. 先 có âm
+      Hán Việt là tiên.'
+    小姐: xiǎojiě gồm hai thanh 3 liền nhau, nên đọc thành xiáojiě. Ở một số nơi, gọi nhân viên phục vụ
+      là 小姐 có thể gây hiểu lầm. Dùng 小姐 sau họ (王小姐 = cô Vương) thì an toàn.
+- id: hsk1-u01-l05
+  title: Trẻ em và người già
+  new_words:
+  - 男孩儿
+  - 女孩儿
+  - 小孩儿
+  - 小朋友
+  - 老人
+  - 老
+  sentences:
+  - id: s-hsk1-u01-013
+    zh: 小朋友！
+    en: Hey, little one!
+    pinyin: Xiǎopéngyǒu!
+  - id: s-hsk1-u01-014
+    zh: 男孩儿？女孩儿？
+    en: Boy or girl?
+    pinyin: Nánháir? Nǚháir?
+  - id: s-hsk1-u01-015
+    zh: 老先生！
+    en: Sir! (to an elderly man)
+    pinyin: Lǎo xiānsheng!
+  tips:
+    小孩儿: '儿 ở cuối từ không phải một âm riêng. Chỉ cần cong lưỡi chữ r vào âm đứng trước: hái + r → háir.
+      Đây là cách nói đặc trưng của người phương Bắc. 小 có âm Hán Việt là tiểu.'
+    男孩儿: '孩 = bộ tử 子 (đứa con) + 亥: chữ liên quan đến trẻ con. 孩 có âm Hán Việt là hài.'
+    小朋友: Người lớn thường gọi trẻ con, kể cả trẻ lạ, là 小朋友 (bạn nhỏ). Không dùng từ này cho người lớn.
+    老: 老 có âm Hán Việt là lão. Đặt 老 trước họ thì thành cách gọi thân mật với người quen, như 老王 (anh
+      Vương, bác Vương). 老人 là người già. Muốn gọi lịch sự thì dùng 老先生.
+- id: hsk1-u01-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

@@ -1,0 +1,33 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 1,
+  "generated_at": "2026-11-09T03:25:21",
+  "prompt_sha256": [
+    "6edc1983fdec5a06e8178355af724bfb70cad2d1d09868a5d728dec3c9914f90"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk2-u15-l02 (tip 意思)",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Tip nói \"đừng bỏ 是\" rồi đưa ví dụ sai ~~这个词意思什么~~. Ví dụ sai này sai vì đảo trật tự (意思什么), không phải vì thiếu 是. Trong văn nói, 这个词什么意思？ (không có 是) vẫn rất tự nhiên, nên người học có thể hiểu nhầm là bắt buộc phải có 是.",
+      "suggestion": "Sửa thành: hỏi nghĩa của từ thì nói 这个词是什么意思？ (hoặc nói tắt 这个词什么意思？); đừng đảo thành ~~这个词意思什么~~ vì 什么 phải đứng trước 意思."
+    }
+  ],
+  "machine_warnings": [
+    "u15-hoc-ngon-ngu.yaml:26: [sentence_unlearned_word] Câu s-hsk2-u15-002 (bài hsk2-u15-l01) dùng từ chưa học: 这课, 十个",
+    "u15-hoc-ngon-ngu.yaml:30: [sentence_unlearned_word] Câu s-hsk2-u15-003 (bài hsk2-u15-l01) dùng từ chưa học: 请读, 这段",
+    "u15-hoc-ngon-ngu.yaml:34: [sentence_unlearned_word] Câu s-hsk2-u15-004 (bài hsk2-u15-l01) dùng từ chưa học: 一篇",
+    "u15-hoc-ngon-ngu.yaml:62: [sentence_unlearned_word] Câu s-hsk2-u15-006 (bài hsk2-u15-l02) dùng từ chưa học: 我查, 一下",
+    "u15-hoc-ngon-ngu.yaml:66: [sentence_unlearned_word] Câu s-hsk2-u15-007 (bài hsk2-u15-l02) dùng từ chưa học: 常用词",
+    "u15-hoc-ngon-ngu.yaml:146: [sentence_unlearned_word] Câu s-hsk2-u15-015 (bài hsk2-u15-l04) dùng từ chưa học: 这个",
+    "u15-hoc-ngon-ngu.yaml:150: [sentence_unlearned_word] Câu s-hsk2-u15-016 (bài hsk2-u15-l04) dùng từ chưa học: 两个"
+  ],
+  "han_viet_proposed": [
+    "篇"
+  ]
+}

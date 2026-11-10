@@ -1,0 +1,200 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk1-u05.json.
+id: hsk1-u05
+stage: hsk1
+order: 5
+title: Quốc gia và ngôn ngữ
+description: Biết nói về đất nước, ngôn ngữ và khả năng nghe, nói, đọc, viết tiếng Trung của mình.
+lessons:
+- id: hsk1-u05-l01
+  title: 'Đất nước: Trung Quốc, Bắc Kinh, nước ngoài'
+  new_words:
+  - 国
+  - 国家
+  - 中国
+  - 北京
+  - 外国
+  - 国外
+  - 有名
+  sentences:
+  - id: s-hsk1-u05-001
+    zh: 我是中国人。
+    en: I am Chinese.
+    pinyin: wǒ shì zhōng guó rén
+    tatoeba_id: 335137
+  - id: s-hsk1-u05-002
+    zh: 我是北京人。
+    en: I'm from Beijing.
+    pinyin: Wǒ shì Běijīng rén.
+  - id: s-hsk1-u05-003
+    zh: 他是外国人。
+    en: He is a foreigner.
+    pinyin: Tā shì wàiguó rén.
+  - id: s-hsk1-u05-004
+    zh: 她是个有名的中国人。
+    en: She is a famous Chinese person.
+    pinyin: Tā shì ge yǒumíng de Zhōngguó rén.
+  tips:
+    国: '国 có âm Hán Việt là quốc. Chữ gồm bộ vi 囗 (vòng bao quanh) với 玉 bên trong: hãy hình dung một
+      đất nước có biên giới bao quanh, giữ viên ngọc quý ở giữa.'
+    中国: zh trong Zhōngguó không đọc là 'd' hay 'gi'. Uốn đầu lưỡi lên, giống 'tr' khi người miền Trung
+      hay miền Nam đọc chuẩn ('trung'), không bật hơi. 中 có âm Hán Việt là trung.
+    外国: 'Đừng nhầm 外国 với 国外. 外国 là ''nước ngoài'' và thường đứng trước danh từ: 外国人 (người nước ngoài).
+      国外 là ''ở nước ngoài, hải ngoại'', chỉ nơi chốn bên ngoài đất nước mình.'
+    北京: 'j trong jīng đọc gần với ''ch'' tiếng Việt (mặt lưỡi chạm vòm miệng), không đọc như ''j'' tiếng
+      Anh. 京 có âm Hán Việt là kinh. běi mang thanh 3: hạ giọng xuống thấp, đừng đọc thành dấu hỏi lên
+      giọng ở cuối.'
+    有名: '有名 là tính từ, không nối thẳng với 是. Sai: 她是有名. Muốn bổ nghĩa cho danh từ thì dùng 有名 + 的 +
+      danh từ: 有名的人 (người nổi tiếng), 她是个有名的中国人. 名 có âm Hán Việt là danh.'
+- id: hsk1-u05-l02
+  title: Tiếng Trung và chữ Hán
+  new_words:
+  - 汉语
+  - 汉字
+  - 中文
+  - 外语
+  - 字
+  - 写
+  sentences:
+  - id: s-hsk1-u05-005
+    zh: 我写中文。
+    en: I write Chinese.
+    pinyin: wǒ xiě zhōng wén
+    tatoeba_id: 5112345
+  - id: s-hsk1-u05-006
+    zh: 她写中文。
+    en: She writes Chinese.
+    pinyin: tā xiě zhōng wén
+    tatoeba_id: 8860672
+  - id: s-hsk1-u05-007
+    zh: 我认识汉字。
+    en: I know the Chinese characters.
+    pinyin: wǒ rèn shí hàn zì
+    tatoeba_id: 3378013
+  tips:
+    字: '字 có âm Hán Việt là tự. Trên là bộ miên 宀 (mái nhà), dưới là 子 (con): đứa trẻ ngồi dưới mái nhà
+      học chữ. z trong zì đọc như ''ch'' tiếng Việt nhưng đặt đầu lưỡi sau răng cửa, không uốn lưỡi.'
+    汉语: 语 có âm Hán Việt là ngữ, mang bộ ngôn 讠 (lời nói). Những chữ liên quan đến lời nói thường có 讠
+      như 说, 话, 读. 汉 có âm Hán Việt là hán, mang bộ thủy 氵.
+    中文: '汉语 và 中文 đều có nghĩa là ''tiếng Trung'' và thường dùng thay cho nhau: 我学习汉语 hay 我学习中文 đều đúng.
+      中文 hay được dùng khi nói về chữ viết và sách báo.'
+    写: '写 (xiě) mang thanh 3. Khi đứng sau một chữ thanh 3 khác, chữ đầu đổi thành thanh 2: 我写 wǒ xiě
+      đọc thành wó xiě. ie đọc như ''iê'' trong ''tiếng''.'
+- id: hsk1-u05-l03
+  title: 'Nói, nghe và biết làm gì: 会、能'
+  grammar: hsk1-g002
+  new_words:
+  - 话
+  - 说
+  - 说话
+  - 会
+  - 能
+  - 听
+  sentences:
+  - id: s-hsk1-u05-008
+    zh: 你会说中文吗？
+    en: Do you speak Chinese?
+    pinyin: nǐ huì shuō zhōng wén ma
+    tatoeba_id: 811843
+  - id: s-hsk1-u05-009
+    zh: 他说中文。
+    en: He speaks Chinese.
+    pinyin: tā shuō zhōng wén
+    tatoeba_id: 2223019
+  - id: s-hsk1-u05-010
+    zh: 他不爱说话。
+    en: He's not a talkative person.
+    pinyin: tā bù ài shuō huà
+    tatoeba_id: 10650605
+  - id: s-hsk1-u05-011
+    zh: 我听你的。
+    en: I'll do as you say.
+    pinyin: wǒ tīng nǐ de
+    tatoeba_id: 884751
+  tips:
+    说话: 'Lỗi người Việt hay mắc: 说话 đã có sẵn tân ngữ 话 nên không thêm tên ngôn ngữ vào sau. Sai: 说话中文
+      → Đúng: 说中文. Chỉ dùng 说话 khi nói chung chung là ''nói chuyện'': 她不说话.'
+    说: sh trong shuō là âm uốn lưỡi, gần với 's' khi người miền Trung hay miền Nam đọc chuẩn ('sông').
+      Đừng đọc thành 'x' bẹt. 说 có âm Hán Việt là thuyết.
+    话: '话 có âm Hán Việt là thoại. Chữ gồm bộ ngôn 讠 (lời nói) và 舌 (cái lưỡi). Cứ nhớ: lời nói phải dùng
+      đến cái lưỡi.'
+    会: '会 nói về kỹ năng phải học mới có: 我会说中文 (tôi biết nói tiếng Trung). 能 nói về khả năng hay điều
+      kiện: 你能告诉我吗? Lưu ý 不 đứng trước thanh 4 thì đọc thành thanh 2: 不会 bú huì.'
+    听: 听 có âm Hán Việt là thính. Chữ có bộ khẩu 口 bên trái. 我听你的 nghĩa là 'tôi nghe theo bạn', không
+      phải 'tôi nghe của bạn'.
+- id: hsk1-u05-l04
+  title: Đọc, học và hiểu
+  new_words:
+  - 读
+  - 学
+  - 学习
+  - 明白
+  sentences:
+  - id: s-hsk1-u05-012
+    zh: 她会读中文。
+    en: She reads Chinese.
+    pinyin: tā huì dú zhōng wén
+    tatoeba_id: 4768190
+  - id: s-hsk1-u05-013
+    zh: 他学习汉语。
+    en: He studies Chinese.
+    pinyin: tā xué xí hàn yǔ
+    tatoeba_id: 335139
+  - id: s-hsk1-u05-014
+    zh: 我不明白。
+    en: I don't get it.
+    pinyin: wǒ bù míng bái
+    tatoeba_id: 340435
+  - id: s-hsk1-u05-015
+    zh: 我们明白。
+    en: We understand.
+    pinyin: wǒ men míng bái
+    tatoeba_id: 5102318
+  tips:
+    学: Trong xué, chữ u sau x thực ra là ü. Chụm tròn môi như khi đọc 'u', rồi giữ nguyên môi mà đọc 'i',
+      sau đó chuyển sang 'ê'. Đừng đọc thành 'xuê' với u bình thường. 学 có âm Hán Việt là học.
+    明白: '明 có âm Hán Việt là minh. Chữ gồm 日 (mặt trời) và 月 (mặt trăng): có cả mặt trời lẫn mặt trăng
+      thì sáng tỏ, nên 明白 là ''hiểu rõ''. Trong khẩu ngữ, 白 thường đọc thanh nhẹ: míngbai.'
+    读: 读 có âm Hán Việt là độc, mang bộ ngôn 讠. 读 là đọc (thường là đọc thành tiếng), còn 看 mới là xem
+      hay đọc thầm. d trong dú đọc như 't' tiếng Việt, không đọc như 'đ'.
+    学习: '学 và 学习 đều nghĩa là ''học''. 学 đứng một mình thường đi kèm thứ cụ thể: 学汉语. 学习 trang trọng hơn,
+      dùng được cả khi không có tân ngữ: 您学习吗? 习 có âm Hán Việt là tập.'
+- id: hsk1-u05-l05
+  title: Biết, hỏi, trả lời và cho biết
+  new_words:
+  - 知道
+  - 问
+  - 回答
+  - 告诉
+  sentences:
+  - id: s-hsk1-u05-016
+    zh: 我不知道。
+    en: I don't know.
+    pinyin: wǒ bù zhī dào
+    tatoeba_id: 10
+  - id: s-hsk1-u05-017
+    zh: 我们问他。
+    en: We'll ask him.
+    pinyin: wǒ men wèn tā
+    tatoeba_id: 10252146
+  - id: s-hsk1-u05-018
+    zh: 请回答我。
+    en: Please answer me.
+    pinyin: qǐng huí dá wǒ
+    tatoeba_id: 346907
+  - id: s-hsk1-u05-019
+    zh: 请告诉我。
+    en: Please tell me.
+    pinyin: qǐng gào sù wǒ
+    tatoeba_id: 6120892
+  tips:
+    知道: '知道 là biết một thông tin hay sự việc. 认识 là quen biết một người. Muốn nói ''tôi quen anh ấy''
+      thì dùng 我认识他. 知 có âm Hán Việt là tri. Trong khẩu ngữ, 道 hay đọc thanh nhẹ: zhīdao.'
+    告诉: 'Muốn nói ''nói cho ai biết'' thì dùng 告诉, không dùng 说. Sai: 我说他 → Đúng: 我告诉他. Từ này thường
+      đọc thanh nhẹ: gàosu. 诉 có âm Hán Việt là tố.'
+    问: 'Bộ môn 门 (cửa) bao lấy 口 (miệng): một cái miệng ló ra ở cửa để hỏi. Người được hỏi đứng ngay sau
+      问: 我们问他 (chúng tôi hỏi anh ấy).'
+    回答: 回 có âm Hán Việt là hồi, 答 có âm Hán Việt là đáp, nghĩa là 'đáp lại'. h trong huí phát âm từ cuống
+      họng và hơi rít hơn 'h' tiếng Việt, gần với 'kh'.
+- id: hsk1-u05-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

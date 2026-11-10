@@ -1,0 +1,30 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T08:15:40",
+  "prompt_sha256": [
+    "6d544c09a3cef5f9c92811dcffa94ced14c31916e87a7fe2913c647e6c26ea6c",
+    "7b739e06c3a6ca21a17a495c4c3931ce568e478fbe8b340aa6970aa37f9e81dd"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u02-an-uong.yaml:68: [sentence_unlearned_word] Câu s-hsk3-u02-007 (bài hsk3-u02-l02) dùng từ chưa học: 热茶",
+    "u02-an-uong.yaml:72: [sentence_unlearned_word] Câu s-hsk3-u02-008 (bài hsk3-u02-l02) dùng từ chưa học: 这杯, 太甜",
+    "u02-an-uong.yaml:103: [sentence_unlearned_word] Câu s-hsk3-u02-010 (bài hsk3-u02-l03) dùng từ chưa học: 除了",
+    "u02-an-uong.yaml:107: [sentence_unlearned_word] Câu s-hsk3-u02-011 (bài hsk3-u02-l03) dùng từ chưa học: 猪肉",
+    "u02-an-uong.yaml:111: [sentence_unlearned_word] Câu s-hsk3-u02-012 (bài hsk3-u02-l03) dùng từ chưa học: 除了, 猪肉, 牛肉, 羊肉",
+    "u02-an-uong.yaml:135: [sentence_unlearned_word] Câu s-hsk3-u02-013 (bài hsk3-u02-l04) dùng từ chưa học: 一天, 三顿",
+    "u02-an-uong.yaml:143: [sentence_unlearned_word] Câu s-hsk3-u02-015 (bài hsk3-u02-l04) dùng từ chưa học: 很多"
+  ],
+  "han_viet_proposed": [
+    "咖",
+    "啡",
+    "啤",
+    "甜",
+    "营"
+  ]
+}

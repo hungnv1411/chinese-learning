@@ -1,0 +1,162 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u18.json.
+id: hsk2-u18
+stage: hsk2
+order: 18
+title: Thể thao và hoạt động
+description: Người học có thể nói về các môn thể thao, việc tập luyện, thi đấu và tham gia hoạt động.
+lessons:
+- id: hsk2-u18-l01
+  title: 'Các môn bóng: bóng rổ, bóng chuyền, quần vợt'
+  new_words:
+  - 篮球
+  - 排球
+  - 网球
+  - 球鞋
+  - 球场
+  - 球队
+  sentences:
+  - id: s-hsk2-u18-001
+    zh: 我喜欢网球。
+    en: I like tennis.
+    pinyin: wǒ xǐ huān wǎng qiú
+    tatoeba_id: 1471149
+  - id: s-hsk2-u18-002
+    zh: 我们去球场打篮球吧。
+    en: Let's go to the court and play basketball.
+    pinyin: Wǒmen qù qiúchǎng dǎ lánqiú ba.
+  - id: s-hsk2-u18-003
+    zh: 他穿着新球鞋去打排球了。
+    en: He went to play volleyball in his new sneakers.
+    pinyin: Tā chuānzhe xīn qiúxié qù dǎ páiqiú le.
+  - id: s-hsk2-u18-004
+    zh: 这个球队很有名。
+    en: This team is very famous.
+    pinyin: Zhège qiúduì hěn yǒumíng.
+  tips:
+    篮球: 'Môn bóng nào cũng có chữ 球, và động từ đi kèm là 打: 打篮球, 打排球, 打网球. Người Việt hay dịch thẳng
+      chữ "chơi" thành ~~玩篮球~~, phải nói 我打篮球. Chữ 篮 có bộ trúc ⺮ (đồ đan bằng tre, cái giỏ), nhớ là môn
+      ném bóng vào rổ.'
+    网球: '网 có âm Hán Việt là võng, nghĩa là cái lưới, tức môn đánh bóng qua lưới. Phát âm: 网 wǎng thanh
+      3 đứng trước 球 qiú thanh 2 nên chỉ đọc nửa thanh 3: hạ giọng thấp rồi chuyển luôn sang 球, không
+      cần lên giọng lại.'
+    球鞋: '鞋 có âm Hán Việt là hài (giày). Chữ có bộ cách 革 (da thuộc) vì giày xưa làm bằng da. Âm x trong
+      xié khác chữ x tiếng Việt: để đầu lưỡi chạm răng cửa dưới, môi dẹt như khi cười, rồi đọc "xia" nhẹ.'
+    球场: 球 có âm Hán Việt là cầu, gồm bộ ngọc 王 và chữ 求; 场 có âm Hán Việt là trường, nên 球场 là sân bóng.
+      Âm q trong qiú bật hơi mạnh, gần "ch" tiếng Việt nhưng đầu lưỡi đặt sau răng cửa dưới, môi dẹt,
+      không đọc thành "k".
+- id: hsk2-u18-l02
+  title: Thể thao, sân vận động và đội
+  new_words:
+  - 体育
+  - 体育场
+  - 体育馆
+  - 场
+  - 队
+  - 队长
+  sentences:
+  - id: s-hsk2-u18-005
+    zh: 我们学校有一个体育馆。
+    en: Our school has a gym.
+    pinyin: Wǒmen xuéxiào yǒu yí ge tǐyùguǎn.
+  - id: s-hsk2-u18-006
+    zh: 我哥哥喜欢体育，常常去体育场。
+    en: My older brother likes sports and often goes to the stadium.
+    pinyin: Wǒ gēge xǐhuan tǐyù, chángcháng qù tǐyùchǎng.
+  - id: s-hsk2-u18-007
+    zh: 他是我们队的队长。
+    en: He is the captain of our team.
+    pinyin: Tā shì wǒmen duì de duìzhǎng.
+  - id: s-hsk2-u18-008
+    zh: 昨天下了一场大雨。
+    en: There was a heavy rain yesterday.
+    pinyin: Zuótiān xiàle yì cháng dà yǔ.
+  tips:
+    体育: '体 có âm Hán Việt là thể, 育 có âm Hán Việt là dục, nhờ vậy rất dễ nhớ nghĩa. Âm yù là âm ü: đọc
+      "i" nhưng tròn môi lại như khi huýt sáo, đừng đọc thành "du" hay "uy".'
+    体育馆: 'Phân biệt hai từ: 馆 chỉ một toà nhà dùng vào việc riêng (giống 饭馆, 图书馆), nên 体育馆 là nhà thi
+      đấu trong nhà. 场 có bộ thổ 土 (đất), chỉ sân bãi rộng, nên 体育场 là sân vận động. 馆 có âm Hán Việt
+      là quán.'
+    场: '场 chǎng còn làm lượng từ cho trận đấu, buổi chiếu phim: 一场电影. Với mưa, bệnh (một
+      đợt, một trận) thì đọc cháng (thanh 2): 一场大雨. 一 đứng trước cả chǎng và cháng đều đọc yì. Âm ch phải uốn lưỡi và bật hơi, không giống "ch" tiếng Việt.'
+    队长: Trong 队长, chữ 长 đọc là zhǎng (người đứng đầu), không đọc cháng (dài). Đây cũng là chữ 长 trong
+      校长, 班长, 组长 mà bạn đã học. 队 có âm Hán Việt là đội, mang bộ phụ 阝 (阜) đứng bên trái.
+- id: hsk2-u18-l03
+  title: Tập luyện và sức khỏe
+  grammar: hsk2-g031
+  new_words:
+  - 运动
+  - 练
+  - 健康
+  - 努力
+  - 提高
+  - 得
+  sentences:
+  - id: s-hsk2-u18-009
+    zh: 我喜欢运动。
+    en: I like sports.
+    pinyin: wǒ xǐ huān yùn dòng
+    tatoeba_id: 771412
+  - id: s-hsk2-u18-010
+    zh: 他常常运动，身体很健康。
+    en: He exercises often and is very healthy.
+    pinyin: Tā chángcháng yùndòng, shēntǐ hěn jiànkāng.
+  - id: s-hsk2-u18-011
+    zh: 我们一起练网球吧。
+    en: Let's practice tennis together.
+    pinyin: Wǒmen yìqǐ liàn wǎngqiú ba.
+  - id: s-hsk2-u18-012
+    zh: 他练得很努力，水平提高了很多。
+    en: He practices very hard, and his level has improved a lot.
+    pinyin: Tā liàn de hěn nǔlì, shuǐpíng tígāole hěn duō.
+  tips:
+    得: '得 có ba cách đọc: dé là "được, đạt" (得到); de thanh nhẹ là trợ từ đứng sau động từ (跑得快); děi là
+      "phải" (我得走了). Trong bài này bạn chủ yếu gặp de thanh nhẹ, đọc ngắn và nhẹ.'
+    健康: 'Người Việt hay mắc lỗi dùng 是 trước tính từ: ~~我是健康~~ → 我很健康. 健 có âm Hán Việt là kiện, 康 có
+      âm Hán Việt là khang. 健 có bộ nhân 亻, nghĩa gốc là người khỏe mạnh.'
+    努力: 'nǔ thanh 3 đứng trước lì thanh 4 nên chỉ đọc nửa thanh 3 (thấp, không vút lên). Chú ý n và l:
+      nǔlì là n trước, l sau. Chữ 努 gồm 奴 ở trên và 力 (sức) ở dưới, nghĩa là dồn sức. Cách dùng: 他很努力,
+      努力学习.'
+    练: '练 có âm Hán Việt là luyện, có bộ mịch 纟 (sợi tơ). Chữ này hay đi kèm môn hoặc kỹ năng cụ thể:
+      练网球, 练汉字. Khi muốn nói "luyện tập" chung chung thì dùng 练习 (đã học).'
+    提高: '提 có âm Hán Việt là đề, có bộ thủ 扌 (tay), gợi hình dùng tay nhấc lên cao. 高 có âm Hán Việt là
+      cao. Hay gặp nhất: 提高水平 (nâng cao trình độ). Âm t trong tí bật hơi mạnh hơn "t" tiếng Việt.'
+- id: hsk2-u18-l04
+  title: Tham gia hoạt động và thi đấu
+  grammar: hsk2-g051
+  new_words:
+  - 参加
+  - 活动
+  - 举行
+  - 进行
+  - 加油
+  - 超过
+  sentences:
+  - id: s-hsk2-u18-013
+    zh: 你会参加吗？
+    en: Will you join us?
+    pinyin: nǐ huì cān jiā ma
+    tatoeba_id: 833778
+  - id: s-hsk2-u18-014
+    zh: 篮球活动下周在体育馆举行。
+    en: The basketball event will be held in the gym next week.
+    pinyin: Lánqiú huódòng xià zhōu zài tǐyùguǎn jǔxíng.
+  - id: s-hsk2-u18-015
+    zh: 加油！你跑得很快！
+    en: Come on! You're running fast!
+    pinyin: Jiāyóu! Nǐ pǎo de hěn kuài!
+  - id: s-hsk2-u18-016
+    zh: 他跑得非常快，超过了很多人。
+    en: He ran very fast and passed a lot of people.
+    pinyin: Tā pǎo de fēicháng kuài, chāoguòle hěn duō rén.
+  tips:
+    加油: '加 có âm Hán Việt là gia, 油 có âm Hán Việt là dầu. Nghĩa đen là "đổ thêm dầu", người Trung Quốc
+      dùng để cổ vũ như "Cố lên!": 考试加油！ Trên sân đấu, cả khán đài hay hô "加油！加油！".'
+    参加: 'Âm c trong cān đọc như "ts" bật mạnh hơi, không đọc thành "c/k" tiếng Việt. Câu thường gặp: 参加活动
+      (tham gia hoạt động), 参加考试 (dự thi). 加 có âm Hán Việt là gia.'
+    举行: 举 có âm Hán Việt là cử, 进 có âm Hán Việt là tiến. 举行 là tổ chức một sự kiện (活动在体育馆举行). 进行 là
+      sự việc đang diễn ra hoặc được tiến hành (活动正在进行). Trong cả hai từ, chữ 行 đều đọc xíng.
+    超过: '超 có âm Hán Việt là siêu, 过 có âm Hán Việt là quá. Từ này dùng để nói vượt qua người khác hoặc
+      vượt một con số: 超过了很多人. Âm chāo: uốn đầu lưỡi lên, bật hơi và giữ giọng cao, đều.'
+- id: hsk2-u18-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

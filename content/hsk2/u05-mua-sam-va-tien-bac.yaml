@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u05.json.
+id: hsk2-u05
+stage: hsk2
+order: 5
+title: Mua sắm và tiền bạc
+description: Người học có thể đi siêu thị, hỏi giá, chọn hàng, trả tiền và làm việc ở ngân hàng.
+lessons:
+- id: hsk2-u05-l01
+  title: Đi siêu thị, vào cửa hàng
+  grammar: hsk2-g038
+  new_words:
+  - 超市
+  - 店
+  - 卖
+  - 顾客
+  - 选
+  sentences:
+  - id: s-hsk2-u05-001
+    zh: 我们去超市买东西吧。
+    en: Let's go to the supermarket to buy things.
+    pinyin: Wǒmen qù chāoshì mǎi dōngxi ba.
+  - id: s-hsk2-u05-002
+    zh: 他是卖鱼的。
+    en: He is a fishmonger.
+    pinyin: tā shì mài yú de
+    tatoeba_id: 10767098
+  - id: s-hsk2-u05-003
+    zh: 选你喜欢的。
+    en: Choose whichever you like.
+    pinyin: xuǎn nǐ xǐ huān de
+    tatoeba_id: 825865
+  - id: s-hsk2-u05-004
+    zh: 这是他的店。
+    en: This is his shop.
+    pinyin: zhè shì tā de diàn
+    tatoeba_id: 13863114
+  tips:
+    超市: '超 có âm Hán Việt là siêu, 市 có âm Hán Việt là thị, nên 超市 rất dễ nhớ: siêu thị. 超 có bộ 走 (đi,
+      chạy) bên ngoài. Chú ý chāo bắt đầu bằng ch, phải uốn lưỡi, không đọc như chữ ''ch'' tiếng Việt.'
+    卖: 'Đừng nhầm 卖 mài (bán) với 买 mǎi (mua). Mẹo: 卖 có thêm chữ 十 ở trên 买, tức là ''có hàng thì đem
+      bán''. Thanh điệu cũng khác: bán là thanh 4 (đi xuống dứt khoát), mua là thanh 3.'
+    选: '选 xuǎn: sau x thì ü được viết thành u nhưng vẫn đọc tròn môi như ''uy'' (ü). Chữ có bộ 辶 (bước
+      đi) và 先 ở trong.'
+    顾客: 客 có âm Hán Việt là khách; 顾客 là khách hàng. Không nói 我是客人 khi đi mua sắm mà dùng 顾客 cho người
+      mua hàng.
+- id: hsk2-u05-l02
+  title: Hỏi giá và cân hàng
+  new_words:
+  - 便宜
+  - 称
+  - 角
+  - 一共
+  - 够
+  - 不够
+  - 省
+  sentences:
+  - id: s-hsk2-u05-005
+    zh: 请帮我称一下儿。
+    en: Please weigh it for me.
+    pinyin: Qǐng bāng wǒ chēng yíxiàr.
+  - id: s-hsk2-u05-006
+    zh: 这些水果一共十二块五角。
+    en: This fruit comes to twelve yuan fifty in total.
+    pinyin: Zhèxiē shuǐguǒ yígòng shí'èr kuài wǔ jiǎo.
+  - id: s-hsk2-u05-007
+    zh: 今天鱼很便宜。
+    en: Fish is cheap today.
+    pinyin: jīn tiān yú hěn pián yi
+    tatoeba_id: 825798
+  - id: s-hsk2-u05-008
+    zh: 她钱不够。
+    en: She is hard up for money.
+    pinyin: tā qián bù gòu
+    tatoeba_id: 772145
+  tips:
+    便宜: '便宜 đọc là piányi (thanh nhẹ ở 宜), KHÔNG đọc biànyí. Cùng chữ 便 nhưng trong 方便 lại đọc là biàn.
+      Lỗi hay gặp: ~~这个是便宜~~ → 这个很便宜 (tính từ không cần 是).'
+    一共: 'Biến điệu của 一: đứng trước thanh 4 thì 一 đọc thanh 2. Vì vậy 一共 đọc là yígòng. Câu hỏi giá quen
+      thuộc: 一共多少钱？'
+    不够: 'Biến điệu của 不: đứng trước thanh 4 thì 不 đọc thanh 2, nên 不够 đọc là búgòu. 够 có thể đứng sau
+      động từ: 吃够了 (ăn đủ rồi), 没给够 (đưa chưa đủ).'
+    角: '1 块 = 10 角 = 10 毛. Khi nói thường dùng 毛, còn trên bảng giá hay viết 角: 五角 = 五毛. 角 còn có nghĩa
+      là góc, sừng.'
+    称: '称 có bộ 禾 (cây lúa) bên trái: ngày xưa cân thóc lúa. Ở chợ, siêu thị muốn nhờ cân hàng thì nói
+      请帮我称一下儿.'
+    省: '省 shěng: sh uốn lưỡi, thanh 3 xuống thấp rồi lên. 省钱 là tiết kiệm tiền; 省 còn nghĩa là tỉnh (đơn
+      vị hành chính).'
+- id: hsk2-u05-l03
+  title: Ở ngân hàng
+  grammar: hsk2-g064
+  new_words:
+  - 银行
+  - 银行卡
+  - 信用卡
+  - 卡
+  - 取
+  - 借
+  sentences:
+  - id: s-hsk2-u05-009
+    zh: 银行在哪里？
+    en: Where is the bank?
+    pinyin: yín háng zài nǎ lǐ
+    tatoeba_id: 504872
+  - id: s-hsk2-u05-010
+    zh: 你用银行卡还是信用卡？
+    en: Are you using a bank card or a credit card?
+    pinyin: Nǐ yòng yínhángkǎ háishi xìnyòngkǎ?
+  - id: s-hsk2-u05-011
+    zh: 她从银行取了钱。
+    en: She drew out the money from the bank.
+    pinyin: tā cóng yín háng qǔ le qián
+    tatoeba_id: 3630135
+  - id: s-hsk2-u05-012
+    zh: 也借我用吧！
+    en: Lend it to me too!
+    pinyin: yě jiè wǒ yòng ba
+    tatoeba_id: 1670045
+  tips:
+    银行: '行 có âm Hán Việt là hàng, trong 银行 đọc là háng chứ không phải xíng (đi, được). 银 có bộ 钅 (kim
+      loại): bạc là kim loại, ngân hàng là nơi giữ tiền bạc.'
+    信用卡: '信 có âm Hán Việt là tín, 用 có âm Hán Việt là dụng: 信用卡 là thẻ tín dụng. Còn 银行卡 là thẻ ngân
+      hàng (thẻ ghi nợ). 卡 đọc kǎ, thanh 3.'
+    借: '借 vừa là mượn vừa là cho mượn, tùy vị trí: 我借他的书 (tôi mượn sách của anh ấy), 借我用吧 (cho tôi mượn
+      dùng nhé). Chữ có bộ 亻 (người): mượn thì phải hỏi người.'
+    取: '取 qǔ: q đọc bật hơi, ü viết thành u sau q. 取钱 là rút tiền. Chữ gồm 耳 (tai) và 又 (tay): tay nắm
+      lấy, tức là ''lấy''.'
+- id: hsk2-u05-l04
+  title: Xếp hàng, đổi hàng và giao hàng
+  new_words:
+  - 排
+  - 排队
+  - 换
+  - 送到
+  - 方便
+  - 服务
+  sentences:
+  - id: s-hsk2-u05-013
+    zh: 很多人在排队。
+    en: Lots of people are standing in line.
+    pinyin: Hěn duō rén zài páiduì.
+  - id: s-hsk2-u05-014
+    zh: 东西明天送到你家。
+    en: The things will be delivered to your home tomorrow.
+    pinyin: Dōngxi míngtiān sòngdào nǐ jiā.
+  - id: s-hsk2-u05-015
+    zh: 我想换房间。
+    en: I'd like to change my room.
+    pinyin: wǒ xiǎng huàn fáng jiān
+    tatoeba_id: 9419163
+  - id: s-hsk2-u05-016
+    zh: 你什么时候方便？
+    en: When is it convenient for you?
+    pinyin: nǐ shén me shí hòu fāng biàn
+    tatoeba_id: 811003
+  tips:
+    排队: '排 có âm Hán Việt là bài, 队 có âm Hán Việt là đội. 排队 là xếp hàng; 排 một mình còn dùng đếm hàng
+      ghế: 第一排 (hàng thứ nhất). 排 pái thanh 2 (đi lên), 队 duì thanh 4 (đi xuống dứt khoát).'
+    换: '换 huàn có bộ 扌 (tay): đổi cái này lấy cái kia bằng tay. Dùng để đổi đồ (换衣服), đổi phòng (换房间),
+      hoặc 换你了 là ''đến lượt bạn''.'
+    送到: '送到 = 送 (đưa, gửi) + 到 (tới nơi): giao đến nơi. Sau 送到 là địa điểm: 送到你家, 送到学校.'
+    方便: 方 có âm Hán Việt là phương, 便 có âm Hán Việt là tiện, nhưng 方便 nghĩa là thuận tiện, không phải
+      'phương tiện'. 便 ở đây đọc biàn, khác với 便宜 piányi.
+    服务: '服 có âm Hán Việt là phục, 务 có âm Hán Việt là vụ: 服务 là phục vụ. Chú ý fú là f môi răng, giống
+      ''ph'' tiếng Việt; wù đọc như ''u'' thanh 4.'
+- id: hsk2-u05-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

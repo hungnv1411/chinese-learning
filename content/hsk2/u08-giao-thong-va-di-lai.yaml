@@ -1,0 +1,169 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk2-u08.json.
+id: hsk2-u08
+stage: hsk2
+order: 8
+title: Giao thông và đi lại
+description: Người học có thể nói về các phương tiện giao thông, đi xe, đỗ xe và đi lại an toàn.
+lessons:
+- id: hsk2-u08-l01
+  title: Đi xe buýt, tàu điện ngầm và taxi
+  grammar: hsk2-g057
+  new_words:
+  - 公共汽车
+  - 公交车
+  - 地铁
+  - 地铁站
+  - 出租车
+  - 司机
+  sentences:
+  - id: s-hsk2-u08-001
+    zh: 我坐出租车去。
+    en: I'll go by taxi.
+    pinyin: wǒ zuò chū zū chē qù
+    tatoeba_id: 9179887
+  - id: s-hsk2-u08-002
+    zh: 哪里坐公共汽车？
+    en: Where can I take the public bus?
+    pinyin: nǎ lǐ zuò gōng gòng qì chē
+    tatoeba_id: 6158445
+  - id: s-hsk2-u08-003
+    zh: 这儿有地铁站吗?
+    en: Is there a metro station here?
+    pinyin: zhè ér yǒu dì tiě zhàn ma
+    tatoeba_id: 4563027
+  - id: s-hsk2-u08-004
+    zh: 她是出租车司机。
+    en: She is a taxi driver.
+    pinyin: tā shì chū zū chē sī jī
+    tatoeba_id: 614443
+  tips:
+    出租车: '租 có âm Hán Việt là tô, 出租 nghĩa là cho thuê, nên 出租车 là "xe cho thuê", tức taxi. Chữ 租 có bộ
+      hòa 禾 (lúa) vì xưa người ta nộp thuế ruộng bằng lúa. Lưu ý: chū và chē đều là âm ch bật hơi, không
+      đọc thành "chu, chơ" kiểu tiếng Việt.'
+    公共汽车: 'Chữ 汽 gồm bộ thủy 氵 (nước) và 气 (hơi): hơi nước, xe chạy bằng hơi. 汽车 là ô tô, 公共汽车 là xe buýt.
+      Đừng viết thiếu bộ thủy thành 气, và đừng nhầm 汽车 với 火车 (tàu hỏa). Nói ngắn hằng ngày thường dùng
+      公交车.'
+    地铁站: 铁 có âm Hán Việt là thiết, bộ kim 钅 chỉ kim loại; 站 có âm Hán Việt là trạm. 地铁 là "đường sắt
+      dưới đất" = tàu điện ngầm, thêm 站 thành ga tàu điện ngầm. 铁 đọc thanh 3 tiě, giống dấu hỏi nhưng
+      xuống thấp rồi mới lên.
+    司机: '司机 đọc sījī: s là âm "x" của tiếng Việt (đầu lưỡi thẳng), không cong lưỡi như sh; j giống "ch"
+      nhẹ, không bật hơi. Cả hai đều thanh 1, giữ cao và đều.'
+- id: hsk2-u08-l02
+  title: Xe đạp, xe cộ và thuyền
+  new_words:
+  - 自行车
+  - 骑
+  - 骑车
+  - 辆
+  - 车辆
+  - 船
+  sentences:
+  - id: s-hsk2-u08-005
+    zh: 她骑自行车去上学。
+    en: She rides her bike to school.
+    pinyin: tā qí zì xíng chē qù shàng xué
+    tatoeba_id: 475843
+  - id: s-hsk2-u08-006
+    zh: 你会骑车吗？
+    en: Can you ride a bicycle?
+    pinyin: nǐ huì qí chē ma
+    tatoeba_id: 11049357
+  - id: s-hsk2-u08-007
+    zh: 我家有两辆自行车。
+    en: My family has two bicycles.
+    pinyin: Wǒ jiā yǒu liǎng liàng zìxíngchē.
+  - id: s-hsk2-u08-008
+    zh: 这条路上的车辆不多。
+    en: There's not much traffic on this road.
+    pinyin: zhè tiáo lù shàng de chē liàng bù duō
+    tatoeba_id: 787284
+  tips:
+    骑: '骑 có âm Hán Việt là kị, bộ mã 马 (ngựa): vốn là cưỡi ngựa, nay dùng cho xe phải ngồi dạng chân
+      như xe đạp, xe máy. Lỗi hay gặp: ~~坐自行车~~ → 骑自行车; ô tô thì dùng 坐 (đi nhờ) hoặc 开 (lái).'
+    辆: '辆 là lượng từ cho xe: 一辆车, 两辆自行车. Chữ gồm bộ xa 车 bên trái và 两 bên phải. Người Việt hay nói ~~一个车~~
+      – hãy nhớ xe đi với 辆.'
+    船: '船 có âm Hán Việt là thuyền, bộ chu 舟 bên trái cũng chỉ con thuyền. Đọc chuán: ch cong lưỡi, bật
+      hơi, vần uán thanh 2 đi lên như dấu sắc.'
+    自行车: '自行车 nghĩa đen là "xe tự đi". 行 trong từ này đọc xíng (thanh 2). 自 đọc zì: z không bật hơi, nghe
+      gần như "chư" nhẹ, miệng dẹt chứ không tròn.'
+- id: hsk2-u08-l03
+  title: Đường sá và giao thông
+  grammar: hsk2-g024
+  new_words:
+  - 道路
+  - 道
+  - 公路
+  - 路边
+  - 交通
+  - 行人
+  sentences:
+  - id: s-hsk2-u08-009
+    zh: 走左边的道路。
+    en: Take the road on the left.
+    pinyin: zǒu zuǒ biān de dào lù
+    tatoeba_id: 798155
+  - id: s-hsk2-u08-010
+    zh: 这地方交通不方便。
+    en: This place isn't convenient to public transportation.
+    pinyin: zhè dì fāng jiāo tōng bù fāng biàn
+    tatoeba_id: 367418
+  - id: s-hsk2-u08-011
+    zh: 我们从公路走，很快就到了。
+    en: We'll take the highway and get there quickly.
+    pinyin: Wǒmen cóng gōnglù zǒu, hěn kuài jiù dào le.
+  - id: s-hsk2-u08-012
+    zh: 行人从路边走。
+    en: Pedestrians walk along the roadside.
+    pinyin: Xíngrén cóng lùbiān zǒu.
+  tips:
+    交通: 交 có âm Hán Việt là giao, 通 có âm Hán Việt là thông → 交通 chính là "giao thông", rất dễ nhớ. Đọc
+      jiāotōng, cả hai thanh 1, giữ giọng cao và ngang.
+    道路: 道 có âm Hán Việt là đạo, bộ sước 辶 (bước đi); 路 có âm Hán Việt là lộ, bộ túc 足 (chân). Cả hai
+      bộ đều liên quan đến đi lại nên đều mang nghĩa "đường". 道路 trang trọng hơn, nói hằng ngày thường
+      dùng 路, 马路.
+    行人: 行人 là người đi bộ, không phải "hàng người". 行 ở đây đọc xíng; 人 đọc rén – âm r cong lưỡi, gần
+      giống "r" nhẹ kiểu miền Nam, không đọc thành "dân" hay "lân".
+    路边: '路边 là lề đường, ven đường: 在路边等我 (đợi tôi ở lề đường). 边 có âm Hán Việt là biên, bộ sước 辶 giống
+      道.'
+- id: hsk2-u08-l04
+  title: Dừng xe, đỗ xe và đi lại an toàn
+  new_words:
+  - 停
+  - 停车
+  - 停车场
+  - 座位
+  - 安全
+  - 小心
+  sentences:
+  - id: s-hsk2-u08-013
+    zh: 就在这儿停车吧。
+    en: Stop the car here.
+    pinyin: jiù zài zhè ér tíng chē ba
+    tatoeba_id: 420490
+  - id: s-hsk2-u08-014
+    zh: 回到你的座位。
+    en: Go back to your seat.
+    pinyin: huí dào nǐ de zuò wèi
+    tatoeba_id: 834384
+  - id: s-hsk2-u08-015
+    zh: 最重要的是安全。
+    en: Safety is what matters most.
+    pinyin: zuì zhòng yào de shì ān quán
+    tatoeba_id: 755739
+  - id: s-hsk2-u08-016
+    zh: 开车小心点。
+    en: Drive carefully.
+    pinyin: kāi chē xiǎo xīn diǎn
+    tatoeba_id: 5102177
+  tips:
+    停: '停 có âm Hán Việt là đình, gồm bộ nhân 亻 và 亭 (cái đình): người dừng chân nghỉ ở đình → dừng lại.
+      停车 vừa là dừng xe vừa là đỗ xe; thêm 场 (chỗ, bãi) thành 停车场 = bãi đỗ xe.'
+    安全: '安全 đọc ānquán: q là "ch" bật hơi, lưỡi đặt sau răng dưới. Sau q, chữ u thực ra là ü (môi tròn
+      như đọc "uy"), nên quán không đọc "quan" của tiếng Việt. 安全 là tính từ: 这里很安全, đừng nói ~~这里是安全~~.'
+    小心: '小心 đặt trước động từ hoặc làm lời nhắc: 小心开车, 路上小心! 小 thanh 3 + 心 thanh 1 nên không biến điệu,
+      nhưng 小 chỉ đọc nửa thanh 3 (xuống thấp, không vòng lên).'
+    座位: '座 có âm Hán Việt là toà, gồm bộ nghiễm 广 (mái nhà) + 坐 (ngồi): chỗ ngồi có mái che. 位 có âm Hán
+      Việt là vị. zuò: z không bật hơi, đừng đọc thành c bật hơi.'
+- id: hsk2-u08-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

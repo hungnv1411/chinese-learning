@@ -1,0 +1,167 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u17.json.
+id: hsk3-u17
+stage: hsk3
+order: 17
+title: Trạng từ thời gian và tần suất
+description: Diễn đạt việc xảy ra nhanh, chậm, thường xuyên hay từ trước đến nay.
+lessons:
+- id: hsk3-u17-l01
+  title: Nhanh lên! Làm ngay lập tức
+  new_words:
+  - 赶
+  - 赶紧
+  - 赶快
+  - 立刻
+  - 连忙
+  - 及时
+  sentences:
+  - id: s-hsk3-u17-001
+    zh: 赶快回家。
+    en: Hurry home.
+    pinyin: gǎn kuài huí jiā
+    tatoeba_id: 5092584
+  - id: s-hsk3-u17-002
+    zh: 最好赶紧离开！
+    en: Better run away immediately!
+    pinyin: zuì hǎo gǎn jǐn lí kāi
+    tatoeba_id: 4625750
+  - id: s-hsk3-u17-003
+    zh: 请立刻回来。
+    en: Please come back at once.
+    pinyin: qǐng lì kè huí lái
+    tatoeba_id: 1176898
+  - id: s-hsk3-u17-004
+    zh: 他及时赶到。
+    en: He arrived in time.
+    pinyin: tā jí shí gǎn dào
+    tatoeba_id: 833126
+  tips:
+    赶: 'Chữ 赶 có bộ 走 (đi, chạy) bao bên trái, bên phải là 干. Cứ nhớ là chạy đuổi theo cho kịp: 赶车 (đuổi
+      kịp xe), 赶到 (kịp đến nơi). Đọc gǎn thanh 3, hạ giọng xuống thấp giống dấu hỏi.'
+    立刻: '立 có âm Hán Việt là lập, 刻 có âm Hán Việt là khắc, nên 立刻 nghĩa là ngay lập tức. Thường đi kèm
+      就: 我立刻就来 (Tôi tới ngay).'
+    连忙: 'Lỗi hay gặp: 连忙 chỉ dùng để kể lại việc đã xảy ra, không dùng để ra lệnh hay khuyên. Sai: ~~连忙回家！~~
+      → Đúng: 赶快回家！ / 赶紧回家！. Đúng: 他连忙站起来了 (Anh ấy vội đứng dậy).'
+    及时: '及 có âm Hán Việt là cập, 时 có âm Hán Việt là thì, nên 及时 nghĩa là kịp thời. Chú ý phát âm: j
+      đọc gần như "ch" mềm, còn sh thì uốn lưỡi, đừng đọc thành "x" của tiếng Việt.'
+- id: hsk3-u17-l02
+  title: Vốn dĩ, đã từng, xưa nay
+  grammar: hsk3-g014
+  new_words:
+  - 本来
+  - 曾经
+  - 从来
+  - 已
+  - 早已
+  - 始终
+  sentences:
+  - id: s-hsk3-u17-005
+    zh: 我曾经见过他。
+    en: I've seen him before.
+    pinyin: wǒ céng jīng jiàn guò tā
+    tatoeba_id: 1529540
+  - id: s-hsk3-u17-006
+    zh: 我从来没有见过他。
+    en: I've never met him.
+    pinyin: wǒ cóng lái méi yǒu jiàn guò tā
+    tatoeba_id: 770322
+  - id: s-hsk3-u17-007
+    zh: 我本来打算去那里。
+    en: I had intended to go there.
+    pinyin: wǒ běn lái dǎ suàn qù nà lǐ
+    tatoeba_id: 846190
+  - id: s-hsk3-u17-008
+    zh: 我早已知道了。
+    en: I've known it for a long time.
+    pinyin: wǒ zǎoyǐ zhīdào le
+  tips:
+    从来: '从来 hầu như luôn đi với phủ định: 从来不 + động từ (xưa nay không bao giờ), 从来没(有) + động từ + 过
+      (chưa từng bao giờ). Sai: ~~我从来见过他~~ → Đúng: 我从来没有见过他。'
+    曾经: '曾 có âm Hán Việt là tằng ("đã từng"). Đọc là céng: c bật hơi mạnh giống "ts", đừng đọc thành
+      zēng. Câu có 曾经 thường kèm 过 sau động từ: 我曾经去过北京。'
+    早已: '已 có âm Hán Việt là dĩ, đừng nhầm với 己 trong 自己. Mẹo nhớ: 已 thì nét móc kín một nửa, 己 thì để
+      hở. 早已 = 早 + 已: đã từ lâu, cuối câu hay có 了: 他早已回家了。'
+    始终: '始 có âm Hán Việt là thuỷ, 终 có âm Hán Việt là chung, nên 始终 nghĩa là từ đầu đến cuối, trước sau
+      như một. Ví dụ: 他始终没说话 (Từ đầu tới cuối anh ấy không nói câu nào).'
+- id: hsk3-u17-l03
+  title: Thường thì, lúc nào cũng, đột nhiên
+  grammar: hsk3-g015
+  new_words:
+  - 通常
+  - 往往
+  - 总
+  - 总是
+  - 突然
+  sentences:
+  - id: s-hsk3-u17-009
+    zh: 我通常走去学校。
+    en: I usually walk to school.
+    pinyin: wǒ tōng cháng zǒu qù xué xiào
+    tatoeba_id: 345930
+  - id: s-hsk3-u17-010
+    zh: 他总是在笑。
+    en: He's always smiling.
+    pinyin: tā zǒng shì zài xiào
+    tatoeba_id: 334059
+  - id: s-hsk3-u17-011
+    zh: 周末人们往往起得很晚。
+    en: People often get up late on weekends.
+    pinyin: zhōumò rénmen wǎngwǎng qǐ de hěn wǎn
+  - id: s-hsk3-u17-012
+    zh: 突然开始下雨。
+    en: Suddenly it began to rain.
+    pinyin: tū rán kāi shǐ xià yǔ
+    tatoeba_id: 797087
+  tips:
+    总是: '总 có âm Hán Việt là tổng. Lỗi hay gặp: dùng 是 ghép với tính từ. Sai: ~~我总是忙~~ → Đúng: 我总是很忙.
+      Ở đây 是 là một phần của từ 总是, tính từ phía sau vẫn cần 很. Đọc zǒng: z giống "ch" nhẹ, không bật
+      hơi.'
+    往往: '往往 dùng để nói một quy luật rút ra từ những gì đã xảy ra, không dùng cho ý định hay tương lai.
+      Sai: ~~我明天往往去~~. Trong trường hợp này dùng 常常: 我以后常常来。'
+    突然: '突 có âm Hán Việt là đột, 然 có âm Hán Việt là nhiên, nên 突然 nghĩa là đột nhiên. Chữ 突 có bộ 穴
+      (hang) ở trên và 犬 (chó) ở dưới, gợi hình ảnh con chó vọt ra khỏi hang. 突然 còn làm được tính từ:
+      这件事很突然。'
+    通常: '通 có âm Hán Việt là thông, 常 có âm Hán Việt là thường, nên 通常 nghĩa là thông thường. Đặt sau
+      chủ ngữ, trước động từ: 我通常九点睡觉。'
+- id: hsk3-u17-l04
+  title: Từ từ, cẩn thận, liên tục, vẫn còn
+  grammar: hsk3-g016
+  new_words:
+  - 反复
+  - 连续
+  - 慢慢
+  - 仍
+  - 仍然
+  - 好好
+  sentences:
+  - id: s-hsk3-u17-013
+    zh: 好好休息吧！
+    en: Have a good rest!
+    pinyin: hǎo hǎo xiū xī ba
+    tatoeba_id: 4887549
+  - id: s-hsk3-u17-014
+    zh: 他慢慢地走。
+    en: He walks slowly.
+    pinyin: tā mànmàn de zǒu
+  - id: s-hsk3-u17-015
+    zh: 你仍然很年轻。
+    en: You're still young.
+    pinyin: nǐ réng rán hěn nián qīng
+    tatoeba_id: 771631
+  - id: s-hsk3-u17-016
+    zh: 先反复听课文，再回答问题。
+    en: First listen to the text repeatedly, then answer the questions.
+    pinyin: xiān fǎnfù tīng kèwén, zài huídá wèntí
+  tips:
+    好好: 'Biến điệu 3+3: hai thanh 3 đứng liền nhau thì chữ đầu đọc thành thanh 2, nên 好好 đọc là háohǎo.
+      Đặt trước động từ với nghĩa "cho đàng hoàng, cẩn thận": 好好学习、好好休息。'
+    仍然: '仍 có âm Hán Việt là nhưng, nghĩa là vẫn, vẫn còn. Đọc réng: r uốn lưỡi, gần với "r" kiểu miền
+      Nam, đừng đọc thành "d/z". Tính từ đứng sau vẫn cần 很: 你仍然很年轻。'
+    连续: '连 có âm Hán Việt là liên, 续 có âm Hán Việt là tục, nên 连续 nghĩa là liên tục, liền mấy lần. Cấu
+      trúc hay dùng: 连续 + số + 天/次: 连续下了三天雨 (mưa liền ba ngày).'
+    慢慢: '慢 có bộ 忄 (tâm), gợi ý tâm thong thả. Cấu trúc: 慢慢(地) + động từ, ví dụ 慢慢走, 慢慢说. Chữ 地 ở đây
+      là trợ từ, đọc nhẹ "de", không đọc dì. Lúc tiễn khách, người Trung Quốc hay nói 慢走 (Đi cẩn thận
+      nhé).'
+- id: hsk3-u17-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

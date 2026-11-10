@@ -1,0 +1,168 @@
+# Sinh bằng `clp author-unit` (author_unit/1); bản rà soát và máy kiểm tra xem _meta/hsk3-u29.json.
+id: hsk3-u29
+stage: hsk3
+order: 29
+title: Ý kiến và đánh giá
+description: Bày tỏ đồng ý, phản đối, góp ý và đánh giá người khác.
+lessons:
+- id: hsk3-u29-l01
+  title: Đồng ý hay phản đối
+  new_words:
+  - 同意
+  - 反对
+  - 支持
+  - 认可
+  - 否定
+  - 否认
+  sentences:
+  - id: s-hsk3-u29-001
+    zh: 我同意他。
+    en: I agree with him.
+    pinyin: wǒ tóng yì tā
+    tatoeba_id: 408258
+  - id: s-hsk3-u29-002
+    zh: 我没有反对你。
+    en: I'm not disagreeing with you.
+    pinyin: wǒ méi yǒu fǎn duì nǐ
+    tatoeba_id: 5978333
+  - id: s-hsk3-u29-003
+    zh: 我支持你。
+    en: I'm on your side.
+    pinyin: wǒ zhī chí nǐ
+    tatoeba_id: 454506
+  - id: s-hsk3-u29-004
+    zh: 她否认见过他。
+    en: She denied having met him.
+    pinyin: tā fǒu rèn jiàn guò tā
+    tatoeba_id: 10040380
+  tips:
+    同意: '同 có âm Hán Việt là đồng, 意 có âm Hán Việt là ý, nên rất dễ nhớ. Lưu ý: 同意 đi thẳng với người
+      hoặc ý kiến, không cần thêm chữ nào cho "với": ~~我同意跟你~~ → 我同意你 / 我同意你的看法.'
+    反对: 反 có âm Hán Việt là phản, 对 có âm Hán Việt là đối. fǎn mang thanh 3, đứng trước thanh 4 nên chỉ
+      đọc nửa thanh, tức là xuống thấp rồi dừng, không cần vút lên như dấu hỏi tiếng Việt.
+    支持: 'zhī và chí: zh giống "tr" nhưng không bật hơi, ch cũng uốn lưỡi nhưng bật hơi mạnh. Mẹo nhớ chữ:
+      持 có bộ 扌 (tay), giống như đưa tay ra đỡ người khác, nghĩa là "ủng hộ".'
+    否认: Chữ 否 gồm 不 (không) ở trên và 口 (miệng) ở dưới, tức là miệng nói "không". 否认 nghĩa là chối, không
+      nhận một việc là đúng (她否认见过他). Còn 否定 nghĩa là phủ nhận, bác bỏ một ý kiến hay một con người.
+    认可: '认 có âm Hán Việt là nhận, 可 có âm Hán Việt là khả. 认可 nghĩa là công nhận, chấp nhận là tốt. Từ
+      này thường gặp trong cụm 得到认可 (được công nhận), ví dụ: 他的工作得到了大家的认可.'
+- id: hsk3-u29-l02
+  title: Góp ý và quyết định
+  grammar: hsk3-g044
+  new_words:
+  - 建议
+  - 主意
+  - 主张
+  - 决定
+  - 确定
+  - 判断
+  sentences:
+  - id: s-hsk3-u29-005
+    zh: 谢谢你的建议。
+    en: Thanks for the advice.
+    pinyin: xiè xiè nǐ de jiàn yì
+    tatoeba_id: 1763678
+  - id: s-hsk3-u29-006
+    zh: 这是个好主意。
+    en: It's a good idea.
+    pinyin: zhè shì gè hǎo zhǔ yì
+    tatoeba_id: 7768154
+  - id: s-hsk3-u29-007
+    zh: 我决定去那里。
+    en: I made up my mind to go there.
+    pinyin: wǒ jué dìng qù nà lǐ
+    tatoeba_id: 8792064
+  - id: s-hsk3-u29-008
+    zh: 我确定你会来。
+    en: I was certain that you'd come.
+    pinyin: wǒ què dìng nǐ huì lái
+    tatoeba_id: 6086802
+  tips:
+    建议: '建 có âm Hán Việt là kiến, 议 có âm Hán Việt là nghị. 建议 vừa là danh từ (lời khuyên) vừa là động
+      từ (đề nghị). Khi làm động từ, phía sau có thể là cả một câu: 我建议你去医院。'
+    主意: 'Đừng nhầm 主意 zhǔyi (ý tưởng, chủ ý) với 注意 zhùyì (chú ý). Trong 主意, chữ 意 thường đọc thanh nhẹ.
+      Cách nói hay dùng: 好主意 (ý hay), 我有一个主意。'
+    决定: 决 có âm Hán Việt là quyết, 定 có âm Hán Việt là định. Bộ bên trái của 决 là 冫 (bộ băng, chỉ 2 chấm).
+      Người Việt hay viết nhầm thành 氵 (3 chấm) giống chữ 河.
+    确定: 'què: sau q, chữ u thật ra là ü. Hãy giữ môi tròn để đọc ü rồi chuyển sang "ê". 确定 có thể làm
+      tính từ hoặc động từ: 我不确定 (tôi không chắc), 你确定吗？'
+- id: hsk3-u29-l03
+  title: Đánh giá và nhận xét
+  grammar: hsk3-g040
+  new_words:
+  - 批评
+  - 评价
+  - 印象
+  - 反应
+  - 理解
+  - 称为
+  sentences:
+  - id: s-hsk3-u29-009
+    zh: 你总是批评我！
+    en: You're always criticizing me!
+    pinyin: nǐ zǒng shì pī píng wǒ
+    tatoeba_id: 1235590
+  - id: s-hsk3-u29-010
+    zh: 他给我留下了很深的印象。
+    en: He made a deep impression on me.
+    pinyin: tā gěi wǒ liú xià le hěn shēn de yìn xiàng
+  - id: s-hsk3-u29-011
+    zh: 对我来说，他的评价很重要。
+    en: To me, his evaluation is very important.
+    pinyin: duì wǒ lái shuō, tā de píng jià hěn zhòng yào
+  - id: s-hsk3-u29-012
+    zh: 没人理解我。
+    en: Nobody understands me.
+    pinyin: méi rén lǐ jiě wǒ
+    tatoeba_id: 2032285
+  tips:
+    批评: 批 có âm Hán Việt là phê, 评 có âm Hán Việt là bình. Trong tiếng Trung, 批评 hầu như luôn mang nghĩa
+      chê trách, khiển trách. Muốn nói "nhận xét" một cách trung tính thì dùng 评价.
+    评价: 'Hai chữ đều có bộ chỉ nghĩa: 评 có bộ 讠 (lời nói), 价 có bộ 亻 (người). Ghép lại là dùng lời để
+      đánh giá giá trị. Cách nói hay gặp: 评价很高 (được đánh giá cao).'
+    印象: '印 có âm Hán Việt là ấn, 象 có âm Hán Việt là tượng. Cụm hay dùng: 给某人留下很深的印象 (để lại ấn tượng
+      sâu sắc cho ai), 印象很深, 第一印象 (ấn tượng đầu tiên).'
+    理解: 理 có âm Hán Việt là lí, 解 có âm Hán Việt là giải. Cả hai chữ đều mang thanh 3. Khi hai thanh 3
+      đi liền nhau, chữ đầu đổi thành thanh 2, nên đọc là líjiě.
+    称为: 'Trong từ này, 为 đọc wéi (thanh 2), không đọc wèi như trong 为什么. Mẫu câu: A 被称为 B (A được gọi
+      là B).'
+- id: hsk3-u29-l04
+  title: Trình bày ý kiến
+  grammar: hsk3-g077
+  new_words:
+  - 强调
+  - 指出
+  - 补充
+  - 理由
+  - 表明
+  - 预计
+  sentences:
+  - id: s-hsk3-u29-013
+    zh: 没有理由生气。
+    en: There's no reason to get angry.
+    pinyin: méi yǒu lǐ yóu shēng qì
+    tatoeba_id: 6628379
+  - id: s-hsk3-u29-014
+    zh: 我是同意的，不过我想补充一点。
+    en: I do agree, but I'd like to add one point.
+    pinyin: wǒ shì tóng yì de, bú guò wǒ xiǎng bǔ chōng yì diǎn
+  - id: s-hsk3-u29-015
+    zh: 他指出了我的错误。
+    en: He pointed out my mistake.
+    pinyin: tā zhǐ chū le wǒ de cuò wù
+  - id: s-hsk3-u29-016
+    zh: 老师强调了这个问题。
+    en: The teacher emphasized this problem.
+    pinyin: lǎo shī qiáng diào le zhè ge wèn tí
+  tips:
+    强调: q bật hơi mạnh, gần với "ch" tiếng Việt nhưng đầu lưỡi đặt sau răng dưới. Trong từ này, 调 đọc
+      diào. Đừng đọc tiáo như trong 空调.
+    指出: 指 có bộ 扌 (tay), nghĩa là chỉ bằng ngón tay. Ghép với 出 (ra) thành "chỉ ra". Âm zhǐ chū gồm zh
+      không bật hơi và ch bật hơi, cả hai đều uốn lưỡi.
+    补充: '补 có âm Hán Việt là bổ, 充 có âm Hán Việt là sung. Khi họp hay thảo luận, câu hay dùng là 我补充一点
+      (tôi xin bổ sung một ý). Chú ý biến điệu: 一 đứng trước thanh 3 (点) đọc thành yì.'
+    理由: '理 có âm Hán Việt là lí, 由 có âm Hán Việt là do. Hai âm này giống hệt từ "lí do" trong tiếng Việt.
+      Cách nói hay gặp: 没有理由… (không có lí do để…).'
+- id: hsk3-u29-cp
+  type: checkpoint
+  title: Ôn tập chủ đề

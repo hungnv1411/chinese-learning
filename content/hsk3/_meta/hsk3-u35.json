@@ -1,0 +1,50 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-10T02:23:01",
+  "prompt_sha256": [
+    "b728efb23d1e80a641b0cf404a6e24af0b51d57b437de111cd0ee8d3980986ca",
+    "f0b3355bbcf925b1fe24cf12f3be47dc34fc7858427622c668bd8514c88d2598"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [
+    {
+      "where": "hsk3-u35-l01 / tips.人群",
+      "category": "grammar_explanation",
+      "severity": "warning",
+      "problem": "Câu \"đừng đọc thành 'cun' với u tròn môi\" dễ gây hiểu nhầm. ü cũng tròn môi. Điểm khác giữa u và ü là vị trí lưỡi (ü là âm trước, giống 'uy' kéo dài), không phải việc tròn môi hay không.",
+      "suggestion": "Sửa thành: \"qún đọc như q + ün (môi tròn, lưỡi đưa ra trước như âm 'uy'), đừng đọc thành 'cun' với u lưỡi lui sau.\""
+    },
+    {
+      "where": "s-hsk3-u35-013",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"普及全国\" nghe hơi cứng. Người bản xứ thường nói 普及到全国.",
+      "suggestion": "Đổi thành 英语已经普及到全国了。 (hoặc giữ nguyên nếu chấp nhận văn viết)."
+    },
+    {
+      "where": "s-hsk3-u35-014",
+      "category": "sentence_natural",
+      "severity": "warning",
+      "problem": "\"它已经开放了\" thiếu ngữ cảnh. 它 không nói rõ là gì nên khó dùng làm câu ví dụ cho 开放.",
+      "suggestion": "Đổi thành câu có chủ ngữ rõ, ví dụ 公园已经开放了。 (khớp với tip 开放)."
+    },
+    {
+      "where": "s-hsk3-u35-006",
+      "category": "english",
+      "severity": "warning",
+      "problem": "\"I'm Chinese.\" chưa phân biệt được 华人 (người gốc Hoa) với 中国人, trong khi tip nhấn mạnh sự khác biệt này.",
+      "suggestion": "Dịch là \"I'm of Chinese descent / I'm an ethnic Chinese.\""
+    }
+  ],
+  "machine_warnings": [
+    "u35-xa-hoi-va-dat-nuoc.yaml:22: [sentence_pinyin_polyphone] Câu s-hsk3-u35-001: pinyin ghi 'Wǒmen yào wèi rénmín fúwù.', pypinyin cho 'wǒ men yào wéi rén mín fú wù' (có chữ đa âm, cần rà soát riêng câu này)",
+    "u35-xa-hoi-va-dat-nuoc.yaml:63: [sentence_unlearned_word] Câu s-hsk3-u35-005 (bài hsk3-u35-l02) dùng từ chưa học: 五十六个",
+    "u35-xa-hoi-va-dat-nuoc.yaml:76: [sentence_unlearned_word] Câu s-hsk3-u35-008 (bài hsk3-u35-l02) dùng từ chưa học: 十月, 一日",
+    "u35-xa-hoi-va-dat-nuoc.yaml:160: [sentence_unlearned_word] Câu s-hsk3-u35-016 (bài hsk3-u35-l04) dùng từ chưa học: 公共场所"
+  ],
+  "han_viet_proposed": []
+}

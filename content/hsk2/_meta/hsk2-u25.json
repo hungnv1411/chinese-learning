@@ -1,0 +1,29 @@
+{
+  "script": "author_unit/1",
+  "author_model": "claude-opus-5-5",
+  "review_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "rounds": 2,
+  "generated_at": "2026-11-09T07:47:41",
+  "prompt_sha256": [
+    "ea76c84155355008bbb8d5684b645e823841686c679874c9b52391847a8bcfe6",
+    "7ddeda80ab8c74e412eaf4f1b519c14154c28c39bffa5c06a2f9fdb5e9290767"
+  ],
+  "review_unresolved": [],
+  "review_warnings": [],
+  "machine_warnings": [
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:36: [sentence_unlearned_word] Câu s-hsk2-u25-004 (bài hsk2-u25-l01) dùng từ chưa học: 不太想",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:38: [sentence_pinyin_mismatch] Câu s-hsk2-u25-004: pinyin ghi 'Wǒ jīntiān yǒudiǎnr lèi, bú tài xiǎng chūqù.', pypinyin cho 'wǒ jīn tiān yǒu diǎn ér lèi bù tài xiǎng chū qù'",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:78: [sentence_unlearned_word] Câu s-hsk2-u25-008 (bài hsk2-u25-l02) dùng từ chưa học: 这个, 实在太",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:113: [sentence_unlearned_word] Câu s-hsk2-u25-011 (bài hsk2-u25-l03) dùng từ chưa học: 两个",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:147: [sentence_unlearned_word] Câu s-hsk2-u25-014 (bài hsk2-u25-l04) dùng từ chưa học: 这家",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:155: [sentence_unlearned_word] Câu s-hsk2-u25-016 (bài hsk2-u25-l04) dùng từ chưa học: 一加",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:183: [sentence_unlearned_word] Câu s-hsk2-u25-018 (bài hsk2-u25-l05) dùng từ chưa học: 雨越",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:214: [sentence_unlearned_word] Câu s-hsk2-u25-021 (bài hsk2-u25-l06) dùng từ chưa học: 两岁",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:259: [sentence_unlearned_word] Câu s-hsk2-u25-027 (bài hsk2-u25-l07) dùng từ chưa học: 五个, 一个",
+    "u25-so-sanh-muc-do-va-thay-doi.yaml:263: [sentence_unlearned_word] Câu s-hsk2-u25-028 (bài hsk2-u25-l07) dùng từ chưa học: 这个"
+  ],
+  "han_viet_proposed": [
+    "改"
+  ]
+}
