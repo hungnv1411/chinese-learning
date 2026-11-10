@@ -6,6 +6,9 @@ const iso = z.string().refine((s) => !Number.isNaN(Date.parse(s)), 'invalid date
 const dateKey = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const nonNegInt = z.number().int().min(0);
 
+/** Khách được hoàn thành tối đa bấy nhiêu bài thường (spec 03 §2). */
+export const GUEST_LESSON_LIMIT = 3;
+
 /** Mục tiêu mỗi ngày (phút), cùng tập giá trị với `StudyGoal` ở srs.ts. */
 export const GUEST_GOALS = [5, 10, 20] as const;
 

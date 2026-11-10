@@ -9,3 +9,4 @@ export * from './content';
 export * from './streak';
 export * from './today';
 export * from './guest';
+export * from './guest-merge';

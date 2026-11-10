@@ -163,7 +163,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 97 | 04-6 | Màn hình đầu tiên `/` | 03-1, 05-4 | ⬜ | Lựa chọn “đọc được pinyin” nối 10-6 ở M8 |
 | 98 | 04-7 | Màn hình Hôm nay | 04-5 | ⬜ | |
 | 99 | 03-3 | Lời mời, màn hình chặn, cảnh báo không lưu được | 03-2, 06-9 | ⬜ | |
-| 100 | 03-4 | `mergeGuestProgress` + `POST /api/guest/merge` | 03-1, 05-1 | ⬜ | |
+| 100 | 03-4 | `mergeGuestProgress` + `POST /api/guest/merge` | 03-1, 05-1 | ✅ | core 233 + web 225 test xanh (19 core: tài khoản mới 2 bài/12 thẻ/cài đặt, tài khoản có tiến độ, dữ liệu sửa tay, exam_skip; 7 với Postgres thật: ghi đúng bảng, thẻ/ngày/cài đặt, lỗi giữa chừng không ghi gì, gộp lần hai không nhân đôi). Làm luôn `trialLessonIds` (của 03-2). Chưa gọi từ client (cờ `merge_pending` làm ở 03-3); chưa gộp `reviewLog` của khách (xem 03-auth/decisions.md) |
 | 101 | 03-5 | Đăng xuất | 03-4 | ⬜ | |
 | 102 | 03-6 | Xóa tài khoản | 00-4 | ⬜ | Kiểm tra trang xác thực ở 12-11 |
 | 103 | 03-7 | E2E luồng chính: khách học thử → đăng nhập → học tiếp → ôn tập | 03-3, 03-4, 04-7, 09-5 | ⬜ | |
@@ -239,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 03-4 xong: `packages/core/src/guest-merge.ts`, `apps/web/lib/guest/merge.ts`, `POST /api/guest/merge` |
 | 2026-11-10 | 03-1 xong: `packages/core/src/guest.ts` (`GuestProgressV1Schema`, `parseGuestProgress`) |
 | 2026-11-10 | 04-3, 04-4 xong: `packages/core/src/today.ts`, `apps/web/lib/today/char-of-day.ts` |
 | 2026-11-10 | 04-1 xong: `packages/core/src/streak.ts` (`isActiveDay`, `computeStreak`) |
