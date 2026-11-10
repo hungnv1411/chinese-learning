@@ -154,7 +154,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 |---|---|---|---|---|---|
 | 89 | 05-3 | Tiến độ lộ trình (màn C) | 05-2, 09-1 | ⬜ | |
 | 90 | 05-4 | Màn hình con đường | 05-3 | ⬜ | |
-| 91 | 04-1 | `streak.ts` | 00-6 | ⬜ | |
+| 91 | 04-1 | `streak.ts` | 00-6 | ✅ | core 186 test xanh (15 mới: 5 ca của plan + ôn 9/10 thẻ, hôm nay chưa học không tốn ngày nghỉ, chuỗi 4 tuần, bản ghi trùng/ngày tương lai, không lặp vô hạn). `freezeDates` chỉ gồm ngày nghỉ nằm trong chuỗi (mới nhất trước); cột `streak_freeze_used` của DB chưa dùng vì core tự tính ngày nghỉ |
 | 92 | 04-3 | `pickMainCard` | 05-1 | ⬜ | |
 | 93 | 04-4 | Chữ của ngày | 01-5 | ⬜ | |
 | 94 | 04-5 | `GET /api/today` | 04-1, 04-3, 04-4, 09-4 | ⬜ | |
@@ -239,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 04-1 xong: `packages/core/src/streak.ts` (`isActiveDay`, `computeStreak`) |
 | 2026-11-10 | 04-2 xong: `lib/activity/{useActiveTimer,record}.ts`, `POST /api/activity`. Chủ dự án bỏ qua việc Azure TTS |
 | 2026-11-10 | 08a-4 (🟨), 08a-5…7 xong: `align/segment/pitch/tone/score/pipeline/asr/text.py`; chưa thử Whisper thật vì tải model quá chậm |
 | 2026-11-10 | 08a-3 xong: `services/speech/app/sandhi.py` đọc chung fixture với bản TS |

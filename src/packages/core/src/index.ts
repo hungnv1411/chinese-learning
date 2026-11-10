@@ -6,3 +6,4 @@ export * from './scoring';
 export * from './srs';
 export * from './unlock';
 export * from './content';
+export * from './streak';
