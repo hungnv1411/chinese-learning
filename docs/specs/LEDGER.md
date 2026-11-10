@@ -158,7 +158,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 92 | 04-3 | `pickMainCard` | 05-1 | ✅ | core 200 test xanh (7 mới: từng nhánh, ưu tiên continue > review > next > waiting, ca biên 150/100 → next và 151 → review, waiting kèm `until` và `suggestReview`). Thêm `reason: 'nothing_open'` khi không còn gì mở và không có lý do chờ (04-home/decisions.md) |
 | 93 | 04-4 | Chữ của ngày | 01-5 | ✅ | core `characterOfDay` + FNV-1a (7 test: ổn định, không phụ thuộc thứ tự pool, rải đều, pool rỗng → RangeError); web `getCharOfDay` 8 test với Postgres thật (chỉ bài `completed`, chữ trùng tính một lần, chưa học → chữ bài tiếp theo, tiến độ người khác không lẫn). web 218 test xanh. Khách (`guest_progress_v1`) nối ở 03/04-5 |
 | 94 | 04-5 | `GET /api/today` | 04-1, 04-3, 04-4, 09-4 | ⬜ | |
-| 95 | 03-1 | `GuestProgressV1Schema` | 00-GW | ⬜ | |
+| 95 | 03-1 | `GuestProgressV1Schema` | 00-GW | ✅ | core 214 test xanh (14 mới: dữ liệu hợp lệ nguyên vẹn, bài `hacked` bị bỏ còn bài khác giữ, thẻ/nhật ký/daily/cài đặt sai thì bỏ từng mục, `v ≠ 1` hoặc không phải object → lỗi, `parseGuestProgress` trả null). Thêm trường tùy chọn `guestId` (seed chữ của ngày), xem 03-auth/decisions.md. `GuestStore` chưa gọi `parseGuestProgress` (nối ở 03-2/03-3) |
 | 96 | 03-2 | Tập học thử, `GET /api/public/lessons/[id]` | 03-1, 06-1 | ⬜ | |
 | 97 | 04-6 | Màn hình đầu tiên `/` | 03-1, 05-4 | ⬜ | Lựa chọn “đọc được pinyin” nối 10-6 ở M8 |
 | 98 | 04-7 | Màn hình Hôm nay | 04-5 | ⬜ | |
@@ -239,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 03-1 xong: `packages/core/src/guest.ts` (`GuestProgressV1Schema`, `parseGuestProgress`) |
 | 2026-11-10 | 04-3, 04-4 xong: `packages/core/src/today.ts`, `apps/web/lib/today/char-of-day.ts` |
 | 2026-11-10 | 04-1 xong: `packages/core/src/streak.ts` (`isActiveDay`, `computeStreak`) |
 | 2026-11-10 | 04-2 xong: `lib/activity/{useActiveTimer,record}.ts`, `POST /api/activity`. Chủ dự án bỏ qua việc Azure TTS |
