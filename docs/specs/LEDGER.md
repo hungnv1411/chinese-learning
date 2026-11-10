@@ -155,8 +155,8 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | 89 | 05-3 | Tiến độ lộ trình (màn C) | 05-2, 09-1 | ⬜ | |
 | 90 | 05-4 | Màn hình con đường | 05-3 | ⬜ | |
 | 91 | 04-1 | `streak.ts` | 00-6 | ✅ | core 186 test xanh (15 mới: 5 ca của plan + ôn 9/10 thẻ, hôm nay chưa học không tốn ngày nghỉ, chuỗi 4 tuần, bản ghi trùng/ngày tương lai, không lặp vô hạn). `freezeDates` chỉ gồm ngày nghỉ nằm trong chuỗi (mới nhất trước); cột `streak_freeze_used` của DB chưa dùng vì core tự tính ngày nghỉ |
-| 92 | 04-3 | `pickMainCard` | 05-1 | ⬜ | |
-| 93 | 04-4 | Chữ của ngày | 01-5 | ⬜ | |
+| 92 | 04-3 | `pickMainCard` | 05-1 | ✅ | core 200 test xanh (7 mới: từng nhánh, ưu tiên continue > review > next > waiting, ca biên 150/100 → next và 151 → review, waiting kèm `until` và `suggestReview`). Thêm `reason: 'nothing_open'` khi không còn gì mở và không có lý do chờ (04-home/decisions.md) |
+| 93 | 04-4 | Chữ của ngày | 01-5 | ✅ | core `characterOfDay` + FNV-1a (7 test: ổn định, không phụ thuộc thứ tự pool, rải đều, pool rỗng → RangeError); web `getCharOfDay` 8 test với Postgres thật (chỉ bài `completed`, chữ trùng tính một lần, chưa học → chữ bài tiếp theo, tiến độ người khác không lẫn). web 218 test xanh. Khách (`guest_progress_v1`) nối ở 03/04-5 |
 | 94 | 04-5 | `GET /api/today` | 04-1, 04-3, 04-4, 09-4 | ⬜ | |
 | 95 | 03-1 | `GuestProgressV1Schema` | 00-GW | ⬜ | |
 | 96 | 03-2 | Tập học thử, `GET /api/public/lessons/[id]` | 03-1, 06-1 | ⬜ | |
@@ -239,6 +239,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 04-3, 04-4 xong: `packages/core/src/today.ts`, `apps/web/lib/today/char-of-day.ts` |
 | 2026-11-10 | 04-1 xong: `packages/core/src/streak.ts` (`isActiveDay`, `computeStreak`) |
 | 2026-11-10 | 04-2 xong: `lib/activity/{useActiveTimer,record}.ts`, `POST /api/activity`. Chủ dự án bỏ qua việc Azure TTS |
 | 2026-11-10 | 08a-4 (🟨), 08a-5…7 xong: `align/segment/pitch/tone/score/pipeline/asr/text.py`; chưa thử Whisper thật vì tải model quá chậm |
