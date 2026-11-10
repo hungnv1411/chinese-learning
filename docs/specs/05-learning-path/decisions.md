@@ -19,3 +19,11 @@
 - `stageProgress(sql, userId, stageId)` (`lib/path/progress.ts`): **tổng** từ/chữ của cấp lấy từ danh sách HSK (`hsk_word`/`hsk_char` theo `level` = n của `hsk n`, bỏ từ `deprecated`), không lấy theo các bài đã soạn, để % không nhảy lên 100% khi mới có vài chủ đề. Từ “đã thuộc” gộp thẻ của từ theo `masteryOfWord` (09 §6); chữ đã thuộc = chữ khác nhau của cấp này xuất hiện trong từ đã thuộc. Lộ trình `pron` trả `null` (không có từ HSK).
 - `GET /api/path` thêm `progress` cho mỗi lộ trình: `words`, `chars` (hoặc `null`), `units: {done,total}` (chủ đề xong = mọi bài `completed`, có ít nhất 1 bài), `completedVia` (`exam_skip` → UI hiện “Hoàn thành (thi vượt)”), `requires` (lộ trình đứng trước, chỉ khi đang khóa → “Hoàn thành HSK 1 để mở”).
 - Ô “Đã học ở nơi khác?” dùng `skipExam` có sẵn ở gốc; phần giao diện thuộc 05-4. Phiên bản cho khách (`GuestGateway.getPath()`) chưa có.
+
+## 05-4: Màn hình con đường
+- `PathView` (client) gọi `GET /api/path`; 401 (khách) hiện lời mời đăng nhập, **chưa có nút** vì `LoginSheet` chưa làm (03). Khách thật sự dùng `GuestGateway.getPath()` sau.
+- Lộ trình mở đầu: lộ trình `available` đầu tiên, nếu không có thì lộ trình xong cuối cùng. Bài hiện tại: bài `in_progress` đầu tiên, nếu không thì bài `available` đầu tiên (chỉ trong chủ đề mở). `%` trên thanh trên = từ đã thuộc/tổng; `pron` (không có từ) dùng chủ đề xong/tổng; thi vượt = 100%.
+- Độ lệch ngang nút bài lặp chu kỳ `[28, 0, -28, -8, 12]` theo chỉ số trong chủ đề (`nodeOffset`).
+- Bài khóa: toast (không dùng popover khóa của design) theo `lockReason`, đúng plan. Nút ô chọn lộ trình chọn lộ trình để xem (design cũ của `pron` trỏ tới `pinyin.html`, bỏ).
+- Chưa làm: nút “Bài kiểm tra pinyin” cho `pron` (module 10 định tuyến), hình chứng nhận chờ cuối lộ trình, trang đích `/bai/[id]` và `/kiem-tra/[stage]` (06, 12) nên liên kết hiện còn 404.
+- `ToastProvider` chưa gắn ở layout gốc nên `PathView` tự bọc.

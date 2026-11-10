@@ -29,3 +29,6 @@
 .pop .eyebrow { color: color-mix(in srgb, var(--accent-on) 80%, transparent); }
 .pop.lock .eyebrow { color: var(--muted); }
 .trail .slot:has(> .node.current) { margin-top: 44px; }
+.path-rail { display: none; }
+@media (min-width: 1100px) { .path-rail { display: grid; } }
+.path-end { display: grid; justify-items: center; gap: var(--space-3); padding: var(--space-6) 0; }

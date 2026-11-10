@@ -3,6 +3,8 @@ import { computeUnlockState, lockReason } from '@clp/core';
 import { loadCurriculum, loadProgressSnapshot } from './load';
 import { stageProgress } from './progress';
 
+export type PathData = Awaited<ReturnType<typeof getPath>>;
+
 /** Dữ liệu cho `GET /api/path`: trạng thái khóa/mở (nguồn sự thật) + thông tin hiển thị. */
 export async function getPath(sql: postgres.Sql, userId: string) {
   const [curriculum, progress] = await Promise.all([loadCurriculum(sql), loadProgressSnapshot(sql, userId)]);
