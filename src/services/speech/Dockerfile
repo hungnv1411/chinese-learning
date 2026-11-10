@@ -9,6 +9,7 @@ ENV UV_COMPILE_BYTECODE=1 UV_LINK_MODE=copy PATH=/srv/.venv/bin:$PATH
 COPY pyproject.toml uv.lock* ./
 RUN uv sync --no-dev --no-install-project
 COPY app ./app
+COPY config ./config
 RUN useradd --system --uid 1001 app
 USER app
 EXPOSE 8000

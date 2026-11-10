@@ -1,0 +1,19 @@
+# Mọi ngưỡng của dịch vụ chấm nằm ở đây, không viết cứng trong code.
+model: base            # đổi qua env WHISPER_MODEL
+compute_type: int8
+min_duration_s: 0.3
+max_duration_s: 15
+max_upload_bytes: 1048576
+min_snr_db: 10
+near_miss_pairs: [[zh, z], [ch, c], [sh, s], [n, l], [in, ing], [en, eng]]
+tone:
+  t4_drop_st: 3.0
+  t2_rise_st: 2.0
+  t3_mean_max_st: -2.0
+  t3_dip_st: 1.5
+  t1_flat_max_st: 2.0
+  t1_mean_min_st: -1.0
+  confidence_accept_below: 0.5
+  min_voiced_frames: 5
+concurrency: auto      # số CPU / 2
+queue_max: 20          # tổng số yêu cầu đang xử lý + đang chờ; vượt thì 503

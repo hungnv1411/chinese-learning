@@ -21,7 +21,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 | M2 | Pipeline dữ liệu | 🟨 |
 | M3 | Từ điển | 🟨 |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt nội dung D-1 | 🟨 |
-| M5 | Dịch vụ chấm phát âm | ⬜ |
+| M5 | Dịch vụ chấm phát âm | 🟨 |
 | M6 | Học: bài học, viết, nói, ôn tập | ⬜ |
 | M7 | Lộ trình, Hôm nay, học thử & đăng nhập (E2E luồng chính) | ⬜ |
 | M8 | Bảng pinyin, luyện nghe thanh, bài kiểm tra pinyin | ⬜ |
@@ -101,7 +101,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | # | Mã | Việc | Phụ thuộc | TT | Ghi chú |
 |---|---|---|---|---|---|
-| 48 | 08a-1 | Khung FastAPI, `/score`, `/healthz`, hàng đợi, 503 | 00-3 | ⬜ | Làm song song được với M2–M4 |
+| 48 | 08a-1 | Khung FastAPI, `/score`, `/healthz`, hàng đợi, 503 | 00-3 | ✅ | speech 13 test xanh (Docker): config từ `scoring.yaml`, 413, 422, 21 yêu cầu bị chặn → thứ 21 nhận 503, slot nhả khi lỗi, log không có transcript/định danh. `/score` chưa chấm thật (scorer cắm ở 08a-2…7; mặc định trả 500); `queue_max` tính cả đang chạy lẫn đang chờ (decisions.md) |
 | 49 | 08a-2 | Giải mã ffmpeg, VAD, các trạng thái lỗi | 08a-1 | ⬜ | |
 | 50 | 08a-3 | `apply_tone_sandhi` (khớp fixture TS) | 00-6 | ⬜ | |
 | 51 | 08a-4 | faster-whisper + gióng hàng + nới lỏng | 08a-2 | ⬜ | |
@@ -233,6 +233,7 @@ Ký hiệu: ⬜ chưa làm · 🟨 đang làm · ✅ xong · ⛔ bị chặn
 
 | Ngày | Việc |
 |---|---|
+| 2026-11-10 | 08a-1 xong: `services/speech/app/{config,queue,main}.py`, `config/scoring.yaml`. 01-7a chưa làm được (cần khóa Azure TTS và nghe thử) |
 | 2026-11-07 | 13-5 đánh dấu ✅ (code đã có từ 72a5313). 07-2 (🟨): `components/writing/WritingPad.tsx`, `strokes.ts`; thêm gói `hanzi-writer` |
 | 2026-11-07 | 05-2 xong: `lib/path/{load,guard,path}.ts`, `GET /api/path` |
 | 2026-11-07 | 05-1 xong: `packages/core/src/unlock.ts` (`computeUnlockState`, `lockReason`) |
