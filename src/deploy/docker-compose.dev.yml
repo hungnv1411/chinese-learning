@@ -115,8 +115,10 @@ services:
       - ../..:/repo
       - speech_venv:/venv
       - uv_cache:/root/.cache/uv
+      - hf_cache:/root/.cache/huggingface
 
 volumes:
+  hf_cache:
   node_modules:
   web_node_modules:
   core_node_modules:

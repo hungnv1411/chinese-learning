@@ -8,6 +8,11 @@ dependencies = [
   "python-multipart>=0.0.9",
   "pydantic>=2",
   "pyyaml>=6",
+  "numpy>=1.26",
+  "praat-parselmouth>=0.4.5",
+  "pypinyin>=0.51",
+  "opencc-python-reimplemented>=0.1.7",
+  "faster-whisper>=1.0",
 ]
 
 [dependency-groups]

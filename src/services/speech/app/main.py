@@ -3,15 +3,17 @@ import json
 import logging
 import time
 from collections.abc import Awaitable, Callable
+from contextlib import asynccontextmanager
 from typing import Annotated, Any, Literal
 
 from fastapi import FastAPI, File, Form, UploadFile
 from fastapi.responses import JSONResponse
 
+from .asr import Recognizer, load_recognizer
 from .config import Config, load_config
-from .decode import DecodeError, decode_audio
+from .decode import DecodeError
+from .pipeline import score_audio
 from .queue import QueueFull, ScoreQueue
-from .vad import analyze
 
 log = logging.getLogger("speech")
 
@@ -26,37 +28,41 @@ class BadAudio(Exception):
     pass
 
 
-def make_default_scorer(cfg: Config) -> Scorer:
+def make_default_scorer(cfg: Config, get_recognizer: Callable[[], Recognizer | None]) -> Scorer:
     async def scorer(data: bytes, hanzi: str, pinyin: str, mode: str) -> dict[str, Any]:
-        t0 = time.perf_counter()
         try:
-            samples = await asyncio.to_thread(decode_audio, data, cfg)
+            return await asyncio.to_thread(
+                score_audio, data, hanzi, pinyin, mode, cfg, get_recognizer()
+            )
         except DecodeError as e:
             raise BadAudio from e
-        vad = await asyncio.to_thread(analyze, samples, cfg)
-        if vad.status != "ok":
-            return {
-                "status": vad.status,
-                "score": None,
-                "syllables": [],
-                "transcript": "",
-                "timing_ms": round((time.perf_counter() - t0) * 1000),
-            }
-        raise NotImplementedError("recognition and scoring arrive in steps 08a-4…08a-7")
 
     return scorer
 
 
-def create_app(config: Config | None = None, scorer: Scorer | None = None) -> FastAPI:
+def create_app(
+    config: Config | None = None,
+    scorer: Scorer | None = None,
+    recognizer: Recognizer | None = None,
+    load_model: bool = False,
+) -> FastAPI:
+    """`load_model=True`: nạp faster-whisper một lần lúc khởi động (dùng khi chạy thật)."""
     cfg = config or load_config()
-    run_scorer = scorer or make_default_scorer(cfg)
+    state: dict[str, Recognizer | None] = {"recognizer": recognizer}
+    run_scorer = scorer or make_default_scorer(cfg, lambda: state["recognizer"])
     queue = ScoreQueue(cfg.workers, cfg.queue_max)
-    app = FastAPI(title="speech")
-    app.state.model_loaded = False  # 08a-4 nạp faster-whisper một lần lúc khởi động
+
+    @asynccontextmanager
+    async def lifespan(_: FastAPI):
+        if load_model and state["recognizer"] is None:
+            state["recognizer"] = await asyncio.to_thread(load_recognizer, cfg)
+        yield
+
+    app = FastAPI(title="speech", lifespan=lifespan)
 
     @app.get("/healthz")
     def healthz() -> dict[str, bool]:
-        return {"ok": True, "model_loaded": app.state.model_loaded}
+        return {"ok": True, "model_loaded": state["recognizer"] is not None}
 
     @app.post("/score")
     async def score(
@@ -65,6 +71,8 @@ def create_app(config: Config | None = None, scorer: Scorer | None = None) -> Fa
         expected_pinyin: Annotated[str, Form()],
         expected_hanzi: Annotated[str, Form()] = "",
     ):
+        if not expected_pinyin.split():
+            return error(422, "BAD_REQUEST", "expected_pinyin trống")
         data = await audio.read(cfg.max_upload_bytes + 1)
         if len(data) > cfg.max_upload_bytes:
             return error(413, "PAYLOAD_TOO_LARGE", "Audio quá lớn")
@@ -95,4 +103,4 @@ def create_app(config: Config | None = None, scorer: Scorer | None = None) -> Fa
     return app
 
 
-app = create_app()
+app = create_app(load_model=True)
