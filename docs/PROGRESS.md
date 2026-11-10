@@ -1,16 +1,16 @@
 # Báo cáo tiến độ
 
-**Bản chụp ngày 2026-11-10**, nhánh `feat/pipeline` (commit `66540d0` + 08a-1, 08a-2). File này chỉ **tổng hợp** để đọc nhanh và **được cập nhật sau mỗi task** (quy tắc ở [CLAUDE.md](../CLAUDE.md)). Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
+**Bản chụp ngày 2026-11-10**, nhánh `feat/pipeline` (commit `66540d0` + 08a-1…3). File này chỉ **tổng hợp** để đọc nhanh và **được cập nhật sau mỗi task** (quy tắc ở [CLAUDE.md](../CLAUDE.md)). Nguồn duy nhất về tiến độ từng bước vẫn là [specs/LEDGER.md](specs/LEDGER.md); khi hai nơi khác nhau thì LEDGER đúng.
 
 ## 1. Tóm tắt
 
 | | |
 |---|---|
 | Thời gian | 2026-10-23 → 2026-11-05 (14 ngày lịch), 43 commit |
-| **Hoàn thành toàn dự án** | **≈ 29% số bước xong, ≈ 37% tính cả bước làm dở** (38 ✅ · 11 🟨 · 84 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
+| **Hoàn thành toàn dự án** | **≈ 29% số bước xong, ≈ 38% tính cả bước làm dở** (39 ✅ · 11 🟨 · 83 ⬜, tổng 133 bước). Phần còn lại nặng hơn phần đã làm (giao diện học, chấm phát âm), nên khối lượng kỹ thuật thực tế xong khoảng 25–30% |
 | Mã nguồn | ≈ 16.700 dòng (web 7.000, pipeline 8.500, core 700, deploy 300), gồm cả test |
 | Dữ liệu và nội dung | `content/`: 3.600 dòng (214 bộ thủ, 408 âm tiết, nguồn dữ liệu…); `docs/specs`: 3.900 dòng |
-| Test | **702 test xanh**: web 194, core 171, pipeline 308, speech 29 (nhiều test chạy với Postgres thật) |
+| Test | **717 test xanh**: web 194, core 171, pipeline 308, speech 44 (nhiều test chạy với Postgres thật) |
 | Chạy được | Web dev tại `http://127.0.0.1:3100`: tra từ, trang từ, nguồn dữ liệu, bảng mẫu component |
 
 ## 2. Tiến độ theo mốc
@@ -22,7 +22,7 @@
 | M2 | Pipeline dữ liệu | 10 | 0 | 2 | 🟨 còn audio TTS (01-7a, 01-7b) |
 | M3 | Từ điển | 4 | 4 | 3 | 🟨 `/tra-tu` và `/tu/…` chạy; còn audio theo yêu cầu, trang chữ, sitemap |
 | M4 | Định dạng nội dung, soạn bằng AI, đợt D-1 | 5 | 2 | 3 | 🟨 xong khung; chưa chạy AI thật |
-| M5 | Dịch vụ chấm phát âm | 2 | 0 | 7 | 🟨 xong khung + hàng đợi (08a-1), giải mã + VAD (08a-2); chưa chấm thật |
+| M5 | Dịch vụ chấm phát âm | 3 | 0 | 6 | 🟨 xong khung + hàng đợi (08a-1), giải mã + VAD (08a-2), biến điệu (08a-3); chưa chấm thật |
 | M6 | Học: bài học, viết, nói, ôn tập | 7 | 1 | 24 | ⬜ (riêng 07-1 `writingScore` xong, nằm ở M3) |
 | M7 | Lộ trình, Hôm nay, học thử, đăng nhập | 0 | 0 | 15 | ⬜ |
 | M8 | Phát âm: bảng pinyin, luyện nghe thanh | 0 | 0 | 4 | ⬜ |
